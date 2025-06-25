@@ -1,6 +1,9 @@
 {
   "name": "Global uniques",
 	"uniques": [ 
+		"Triggers a [Ancient] event <for [Major] Civilizations> <upon discovering [Agriculture] technology>",
+
+		
     "[+1] Movement <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
      "[+100]% Yield from pillaging tiles <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
 
