@@ -3,10 +3,10 @@
 		"text": "Ancient Culture Pick",
 		"choices": [
 			{ "text": "The Assyrians",
-			  "uniques": [	"Gain a free [The Assyrians] [in capital]"]}
+			  "uniques": [	"Gain a free [The Assyrians] [in capital]","Only available <if [The Assyrians] is not constructed by anybody>"]}
       
       			{ "text": "The Harappans",
-			  "uniques": [	"Gain a free [The Harappans] [in capital]" ] }
+			  "uniques": [	"Gain a free [The Harappans] [in capital]","Only available <if [The Harappans] is not constructed by anybody>"] }
       
      			]
   },
