@@ -1,7 +1,7 @@
 {
   "name": "Global uniques",
 	"uniques": [ 
-		"Triggers a [Ancient] event <for [Major] Civilizations> <upon discovering [Agriculture] technology>",
+		"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <upon turn end>",
 
 		
     "[+1] Movement <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
