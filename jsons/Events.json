@@ -1,0 +1,25 @@
+{
+		"name": "Ancient",
+		"text": "Ancient Culture Pick",
+		"choices": [
+			{ "text": "The Assyrians",
+			  "uniques": [	"Gain a free [The Assyrians] [in capital]"]}
+      
+      			{ "text": "The Harappans",
+			  "uniques": [	"Gain a free [The Harappans] [in capital]" ] }
+      
+     			]
+  },
+
+{
+		"name": "Classical",
+		"text": "Classical Culture Pick",
+		"choices": [
+			{ "text": "The Aksumites",
+			  "uniques": [	"Gain a free [The Aksumites] [in capital]"]}
+      
+      			{ "text": "The Carthaginians",
+			  "uniques": [	"Gain a free [The Carthaginians] [in capital]" ] }
+      
+     			]
+  },
