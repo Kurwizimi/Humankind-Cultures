@@ -30,7 +30,7 @@
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
 		"uniqueName": "Raid Masters",
-		"uniques": ["[+1] Movement <for [All] units>", "[+100]% Yield from pillaging tiles"],
+		"uniques": [],
 		"cities": ["Aššur","Ninuwā","Dūr-Šarrukīn","Arbailu","Kalḫu","Harrānu","Sirqu","Qaṭṭara","Arrapḫa","Dūr-Katlimmu"]
 	},
 	{
@@ -64,7 +64,7 @@
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
 		"uniqueName": "Brilliant Philosophers",
-		"uniques": ["[+5]"],
+		"uniques": [],
 		"cities": ["Aššur","Ninuwā","Dūr-Šarrukīn","Arbailu","Kalḫu","Harrānu","Sirqu","Qaṭṭara","Arrapḫa","Dūr-Katlimmu"]
 	}
 ]
