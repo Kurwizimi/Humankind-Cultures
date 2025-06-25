@@ -23,7 +23,7 @@
 		"requiredTech": "Agriculture"
 	},
 	{
-		"name": "The Cathaginians",
+		"name": "The Carthaginians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture"],
