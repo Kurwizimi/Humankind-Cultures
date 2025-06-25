@@ -1,4 +1,5 @@
 [
+	//Ancient
 	{
 		"name": "The Assyrians",
 		"cost": 1,
@@ -15,6 +16,7 @@
 	},
 
 
+	//Classical
 	{
 		"name": "The Aksumites",
 		"cost": 1,
@@ -30,6 +32,8 @@
 		"requiredTech": "Agriculture"
 	},
 
+
+	//Medieval
 	{
 		"name": "The Mexica",
 		"cost": 1,
@@ -42,6 +46,57 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Mexica] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+
+
+	//Early Modern
+	{
+		"name": "The Dutch",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Venetians] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Venetians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Dutch] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+
+
+	//Industrial
+	{
+		"name": "The French",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Mexicans] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Mexicans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The French] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+
+
+	//Contemporary
+	{
+		"name": "The Australians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Turks] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Turks",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Australians] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 
