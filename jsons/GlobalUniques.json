@@ -1,7 +1,7 @@
 {
   "name": "Global uniques",
 	"uniques": [ 
-		"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]>",
+		"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <upon turn end> <once>",
 		"Triggers a [Classical] event <for [Major] Civilizations> <upon entering the [Classical era]>",
 
 		
