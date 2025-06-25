@@ -25,6 +25,19 @@
      			]
   	},
 
+	{
+		"name": "Medieval",
+		"text": "Medieval Culture Pick",
+		"choices": [
+			{ "text": "The Mexica",
+			  "uniques": [	"Gain a free [The Mexica] [in capital]", "Only available <if [The Ghanaians] is not constructed by anybody>", "Remove [Classical Culture] [in capital]" ] }
+      
+      			{ "text": "The Ghanaians",
+			  "uniques": [	"Gain a free [The Ghanaians] [in capital]" ,"Only available <if [The Mexica] is not constructed by anybody>", "Remove [Classical Culture] [in capital]"] }
+      
+     			]
+  	},
+
 
 
 
