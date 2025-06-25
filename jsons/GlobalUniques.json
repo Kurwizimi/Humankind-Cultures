@@ -1,0 +1,30 @@
+{
+  "name": "Global uniques",
+	"uniques": [ 
+    "[+1] Movement <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
+     "[+100]% Yield from pillaging tiles <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
+
+    "[+1 Food] from [Plains] tiles [in all cities] <for [All] units> <for [Major] Civilizations> <if [The Harappans] is constructed>",
+     "[+1 Food] from [River] tiles [In all cities] <for [All] units> <for [Major] Civilizations> <if [The Harappans] is constructed>",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
