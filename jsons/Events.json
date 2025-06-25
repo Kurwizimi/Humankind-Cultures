@@ -25,7 +25,7 @@
      			]
   	},
 
-	{
+		{
 		"name": "Medieval",
 		"text": "Medieval Culture Pick",
 		"choices": [
@@ -37,6 +37,46 @@
       
      			]
   	},
+
+		{
+		"name": "Early Modern",
+		"text": "Early Modern Culture Pick",
+		"choices": [
+			{ "text": "The Dutch",
+			  "uniques": [	"Gain a free [The Dutch] [in capital]", "Only available <if [The Venetians] is not constructed by anybody>", "Remove [Medieval Culture] [in capital]" ] }
+      
+      			{ "text": "The Venetians",
+			  "uniques": [	"Gain a free [The Venetians] [in capital]" ,"Only available <if [The Dutch] is not constructed by anybody>", "Remove [Medieval Culture] [in capital]"] }
+      
+     			]
+  	},
+
+		{
+		"name": "Industrial",
+		"text": "Industrial Culture Pick",
+		"choices": [
+			{ "text": "The French",
+			  "uniques": [	"Gain a free [The French] [in capital]", "Only available <if [The Mexicans] is not constructed by anybody>", "Remove [Early Modern Culture] [in capital]" ] }
+      
+      			{ "text": "The Mexicans",
+			  "uniques": [	"Gain a free [The Mexicans] [in capital]" ,"Only available <if [The French] is not constructed by anybody>", "Remove [Early Modern Culture] [in capital]"] }
+      
+     			]
+	},
+
+
+	{
+		"name": "Contemporary",
+		"text": "Contemporary Culture Pick",
+		"choices": [
+			{ "text": "The Australians",
+			  "uniques": [	"Gain a free [The Australians] [in capital]", "Only available <if [The Turks] is not constructed by anybody>", "Remove [Industrial Culture] [in capital]" ] }
+      
+      			{ "text": "The Turks",
+			  "uniques": [	"Gain a free [The Turks] [in capital]" ,"Only available <if [The Australians] is not constructed by anybody>", "Remove [Industrial Culture] [in capital]"] }
+      
+     			]
+	},
 
 
 
