@@ -1,10 +1,10 @@
 [
 	{
-		"name": "Assyria",
+		"name": "Agrarian",
 		"leaderName": "",
-		"adjective": ["Assyrian"],
+		"adjective": ["Agrarian"],
 		"startBias": [""],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Science",
 		
 		"startIntroPart1": "The Assyrians! The fact that they have horses and siege engines might indicate their preferences as a neighbor…",
 		"startIntroPart2": "So now we advance as the warlike Assyrians… You're not going to be a very nice neighbor, are you?",
@@ -29,14 +29,14 @@
 
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
-		"uniqueName": "Raid Masters",
+		"uniqueName": "",
 		"uniques": [],
 		"cities": ["Aššur","Ninuwā","Dūr-Šarrukīn","Arbailu","Kalḫu","Harrānu","Sirqu","Qaṭṭara","Arrapḫa","Dūr-Katlimmu"]
 	},
 	{
-		"name": "Babylonia",
+		"name": "Builder",
 		"leaderName": "",
-		"adjective": ["Babylonian"],
+		"adjective": ["Builder"],
 		"startBias": [""],
 		"preferredVictoryType": "Scientific",
 		
@@ -63,8 +63,8 @@
 
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
-		"uniqueName": "Brilliant Philosophers",
+		"uniqueName": "",
 		"uniques": [],
-		"cities": ["Aššur","Ninuwā","Dūr-Šarrukīn","Arbailu","Kalḫu","Harrānu","Sirqu","Qaṭṭara","Arrapḫa","Dūr-Katlimmu"]
+		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
 	}
 ]
