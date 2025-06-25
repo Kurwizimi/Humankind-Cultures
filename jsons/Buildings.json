@@ -2,12 +2,14 @@
 	{
 		"name": "The Assyrians",
 		"cost": 1,
+		"isWonder": true,
 		"uniques": ["Ancient Culture", "Only available <in [Capital] cities>", "Only available <if [The Harappans] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Harappans",
 		"cost": 1,
+		"isWonder": true,
 		"uniques": ["Ancient Culture", "Only available <in [Capital] cities>", "Only available <if [The Assyrians] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
@@ -16,12 +18,14 @@
 	{
 		"name": "The Aksumites",
 		"cost": 1,
+		"isWonder": true,
 		"uniques": ["Clasical Culture"],
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Cathaginians",
 		"cost": 1,
+		"isWonder": true,
 		"uniques": ["Clasical Culture"],
 		"requiredTech": "Agriculture"
 	},
