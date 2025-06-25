@@ -1,25 +1,31 @@
-{
+[
+		{
 		"name": "Ancient",
 		"text": "Ancient Culture Pick",
 		"choices": [
 			{ "text": "The Assyrians",
-			  "uniques": [	"Gain a free [The Assyrians] [in capital]","Only available <if [The Assyrians] is not constructed by anybody>"]}
+			  "uniques": [	"Gain a free [The Assyrians] [in capital]","Only available <if [The Assyrians] is not constructed by anybody>"] }
       
       			{ "text": "The Harappans",
 			  "uniques": [	"Gain a free [The Harappans] [in capital]","Only available <if [The Harappans] is not constructed by anybody>"] }
       
      			]
-  },
+ 	},
 
-{
+		{
 		"name": "Classical",
 		"text": "Classical Culture Pick",
 		"choices": [
 			{ "text": "The Aksumites",
-			  "uniques": [	"Gain a free [The Aksumites] [in capital]", "Only available <if [The Aksumites] is not constructed by anybody>", "Remove [Ancient Culture] [in capital]" ]}
+			  "uniques": [	"Gain a free [The Aksumites] [in capital]", "Only available <if [The Aksumites] is not constructed by anybody>", "Remove [Ancient Culture] [in capital]" ] }
       
       			{ "text": "The Carthaginians",
 			  "uniques": [	"Gain a free [The Carthaginians] [in capital]" ,"Only available <if [The Carthaginians] is not constructed by anybody>", "Remove [Ancient Culture] [in capital]"] }
       
      			]
-  },
+  	},
+
+
+
+
+]
