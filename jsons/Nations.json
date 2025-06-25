@@ -27,8 +27,8 @@
 		"afterPeace": "",
 		"tradeRequest": "",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
+		"outerColor": [20,135,20],
+		"innerColor": [2,80,80],
 		"uniqueName": "",
 		"uniques": [],
 		"cities": ["Aššur","Ninuwā","Dūr-Šarrukīn","Arbailu","Kalḫu","Harrānu","Sirqu","Qaṭṭara","Arrapḫa","Dūr-Katlimmu"]
@@ -61,8 +61,8 @@
 		"afterPeace": "",
 		"tradeRequest": "",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
+		"outerColor": [170,60,20],
+		"innerColor": [170,180,100],
 		"uniqueName": "",
 		"uniques": [],
 		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
