@@ -3,7 +3,7 @@
 	"uniques": [ 
 		"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <before the [Classical era]> <upon turn end>",
 		"Triggers a [Classical] event <for [Major] Civilizations> <upon entering the [Classical era]>",
-		"Triggers a [Mdieval] event <for [Major] Civilizations> <upon entering the [Medieval era]>",
+		"Triggers a [Medieval] event <for [Major] Civilizations> <upon entering the [Medieval era]>",
 
 
 		
