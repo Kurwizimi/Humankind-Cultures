@@ -3,14 +3,14 @@
 		"name": "The Assyrians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Ancient Culture", "Only available <in [Capital] cities>", "Only available <if [The Harappans] is not constructed>"],
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Harappans] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Harappans",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Ancient Culture", "Only available <in [Capital] cities>", "Only available <if [The Assyrians] is not constructed>"],
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Assyrians] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 
@@ -19,14 +19,29 @@
 		"name": "The Aksumites",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Classical Culture"],
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Carthaginians] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Carthaginians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Classical Culture"],
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Aksumites] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+
+	{
+		"name": "The Mexica",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Ghanaians] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Ghanaians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Mexica] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 
