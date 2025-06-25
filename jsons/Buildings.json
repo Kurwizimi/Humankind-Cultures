@@ -19,14 +19,14 @@
 		"name": "The Aksumites",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Clasical Culture"],
+		"uniques": ["Classical Culture"],
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Cathaginians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Clasical Culture"],
+		"uniques": ["Classical Culture"],
 		"requiredTech": "Agriculture"
 	},
 
