@@ -1,126 +1,125 @@
 [
-        {
-	      "columnNumber": 0,
+        	    {
+	      	    "columnNumber": 0,
 		    "era": "Ancient era",
 		    "techCost": 20,
 		    "buildingCost": 40,
 		    "wonderCost": 185,
 		    "techs": [
-			                {
+			                      {
 				              "name": "Agriculture",
 				              "row": 6,
 				              "quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				              "uniques": ["Starting tech"]
-			            }]
+			            	}]
 	  },
   
-        {
+        	    {
 		    "columnNumber": 1,
 		    "era": "Ancient era",
 		    "techCost": 35,
 		    "buildingCost": 60,
 		    "wonderCost": 185,
 		    "techs": [
-			                  { 
+			                  	{ 
 				                "name": "Calendar",
 				                "row": 2,
 				                "prerequisites": ["Agriculture"],
-                        "uniques": ["[+100]% weight to this choice for AI decisions"],
+                        			"uniques": ["[+100]% weight to this choice for AI decisions"],
 				                "quote": ""
-			            },
-			                  {
+			            	},
+			                  	{
 				                "name": "Domestication",
 				                "row": 4,
 				                "prerequisites": ["Agriculture"],
 				                "quote": ""
-			            },
-			                  {
+			            	},
+			                  	{
 				                "name": "Carpentry",
 				                "row": 6,
 				                "prerequisites": ["Agriculture"],
-                        "uniques": ["[-50]% weight to this choice for AI decisions"],
+                        			"uniques": ["[-50]% weight to this choice for AI decisions"],
 				                "quote": ""
-			            },
-			                  {
+			            	},
+			                 	{
 				                "name": "City Defence",
 				                "row": 8,
 				                "prerequisites": ["Agriculture"],
-                        "uniques": ["[+100]% weight to this choice for AI decisions"],
+                       				 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				                "quote": ""
-			            }]
+			            	}]
 	  },
   
-        {
+        	     {
 		    "columnNumber": 2,
 		    "era": "Ancient era",
 		    "techCost": 55,
 		    "buildingCost": 75,
 		    "wonderCost": 185,
 		    "techs": [
-			                  {
+			                  	{
 				                "name": "Irrigation",
 				                "row": 3,
 				                "prerequisites": ["Calendar", "Domestication"],
-                        "uniques": ["[+100]% weight to this choice for AI decisions"],
+                       				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				                "quote": ""
-			            },
-			                  {
+			            	},
+			                  	{
 				                "name": "Fishing",
 				                "row": 6,
 				                "prerequisites": ["Carpentry"],
-                        "uniques": ["[+100]% weight to this choice for AI decisions"],
+                        			"uniques": ["[+100]% weight to this choice for AI decisions"],
 				                "quote": ""
-			            },
-		                  	{
+			            	},
+		                  		{
 				                "name": "Masonry",
 				                "row": 7,
 				                "prerequisites": ["Carpentry"],
 				                "quote": ""
-			            },
-			                  {
+			            	},
+			                 	{
 				                "name": "Bronze Working",
 				                "row": 8,
 			                	"prerequisites": ["City Defence"],
-                        "uniques": ["[+100]% weight to this choice for AI decisions"],
+                       				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				                "quote": ""
-			            }]
+			            	}]
   	},
   
-          {
+          	      {
 		      "columnNumber": 3,
 		      "era": "Ancient era",
 		      "techCost": 105,
 		      "buildingCost": 100,
 		      "wonderCost": 250,
 		      "techs": [
-			                    {
+			                    	  {
 				                  "name": "Writing",
 				                  "row": 2,
 				                  "prerequisites": ["Calendar"],
 				                  "uniques": [""],
 				                  "quote": ""
-			              },
-			                    {
+			              	},
+			                    	  {
 				                  "name": "Wheel",
 				                  "row": 5,
 				                  "prerequisites": ["Domestication","Carpentry"],
-                          "uniques": ["[+50]% weight to this choice for AI decisions"],
+                          			  "uniques": ["[+50]% weight to this choice for AI decisions"],
 				                  "quote": ""
-			              },
-			                    {
+			              	},
+			                          {
 				                  "name": "Sailing",
 				                  "row": 6,
 				                  "prerequisites": ["Fishing"],
 				                  "quote": ""
-			              },
-			                    {
+			              	},
+			                   	  {
 				                  "name": "Organised Warfare",
 				                  "row": 7,
 				                  "prerequisites": ["Masonry","Bronze Working"],
-                          "uniques": ["[+100]% weight to this choice for AI decisions"],
+                          			  "uniques": ["[+100]% weight to this choice for AI decisions"],
 				                  "quote": ""
-			        }
-		]
+			        	}]
 	},
 
 
