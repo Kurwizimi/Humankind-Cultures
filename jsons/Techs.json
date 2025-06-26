@@ -229,6 +229,101 @@
 					}]
 	},
 
+			{
+			"columnNumber": 7,
+			"era": "Medieval era",
+			"techCost": 780,
+			"buildingCost": 200,
+			"wonderCost": 500,
+			"techs": [
+						{
+						"name": "Theology",
+						"row": 2,
+						"uniques": ["[+50]% weight to this choice for AI decisions"],
+						"prerequisites": ["Rhetoric"],
+						"quote": ""
+					},
+						{
+						"name": "Feudalism",
+						"row": 6,
+						"prerequisites": ["Imperial Power"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "War Summons",
+						"row": 7,
+						"prerequisites": ["Imperial Power"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 8,
+			"era": "Medieval era",
+			"techCost": 1150,
+			"buildingCost": 250,
+			"wonderCost": 625,
+			"techs": [
+						{
+						"name": "Seafaring Mastery",
+						"row": 4,
+						"prerequisites": ["Foreign Outposts"],
+						"quote": ""
+					},
+						{
+						"name": "Chivalry",
+						"row": 6,
+						"prerequisites": ["Feudalism"],
+						"quote": ""
+					},
+						{
+						"name": "Heavy Infantry",
+						"row": 7,
+						"prerequisites": ["War Summons"],
+               					"uniques": ["[+50]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Military Architecture",
+						"row": 8,
+						"prerequisites": ["Siege Tactics","war Summons"],
+                				"uniques": ["[-50]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 9,
+			"era": "Medieval era",
+			"techCost": 1600,
+			"buildingCost": 300,
+			"wonderCost": 750,
+			"techs": [
+						{
+						"name": "Alchemy",
+						"row": 2,
+						"prerequisites": ["Theology"],
+                				"uniques": ["[+50]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Guilds",
+						"row": 5,
+						"prerequisites": ["Seafaring Mastery","Feudalism"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Furnace Steel",
+						"row": 6,
+						"prerequisites": ["Chivalry","Heavy Infantry"],
+                				"uniques": ["[+50]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+
 
 
 
