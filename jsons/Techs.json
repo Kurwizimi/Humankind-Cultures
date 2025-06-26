@@ -590,31 +590,277 @@
 					}]
 	},
 
+	{
+			"columnNumber": 19,
+			"era": "Contemporary era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Research Institutes",
+						"row": 1,
+						"prerequisites": ["Combustion Engine"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Aerial Warfare",
+						"row": 3,
+						"prerequisites": ["Aeronautics"],
+						"quote": ""
+					},
+						{
+						"name": "Civil Engineering",
+						"row": 5,
+						"prerequisites": ["Urban Planning"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Power Lines",
+						"row": 6,
+						"prerequisites": ["Urban Planning"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
 
+	{
+			"columnNumber": 20,
+			"era": "Contemporary era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Uranium Enrichment",
+						"row": 1,
+						"prerequisites": ["Research Institutes"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Radar",
+						"row": 2,
+						"prerequisites": ["Aerial Warfare"],
+						"quote": ""
+					},
+						{
+						"name": "Naval Air Strategy",
+						"row": 3,
+						"prerequisites": ["Combustion Engine","Wireless Telegraphy"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Free Trade Agreement",
+						"row": 4,
+						"prerequisites": ["Civil Engineering","Wireless Telegraphy"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Amphibious Warfare",
+						"row": 8,
+						"prerequisites": ["Trench Warfare"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
 
+	{
+			"columnNumber": 21,
+			"era": "Contemporary era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Suburbs",
+						"row": 6,
+						"prerequisites": ["Free Trade Agreement","Civil Engineering","Power Lines"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Social Housing",
+						"row": 7,
+						"prerequisites": ["Power Lines"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
 
+	{
+			"columnNumber": 22,
+			"era": "Contemporary era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Nuclear Fission",
+						"row": 1,
+						"prerequisites": ["Uranium Enrichment"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Rocket Science",
+						"row": 3,
+						"prerequisites": ["Radar"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Computing",
+						"row": 4,
+						"prerequisites": ["Naval Air Strategy", "Radar"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Mechanised Harvesting",
+						"row": 6,
+						"prerequisites": ["Free Trade Agreement", "Suburbs"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Mass Entertainment",
+						"row": 7,
+						"prerequisites": ["Social Housing", "Suburbs"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+	{
+			"columnNumber": 23,
+			"era": "Contemporary era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Fighter Jets",
+						"row": 3,
+						"prerequisites": ["Radar","Rocket Science"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Communitcation Satellites",
+						"row": 4,
+						"prerequisites": ["Rocket Science","Computing"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Automation",
+						"row": 5,
+						"prerequisites": ["Mechanised Harvesting", "Computing"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Renewable Energy",
+						"row": 7,
+						"prerequisites": ["Mechanised Harvesting", "Suburbs"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Insurrection Theory",
+						"row": 8,
+						"prerequisites": ["Amphibious Warfare"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
 
+	{
+			"columnNumber": 24,
+			"era": "Contemporary era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Composite Armour",
+						"row": 2,
+						"prerequisites": ["Continuous Track"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Covert Operations",
+						"row": 4,
+						"prerequisites": ["Communication Satellites"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "World Wide Web",
+						"row": 6,
+						"prerequisites": ["Communication Satellites","Mass Entertainment"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
 
+	{
+			"columnNumber": 25,
+			"era": "Contemporary era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Fusion Reactor",
+						"row": 1,
+						"prerequisites": ["Nuclear Fission"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Exosuit",
+						"row": 3,
+						"prerequisites": ["Composite Armour"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Military Laser",
+						"row": 5,
+						"prerequisites": ["Covert Operations"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Neural Implant",
+						"row": 7,
+						"prerequisites": ["World Wide Web"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			{
+			"columnNumber": 26,
+			"era": "Future era",
+			"techCost": 9500,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Future Tech",
+						"row": 5,
+						"prerequisites": ["Nuclear Fusion","Exosuit","Military Laser","Neural Implant"],
+						"uniques": ["Can be continually researched"],
+						"quote": "",
+                				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+					}]
+	}
 
 ]
