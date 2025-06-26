@@ -324,6 +324,272 @@
 					}]
 	},
 
+			{
+			"columnNumber": 10,
+			"era": "Early Modern era",
+			"techCost": 2350,
+			"buildingCost": 360,
+			"wonderCost": 900,
+			"techs": [
+						{
+						"name": "Three-Masted Ship",
+						"row": 3,
+						"prerequisites": ["Seafaring Mastery"],
+               					"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Naval Artillery",
+						"row": 4,
+						"prerequisites": ["Seafaring Mastery"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Centralised Power",
+						"row": 6,
+						"uniques": ["	"],
+						"prerequisites": ["Guilds","Chivalry","Furnace Steel"],
+						"quote": ""
+					},
+						{
+						"name": "Gunpowder Warfare",
+						"row": 8,
+						"prerequisites": ["Furnace Steel","Military Architecture"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 11,
+			"era": "Early Modern era",
+			"techCost": 3100,
+			"buildingCost": 500,
+			"wonderCost": 1060,
+			"techs": [
+						{
+						"name": "Moveable Typeface",
+						"row": 2,
+						"prerequisites": ["Alchemy", "Three-Masted Ship"],
+                				"uniques": ["[-75]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Chartered Companies",
+						"row": 5,
+						"prerequisites": ["Three-Masted Ship","Naval Artillery"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Patronage",
+						"row": 7,
+						"prerequisites": ["Centralised Power"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Supply Lines",
+						"row": 8,
+						"prerequisites": ["Centralised Power"],
+						"quote": ""
+					},
+						{
+						"name": "Siege Cannons",
+						"row": 9,
+						"prerequisites": ["Gumpowder Warfare"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 12,
+			"era": "Early Modern era",
+			"techCost": 4100,
+			"buildingCost": 500,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Mercantalism",
+						"row": 4,
+						"prerequisites": ["Chartered Companies","Patronage"],
+                				"uniques": ["[+200]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Flintlock",
+						"row": 8,
+						"prerequisites": ["Supply Lines","Siege Cannons"],
+                				"uniques": ["[-50]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 13,
+			"era": "Industrial era",
+			"techCost": 5100,
+			"buildingCost": 500,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Encyclopedia",
+						"row": 4,
+						"prerequisites": ["Moveable Typeface"],
+						"quote": ""
+					},
+						{
+						"name": "Military Coordination",
+						"row": 7,
+						"prerequisites": ["Flintlock"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Carbine",
+						"row": 8,
+						"prerequisites": ["Flintlock"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 14,
+			"era": "Industrial era",
+			"techCost": 6400,
+			"buildingCost": 500,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Steam Engine",
+						"row": 3,
+						"prerequisites": ["Moveable Typeface","Encyclopedia"],
+						"quote": ""
+					},
+						{
+						"name": "Nationhood",
+						"row": 5,
+						"prerequisites": ["Encyclopedia"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Line Formation",
+						"row": 7,
+						"prerequisites": ["Military Coordination","Carbine"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 15,
+			"era": "Industrial era",
+			"techCost": 7700,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Propeller",
+						"row": 2,
+						"prerequisites": ["Steam Engine"],
+						"quote": ""
+					},
+						{
+						"name": "Scientific Method",
+						"row": 4,
+						"prerequisites": ["Steam Engine","Encyclopedia"],
+						"quote": ""
+					},
+						{
+						"name": "Guerilla Warfare",
+						"row": 6,
+						"prerequisites": ["Nationhood"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 16,
+			"era": "Industrial era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Mechanisation",
+						"row": 3,
+						"prerequisites": ["Steam Engine","Scientific Method"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Microbiology",
+						"row": 4,
+						"prerequisites": ["Scientific Method"],
+						"quote": ""
+					},
+						{
+						"name": "Electricity",
+						"row": 5,
+						"prerequisites": ["Scientific Method", "Nationhood"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Trench Warfare",
+						"row": 7,
+						"prerequisites": ["Guerilla Warfare","Line Formation"],
+						"quote": ""
+					}]
+	},
+	
+			{
+			"columnNumber": 17,
+			"era": "Industrial era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Combustion Engine",
+						"row": 3,
+						"prerequisites": ["Propeller","Mechanisation"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Wireless Telegraphy",
+						"row": 4,
+						"prerequisites": ["Electricity"],
+						"quote": ""
+					},
+						{
+						"name": "Urban Planning",
+						"row": 5,
+						"prerequisites": ["Electricity"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+
+	{
+			"columnNumber": 18,
+			"era": "Industrial era",
+			"techCost": 8800,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Aeronautics",
+						"row": 3,
+						"prerequisites": ["Combustion Engine"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+
 
 
 
