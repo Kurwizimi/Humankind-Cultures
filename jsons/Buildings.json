@@ -5,6 +5,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Harappans] is not constructed>"],
+		"quote": "So now we advance as the warlike Assyrians… You're not going to be a very nice neighbor, are you?",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -12,6 +13,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Assyrians] is not constructed>"],
+		"quote": "While the Harappans certainly had markets, they left few remains. Please, show us what they might have done!",
 		"requiredTech": "Agriculture"
 	},
 
@@ -22,6 +24,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Carthaginians] is not constructed>"],
+		"quote": "And now, the Aksumites! Good with tangibles and intangibles; as skilled at barter as they are at battle.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -29,6 +32,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased", "Only available <in [Capital] cities>", "Only available <if [The Aksumites] is not constructed>"],
+		"quote": "Speaking of dealing in intangibles — am I about to see lots of offers that can't be refused?",
 		"requiredTech": "Agriculture"
 	},
 
