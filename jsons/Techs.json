@@ -86,13 +86,13 @@
 			            	}]
   	},
   
-          	      {
-		      "columnNumber": 3,
-		      "era": "Ancient era",
-		      "techCost": 105,
-		      "buildingCost": 100,
-		      "wonderCost": 250,
-		      "techs": [
+          	    {
+		    "columnNumber": 3,
+		    "era": "Ancient era",
+		    "techCost": 105,
+	            "buildingCost": 100,
+		    "wonderCost": 250,
+		    "techs": [
 			                    	  {
 				                  "name": "Writing",
 				                  "row": 2,
@@ -120,6 +120,113 @@
                           			  "uniques": ["[+100]% weight to this choice for AI decisions"],
 				                  "quote": ""
 			        	}]
+	},
+		      {
+		      "columnNumber": 4,
+		      "era": "Classical era",
+		      "techCost": 175,
+		      "buildingCost": 100,
+		      "wonderCost": 250,
+		       "techs": [
+						  {
+						  "name": "Philosophy",
+						  "row": 2,
+						  "prerequisites": ["Writing"],
+				                  "quote": ""
+					},
+						  {
+				                  "name": "Hydrology",
+						  "row": 3,
+				                  "prerequisites": ["Wheel","Irrigation"],
+						  "quote": ""
+					},
+						 {
+						 "name": "Trade Expeditions",
+						 "row": 5,
+						 "prerequisites": ["Wheel","Sailing"],
+                				 "uniques": ["[+100]% weight to this choice for AI decisions"],
+				                 "quote": ""
+					},
+						 {
+						 "name": "Fortifications",
+						 "row": 7,
+						 "prerequisites": ["Organised Warfare"],
+						 "uniques": ["[+100]% weight to this choice for AI decisions"],
+						 "quote": ""
+					},
+						 {
+						 "name": "Standing Army",
+						 "row": 8,
+						 "prerequisites": ["Bronze Working"],
+                                                 "uniques": ["[-50]% weight to this choice for AI decisions"],
+						 "quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 5,
+			"era": "Classical era",
+			"techCost": 275,
+			"buildingCost": 120,
+			"wonderCost": 300,
+			"techs": [
+						{
+						"name": "Rhetoric",
+						"row": 2,
+						"prerequisites": ["Philosophy"],
+						"quote": ""
+					},
+						{
+						"name": "Craftsmanship",
+						"row": 5,
+						"prerequisites": ["Trade Expeditions"],
+						"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Conquest",
+						"row": 7,
+						"prerequisites": ["Standing Army"],
+						"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Mounted Warefare",
+						"row": 8,
+						"prerequisites": ["Standing Army"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					}]
+	},
+			{
+			"columnNumber": 6,
+			"era": "Classical era",
+			"techCost": 485,
+			"buildingCost": 160,
+			"wonderCost": 400,
+			"techs": [
+						{
+						"name": "Foreign Outposts",
+						"cost": 375,
+						"row": 4,
+						"prerequisites": ["Trade Expeditions","Conquest"],
+                				"uniques": ["[-50]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Imperial Power",
+						"row": 7,
+						"prerequisites": ["Conquest"],
+						"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
+						"name": "Siege Tactics",
+						"row": 8,
+						"prerequisites": ["Civil Service","Guilds"],
+                				"uniques": [""],
+                				"quote": ""
+					}]
 	},
 
 
