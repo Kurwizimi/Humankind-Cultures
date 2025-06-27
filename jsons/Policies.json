@@ -38,14 +38,14 @@
                             "name": "Codified Laws",
                             "uniques": [
 					"Unavailable <after adopting [Customary Laws]> <hidden from users>"],
-			    "row": 1,
+			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Customary Laws",
                             "uniques": [
 					"Unavailable <after adopting [Codified Laws]> <hidden from users>" ],
-			    "row": 1,
+			    "row": 3,
                             "column": 3
                         },
                         //Militaristic
@@ -166,6 +166,219 @@
 			}
         ]
     },
+
+	    {
+            "name": "Classical Civics",
+            "era": "Classical era",
+	    "uniques": [],
+            "policies": [
+                            //POLITICAL
+                            {
+                            "name": "Leadership",
+                            "uniques": [
+					"Comment[How do we lead?]"],
+			    "row": 1,
+                            "column": 2
+                        },
+                            {
+                            "name": "Small Council",
+                            "uniques": [
+					"Unavailable <after adopting [Autarch]> <hidden from users>"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Autarch",
+                            "uniques": [
+					"Unavailable <after adopting [Small Council]> <hidden from users>" ],
+			    "row": 1,
+                            "column": 3
+                        },
+		    
+		     	    {
+                            "name": "Political Entitlement",
+                            "uniques": [
+					"Comment[What political system does the small council support?]"], //Only available if S. Council is picked for leadership
+			    "row": 2,
+                            "column": 2
+                        },
+                            {
+                            "name": "Aristocracy",
+                            "uniques": [
+					"Unavailable <after adopting [Republic]> <hidden from users>"],
+			    "row": 2,
+                            "column": 1
+                        },
+                            {
+                            "name": "Republic",
+                            "uniques": [
+					"Unavailable <after adopting [Aristocracy]> <hidden from users>" ],
+			    "row": 2,
+                            "column": 3
+                        },
+                        //JUDICIAL
+                            {
+                            "name": "Punishment",
+                            "uniques": [
+					"Comment[How should ordinary crimes be punished?]"],
+			    "row": 3,
+                            "column": 2
+                        },
+                            {
+                            "name": "Physical Punishment",
+                            "uniques": [
+					"Unavailable <after adopting [Forfeiture]> <hidden from users>"],
+			    "row": 3,
+                            "column": 1
+                        },
+                            {
+                            "name": "Forfeiture",
+                            "uniques": [
+					"Unavailable <after adopting [Physical Punishment]> <hidden from users>" ],
+			    "row": 3,
+                            "column": 3
+                        },
+                        //Militaristic
+                            {
+                            "name": "Independent Peoples",
+                            "uniques": [
+					"Comment[How should we use other peoples?]"],
+			    "row": 4,
+                            "column": 2
+                        },
+                            {
+                            "name": "Assimilated Peoples",
+                            "uniques": [
+					"Unavailable <after adopting [Mercenary Armies]> <hidden from users>"],
+			    "row": 4,
+                            "column": 1
+                        },
+                            {
+                            "name": "Mercenary Armies",
+                            "uniques": [
+					"Unavailable <after adopting [Assimilated Peoples]> <hidden from users>" ],
+			    "row": 4,
+                            "column": 3
+                        },
+
+		     	    {
+                            "name": "Army Wages",
+                            "uniques": [
+					"Comment[How should we finance our armies?]"],
+			    "row": 5,
+                            "column": 2
+                        },
+                            {
+                            "name": "Paid Wages",
+                            "uniques": [
+					"Unavailable <after adopting [Plundered Wages]> <hidden from users>"],
+			    "row": 5,
+                            "column": 1
+                        },
+                            {
+                            "name": "Plundered Wages",
+                            "uniques": [
+					"Unavailable <after adopting [Paid Wages]> <hidden from users>" ],
+			    "row": 5,
+                            "column": 3
+                        },
+                        //Religious
+                            {
+                            "name": "Religious Tolerance",
+                            "uniques": [
+					"Comment[What is the Empire's outlook on other religions?]"],
+			    "row": 6,
+                            "column": 2
+                        },
+                            {
+                            "name": "Open-Minded",
+                            "uniques": [
+					"Unavailable <after adopting [Religious Hostility]> <hidden from users>"],
+			    "row": 6,
+                            "column": 1
+                        },
+                            {
+                            "name": "Religious Hostility",
+                            "uniques": [
+					"Unavailable <after adopting [Open-Minded]> <hidden from users>" ],
+			    "row": 6,
+                            "column": 3
+                        },
+                          //Economic
+                            {
+                            "name": "Knowledge Authorities",
+                            "uniques": [
+					"Comment[Who has the biggest influence on our empire's knowledge?]"],
+			    "row": 9,
+                            "column": 2
+                        },
+                            {
+                            "name": "Elders' Wisdom",
+                            "uniques": [
+					"Unavailable <after adopting [Foreign Innovations]> <hidden from users>"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Foreign Innovations",
+                            "uniques": [
+					"Unavailable <after adopting [Elders' Wisdom]> <hidden from users>" ],
+			    "row": 9,
+                            "column": 3
+                        },
+                          //Social
+                            {
+                            "name": "Citizenship",
+                            "uniques": [
+					"Comment[Should citizenship be universal or for selected groups?]"],
+			    "row": 11,
+                            "column": 2
+                        },
+                            {
+                            "name": "Universal Citizenship",
+                            "uniques": [
+					"Unavailable <after adopting [Select Citizenship]> <hidden from users>"],
+			    "row": 11,
+                            "column": 1
+                        },
+                            {
+                            "name": "Select Citizenship",
+                            "uniques": [
+					"Unavailable <after adopting [Universal Citizenship]> <hidden from users>" ],
+			    "row": 11,
+                            "column": 3
+                        },
+
+		    	    {
+                            "name": "Colonisation",
+                            "uniques": [
+					"Comment[What model should we employ four our cities on foreign shores?]"],
+			    "row": 12,
+                            "column": 2
+                        },
+                            {
+                            "name": "Vassal Colonies",
+                            "uniques": [
+					"Unavailable <after adopting [Naturalized Colonies]> <hidden from users>"],
+			    "row": 12,
+                            "column": 1
+                        },
+                            {
+                            "name": "Naturalized Colonies",
+                            "uniques": [
+					"Unavailable <after adopting [Vassal Colonies]> <hidden from users>" ],
+			    "row": 12,
+                            "column": 3
+                        },
+			    	{
+				"name": "Classical Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
+
 
 
 
