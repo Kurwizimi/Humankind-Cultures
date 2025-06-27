@@ -2,171 +2,167 @@
             {
             "name": "Ancient Civics",
             "era": "Ancient era",
-		        "uniques": [],
+	    "uniques": [],
             "policies": [
                             //POLITICAL
                             {
                             "name": "Founding Myth",
                             "uniques": [
-					                            "Comment[By what right do we rule?]"],
-				                    "row": 1,
+					"Comment[By what right do we rule?]"],
+			    "row": 1,
                             "column": 2
                         },
                             {
                             "name": "Natural Right",
                             "uniques": [
-					                            "Unavailable <after adopting [Divine Mandate]> <hidden from users>"],
-				                    "row": 1,
+					"Unavailable <after adopting [Divine Mandate]> <hidden from users>"],
+			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Divine Mandate",
                             "uniques": [
-					                            "Unavailable <after adopting [Free Speech]> <hidden from users>" ],
-				                    "row": 1,
+					"Unavailable <after adopting [Free Speech]> <hidden from users>" ],
+			    "row": 1,
                             "column": 3
                         },
                         //JUDICIAL
                             {
                             "name": "Legitimacy",
                             "uniques": [
-					                            "Comment[What style of laws does the empire use?]"],
-				                    "row": 3,
+					"Comment[What style of laws does the empire use?]"],
+			    "row": 3,
                             "column": 2
                         },
                             {
                             "name": "Codified Laws",
                             "uniques": [
-					                            "Unavailable <after adopting [Customary Laws]> <hidden from users>"],
-				                    "row": 1,
+					"Unavailable <after adopting [Customary Laws]> <hidden from users>"],
+			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Customary Laws",
                             "uniques": [
-					                            "Unavailable <after adopting [Codified Laws]> <hidden from users>" ],
-				                    "row": 1,
+					"Unavailable <after adopting [Codified Laws]> <hidden from users>" ],
+			    "row": 1,
                             "column": 3
                         },
                         //Militaristic
                             {
                             "name": "Army Composition",
                             "uniques": [
-					                            "Comment[Who should fight for the empire?]"],
-				                    "row": 4,
+					"Comment[Who should fight for the empire?]"],
+			    "row": 4,
                             "column": 2
                         },
                             {
                             "name": "Conscripts",
                             "uniques": [
-					                            "Unavailable <after adopting [Professional Soldiers]> <hidden from users>"],
-				                    "row": 4,
+					"Unavailable <after adopting [Professional Soldiers]> <hidden from users>"],
+			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Professional Soldiers",
                             "uniques": [
-					                            "Unavailable <after adopting [Conscripts]> <hidden from users>" ],
-				                    "row": 4,
+					"Unavailable <after adopting [Conscripts]> <hidden from users>" ],
+			    "row": 4,
                             "column": 3
                         },
                         //Religious
                             {
                             "name": "Religious Rites",
                             "uniques": [
-					                            "Comment[Should religious rites be communal or personal?]"],
-				                    "row": 6,
+					"Comment[Should religious rites be communal or personal?]"],
+			    "row": 6,
                             "column": 2
                         },
                             {
                             "name": "Communal Rites",
                             "uniques": [
-					                            "Unavailable <after adopting [Personal Rites]> <hidden from users>"],
-				                    "row": 6,
+					"Unavailable <after adopting [Personal Rites]> <hidden from users>"],
+			    "row": 6,
                             "column": 1
                         },
                             {
                             "name": "Personal Rites",
                             "uniques": [
-					                            "Unavailable <after adopting [Communal Rites]> <hidden from users>" ],
-				                    "row": 6,
+					"Unavailable <after adopting [Communal Rites]> <hidden from users>" ],
+			    "row": 6,
                             "column": 3
                         },
                             //Cultural
                             {
                             "name": "Cultural Blessing",
                             "uniques": [
-					                            "Comment[What attitude should we have to outsider cultures?]"],
-				                    "row": 8,
+					"Comment[What attitude should we have to outsider cultures?]"],
+			    "row": 8,
                             "column": 2
                         },
                             {
                             "name": "Monoculturalism",
                             "uniques": [
-					                            "Unavailable <after adopting [Multiculturalism]> <hidden from users>"],
-				                    "row": 8,
+					"Unavailable <after adopting [Multiculturalism]> <hidden from users>"],
+			    "row": 8,
                             "column": 1
                         },
                             {
                             "name": "Multiculturalism",
                             "uniques": [
-					                            "Unavailable <after adopting [Monoculturalism]> <hidden from users>" ],
-				                    "row": 8,
+					"Unavailable <after adopting [Monoculturalism]> <hidden from users>" ],
+			    "row": 8,
                             "column": 3
                         },
                           //Economic
                             {
                             "name": "Fundamental Values",
                             "uniques": [
-					                            "Comment[Is the empire's first concern citizens' security or happiness?]"],
-				                    "row": 9,
+					"Comment[Is the empire's first concern citizens' security or happiness?]"],
+			    "row": 9,
                             "column": 2
                         },
                             {
                             "name": "Public Happiness",
                             "uniques": [
-					                            "Unavailable <after adopting [Public Security]> <hidden from users>"],
-				                    "row": 9,
+					"Unavailable <after adopting [Public Security]> <hidden from users>"],
+			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Public Security",
                             "uniques": [
-					                            "Unavailable <after adopting [Public Happiness]> <hidden from users>" ],
-				                    "row": 9,
+					"Unavailable <after adopting [Public Happiness]> <hidden from users>" ],
+			    "row": 9,
                             "column": 3
                         },
                           //Social
                             {
                             "name": "Slaves",
                             "uniques": [
-					                            "Comment[How do we procure slaves?]"],
-				                    "row": 11,
+					"Comment[How do we procure slaves?]"],
+			    "row": 11,
                             "column": 2
                         },
                             {
                             "name": "Criminal Slaves",
                             "uniques": [
-					                            "Unavailable <after adopting [War Slaves]> <hidden from users>"],
-				                    "row": 11,
+					"Unavailable <after adopting [War Slaves]> <hidden from users>"],
+			    "row": 11,
                             "column": 1
                         },
                             {
                             "name": "War Slaves",
                             "uniques": [
-					                            "Unavailable <after adopting [Criminal Slaves]> <hidden from users>" ],
-				                    "row": 11,
+					"Unavailable <after adopting [Criminal Slaves]> <hidden from users>" ],
+			    "row": 11,
                             "column": 3
                         },
-                       
-           
-          
-			{
+			    	{
 				"name": "Ancient Civics Complete",
 				"uniques": [
 					"Will not be displayed in Civilopedia",
-					"Comment [Only able to select one civic at a time]"
-				]
+					"Comment [Only able to select one civic at a time]"]
 			}
         ]
     },
