@@ -15,14 +15,14 @@
                             {
                             "name": "Natural Right",
                             "uniques": [
-					"Unavailable <after adopting [Divine Mandate]> <hidden from users>"],
+					"Unavailable <after adopting [Divine Mandate]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Divine Mandate",
                             "uniques": [
-					"Unavailable <after adopting [Free Speech]> <hidden from users>" ],
+					"Unavailable <after adopting [Free Speech]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 3
                         },
@@ -37,14 +37,14 @@
                             {
                             "name": "Codified Laws",
                             "uniques": [
-					"Unavailable <after adopting [Customary Laws]> <hidden from users>"],
+					"Unavailable <after adopting [Customary Laws]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Customary Laws",
                             "uniques": [
-					"Unavailable <after adopting [Codified Laws]> <hidden from users>" ],
+					"Unavailable <after adopting [Codified Laws]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 3
                         },
@@ -59,14 +59,14 @@
                             {
                             "name": "Conscripts",
                             "uniques": [
-					"Unavailable <after adopting [Professional Soldiers]> <hidden from users>"],
+					"Unavailable <after adopting [Professional Soldiers]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Professional Soldiers",
                             "uniques": [
-					"Unavailable <after adopting [Conscripts]> <hidden from users>" ],
+					"Unavailable <after adopting [Conscripts]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 3
                         },
@@ -81,14 +81,14 @@
                             {
                             "name": "Communal Rites",
                             "uniques": [
-					"Unavailable <after adopting [Personal Rites]> <hidden from users>"],
+					"Unavailable <after adopting [Personal Rites]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
                         },
                             {
                             "name": "Personal Rites",
                             "uniques": [
-					"Unavailable <after adopting [Communal Rites]> <hidden from users>" ],
+					"Unavailable <after adopting [Communal Rites]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 3
                         },
@@ -103,14 +103,14 @@
                             {
                             "name": "Monoculturalism",
                             "uniques": [
-					"Unavailable <after adopting [Multiculturalism]> <hidden from users>"],
+					"Unavailable <after adopting [Multiculturalism]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 1
                         },
                             {
                             "name": "Multiculturalism",
                             "uniques": [
-					"Unavailable <after adopting [Monoculturalism]> <hidden from users>" ],
+					"Unavailable <after adopting [Monoculturalism]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 3
                         },
@@ -125,14 +125,14 @@
                             {
                             "name": "Public Happiness",
                             "uniques": [
-					"Unavailable <after adopting [Public Security]> <hidden from users>"],
+					"Unavailable <after adopting [Public Security]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Public Security",
                             "uniques": [
-					"Unavailable <after adopting [Public Happiness]> <hidden from users>" ],
+					"Unavailable <after adopting [Public Happiness]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 3
                         },
@@ -147,14 +147,14 @@
                             {
                             "name": "Criminal Slaves",
                             "uniques": [
-					"Unavailable <after adopting [War Slaves]> <hidden from users>"],
+					"Unavailable <after adopting [War Slaves]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 1
                         },
                             {
                             "name": "War Slaves",
                             "uniques": [
-					"Unavailable <after adopting [Criminal Slaves]> <hidden from users>" ],
+					"Unavailable <after adopting [Criminal Slaves]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 3
                         },
@@ -183,14 +183,14 @@
                             {
                             "name": "Small Council",
                             "uniques": [
-					"Unavailable <after adopting [Autarch]> <hidden from users>"],
+					"Unavailable <after adopting [Autarch]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Autarch",
                             "uniques": [
-					"Unavailable <after adopting [Small Council]> <hidden from users>" ],
+					"Unavailable <after adopting [Small Council]> <hidden from users>", "Political Civic",
 			    "row": 1,
                             "column": 3
                         },
@@ -205,14 +205,14 @@
                             {
                             "name": "Aristocracy",
                             "uniques": [
-					"Unavailable <after adopting [Republic]> <hidden from users>"],
+					"Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic"],
 			    "row": 2,
                             "column": 1
                         },
                             {
                             "name": "Republic",
                             "uniques": [
-					"Unavailable <after adopting [Aristocracy]> <hidden from users>" ],
+					"Unavailable <after adopting [Aristocracy]> <hidden from users>", "Political Civic"],
 			    "row": 2,
                             "column": 3
                         },
@@ -227,14 +227,14 @@
                             {
                             "name": "Physical Punishment",
                             "uniques": [
-					"Unavailable <after adopting [Forfeiture]> <hidden from users>"],
+					"Unavailable <after adopting [Forfeiture]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Forfeiture",
                             "uniques": [
-					"Unavailable <after adopting [Physical Punishment]> <hidden from users>" ],
+					"Unavailable <after adopting [Physical Punishment]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 3
                         },
@@ -249,14 +249,14 @@
                             {
                             "name": "Assimilated Peoples",
                             "uniques": [
-					"Unavailable <after adopting [Mercenary Armies]> <hidden from users>"],
+					"Unavailable <after adopting [Mercenary Armies]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Mercenary Armies",
                             "uniques": [
-					"Unavailable <after adopting [Assimilated Peoples]> <hidden from users>" ],
+					"Unavailable <after adopting [Assimilated Peoples]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 3
                         },
@@ -271,14 +271,14 @@
                             {
                             "name": "Paid Wages",
                             "uniques": [
-					"Unavailable <after adopting [Plundered Wages]> <hidden from users>"],
+					"Unavailable <after adopting [Plundered Wages]> <hidden from users>", "Martial Civic"],
 			    "row": 5,
                             "column": 1
                         },
                             {
                             "name": "Plundered Wages",
                             "uniques": [
-					"Unavailable <after adopting [Paid Wages]> <hidden from users>" ],
+					"Unavailable <after adopting [Paid Wages]> <hidden from users>", "Martial Civic"],
 			    "row": 5,
                             "column": 3
                         },
@@ -293,14 +293,14 @@
                             {
                             "name": "Open-Minded",
                             "uniques": [
-					"Unavailable <after adopting [Religious Hostility]> <hidden from users>"],
+					"Unavailable <after adopting [Religious Hostility]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
                         },
                             {
                             "name": "Religious Hostility",
                             "uniques": [
-					"Unavailable <after adopting [Open-Minded]> <hidden from users>" ],
+					"Unavailable <after adopting [Open-Minded]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 3
                         },
@@ -315,14 +315,14 @@
                             {
                             "name": "Elders' Wisdom",
                             "uniques": [
-					"Unavailable <after adopting [Foreign Innovations]> <hidden from users>"],
+					"Unavailable <after adopting [Foreign Innovations]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Foreign Innovations",
                             "uniques": [
-					"Unavailable <after adopting [Elders' Wisdom]> <hidden from users>" ],
+					"Unavailable <after adopting [Elders' Wisdom]> <hidden from users>", "Economic Civic",
 			    "row": 9,
                             "column": 3
                         },
@@ -337,14 +337,14 @@
                             {
                             "name": "Universal Citizenship",
                             "uniques": [
-					"Unavailable <after adopting [Select Citizenship]> <hidden from users>"],
+					"Unavailable <after adopting [Select Citizenship]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 1
                         },
                             {
                             "name": "Select Citizenship",
                             "uniques": [
-					"Unavailable <after adopting [Universal Citizenship]> <hidden from users>" ],
+					"Unavailable <after adopting [Universal Citizenship]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 3
                         },
@@ -359,14 +359,14 @@
                             {
                             "name": "Vassal Colonies",
                             "uniques": [
-					"Unavailable <after adopting [Naturalized Colonies]> <hidden from users>"],
+					"Unavailable <after adopting [Naturalized Colonies]> <hidden from users>", "Social Civic"],
 			    "row": 12,
                             "column": 1
                         },
                             {
                             "name": "Naturalized Colonies",
                             "uniques": [
-					"Unavailable <after adopting [Vassal Colonies]> <hidden from users>" ],
+					"Unavailable <after adopting [Vassal Colonies]> <hidden from users>", "Social Civic"],
 			    "row": 12,
                             "column": 3
                         },
