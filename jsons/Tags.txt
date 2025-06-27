@@ -7,7 +7,7 @@
 
 "Political Civic"
 "Judicial Civic"
-"Militaristic Civic"
+"Martial Civic"
 "Religious Civic"
 "Cultural Civic"
 "Economic Civic"
