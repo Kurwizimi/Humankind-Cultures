@@ -14,9 +14,9 @@
 			"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <before the [Classical era]> <upon turn end>",
 			"Triggers a [Classical] event <for [Major] Civilizations> <upon entering the [Classical era]>",
 			"Triggers a [Medieval] event <for [Major] Civilizations> <upon entering the [Medieval era]>",
-			"Triggers a [Early Modern] event <for [Major] Civilizations> <upon entering the [Renaissance era]>",
+			"Triggers a [Early Modern] event <for [Major] Civilizations> <upon entering the [Early Modern era]>",
 			"Triggers a [Industrial] event <for [Major] Civilizations> <upon entering the [Industrial era]>",
-			"Triggers a [Contemporary] event <for [Major] Civilizations> <upon entering the [Atomic era]>",
+			"Triggers a [Contemporary] event <for [Major] Civilizations> <upon entering the [Contemporary era]>",
 
 
 	//Ancient
