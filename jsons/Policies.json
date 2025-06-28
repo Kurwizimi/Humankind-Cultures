@@ -665,6 +665,193 @@
 			}
         ]
     },
+	 {
+            "name": "Industrial Civics",
+            "era": "Industrial era",
+	    "uniques": [],
+            "policies": [
+                            //POLITICAL
+                            {
+                            "name": "Aristocracy Evolution",
+                            "uniques": [
+					"Comment[Whose political interests should be represented?]"],
+			    "row": 1,
+                            "column": 2
+                        },
+                            {
+                            "name": "Oligarchy",
+                            "uniques": [
+					"Unavailable <after adopting [Democratic Republic -A]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Democratic Republic -A",
+                            "uniques": [
+					"Unavailable <after adopting [Oligarchy]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 3
+                        },
+                        //Militaristic
+                            {
+                            "name": "Conquered Empires",
+                            "uniques": [
+					"Comment[What is our outlook on conquests?]"],
+			    "row": 4,
+                            "column": 2
+                        },
+                            {
+                            "name": "Anti-Imperialists",
+                            "uniques": [
+					"Unavailable <after adopting [Imperialists]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 1
+                        },
+                            {
+                            "name": "Imperialists",
+                            "uniques": [
+					"Unavailable <after adopting [Anti-Imperialists]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 3
+                        },
+                        //Religious
+                            {
+                            "name": "Irreligion",
+                            "uniques": [
+					"Comment[What kind of irreligious society do we want?]"],
+			    "row": 6,
+                            "column": 2
+                        },
+                            {
+                            "name": "Secularism",
+                            "uniques": [
+					"Unavailable <after adopting [State Atheism]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 1
+                        },
+                            {
+                            "name": "State Atheism",
+                            "uniques": [
+					"Unavailable <after adopting [Secularism]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 3
+                        },
+		     		{
+                            "name": "Scientific Facts",
+                            "uniques": [
+					"Comment[What is the response to empirical findings that contradict religious truths?]"],
+			    "row": 7,
+                            "column": 2
+                        },
+                            {
+                            "name": "Literalism",
+                            "uniques": [
+					"Unavailable <after adopting [Compatibilism]> <hidden from users>", "Religious Civic"],
+			    "row": 7,
+                            "column": 1
+                        },
+                            {
+                            "name": "Compatibilism",
+                            "uniques": [
+					"Unavailable <after adopting [Literalism]> <hidden from users>", "Religious Civic"],
+			    "row": 7,
+                            "column": 3
+                        },
+                            //Cultural
+                            {
+                            "name": "Press Freedom",
+                            "uniques": [
+					"Comment[Should the news be controlled by the government?]"],
+			    "row": 8,
+                            "column": 2
+                        },
+                            {
+                            "name": "Freedom of Speech",
+                            "uniques": [
+					"Unavailable <after adopting [Propaganda]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 1
+                        },
+                            {
+                            "name": "Propaganda",
+                            "uniques": [
+					"Unavailable <after adopting [Freedom of Speech]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 3
+                        },
+                          //Economic
+                            {
+                            "name": "International Trading",
+                            "uniques": [
+					"Comment[What is our guiding foreign economic policy?]"],
+			    "row": 9,
+                            "column": 2
+                        },
+                            {
+                            "name": "Isolationism",
+                            "uniques": [
+					"Unavailable <after adopting [Globalism]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Globalism",
+                            "uniques": [
+					"Unavailable <after adopting [Isolationism]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 3
+                        },
+		    		{
+                            "name": "Industrial Production",
+                            "uniques": [
+					"Comment[Who should own our most important industries?]"],
+			    "row": 10,
+                            "column": 2
+                        },
+                            {
+                            "name": "Nationalized Industries",
+                            "uniques": [
+					"Unavailable <after adopting [Privatized Industries]> <hidden from users>", "Economic Civic"],
+			    "row": 10,
+                            "column": 1
+                        },
+                            {
+                            "name": "Privatized Industries",
+                            "uniques": [
+					"Unavailable <after adopting [Nationalized Industries]> <hidden from users>", "Economic Civic"],
+			    "row": 10,
+                            "column": 3
+                        },
+                          //Social
+                            {
+                            "name": "Children's Rights",
+                            "uniques": [
+					"Comment[What are the empire's children entitled to?]"],
+			    "row": 11,
+                            "column": 2
+                        },
+                            {
+                            "name": "Child Education",
+                            "uniques": [
+					"Unavailable <after adopting [Child Employment]> <hidden from users>", "Social Civic"],
+			    "row": 11,
+                            "column": 1
+                        },
+                            {
+                            "name": "Child Employment",
+                            "uniques": [
+					"Unavailable <after adopting [Child Education]> <hidden from users>", "Social Civic"],
+			    "row": 11,
+                            "column": 3
+                        },
+			    	{
+				"name": "Industrial Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
 
 
 
