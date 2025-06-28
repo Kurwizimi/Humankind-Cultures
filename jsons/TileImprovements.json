@@ -192,23 +192,23 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
-            "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
-            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+1 Science] <after discovering [Encyclopedia]>", "[+2 Science] <after discovering [Scientific Method]>",
+            "[+1 Science] <after discovering [Microbiology]>", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+100 Gold]"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
 		"uniques": ["Great Improvement", "Removes removable features when built",
-            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+100 Gold]"]
 	},
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Will not be replaced by automated units",
-            "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Supply Lines]>", "Will not be replaced by automated units",
+            "Removes removable features when built", "Pillaging this improvement yields approximately [+100 Gold]"]
 	},
 	{
 		"name": "Customs house",
