@@ -22,7 +22,7 @@
                             {
                             "name": "Divine Mandate",
                             "uniques": [
-					"Unavailable <after adopting [Free Speech]> <hidden from users>", "Political Civic"],
+					"Unavailable <after adopting [Natural Right]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 3
                         },
@@ -203,7 +203,7 @@
                             "column": 2
                         },
                             {
-                            "name": "Aristocracy",
+                            "name": "Aristocracy - C",
                             "uniques": [
 					"Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic"],
 			    "row": 2,
@@ -372,6 +372,171 @@
                         },
 			    	{
 				"name": "Classical Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
+	 {
+            "name": "Medieval Civics",
+            "era": "Medieval era",
+	    "uniques": [],
+            "policies": [
+                            //POLITICAL
+                            {
+                            "name": "Political Influence",
+                            "uniques": [
+					"Comment[Who has the ear of the autarch?]"],
+			    "row": 1,
+                            "column": 2
+                        },
+                            {
+                            "name": "Monarchy",
+                            "uniques": [
+					"Unavailable <after adopting [Aristocracy]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Aristocracy - M",
+                            "uniques": [
+					"Unavailable <after adopting [Monarchy]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 3
+                        },
+		    		{
+                            "name": "Monarchy Power",
+                            "uniques": [
+					"Comment[What type of monarchy is this?]"],
+			    "row": 2,
+                            "column": 2
+                        },
+                            {
+                            "name": "Absolute Monarchy",
+                            "uniques": [
+					"Unavailable <after adopting [Constitutional Monarchy]> <hidden from users>", "Political Civic"],
+			    "row": 2,
+                            "column": 1
+                        },
+                            {
+                            "name": "Constitutional Monarchy",
+                            "uniques": [
+					"Unavailable <after adopting [Absolute Monarchy]> <hidden from users>", "Political Civic"],
+			    "row": 2,
+                            "column": 3
+                        },
+                        //JUDICIAL
+                            {
+                            "name": "Judicial Control",
+                            "uniques": [
+					"Comment[How is the justice system overseen?]"],
+			    "row": 3,
+                            "column": 2
+                        },
+                            {
+                            "name": "Open Inspections",
+                            "uniques": [
+					"Unavailable <after adopting [State Surveillance]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 1
+                        },
+                            {
+                            "name": "State Surveillance",
+                            "uniques": [
+					"Unavailable <after adopting [Open Inspections]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 3
+                        },
+                        //Religious
+                            {
+                            "name": "Unbelievers",
+                            "uniques": [
+					"Comment[What should we do with the unfaithful?]"],
+			    "row": 6,
+                            "column": 2
+                        },
+                            {
+                            "name": "Eliminate Unbelievers",
+                            "uniques": [
+					"Unavailable <after adopting [Banish Unbelievers]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 1
+                        },
+                            {
+                            "name": "Banish Unbelievers",
+                            "uniques": [
+					"Unavailable <after adopting [Eliminate Unbelievers]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 3
+                        },
+		    	    {
+                            "name": "Religious Minorities",
+                            "uniques": [
+					"Comment[Should religious minorities pay tribute?]"],
+			    "row": 7,
+                            "column": 2
+                        },
+                            {
+                            "name": "Taxed Minorities",
+                            "uniques": [
+					"Unavailable <after adopting [Untaxed Minorities]> <hidden from users>", "Religious Civic"],
+			    "row": 7,
+                            "column": 1
+                        },
+                            {
+                            "name": "Untaxed Minorities",
+                            "uniques": [
+					"Unavailable <after adopting [Taxed Minorities]> <hidden from users>", "Religious Civic"],
+			    "row": 7,
+                            "column": 3
+                        },
+                            //Cultural
+                            {
+                            "name": "Artistic Expression",
+                            "uniques": [
+					"Comment[Should artists be subject to censorship or given free reign of expression?]"],
+			    "row": 8,
+                            "column": 2
+                        },
+                            {
+                            "name": "Free Arts",
+                            "uniques": [
+					"Unavailable <after adopting [Censored Arts]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 1
+                        },
+                            {
+                            "name": "Censored Arts",
+                            "uniques": [
+					"Unavailable <after adopting [Free Arts]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 3
+                        },
+                          //Economic
+                            {
+                            "name": "Land Rights",
+                            "uniques": [
+					"Comment[Does the Land belong to the empire or the People?]"],
+			    "row": 9,
+                            "column": 2
+                        },
+                            {
+                            "name": "Communal Land",
+                            "uniques": [
+					"Unavailable <after adopting [Inherited Land]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Inherited Land",
+                            "uniques": [
+					"Unavailable <after adopting [Communal Land]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 3
+                        },
+			    	{
+				"name": "Medieval Civics Complete",
 				"uniques": [
 					"Will not be displayed in Civilopedia",
 					"Comment [Only able to select one civic at a time]"]
