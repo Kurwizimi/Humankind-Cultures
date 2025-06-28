@@ -207,21 +207,21 @@
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Supply Lines]>", "Will not be replaced by automated units",
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Supply Lines]>", "[+1 Production] <after discovering [Furnace Steel]>", "[+1 Production] <after discovering [Mechanisation]>","Will not be replaced by automated units",
             "Removes removable features when built", "Pillaging this improvement yields approximately [+100 Gold]"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
-		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built",
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Foreign Outposts]>", "[+1 Gold] <after discovering [Mercantalism]>", "[+1 Gold] <after discovering [Mechanised Harvesting]>","Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "[+1 Faith] <after discovering [Theology]>","Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Citadel",
