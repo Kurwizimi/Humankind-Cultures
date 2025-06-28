@@ -543,6 +543,128 @@
 			}
         ]
     },
+	 {
+            "name": "Early Modern Civics",
+            "era": "Early Modern era",
+	    "uniques": [],
+            "policies": [
+                            //POLITICAL
+                            {
+                            "name": "Republic Evolution",
+                            "uniques": [
+					"Comment[Should there be a diversity of poltical representation?]"],
+			    "row": 1,
+                            "column": 2
+                        },
+                            {
+                            "name": "One-Party State",
+                            "uniques": [
+					"Unavailable <after adopting [Democratic Republic]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Democratic Republic",
+                            "uniques": [
+					"Unavailable <after adopting [One-Party State]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 3
+                        },
+                        //JUDICIAL
+                            {
+                            "name": "Capital Punishment -1",
+                            "uniques": [
+					"Comment[What should the death penalty be replaced with?]"],
+			    "row": 3,
+                            "column": 2
+                        },
+                            {
+                            "name": "Lifetime Sentence -1",
+                            "uniques": [
+					"Unavailable <after adopting [Hard Labour]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 1
+                        },
+                            {
+                            "name": "Hard Labour",
+                            "uniques": [
+					"Unavailable <after adopting [Lifetime Sentence -1]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 3
+                        },
+		    {
+                            "name": "Capital Punishment -2",
+                            "uniques": [
+					"Comment[What should the death penalty be replaced with?]"],
+			    "row": 4,
+                            "column": 2
+                        },
+                            {
+                            "name": "Lifetime Sentence -2",
+                            "uniques": [
+					"Unavailable <after adopting [Rehabilitation]> <hidden from users>", "Judicial Civic"],
+			    "row": 4,
+                            "column": 1
+                        },
+                            {
+                            "name": "Rehabilitation",
+                            "uniques": [
+					"Unavailable <after adopting [Lifetime Sentence -2]> <hidden from users>", "Judicial Civic"],
+			    "row": 4,
+                            "column": 3
+                        },
+                            //Cultural
+                            {
+                            "name": "Artistic Ownership",
+                            "uniques": [
+					"Comment[Who determines what is considered art?]"],
+			    "row": 8,
+                            "column": 2
+                        },
+                            {
+                            "name": "Academic Artists",
+                            "uniques": [
+					"Unavailable <after adopting [Independent Artists]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 1
+                        },
+                            {
+                            "name": "Independent Artists",
+                            "uniques": [
+					"Unavailable <after adopting [Academic Artists]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 3
+                        },
+                          //Economic
+                            {
+                            "name": "Materials Procurement",
+                            "uniques": [
+					"Comment[How should we secure necessary resources?]"],
+			    "row": 9,
+                            "column": 2
+                        },
+                            {
+                            "name": "Seize Resources",
+                            "uniques": [
+					"Unavailable <after adopting [Trade Resources]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Trade Resources",
+                            "uniques": [
+					"Unavailable <after adopting [Seize Resources]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 3
+                        },
+			    	{
+				"name": "Early Modern Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
 
 
 
