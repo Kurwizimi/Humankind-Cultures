@@ -1,0 +1,26 @@
+[
+	{
+		"name":"Researcher",
+		"science":3,
+		"greatPersonPoints": {"Great Scientist":3},
+		"color": [0,0,255]
+	},
+	{
+		"name":"Trader",
+		"gold":3,
+		"greatPersonPoints": {"Great Merchant":3},
+		"color": [255,215,0]
+	},
+	{
+		"name":"Farmer",
+		"culture":2,
+		"greatPersonPoints": {"Great Artist":3},
+		"color": [25,180,40]
+	},
+	{
+		"name":"Engineer",
+		"production":2,
+		"greatPersonPoints": {"Great Engineer":3},
+		"color": [139,69,19]
+	}
+]
