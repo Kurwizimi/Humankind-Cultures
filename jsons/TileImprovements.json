@@ -189,7 +189,7 @@
 
     // Great Person improvements
 	{
-		"name": "Academy",
+		"name": "Observatory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
 		"uniques": ["Great Improvement", "[+1 Science] <after discovering [Encyclopedia]>", "[+2 Science] <after discovering [Scientific Method]>",
@@ -204,7 +204,7 @@
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+100 Gold]"]
 	},
 	{
-		"name": "Manufactory",
+		"name": "Industrial District",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
 		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Supply Lines]>", "[+1 Production] <after discovering [Furnace Steel]>", "[+1 Production] <after discovering [Mechanisation]>","Will not be replaced by automated units",
