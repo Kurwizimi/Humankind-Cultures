@@ -1,4 +1,6 @@
- {
+[
+
+{
         "name": "Ancient era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
@@ -11,7 +13,7 @@
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
-    },
+ },
     {
         "name": "Classical era",
         "researchAgreementCost": 150,
@@ -103,3 +105,4 @@
             "Every major Civilization gains a spy once a civilization enters this era"
         ]
     },
+]
