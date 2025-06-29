@@ -417,7 +417,7 @@
 						{
 						"name": "Mercantalism",
 						"row": 4,
-						"prerequisites": ["Chartered Companies","Patronage"],
+						"prerequisites": ["Chartered Companies","Humanism"],
                 				"uniques": ["[+200]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
