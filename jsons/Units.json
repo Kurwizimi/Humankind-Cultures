@@ -358,7 +358,7 @@
 		"strength": 58,
 		"cost": 7400,
 		"requiredResource": "Aluminum",
-		"requiredTech": "Computers",
+		"requiredTech": "Insurrection Theory",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
