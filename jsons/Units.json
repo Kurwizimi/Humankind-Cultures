@@ -67,7 +67,7 @@
 		"cost": 90,
 		"requiredTech": "Carpentry",
 		"obsoleteTech": "War Summons",
-		"upgradesTo": "Crosbowman",
+		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
 	{
@@ -90,7 +90,7 @@
 		"movement": 4,
 		"strength": 21,
 		"cost": 90,
-		"requiredTech": "Horseback Riding",
+		"requiredTech": "Mounted Warfare",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
