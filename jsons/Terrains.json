@@ -87,7 +87,7 @@
             "A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
-            "Becomes [Plains] when adjacent to [River]",
+            "Becomes [Dry Grass] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -219,8 +219,8 @@
 			"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",
 			"A Region is formed with at least [35]% [Jungle] tiles and [Forest] tiles, with priority [2]",
 			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
-			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
-			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
+			"Considered [Food] when determining start locations <in all except [Prairie] Regions>",
+			"Considered [Desirable] when determining start locations <in all except [Prairie] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
@@ -245,7 +245,7 @@
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
+		"occursOn": ["Prairie","Dry Grass","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
 		"defenceBonus": -0.15
 	},
 	{
