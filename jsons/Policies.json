@@ -190,7 +190,7 @@
                             {
                             "name": "Autarch",
                             "uniques": [
-					"Unavailable <after adopting [Small Council]> <hidden from users>", "Political Civic",
+					"Unavailable <after adopting [Small Council]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 3
                         },
