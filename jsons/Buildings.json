@@ -1,4 +1,507 @@
 [
+	//ANCIENT
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+	{
+		"name": "Animal Barns",
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"food": 1,
+		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Horses] tiles [in this city]",
+			"[+1 Food] from [Sheep] tiles [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Domestication"
+	},
+	{
+		"name": "Granary",
+		"specialistSlots": {"Farmer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from every [Farmer] <in this city>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Flood Irrigation",
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Food] from every [River] <in this city>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Irrigation"
+	},
+	{
+		"name": "Forge",
+		"hurryCostModifier": 25,
+		"production": 2,
+		"uniques": ["[+1 Production] from every [Copper] <in this city>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Lumber Yard",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]",
+			"[+1 Production] from [Jungle] tiles [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Carpentry"
+	},
+	{
+		"name": "Stoneworks",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Mountain] tiles [in this city]",
+			"[+1 Production] from [Hill] tiles [in this city]",
+			"[+1 Production] from [Quarry] tiles [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Food Market",
+		"hurryCostModifier": 25,
+		"gold": 4,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "House of Scribes",
+		"specialistSlots": {"Researcher": 2},
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Science] from every [Researcher] <in this city>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Fishery",
+		"hurryCostModifier": 25,
+		"food": 2,
+		"uniques": ["[+1 Food] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Fishing"
+	},
+	{
+		"name": "Fishmonger",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Gold] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Palisades",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "City Defense",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Organised Warfare"
+	},
+	{
+		"name": "Pottery Workshop",
+		"culture": 4,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Public Fountain",
+		"hurryCostModifier": 25,
+		"happiness": 2,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Irrigation"
+	},
+
+	//CLASSICAL
+	{
+		"name": "Artificial Reservoirs",
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Food] from every [River] <in this city>"],
+		"requiredBuilding": "Flood Irrigation",
+		"requiredTech": "Hydrology"
+	},
+	{
+		"name": "Charcoal Kiln",
+		"hurryCostModifier": 25,
+		"production": 2, 
+		"uniques": ["[+2 Production] from [Copper] tiles [in this city]"],
+		"requiredBuilding": "Forge",
+		"requiredTech": "Craftsmanship"
+	},
+	{
+		"name": "Water Mill",
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Production] from every [River] <in this city>"],
+		"requiredTech": "Hydrology"
+	},
+	{
+		"name": "Artisan Workshop",
+		"specialistSlots": {"Engineer": 2},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from every [Engineer] <in this city>"],
+		"requiredTech": "Craftsmanship"
+	},
+	{
+		"name": "Levy Administration",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"requiredTech": "Trade Expeditions"
+	},
+	{
+		"name": "Customs Farm",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold] from each Trade Route"],
+		"requiredTech": "Imperial Power"
+	},
+	{
+		"name": "School",
+		"hurryCostModifier": 25,
+		"science": 2,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"requiredTech": "Rhetoric"
+	},
+	{
+		"name": "Stone Wall",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Palisade",
+		"requiredTech": "Fortifications",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Theatre",
+		"culture": 4,
+		"hurryCostModifier": 40,
+		"requiredTech": "Rhetoric"
+	},
+	{
+		"name": "Aqueduct",
+		"hurryCostModifier": 25,
+		"happiness": 2,
+		"requiredBuilding": "Public Fountain",
+		"requiredTech": "Hydrology"
+	},
+	{
+		"name": "City Watch",
+		"hurryCostModifier": 25,
+		"happiness": 2,
+		"uniques": ["[-25]% enemy spy effectiveness [in this city]"],
+		"requiredTech": "Standing Army"
+	},
+
+	//MEDIEVAL
+	{
+		"name": "High Furnace",
+		"hurryCostModifier": 25,
+		"production": 2,
+		"uniques": ["[+2 Production] from [Iron] tiles [in this city]"],
+		"requiredBuilding": "Charcoal Kiln",
+		"requiredTech": "Furnace Steel"
+	},
+	{
+		"name": "Commodity Market",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold] from every [Trader] <in this city>"],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Manuscript Atelier",
+		"specialistSlots": {"Researcher": 2},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] from every [Researcher] <in this city>"],
+		"requiredBuilding": "House of Scribes",
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Alchemist's Workshop",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"science": 10},
+		"requiredTech": "Alchemy"
+	},
+	{
+		"name": "Great Fishmarket",
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from each Trade Route",
+			"[+1 Gold] from [Water resource] tiles [in this city]", "Must be next to [Coast]"],
+		"requiredBuilding": "Fishmonger",
+		"requiredTech": "Seafaring Mastery"
+	},
+	{
+		"name": "Tourney Fields",
+		"hurryCostModifier": 25,
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
+			"[+2 Production] from [Horses] tiles [in this city]"],
+		"requiredBuilding": "Barracks",
+		"requiredTech": "Chivalry"
+	},
+	//Fort
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Land] units [in this city]"],
+		"requiredTech": "Furnace Steel"
+	},
+	{
+		"name": "Apothecary",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness] from every [Researcher] <in this city>"],
+		"requiredTech": "Alchemy"
+	},
+
+	//EARLY MODERN
+	{
+		"name": "Grain Silos",
+		"specialistSlots": {"Farmer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],
+		"requiredBuilding": "Granary",
+		"requiredTech": "Supply Lines"
+	},
+	{
+		"name": "Manufactory",
+		"specialistSlots": {"Engineer": 2},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from every [Engineer] <in this city>",
+			"[+2 Production] from [Saltpetre] tiles [in this city]"],
+		"requiredBuilding": "Artisan Workshop",
+		"requiredTech": "Mercantalism"
+	},
+	{
+		"name": "Taxation Office",
+		"hurryCostModifier": 25,
+		"gold": 5,
+		"uniques": ["[+3 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredBuilding": "Levy Administration",
+		"requiredTech": "Centralised Power"
+	},
+	{
+		"name": "Stock Exchange",
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from every [Trader] <in this city>"],
+		"requiredBuilding": "Commodity Market",
+		"requiredTech": "Chartered Companies"
+	},
+	{
+		"name": "Bank",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 10},
+		"requiredTech": "Chartered Companies"
+	},
+	{
+		"name": "Printing House",
+		"specialistSlots": {"Researcher": 3},
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Science] from every [Researcher] <in this city>"],
+		"requiredBuilding": "Manuscript Atelier",
+		"requiredTech": "Moveable Typeface"
+	},
+	{
+		"name": "University",
+		"hurryCostModifier": 25,
+		"science": 4,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
+		"requiredBuilding": "School",
+		"requiredTech": "Moveable Typeface"
+	},
+	{
+		"name": "Cabinet of Curiosities",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"requiredBuilding": "Library",
+		"requiredTech": "Chartered Companies"
+	},
+	{
+		"name": "Inventor's Workshop",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"science": 10},
+		"uniques": ["[+1 Science] from [Saltpetre] tiles [in all cities]"],
+		"requiredBuilding": "Alchemist's Workshop",
+		"requiredTech": "Humanism"
+	},
+	{
+		"name": "Bastions",
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Stone Wall",
+		"requiredTech": "Flintlock",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Theatre",
+		"culture": 4,
+		"hurryCostModifier": 40,
+		"requiredBuilding": "Theatre",
+		"requiredTech": "Humanism"
+	},
+
+	//INDUSTRIAL
+	{
+		"name": "Industrial Silos",
+		"specialistSlots": {"Farmer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],//+ Pollution
+		"requiredBuilding": "Grain Silos",
+		"requiredTech": "Mechanisation"
+	},
+	{
+		"name": "Fertilizer Plant",
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"food": 10},
+		"requiredTech": "Scientific Method"
+	},
+	{
+		"name": "Coal Plant",
+		"hurryCostModifier": 25,
+		"production": 3,
+		"uniques": ["[+5 Production] from [Coal] tiles [in this city]"],// ++ Pollution
+		"requiredBuilding": "High Furnace",
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Sawmill",
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Production] from [Forest] tiles [in this city]",
+			"[+2 Production] from [Hill] tiles [in this city]"], //+ Production
+		"requiredBuilding": "Lumber Yard",
+		"requiredTech": "Mechanisation"
+	},
+	{
+		"name": "Conveyor Belt",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Hill] tiles [in this city]",
+			"[+1 Production] from [Quarry] tiles [in this city]",
+			"[+2 Production] from [Coal] tiles [in this city]"],// ++ Pollution for every coal
+		"requiredBuilding": "Stoneworks",
+		"requiredTech": "Mechanisation"
+	},
+	{
+		"name": "Factory",
+		"specialistSlots": {"Engineer": 3},
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Production] from every [Engineer] <in this city>"], //+ Pollution
+		"requiredBuilding": "Manufactory",
+		"requiredTech": "Mechanisation"
+	},
+	{
+		"name": "Customs Agency",
+		"hurryCostModifier": 25,
+		"uniques": ["[+4 Gold] from each Trade Route"],
+		"requiredBuilding": "Customs Farm",
+		"requiredTech": "Nationhood"
+	},
+	{
+		"name": "Academy",
+		"hurryCostModifier": 25,
+		"science": 5,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
+		"requiredBuilding": "University",
+		"requiredTech": "Encyclopedia"
+	},
+	{
+		"name": "Whale Fishing",
+		"hurryCostModifier": 25,
+		"food": 2,
+		"uniques": ["[+1 Food] from [Lake] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"Must be next to [Coast]"],
+		"requiredBuilding": "Fishery",
+		"requiredTech": "Propeller"
+	},
+	{
+		"name": "Seafood Wholesalers",
+		"hurryCostModifier": 25,
+		"gold": 3,
+		"uniques": ["[+5 Gold] from each Trade Route",
+			"Must be next to [Coast]"],
+		"requiredBuilding": "Great Fishmarket",
+		"requiredTech": "Propeller"
+	},
+	{
+		"name": "Military School",
+		"hurryCostModifier": 25,
+		"uniques": ["New [Military] units start with [15] XP [in this city]"],
+		"requiredBuilding": "Tourney Fields",
+		"requiredTech": "Military Coordination"
+	},
+	{
+		"name": "Conscription Centre",
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [Land] units [in this city]"],
+		"requiredBuilding": "Armory",
+		"requiredTech": "Nationhood"
+	},
+	{
+		"name": "Police Force",
+		"hurryCostModifier": 25,
+		"happiness": 2,
+		"uniques": ["[-25]% enemy spy effectiveness [in this city]"],
+		"requiredBuilding": "City Watch",
+		"requiredTech": "Urban Planning"
+	},
+	{
+		"name": "Hospital",
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Happiness] from every [Researcher] <in this city>"],
+		"requiredBuilding": "Apothecary",
+		"requiredTech": "Microbiology"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	//Ancient
 	{
 		"name": "The Assyrians",
