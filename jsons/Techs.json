@@ -1,59 +1,63 @@
 [
-        	    {
-	      	    "columnNumber": 0,
-		    "era": "Ancient era",
-		    "techCost": 20,
-		    "buildingCost": 40,
-		    "wonderCost": 185,
-		    "techs": [
-			                      {
-				              "name": "Agriculture",
-				              "row": 6,
-				              "quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
-				              "uniques": ["Starting tech"]
-			            	}]
-	  },
+	{
+	"columnNumber": 0,
+	"era": "Ancient era",
+	"techCost": 20,
+	"buildingCost": 40,
+	"wonderCost": 185,
+	"techs": [
+			{
+			"name": "Agriculture",
+			"row": 6,
+			"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+			"uniques": ["Starting tech"]
+		}]
+},
   
-        	    {
-		    "columnNumber": 1,
-		    "era": "Ancient era",
-		    "techCost": 35,
-		    "buildingCost": 60,
-		    "wonderCost": 185,
-		    "techs": [
-			                  	{ 
-				                "name": "Calendar",
-				                "row": 2,
-				                "prerequisites": ["Agriculture"],
-                        			"uniques": ["[+100]% weight to this choice for AI decisions"],
-				                "quote": ""
-			            	},
-			                  	{
-				                "name": "Domestication",
-				                "row": 4,
-				                "prerequisites": ["Agriculture"],
-				                "quote": ""
-			            	},
-			                  	{
-				                "name": "Carpentry",
-				                "row": 6,
-				                "prerequisites": ["Agriculture"],
-                        			"uniques": ["[-50]% weight to this choice for AI decisions"],
-				                "quote": ""
-			            	},
-			                 	{
-				                "name": "City Defence",
-				                "row": 8,
-				                "prerequisites": ["Agriculture"],
-                       				 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				                "quote": ""
-			            	}]
-	  },
+        {
+	"columnNumber": 1,
+	"era": "Ancient era",
+	"techCost": 35,
+	"buildingCost": 60,
+	"wonderCost": 185,
+	"techs": [
+			{ 
+	                "name": "Calendar",
+			"row": 2,
+			"cost":35,
+	                "prerequisites": ["Agriculture"],
+			"uniques": ["[+100]% weight to this choice for AI decisions"],
+	                "quote": ""
+		},
+			{
+	                "name": "Domestication",
+			"row": 4,
+			"cost":35,
+	                "prerequisites": ["Agriculture"],
+			"quote": ""
+            	},
+			{
+	                "name": "Carpentry",
+			"row": 6,
+			"cost":35,
+	                "prerequisites": ["Agriculture"],
+			"uniques": ["[-50]% weight to this choice for AI decisions"],
+			"quote": ""
+            	},
+			{
+			"name": "City Defence",
+	                "row": 8,
+			"cost":35,
+			"prerequisites": ["Agriculture"],
+			"uniques": ["[+100]% weight to this choice for AI decisions"],
+	                "quote": ""
+		}]
+},
   
         	     {
 		    "columnNumber": 2,
 		    "era": "Ancient era",
-		    "techCost": 55,
+		    "techCost": 100,
 		    "buildingCost": 75,
 		    "wonderCost": 185,
 		    "techs": [
@@ -89,7 +93,7 @@
           	    {
 		    "columnNumber": 3,
 		    "era": "Ancient era",
-		    "techCost": 105,
+		    "techCost": 100,
 	            "buildingCost": 100,
 		    "wonderCost": 250,
 		    "techs": [
@@ -124,7 +128,7 @@
 		      {
 		      "columnNumber": 4,
 		      "era": "Classical era",
-		      "techCost": 175,
+		      "techCost": 310,
 		      "buildingCost": 100,
 		      "wonderCost": 250,
 		       "techs": [
@@ -166,7 +170,7 @@
 			{
 			"columnNumber": 5,
 			"era": "Classical era",
-			"techCost": 275,
+			"techCost": 590,
 			"buildingCost": 120,
 			"wonderCost": 300,
 			"techs": [
@@ -201,7 +205,7 @@
 			{
 			"columnNumber": 6,
 			"era": "Classical era",
-			"techCost": 485,
+			"techCost": 960,
 			"buildingCost": 160,
 			"wonderCost": 400,
 			"techs": [
@@ -232,7 +236,7 @@
 			{
 			"columnNumber": 7,
 			"era": "Medieval era",
-			"techCost": 780,
+			"techCost": 1430,
 			"buildingCost": 200,
 			"wonderCost": 500,
 			"techs": [
@@ -262,7 +266,7 @@
 			{
 			"columnNumber": 8,
 			"era": "Medieval era",
-			"techCost": 1150,
+			"techCost": 2030,
 			"buildingCost": 250,
 			"wonderCost": 625,
 			"techs": [
@@ -297,7 +301,7 @@
 			{
 			"columnNumber": 9,
 			"era": "Medieval era",
-			"techCost": 1600,
+			"techCost": 2730,
 			"buildingCost": 300,
 			"wonderCost": 750,
 			"techs": [
@@ -327,7 +331,7 @@
 			{
 			"columnNumber": 10,
 			"era": "Early Modern era",
-			"techCost": 2350,
+			"techCost": 3580,
 			"buildingCost": 360,
 			"wonderCost": 900,
 			"techs": [
@@ -363,7 +367,7 @@
 			{
 			"columnNumber": 11,
 			"era": "Early Modern era",
-			"techCost": 3100,
+			"techCost": 4570,
 			"buildingCost": 500,
 			"wonderCost": 1060,
 			"techs": [
@@ -406,7 +410,7 @@
 			{
 			"columnNumber": 12,
 			"era": "Early Modern era",
-			"techCost": 4100,
+			"techCost": 5670,
 			"buildingCost": 500,
 			"wonderCost": 1250,
 			"techs": [
@@ -429,7 +433,7 @@
 			{
 			"columnNumber": 13,
 			"era": "Industrial era",
-			"techCost": 5100,
+			"techCost": 6960,
 			"buildingCost": 500,
 			"wonderCost": 1250,
 			"techs": [
@@ -458,13 +462,14 @@
 			{
 			"columnNumber": 14,
 			"era": "Industrial era",
-			"techCost": 6400,
+			"techCost": 8470,
 			"buildingCost": 500,
 			"wonderCost": 1250,
 			"techs": [
 						{
 						"name": "Steam Engine",
 						"row": 3,
+						"cost": 6960,
 						"prerequisites": ["Moveable Typeface","Encyclopedia"],
 						"quote": ""
 					},
@@ -486,7 +491,7 @@
 			{
 			"columnNumber": 15,
 			"era": "Industrial era",
-			"techCost": 7700,
+			"techCost": 8470,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -505,6 +510,7 @@
 						{
 						"name": "Guerilla Warfare",
 						"row": 6,
+						"cost": 10250,
 						"prerequisites": ["Nationhood"],
 						"quote": ""
 					}]
@@ -513,7 +519,7 @@
 			{
 			"columnNumber": 16,
 			"era": "Industrial era",
-			"techCost": 8800,
+			"techCost": 8470,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -527,6 +533,7 @@
 						{
 						"name": "Microbiology",
 						"row": 4,
+							"cost": 10250,
 						"prerequisites": ["Scientific Method"],
 						"quote": ""
 					},
@@ -540,6 +547,7 @@
 						{
 						"name": "Trench Warfare",
 						"row": 7,
+						"cost": 10250,
 						"prerequisites": ["Guerilla Warfare","Line Formation"],
 						"quote": ""
 					}]
@@ -548,7 +556,7 @@
 			{
 			"columnNumber": 17,
 			"era": "Industrial era",
-			"techCost": 8800,
+			"techCost": 10250,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -577,7 +585,7 @@
 	{
 			"columnNumber": 18,
 			"era": "Industrial era",
-			"techCost": 8800,
+			"techCost": 10250,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -593,7 +601,7 @@
 	{
 			"columnNumber": 19,
 			"era": "Contemporary era",
-			"techCost": 8800,
+			"techCost": 12420,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -629,7 +637,7 @@
 	{
 			"columnNumber": 20,
 			"era": "Contemporary era",
-			"techCost": 8800,
+			"techCost": 12420,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -672,7 +680,7 @@
 	{
 			"columnNumber": 21,
 			"era": "Contemporary era",
-			"techCost": 8800,
+			"techCost": 14690,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -695,7 +703,7 @@
 	{
 			"columnNumber": 22,
 			"era": "Contemporary era",
-			"techCost": 8800,
+			"techCost": 14690,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -738,7 +746,7 @@
 	{
 			"columnNumber": 23,
 			"era": "Contemporary era",
-			"techCost": 8800,
+			"techCost": 17320,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -773,6 +781,7 @@
 						{
 						"name": "Insurrection Theory",
 						"row": 8,
+						"cost": 14690,
 						"prerequisites": ["Amphibious Warfare"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 						"quote": ""
@@ -782,7 +791,7 @@
 	{
 			"columnNumber": 24,
 			"era": "Contemporary era",
-			"techCost": 8800,
+			"techCost": 17320,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -812,7 +821,7 @@
 	{
 			"columnNumber": 25,
 			"era": "Contemporary era",
-			"techCost": 8800,
+			"techCost": 19890,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
@@ -849,7 +858,7 @@
 			{
 			"columnNumber": 26,
 			"era": "Future era",
-			"techCost": 9500,
+			"techCost": 20000,
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
