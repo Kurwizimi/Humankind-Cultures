@@ -116,6 +116,7 @@
 	{
 		"name": "Pottery Workshop",
 		"culture": 4,
+		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
 	},
