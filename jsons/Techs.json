@@ -613,6 +613,13 @@
 						"quote": ""
 					},
 						{
+						"name": "Continuous Track",
+						"row": 2,
+						"prerequisites": ["Combustion Engine"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
+						{
 						"name": "Aerial Warfare",
 						"row": 3,
 						"prerequisites": ["Aeronautics"],
