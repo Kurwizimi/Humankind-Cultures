@@ -496,7 +496,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Hill] tiles [in this city]",
 			"[+1 Production] from [Quarry] tiles [in this city]",
-			"[+2 Production] from [Aluminium] tiles [in this city]"],// ++ Pollution
+			"[+2 Production] from [Aluminum] tiles [in this city]"],// ++ Pollution
 		"requiredBuilding": "Conveyor Belt",
 		"requiredTech": "Mechanised Harvesting"
 	},
@@ -571,7 +571,7 @@
 		"specialistSlots": {"Researcher": 3},
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Science] from every [Researcher] <in this city>",
-			"[+1]% [Science] [in this city] <for every [Aluminium]>"], //++ Pollution
+			"[+1]% [Science] [in this city] <for every [Aluminum]>"], //++ Pollution
 		"requiredBuilding": "Printing House",
 		"requiredTech": "Communication Satellites"
 	},
