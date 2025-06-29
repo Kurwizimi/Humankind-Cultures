@@ -3,6 +3,10 @@
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
+		"specialistSlots": {"Farmer": 3},
+		"specialistSlots": {"Engineer": 3},
+		"specialistSlots": {"Trader": 3},
+		"specialistSlots": {"Researcher": 3},
 		"production": 3,
 		"science": 3,
 		"gold": 3,
