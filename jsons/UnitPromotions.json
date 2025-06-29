@@ -666,6 +666,10 @@
         "column": 26,
         "row": 3
 	},
+	{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
+	},
 
 	//Unique Promotions
 
