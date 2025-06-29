@@ -90,7 +90,7 @@
 		"movement": 4,
 		"strength": 21,
 		"cost": 90,
-		"requiredTech": "Mounted Warfare",
+		"requiredTech": "Domestication",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
