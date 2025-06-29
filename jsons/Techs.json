@@ -195,7 +195,7 @@
 						"quote": ""
 					},
 						{
-						"name": "Mounted Warefare",
+						"name": "Mounted Warfare",
 						"row": 8,
 						"prerequisites": ["Standing Army"],
                 				"uniques": ["[+100]% weight to this choice for AI decisions"],
