@@ -667,6 +667,15 @@
         "row": 3
 	},
 
+	//Unique Promotions
+
+		{
+		"name": "Pillager",
+		"uniques": ["[+50]% Yield from pillaging tiles"],
+	},
+
+	
+
 
 
 
