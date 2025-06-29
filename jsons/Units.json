@@ -42,7 +42,7 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 25,
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "City Defence",
 		"upgradesTo": "Warrior",
 		"uniques" : ["May upgrade to [Warrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
