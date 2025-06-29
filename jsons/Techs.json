@@ -810,7 +810,7 @@
 						"quote": ""
 					},
 						{
-						"name": "Covert Operations",
+						"name": "Covert Ops",
 						"row": 4,
 						"prerequisites": ["Communication Satellites"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
