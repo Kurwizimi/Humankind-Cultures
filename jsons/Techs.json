@@ -401,7 +401,7 @@
 						{
 						"name": "Siege Cannons",
 						"row": 9,
-						"prerequisites": ["Gumpowder Warfare"],
+						"prerequisites": ["Gunpowder Warfare"],
                 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 						"quote": ""
 					}]
