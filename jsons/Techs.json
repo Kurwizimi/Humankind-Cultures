@@ -227,7 +227,7 @@
 						{
 						"name": "Siege Tactics",
 						"row": 8,
-						"prerequisites": ["Civil Service","Guilds"],
+						"prerequisites": ["Conquest"],
                 				"uniques": [""],
                 				"quote": ""
 					}]
@@ -292,7 +292,7 @@
 						{
 						"name": "Military Architecture",
 						"row": 8,
-						"prerequisites": ["Siege Tactics","war Summons"],
+						"prerequisites": ["Siege Tactics","War Summons"],
                 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 						"quote": ""
 					}]
@@ -765,7 +765,7 @@
 						"quote": ""
 					},
 						{
-						"name": "Communitcation Satellites",
+						"name": "Communication Satellites",
 						"row": 4,
 						"prerequisites": ["Rocket Science","Computing"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
@@ -849,7 +849,7 @@
 						{
 						"name": "Military Laser",
 						"row": 5,
-						"prerequisites": ["Covert Operations"],
+						"prerequisites": ["Covert Ops"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
@@ -872,7 +872,7 @@
 						{
 						"name": "Future Tech",
 						"row": 5,
-						"prerequisites": ["Nuclear Fusion","Exosuit","Military Laser","Neural Implant"],
+						"prerequisites": ["Fusion Reactor","Exosuit","Military Laser","Neural Implant"],
 						"uniques": ["Can be continually researched"],
 						"quote": "",
                 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
