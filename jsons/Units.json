@@ -1,11 +1,95 @@
 [
 	//Ancient
 	{
-		"name": "Assyrian Raider",
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 45,
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Runner",//Harappans
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 8,
+		"cost": 45,
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <if [The Harappans] is constructed>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Tribe",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 25,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Warrior",
+		"uniques" : ["May upgrade to [Warrior] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 19,
+		"cost": 45,
+		"obsoleteTech": "City Defence",
+		"upgradesTo": "Warrior",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 17,
+		"cost": 90,
+		"requiredTech": "Carpentry",
+		"obsoleteTech": "War Summons",
+		"upgradesTo": "Crosbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Scout Rider",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 15,
-		"cost": 75,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Domestication",
+		"requiredResource": "Horses",
+		"upgradesTo": "Horseman",
+		"obsoleteTech": "Mounted Warfare",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Assyrian Raider",//Assyrians
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 21,
+		"cost": 90,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
@@ -16,44 +100,53 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Runner",
-		"unitType": "Scout",
-		"movement": 2,
-		"strength": 5,
-		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]","May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <if [The Harappans] is constructed>"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
-	},
-
-
-	//Classical
-	{
-		"name": "Shotelai",
+		"name": "Spearman",
 		"unitType": "Sword",
-		"movement": 3,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"uniques": ["Ignores Zone of Control", "Only available <if [The Aksumites] is constructed>"],
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "War Summons",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],//Can convert to Persian+Greek UU
+		"attackSound": "metalhit"
+	},
+	//Battering Ram
+
+	//CLASSICAL
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 26,
+		"cost": 90,
 		"requiredResource": "Iron",
+		"requiredTech": "Standing Army",
+		"upgradesTo": "Great Swordsman", //Can convert to Roman UU
+		"obsoleteTech": "Heavy Infantry",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Heavy War Elephant",
+		"name": "Horseman",
 		"unitType": "Mounted",
-		"movement": 3,
-		"strength": 13,
-		"cost": 100,
-		"requiredTech": "Horseback Riding",
+		"movement": 4,
+		"strength": 26,
+		"cost": 180,
+		"requiredTech": "Mounted Warfare",
+		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>","[+33]% Strength <vs [Wounded] units>", "Only available <if [The Carthaginians] is constructed>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
-		"attackSound": "elephant"
+		"attackSound": "horse"
 	},
+	//Ballista
+
+	//MEDIEVAL
+	
+	
+
+
+	
 ]
