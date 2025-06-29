@@ -144,7 +144,7 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
   	{
-		"name": "Salpetre",
+		"name": "Saltpetre",
 		"resourceType": "Strategic",
 		"revealedBy": "Gunpowder Warfare",
 		"terrainsCanBeFoundOn": ["Prairie","Dry Grass","Hill","Jungle","Forest","Marsh"],
