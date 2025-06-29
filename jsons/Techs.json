@@ -386,7 +386,7 @@
 						"quote": ""
 					},
 						{
-						"name": "Patronage",
+						"name": "Humanism",
 						"row": 7,
 						"prerequisites": ["Centralised Power"],
                 				"uniques": ["[+100]% weight to this choice for AI decisions"],
