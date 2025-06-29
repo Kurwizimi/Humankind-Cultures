@@ -47,7 +47,7 @@
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Dry Grass","Flood Dry Grass","Desert"], // Desert only if fresh water
+		"terrainsCanBeFoundOn": ["Dry Grass","Flood plains","Desert"], // Desert only if fresh water
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Dry Grass}] tiles>",
@@ -292,9 +292,9 @@
             				"Generated with weight [5] <in [Hybrid] Regions>",
             				"Generated near City States with weight [5]",
             				"Doesn't generate naturally <in [Tundra] tiles>",
-            				"Doesn't generate naturally <in [Flood Dry Grass] tiles>",
+            				"Doesn't generate naturally <in [Flood plains] tiles>",
             				"Doesn't generate naturally <in [Desert] tiles>",
-            				"Doesn't generate naturally <in [{Desert} {non-[Flood Dry Grass]} {non-[Hill]}] tiles>",
+            				"Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             				"Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             				"Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"]
    	},
@@ -313,9 +313,9 @@
             				"Generated with weight [5] <in [Hybrid] Regions>",
             				"Generated near City States with weight [5]",
             				"Doesn't generate naturally <in [Tundra] tiles>",
-            				"Doesn't generate naturally <in [Flood Dry Grass] tiles>",
+            				"Doesn't generate naturally <in [Flood plains] tiles>",
             				"Doesn't generate naturally <in [Desert] tiles>",
-            				"Doesn't generate naturally <in [{Desert} {non-[Flood Dry Grass]} {non-[Hill]}] tiles>",
+            				"Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             				"Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             				"Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"]
     },
@@ -417,7 +417,7 @@
 	{
 		"name": "Incense",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Dry Grass","Desert","Flood Dry Grass"],
+		"terrainsCanBeFoundOn": ["Dry Grass","Desert","Flood plains"],
 		"gold": 1,
 		"faith": 1,
 		"improvement": "Plantation",
@@ -509,7 +509,7 @@
 	{
 		"name": "Papyrus",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Prairie","Flood Dry Grass"],
+		"terrainsCanBeFoundOn": ["Prairie","Flood plains"],
 		"science": 1,
 		"food": 1,
 		"improvement": "Plantation",
