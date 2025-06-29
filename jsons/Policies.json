@@ -8,7 +8,7 @@
                             {
                             "name": "Founding Myth",
                             "uniques": [
-					"Comment[By what right do we rule?]"],
+					"Comment [By what right do we rule?]"],
 			    "row": 1,
                             "column": 2
                         },
@@ -30,7 +30,7 @@
                             {
                             "name": "Legitimacy",
                             "uniques": [
-					"Comment[What style of laws does the empire use?]"],
+					"Comment [What style of laws does the empire use?]"],
 			    "row": 3,
                             "column": 2
                         },
@@ -52,7 +52,7 @@
                             {
                             "name": "Army Composition",
                             "uniques": [
-					"Comment[Who should fight for the empire?]"],
+					"Comment [Who should fight for the empire?]"],
 			    "row": 4,
                             "column": 2
                         },
@@ -74,7 +74,7 @@
                             {
                             "name": "Religious Rites",
                             "uniques": [
-					"Comment[Should religious rites be communal or personal?]"],
+					"Comment [Should religious rites be communal or personal?]"],
 			    "row": 6,
                             "column": 2
                         },
@@ -96,7 +96,7 @@
                             {
                             "name": "Cultural Blessing",
                             "uniques": [
-					"Comment[What attitude should we have to outsider cultures?]"],
+					"Comment [What attitude should we have to outsider cultures?]"],
 			    "row": 8,
                             "column": 2
                         },
@@ -118,7 +118,7 @@
                             {
                             "name": "Fundamental Values",
                             "uniques": [
-					"Comment[Is the empire's first concern citizens' security or happiness?]"],
+					"Comment [Is the empire's first concern citizens' security or happiness?]"],
 			    "row": 9,
                             "column": 2
                         },
@@ -140,7 +140,7 @@
                             {
                             "name": "Slaves",
                             "uniques": [
-					"Comment[How do we procure slaves?]"],
+					"Comment [How do we procure slaves?]"],
 			    "row": 11,
                             "column": 2
                         },
@@ -176,7 +176,7 @@
                             {
                             "name": "Leadership",
                             "uniques": [
-					"Comment[How do we lead?]"],
+					"Comment [How do we lead?]"],
 			    "row": 1,
                             "column": 2
                         },
@@ -198,7 +198,7 @@
 		     	    {
                             "name": "Political Entitlement",
                             "uniques": [
-					"Comment[What political system does the small council support?]"], //Only available if S. Council is picked for leadership
+					"Comment [What political system does the small council support?]"], //Only available if S. Council is picked for leadership
 			    "row": 2,
                             "column": 2
                         },
@@ -220,7 +220,7 @@
                             {
                             "name": "Punishment",
                             "uniques": [
-					"Comment[How should ordinary crimes be punished?]"],
+					"Comment [How should ordinary crimes be punished?]"],
 			    "row": 3,
                             "column": 2
                         },
@@ -242,7 +242,7 @@
                             {
                             "name": "Independent Peoples",
                             "uniques": [
-					"Comment[How should we use other peoples?]"],
+					"Comment [How should we use other peoples?]"],
 			    "row": 4,
                             "column": 2
                         },
@@ -264,7 +264,7 @@
 		     	    {
                             "name": "Army Wages",
                             "uniques": [
-					"Comment[How should we finance our armies?]"],
+					"Comment [How should we finance our armies?]"],
 			    "row": 5,
                             "column": 2
                         },
@@ -286,7 +286,7 @@
                             {
                             "name": "Religious Tolerance",
                             "uniques": [
-					"Comment[What is the Empire's outlook on other religions?]"],
+					"Comment [What is the Empire's outlook on other religions?]"],
 			    "row": 6,
                             "column": 2
                         },
@@ -308,7 +308,7 @@
                             {
                             "name": "Knowledge Authorities",
                             "uniques": [
-					"Comment[Who has the biggest influence on our empire's knowledge?]"],
+					"Comment [Who has the biggest influence on our empire's knowledge?]"],
 			    "row": 9,
                             "column": 2
                         },
@@ -330,7 +330,7 @@
                             {
                             "name": "Citizenship",
                             "uniques": [
-					"Comment[Should citizenship be universal or for selected groups?]"],
+					"Comment [Should citizenship be universal or for selected groups?]"],
 			    "row": 11,
                             "column": 2
                         },
@@ -352,7 +352,7 @@
 		    	    {
                             "name": "Colonisation",
                             "uniques": [
-					"Comment[What model should we employ four our cities on foreign shores?]"],
+					"Comment [What model should we employ four our cities on foreign shores?]"],
 			    "row": 12,
                             "column": 2
                         },
@@ -387,7 +387,7 @@
                             {
                             "name": "Political Influence",
                             "uniques": [
-					"Comment[Who has the ear of the autarch?]"],
+					"Comment [Who has the ear of the autarch?]"],
 			    "row": 1,
                             "column": 2
                         },
@@ -408,7 +408,7 @@
 		    		{
                             "name": "Monarchy Power",
                             "uniques": [
-					"Comment[What type of monarchy is this?]"],
+					"Comment [What type of monarchy is this?]"],
 			    "row": 2,
                             "column": 2
                         },
@@ -430,7 +430,7 @@
                             {
                             "name": "Judicial Control",
                             "uniques": [
-					"Comment[How is the justice system overseen?]"],
+					"Comment [How is the justice system overseen?]"],
 			    "row": 3,
                             "column": 2
                         },
@@ -452,7 +452,7 @@
                             {
                             "name": "Unbelievers",
                             "uniques": [
-					"Comment[What should we do with the unfaithful?]"],
+					"Comment [What should we do with the unfaithful?]"],
 			    "row": 6,
                             "column": 2
                         },
@@ -473,7 +473,7 @@
 		    	    {
                             "name": "Religious Minorities",
                             "uniques": [
-					"Comment[Should religious minorities pay tribute?]"],
+					"Comment [Should religious minorities pay tribute?]"],
 			    "row": 7,
                             "column": 2
                         },
@@ -495,7 +495,7 @@
                             {
                             "name": "Artistic Expression",
                             "uniques": [
-					"Comment[Should artists be subject to censorship or given free reign of expression?]"],
+					"Comment [Should artists be subject to censorship or given free reign of expression?]"],
 			    "row": 8,
                             "column": 2
                         },
@@ -517,7 +517,7 @@
                             {
                             "name": "Land Rights",
                             "uniques": [
-					"Comment[Does the Land belong to the empire or the People?]"],
+					"Comment [Does the Land belong to the empire or the People?]"],
 			    "row": 9,
                             "column": 2
                         },
@@ -552,7 +552,7 @@
                             {
                             "name": "Republic Evolution",
                             "uniques": [
-					"Comment[Should there be a diversity of poltical representation?]"],
+					"Comment [Should there be a diversity of poltical representation?]"],
 			    "row": 1,
                             "column": 2
                         },
@@ -574,7 +574,7 @@
                             {
                             "name": "Capital Punishment -1",
                             "uniques": [
-					"Comment[What should the death penalty be replaced with?]"],
+					"Comment [What should the death penalty be replaced with?]"],
 			    "row": 3,
                             "column": 2
                         },
@@ -595,7 +595,7 @@
 		    {
                             "name": "Capital Punishment -2",
                             "uniques": [
-					"Comment[What should the death penalty be replaced with?]"],
+					"Comment [What should the death penalty be replaced with?]"],
 			    "row": 4,
                             "column": 2
                         },
@@ -617,7 +617,7 @@
                             {
                             "name": "Artistic Ownership",
                             "uniques": [
-					"Comment[Who determines what is considered art?]"],
+					"Comment [Who determines what is considered art?]"],
 			    "row": 8,
                             "column": 2
                         },
@@ -639,7 +639,7 @@
                             {
                             "name": "Materials Procurement",
                             "uniques": [
-					"Comment[How should we secure necessary resources?]"],
+					"Comment [How should we secure necessary resources?]"],
 			    "row": 9,
                             "column": 2
                         },
@@ -674,7 +674,7 @@
                             {
                             "name": "Aristocracy Evolution",
                             "uniques": [
-					"Comment[Whose political interests should be represented?]"],
+					"Comment [Whose political interests should be represented?]"],
 			    "row": 1,
                             "column": 2
                         },
@@ -696,7 +696,7 @@
                             {
                             "name": "Conquered Empires",
                             "uniques": [
-					"Comment[What is our outlook on conquests?]"],
+					"Comment [What is our outlook on conquests?]"],
 			    "row": 4,
                             "column": 2
                         },
@@ -718,7 +718,7 @@
                             {
                             "name": "Irreligion",
                             "uniques": [
-					"Comment[What kind of irreligious society do we want?]"],
+					"Comment [What kind of irreligious society do we want?]"],
 			    "row": 6,
                             "column": 2
                         },
@@ -739,7 +739,7 @@
 		     		{
                             "name": "Scientific Facts",
                             "uniques": [
-					"Comment[What is the response to empirical findings that contradict religious truths?]"],
+					"Comment [What is the response to empirical findings that contradict religious truths?]"],
 			    "row": 7,
                             "column": 2
                         },
@@ -761,7 +761,7 @@
                             {
                             "name": "Press Freedom",
                             "uniques": [
-					"Comment[Should the news be controlled by the government?]"],
+					"Comment [Should the news be controlled by the government?]"],
 			    "row": 8,
                             "column": 2
                         },
@@ -783,7 +783,7 @@
                             {
                             "name": "International Trading",
                             "uniques": [
-					"Comment[What is our guiding foreign economic policy?]"],
+					"Comment [What is our guiding foreign economic policy?]"],
 			    "row": 9,
                             "column": 2
                         },
@@ -804,7 +804,7 @@
 		    		{
                             "name": "Industrial Production",
                             "uniques": [
-					"Comment[Who should own our most important industries?]"],
+					"Comment [Who should own our most important industries?]"],
 			    "row": 10,
                             "column": 2
                         },
@@ -826,7 +826,7 @@
                             {
                             "name": "Children's Rights",
                             "uniques": [
-					"Comment[What are the empire's children entitled to?]"],
+					"Comment [What are the empire's children entitled to?]"],
 			    "row": 11,
                             "column": 2
                         },
@@ -861,7 +861,7 @@
                             {
                             "name": "Political Control",
                             "uniques": [
-					"Comment[How should political opposition be uncovered?]"],
+					"Comment [How should political opposition be uncovered?]"],
 			    "row": 3,
                             "column": 2
                         },
@@ -883,7 +883,7 @@
                             {
                             "name": "Nuclear Weapons",
                             "uniques": [
-					"Comment[What is our stance on nuclear weapons?]"],
+					"Comment [What is our stance on nuclear weapons?]"],
 			    "row": 4,
                             "column": 2
                         },
@@ -905,7 +905,7 @@
                             {
                             "name": "Foreign Customs",
                             "uniques": [
-					"Comment[Are others' customs to be honored or dismantled?]"],
+					"Comment [Are others' customs to be honored or dismantled?]"],
 			    "row": 8,
                             "column": 2
                         },
@@ -927,7 +927,7 @@
                             {
                             "name": "Working Conditions",
                             "uniques": [
-					"Comment[Do you prioritise our workers' or our companies' wellbeing?]"],
+					"Comment [Do you prioritise our workers' or our companies' wellbeing?]"],
 			    "row": 9,
                             "column": 2
                         },
