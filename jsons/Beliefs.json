@@ -18,7 +18,7 @@
         {
         "name": "Hunt the Infidels",
         "type": "Pantheon",
-        "uniques": ["[+10]% Strength <for [All] units> <when attackings>"]
+        "uniques": ["[+10]% Strength <for [All] units> <when attacking>"]
     },
          {
         "name": "Reject Luxury",
@@ -103,7 +103,7 @@
          {
         "name": "Eschew Gluttony",
         "type": "Founder",
-        "uniques": ["[+1] Movement <for [All] units", "[+10]% Production when constructing [Military] units [in all cities]"]
+        "uniques": ["[+1] Movement <for [All] units>", "[+10]% Production when constructing [Military] units [in all cities]"]
     },
 
   //ENHANCER - Tier FOUR
