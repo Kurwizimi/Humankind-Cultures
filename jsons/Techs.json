@@ -252,7 +252,7 @@
 						"name": "Feudalism",
 						"row": 6,
 						"prerequisites": ["Imperial Power"],
-                				"uniques": ["[+1 Food] from [improved] tiles"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
