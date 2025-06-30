@@ -2,7 +2,7 @@
             {
             "name": "Ancient Civics",
             "era": "Ancient era",
-	    "uniques": ["Adopt [Founding Myth]","Adopt [Legitimacy]","Adopt [Army Composition]","Adopt [religious Rites]","Adopt [Cultural Blessing]","Adopt [Fundemental Values]","Adopt [Slaves]",],
+	    "uniques": ["Adopt [Founding Myth]","Adopt [Legitimacy]","Adopt [Army Composition]","Adopt [Religious Rites]","Adopt [Cultural Blessing]","Adopt [Fundamental Values]","Adopt [Slaves]"],
             "policies": [
                             //POLITICAL
                             {
