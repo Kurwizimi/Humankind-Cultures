@@ -163,7 +163,7 @@
 	{
 		"name": "Temple",
 		"faith": 2,
-		"requiredBuilding": "Shrine",
+		"requiredBuilding": "Holy Site",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Only available <when religion is enabled>"]
