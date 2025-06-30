@@ -634,6 +634,37 @@
 		"requiredBuilding": "Aqueduct",
 		"requiredTech": "Social Housing"
 	},
+	{
+		"name": "Space Station",
+		"cost": 2500,
+		"isNationalWonder": true,
+		"uniques": ["Triggers a global alert upon completion", 
+			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
+		"requiredTech": "Rocket Science"
+	},
+	{
+		"name": "Moon Lander",
+		"cost": 2500,
+		"isNationalWonder": true,
+		"uniques": ["Triggers a global alert upon completion", 
+			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
+		"requiredTech": "Communication Satellites"
+	},
+	{
+		"name": "Mars Colony",
+		"cost": 2500,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", 
+			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
+		"requiredTech": "Fusion Reactor"
+	},
+	{
+		"name": "Utopia Project",
+		"cost": 2500,
+		"isNationalWonder": true,
+		"uniques": ["Unavailable <when number of [Adopted [All] Policies] is less than [34]>", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
+	},
 	
 
 
