@@ -6,7 +6,7 @@
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Warrior",
+        "startingMilitaryUnit": "Tribe",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
