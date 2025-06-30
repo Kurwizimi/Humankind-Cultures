@@ -16,6 +16,13 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
+		"name": "Holy Site",
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Calendar",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
 		"name": "Animal Barns",
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
@@ -129,6 +136,14 @@
 	},
 
 	//CLASSICAL
+	{
+		"name": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
 	{
 		"name": "Artificial Reservoirs",
 		"hurryCostModifier": 25,
