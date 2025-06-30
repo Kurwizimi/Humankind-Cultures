@@ -14,14 +14,14 @@
                         },
                             {
                             "name": "Natural Right",
-                            "uniques": [
+                            "uniques": [ "[+5 Culture] [in capital]",
 					"Unavailable <after adopting [Divine Mandate]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Divine Mandate",
-                            "uniques": [
+                            "uniques": ["[+1 Faith] [in all cities]",
 					"Unavailable <after adopting [Natural Right]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 5
@@ -36,14 +36,14 @@
                         },
                             {
                             "name": "Codified Laws",
-                            "uniques": [
+                            "uniques": ["[+10]% Production when constructing [All] buildings [in all cities]",
 					"Unavailable <after adopting [Customary Laws]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Customary Laws",
-                            "uniques": [
+                            "uniques": ["[+25]% Production when constructing [Settler] units [in capital]",
 					"Unavailable <after adopting [Codified Laws]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 5
@@ -58,14 +58,14 @@
                         },
                             {
                             "name": "Conscripts",
-                            "uniques": [
+                            "uniques": ["[+15]% Production when constructing [Melee] units [in all cities]",
 					"Unavailable <after adopting [Professional Soldiers]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Professional Soldiers",
-                            "uniques": [
+                            "uniques": ["[+10]% Strength <for [Melee] units> <when adjacent to a [Military] unit>",
 					"Unavailable <after adopting [Conscripts]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 5
@@ -80,14 +80,14 @@
                         },
                             {
                             "name": "Communal Rites",
-                            "uniques": [
+                            "uniques": ["[+2 Happiness] [in all cities]",
 					"Unavailable <after adopting [Personal Rites]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
                         },
                             {
                             "name": "Personal Rites",
-                            "uniques": [
+                            "uniques": ["[+30]% Production when constructing [Faith] buildings [in all cities]",
 					"Unavailable <after adopting [Communal Rites]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 5
@@ -102,14 +102,14 @@
                         },
                             {
                             "name": "Monoculturalism",
-                            "uniques": [
+                            "uniques": ["[+10 Culture] [in capital]",
 					"Unavailable <after adopting [Multiculturalism]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 1
                         },
                             {
                             "name": "Multiculturalism",
-                            "uniques": [
+                            "uniques": ["[+1 Culture] [in all cities]","[+2 Culture] [in annexed cities]",
 					"Unavailable <after adopting [Monoculturalism]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 5
@@ -124,14 +124,14 @@
                         },
                             {
                             "name": "Public Happiness",
-                            "uniques": [
+                            "uniques": ["[+1 Happiness] from all [Production] buildings",
 					"Unavailable <after adopting [Public Security]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Public Security",
-                            "uniques": [
+                            "uniques": ["[+5 Happiness] [in all cities with a garrison]",
 					"Unavailable <after adopting [Public Happiness]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 5
@@ -146,14 +146,14 @@
                         },
                             {
                             "name": "Criminal Slaves",
-                            "uniques": [
+                            "uniques": ["[+2 Happiness, +2 Food, +2 Production] [in all cities]",
 					"Unavailable <after adopting [War Slaves]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 1
                         },
                             {
                             "name": "War Slaves",
-                            "uniques": [
+                            "uniques": ["[+5 Food] from every [Farmer] <when at war","[+5 Production] from every [Engineer] <when at war",
 					"Unavailable <after adopting [Criminal Slaves]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 5
