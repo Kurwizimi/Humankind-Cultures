@@ -182,14 +182,14 @@
                         },
                             {
                             "name": "Small Council",
-                            "uniques": [
+                            "uniques": ["[+1]% [Food] from every [All]", "[+1]% [Production] from every [All]", "[+1]% [Gold] from every [All]", "[+1]% [Science] from every [All]",
 					"Unavailable <after adopting [Autarch]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Autarch",
-                            "uniques": [
+                            "uniques": ["[+20]% [Food] [in capital]","[+20]% [Production] [in capital]","[+20]% [Gold] [in capital]","[+20]% [Science] [in capital]",
 					"Unavailable <after adopting [Small Council]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 5
@@ -203,7 +203,7 @@
                             "column": 3
                         },
                             {
-                            "name": "Aristocracy - C",
+                            "name": "Aristocracy - C",//NEED DO
                             "uniques": [
 					"Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic"],
 			    "row": 2,
@@ -226,14 +226,14 @@
                         },
                             {
                             "name": "Physical Punishment",
-                            "uniques": [
+                            "uniques": ["[+1 Happiness] per [4] population [in all cities]",
 					"Unavailable <after adopting [Forfeiture]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Forfeiture",
-                            "uniques": [
+                            "uniques": ["[+1 Gold] per [1] population [in all cities]",
 					"Unavailable <after adopting [Physical Punishment]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 5
@@ -248,14 +248,14 @@
                         },
                             {
                             "name": "Assimilated Peoples",
-                            "uniques": [
+                            "uniques": ["[-25]% City-State Influence degradation",
 					"Unavailable <after adopting [Mercenary Armies]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Mercenary Armies",
-                            "uniques": [
+                            "uniques": ["[+30]% Strength <vs [City-States]>",
 					"Unavailable <after adopting [Assimilated Peoples]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 5
@@ -270,14 +270,14 @@
                         },
                             {
                             "name": "Paid Wages",
-                            "uniques": [
+                            "uniques": ["[+2 Happiness] [in all cities with a garrison]","[+10 Happiness] [in annexed cities]",
 					"Unavailable <after adopting [Plundered Wages]> <hidden from users>", "Martial Civic"],
 			    "row": 5,
                             "column": 1
                         },
                             {
                             "name": "Plundered Wages",
-                            "uniques": [
+                            "uniques": ["[+100]% Yield from pillaging tiles <for [All} units>",
 					"Unavailable <after adopting [Paid Wages]> <hidden from users>", "Martial Civic"],
 			    "row": 5,
                             "column": 5
@@ -292,14 +292,14 @@
                         },
                             {
                             "name": "Open-Minded",
-                            "uniques": [
+                            "uniques": ["[+1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+1 Culture] per [2] population [in all cities] <in cities following a [your] religion>",
 					"Unavailable <after adopting [Religious Hostility]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
                         },
                             {
                             "name": "Religious Hostility",
-                            "uniques": [
+                            "uniques": ["[-1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+10 Faith] [in all cities]", //Extra strength against other religions
 					"Unavailable <after adopting [Open-Minded]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 5
@@ -314,14 +314,14 @@
                         },
                             {
                             "name": "Elders' Wisdom",
-                            "uniques": [
+                            "uniques": ["[+1 Happiness] from every [Researcher]",
 					"Unavailable <after adopting [Foreign Innovations]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Foreign Innovations",
-                            "uniques": [
+                            "uniques": ["[+1 Science] from every [Luxury resource]","[-1 Happiness] from every [Bonus resource]",
 					"Unavailable <after adopting [Elders' Wisdom]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 5
@@ -336,14 +336,14 @@
                         },
                             {
                             "name": "Universal Citizenship",
-                            "uniques": [
+                            "uniques": ["[+2 Happiness] [in all cities connected to capital]",
 					"Unavailable <after adopting [Select Citizenship]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 1
                         },
                             {
                             "name": "Select Citizenship",
-                            "uniques": [
+                            "uniques": ["[+10 Happiness] [in capital]",
 					"Unavailable <after adopting [Universal Citizenship]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 5
@@ -358,14 +358,14 @@
                         },
                             {
                             "name": "Vassal Colonies",
-                            "uniques": [
+                            "uniques": ["[-10 Happiness] [in all cities] <on foreign continents>","[+10 Food] [in all cities] <on foreign continents>","[+10 Production] [in all cities] <on foreign continents>","[+10 Gold] [in all cities] <on foreign continents>","[+10 Science] [in all cities] <on foreign continents>",
 					"Unavailable <after adopting [Naturalized Colonies]> <hidden from users>", "Social Civic"],
 			    "row": 12,
                             "column": 1
                         },
                             {
                             "name": "Naturalized Colonies",
-                            "uniques": [
+                            "uniques": ["[+10 Happiness] [in all cities] <on foreign continents>",
 					"Unavailable <after adopting [Vassal Colonies]> <hidden from users>", "Social Civic"],
 			    "row": 12,
                             "column": 5
@@ -385,7 +385,7 @@
             "policies": [
                             //POLITICAL
                             {
-                            "name": "Political Influence",
+                            "name": "Political Influence",//NEED DO
                             "uniques": [
 					"Comment [Who has the ear of the autarch?]"],
 			    "row": 1,
@@ -501,14 +501,14 @@
                         },
                             {
                             "name": "Free Arts",
-                            "uniques": [
+                            "uniques": ["[+20]% [Culture] from every [Culture]",
 					"Unavailable <after adopting [Censored Arts]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 1
                         },
                             {
                             "name": "Censored Arts",
-                            "uniques": [
+                            "uniques": ["[-20]% Unhappiness from [Population] [in all cities]", "[+20]% unhappiness from the number of cities",
 					"Unavailable <after adopting [Free Arts]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 5
@@ -523,14 +523,14 @@
                         },
                             {
                             "name": "Communal Land",
-                            "uniques": [
+                            "uniques": ["[+1 Gold] from every [Farm]","[+1 Food] from every [Plantation]", "[+2 Happiness] [in all cities]",
 					"Unavailable <after adopting [Inherited Land]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Inherited Land",
-                            "uniques": [
+                            "uniques": ["[+1 Food] from every [Farm]","[+1 Gold] from every [Plantation]", "[+2 Culture] [in all cities]",
 					"Unavailable <after adopting [Communal Land]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 5
@@ -550,7 +550,7 @@
             "policies": [
                             //POLITICAL
                             {
-                            "name": "Republic Evolution",
+                            "name": "Republic Evolution",//NEED DO
                             "uniques": [
 					"Comment [Should there be a diversity of poltical representation?]"],
 			    "row": 1,
@@ -645,14 +645,14 @@
                         },
                             {
                             "name": "Seize Resources",
-                            "uniques": [
+                            "uniques": ["[+2] Happiness from each type of luxury resource",
 					"Unavailable <after adopting [Trade Resources]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Trade Resources",
-                            "uniques": [
+                            "uniques": ["[+4 Gold] from each Trade Route",
 					"Unavailable <after adopting [Seize Resources]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 5
@@ -672,7 +672,7 @@
             "policies": [
                             //POLITICAL
                             {
-                            "name": "Aristocracy Evolution",
+                            "name": "Aristocracy Evolution",//NEED DO
                             "uniques": [
 					"Comment [Whose political interests should be represented?]"],
 			    "row": 1,
@@ -702,14 +702,14 @@
                         },
                             {
                             "name": "Anti-Imperialists",
-                            "uniques": [
+                            "uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
 					"Unavailable <after adopting [Imperialists]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Imperialists",
-                            "uniques": [
+                            "uniques": ["[+20]% Strength <for [10] turns> <upon declaring war with a major Civilization>",
 					"Unavailable <after adopting [Anti-Imperialists]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 5
@@ -724,14 +724,14 @@
                         },
                             {
                             "name": "Secularism",
-                            "uniques": [
+                            "uniques": ["[+5 Gold] from every [Faith]", "[-10 Faith] [in capital]",
 					"Unavailable <after adopting [State Atheism]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
                         },
                             {
                             "name": "State Atheism",
-                            "uniques": [
+                            "uniques": ["[+2 Culture] from every [Faith]", "[-5 Faith] [in all cities]",
 					"Unavailable <after adopting [Secularism]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 5
@@ -745,14 +745,14 @@
                         },
                             {
                             "name": "Literalism",
-                            "uniques": [
+                            "uniques": ["[+15]% [Faith] from every [Science]",
 					"Unavailable <after adopting [Compatibilism]> <hidden from users>", "Religious Civic"],
 			    "row": 7,
                             "column": 1
                         },
                             {
                             "name": "Compatibilism",
-                            "uniques": [
+                            "uniques": ["[+15]% [Science] from every [Faith]",
 					"Unavailable <after adopting [Literalism]> <hidden from users>", "Religious Civic"],
 			    "row": 7,
                             "column": 5
@@ -767,14 +767,14 @@
                         },
                             {
                             "name": "Freedom of Speech",
-                            "uniques": [
+                            "uniques": ["[-20]% Culture cost of adopting new Policies",
 					"Unavailable <after adopting [Propaganda]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 1
                         },
                             {
                             "name": "Propaganda",
-                            "uniques": [
+                            "uniques": ["[-10]% Unhappiness from [Population] [in all cities]",
 					"Unavailable <after adopting [Freedom of Speech]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 5
@@ -789,14 +789,14 @@
                         },
                             {
                             "name": "Isolationism",
-                            "uniques": [
+                            "uniques": ["[+1 Production, +1 Gold] from every [Luxury resource]", "[+1 Production, +1 Gold] from every [Strategic resource]", "[-5 Happiness] [in all cities] <for [5] turns> <upon declaring friendship>",
 					"Unavailable <after adopting [Globalism]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Globalism",
-                            "uniques": [
+                            "uniques": ["[+4 Happiness] [in all cities] <for [10] turns> <upon declaring friendship>",
 					"Unavailable <after adopting [Isolationism]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 5
@@ -810,14 +810,14 @@
                         },
                             {
                             "name": "Nationalized Industries",
-                            "uniques": [
+                            "uniques": ["[+10]% [Food] [in all cities]","[+2 Food] from every [Farmer]",
 					"Unavailable <after adopting [Privatized Industries]> <hidden from users>", "Economic Civic"],
 			    "row": 10,
                             "column": 1
                         },
                             {
                             "name": "Privatized Industries",
-                            "uniques": [
+                            "uniques": ["[+5]% [Gold] [in all cities]","[+2 Gold] from every [Farmer]",
 					"Unavailable <after adopting [Nationalized Industries]> <hidden from users>", "Economic Civic"],
 			    "row": 10,
                             "column": 5
@@ -832,14 +832,14 @@
                         },
                             {
                             "name": "Child Education",
-                            "uniques": [
+                            "uniques": ["[+2 Science] from every [Researcher]",
 					"Unavailable <after adopting [Child Employment]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 1
                         },
                             {
                             "name": "Child Employment",
-                            "uniques": [
+                            "uniques": ["[+2 Production] from every [Engineer]",
 					"Unavailable <after adopting [Child Education]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 5
@@ -859,7 +859,7 @@
             "policies": [
                         //JUDICIAL
                             {
-                            "name": "Political Control",
+                            "name": "Political Control",//NEED DO
                             "uniques": [
 					"Comment [How should political opposition be uncovered?]"],
 			    "row": 3,
@@ -889,14 +889,14 @@
                         },
                             {
                             "name": "Nuclear Disarmament",
-                            "uniques": [
+                            "uniques": ["[-50]% Production when constructing [Missie] units [in all cities]",
 					"Unavailable <after adopting [Nuclear Proliferation]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Nuclear Proliferation",
-                            "uniques": [
+                            "uniques": ["[+50]% Production when constructing [Missie] units [in all cities]",
 					"Unavailable <after adopting [Nuclear Disarmament]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 5
