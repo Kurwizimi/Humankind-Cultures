@@ -148,7 +148,7 @@
 						 "name": "Trade Expeditions",
 						 "row": 5,
 						 "prerequisites": ["Wheel","Sailing"],
-                				 "uniques": ["[+100]% weight to this choice for AI decisions"],
+                				 "uniques": ["Enables embarkation for land units"],
 				                 "quote": ""
 					},
 						 {
@@ -198,7 +198,7 @@
 						"name": "Mounted Warfare",
 						"row": 8,
 						"prerequisites": ["Standing Army"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+100]% weight to this choice for AI decisions"],//More pillage yeilds
 						"quote": ""
 					}]
 	},
@@ -251,7 +251,7 @@
 						"name": "Feudalism",
 						"row": 6,
 						"prerequisites": ["Imperial Power"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+1 Food] from [improved] tiles"],
 						"quote": ""
 					},
 						{
@@ -382,7 +382,7 @@
 						"name": "Chartered Companies",
 						"row": 5,
 						"prerequisites": ["Three-Masted Ship","Naval Artillery"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+1 Gold] from [Coastal] tiles"],
 						"quote": ""
 					},
 						{
@@ -418,7 +418,7 @@
 						"name": "Mercantalism",
 						"row": 4,
 						"prerequisites": ["Chartered Companies","Humanism"],
-                				"uniques": ["[+200]% weight to this choice for AI decisions"],
+                				"uniques": ["[+200]% weight to this choice for AI decisions"],//Mare pillage yeilds
 						"quote": ""
 					},
 						{
@@ -533,15 +533,16 @@
 						{
 						"name": "Microbiology",
 						"row": 4,
-							"cost": 10250,
+						"cost": 10250,
 						"prerequisites": ["Scientific Method"],
+						"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Happiness] per [1] population [in all cities]"],
 						"quote": ""
 					},
 						{
 						"name": "Electricity",
 						"row": 5,
 						"prerequisites": ["Scientific Method", "Nationhood"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+3 Food] [in all cities] <for every [Coal]>", "[+3 Gold] [in all cities] <for every [Coal]>", "[+3 Production] [in all cities] <for every [Coal]>", "[+3 Science] [in all cities] <for every [Coal]>"],
 						"quote": ""
 					},
 						{
