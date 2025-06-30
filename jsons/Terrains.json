@@ -20,7 +20,7 @@
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
-		"name": "Prairie",
+		"name": "Grassland",
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
@@ -34,18 +34,18 @@
             "Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
             "Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
             "[+3] to Fertility for Map Generation",
-            "A Region is formed with at least [30]% [Prairie] tiles, with priority [7]",
-            "A Region can not contain more [Dry Grass] tiles than [Prairie] tiles",
+            "A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
+            "A Region can not contain more [Plains] tiles than [Grassland] tiles",
             "Considered [Desirable] when determining start locations",
             "Considered [Food] when determining start locations <in [Jungle] Regions>",
             "Considered [Food] when determining start locations <in [Forest] Regions>",
             "Considered [Food] when determining start locations <in [Hill] Regions>",
-            "Considered [Food] when determining start locations <in [Prairie] Regions>",
+            "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{
-		"name": "Dry Grass",
+		"name": "Plains",
 		"type": "Land",
 		"food": 1,
 		"production": 1,
@@ -62,13 +62,13 @@
             "Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
             "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
             "[+4] to Fertility for Map Generation",
-            "A Region is formed with at least [30]% [Dry Grass] tiles, with priority [6]",
-            "A Region can not contain more [Prairie] tiles than [Dry Grass] tiles",
+            "A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
+            "A Region can not contain more [Grassland] tiles than [Plains] tiles",
             "Considered [Desirable] when determining start locations",
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Food] when determining start locations <in [Desert] Regions>",
             "Considered [Food] when determining start locations <in [Hill] Regions>",
-            "Considered [Food] when determining start locations <in [Dry Grass] Regions>",
+            "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -87,7 +87,7 @@
             "A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
-            "Becomes [Dry Grass] when adjacent to [River]",
+            "Becomes [Plains] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -165,7 +165,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Dry Grass","Prairie","Desert","Snow"],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -187,7 +187,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Dry Grass","Prairie","Hill"],
+		"occursOn": ["Tundra","Plains","Grassland","Hill"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -210,7 +210,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Dry Grass","Prairie"],
+		"occursOn": ["Plains","Grassland"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -219,8 +219,8 @@
 			"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",
 			"A Region is formed with at least [35]% [Jungle] tiles and [Forest] tiles, with priority [2]",
 			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
-			"Considered [Food] when determining start locations <in all except [Prairie] Regions>",
-			"Considered [Desirable] when determining start locations <in all except [Prairie] Regions>",
+			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
+			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
@@ -231,7 +231,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
-		"occursOn": ["Prairie"],
+		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature",
 					"[-2] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
@@ -245,7 +245,7 @@
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Prairie","Dry Grass","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
 		"defenceBonus": -0.15
 	},
 	{
