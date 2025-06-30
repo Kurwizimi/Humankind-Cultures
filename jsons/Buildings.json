@@ -3,10 +3,6 @@
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
-		"specialistSlots": {"Farmer": 3},
-		"specialistSlots": {"Engineer": 3},
-		"specialistSlots": {"Trader": 3},
-		"specialistSlots": {"Researcher": 3},
 		"production": 3,
 		"science": 3,
 		"gold": 3,
@@ -14,6 +10,34 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
+	},
+	{
+		"name": "Researcher Hub",
+		"hurryCostModifier": 25,
+		"cost": 1,
+		"specialistSlots": {"Researcher": 3},
+		"uniques": ["Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Unbuildable","Cannot be purchased"],
+	},
+	{
+		"name": "Farmers Hub",
+		"hurryCostModifier": 25,
+		"cost": 1,
+		"specialistSlots": {"Farmer": 3},
+		"uniques": ["Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Unbuildable","Cannot be purchased"],
+	},
+	{
+		"name": "Engineers Hub",
+		"hurryCostModifier": 25,
+		"cost": 1,
+		"specialistSlots": {"Engineer": 3},
+		"uniques": ["Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Unbuildable","Cannot be purchased"],
+	},
+	{
+		"name": "Trader Hub",
+		"hurryCostModifier": 25,
+		"cost": 1,
+		"specialistSlots": {"Trader": 3},
+		"uniques": ["Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Unbuildable","Cannot be purchased"],
 	},
 	{
 		"name": "Holy Site",
