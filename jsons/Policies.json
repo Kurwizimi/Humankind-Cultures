@@ -212,7 +212,7 @@
                             {
                             "name": "Republic",
                             "uniques": [
-					"Unavailable <after adopting [Aristocracy]> <hidden from users>", "Political Civic"],
+					"Unavailable <after adopting [Aristocracy - C]> <hidden from users>", "Political Civic"],
 			    "row": 2,
                             "column": 3
                         },
@@ -394,7 +394,7 @@
                             {
                             "name": "Monarchy",
                             "uniques": [
-					"Unavailable <after adopting [Aristocracy]> <hidden from users>", "Political Civic"],
+					"Unavailable <after adopting [Aristocracy - M]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
