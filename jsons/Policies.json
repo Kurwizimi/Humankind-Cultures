@@ -2,7 +2,7 @@
             {
             "name": "Ancient Civics",
             "era": "Ancient era",
-	    "uniques": [],
+	    "uniques": ["Adopt [Founding Myth]","Adopt [Legitimacy]","Adopt [Army Composition]","Adopt [religious Rites]","Adopt [Cultural Blessing]","Adopt [Fundemental Values]","Adopt [Slaves]",],
             "policies": [
                             //POLITICAL
                             {
@@ -10,7 +10,7 @@
                             "uniques": [
 					"Comment [By what right do we rule?]"],
 			    "row": 1,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Natural Right",
@@ -24,7 +24,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Natural Right]> <hidden from users>", "Political Civic"],
 			    "row": 1,
-                            "column": 3
+                            "column": 5
                         },
                         //JUDICIAL
                             {
@@ -32,7 +32,7 @@
                             "uniques": [
 					"Comment [What style of laws does the empire use?]"],
 			    "row": 3,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Codified Laws",
@@ -46,7 +46,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Codified Laws]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
-                            "column": 3
+                            "column": 5
                         },
                         //Militaristic
                             {
@@ -54,7 +54,7 @@
                             "uniques": [
 					"Comment [Who should fight for the empire?]"],
 			    "row": 4,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Conscripts",
@@ -68,7 +68,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Conscripts]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
-                            "column": 3
+                            "column": 5
                         },
                         //Religious
                             {
@@ -76,7 +76,7 @@
                             "uniques": [
 					"Comment [Should religious rites be communal or personal?]"],
 			    "row": 6,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Communal Rites",
@@ -90,7 +90,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Communal Rites]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
-                            "column": 3
+                            "column": 5
                         },
                             //Cultural
                             {
@@ -98,7 +98,7 @@
                             "uniques": [
 					"Comment [What attitude should we have to outsider cultures?]"],
 			    "row": 8,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Monoculturalism",
@@ -112,7 +112,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Monoculturalism]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
-                            "column": 3
+                            "column": 5
                         },
                           //Economic
                             {
@@ -120,7 +120,7 @@
                             "uniques": [
 					"Comment [Is the empire's first concern citizens' security or happiness?]"],
 			    "row": 9,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Public Happiness",
@@ -134,7 +134,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Public Happiness]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
-                            "column": 3
+                            "column": 5
                         },
                           //Social
                             {
@@ -142,7 +142,7 @@
                             "uniques": [
 					"Comment [How do we procure slaves?]"],
 			    "row": 11,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Criminal Slaves",
@@ -156,7 +156,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Criminal Slaves]> <hidden from users>", "Social Civic"],
 			    "row": 11,
-                            "column": 3
+                            "column": 5
                         },
 			    	{
 				"name": "Ancient Civics Complete",
@@ -178,7 +178,7 @@
                             "uniques": [
 					"Comment [How do we lead?]"],
 			    "row": 1,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Small Council",
@@ -192,7 +192,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Small Council]> <hidden from users>", "Political Civic"],
 			    "row": 1,
-                            "column": 3
+                            "column": 5
                         },
 		    
 		     	    {
@@ -200,7 +200,7 @@
                             "uniques": [
 					"Comment [What political system does the small council support?]"], //Only available if S. Council is picked for leadership
 			    "row": 2,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Aristocracy - C",
@@ -214,7 +214,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Aristocracy - C]> <hidden from users>", "Political Civic"],
 			    "row": 2,
-                            "column": 3
+                            "column": 5
                         },
                         //JUDICIAL
                             {
@@ -222,7 +222,7 @@
                             "uniques": [
 					"Comment [How should ordinary crimes be punished?]"],
 			    "row": 3,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Physical Punishment",
@@ -236,7 +236,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Physical Punishment]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
-                            "column": 3
+                            "column": 5
                         },
                         //Militaristic
                             {
@@ -244,7 +244,7 @@
                             "uniques": [
 					"Comment [How should we use other peoples?]"],
 			    "row": 4,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Assimilated Peoples",
@@ -258,7 +258,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Assimilated Peoples]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
-                            "column": 3
+                            "column": 5
                         },
 
 		     	    {
@@ -266,7 +266,7 @@
                             "uniques": [
 					"Comment [How should we finance our armies?]"],
 			    "row": 5,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Paid Wages",
@@ -280,7 +280,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Paid Wages]> <hidden from users>", "Martial Civic"],
 			    "row": 5,
-                            "column": 3
+                            "column": 5
                         },
                         //Religious
                             {
@@ -288,7 +288,7 @@
                             "uniques": [
 					"Comment [What is the Empire's outlook on other religions?]"],
 			    "row": 6,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Open-Minded",
@@ -302,7 +302,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Open-Minded]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
-                            "column": 3
+                            "column": 5
                         },
                           //Economic
                             {
@@ -310,7 +310,7 @@
                             "uniques": [
 					"Comment [Who has the biggest influence on our empire's knowledge?]"],
 			    "row": 9,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Elders' Wisdom",
@@ -324,7 +324,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Elders' Wisdom]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
-                            "column": 3
+                            "column": 5
                         },
                           //Social
                             {
@@ -332,7 +332,7 @@
                             "uniques": [
 					"Comment [Should citizenship be universal or for selected groups?]"],
 			    "row": 11,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Universal Citizenship",
@@ -346,7 +346,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Universal Citizenship]> <hidden from users>", "Social Civic"],
 			    "row": 11,
-                            "column": 3
+                            "column": 5
                         },
 
 		    	    {
@@ -354,7 +354,7 @@
                             "uniques": [
 					"Comment [What model should we employ four our cities on foreign shores?]"],
 			    "row": 12,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Vassal Colonies",
@@ -368,7 +368,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Vassal Colonies]> <hidden from users>", "Social Civic"],
 			    "row": 12,
-                            "column": 3
+                            "column": 5
                         },
 			    	{
 				"name": "Classical Civics Complete",
@@ -389,7 +389,7 @@
                             "uniques": [
 					"Comment [Who has the ear of the autarch?]"],
 			    "row": 1,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Monarchy",
@@ -403,14 +403,14 @@
                             "uniques": [
 					"Unavailable <after adopting [Monarchy]> <hidden from users>", "Political Civic"],
 			    "row": 1,
-                            "column": 3
+                            "column": 5
                         },
 		    		{
                             "name": "Monarchy Power",
                             "uniques": [
 					"Comment [What type of monarchy is this?]"],
 			    "row": 2,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Absolute Monarchy",
@@ -424,7 +424,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Absolute Monarchy]> <hidden from users>", "Political Civic"],
 			    "row": 2,
-                            "column": 3
+                            "column": 5
                         },
                         //JUDICIAL
                             {
@@ -432,7 +432,7 @@
                             "uniques": [
 					"Comment [How is the justice system overseen?]"],
 			    "row": 3,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Open Inspections",
@@ -446,7 +446,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Open Inspections]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
-                            "column": 3
+                            "column": 5
                         },
                         //Religious
                             {
@@ -454,7 +454,7 @@
                             "uniques": [
 					"Comment [What should we do with the unfaithful?]"],
 			    "row": 6,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Eliminate Unbelievers",
@@ -468,14 +468,14 @@
                             "uniques": [
 					"Unavailable <after adopting [Eliminate Unbelievers]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
-                            "column": 3
+                            "column": 5
                         },
 		    	    {
                             "name": "Religious Minorities",
                             "uniques": [
 					"Comment [Should religious minorities pay tribute?]"],
 			    "row": 7,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Taxed Minorities",
@@ -489,7 +489,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Taxed Minorities]> <hidden from users>", "Religious Civic"],
 			    "row": 7,
-                            "column": 3
+                            "column": 5
                         },
                             //Cultural
                             {
@@ -497,7 +497,7 @@
                             "uniques": [
 					"Comment [Should artists be subject to censorship or given free reign of expression?]"],
 			    "row": 8,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Free Arts",
@@ -511,7 +511,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Free Arts]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
-                            "column": 3
+                            "column": 5
                         },
                           //Economic
                             {
@@ -519,7 +519,7 @@
                             "uniques": [
 					"Comment [Does the Land belong to the empire or the People?]"],
 			    "row": 9,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Communal Land",
@@ -533,7 +533,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Communal Land]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
-                            "column": 3
+                            "column": 5
                         },
 			    	{
 				"name": "Medieval Civics Complete",
@@ -554,7 +554,7 @@
                             "uniques": [
 					"Comment [Should there be a diversity of poltical representation?]"],
 			    "row": 1,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "One-Party State",
@@ -568,7 +568,7 @@
                             "uniques": [
 					"Unavailable <after adopting [One-Party State]> <hidden from users>", "Political Civic"],
 			    "row": 1,
-                            "column": 3
+                            "column": 5
                         },
                         //JUDICIAL
                             {
@@ -576,7 +576,7 @@
                             "uniques": [
 					"Comment [What should the death penalty be replaced with?]"],
 			    "row": 3,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Lifetime Sentence -1",
@@ -590,14 +590,14 @@
                             "uniques": [
 					"Unavailable <after adopting [Lifetime Sentence -1]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
-                            "column": 3
+                            "column": 5
                         },
 		    {
                             "name": "Capital Punishment -2",
                             "uniques": [
 					"Comment [What should the death penalty be replaced with?]"],
 			    "row": 4,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Lifetime Sentence -2",
@@ -611,7 +611,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Lifetime Sentence -2]> <hidden from users>", "Judicial Civic"],
 			    "row": 4,
-                            "column": 3
+                            "column": 5
                         },
                             //Cultural
                             {
@@ -619,7 +619,7 @@
                             "uniques": [
 					"Comment [Who determines what is considered art?]"],
 			    "row": 8,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Academic Artists",
@@ -633,7 +633,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Academic Artists]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
-                            "column": 3
+                            "column": 5
                         },
                           //Economic
                             {
@@ -641,7 +641,7 @@
                             "uniques": [
 					"Comment [How should we secure necessary resources?]"],
 			    "row": 9,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Seize Resources",
@@ -655,7 +655,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Seize Resources]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
-                            "column": 3
+                            "column": 5
                         },
 			    	{
 				"name": "Early Modern Civics Complete",
@@ -676,7 +676,7 @@
                             "uniques": [
 					"Comment [Whose political interests should be represented?]"],
 			    "row": 1,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Oligarchy",
@@ -690,7 +690,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Oligarchy]> <hidden from users>", "Political Civic"],
 			    "row": 1,
-                            "column": 3
+                            "column": 5
                         },
                         //Militaristic
                             {
@@ -698,7 +698,7 @@
                             "uniques": [
 					"Comment [What is our outlook on conquests?]"],
 			    "row": 4,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Anti-Imperialists",
@@ -712,7 +712,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Anti-Imperialists]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
-                            "column": 3
+                            "column": 5
                         },
                         //Religious
                             {
@@ -720,7 +720,7 @@
                             "uniques": [
 					"Comment [What kind of irreligious society do we want?]"],
 			    "row": 6,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Secularism",
@@ -734,14 +734,14 @@
                             "uniques": [
 					"Unavailable <after adopting [Secularism]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
-                            "column": 3
+                            "column": 5
                         },
 		     		{
                             "name": "Scientific Facts",
                             "uniques": [
 					"Comment [What is the response to empirical findings that contradict religious truths?]"],
 			    "row": 7,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Literalism",
@@ -755,7 +755,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Literalism]> <hidden from users>", "Religious Civic"],
 			    "row": 7,
-                            "column": 3
+                            "column": 5
                         },
                             //Cultural
                             {
@@ -763,7 +763,7 @@
                             "uniques": [
 					"Comment [Should the news be controlled by the government?]"],
 			    "row": 8,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Freedom of Speech",
@@ -777,7 +777,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Freedom of Speech]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
-                            "column": 3
+                            "column": 5
                         },
                           //Economic
                             {
@@ -785,7 +785,7 @@
                             "uniques": [
 					"Comment [What is our guiding foreign economic policy?]"],
 			    "row": 9,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Isolationism",
@@ -799,14 +799,14 @@
                             "uniques": [
 					"Unavailable <after adopting [Isolationism]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
-                            "column": 3
+                            "column": 5
                         },
 		    		{
                             "name": "Industrial Production",
                             "uniques": [
 					"Comment [Who should own our most important industries?]"],
 			    "row": 10,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Nationalized Industries",
@@ -820,7 +820,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Nationalized Industries]> <hidden from users>", "Economic Civic"],
 			    "row": 10,
-                            "column": 3
+                            "column": 5
                         },
                           //Social
                             {
@@ -828,7 +828,7 @@
                             "uniques": [
 					"Comment [What are the empire's children entitled to?]"],
 			    "row": 11,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Child Education",
@@ -842,7 +842,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Child Education]> <hidden from users>", "Social Civic"],
 			    "row": 11,
-                            "column": 3
+                            "column": 5
                         },
 			    	{
 				"name": "Industrial Civics Complete",
@@ -863,7 +863,7 @@
                             "uniques": [
 					"Comment [How should political opposition be uncovered?]"],
 			    "row": 3,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "State Surveillance -2",
@@ -877,7 +877,7 @@
                             "uniques": [
 					"Unavailable <after adopting [State Surveillance -2]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
-                            "column": 3
+                            "column": 5
                         },
                         //Militaristic
                             {
@@ -885,7 +885,7 @@
                             "uniques": [
 					"Comment [What is our stance on nuclear weapons?]"],
 			    "row": 4,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Nuclear Disarmament",
@@ -899,7 +899,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Nuclear Disarmament]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
-                            "column": 3
+                            "column": 5
                         },
                             //Cultural
                             {
@@ -907,7 +907,7 @@
                             "uniques": [
 					"Comment [Are others' customs to be honored or dismantled?]"],
 			    "row": 8,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Cultural Respect",
@@ -921,7 +921,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Cultural Respect]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
-                            "column": 3
+                            "column": 5
                         },
                           //Economic
                             {
@@ -929,7 +929,7 @@
                             "uniques": [
 					"Comment [Do you prioritise our workers' or our companies' wellbeing?]"],
 			    "row": 9,
-                            "column": 2
+                            "column": 3
                         },
                             {
                             "name": "Workers' Rights",
@@ -943,7 +943,7 @@
                             "uniques": [
 					"Unavailable <after adopting [Workers' Rights]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
-                            "column": 3
+                            "column": 5
                         },
 			    	{
 				"name": "Contemporary Civics Complete",
