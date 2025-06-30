@@ -178,6 +178,7 @@
 						"name": "Rhetoric",
 						"row": 2,
 						"prerequisites": ["Philosophy"],
+						"uniques": ["Enables conversion of city production to [Science]"],
 						"quote": ""
 					},
 						{
@@ -221,7 +222,7 @@
 						"name": "Imperial Power",
 						"row": 7,
 						"prerequisites": ["Conquest"],
-						"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"uniques": ["Enables Open Borders agreements"],
 						"quote": ""
 					},
 						{
@@ -293,7 +294,7 @@
 						"name": "Military Architecture",
 						"row": 8,
 						"prerequisites": ["Siege Tactics","War Summons"],
-                				"uniques": ["[-50]% weight to this choice for AI decisions"],
+                				"uniques": ["Roads connect tiles across rivers", "Enables Defensive Pacts"],
 						"quote": ""
 					}]
 	},
@@ -316,7 +317,7 @@
 						"name": "Guilds",
 						"row": 5,
 						"prerequisites": ["Seafaring Mastery","Feudalism"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": ["Enables conversion of city production to [Gold]"],
 						"quote": ""
 					},
 						{
@@ -339,7 +340,7 @@
 						"name": "Three-Masted Ship",
 						"row": 3,
 						"prerequisites": ["Seafaring Mastery"],
-               					"uniques": ["[+100]% weight to this choice for AI decisions"],
+               					"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
 						"quote": ""
 					},
 						{
@@ -352,7 +353,7 @@
 						{
 						"name": "Centralised Power",
 						"row": 6,
-						"uniques": ["	"],
+						"uniques": ["Enables Research agreements", "Improves movement speed on roads"],
 						"prerequisites": ["Guilds","Chivalry","Furnace Steel"],
 						"quote": ""
 					},
@@ -396,6 +397,7 @@
 						"name": "Supply Lines",
 						"row": 8,
 						"prerequisites": ["Centralised Power"],
+						"uniques": ["Enables conversion of city production to [Food]"],
 						"quote": ""
 					},
 						{
@@ -512,6 +514,7 @@
 						"row": 6,
 						"cost": 10250,
 						"prerequisites": ["Nationhood"],
+						"uniques": ["[-5 Happiness] [in annexed cities]", "[-5 Happiness] [in puppeted cities]"],
 						"quote": ""
 					}]
 	},
@@ -565,7 +568,7 @@
 						"name": "Combustion Engine",
 						"row": 3,
 						"prerequisites": ["Propeller","Mechanisation"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+1] Movement <for [Embarked] units>"],
 						"quote": ""
 					},
 						{
@@ -637,7 +640,7 @@
 						"name": "Power Lines",
 						"row": 6,
 						"prerequisites": ["Urban Planning"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+3 Food] [in all cities] <for every [Aluminum]>", "[+3 Gold] [in all cities] <for every [Aluminum]>", "[+3 Production] [in all cities] <for every [Aluminum]>", "[+3 Science] [in all cities] <for every [Aluminum]>"],
 						"quote": ""
 					}]
 	},
@@ -653,7 +656,7 @@
 						"name": "Uranium Enrichment",
 						"row": 1,
 						"prerequisites": ["Research Institutes"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+10]% [Science] [in all cities]"],
 						"quote": ""
 					},
 						{
@@ -696,7 +699,7 @@
 						"name": "Suburbs",
 						"row": 6,
 						"prerequisites": ["Free Trade Agreement","Civil Engineering","Power Lines"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+1 Happiness] per [1] population [in all cities]"],
 						"quote": ""
 					},
 						{
@@ -719,7 +722,7 @@
 						"name": "Nuclear Fission",
 						"row": 1,
 						"prerequisites": ["Uranium Enrichment"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+3 Food] [in all cities] <for every [Uranium]>", "[+3 Gold] [in all cities] <for every [Uranium]>", "[+3 Production] [in all cities] <for every [Uranium]>", "[+3 Science] [in all cities] <for every [Uranium]>"],
 						"quote": ""
 					},
 						{
@@ -733,7 +736,7 @@
 						"name": "Computing",
 						"row": 4,
 						"prerequisites": ["Naval Air Strategy", "Radar"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+1 Science] from every [Building]"],
 						"quote": ""
 					},
 						{
@@ -747,7 +750,7 @@
 						"name": "Mass Entertainment",
 						"row": 7,
 						"prerequisites": ["Social Housing", "Suburbs"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+1 Happiness] per [1] population [in all cities]"],
 						"quote": ""
 					}]
 	},
@@ -769,7 +772,7 @@
 						"name": "Communication Satellites",
 						"row": 4,
 						"prerequisites": ["Rocket Science","Computing"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["Reveals the entire map"],
 						"quote": ""
 					},
 						{
@@ -837,28 +840,28 @@
 						"name": "Fusion Reactor",
 						"row": 1,
 						"prerequisites": ["Nuclear Fission"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+50]% [Production] [in all cities]"],
 						"quote": ""
 					},
 						{
 						"name": "Exosuit",
 						"row": 3,
 						"prerequisites": ["Composite Armour"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+20]% Strength <for [Land] units>"],
 						"quote": ""
 					},
 						{
 						"name": "Military Laser",
 						"row": 5,
 						"prerequisites": ["Covert Ops"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+50]% Strength <for [Air] units>"],
 						"quote": ""
 					},
 						{
 						"name": "Neural Implant",
 						"row": 7,
 						"prerequisites": ["World Wide Web"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["[+10 Happiness] [in all cities]"],
 						"quote": ""
 					}]
 	},
