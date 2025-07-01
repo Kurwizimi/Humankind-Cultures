@@ -8,6 +8,15 @@
 		"cost": 70
 	},
 	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Three-Masted Ship]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	},
+	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
