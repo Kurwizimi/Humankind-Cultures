@@ -13,8 +13,7 @@
 	},
 	{
 		"name":"Farmer",
-		"food":6,
-		"greatPersonPoints": {"Great Artist":3},
+		"food":2,
 		"color": [25,180,40]
 	},
 	{
