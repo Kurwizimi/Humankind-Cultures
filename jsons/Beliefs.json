@@ -13,7 +13,7 @@
          {
         "name": "Seek Wisdom",
         "type": "Pantheon",
-        "uniques": ["[+5 Science] from every [Strategic]" ]//+++++ Sci. on religious building
+        "uniques": ["[+5 Science] from every [Strategic resource]" ]//+++++ Sci. on religious building
     },
         {
         "name": "Hunt the Infidels",
@@ -23,7 +23,7 @@
          {
         "name": "Reject Luxury",
         "type": "Pantheon",
-        "uniques": ["[+5 Gold] from every [Luxury]"]//+++++ Gold on religious building
+        "uniques": ["[+5 Gold] from every [Luxury resource]"]//+++++ Gold on religious building
     },
          {
         "name": "Be Virtuous as Water",
@@ -38,7 +38,7 @@
        {
         "name": "Smite Unbelievers",
         "type": "Pantheon",
-        "uniques": ["New [All] units start with [15] XP [in all cities]"]
+        "uniques": ["New [Land] units start with [15] XP [in all cities]"]
     },
 
 //FOLLEWER - Tier TWO
