@@ -911,14 +911,14 @@
                         },
                             {
                             "name": "Cultural Respect",
-                            "uniques": [
+                            "uniques": ["[+15]% [Gold] [in all cities]",
 					"Unavailable <after adopting [Cultural Eradication]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 1
                         },
                             {
                             "name": "Cultural Eradication",
-                            "uniques": [
+                            "uniques": ["+[25]% [Culture] [in all cities]",
 					"Unavailable <after adopting [Cultural Respect]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 5
@@ -933,14 +933,14 @@
                         },
                             {
                             "name": "Workers' Rights",
-                            "uniques": [
+                            "uniques": ["[+10]% [Happiness] from every [Factory]","[+5 Culture] from every [Factory]",
 					"Unavailable <after adopting [Profit-focused]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Profit-focused",
-                            "uniques": [
+                            "uniques": ["[+20]% [Gold] from every [Factory]", "[+50]% Production when constructing [Factory] buildings [in all cities]",
 					"Unavailable <after adopting [Workers' Rights]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 5
