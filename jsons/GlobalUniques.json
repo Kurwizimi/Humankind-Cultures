@@ -14,6 +14,10 @@
 			"[+10]% growth [in all cities] <during We Love The King Day>",
 
 			"[+5] Happiness from each type of luxury resource",
+			"[+1 Culture] [in all cities] <when above [5] Happiness>",
+			"[+2 Culture] [in all cities] <when above [10] Happiness>",
+			"[+10]% [Culture] <when above [20] Happiness>",
+			"[+20]% [Culture] <when above [50] Happiness>",
 
 			//Culture-Swap Events
 			"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <before the [Classical era]> <upon turn end>",
