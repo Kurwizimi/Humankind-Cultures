@@ -42,11 +42,11 @@
 
 
 	//Medieval
-	"[+20]% Production when constructing [All] units [in all citiess] <for [Major] Civilizations> <if [The Mexica] is constructed>",			//Mexica
+	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Mexica] is constructed>",			//Mexica
 	"[+2] Movement <for [All] units> <for [Major] Civilizations> <if [The Mexica] is constructed>",
 
 	"[+2 Gold] from every [Luxury resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",						//Ghanaians
-	"[+1 Gold] from every [Luxury resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",
+	"[+1 Gold] from every [Strategic resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",
 
 
 	//Early Modern
