@@ -175,12 +175,32 @@
 	{
 		"name": "Hanging Gardens",
 		"happiness": 2,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"uniques": ["[+2 Gold, +2 Food] from [Luxury] tiles [in this city]",
 			"Must have an owned [Luxury] within [2] tiles"],
 		"requiredTech": "Irrigation",
-		"quote": "The Hanging Gardens of Babylon! Worth a cooling visit during a hot summer -- regardless of what city they are built in"
+		"quote": "The Hanging Gardens of Babylon! Worth a cooling visit during a hot summer -- regardless of what city they are built in."
+	},
+	{
+		"name": "Stonehenge",
+		"happiness": 2,
+		"faith": 5,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": [" [+2 Food, +1 Culture] <in cities following our religion>","[+10]% [Food] [in holy cities]","[+10]% [Faith] [in holy cities]"],
+		"requiredTech": "Calendar",
+		"quote": "This strange monument called Stonehenge! Most impressive, though the nagging questions remain of 'why' and 'how'…"
+	},
+	{
+		"name": "Temple of Artemis",
+		"happiness": 2,
+		"faith": 2,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[+10] HP when healing <for [All] units>", "[+10]% Strength <for [Archery] units>", "[+10]% Strength <for [Ranged Gunpowder] units>"],
+		"requiredTech": "Writing",
+		"quote": "Congratulations on building The Temple of Artemis! It is a site of worship, most definitely -- even more so if you also worship marble."
 	},
 
 	//CLASSICAL
@@ -276,6 +296,49 @@
 		"uniques": ["[-25]% enemy spy effectiveness [in this city]"],
 		"requiredTech": "Standing Army"
 	},
+	{
+		"name": "Colossus of Rhodes",
+		"happiness": 2,
+		"gold": 2,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+10]% Strength <for [Land] units> <when fighting in [City center] tiles>", "[+10]% Strength <for [All] units> <when adjacent to a [{Military} {Water}] unit>",
+			"Must be next to [Coast]"],
+		"requiredTech": "Trade Expeditions",
+		"quote": "This Colossus is a mighty image for a mighty empire! And it's discreetly garbed in a toga for those who pass beneath."
+	},
+	{
+		"name": "Lighthous of Alexandria",
+		"happiness": 2,
+		"gold": 2,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+2] Movement <for [{Military} {Water}] units>","[+2] Movement <for [Embarked] units>","[+10]% Strength <for [{Military} {Water}] units>",
+			"Must be next to [Coast]"],
+		"requiredTech": "Foreign Outposts",
+		"quote": "The Lighthouse of Alexandria should do marvels for trade. It will also make for handsome tourist souvenirs."
+	},
+	{
+		"name": "Mausoleum at Halicarnassus",
+		"happiness": 2,
+		"culture": 3,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+2 Science] from [Quarry] tiles [in this city]"],
+		"requiredTech": "Craftsmanship",
+		"quote": "An impressive mausoleum, but I can't help wonder what sort of a sign it is when an empire spends more on the dead than the living…"
+	},
+	{
+		"name": "Statue of Zeus",
+		"happiness": 2,
+		"faith": 2,
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"percentStatBonus": {"gold": 10},
+		"uniques": ["[+10]% [Gold] [in all cities] <for [10] turns> <upon declaring friendship>"],
+		"requiredTech": "Standing Army",
+		"quote": "For such a mighty being, the tales of Zeus are full of questionable morality and poor decisions."
+	},
 
 	//MEDIEVAL
 	{
@@ -334,6 +397,36 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Happiness] from every [Researcher] <in this city>"],
 		"requiredTech": "Alchemy"
+	},
+	{
+		"name": "Angkor Wat",
+		"happiness": 2,
+		"faith": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Food] [in all cities] <for every [50] [Faith]>"],
+		"requiredTech": "Theology",
+		"quote": "The site of Angkor Wat is worthy of reverence not merely for the temples, but for the care it took with water and irrigation."
+	},
+	{
+		"name": "Forbidden City",
+		"happiness": 2,
+		"culture": 2,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[+10]% Strength <for [All] units> <when attacking>"],
+		"requiredTech": "War Summons",
+		"quote": "Not only was it the palace for two dynasties and fourteen emperors, the Forbidden City was rumored to contain 9,999 rooms…"
+	},
+	{
+		"name": "Tōdai-Ji",
+		"happiness": 2,
+		"faith": 2,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Production] per [1] population [in this city]"],
+		"requiredTech": "Furnace Steel",
+		"quote": "Tōdai-Ji was the largest wood structure in the world for 1200 years, more or less. That should impress anyone."
 	},
 
 	//EARLY MODERN
