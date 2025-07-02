@@ -64,7 +64,7 @@
 		"uniques": ["[+1 Food] from every [Farmer] <in this city>",
 			"[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+			"[+1 Food] from [Wheat] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Calendar"
 	},
@@ -161,6 +161,26 @@
 		"happiness": 2,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Irrigation"
+	},
+	{
+		"name": "Pyramid of Giza",
+		"happiness": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Can build [all] improvements at a [+25]% rate","[+10]% Production when constructing [All] buildings [in all cities]",
+			"Must be on [River]"],
+		"requiredTech": "Masonry",
+		"quote": "The Pyramids of Giza -- the original construction yardstick by which all other projects will be measured."
+	},
+	{
+		"name": "Hanging Gardens",
+		"happiness": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+2 Gold, +2 Food] from [Luxury] tiles [in this city]",
+			"Must have an owned [Luxury] within [2] tiles"],
+		"requiredTech": "Irrigation",
+		"quote": "The Hanging Gardens of Babylon! Worth a cooling visit during a hot summer -- regardless of what city they are built in"
 	},
 
 	//CLASSICAL
