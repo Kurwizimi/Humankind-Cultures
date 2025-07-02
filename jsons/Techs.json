@@ -786,7 +786,7 @@
 						{
 						"name": "Renewable Energy",
 						"row": 7,
-						"prerequisites": ["Mechanised Harvesting", "Mass Entertainment""],
+						"prerequisites": ["Mechanised Harvesting", "Mass Entertainment"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
