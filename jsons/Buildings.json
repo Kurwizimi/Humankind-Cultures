@@ -62,13 +62,17 @@
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from every [Farmer] <in this city>",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
 			"Destroyed when the city is captured"],
 		"requiredTech": "Calendar"
 	},
 	{
 		"name": "Flood Irrigation",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Food] from every [River] <in this city>",
+		"uniques": ["[+1 Food] from every [River] <in this city>",
+			"Must be on [River]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Irrigation"
 	},
@@ -92,7 +96,7 @@
 		"name": "Stoneworks",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Mountain] tiles [in this city]",
-			"[+1 Production] from [Hill] tiles [in this city]",
+			"[+1 Production] from [Mine] tiles [in this city]",
 			"[+1 Production] from [Quarry] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Masonry"
@@ -116,8 +120,8 @@
 		"name": "Fishery",
 		"hurryCostModifier": 25,
 		"food": 2,
-		"uniques": ["[+1 Food] from [r resource] tiles [in this city]",
-			"Connects trade routes over water","Must be next to [Coast]"],
+		"uniques": ["[+1 Food] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]"],
 		"requiredTech": "Fishing"
 	},
 	{
@@ -171,7 +175,8 @@
 	{
 		"name": "Artificial Reservoirs",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Food] from every [River] <in this city>"],
+		"uniques": ["[+1 Food] from every [River] <in this city>",
+			"Must be on [River]"],
 		"requiredBuilding": "Flood Irrigation",
 		"requiredTech": "Hydrology"
 	},
@@ -186,7 +191,7 @@
 	{
 		"name": "Water Mill",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Production] from every [River] <in this city>"],
+		"uniques": ["[+1 Production] from every [River] <in this city>"],
 		"requiredTech": "Hydrology"
 	},
 	{
@@ -199,13 +204,14 @@
 	{
 		"name": "Levy Administration",
 		"hurryCostModifier": 25,
-		"gold": 2,
+		"percentStatBonus": {"gold": 15},
+		"gold": 3,
 		"requiredTech": "Trade Expeditions"
 	},
 	{
 		"name": "Customs Farm",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] from each Trade Route"],
+		"uniques": ["[+1 Gold, +1 Food] from each Trade Route"],
 		"requiredTech": "Imperial Power"
 	},
 	{
@@ -246,7 +252,7 @@
 	{
 		"name": "City Watch",
 		"hurryCostModifier": 25,
-		"happiness": 2,
+		"happiness": 1,
 		"uniques": ["[-25]% enemy spy effectiveness [in this city]"],
 		"requiredTech": "Standing Army"
 	},
@@ -263,7 +269,7 @@
 	{
 		"name": "Commodity Market",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] from every [Trader] <in this city>"],
+		"uniques": ["[+2 Gold] from every [Trader] <in this city>"],
 		"requiredTech": "Guilds"
 	},
 	{
@@ -300,7 +306,7 @@
 	{
 		"name": "Armory",
 		"hurryCostModifier": 25,
-		"uniques": ["[+10]% Production when constructing [Land] units [in this city]"],
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]"],
 		"requiredTech": "Furnace Steel"
 	},
 	{
@@ -346,7 +352,7 @@
 	{
 		"name": "Bank",
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 10},
+		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Chartered Companies"
 	},
 	{
@@ -551,7 +557,7 @@
 	{
 		"name": "Hydroelectric Dam",
 		"hurryCostModifier": 25,
-		"uniques": ["[+3 Production] from every [River] <in this city>"],//---- Pollution
+		"uniques": ["[+2 Production] from every [River] <in this city>"],//---- Pollution
 		"requiredBuilding": "Water Mill",
 		"requiredTech": "Power Lines"
 	},
@@ -566,13 +572,13 @@
 	{
 		"name": "Solar Farm",
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 3}, //----- Pollution
+		"percentStatBonus": {"production": 5}, //----- Pollution
 		"requiredTech": "Renewable Energy"
 	},
 	{
 		"name": "Wind Farm",
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 2}, //----- Pollution
+		"percentStatBonus": {"production": 5}, //----- Pollution
 		"requiredTech": "Renewable Energy"
 	},
 	{
