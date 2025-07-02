@@ -68,6 +68,13 @@
                        				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				                "quote": ""
 			            	},
+			    			 {
+				                  "name": "Wheel",
+				                  "row": 5,
+				                  "prerequisites": ["Domestication","Carpentry"],
+                          			  "uniques": ["[+50]% weight to this choice for AI decisions"],
+				                  "quote": ""
+			              	},
 			                  	{
 				                "name": "Fishing",
 				                "row": 6,
@@ -104,13 +111,7 @@
 				                  "uniques": [""],
 				                  "quote": ""
 			              	},
-			                    	  {
-				                  "name": "Wheel",
-				                  "row": 5,
-				                  "prerequisites": ["Domestication","Carpentry"],
-                          			  "uniques": ["[+50]% weight to this choice for AI decisions"],
-				                  "quote": ""
-			              	},
+			                    	 
 			                          {
 				                  "name": "Sailing",
 				                  "row": 6,
@@ -184,14 +185,14 @@
 						{
 						"name": "Craftsmanship",
 						"row": 5,
-						"prerequisites": ["Trade Expeditions"],
+						"prerequisites": ["Trade Expeditions", "Hydrology"],
 						"uniques": ["[+100]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
 						{
 						"name": "Conquest",
 						"row": 7,
-						"prerequisites": ["Standing Army"],
+						"prerequisites": ["Standing Army","Fortifications"],
 						"uniques": [""],
 						"quote": ""
 					},
@@ -214,7 +215,7 @@
 						"name": "Foreign Outposts",
 						"cost": 375,
 						"row": 4,
-						"prerequisites": ["Trade Expeditions","Conquest"],
+						"prerequisites": ["Craftsmanship","Conquest"],
                 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
@@ -228,7 +229,7 @@
 						{
 						"name": "Siege Tactics",
 						"row": 8,
-						"prerequisites": ["Conquest"],
+						"prerequisites": ["Conquest","Mounted Warfare"],
                 				"uniques": [""],
                 				"quote": ""
 					}]
@@ -316,7 +317,7 @@
 						{
 						"name": "Guilds",
 						"row": 5,
-						"prerequisites": ["Seafaring Mastery","Feudalism"],
+						"prerequisites": ["Seafaring Mastery","Chivalry"],
                 				"uniques": ["Enables conversion of city production to [Gold]"],
 						"quote": ""
 					},
@@ -339,7 +340,7 @@
 						{
 						"name": "Three-Masted Ship",
 						"row": 3,
-						"prerequisites": ["Seafaring Mastery"],
+						"prerequisites": ["Seafaring Mastery","Guilds"],
                					"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
 						"quote": ""
 					},
@@ -354,7 +355,7 @@
 						"name": "Centralised Power",
 						"row": 6,
 						"uniques": ["Enables Research agreements", "Improves movement speed on roads"],
-						"prerequisites": ["Guilds","Chivalry","Furnace Steel"],
+						"prerequisites": ["Guilds","Furnace Steel"],
 						"quote": ""
 					},
 						{
@@ -419,7 +420,7 @@
 						{
 						"name": "Mercantalism",
 						"row": 4,
-						"prerequisites": ["Chartered Companies","Humanism"],
+						"prerequisites": ["Chartered Companies","Humanism","Moveable Typeface"],
                 				"uniques": ["[+200]% weight to this choice for AI decisions"],//Mare pillage yeilds
 						"quote": ""
 					},
@@ -442,7 +443,7 @@
 						{
 						"name": "Encyclopedia",
 						"row": 4,
-						"prerequisites": ["Moveable Typeface"],
+						"prerequisites": ["Mercantalism"],
 						"quote": ""
 					},
 						{
@@ -478,7 +479,7 @@
 						{
 						"name": "Nationhood",
 						"row": 5,
-						"prerequisites": ["Encyclopedia"],
+						"prerequisites": ["Encyclopedia","Military Coordination"],
                 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
@@ -529,7 +530,7 @@
 						{
 						"name": "Mechanisation",
 						"row": 3,
-						"prerequisites": ["Steam Engine","Scientific Method"],
+						"prerequisites": ["Steam Engine","Scientific Method","Propeller"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
@@ -567,7 +568,7 @@
 						{
 						"name": "Combustion Engine",
 						"row": 3,
-						"prerequisites": ["Propeller","Mechanisation"],
+						"prerequisites": ["Mechanisation"],
                 				"uniques": ["[+1] Movement <for [Embarked] units>"],
 						"quote": ""
 					},
@@ -592,7 +593,13 @@
 			"techCost": 9210,
 			"buildingCost": 750,
 			"wonderCost": 1250,
-			"techs": [
+			"techs": [		{
+						"name": "Research Institutes",
+						"row": 1,
+						"prerequisites": ["Combustion Engine"],
+                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+						"quote": ""
+					},
 						{
 						"name": "Aeronautics",
 						"row": 3,
@@ -609,17 +616,11 @@
 			"buildingCost": 750,
 			"wonderCost": 1250,
 			"techs": [
-						{
-						"name": "Research Institutes",
-						"row": 1,
-						"prerequisites": ["Combustion Engine"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
-						"quote": ""
-					},
+						
 						{
 						"name": "Continuous Track",
 						"row": 2,
-						"prerequisites": ["Combustion Engine"],
+						"prerequisites": ["Aeronautics"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
@@ -742,7 +743,7 @@
 						{
 						"name": "Mechanised Harvesting",
 						"row": 6,
-						"prerequisites": ["Free Trade Agreement", "Suburbs"],
+						"prerequisites": ["Suburbs"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
@@ -809,7 +810,7 @@
 						{
 						"name": "Composite Armour",
 						"row": 2,
-						"prerequisites": ["Continuous Track"],
+						"prerequisites": ["Radar","Fighter Jets"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
@@ -823,7 +824,7 @@
 						{
 						"name": "World Wide Web",
 						"row": 6,
-						"prerequisites": ["Communication Satellites","Mass Entertainment"],
+						"prerequisites": ["Communication Satellites","Renewable Energy"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 						"quote": ""
 					}]
@@ -860,7 +861,7 @@
 						{
 						"name": "Neural Implant",
 						"row": 7,
-						"prerequisites": ["World Wide Web"],
+						"prerequisites": ["World Wide Web", "Insurrection Theory"],
                 				"uniques": ["[+10 Happiness] [in all cities]"],
 						"quote": ""
 					}]
