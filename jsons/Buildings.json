@@ -193,7 +193,7 @@
 		"cost": 1400,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": [" [+2 Food, +1 Culture] <in cities following our religion>","[+10]% [Food] [in holy cities]","[+10]% [Faith] [in holy cities]"],
+		"uniques": ["[+2 Food] <in cities following our religion>","[+1 Culture] <in cities following our religion>","[+10]% [Food] [in holy cities]","[+10]% [Faith] [in holy cities]"],
 		"requiredTech": "Calendar",
 		"quote": "This strange monument called Stonehenge! Most impressive, though the nagging questions remain of 'why' and 'how'…"
 	},
