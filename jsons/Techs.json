@@ -765,7 +765,7 @@
 						{
 						"name": "Fighter Jets",
 						"row": 3,
-						"prerequisites": ["Radar","Rocket Science"],
+						"prerequisites": ["Computing","Rocket Science"],
                 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 						"quote": ""
 					},
