@@ -566,7 +566,7 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Battleship",
+		"name": "Missile Cruiser",
 		"unitType": "Ranged Water",
 		"movement": 4,
 		"strength": 65,
