@@ -122,6 +122,18 @@
 		"attackSound": "metalhit"
 	},
 	//Battering Ram
+	{
+		"name": "Pentekonter",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 27,
+		"cost": 90,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Quadrireme",
+		"obsoleteTech": "Foriegn Outposts",
+		"attackSound": "nonmetalhit"
+	},
 
 	//CLASSICAL
 	{
@@ -152,6 +164,18 @@
 		"attackSound": "horse"
 	},
 	//Ballista
+	{
+		"name": "Quadrireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 36,
+		"cost": 180,
+		"requiredTech": "Foriegn Outposts",
+		"uniques": ["[This Unit] takes [35] damage <upon ending a turn in a [Ocean] tile>"],
+		"upgradesTo": "Cog",
+		"obsoleteTech": "Seafaring Mastery",
+		"attackSound": "nonmetalhit"
+	},
 
 	//MEDIEVAL
 	{
@@ -204,6 +228,19 @@
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Cog",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 43,
+		"cost": 400,
+		"requiredTech": "Seafaring Mastery",
+		"uniques": ["[This Unit] takes [20] damage <upon ending a turn in a [Ocean] tile>"],
+		"upgradesTo": "Carrack",
+		"obsoleteTech": "Naval Artillery",
+		"attackSound": "nonmetalhit"
+	},
+
 
 	//EARLY MODERN
 	{
@@ -258,6 +295,32 @@
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Line Formation",
 		"attackSound": "shot"
+	},
+	{
+		"name": "Carrack",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 52,
+		"cost": 970,
+		"requiredTech": "Naval Artillery",
+		"uniques": [],
+		"upgradesTo": "Steam Frigate",
+		"obsoleteTech": "Propeller",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Man O' War",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 50,
+		"rangedStrength": 55,
+		"cost": 2915,
+		"requiredResource": "Iron",
+		"requiredTech": "Naval Artillery",
+		"obsoleteTech": "Propeller",
+		"upgradesTo": "Ironclad",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
 	},
 
 	//INDUSTRIAL
@@ -314,6 +377,45 @@
 		"obsoleteTech": "Composite Armour"
 		"upgradesTo": "Armoured Personnel Carrier",
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Steam Frigate",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 57,
+		"cost": 2575,
+		"requiredTech": "Propeller",
+		"uniques": [],//Screening
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Naval Air Strategy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 60,
+		"cost": 7730,
+		"requiredResource": "Iron",
+		"requiredTech": "Propeller",
+		"obsoleteTech": "Naval Air Strategy",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Torpedo Boat",
+		"unitType": "Ranged Water",
+		"movement": 6,
+		"strength": 35,
+		"rangedStrength": 55,
+		"cost": 1290,
+		"requiredTech": "Combustion Engine",
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Diesel Submarine",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
 	},
 
 	//CONTEMPORARY
@@ -405,6 +507,105 @@
 		"requiredTech": "Covert Ops",
 		"attackSound": "shot"
 	},
+	{
+		"name": "Destroyer",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 66,
+		"cost": 7400,
+		"requiredTech": "Naval Air Strategy",
+		"uniques": [],//Screening
+		"upgradesTo": "Frigate",
+		"obsoleteTech": "Computing",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 60,
+		"rangedStrength": 66,
+		"cost": 7400,
+		"requiredResource": "Oil",
+		"requiredTech": "Naval Air Strategy",
+		"obsoleteTech": "Computing",
+		"upgradesTo": "Missile Cruiser",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Diesel Submarine",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 45,
+		"rangedStrength": 64,
+		"cost": 3700,
+		"requiredTech": "Amphibious Warfare",
+		"obsoleteTech": "Nuclear Fission",
+		"upgradesTo": "Nuclear Submarine",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Aircraft Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 69,
+		"cost": 14804,
+		"requiredTech": "Naval Air Stratagy",
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
+	},
+	{
+		"name": "Frigate",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 74,
+		"cost": 14805,
+		"requiredTech": "Computing",
+		"uniques": [],//Screening
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 65,
+		"rangedStrength": 77,
+		"cost": 7400,
+		"requiredResource": "Aluminum",
+		"requiredTech": "Computing",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Nuclear Submarine",
+		"unitType": "Submarine",
+		"movement": 7,
+		"strength": 50,
+		"rangedStrength": 72,
+		"cost": 7400,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 	//Great People
 	{
