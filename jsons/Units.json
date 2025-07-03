@@ -131,7 +131,7 @@
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Quadrireme",
-		"obsoleteTech": "Foriegn Outposts",
+		"obsoleteTech": "foreign Outposts",
 		"attackSound": "nonmetalhit"
 	},
 
@@ -170,7 +170,7 @@
 		"movement": 4,
 		"strength": 36,
 		"cost": 180,
-		"requiredTech": "Foriegn Outposts",
+		"requiredTech": "foreign Outposts",
 		"uniques": ["[This Unit] takes [35] damage <upon ending a turn in a [Ocean] tile>"],
 		"upgradesTo": "Cog",
 		"obsoleteTech": "Seafaring Mastery",
