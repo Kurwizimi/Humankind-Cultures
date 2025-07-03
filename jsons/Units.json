@@ -552,7 +552,7 @@
 		"movement": 5,
 		"strength": 69,
 		"cost": 14804,
-		"requiredTech": "Naval Air Stratagy",
+		"requiredTech": "Naval Air Strategy",
 		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
 	},
 	{
