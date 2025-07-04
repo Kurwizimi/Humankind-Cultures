@@ -205,7 +205,7 @@
                             {
                             "name": "Aristocracy - SC",
                             "uniques": ["[+10]% Strength <for [Emblematic Unit] units>",
-					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic", "Aristocracy"],
+					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic", "Gain a free [Aristocracy] [in capital] <hidden from users>"],
 			    "row": 2,
                             "column": 1
                         },
@@ -401,7 +401,7 @@
                             {
                             "name": "Aristocracy - A",
                             "uniques": ["[+10]% Strength <for [Emblematic Unit] units>",
-					"Only available <after adopting [Autarch]>", "Unavailable <after adopting [Monarchy]> <hidden from users>", "Political Civic", "Aristocracy"],
+					"Only available <after adopting [Autarch]>", "Unavailable <after adopting [Monarchy]> <hidden from users>", "Political Civic", "Gain a free [Aristocracy] [in capital] <hidden from users>"],
 			    "row": 1,
                             "column": 5
                         },
@@ -672,7 +672,7 @@
             "policies": [
                             //POLITICAL
                             {
-                            "name": "Aristocracy Evolution",//NEED DO
+                            "name": "Aristocracy Evolution",
                             "uniques": [
 					"Comment [Whose political interests should be represented?]"],
 			    "row": 1,
@@ -681,14 +681,14 @@
                             {
                             "name": "Oligarchy",
                             "uniques": ["[+25]% [Gold] [in all cities]",
-					"Only available <after adopting [Aristocracy]>", "Unavailable <after adopting [Democratic Republic -A]> <hidden from users>", "Political Civic"],
+					"Only available <if [Aristocracy] is constructed>", "Unavailable <after adopting [Democratic Republic -A]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Democratic Republic -A",
                             "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
-					"Only available <after adopting [Aristocracy]>", "Unavailable <after adopting [Oligarchy]> <hidden from users>", "Political Civic"],
+					"Only available <if [Aristocracy] is constructed>", "Unavailable <after adopting [Oligarchy]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 5
                         },
