@@ -87,7 +87,7 @@
 	{
 		"name": "Lumber Yard",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Forest] tiles [in this city]",
+		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]",
 			"[+1 Production] from [Jungle] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Carpentry"
@@ -221,8 +221,8 @@
 	{
 		"name": "Artificial Reservoirs",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from every [River] <in this city>",
-			"Must be on [River]"],
+		"food": 4,
+		"uniques": ["Must be on [River]"],
 		"requiredBuilding": "Flood Irrigation",
 		"requiredTech": "Hydrology"
 	},
@@ -237,7 +237,9 @@
 	{
 		"name": "Water Mill",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from every [River] <in this city>"],
+		"production": 2,
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]",
+			"Must be on [River]"],
 		"requiredTech": "Hydrology"
 	},
 	{
@@ -461,7 +463,7 @@
 		"name": "Taxation Office",
 		"hurryCostModifier": 25,
 		"gold": 5,
-		"uniques": ["[+3 Gold] from [Luxury resource] tiles [in this city]"],
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]"],
 		"requiredBuilding": "Levy Administration",
 		"requiredTech": "Centralised Power"
 	},
@@ -599,24 +601,23 @@
 		"name": "Coal Plant",
 		"hurryCostModifier": 25,
 		"production": 3,
-		"uniques": ["[+5 Production] from [Coal] tiles [in this city]"],// ++ Pollution
+		"uniques": ["[+2 Production] from [Coal] tiles [in this city]"],// ++ Pollution
 		"requiredBuilding": "High Furnace",
 		"requiredTech": "Electricity"
 	},
 	{
 		"name": "Sawmill",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Production] from [Forest] tiles [in this city]",
-			"[+2 Production] from [Hill] tiles [in this city]"], //+ Production
+		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]"], //+ Production
 		"requiredBuilding": "Lumber Yard",
 		"requiredTech": "Mechanisation"
 	},
 	{
 		"name": "Conveyor Belt",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Hill] tiles [in this city]",
+		"uniques": ["[+1 Production] from [Mine] tiles [in this city]",
 			"[+1 Production] from [Quarry] tiles [in this city]",
-			"[+2 Production] from [Coal] tiles [in this city]"],// ++ Pollution for every coal
+			"[+1 Production] from [Coal] tiles [in this city]"],// ++ Pollution for every coal
 		"requiredBuilding": "Stoneworks",
 		"requiredTech": "Mechanisation"
 	},
@@ -631,7 +632,7 @@
 	{
 		"name": "Customs Agency",
 		"hurryCostModifier": 25,
-		"uniques": ["[+4 Gold] from each Trade Route"],
+		"uniques": ["[+2 Gold] from each Trade Route"],
 		"requiredBuilding": "Customs Farm",
 		"requiredTech": "Nationhood"
 	},
@@ -657,7 +658,7 @@
 		"name": "Seafood Wholesalers",
 		"hurryCostModifier": 25,
 		"gold": 3,
-		"uniques": ["[+5 Gold] from each Trade Route",
+		"uniques": ["[+2 Gold] from each Trade Route",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Great Fishmarket",
 		"requiredTech": "Propeller"
@@ -749,17 +750,15 @@
 	{
 		"name": "Quarrying Machinery",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Hill] tiles [in this city]",
-			"[+1 Production] from [Quarry] tiles [in this city]",
-			"[+2 Production] from [Aluminum] tiles [in this city]"],// ++ Pollution
+		"uniques": ["[+1 Production] from [Quarry] tiles [in this city]",
+			"[+1 Production] from [Aluminum] tiles [in this city]"],// ++ Pollution
 		"requiredBuilding": "Conveyor Belt",
 		"requiredTech": "Mechanised Harvesting"
 	},
 	{
 		"name": "In-Situ Mine",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Hill] tiles [in this city]",
-			"[+1 Production] from [Quarry] tiles [in this city]",
+		"uniques": ["[+1 Production] from [Mine] tiles [in this city]",
 			"[+2 Production] from [Uranium] tiles [in this city]"],// ++ Pollution for every Uranium
 		"requiredBuilding": "Quarrying Machinery",
 		"requiredTech": "Communication Satellites"
@@ -767,7 +766,7 @@
 	{
 		"name": "Hydroelectric Dam",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Production] from every [River] <in this city>"],//---- Pollution
+		"uniques": ["[+1 Production] from every [River] <in this city>"],//---- Pollution
 		"requiredBuilding": "Water Mill",
 		"requiredTech": "Power Lines"
 	},
@@ -800,7 +799,7 @@
 	{
 		"name": "Oil Pipeline",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Production] from [Coast] tiles [in this city]",
+		"uniques": ["[+1 Production] from [Coast] tiles [in this city]",
 			"[+2 Production] from [Oil] tiles [in this city]","Must be next to [Coast]"],// ++ Pollution for every Oil
 		"requiredTech": "Civil Engineering"
 	},
@@ -849,7 +848,7 @@
 		"hurryCostModifier": 25,
 		"food": 2,
 		"uniques": ["[+2 Food] from [Lake] tiles [in this city]",
-			"[+2 Food] from [Coast] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Whale Fishing",
 		"requiredTech": "Mechanised Harvesting"
