@@ -507,7 +507,7 @@
 	{
 		"name": "Papyrus",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
+		"terrainsCanBeFoundOn": ["Grassland","Desert","Marsh","Flood plains"]
 		"science": 1,
 		"food": 1,
 		"improvement": "Plantation",
@@ -542,7 +542,7 @@
 		"name": "Mercury",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Tundra","Grassland"],
-		"Science": 2,
+		"science": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
 					"Generated with weight [15] <in [Hill] Regions>",
