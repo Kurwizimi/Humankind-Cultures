@@ -670,6 +670,10 @@
 		"name": "Ignore terrain cost",
 		"uniques": ["Ignores terrain cost"]
 	},
+	{
+		"name": "Resistance", 
+		"uniques": ["All healing effects doubled"]
+	},
 
 	//Unique Promotions
 
