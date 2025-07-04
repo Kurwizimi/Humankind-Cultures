@@ -591,8 +591,8 @@
 			"columnNumber": 18,
 			"era": "Industrial era",
 			"techCost": 9210,
-			"buildingCost": 750,
-			"wonderCost": 1250,
+			"buildingCost": 800,
+			"wonderCost": 2000,
 			"techs": [		{
 						"name": "Research Institutes",
 						"row": 1,
@@ -613,8 +613,8 @@
 			"columnNumber": 19,
 			"era": "Contemporary era",
 			"techCost": 10680,
-			"buildingCost": 750,
-			"wonderCost": 1250,
+			"buildingCost": 850,
+			"wonderCost": 2125,
 			"techs": [
 						
 						{
@@ -650,8 +650,8 @@
 			"columnNumber": 20,
 			"era": "Contemporary era",
 			"techCost": 12310,
-			"buildingCost": 750,
-			"wonderCost": 1250,
+			"buildingCost": 850,
+			"wonderCost": 2125,
 			"techs": [
 						{
 						"name": "Uranium Enrichment",
@@ -693,8 +693,8 @@
 			"columnNumber": 21,
 			"era": "Contemporary era",
 			"techCost": 14085,
-			"buildingCost": 750,
-			"wonderCost": 1250,
+			"buildingCost": 850,
+			"wonderCost": 2125,
 			"techs": [
 						{
 						"name": "Suburbs",
@@ -716,8 +716,8 @@
 			"columnNumber": 22,
 			"era": "Contemporary era",
 			"techCost": 16020,
-			"buildingCost": 750,
-			"wonderCost": 1250,
+			"buildingCost": 850,
+			"wonderCost": 2125,
 			"techs": [
 						{
 						"name": "Nuclear Fission",
@@ -759,8 +759,8 @@
 			"columnNumber": 23,
 			"era": "Contemporary era",
 			"techCost": 18100,
-			"buildingCost": 750,
-			"wonderCost": 1250,
+			"buildingCost": 925,
+			"wonderCost": 2312,
 			"techs": [
 						{
 						"name": "Fighter Jets",
@@ -804,8 +804,8 @@
 			"columnNumber": 24,
 			"era": "Contemporary era",
 			"techCost": 20400,
-			"buildingCost": 750,
-			"wonderCost": 1250,
+			"buildingCost": 925,
+			"wonderCost": 2312,
 			"techs": [
 						{
 						"name": "Composite Armour",
@@ -834,8 +834,8 @@
 			"columnNumber": 25,
 			"era": "Contemporary era",
 			"techCost": 22800,
-			"buildingCost": 750,
-			"wonderCost": 1250,
+			"buildingCost": 925,
+			"wonderCost": 2312,
 			"techs": [
 						{
 						"name": "Fusion Reactor",
@@ -872,7 +872,7 @@
 			"era": "Future era",
 			"techCost": 25500,
 			"buildingCost": 750,
-			"wonderCost": 1250,
+			"wonderCost": 2312,
 			"techs": [
 						{
 						"name": "Future Tech",
