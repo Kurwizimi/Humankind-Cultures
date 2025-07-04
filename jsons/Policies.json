@@ -203,16 +203,16 @@
                             "column": 3
                         },
                             {
-                            "name": "Aristocracy - C",//NEED DO
-                            "uniques": [
-					"Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic"],
+                            "name": "Aristocracy - SC",
+                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>",
+					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic", "Aristocracy"],
 			    "row": 2,
                             "column": 1
                         },
                             {
                             "name": "Republic",
-                            "uniques": [
-					"Unavailable <after adopting [Aristocracy - C]> <hidden from users>", "Political Civic"],
+                            "uniques": ["[+20]% Strength for cities",
+					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Aristocracy - SC]> <hidden from users>", "Political Civic"],
 			    "row": 2,
                             "column": 5
                         },
@@ -385,7 +385,7 @@
             "policies": [
                             //POLITICAL
                             {
-                            "name": "Political Influence",//NEED DO
+                            "name": "Political Influence",
                             "uniques": [
 					"Comment [Who has the ear of the autarch?]"],
 			    "row": 1,
@@ -393,15 +393,15 @@
                         },
                             {
                             "name": "Monarchy",
-                            "uniques": [
-					"Unavailable <after adopting [Aristocracy - M]> <hidden from users>", "Political Civic"],
+                            "uniques": ["[+20]% Production when constructing [All] wonders [in all cities]",
+					"Only available <after adopting [Autarch]>", "Unavailable <after adopting [Aristocracy - A]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
-                            "name": "Aristocracy - M",
-                            "uniques": [
-					"Unavailable <after adopting [Monarchy]> <hidden from users>", "Political Civic"],
+                            "name": "Aristocracy - A",
+                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>",
+					"Only available <after adopting [Autarch]>", "Unavailable <after adopting [Monarchy]> <hidden from users>", "Political Civic", "Aristocracy"],
 			    "row": 1,
                             "column": 5
                         },
@@ -414,15 +414,15 @@
                         },
                             {
                             "name": "Absolute Monarchy",
-                            "uniques": [
-					"Unavailable <after adopting [Constitutional Monarchy]> <hidden from users>", "Political Civic"],
+                            "uniques": ["May buy [All] buildings with [Culture] [in all cities]",
+					"Only available <after adopting [Monarchy]>", "Unavailable <after adopting [Constitutional Monarchy]> <hidden from users>", "Political Civic"],
 			    "row": 2,
                             "column": 1
                         },
                             {
                             "name": "Constitutional Monarchy",
-                            "uniques": [
-					"Unavailable <after adopting [Absolute Monarchy]> <hidden from users>", "Political Civic"],
+                            "uniques": ["[+1 Happiness, +2 Culture] from every [Emblematic District]",
+					"Only available <after adopting [Monarchy]>", "Unavailable <after adopting [Absolute Monarchy]> <hidden from users>", "Political Civic"],
 			    "row": 2,
                             "column": 5
                         },
@@ -457,7 +457,7 @@
                             "column": 3
                         },
                             {
-                            "name": "Eliminate Unbelievers",
+                            "name": "Eliminate Unbelievers",//NEED DO
                             "uniques": [
 					"Unavailable <after adopting [Banish Unbelievers]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
@@ -550,7 +550,7 @@
             "policies": [
                             //POLITICAL
                             {
-                            "name": "Republic Evolution",//NEED DO
+                            "name": "Republic Evolution",
                             "uniques": [
 					"Comment [Should there be a diversity of poltical representation?]"],
 			    "row": 1,
@@ -558,21 +558,21 @@
                         },
                             {
                             "name": "One-Party State",
-                            "uniques": [
-					"Unavailable <after adopting [Democratic Republic]> <hidden from users>", "Political Civic"],
+                            "uniques": ["[+3 Happiness] [in all cities]", "[-10]% Unhappiness from [Population] [in all cities]",
+					"Only available <after adopting [Republic]>", "Unavailable <after adopting [Democratic Republic]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Democratic Republic",
-                            "uniques": [
-					"Unavailable <after adopting [One-Party State]> <hidden from users>", "Political Civic"],
+                            "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
+					"Only available <after adopting [Republic]>", "Unavailable <after adopting [One-Party State]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 5
                         },
                         //JUDICIAL
                             {
-                            "name": "Capital Punishment -1",
+                            "name": "Capital Punishment -1",//NEED DO
                             "uniques": [
 					"Comment [What should the death penalty be replaced with?]"],
 			    "row": 3,
@@ -680,15 +680,15 @@
                         },
                             {
                             "name": "Oligarchy",
-                            "uniques": [
-					"Unavailable <after adopting [Democratic Republic -A]> <hidden from users>", "Political Civic"],
+                            "uniques": ["[+25]% [Gold] [in all cities]",
+					"Only available <after adopting [Aristocracy]>", "Unavailable <after adopting [Democratic Republic -A]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Democratic Republic -A",
-                            "uniques": [
-					"Unavailable <after adopting [Oligarchy]> <hidden from users>", "Political Civic"],
+                            "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
+					"Only available <after adopting [Aristocracy]>", "Unavailable <after adopting [Oligarchy]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 5
                         },
