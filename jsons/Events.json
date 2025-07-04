@@ -38,7 +38,7 @@
 				  "Gain a free [The Mexica] [in capital] <hidden from users>", "Only available <if [The Mexica] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Ghanaians",
-			  "uniques": [	"Comment[[+2 Gold] from every [Luxury resource], [+1 Gold] from every [Strategic resource]]",
+			  "uniques": [	"Comment[+2 [Gold] from every Luxury, +1 [Gold] from every Strategic]",
 				  "Gain a free [The Ghanaians] [in capital] <hidden from users>" ,"Only available <if [The Ghanaians] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
       
      			]
