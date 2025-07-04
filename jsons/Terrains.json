@@ -404,7 +404,7 @@
 		"occursOn": ["Tundra","Plains","Grassland"],
 		"uniques": ["Must be adjacent to [2] to [6] [Tundra] tiles",
 			"Occurs in groups of [3] to [4] tiles"],
-		"turnsInto": "Lake",
+		"turnsInto": "Lakes",
 		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
@@ -417,7 +417,7 @@
 		"faith": 1,
 		"occursOn": ["Plains"],
 		"uniques": ["Must be adjacent to [2] to [5] [Coast] tiles"],
-		"turnsInto": "Lake",
+		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
@@ -474,7 +474,7 @@
 		"uniques": ["Must be adjacent to [2] to [6] [Snow] tiles",
 			"Must be adjacent to [2] to [6] [Coast] tiles",
 			"Must be adjacent to [0] [Plains] tiles",
-			"Must be adjacent to [0] [Grassland] tiles",],
+			"Must be adjacent to [0] [Grassland] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
