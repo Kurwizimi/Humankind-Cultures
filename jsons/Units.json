@@ -41,7 +41,7 @@
 		"movement": 3,
 		"strength": 8,
 		"cost": 45,
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <if [The Harappans] is constructed>"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <if [The Harappans] is constructed>", "Emblematic Unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -104,7 +104,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <if [The Assyrians] is constructed>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <if [The Assyrians] is constructed>", "Emblematic Unit"],
 		"promotions": ["Pillager"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
