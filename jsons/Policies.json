@@ -292,7 +292,7 @@
                         },
                             {
                             "name": "Open-Minded",
-                            "uniques": ["[+1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+1 Culture] per [2] population [in all cities] <in cities not following a [foriegn] religion>",
+                            "uniques": ["[+1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+1 Culture] per [2] population [in all cities] <in cities not following a [foreign] religion>",
 					"Unavailable <after adopting [Religious Hostility]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
