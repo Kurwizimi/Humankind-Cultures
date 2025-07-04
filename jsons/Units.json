@@ -666,7 +666,7 @@
 		"rangedStrength": 150,
 		"range": 12,
 		"cost": 14800,
-		"requiredResource": "Uranium",,
+		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Thermonuclear Missile",
 		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [2]"],
@@ -680,7 +680,7 @@
 		"rangedStrength": 325,
 		"range": 18,
 		"cost": 22205,
-		"requiredResource": "Uranium",,
+		"requiredResource": "Uranium",
 		"requiredTech": "Fusion Reactor",
 		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [3]"],
 		"attackSound": "nuke"
