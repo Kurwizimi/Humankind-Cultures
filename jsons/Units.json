@@ -417,6 +417,22 @@
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
+	{
+		"name": "Biplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 51,
+		"rangedStrength": 51,
+		"range": 7,
+		"interceptRange": 5,
+		"cost": 2575,
+		"requiredTech": "Aeronautics",
+		"requiredResource": "Oil",
+		"upgradesTo": "Monoplane Fighter",
+		"obsoleteTech": "Aerial Warfare",
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
 
 	//CONTEMPORARY
 	{
@@ -449,7 +465,6 @@
 		"interceptRange": 2,
 		"strength": 55,
 		"cost": 7400,
-		"requiredResource": "Aluminum",
 		"requiredTech": "Radar",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
@@ -588,6 +603,87 @@
 		"requiredResource": "Uranium",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
+	},
+	{
+		"name": "Monoplane Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 62,
+		"rangedStrength": 62,
+		"range": 8,
+		"interceptRange": 6,
+		"cost": 3700,
+		"requiredTech": "Aerial Warfare",
+		"requiredResource": "Oil",
+		"upgradesTo": "Multirole Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Strategic Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 9,
+		"cost": 7400,
+		"requiredTech": "Aerial Warfare",
+		"requiredResource": "Oil",
+		"upgradesTo": "Multirole Fighter",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Multirole Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 76,
+		"rangedStrength": 76,
+		"range": 9,
+		"interceptRange": 7,
+		"cost": 14800,
+		"requiredTech": "Fighter Jets",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Cruise Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 69,
+		"rangedStrength": 69,
+		"range": 14,
+		"cost": 7400,
+		"requiredTech": "Rocket Science",
+		"uniques": ["[-100]% maintenance costs"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 12,
+		"cost": 14800,
+		"requiredResource": "Uranium",,
+		"requiredTech": "Nuclear Fission",
+		"upgradesTo": "Thermonuclear Missile",
+		"uniques": ["Nuclear weapon of Strength [1]", "Blast radius [2]"],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Thermonuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 325,
+		"rangedStrength": 325,
+		"range": 18,
+		"cost": 22205,
+		"requiredResource": "Uranium",,
+		"requiredTech": "Fusion Reactor",
+		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [3]"],
+		"attackSound": "nuke"
 	},
 
 
