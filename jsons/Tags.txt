@@ -12,3 +12,7 @@
 "Cultural Civic"
 "Economic Civic"
 "Social Civic"
+"Aristocracy"
+
+"Emblematic Unit"
+"Emblematic District"
