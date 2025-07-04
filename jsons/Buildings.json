@@ -1149,7 +1149,7 @@
 
 	//I hate this
 	{
-		"name": "Arisrocracy",
+		"name": "Aristocracy",
 		"hurryCostModifier": 12345,
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased","Moves to new capital when capital changes"],
