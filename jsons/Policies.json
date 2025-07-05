@@ -436,15 +436,15 @@
                         },
                             {
                             "name": "Open Inspections",
-                            "uniques": ["Instantly gain [5] [Collectivisn]",
-					"Unavailable <after adopting [State Surveillance]> <hidden from users>", "Judicial Civic"],
+                            "uniques": ["Comment [May build [Peoples Assembly] buildings in all cities]", "Instantly gain [5] [Collectivisn]",
+					"Unavailable <after adopting [Oligarchy]>","Unavailable <after adopting [One-Party State]>","Unavailable <after adopting [Political Control]>", "Unavailable <after adopting [State Surveillance - JC]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
-                            "name": "State Surveillance",
-                            "uniques": ["Instantly gain [5] [Authority]",
-					"Unavailable <after adopting [Open Inspections]> <hidden from users>", "Judicial Civic"],
+                            "name": "State Surveillance - JC",
+                            "uniques": ["Comment [May build [Constitutional Secret Police] buildings in all cities]", "Instantly gain [5] [Authority]",
+					"Unavailable <after adopting [Oligarchy]>","Unavailable <after adopting [One-Party State]>","Unavailable <after adopting [Political Control]>", "Unavailable <after adopting [Open Inspections]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 5
                         },
@@ -458,15 +458,15 @@
                         },
                             {
                             "name": "Eliminate Unbelievers",//NEED DO
-                            "uniques": ["Instantly gain [5] [Authority]",
-					"Unavailable <after adopting [Banish Unbelievers]> <hidden from users>", "Religious Civic"],
+                            "uniques": ["[+15]% Strength <for [Wounded] units>", "Instantly gain [5] [Authority]",
+					"Only available <after adopting [Religious Hostility]>", "Unavailable <after adopting [Banish Unbelievers]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
                         },
                             {
                             "name": "Banish Unbelievers",
-                            "uniques": ["Instantly gain [5] [Homeland]",
-					"Unavailable <after adopting [Eliminate Unbelievers]> <hidden from users>", "Religious Civic"],
+                            "uniques": ["[+10]% [Gold] [in all cities]", "Instantly gain [5] [Homeland]",
+					"Only available <after adopting [Religious Hostility]>", "Unavailable <after adopting [Eliminate Unbelievers]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 5
                         },
@@ -479,15 +479,15 @@
                         },
                             {
                             "name": "Taxed Minorities",
-                            "uniques": ["Instantly gain [5] [Individualism]",
-					"Unavailable <after adopting [Untaxed Minorities]> <hidden from users>", "Religious Civic"],
+                            "uniques": ["[+10]% [Gold] [in all cities]", "Instantly gain [5] [Individualism]",
+					"Only available <after adopting [Open-Minded]>", "Unavailable <after adopting [Untaxed Minorities]> <hidden from users>", "Religious Civic"],
 			    "row": 7,
                             "column": 1
                         },
                             {
                             "name": "Untaxed Minorities",
-                            "uniques": ["Instantly gain [5] [Liberty]",
-					"Unavailable <after adopting [Taxed Minorities]> <hidden from users>", "Religious Civic"],
+                            "uniques": ["[+5]% [Happiness] [in all cities]",  "Instantly gain [5] [Liberty]",
+					"Only available <after adopting [Open-Minded]>", "Unavailable <after adopting [Taxed Minorities]> <hidden from users>", "Religious Civic"],
 			    "row": 7,
                             "column": 5
                         },
@@ -623,14 +623,14 @@
                         },
                             {
                             "name": "Academic Artists",
-                            "uniques": ["Instantly gain [4] [Homeland]",
+                            "uniques": ["Comment [May build [Academy of Arts] buildings in all cities]", "Instantly gain [4] [Homeland]",
 					"Unavailable <after adopting [Independent Artists]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 1
                         },
                             {
                             "name": "Independent Artists",
-                            "uniques": ["Instantly gain [4] [Liberty]",
+                            "uniques": ["Comment [May build [Artists Studio] buildings in all cities]", "Instantly gain [4] [Liberty]",
 					"Unavailable <after adopting [Academic Artists]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 5
@@ -866,16 +866,16 @@
                             "column": 3
                         },
                             {
-                            "name": "State Surveillance -2",
-                            "uniques": ["Instantly gain [6] [Collectivism]",
-					"Unavailable <after adopting [Denunciation]> <hidden from users>", "Judicial Civic"],
+                            "name": "State Surveillance - PC",
+                            "uniques": ["Comment [May build [Secret Police] buildings in all cities]", "Instantly gain [6] [Collectivism]",
+					"Unavailable <after adopting [Democratic Republic]>","Unavailable <after adopting [Judicial Control]>", "Unavailable <after adopting [Denunciation]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Denunciation",
-                            "uniques": ["Instantly gain [6] [Authority]",
-					"Unavailable <after adopting [State Surveillance -2]> <hidden from users>", "Judicial Civic"],
+                            "uniques": ["Comment [May build [Neighbourhood Watch] buildings in all cities]", "Instantly gain [6] [Authority]",
+					"Unavailable <after adopting [Democratic Republic]>","Unavailable <after adopting [Judicial Control]>", "Unavailable <after adopting [State Surveillance - PC]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 5
                         },
