@@ -544,7 +544,8 @@
 		"terrainsCanBeFoundOn": ["Hill","Forest","Tundra","Grassland"],
 		"science": 2,
 		"improvement": "Mine",
-		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
+		"uniques": [
+					"Generated with weight [25] <in [Tundra] Regions>",
 					"Generated with weight [15] <in [Hill] Regions>",
 					"Generated with weight [25] <in [Grassland] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
@@ -560,7 +561,8 @@
 		"gold": 1,
 		"science": 1,
 		"improvement": "Mine",
-		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
+		"uniques": [
+					"Generated with weight [25] <in [Tundra] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [20] <in [Grassland] Regions>",
 					"Generated with weight [10] <in [Hybrid] Regions>",
@@ -572,6 +574,98 @@
 					"Doesn't generate naturally <in [{Grassland} {Hill}] tiles>"
 		]
 	},
+
+
+
+	//Ideology
+	 	{
+       	 	"name": "Collectivism",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"Excluded from map editor",
+					"Not shown on world screen",
+					"Doesn't generate naturally"
+		]
+    	},
+	{
+       	 	"name": "Inividualism",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"Excluded from map editor",
+					"Not shown on world screen",
+					"Doesn't generate naturally"
+		]
+    	},
+	{
+       	 	"name": "Homeland",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"Excluded from map editor",
+					"Not shown on world screen",
+					"Doesn't generate naturally"
+		]
+    	},
+	{
+       	 	"name": "World",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"Excluded from map editor",
+					"Not shown on world screen",
+					"Doesn't generate naturally"
+		]
+    	},
+	{
+       	 	"name": "Liberty",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"Excluded from map editor",
+					"Not shown on world screen",
+					"Doesn't generate naturally"
+		]
+    	},
+	{
+       	 	"name": "Authority",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"Excluded from map editor",
+					"Not shown on world screen",
+					"Doesn't generate naturally"
+		]
+    	},
+	{
+       	 	"name": "Tradition",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"Excluded from map editor",
+					"Not shown on world screen",
+					"Doesn't generate naturally"
+		]
+    	},
+	{
+       	 	"name": "Progress",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"Excluded from map editor",
+					"Not shown on world screen",
+					"Doesn't generate naturally"
+		]
+    	},
 
 
 
