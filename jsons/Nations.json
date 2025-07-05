@@ -67,4 +67,38 @@
 		"uniques": [],
 		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
 	}
+	{
+		"name": "Aesthete",
+		"leaderName": "",
+		"adjective": ["Aesthete"],
+		"startBias": [""],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "So these are the Babylonians… It can only be an advantage to have a neighbor as smart as you are.",
+		"startIntroPart2": "This means more than just markets for the Babylonians. It's also the beginning of mathematics, astronomy, and a set of codified laws that I wouldn't want to be caught breaking…",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		
+		"neutralHello": "",
+		"neutralLetsHearIt": [""],
+		"neutralNo": [""],
+		"neutralYes": [""],
+
+		"hateHello": "",
+		"hateLetsHearIt": [""],
+		"hateNo": [""],
+		"hateYes": [""],
+		
+		"afterPeace": "",
+		"tradeRequest": "",
+
+		"outerColor": [170,30,180],
+		"innerColor": [60,20,70],
+		"uniqueName": "",
+		"uniques": [],
+		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
+	}
 ]
