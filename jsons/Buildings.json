@@ -960,6 +960,52 @@
 		"requiredTech": "Suburbs",
 		"quote": "Impressive and dominating, Cristo Redentor removes any confusion about the importance of faith in everyday life."
 	},
+
+
+	//Policy Buildings
+	{
+		"name": "Peoples Assembly",
+		"happiness": 2,
+		"cost": 400,
+		"hurryCostModifier": 25,
+		"uniques": ["Removes extra unhappiness from annexed cities", "Only available <after adopting [Open Inspections]>"]
+	},
+	{
+		"name": "Constitutional Secret Police",
+		"happiness": 1,
+		"cost": 400,
+		"hurryCostModifier": 25,
+		"uniques": ["[-20]% spy effectiveness [in this city]", "Only available <after adopting [State Surveillance - JC]>"]
+	},
+	{
+		"name": "Secret Police",
+		"happiness": 1,
+		"cost": 400,
+		"hurryCostModifier": 25,
+		"uniques": ["[-20]% spy effectiveness [in this city]", "Only available <after adopting [State Surveillance - PC]>"]
+	},
+	{
+		"name": "Neigbourhood Watch",
+		"happiness": 3,
+		"cost": 400,
+		"hurryCostModifier": 25,
+		"uniques": ["[-20]% spy effectiveness [in this city]", "Only available <after adopting [Denunciation]>"]
+	},
+
+	{
+		"name": "Academy of Arts",
+		"culture": 3,
+		"cost": 1600,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Culture] from all [Science] buildings <in this city>", "Only available <after adopting [Academic Artists]>"]
+	},
+	{
+		"name": "Artists studio",
+		"culture": 3,
+		"cost": 1600,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Culture] from all [Production] buildings <in this city>", "Only available <after adopting [Academic Artists]>"]
+	},
 	
 
 
@@ -1151,7 +1197,7 @@
 		"name": "Aristocracy",
 		"hurryCostModifier": 12345,
 		"cost": 1,
-		"uniques": ["Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased","Moves to new capital when capital changes"],
+		"uniques": ["Unavailable <before discovering [Future Tech]>", "Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased","Moves to new capital when capital changes"],
 	},
 
 ]
