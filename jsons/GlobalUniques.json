@@ -26,6 +26,19 @@
 			"Triggers a [Industrial] event <for [Major] Civilizations> <upon entering the [Industrial era]>",
 			"Triggers a [Contemporary] event <for [Major] Civilizations> <upon entering the [Contemporary era]>",
 
+			//Ideology
+			"[+10]% [Production] [in all cities] <when number of [Collectivism] is more than [Individualism]>",
+			"[+10]% [Gold] [in all cities] <when number of [Individualism] is more than [Collectivism]>",
+
+			"[+10]% Strength <for [All] units> <when number of [Homeland] is more than [World]>",
+			"[+10]% [Food] [in all cities] <when number of [World] is more than [Homeland]>",
+
+			"[+2 Culture] from every [Emblematic District] <when number of [Liberty] is more than [Authority]>",
+			"[+2 Happiness] [in all cities] <when number of [Authority] is more than [Liberty]>",
+
+			"[+2 Faith] [in all cities] <when number of [Tradition] is more than [Progress]>",
+			"[+2 Science] [in all cities] <when number of [Progress] is more than [Tradition]>",
+
 
 	//Ancient
 	"[+1] Movement <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",							//Assyrians
