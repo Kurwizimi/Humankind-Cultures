@@ -1050,7 +1050,17 @@
 		"name": "The Assyrians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Harappans] is not constructed>"],
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Babylonians] is not constructed>","Only available <if [The Harappans] is not constructed>"],
+		"quote": "So now we advance as the warlike Assyrians… You're not going to be a very nice neighbor, are you?",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Babylonians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Assyrians] is not constructed>","Only available <if [The Harappans] is not constructed>"],
 		"quote": "So now we advance as the warlike Assyrians… You're not going to be a very nice neighbor, are you?",
 		"requiredTech": "Agriculture"
 	},
@@ -1058,7 +1068,8 @@
 		"name": "The Harappans",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Assyrians] is not constructed>"],
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", 
+			"Only available <if [The Assyrians] is not constructed>","Only available <if [The Babylonians] is not constructed>"],
 		"quote": "While the Harappans certainly had markets, they left few remains. Please, show us what they might have done!",
 		"requiredTech": "Agriculture"
 	},
@@ -1069,7 +1080,8 @@
 		"name": "The Aksumites",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Carthaginians] is not constructed>"],
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Carthaginians] is not constructed>", "Only available <if [The Greeks] is not constructed>"],
 		"quote": "And now, the Aksumites! Good with tangibles and intangibles; as skilled at barter as they are at battle.",
 		"requiredTech": "Agriculture"
 	},
@@ -1077,7 +1089,17 @@
 		"name": "The Carthaginians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Aksumites] is not constructed>"],
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Aksumites] is not constructed>", "Only available <if [The Greeks] is not constructed>"],
+		"quote": "Speaking of dealing in intangibles — am I about to see lots of offers that can't be refused?",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Greeks",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Aksumites] is not constructed>", "Only available <if [The Carthaginians] is not constructed>"],
 		"quote": "Speaking of dealing in intangibles — am I about to see lots of offers that can't be refused?",
 		"requiredTech": "Agriculture"
 	},
@@ -1088,14 +1110,24 @@
 		"name": "The Mexica",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Ghanaians] is not constructed>"],
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Franks] is not constructed>", "Only available <if [The Ghanaians] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Franks",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Mexica] is not constructed>", "Only available <if [The Ghanaians] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Ghanaians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Mexica] is not constructed>"],
+		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Mexica] is not constructed>", "Only available <if [The Franks] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 
@@ -1105,14 +1137,24 @@
 		"name": "The Dutch",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Venetians] is not constructed>"],
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Edo] is not constructed>", "Only available <if [The Venetians] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Edo",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Dutch] is not constructed>", "Only available <if [The Venetians] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Venetians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Dutch] is not constructed>"],
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Dutch] is not constructed>", "Only available <if [The Edo] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 
@@ -1122,14 +1164,24 @@
 		"name": "The French",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Mexicans] is not constructed>"],
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Germans] is not constructed>", "Only available <if [The Mexicans] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Germans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The French] is not constructed>", "Only available <if [The Mexicans] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Mexicans",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The French] is not constructed>"],
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The French] is not constructed>", "Only available <if [The Germans] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 
@@ -1139,14 +1191,24 @@
 		"name": "The Australians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Turks] is not constructed>"],
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Miṣriyyūn] is not constructed>", "Only available <if [The Turks] is not constructed>"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Miṣriyyūn",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Australians] is not constructed>", "Only available <if [The Turks] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Turks",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", "Only available <if [The Australians] is not constructed>"],
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+			"Only available <if [The Australians] is not constructed>", "Only available <if [The Miṣriyyūn] is not constructed>"],
 		"requiredTech": "Agriculture"
 	},
 
