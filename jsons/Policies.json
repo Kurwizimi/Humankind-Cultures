@@ -436,7 +436,7 @@
                         },
                             {
                             "name": "Open Inspections",
-                            "uniques": ["Comment [May build [Peoples Assembly] buildings in all cities]", "Instantly gain [5] [Collectivisn]",
+                            "uniques": ["Comment [May build [Peoples Assembly] buildings in all cities]", "Instantly gain [5] [Collectivism]",
 					"Unavailable <after adopting [Oligarchy]>","Unavailable <after adopting [One-Party State]>","Unavailable <after adopting [Political Control]>", "Unavailable <after adopting [State Surveillance - JC]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
@@ -580,15 +580,15 @@
                         },
                             {
                             "name": "Lifetime Sentence -1",
-                            "uniques": ["Instantly gain [5] [Tradition]",
-					"Unavailable <after adopting [Hard Labour]> <hidden from users>", "Judicial Civic"],
+                            "uniques": ["[+2 Culture] [in all cities with a garrison]", "[+2 Happiness] from every [Courthouse]", "Instantly gain [5] [Tradition]",
+					"Only available <after adopting [Physical Punishment]>", "Unavailable <after adopting [Hard Labour]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Hard Labour",
-                            "uniques": ["Instantly gain [5] [Progress]",
-					"Unavailable <after adopting [Lifetime Sentence -1]> <hidden from users>", "Judicial Civic"],
+                            "uniques": ["[-30]% maintenance cost for [all] buildings [in all cities]", "Instantly gain [5] [Progress]",
+					"Only available <after adopting [Physical Punishment]>", "Unavailable <after adopting [Lifetime Sentence -1]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 5
                         },
@@ -601,15 +601,15 @@
                         },
                             {
                             "name": "Lifetime Sentence -2",
-                            "uniques": ["Instantly gain [6] [Tradition]",
-					"Unavailable <after adopting [Rehabilitation]> <hidden from users>", "Judicial Civic"],
+                            "uniques": ["[+2 Culture] [in all cities with a garrison]", "[+2 Happiness] from every [Courthouse]", "Instantly gain [6] [Tradition]",
+					"Only available <after adopting [Forfeiture]>", "Unavailable <after adopting [Rehabilitation]> <hidden from users>", "Judicial Civic"],
 			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Rehabilitation",
-                            "uniques": ["Instantly gain [6] [Progress]",
-					"Unavailable <after adopting [Lifetime Sentence -2]> <hidden from users>", "Judicial Civic"],
+                            "uniques": ["[+75]% Yield from every [Great Improvement]", "Instantly gain [6] [Progress]",
+					"Only available <after adopting [Forfeiture]>", "Unavailable <after adopting [Lifetime Sentence -2]> <hidden from users>", "Judicial Civic"],
 			    "row": 4,
                             "column": 5
                         },
@@ -953,38 +953,6 @@
 			}
         ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
