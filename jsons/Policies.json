@@ -36,7 +36,7 @@
                         },
                             {
                             "name": "Codified Laws",
-                            "uniques": ["[+10]% Production when constructing [All] buildings [in all cities]", "Instantly gain [3] [Tradition]",
+                            "uniques": ["[+10]% Production when constructing [All] buildings [in all cities]", "Instantly gain [3] [Progress]",
 					"Unavailable <after adopting [Customary Laws]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
