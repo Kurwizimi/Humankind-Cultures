@@ -6,6 +6,10 @@
 			{ "text": "The Assyrians",
 			  "uniques": [	"Comment [[+1] [Movement] for all Units, [+100]% yeilds from pillaging]","Comment [[Assyrian Raider] - Replaces [Scout Rider]:[21] vs. [16] [Strength], Gains the [Pillager] promotion]","Comment [Dunnu: ]",
 				  "Gain a free [The Assyrians] [in capital] <hidden from users>","Only available <if [The Assyrians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Babylonians",
+			  "uniques": [	"Comment []","Comment []","Comment []",
+				  "Gain a free [The Babylonians] [in capital] <hidden from users>","Only available <if [The Babylonians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Harappans",
 			  "uniques": [	"Comment [+1 [Food] from every [Plains] and [River]]","Comment [[Runner] - Replaces [Scout]: [3] vs. [2] [Movement], [8] vs. [5] [Strength] ]","Comment [Canal Network: ]",
@@ -19,12 +23,17 @@
 		"text": "Classical Culture Pick",
 		"choices": [
 			{ "text": "The Aksumites",
-			  "uniques": [	"Comment [[+50]% [Gold] on every improved tile producing [Gold]", "Comment [Shotelei: ]","Comment [Great Obelisk: ]",
+			  "uniques": [	"Comment [[+50]% [Gold] on every improved tile producing [Gold]]", "Comment [Shotelei: ]","Comment [Great Obelisk: ]",
 				  "Gain a free [The Aksumites] [in capital] <hidden from users>", "Only available <if [The Aksumites] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Carthaginians",
 			  "uniques": [	"Comment [[Gold] cost of purchasing [All] buildings [-25]%]","Comment [War Elephant: ]","Comment [Cothon: ]",
 				  "Gain a free [The Carthaginians] [in capital] <hidden from users>" ,"Only available <if [The Carthaginians] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
+			
+			{ "text": "The Greeks",
+			  "uniques": [	"Comment []", "Comment []","Comment []",
+				  "Gain a free [The Greeks] [in capital] <hidden from users>", "Only available <if [The Greeks] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
+
       
      			]
   	},
@@ -36,6 +45,10 @@
 			{ "text": "The Mexica",
 			  "uniques": [	"Comment [[+2] [Movement] for all Units, [+20]% [Production] when constructing All units in all cities]",
 				  "Gain a free [The Mexica] [in capital] <hidden from users>", "Only available <if [The Mexica] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Franks",
+			  "uniques": [	"Comment []",
+				  "Gain a free [The Franks] [in capital] <hidden from users>", "Only available <if [The Franks] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Ghanaians",
 			  "uniques": [	"Comment[+2 [Gold] from every Luxury, +1 [Gold] from every Strategic]",
@@ -50,6 +63,9 @@
 		"choices": [
 			{ "text": "The Dutch",
 			  "uniques": [	"Gain a free [The Dutch] [in capital] <hidden from users>", "Only available <if [The Dutch] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Edo",
+			  "uniques": [	"Gain a free [The Edo] [in capital] <hidden from users>", "Only available <if [The Edo] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Venetians",
 			  "uniques": [	"Gain a free [The Venetians] [in capital] <hidden from users>" ,"Only available <if [The Venetians] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
@@ -63,6 +79,9 @@
 		"choices": [
 			{ "text": "The French",
 			  "uniques": [	"Gain a free [The French] [in capital] <hidden from users>", "Only available <if [The French] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Germans",
+			  "uniques": [	"Gain a free [The Germans] [in capital] <hidden from users>", "Only available <if [The Germans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Mexicans",
 			  "uniques": [	"Gain a free [The Mexicans] [in capital] <hidden from users>" ,"Only available <if [The Mexicans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
@@ -77,6 +96,9 @@
 		"choices": [
 			{ "text": "The Australians",
 			  "uniques": [	"Gain a free [The Australians] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Miṣriyyūn",
+			  "uniques": [	"Gain a free [The Miṣriyyūn] [in capital] <hidden from users>", "Only available <if [The Miṣriyyūn] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Turks",
 			  "uniques": [	"Gain a free [The Turks] [in capital] <hidden from users>" ,"Only available <if [The Turks] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
