@@ -374,7 +374,7 @@
 		"name": "Cothon",
 		"cityStrength": 10,
 		"cityHealth": 10,
-		"uniques": ["[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lake] tiles [in this city]",
+		"uniques": ["[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lakes] tiles [in this city]",
 			"Emblematic District", "Only available <if [The Carthaginians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade Expeditions"
