@@ -36,16 +36,6 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Runner",//Harappans
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 8,
-		"cost": 45,
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <if [The Harappans] is constructed>", "Emblematic Unit"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Tribe",
 		"unitType": "Sword",
 		"movement": 2,
@@ -95,21 +85,6 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Assyrian Raider",//Assyrians
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 21,
-		"cost": 90,
-		"requiredTech": "Domestication",
-		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <if [The Assyrians] is constructed>", "Emblematic Unit"],
-		"promotions": ["Pillager"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-	{
 		"name": "Spearman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -132,6 +107,47 @@
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Quadrireme",
 		"obsoleteTech": "Foreign Outposts",
+		"attackSound": "nonmetalhit"
+	},
+	//Assyrians
+		{
+		"name": "Assyrian Raider",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 21,
+		"cost": 90,
+		"requiredTech": "Domestication",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <if [The Assyrians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Pillager"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	//Babylonian
+		{
+		"name": "Ṣäbu Ša Qašti",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "War Summons",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "Only available <if [The Babylonians] is constructed>", "Emblematic Unit", "Can upgrade to [Hoplite] <if [The Greeks] is constructed>"],//Can convert to Persian+Greek UU
+		"promotions": ["Guardian"],
+		"attackSound": "metalhit"
+	},
+	//Harappans
+		{
+		"name": "Runner",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 8,
+		"cost": 45,
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <if [The Harappans] is constructed>", "Emblematic Unit"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
 
@@ -176,6 +192,51 @@
 		"obsoleteTech": "Seafaring Mastery",
 		"attackSound": "nonmetalhit"
 	},
+	//Aksumite
+	{
+		"name": "Shotelai",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 26,
+		"cost": 90,
+		"requiredResource": "Iron",
+		"requiredTech": "Standing Army",
+		"upgradesTo": "Great Swordsman", //Can convert to Roman UU
+		"obsoleteTech": "Heavy Infantry",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Aksumites] is constructed>", "Emblematic Unit"],
+		"promotions": ["Grappler"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	//Carthaginian
+	{
+		"name": "War Elephant",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 32,
+		"cost": 240,
+		"requiredTech": "Mounted Warfare",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Carthaginians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Trample"],
+		"hurryCostModifier": 20,
+	},
+	//Greek
+	{
+		"name": "Hoplite",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 26,
+		"cost": 90,
+		"requiredTech": "Standing Army",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "Only available <if [The Greeks] is constructed>", "Emblematic Unit"], //Can convert to Roman UU
+		"promotions": ["Phalanx"],
+		"upgradesTo": "Great Swordsman", 
+		"obsoleteTech": "Heavy Infantry",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
 
 	//MEDIEVAL
 	{
@@ -213,7 +274,7 @@
 		"obsoleteTech": "Carbine",
 		"upgradesTo": "Dragoon",// Can covert to Polish and French UU
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 	},
 	{
@@ -240,6 +301,50 @@
 		"obsoleteTech": "Naval Artillery",
 		"attackSound": "nonmetalhit"
 	},
+	//Mexica
+	{
+		"name": "Jaguar Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 35,
+		"cost": 400,
+		"requiredTech": "Heavy Infantry",
+		"uniques": [ "Never appears as a Barbarian unit", "Only available <if [The Mexica] is constructed>", "Emblematic Unit"], 
+		"promotions": ["Fervor"],
+		"upgradesTo": "Musketeer",
+		"obsoleteTech": "Flintlock",
+		"attackSound": "metalhit"
+	},
+	//Frank
+	{
+		"name": "Franci Milites",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 39,
+		"cost": 800,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Carbine",
+		"upgradesTo": "Dragoon",// Can covert to Polish and French UU
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Franks] is constructed>", "Emblematic Unit"],
+		"promotions": ["Trample"],
+		"attackSound": "horse"
+	},
+	//Ghanaian
+	{
+		"name": "Meharists",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 35,
+		"cost": 800,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Carbine",
+		"upgradesTo": "Dragoon",// Can covert to Polish and French UU
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Ghanaians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Anti-Cavalry"],
+		"attackSound": "horse"
+	},
+	
 
 
 	//EARLY MODERN
@@ -321,6 +426,47 @@
 		"upgradesTo": "Ironclad",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
+	},
+	//Dutch
+	{
+		"name": "Fluyt",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 52,
+		"cost": 970,
+		"requiredTech": "Naval Artillery",
+		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit", "Only available <if [The Dutch] is constructed>", "Emblematic Unit"],
+		"upgradesTo": "Steam Frigate",
+		"obsoleteTech": "Propeller",
+		"attackSound": "nonmetalhit"
+	},
+	//Edo
+	{
+		"name": "Naginata Samurai",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 41,
+		"cost": 485,
+		"requiredTech": "Centralised Power",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "Only available <if [The Edo] is constructed>", "Emblematic Unit"],
+		"promotions": ["Fervor"],
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Line Formation",
+		"attackSound": "metalhit"
+	},
+	//Venetian
+	{
+		"name": "Galleass",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 52,
+		"cost": 970,
+		"requiredTech": "Naval Artillery",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Venetians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Inner Sea Mastodonte"],
+		"upgradesTo": "Steam Frigate",
+		"obsoleteTech": "Propeller",
+		"attackSound": "nonmetalhit"
 	},
 
 	//INDUSTRIAL
@@ -432,6 +578,49 @@
 		"obsoleteTech": "Aerial Warfare",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
+	},
+	//French
+	{
+		"name": "Cuirassiers",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 40,
+		"cost": 2575,
+		"requiredTech": "Carbine",
+		"obsoleteTech": "Composite Armour",
+		"requiredResource": "Horses",
+		"upgradesTo": "Armoured Personnel Carrier",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The French] is constructed>", "Emblematic Unit"],
+		"promotions": ["Trample"],
+		"attackSound": "horse"
+	},
+	//German
+	{
+		"name": "Uboat",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 1180,
+		"requiredTech": "Combustion Engine",
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Diesel Submarine",
+		"uniques": ["Invisible to others", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit",  "Only available <if [The Germans] is constructed>", "Emblematic Unit"],
+		"attackSound": "torpedo"
+	},
+	//Mexican
+	{
+		"name": "Soldaderas",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 49,
+		"cost": 1290,
+		"requiredTech": "Guerilla Warfare",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Mexicans] is constructed>", "Emblematic Unit"],
+		"promotions": ["Guerilla Fighter"],
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Rifles",
+		"attackSound": "shot"
 	},
 
 	//CONTEMPORARY
@@ -684,6 +873,44 @@
 		"requiredTech": "Fusion Reactor",
 		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [3]"],
 		"attackSound": "nuke"
+	},
+	//Australian
+	{
+		"name": "All Terrain PMV",
+		"unitType": "Gunpowder",
+		"movement": 5,
+		"strength": 62,
+		"cost": 7400,
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Australians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Ignore terrain cost"],
+		"requiredResource": "Oil",
+		"requiredTech": "Composite Armour",
+		"attackSound": "shot"
+	},
+	//Miṣriyyūn
+	{
+		"name": "Free Officers",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 58,
+		"cost": 3700,
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Miṣriyyūn] is constructed>", "Emblematic Unit"],
+		"promotions": ["Anti-Colonialism"],
+		"requiredTech": "Insurrection Theory",
+		"attackSound": "shot"
+	},
+	//Turk
+	{
+		"name": "Stealthy Operative Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 14,
+		"cost": 7000,
+		"requiredTech": "Fighter Jets",
+		"uniques": ["[-100]% maintenance costs", "Cannot be intercepted","Destroys tile improvements when attacking", "Never appears as a Barbarian unit",  "Only available <if [The Turks] is constructed>", "Emblematic Unit"],
+		"attackSound": "missile"
 	},
 
 
