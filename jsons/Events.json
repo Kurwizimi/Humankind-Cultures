@@ -4,15 +4,21 @@
 		"text": "Ancient Culture Pick",
 		"choices": [
 			{ "text": "The Assyrians",
-			  "uniques": [	"Comment [[+1] [Movement] for all Units, [+100]% yeilds from pillaging]","Comment [[Assyrian Raider] - Replaces [Scout Rider]:[21] vs. [16] [Strength], Gains the [Pillager] promotion]","Comment [Dunnu: ]",
+			  "uniques": [	"Comment [Raid Masters: [+1] [Movement] for all Units, [+100]% yeilds from pillaging]",
+				  	"Comment [[Assyrian Raider]: [Scout Rider]-like unit, [21] vs. [16] [Strength], [Pillager] - +100% Yeild from pillaging]",
+				 	 "Comment [Dunnu: +5 City Strength, +20 City Health, +3 [Culture]]",
 				  "Gain a free [The Assyrians] [in capital] <hidden from users>","Only available <if [The Assyrians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Babylonians",
-			  "uniques": [	"Comment []","Comment []","Comment []",
+			  "uniques": [	"Comment [Brilliant Philosophers: +2 [Science] in all cities]",
+				  	"Comment [[Ṣäbu Ša Qašti]: [Spearman]-like unit, [Guardian]]",
+				  	"Comment [[Astronomy House]: +1 [Science] +1 [Food] from every [Researcher] in this city, +1 [Researcher] Slot]",
 				  "Gain a free [The Babylonians] [in capital] <hidden from users>","Only available <if [The Babylonians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Harappans",
-			  "uniques": [	"Comment [+1 [Food] from every [Plains] and [River]]","Comment [[Runner] - Replaces [Scout]: [3] vs. [2] [Movement], [8] vs. [5] [Strength] ]","Comment [Canal Network: ]",
+			  "uniques": [	"Comment [Fertile Inundations: +1 [Food] from every [Plains] and [River]]",
+				  	"Comment [[Runner] - [Scout]-like unit: [3] vs. [2] [Movement], [8] vs. [5] [Strength] ]",
+				  	"Comment [[Canal Network]: +3 [Food], +1 [Food] for each adjacent [Farm[] not built on Fresh Water, Cannot be built next to each other, [Plains][Grassland][Desert]]",
 				  "Gain a free [The Harappans] [in capital] <hidden from users>","Only available <if [The Harappans] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
       
      			]
@@ -23,15 +29,21 @@
 		"text": "Classical Culture Pick",
 		"choices": [
 			{ "text": "The Aksumites",
-			  "uniques": [	"Comment [[+50]% [Gold] on every improved tile producing [Gold]]", "Comment [Shotelei: ]","Comment [Great Obelisk: ]",
+			  "uniques": [	"Comment [Horn of Plenty: +50% [Gold] on every improved tile producing [Gold]]",
+				  	"Comment [[Shotelei]: [Swordsman]-like unit, [Grappler]]",
+				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert][Coastal]]",
 				  "Gain a free [The Aksumites] [in capital] <hidden from users>", "Only available <if [The Aksumites] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Carthaginians",
-			  "uniques": [	"Comment [[Gold] cost of purchasing [All] buildings [-25]%]","Comment [War Elephant: ]","Comment [Cothon: ]",
+			  "uniques": [	"Comment [Hard Bargainers: [Gold] cost of purchasing [All] buildings [-25]%]",
+				  	"Comment [[War Elephant]: 32 [Strength], 3 [Movement], [Trample]]",
+				  	"Comment [[Cothon]: +10 City Strength, +10 City Health, +2 [Production] from [Coast] tiles, +3 [Production] from [Lakes] tiles]",
 				  "Gain a free [The Carthaginians] [in capital] <hidden from users>" ,"Only available <if [The Carthaginians] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Greeks",
-			  "uniques": [	"Comment []", "Comment []","Comment []",
+			  "uniques": [	"Comment [Socratic Methods: +2 [Science] from every [Researcher]]", 
+				  	"Comment [[Hoplite]: [Swordsman]-like unit, +50% Strength vs. Mounted units, [Phalanx]]",
+				  	"Comment [[Amphitheatron]: +1 [Culture] +3 [Science] for every Era passed]",
 				  "Gain a free [The Greeks] [in capital] <hidden from users>", "Only available <if [The Greeks] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 
       
@@ -43,15 +55,21 @@
 		"text": "Medieval Culture Pick",
 		"choices": [
 			{ "text": "The Mexica",
-			  "uniques": [	"Comment [[+2] [Movement] for all Units, [+20]% [Production] when constructing All units in all cities]",
+			  "uniques": [	"Comment [Huitzilopochtli's Glory: [+2] [Movement] for all Units, [+20]% [Production] when constructing All units in all cities]",
+				  	"Comment [[Jaguar Warrior]: [Great Swordsman]-like unit, Does not require [Iron], [Fervor]]",
+				  	"Comment [[Sacrificial Altar]: +5 [Faith], +2 [Culture], +1 [Happiness]",
 				  "Gain a free [The Mexica] [in capital] <hidden from users>", "Only available <if [The Mexica] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Franks",
-			  "uniques": [	"Comment []",
+			  "uniques": [	"Comment [Crown Lands: +10% [Culture]]",
+				  	"Comment [[Franci Milites]: [Knight]-like unit, 39 vs. 36 [Strength], [Trample]]",
+				  	"Comment [[Scriptorium]: +5 [Science], +3 [Faith]]",
 				  "Gain a free [The Franks] [in capital] <hidden from users>", "Only available <if [The Franks] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Ghanaians",
-			  "uniques": [	"Comment[+2 [Gold] from every Luxury, +1 [Gold] from every Strategic]",
+			  "uniques": [	"Comment[Life of Luxury: +2 [Gold] from every Luxury, +1 [Gold] from every Strategic]",
+				  	"Comment [[Meharists]: [Knight]-like unit, Does not require [Horses], [Anti-Cavalry]]",
+				  	"Comment [[Luxuries Market]: +5 [Gold], +1 [Gold] from every Trade Route]",
 				  "Gain a free [The Ghanaians] [in capital] <hidden from users>" ,"Only available <if [The Ghanaians] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
       
      			]
@@ -62,13 +80,22 @@
 		"text": "Early Modern Culture Pick",
 		"choices": [
 			{ "text": "The Dutch",
-			  "uniques": [	"Gain a free [The Dutch] [in capital] <hidden from users>", "Only available <if [The Dutch] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
+			  "uniques": [	"Comment [Stock Wisdom: +1 [Gold] form every population in all cities]",
+				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
+				  "Gain a free [The Dutch] [in capital] <hidden from users>", "Only available <if [The Dutch] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Edo",
-			  "uniques": [	"Gain a free [The Edo] [in capital] <hidden from users>", "Only available <if [The Edo] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
+			  "uniques": [	"Comment [Shogun's Authority: +1 [Culture] form every population in all cities]",
+				  	"Comment [[Naginata Samurai]: [Harbeilder]-like unit, [Fervor]]",
+				  	"Comment [[Tera]: +3 [Faith], +1 [Culture] for each adjacent [Mountain], Can only be build next to Mountains, [Plains][Grassland][Tundra]]",
+				  "Gain a free [The Edo] [in capital] <hidden from users>", "Only available <if [The Edo] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Venetians",
-			  "uniques": [	"Gain a free [The Venetians] [in capital] <hidden from users>" ,"Only available <if [The Venetians] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
+			  "uniques": [	"Comment [Silver Tongues: +3 [Gold] +1 [Culture] from every Trade Route]",
+				  	"Comment [[Galleass]: [Carrack]-like unit, [Inner Sea Mastodonte]]",
+				  	"Comment [[Botteghe Di Artisti]: +6 [Culture], +2 [Gold]]",
+				  "Gain a free [The Venetians] [in capital] <hidden from users>" ,"Only available <if [The Venetians] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
       
      			]
   	},
@@ -78,13 +105,22 @@
 		"text": "Industrial Culture Pick",
 		"choices": [
 			{ "text": "The French",
-			  "uniques": [	"Gain a free [The French] [in capital] <hidden from users>", "Only available <if [The French] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+			  "uniques": [	"Comment [Enlightened Thinking: +10% [Science] in all cities]",
+				  	"Comment [[Cuirassiers]: [Dragoon]-like unit, 5 vs. 4 [Movement], 40 vs. 45 [Strength], [Trample]]",
+				  	"Comment [[Exhibition Hall]: +5 [Culture], +3 [Science] from every Trade Route]",
+				  "Gain a free [The French] [in capital] <hidden from users>", "Only available <if [The French] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Germans",
-			  "uniques": [	"Gain a free [The Germans] [in capital] <hidden from users>", "Only available <if [The Germans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+			  "uniques": [	"Comment [Iron Ordnance: +20% [Production] when constructing All units in all cities, +15% [Strength] for Naval and Air units]",
+				  	"Comment [[Uboat]: [Torpedo Boat]-like unit, [Submarine] unit type vs. [Ranged Water] unit type, 60 vs. 55 [Strength], 1180 vs. 1290 [Cost]]",
+				  	"Comment [[Coking Works]: +1 [Production] from every population in all cities, +1 [Engineer] slot]",
+				  "Gain a free [The Germans] [in capital] <hidden from users>", "Only available <if [The Germans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Mexicans",
-			  "uniques": [	"Gain a free [The Mexicans] [in capital] <hidden from users>" ,"Only available <if [The Mexicans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+			  "uniques": [	"Comment [Fields of Gold: +10% [Food] in all cities]",
+				  	"Comment [[Soldaderas]: [Line Infantry]-like unit, 49 vs. 47 [Strength], [Guerilla Fighter]]",
+				  	"Comment [[Hacienda]: +2 [Gold], +1 [Food] for each adjacent [Farm], Cannot be built nest to each other, [Plains][Grassland][Desert]]",
+				  "Gain a free [The Mexicans] [in capital] <hidden from users>" ,"Only available <if [The Mexicans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
       
      			]
 	},
@@ -95,13 +131,22 @@
 		"text": "Contemporary Culture Pick",
 		"choices": [
 			{ "text": "The Australians",
-			  "uniques": [	"Gain a free [The Australians] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+			  "uniques": [	"Comment [Dream Weavers: +10% [Production] in all cities]",
+				  	"Comment [[All Terrain PMV]: [Armoured Personnel Carrier]-like unit, [Ignore terrain cost]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from evry Strategic in this city]",
+				  "Gain a free [The Australians] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Miṣriyyūn",
-			  "uniques": [	"Gain a free [The Miṣriyyūn] [in capital] <hidden from users>", "Only available <if [The Miṣriyyūn] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+			  "uniques": [	"Comment [Valley of Kings: +4 [Culture] from every [Emblematic District]]",
+				  	"Comment [[Free Officer]: 58 [Strength], 2 [Movement], [Anti-Colonialism]]",
+				  	"Comment [[Archeological Dig]: +3 [Culture], +3 [Science] for each adjacent Natural Wonder, +1 [Culture] for each adjacent [City center], Can only be build next to Mountains, [Plains][Grassland][Desert][Tundra][Snow]]",
+				  "Gain a free [The Miṣriyyūn] [in capital] <hidden from users>", "Only available <if [The Miṣriyyūn] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Turks",
-			  "uniques": [	"Gain a free [The Turks] [in capital] <hidden from users>" ,"Only available <if [The Turks] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+			  "uniques": [	"Comment [People's Reforms: +2 Food from every population in all cities]",
+				  	"Comment [[Stealthy Operative Missile]:  75 [Strength], 14 [Range], Destroys tile improvements]",
+				  	"Comment [[Public School]: +10% [Science], +1 [Food] from every [Farmer] in this city, +1 [Researcher] slot]",
+				  "Gain a free [The Turks] [in capital] <hidden from users>" ,"Only available <if [The Turks] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
       
      			]
 	},
