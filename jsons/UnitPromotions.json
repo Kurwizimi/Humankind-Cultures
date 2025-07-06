@@ -679,8 +679,45 @@
 
 		{
 		"name": "Pillager",
-		"uniques": ["[+50]% Yield from pillaging tiles"],
+		"uniques": ["[+100]% Yield from pillaging tiles"],
 	},
+		{
+		"name": "Guardian",
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"],
+	},
+		{
+		"name": "Grappler",
+		"uniques": ["[+10]% Strength <when attacking>"],
+	},
+		{
+		"name": "Trample",
+		"uniques": ["[+10]% Strength <vs [Wounded] units>"],
+	},
+	 	{
+        	"name": "Phalanx",
+        	"uniques": ["[+10]% Strength <when adjacent to a [Hoplite] unit>"]
+   	},
+		{
+        	"name": "Fervor",
+        	"uniques": ["No damage penalty for wounded units"]
+   	},
+		{
+        	"name": "Anti-Cavalry",
+        	"uniques": ["[+50]% Strength <vs [Mounted] units>"]
+   	},
+		{
+        	"name": "Inner Sea Mastodonte",
+        	"uniques": ["[+30]% Strength <when fighting in [Coast] tiles>"]
+   	},
+		{
+        	"name": "Guerilla Fighter",
+        	"uniques": ["Invisible to non-adjacent units"]
+   	},
+	{
+        	"name": "Anti-Colonialism",
+        	"uniques": ["[+25]% Strength <when fighting units from a Civilization with more Cities than you>"]
+   	},
+
 
 	
 
