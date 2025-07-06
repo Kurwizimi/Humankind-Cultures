@@ -480,7 +480,7 @@
 	{
 		"name": "Sacrificial Altar",
 		"faith": 5,
-		"Happiness": 1,
+		"happiness": 1,
 		"culture": 2,
 		"uniques": ["Emblematic District", "Only available <if [The Mexica] is constructed>"],//Sacrifice population
 		"hurryCostModifier": 25,
