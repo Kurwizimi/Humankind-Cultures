@@ -292,10 +292,10 @@
 	//Edo
 		{
         	"name": "Tera",
-        	"terrainsCanBeBuiltOn": ["Plains","Grasslannd","Tundra"],
+        	"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra"],
         	"faith": 3,
         	"turnsToBuild": 7,
-       	 	"uniques": [ "[+1 Culture] for each adjacent [Mountain]","Only available <with [1] to [6] neighboring [Canal Network] tiles>", 
+       	 	"uniques": [ "[+1 Culture] for each adjacent [Mountain]","Only available <with [1] to [6] neighboring [Mountain] tiles>", 
 			"Only available <if [The Edo] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"techRequired": "Theology",
         	"shortcutKey": "T"
