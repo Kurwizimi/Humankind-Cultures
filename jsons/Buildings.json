@@ -208,6 +208,24 @@
 		"requiredTech": "Writing",
 		"quote": "Congratulations on building The Temple of Artemis! It is a site of worship, most definitely -- even more so if you also worship marble."
 	},
+	//Assyrian
+	{
+		"name": "Dunnu",
+		"cityStrength": 5,
+		"cityHealth": 20,
+		"culture": 3,
+		"uniques": ["Emblematic District", "Only available <if [The Assyrians] is constructed>"],//Extra strength for units nearby
+		"hurryCostModifier": 25,
+		"requiredTech": "City Defence"
+	},
+	//Babylonian
+	{
+		"name": "Astronomy House",
+		"specialistSlots": {"Researcher": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science, +1 Food] from every [Researcher] <in this city>", "Emblematic District", "Only available <if [The Babylonians] is constructed>"],
+		"requiredTech": "Calendar"
+	},
 
 	//CLASSICAL
 	{
@@ -351,6 +369,24 @@
 		"requiredTech": "Standing Army",
 		"quote": "For such a mighty being, the tales of Zeus are full of questionable morality and poor decisions."
 	},
+	//Carthaginians
+	{
+		"name": "Cothon",
+		"cityStrength": 10,
+		"cityHealth": 10,
+		"uniques": ["[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lake] tiles [in this city]",
+			"Emblematic District", "Only available <if [The Carthaginians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade Expeditions"
+	},
+	//Greek
+	{
+		"name": "Amphitheatron",
+		"uniques": ["[+1 Culture, +3 Science] <for every [Era number]>",
+			"Emblematic District", "Only available <if [The Greeks] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Rhetoric"
+	},
 
 	//MEDIEVAL
 	{
@@ -439,6 +475,36 @@
 		"uniques": ["[+1 Production] per [1] population [in this city]"],
 		"requiredTech": "Furnace Steel",
 		"quote": "Tōdai-Ji was the largest wood structure in the world for 1200 years, more or less. That should impress anyone."
+	},
+	//Mexica
+	{
+		"name": "Sacrificial Altar",
+		"faith": 5,
+		"Happiness": 1,
+		"culture": 2,
+		"uniques": ["Emblematic District", "Only available <if [The Mexica] is constructed>"],//Sacrifice population
+		"hurryCostModifier": 25,
+		"requiredTech": "Theology"
+	},
+	//Franks
+	{
+		"name": "Scriptorium",
+		"specialistSlots": {"Researcher": 1},
+		"faith": 3,
+		"science": 5,
+		"uniques": ["Emblematic District", "Only available <if [The Franks] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Feudalism"
+	},
+	//Ghanaian
+	{
+		"name": "Luxuries Market",
+		"specialistSlots": {"Trader": 1},
+		"gold": 5,
+		"uniques": ["[+1 Gold] from each Trade Route",
+			"Emblematic District", "Only available <if [The Ghanaians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Guilds"
 	},
 
 	//EARLY MODERN
@@ -580,6 +646,25 @@
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]"],
 		"requiredTech": "Siege Cannons",
 		"quote": "Topkapi has been built, rebuilt, and renamed any number of times; it is a testament to stamina and survivability."
+	},
+	//Dutch
+	{
+		"name": "V.O.C Warehouse",
+		"specialistSlots": {"Trader": 1},
+		"gold": 10,
+		"uniques": ["[+2 Gold] from every [Trader] <in this city>","Must be next to [Coast]",
+			"Emblematic District", "Only available <if [The Dutch] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chartered Companies"
+	},
+	//Venetian
+	{
+		"name": "Botteghe Di Artisti",
+		"gold": 2,
+		"culture": 6,
+		"uniques": ["Emblematic District", "Only available <if [The Venetians] is constructed>"],//+Gold on gold tiles
+		"hurryCostModifier": 25,
+		"requiredTech": "Humanism"
 	},
 
 	//INDUSTRIAL
@@ -724,6 +809,24 @@
 		"uniques": ["[+1 Production] per [1] population [in this city]"],
 		"requiredTech": "Electricity",
 		"quote": "The Eiffel Tower -- proof of what you can do with a bit of iron, a bit of math, and thousands of liters of paint."
+	},
+	//French
+	{
+		"name": "Exhibition Hall",
+		"culture": 5,
+		"uniques": ["[+3 Science] from each Trade Route",
+			"Emblematic District", "Only available <if [The French] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Nationhood"
+	},
+	//German
+	{
+		"name": "Coking Works",
+		"specialistSlots": {"Engineer": 1},
+		"uniques": ["[+1 Production] per [1] population [in this city]",
+			"Emblematic District", "Only available <if [The Germans] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Mechanisation"
 	},
 
 	//CONTEMPORARY
@@ -960,8 +1063,37 @@
 		"requiredTech": "Suburbs",
 		"quote": "Impressive and dominating, Cristo Redentor removes any confusion about the importance of faith in everyday life."
 	},
+	//Australian
+	{
+		"name": "Strip Mining Complex",
+		"specialistSlots": {"Engineer": 1},
+		"production": 10,
+		"uniques": ["[+2 Production] from every [Strategic] <in this city>",
+			"Emblematic District", "Only available <if [The Australians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Continuous Track"
+	},
+	//Turk
+	{
+		"name": "Public School",
+		"specialistSlots": {"Researcher": 1},
+		"percentStatBonus": {"science": 10},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] from every [Farmer] <in this city>", "Emblematic District", "Only available <if [The Turks] is constructed>"],
+		"requiredTech": "Suburbs"
+	},
 
 
+
+
+
+
+
+
+
+
+
+	
 	//Policy Buildings
 	{
 		"name": "Peoples Assembly",
