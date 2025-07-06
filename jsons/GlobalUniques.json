@@ -44,6 +44,8 @@
 	"[+1] Movement <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",							//Assyrians
 	"[+100]% Yield from pillaging tiles <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
 
+	"[+2 Science] [in all cities] <for [All] units> <for [Major] Civilizations> <if [The Babylonians] is constructed>",					//Babylonians
+		
 	"[+1 Food] from every [Plains] <for [Major] Civilizations> <if [The Harappans] is constructed>",							//Harappans
 	"[+1 Food] from every [River] <for [Major] Civilizations> <if [The Harappans] is constructed>",
 
@@ -51,11 +53,14 @@
 	"[+50]% [Gold] from every [improved] <for [Major] Civilizations> <if [The Aksumites] is constructed>",							//Aksumites
 
 	"[Gold] cost of purchasing [All] buildings [-25]% <for [Major] Civilizations> <if [The Carthaginians] is constructed>",					//Carthaginians
-
+		
+	"[+2 Science] from every [Researcher] <in all cities> <for [Major] Civilizations> <if [The Greeks] is constructed>",					//Greeks	
 
 	//Medieval
-	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Mexica] is constructed>",			//Mexica
+	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Mexica] is constructed>",				//Mexica
 	"[+2] Movement <for [All] units> <for [Major] Civilizations> <if [The Mexica] is constructed>",
+
+	"[+10]% [Culture] <for [Major] Civilizations> <if [The Franks] is constructed>",									//Franks
 
 	"[+2 Gold] from every [Luxury resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",						//Ghanaians
 	"[+1 Gold] from every [Strategic resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",
@@ -64,17 +69,25 @@
 	//Early Modern
 	"[+1 Gold] per [1] population [in all cities] <for [Major] Civilizations> <if [The Dutch] is constructed>",						//Dutch
 
+	"[+1 Culture] per [1] population [in all cities] <for [Major] Civilizations> <if [The Edo] is constructed>",						//Edo
+
 	"[+3 Gold] from each Trade Route <for [Major] Civilizations> <if [The Venetians] is constructed>",							//Venetians
 
 
 	//Industrial
 	"[+10]% [Science] <for [Major] Civilizations> <if [The French] is constructed>",									//French
 
+	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Germans] is constructed>",			//Germans
+	"[+15]% Strength <for [Land] units> <for [Major] Civilizations> <if [The Germans] is constructed>",
+	"[+15]% Strength <for [Air] units> <for [Major] Civilizations> <if [The Germans] is constructed>",
+
 	"[+10]% [Food] [in all cities] <for [Major] Civilizations> <if [The Mexicans] is constructed>",								//Mexiacan
 
 
 	//Contemporary
 	 "[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Australians] is constructed>",						//Australian
+
+	"[+4 Culture] for every [Emblematic District] <for [Major] Civilizations> <if [The Miṣriyyūn] is constructed>",						//Miṣriyyūn
 
 	 "[+3 Food] per [1] population [in all cities] <for [Major] Civilizations> <if [The Turks] is constructed>",						//Turk
 	
