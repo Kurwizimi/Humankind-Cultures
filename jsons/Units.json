@@ -96,7 +96,20 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],//Can convert to Persian+Greek UU
 		"attackSound": "metalhit"
 	},
-	//Battering Ram
+	{
+		"name": "Battering Ram",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "The Huns",
+		"movement": 2,
+		"strength": 14,
+		"cost": 100,
+		"requiredTech": "Organised Warfare",
+		"obsoleteTech": "Seige Tactics",
+		"upgradesTo": "Ballista",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units"],
+		"attackSound": "throw"
+	},
 	{
 		"name": "Pentekonter",
 		"unitType": "Melee Water",
@@ -179,7 +192,20 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-	//Ballista
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 21,
+		"cost": 190,
+		"requiredTech": "Siege Tactics",
+		"obsoleteTech": "Military Architecture",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
 	{
 		"name": "Quadrireme",
 		"unitType": "Melee Water",
@@ -263,7 +289,19 @@
 		"obsoleteTech": "Centralised Power",
 		"attackSound": "metalhit"
 	},
-	//Trebuchet
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 22,
+		"rangedStrength": 26,
+		"cost": 220,
+		"requiredTech": "Military Architecture",
+		"obsoleteTech": "Siege Cannons",
+		"upgradesTo": "Motar",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
 	{
 		"name": "Knight",
 		"unitType": "Mounted",
@@ -471,7 +509,20 @@
 
 	//INDUSTRIAL
 	
-	//Howitzer
+	{
+		"name": "Howitzer",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 2,
+		"strength": 35,
+		"rangedStrength": 45,
+		"cost": 5155,
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Armored] units>"],
+		"requiredTech": "Military Coordination",
+		"obsoleteTech": "Insurrection Theory"
+		"upgradesTo": "Helicopter Gunship",
+		"attackSound": "machinegun"
+	},
 	{
 		"name": "Dragoon",
 		"unitType": "Mounted",
@@ -954,7 +1005,7 @@
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
@@ -964,7 +1015,7 @@
 		"name": "Great Engineer",
 		"unitType": "Civilian",
 		"uniques": ["Can speed up construction of a building",
-            "Can instantly construct a [Industrial district] improvement <by consuming this unit>",
+            "Can instantly construct a [Industrial District] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
