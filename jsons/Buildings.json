@@ -1193,7 +1193,7 @@
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Assyrians] is not constructed>","Only available <if [The Harappans] is not constructed>"],
-		"quote": "So now we advance as the warlike Assyrians… You're not going to be a very nice neighbor, are you?",
+		"quote": "This means more than just markets for the Babylonians. It's also the beginning of mathematics, astronomy, and a set of codified laws that I wouldn't want to be caught breaking…",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1232,7 +1232,7 @@
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Aksumites] is not constructed>", "Only available <if [The Carthaginians] is not constructed>"],
-		"quote": "Speaking of dealing in intangibles — am I about to see lots of offers that can't be refused?",
+		"quote": "New ideas lead to new strategies — and I'm sure the Greeks will spend time arguing the merits of them all!",
 		"requiredTech": "Agriculture"
 	},
 
@@ -1244,6 +1244,7 @@
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Franks] is not constructed>", "Only available <if [The Ghanaians] is not constructed>"],
+		"quote": "I'm not thinking of brains or brawn, but of corn, chocolate, and chilies... The Aztecs are a culture that makes my stomach rumble.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1252,6 +1253,7 @@
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Mexica] is not constructed>", "Only available <if [The Ghanaians] is not constructed>"],
+		"quote": "They may have had a mighty army… But to be honest, 'King of the Franks' sounds like something you'd eat at a baseball game.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1260,6 +1262,7 @@
 		"isWonder": true,
 		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Mexica] is not constructed>", "Only available <if [The Franks] is not constructed>"],
+		"quote": "Brute strength and innovation? How about trade, travel, and a lifestyle supported by tolls. I'd say the Ghanaians were on to a good thing.",
 		"requiredTech": "Agriculture"
 	},
 
@@ -1271,6 +1274,7 @@
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Edo] is not constructed>", "Only available <if [The Venetians] is not constructed>"],
+		"quote": "It seems the Dutch have both ships as well as pens and paper. Not to mention their vast quantities of cheese.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1279,6 +1283,7 @@
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Dutch] is not constructed>", "Only available <if [The Venetians] is not constructed>"],
+		"quote": "After all, who really needs an emperor to run an empire if you have a shogun?",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1287,6 +1292,7 @@
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Dutch] is not constructed>", "Only available <if [The Edo] is not constructed>"],
+		"quote": "Seafood, sea power, and all of that with a sea view. One could do much worse.",
 		"requiredTech": "Agriculture"
 	},
 
@@ -1298,6 +1304,7 @@
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Germans] is not constructed>", "Only available <if [The Mexicans] is not constructed>"],
+		"quote": "Born in the great era of enlightenment revolutions, will the French live up to their best, or launch another round of Terrors?",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1306,6 +1313,7 @@
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The French] is not constructed>", "Only available <if [The Mexicans] is not constructed>"],
+		"quote": "A powerhouse both of industry and of political philosophy! Though I hear it was a challenge to keep both the factories running and the workers happy.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1314,6 +1322,7 @@
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The French] is not constructed>", "Only available <if [The Germans] is not constructed>"],
+		"quote": "Everyone talks about Mexico's revolutionary heroes, mural painters, and passionate people. Please; don't forget the agave.",
 		"requiredTech": "Agriculture"
 	},
 
@@ -1325,6 +1334,7 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Miṣriyyūn] is not constructed>", "Only available <if [The Turks] is not constructed>"],
+		"quote": "They hold a rather unique place in both geography and anthropology, the Australians. Though I have been told that the correct pronunciation is actually 'Strine'.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1333,6 +1343,7 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Australians] is not constructed>", "Only available <if [The Turks] is not constructed>"],
+		"quote": "The Egyptian past has shown ample examples of genius and innovation. Given that, I can't wait to see their glorious future!",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1341,6 +1352,7 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Australians] is not constructed>", "Only available <if [The Miṣriyyūn] is not constructed>"],
+		"quote": "An ancient culture with a heritage of agriculture and education. I predict they will be full of surprises.",
 		"requiredTech": "Agriculture"
 	},
 
