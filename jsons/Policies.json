@@ -546,7 +546,7 @@
 	 {
             "name": "Early Modern Civics",
             "era": "Early Modern era",
-	    "uniques": ["Adopt [Artistic Ownership]", "Adopt [Materials Procurement]","Free Social Policy""],
+	    "uniques": ["Adopt [Artistic Ownership]", "Adopt [Materials Procurement]","Free Social Policy"],
             "policies": [
                             //POLITICAL
                             {
