@@ -18,7 +18,7 @@
       			{ "text": "The Harappans",
 			  "uniques": [	"Comment [Fertile Inundations: +1 [Food] from every [Plains] and [River]]",
 				  	"Comment [[Runner] - [Scout]-like unit: [3] vs. [2] [Movement], [8] vs. [5] [Strength] ]",
-				  	"Comment [[Canal Network]: +3 [Food], +1 [Food] for each adjacent [Farm[] not built on Fresh Water, Cannot be built next to each other, [Plains][Grassland][Desert]]",
+				  	"Comment [[Canal Network]: +3 [Food], +1 [Food] for each adjacent [Farm] not built on Fresh Water, Cannot be built next to each other, [Plains][Grassland][Desert]]",
 				  "Gain a free [The Harappans] [in capital] <hidden from users>","Only available <if [The Harappans] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
       
      			]
@@ -31,7 +31,7 @@
 			{ "text": "The Aksumites",
 			  "uniques": [	"Comment [Horn of Plenty: +50% [Gold] on every improved tile producing [Gold]]",
 				  	"Comment [[Shotelei]: [Swordsman]-like unit, [Grappler]]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert][Coastal]]",
+				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
 				  "Gain a free [The Aksumites] [in capital] <hidden from users>", "Only available <if [The Aksumites] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Carthaginians",
@@ -55,9 +55,9 @@
 		"text": "Medieval Culture Pick",
 		"choices": [
 			{ "text": "The Mexica",
-			  "uniques": [	"Comment [Huitzilopochtli's Glory: [+2] [Movement] for all Units, [+20]% [Production] when constructing All units in all cities]",
-				  	"Comment [[Jaguar Warrior]: [Great Swordsman]-like unit, Does not require [Iron], [Fervor]]",
-				  	"Comment [[Sacrificial Altar]: +5 [Faith], +2 [Culture], +1 [Happiness]",
+			  "uniques": [	"Comment [Huitzilopochtli's Glory: [+2] [Movement] for all Units, [+20]% [Production] when constructing All units in all cities ]",
+				  	"Comment [[Jaguar Warrior]: [Great Swordsman]-like unit, Does not require [Iron], [Fervor] ]",
+				  	"Comment [[Sacrificial Altar]: +5 [Faith], +2 [Culture], +1 [Happiness] ]",
 				  "Gain a free [The Mexica] [in capital] <hidden from users>", "Only available <if [The Mexica] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Franks",
@@ -67,7 +67,7 @@
 				  "Gain a free [The Franks] [in capital] <hidden from users>", "Only available <if [The Franks] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Ghanaians",
-			  "uniques": [	"Comment[Life of Luxury: +2 [Gold] from every Luxury, +1 [Gold] from every Strategic]",
+			  "uniques": [	"Comment [Life of Luxury: +2 [Gold] from every Luxury, +1 [Gold] from every Strategic]",
 				  	"Comment [[Meharists]: [Knight]-like unit, Does not require [Horses], [Anti-Cavalry]]",
 				  	"Comment [[Luxuries Market]: +5 [Gold], +1 [Gold] from every Trade Route]",
 				  "Gain a free [The Ghanaians] [in capital] <hidden from users>" ,"Only available <if [The Ghanaians] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
@@ -105,21 +105,21 @@
 		"text": "Industrial Culture Pick",
 		"choices": [
 			{ "text": "The French",
-			  "uniques": [	"Comment [Enlightened Thinking: +10% [Science] in all cities]",
-				  	"Comment [[Cuirassiers]: [Dragoon]-like unit, 5 vs. 4 [Movement], 40 vs. 45 [Strength], [Trample]]",
-				  	"Comment [[Exhibition Hall]: +5 [Culture], +3 [Science] from every Trade Route]",
+			  "uniques": [	"Comment [Enlightened Thinking: +10% [Science] in all cities ]",
+				  	"Comment [[Cuirassiers]: [Dragoon]-like unit, 5 vs. 4 [Movement], 40 vs. 45 [Strength], [Trample] ]",
+				  	"Comment [[Exhibition Hall]: +5 [Culture], +3 [Science] from every Trade Route ]",
 				  "Gain a free [The French] [in capital] <hidden from users>", "Only available <if [The French] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Germans",
-			  "uniques": [	"Comment [Iron Ordnance: +20% [Production] when constructing All units in all cities, +15% [Strength] for Naval and Air units]",
-				  	"Comment [[Uboat]: [Torpedo Boat]-like unit, [Submarine] unit type vs. [Ranged Water] unit type, 60 vs. 55 [Strength], 1180 vs. 1290 [Cost]]",
-				  	"Comment [[Coking Works]: +1 [Production] from every population in all cities, +1 [Engineer] slot]",
+			  "uniques": [	"Comment [Iron Ordnance: +20% [Production] when constructing All units in all cities, +15% [Strength] for Naval and Air units ]",
+				  	"Comment [[Uboat]: [Torpedo Boat]-like unit, [Submarine] unit type vs. [Ranged Water] unit type, 60 vs. 55 [Strength], 1180 vs. 1290 [Cost] ]",
+				  	"Comment [[Coking Works]: +1 [Production] from every population in all cities, +1 [Engineer] slot ]",
 				  "Gain a free [The Germans] [in capital] <hidden from users>", "Only available <if [The Germans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Mexicans",
-			  "uniques": [	"Comment [Fields of Gold: +10% [Food] in all cities]",
-				  	"Comment [[Soldaderas]: [Line Infantry]-like unit, 49 vs. 47 [Strength], [Guerilla Fighter]]",
-				  	"Comment [[Hacienda]: +2 [Gold], +1 [Food] for each adjacent [Farm], Cannot be built nest to each other, [Plains][Grassland][Desert]]",
+			  "uniques": [	"Comment [Fields of Gold: +10% [Food] in all cities ]",
+				  	"Comment [[Soldaderas]: [Line Infantry]-like unit, 49 vs. 47 [Strength], [Guerilla Fighter] ]",
+				  	"Comment [[Hacienda]: +2 [Gold], +1 [Food] for each adjacent [Farm], Cannot be built nest to each other, [Plains][Grassland][Desert] ]",
 				  "Gain a free [The Mexicans] [in capital] <hidden from users>" ,"Only available <if [The Mexicans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
       
      			]
