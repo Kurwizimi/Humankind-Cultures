@@ -372,8 +372,8 @@
 		"type": "NaturalWonder",
 		"happiness": 3,
 		"occursOn": ["Coast"],
-		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [2] to [5] [Coast] tiles",
+		"uniques": ["Must be adjacent to [2] to [5] [Coast] tiles",
+			"Must be adjacent to [2] to [5] [Land] tiles",
 			"Occurs in groups of [2] to [2] tiles",
 			"Grants [Resistance] ([all healing effects doubled]) to adjacent [{Military} {Water}] units for the rest of the game"],
 		"turnsInto": "Coast",
@@ -403,6 +403,7 @@
 		"gold": 1,
 		"occursOn": ["Tundra","Plains","Grassland"],
 		"uniques": ["Must be adjacent to [2] to [6] [Tundra] tiles",
+			"Must be adjacent to [0] [Coast] tiles",
 			"Occurs in groups of [3] to [4] tiles"],
 		"turnsInto": "Lakes",
 		"impassable": false,
@@ -435,7 +436,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 5
 	},
 	{
 		"name": "Mount Roriama",
@@ -462,7 +463,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 5
 	},
 	{
 		"name": "Perito Moreno Glacier",
