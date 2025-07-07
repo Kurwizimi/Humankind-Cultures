@@ -26,7 +26,7 @@
 			"row": 2,
 			"cost":35,
 	                "prerequisites": ["Agriculture"],
-			"uniques": ["[+100]% weight to this choice for AI decisions"],
+			"uniques": [""],
 	                "quote": ""
 		},
 			{
@@ -41,7 +41,7 @@
 			"row": 6,
 			"cost":35,
 	                "prerequisites": ["Agriculture"],
-			"uniques": ["[-50]% weight to this choice for AI decisions"],
+			"uniques": [""],
 			"quote": ""
             	},
 			{
@@ -49,7 +49,7 @@
 	                "row": 8,
 			"cost":35,
 			"prerequisites": ["Agriculture"],
-			"uniques": ["[+100]% weight to this choice for AI decisions"],
+			"uniques": [""],
 	                "quote": ""
 		}]
 },
@@ -65,21 +65,21 @@
 				                "name": "Irrigation",
 				                "row": 3,
 				                "prerequisites": ["Calendar", "Domestication"],
-                       				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                       				"uniques": [""],
 				                "quote": ""
 			            	},
 			    			 {
 				                  "name": "Wheel",
 				                  "row": 5,
 				                  "prerequisites": ["Domestication","Carpentry"],
-                          			  "uniques": ["[+50]% weight to this choice for AI decisions"],
+                          			  "uniques": [""],
 				                  "quote": ""
 			              	},
 			                  	{
 				                "name": "Fishing",
 				                "row": 6,
 				                "prerequisites": ["Carpentry"],
-                        			"uniques": ["[+100]% weight to this choice for AI decisions"],
+                        			"uniques": [""],
 				                "quote": ""
 			            	},
 		                  		{
@@ -92,7 +92,7 @@
 				                "name": "Bronze Working",
 				                "row": 8,
 			                	"prerequisites": ["City Defence"],
-                       				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                       				"uniques": [""],
 				                "quote": ""
 			            	}]
   	},
@@ -122,7 +122,7 @@
 				                  "name": "Organised Warfare",
 				                  "row": 7,
 				                  "prerequisites": ["Masonry","Bronze Working"],
-                          			  "uniques": ["[+100]% weight to this choice for AI decisions"],
+                          			  "uniques": [""],
 				                  "quote": ""
 			        	}]
 	},
@@ -156,14 +156,14 @@
 						 "name": "Fortifications",
 						 "row": 7,
 						 "prerequisites": ["Organised Warfare"],
-						 "uniques": ["[+100]% weight to this choice for AI decisions"],
+						 "uniques": [""],
 						 "quote": ""
 					},
 						 {
 						 "name": "Standing Army",
 						 "row": 8,
 						 "prerequisites": ["Bronze Working"],
-                                                 "uniques": ["[-50]% weight to this choice for AI decisions"],
+                                                 "uniques": [""],
 						 "quote": ""
 					}]
 	},
@@ -186,7 +186,7 @@
 						"name": "Craftsmanship",
 						"row": 5,
 						"prerequisites": ["Trade Expeditions", "Hydrology"],
-						"uniques": ["[+100]% weight to this choice for AI decisions"],
+						"uniques": [""],
 						"quote": ""
 					},
 						{
@@ -200,7 +200,7 @@
 						"name": "Mounted Warfare",
 						"row": 8,
 						"prerequisites": ["Standing Army"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],//More pillage yeilds
+                				"uniques": [""],//More pillage yeilds
 						"quote": ""
 					}]
 	},
@@ -216,7 +216,7 @@
 						"cost": 375,
 						"row": 4,
 						"prerequisites": ["Craftsmanship","Conquest"],
-                				"uniques": ["[-50]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					},
 						{
@@ -245,7 +245,7 @@
 						{
 						"name": "Theology",
 						"row": 2,
-						"uniques": ["[+50]% weight to this choice for AI decisions"],
+						"uniques": [""],
 						"prerequisites": ["Rhetoric"],
 						"quote": ""
 					},
@@ -260,7 +260,7 @@
 						"name": "War Summons",
 						"row": 7,
 						"prerequisites": ["Imperial Power"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					}]
 	},
@@ -288,7 +288,7 @@
 						"name": "Heavy Infantry",
 						"row": 7,
 						"prerequisites": ["War Summons"],
-               					"uniques": ["[+50]% weight to this choice for AI decisions"],
+               					"uniques": [""],
 						"quote": ""
 					},
 						{
@@ -311,7 +311,7 @@
 						"name": "Alchemy",
 						"row": 2,
 						"prerequisites": ["Theology"],
-                				"uniques": ["[+50]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					},
 						{
@@ -325,7 +325,7 @@
 						"name": "Furnace Steel",
 						"row": 6,
 						"prerequisites": ["Chivalry","Heavy Infantry"],
-                				"uniques": ["[+50]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					}]
 	},
@@ -348,7 +348,7 @@
 						"name": "Naval Artillery",
 						"row": 4,
 						"prerequisites": ["Seafaring Mastery"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					},
 						{
@@ -377,21 +377,21 @@
 						"name": "Moveable Typeface",
 						"row": 2,
 						"prerequisites": ["Alchemy", "Three-Masted Ship"],
-                				"uniques": ["[-75]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					},
 						{
 						"name": "Chartered Companies",
 						"row": 5,
 						"prerequisites": ["Three-Masted Ship","Naval Artillery"],
-                				"uniques": ["[+1 Gold] from [Coastal] tiles"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
 						"name": "Humanism",
 						"row": 7,
 						"prerequisites": ["Centralised Power"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					},
 						{
@@ -405,7 +405,7 @@
 						"name": "Siege Cannons",
 						"row": 9,
 						"prerequisites": ["Gunpowder Warfare"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					}]
 	},
@@ -421,14 +421,14 @@
 						"name": "Mercantalism",
 						"row": 4,
 						"prerequisites": ["Chartered Companies","Humanism","Moveable Typeface"],
-                				"uniques": ["[+200]% weight to this choice for AI decisions"],//Mare pillage yeilds
+                				"uniques": [""],//More pillage yeilds
 						"quote": ""
 					},
 						{
 						"name": "Flintlock",
 						"row": 8,
 						"prerequisites": ["Supply Lines","Siege Cannons"],
-                				"uniques": ["[-50]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					}]
 	},
@@ -450,14 +450,14 @@
 						"name": "Military Coordination",
 						"row": 7,
 						"prerequisites": ["Flintlock"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					},
 						{
 						"name": "Carbine",
 						"row": 8,
 						"prerequisites": ["Flintlock"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					}]
 	},
@@ -480,7 +480,7 @@
 						"name": "Nationhood",
 						"row": 5,
 						"prerequisites": ["Encyclopedia","Military Coordination"],
-                				"uniques": ["[+100]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					},
 						{
@@ -531,7 +531,7 @@
 						"name": "Mechanisation",
 						"row": 3,
 						"prerequisites": ["Steam Engine","Scientific Method","Propeller"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					},
 						{
@@ -582,7 +582,7 @@
 						"name": "Urban Planning",
 						"row": 5,
 						"prerequisites": ["Electricity","Microbiology"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [""],
 						"quote": ""
 					}]
 	},
@@ -597,14 +597,14 @@
 						"name": "Research Institutes",
 						"row": 1,
 						"prerequisites": ["Combustion Engine"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
 						"name": "Aeronautics",
 						"row": 3,
 						"prerequisites": ["Combustion Engine"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					}]
 	},
@@ -621,7 +621,7 @@
 						"name": "Continuous Track",
 						"row": 2,
 						"prerequisites": ["Aeronautics"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
@@ -634,7 +634,7 @@
 						"name": "Civil Engineering",
 						"row": 5,
 						"prerequisites": ["Urban Planning"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
@@ -670,21 +670,21 @@
 						"name": "Naval Air Strategy",
 						"row": 3,
 						"prerequisites": ["Aerial Warfare"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
 						"name": "Free Trade Agreement",
 						"row": 4,
 						"prerequisites": ["Civil Engineering","Wireless Telegraphy"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
 						"name": "Amphibious Warfare",
 						"row": 8,
 						"prerequisites": ["Trench Warfare"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					}]
 	},
@@ -707,7 +707,7 @@
 						"name": "Social Housing",
 						"row": 7,
 						"prerequisites": ["Power Lines"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					}]
 	},
@@ -723,14 +723,14 @@
 						"name": "Nuclear Fission",
 						"row": 1,
 						"prerequisites": ["Uranium Enrichment"],
-                				"uniques": ["[+3 Food] [in all cities] <for every [Uranium]>", "[+3 Gold] [in all cities] <for every [Uranium]>", "[+3 Production] [in all cities] <for every [Uranium]>", "[+3 Science] [in all cities] <for every [Uranium]>"],
+                				"uniques": ["[+2 Food] [in all cities] <for every [Uranium]>", "[+2 Gold] [in all cities] <for every [Uranium]>", "[+2 Production] [in all cities] <for every [Uranium]>", "[+2 Science] [in all cities] <for every [Uranium]>"],
 						"quote": ""
 					},
 						{
 						"name": "Rocket Science",
 						"row": 3,
 						"prerequisites": ["Radar"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
@@ -744,7 +744,7 @@
 						"name": "Mechanised Harvesting",
 						"row": 6,
 						"prerequisites": ["Suburbs"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
@@ -766,7 +766,7 @@
 						"name": "Fighter Jets",
 						"row": 3,
 						"prerequisites": ["Computing","Rocket Science"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
@@ -780,14 +780,14 @@
 						"name": "Automation",
 						"row": 5,
 						"prerequisites": ["Mechanised Harvesting", "Computing"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
 						"name": "Renewable Energy",
 						"row": 7,
 						"prerequisites": ["Mechanised Harvesting", "Mass Entertainment"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
@@ -795,7 +795,7 @@
 						"row": 8,
 						"cost": 14690,
 						"prerequisites": ["Amphibious Warfare"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					}]
 	},
@@ -811,21 +811,21 @@
 						"name": "Composite Armour",
 						"row": 2,
 						"prerequisites": ["Radar","Fighter Jets"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
 						"name": "Covert Ops",
 						"row": 4,
 						"prerequisites": ["Communication Satellites","Automation"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
 						"name": "World Wide Web",
 						"row": 6,
 						"prerequisites": ["Communication Satellites","Renewable Energy","Automation"],
-                				"uniques": ["[-100]% weight to this choice for AI decisions"],
+                				"uniques": ["],
 						"quote": ""
 					}]
 	},
