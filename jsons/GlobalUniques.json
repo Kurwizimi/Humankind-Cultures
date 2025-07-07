@@ -1,96 +1,98 @@
 {
   "name": "Global uniques",
 	"uniques": [ 
-		"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <before the [Classical era]> <upon turn end>",
-		"Triggers a [Classical] event <for [Major] Civilizations> <upon entering the [Classical era]>",
-		"Triggers a [Medieval] event <for [Major] Civilizations> <upon entering the [Medieval era]>",
-		"Triggers a [Early Modern] event <for [Major] Civilizations> <upon entering the [Renaissance era]>",
-		"Triggers a [Industrial] event <for [Major] Civilizations> <upon entering the [Industrial era]>",
-		"Triggers a [Contemporary] event <for [Major] Civilizations> <upon entering the [Atomic era]>",
+			//Ruleset Stuff
+			"[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+       			 "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+        		"[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
+       			"[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        		"Cannot build [Settler] units <when below [-10] [Happiness]>",
+        		"Rebel units may spawn <when below [-20] [Happiness]>",
+        		"[-1] Sight <for [Embarked] units>",
+			"[+20]% [Culture] [in all cities] <during a Golden Age>",
+        		"[+20]% [Production] [in all cities] <during a Golden Age>",
+			"[+10]% growth [in all cities] <during We Love The King Day>",
+
+			"[+1 Culture] [in all cities] <when above [5] Happiness>",
+			"[+2 Culture] [in all cities] <when above [10] Happiness>",
+			"[+10]% [Culture] <when above [20] Happiness>",
+			"[+20]% [Culture] <when above [40] Happiness>",
+
+			//Culture-Swap Events
+			"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <before the [Classical era]> <upon turn end>",
+			"Triggers a [Classical] event <for [Major] Civilizations> <upon entering the [Classical era]>",
+			"Triggers a [Medieval] event <for [Major] Civilizations> <upon entering the [Medieval era]>",
+			"Triggers a [Early Modern] event <for [Major] Civilizations> <upon entering the [Early Modern era]>",
+			"Triggers a [Industrial] event <for [Major] Civilizations> <upon entering the [Industrial era]>",
+			"Triggers a [Contemporary] event <for [Major] Civilizations> <upon entering the [Contemporary era]>",
+
+			//Ideology
+			"[+10]% [Production] [in all cities] <when number of [Collectivism] is more than [Individualism]>",
+			"[+10]% [Gold] [in all cities] <when number of [Individualism] is more than [Collectivism]>",
+
+			"[+10]% Strength <for [All] units> <when number of [Homeland] is more than [World]>",
+			"[+10]% [Food] [in all cities] <when number of [World] is more than [Homeland]>",
+
+			"[+2 Culture] from every [Emblematic District] <when number of [Liberty] is more than [Authority]>",
+			"[+2 Happiness] [in all cities] <when number of [Authority] is more than [Liberty]>",
+
+			"[+2 Faith] [in all cities] <when number of [Tradition] is more than [Progress]>",
+			"[+2 Science] [in all cities] <when number of [Progress] is more than [Tradition]>",
 
 
 	//Ancient
-    "[+1] Movement <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
-     "[+100]% Yield from pillaging tiles <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
+	"[+1] Movement <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",							//Assyrians
+	"[+100]% Yield from pillaging tiles <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
 
-    "[+1 Food] from every [Plains] <for [Major] Civilizations> <if [The Harappans] is constructed>",
-     "[+1 Food] from every [River] <for [Major] Civilizations> <if [The Harappans] is constructed>",
+	"[+2 Science] [in all cities] <for [All] units> <for [Major] Civilizations> <if [The Babylonians] is constructed>",					//Babylonians
+		
+	"[+1 Food] from every [Plains] <for [Major] Civilizations> <if [The Harappans] is constructed>",							//Harappans
+	"[+1 Food] from every [River] <for [Major] Civilizations> <if [The Harappans] is constructed>",
 
 	//Classical
-	 "[+50]% [Gold] from every [improved] <for [Major] Civilizations> <if [The Aksumites] is constructed>",
+	"[+50]% [Gold] from every [improved] <for [Major] Civilizations> <if [The Aksumites] is constructed>",							//Aksumites
 
-	"[Gold] cost of purchasing [All] buildings [-25]% <for [Major] Civilizations> <if [The Carthaginians] is constructed>",
-
+	"[Gold] cost of purchasing [All] buildings [-25]% <for [Major] Civilizations> <if [The Carthaginians] is constructed>",					//Carthaginians
+		
+	"[+2 Science] from every [Researcher] <for [Major] Civilizations> <if [The Greeks] is constructed>",							//Greeks	
 
 	//Medieval
-	 "[+20]% Production when constructing [All] units [in all citiess] <for [Major] Civilizations> <if [The Mexica] is constructed>",
-	 "[+2] Movement <for [All] units> <for [Major] Civilizations> <if [The Mexica] is constructed>",
+	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Mexica] is constructed>",				//Mexica
+	"[+2] Movement <for [All] units> <for [Major] Civilizations> <if [The Mexica] is constructed>",
 
-	"[+2 Gold] from every [Luxury resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",
-	"[+1 Gold] from every [Luxury resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",
+	"[+10]% [Culture] <for [Major] Civilizations> <if [The Franks] is constructed>",									//Franks
+
+	"[+2 Gold] from every [Luxury resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",						//Ghanaians
+	"[+1 Gold] from every [Strategic resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",
 
 
 	//Early Modern
-	 "[+1 Gold] per [1] population [in all cities] <for [Major] Civilizations> <if [The Dutch] is constructed>",
+	"[+1 Gold] per [1] population [in all cities] <for [Major] Civilizations> <if [The Dutch] is constructed>",						//Dutch
 
-	"[+3 Gold] from each Trade Route <for [Major] Civilizations> <if [The Venetians] is constructed>",
+	"[+1 Culture] per [1] population [in all cities] <for [Major] Civilizations> <if [The Edo] is constructed>",						//Edo
 
-
-	//Industrial
-	 "[+10]% [Science] <for [Major] Civilizations> <if [The French] is constructed>",
-
-	"[+10]% [Food] [in all cities] <for [Major] Civilizations> <if [The Mexicans] is constructed>",
+	"[+3 Gold, +1 Culture] from each Trade Route <for [Major] Civilizations> <if [The Venetians] is constructed>",						//Venetians
 
 
 	//Industrial
-	 "[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Australians] is constructed>",
+	"[+10]% [Science] <for [Major] Civilizations> <if [The French] is constructed>",									//French
 
-	 "[+3 Food] per [1] population [in all cities] <for [Major] Civilizations> <if [The Turks] is constructed>",
+	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Germans] is constructed>",			//Germans
+	"[+15]% Strength <for [Water] units> <for [Major] Civilizations> <if [The Germans] is constructed>",
+	"[+15]% Strength <for [Air] units> <for [Major] Civilizations> <if [The Germans] is constructed>",
+
+	"[+10]% [Food] [in all cities] <for [Major] Civilizations> <if [The Mexicans] is constructed>",								//Mexiacan
+
+
+	//Contemporary
+	 "[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Australians] is constructed>",						//Australian
+
+	 "[+4 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Miṣriyyūn] is constructed>",					//Miṣriyyūn
+
+	 "[+2 Food] per [1] population [in all cities] <for [Major] Civilizations> <if [The Turks] is constructed>",						//Turk
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
 	]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

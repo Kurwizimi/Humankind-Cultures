@@ -4,7 +4,7 @@
 		"leaderName": "",
 		"adjective": ["Agrarian"],
 		"startBias": [""],
-		"preferredVictoryType": "Science",
+		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": "The Assyrians! The fact that they have horses and siege engines might indicate their preferences as a neighbor…",
 		"startIntroPart2": "So now we advance as the warlike Assyrians… You're not going to be a very nice neighbor, are you?",
@@ -66,5 +66,170 @@
 		"uniqueName": "",
 		"uniques": [],
 		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
+	}
+	{
+		"name": "Aesthete",
+		"leaderName": "",
+		"adjective": ["Aesthete"],
+		"startBias": [""],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "So these are the Babylonians… It can only be an advantage to have a neighbor as smart as you are.",
+		"startIntroPart2": "This means more than just markets for the Babylonians. It's also the beginning of mathematics, astronomy, and a set of codified laws that I wouldn't want to be caught breaking…",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		
+		"neutralHello": "",
+		"neutralLetsHearIt": [""],
+		"neutralNo": [""],
+		"neutralYes": [""],
+
+		"hateHello": "",
+		"hateLetsHearIt": [""],
+		"hateNo": [""],
+		"hateYes": [""],
+		
+		"afterPeace": "",
+		"tradeRequest": "",
+
+		"outerColor": [170,30,180],
+		"innerColor": [60,20,70],
+		"uniqueName": "",
+		"uniques": [],
+		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
+	},
+
+	//Ancient City States
+	
+	{
+		"name": "Akkad",
+		"adjective": ["Akkadian"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [113, 227, 114],
+		"cities": ["Akkad"]
+	},
+	{
+		"name": "Elamites",
+		"adjective": ["Elamite"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51, 97, 242],
+		"cities": ["Šuš"]
+	},
+	{
+		"name": "Hurrians",
+		"adjective": ["Hurrian"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Urkes"]
+	},
+	{
+		"name": "Hyskos",
+		"adjective": ["Hyskos"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We don't like your face. To arms!",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "This ship may sink, but our spirits will linger.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [222, 237, 59],
+		"cities": ["Avaris"]
+	},
+
+	//Classical City states
+
+	{
+		"name": "Arverni",
+		"adjective": ["Arverni"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We don't like your face. To arms!",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "This ship may sink, but our spirits will linger.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [222, 237, 59],
+		"cities": ["Gergovia"]
+	},
+	{
+		"name": "Sirikwa",
+		"adjective": ["Sirikwa"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [113, 227, 114],
+		"cities": ["Hyrax Hill"]
+	},
+	{
+		"name": "Tiwanaku",
+		"adjective": ["Tiwanaku"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [246, 253, 160],
+		"cities": ["Tiwanaku"]
+	},
+	{
+		"name": "Tocharians",
+		"adjective": ["Tocharia"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Kucha"]
+	},
+	{
+		"name": "Zapotecs",
+		"adjective": ["Zapotec"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Huijazoo"]
+	},
+
+
+
+
+
+
+
+
+
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+       		"innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging", "Excluded from map editor"]
 	}
 ]

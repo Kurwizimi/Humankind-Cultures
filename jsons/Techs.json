@@ -1,0 +1,887 @@
+[
+	{
+	"columnNumber": 0,
+	"era": "Ancient era",
+	"techCost": 16,
+	"buildingCost": 40,
+	"wonderCost": 185,
+	"techs": [
+			{
+			"name": "Agriculture",
+			"row": 6,
+			"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+			"uniques": ["Starting tech"]
+		}]
+},
+  
+        {
+	"columnNumber": 1,
+	"era": "Ancient era",
+	"techCost": 28,
+	"buildingCost": 60,
+	"wonderCost": 185,
+	"techs": [
+			{ 
+	                "name": "Calendar",
+			"row": 2,
+			"cost":35,
+	                "prerequisites": ["Agriculture"],
+			"uniques": [""],
+	                "quote": ""
+		},
+			{
+	                "name": "Domestication",
+			"row": 4,
+			"cost":35,
+	                "prerequisites": ["Agriculture"],
+			"quote": ""
+            	},
+			{
+	                "name": "Carpentry",
+			"row": 6,
+			"cost":35,
+	                "prerequisites": ["Agriculture"],
+			"uniques": [""],
+			"quote": ""
+            	},
+			{
+			"name": "City Defence",
+	                "row": 8,
+			"cost":35,
+			"prerequisites": ["Agriculture"],
+			"uniques": [""],
+	                "quote": ""
+		}]
+},
+  
+        	     {
+		    "columnNumber": 2,
+		    "era": "Ancient era",
+		    "techCost": 58,
+		    "buildingCost": 75,
+		    "wonderCost": 185,
+		    "techs": [
+			                  	{
+				                "name": "Irrigation",
+				                "row": 3,
+				                "prerequisites": ["Calendar", "Domestication"],
+                       				"uniques": [""],
+				                "quote": ""
+			            	},
+			    			 {
+				                  "name": "Wheel",
+				                  "row": 5,
+				                  "prerequisites": ["Domestication","Carpentry"],
+                          			  "uniques": [""],
+				                  "quote": ""
+			              	},
+			                  	{
+				                "name": "Fishing",
+				                "row": 6,
+				                "prerequisites": ["Carpentry"],
+                        			"uniques": [""],
+				                "quote": ""
+			            	},
+		                  		{
+				                "name": "Masonry",
+				                "row": 7,
+				                "prerequisites": ["Carpentry"],
+				                "quote": ""
+			            	},
+			                 	{
+				                "name": "Bronze Working",
+				                "row": 8,
+			                	"prerequisites": ["City Defence"],
+                       				"uniques": [""],
+				                "quote": ""
+			            	}]
+  	},
+  
+          	    {
+		    "columnNumber": 3,
+		    "era": "Ancient era",
+		    "techCost": 115,
+	            "buildingCost": 100,
+		    "wonderCost": 250,
+		    "techs": [
+			                    	  {
+				                  "name": "Writing",
+				                  "row": 2,
+				                  "prerequisites": ["Calendar"],
+				                  "uniques": [""],
+				                  "quote": ""
+			              	},
+			                    	 
+			                          {
+				                  "name": "Sailing",
+				                  "row": 6,
+				                  "prerequisites": ["Fishing"],
+				                  "quote": ""
+			              	},
+			                   	  {
+				                  "name": "Organised Warfare",
+				                  "row": 7,
+				                  "prerequisites": ["Masonry","Bronze Working"],
+                          			  "uniques": [""],
+				                  "quote": ""
+			        	}]
+	},
+		      {
+		      "columnNumber": 4,
+		      "era": "Classical era",
+		      "techCost": 206,
+		      "buildingCost": 100,
+		      "wonderCost": 250,
+		       "techs": [
+						  {
+						  "name": "Philosophy",
+						  "row": 2,
+						  "prerequisites": ["Writing"],
+				                  "quote": ""
+					},
+						  {
+				                  "name": "Hydrology",
+						  "row": 3,
+				                  "prerequisites": ["Wheel","Irrigation"],
+						  "quote": ""
+					},
+						 {
+						 "name": "Trade Expeditions",
+						 "row": 5,
+						 "prerequisites": ["Wheel","Sailing"],
+                				 "uniques": ["Enables embarkation for land units"],
+				                 "quote": ""
+					},
+						 {
+						 "name": "Fortifications",
+						 "row": 7,
+						 "prerequisites": ["Organised Warfare"],
+						 "uniques": [""],
+						 "quote": ""
+					},
+						 {
+						 "name": "Standing Army",
+						 "row": 8,
+						 "prerequisites": ["Bronze Working"],
+                                                 "uniques": [""],
+						 "quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 5,
+			"era": "Classical era",
+			"techCost": 340,
+			"buildingCost": 120,
+			"wonderCost": 300,
+			"techs": [
+						{
+						"name": "Rhetoric",
+						"row": 2,
+						"prerequisites": ["Philosophy"],
+						"uniques": ["Enables conversion of city production to [Science]"],
+						"quote": ""
+					},
+						{
+						"name": "Craftsmanship",
+						"row": 5,
+						"prerequisites": ["Trade Expeditions", "Hydrology"],
+						"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Conquest",
+						"row": 7,
+						"prerequisites": ["Standing Army","Fortifications"],
+						"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Mounted Warfare",
+						"row": 8,
+						"prerequisites": ["Standing Army"],
+                				"uniques": [""],//More pillage yeilds
+						"quote": ""
+					}]
+	},
+			{
+			"columnNumber": 6,
+			"era": "Classical era",
+			"techCost": 523,
+			"buildingCost": 160,
+			"wonderCost": 400,
+			"techs": [
+						{
+						"name": "Foreign Outposts",
+						"cost": 375,
+						"row": 4,
+						"prerequisites": ["Craftsmanship","Conquest"],
+                				"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Imperial Power",
+						"row": 7,
+						"prerequisites": ["Conquest"],
+						"uniques": ["Enables Open Borders agreements"],
+						"quote": ""
+					},
+						{
+						"name": "Siege Tactics",
+						"row": 8,
+						"prerequisites": ["Conquest","Mounted Warfare"],
+                				"uniques": [""],
+                				"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 7,
+			"era": "Medieval era",
+			"techCost": 763,
+			"buildingCost": 200,
+			"wonderCost": 500,
+			"techs": [
+						{
+						"name": "Theology",
+						"row": 2,
+						"uniques": [""],
+						"prerequisites": ["Rhetoric"],
+						"quote": ""
+					},
+						{
+						"name": "Feudalism",
+						"row": 6,
+						"prerequisites": ["Imperial Power"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "War Summons",
+						"row": 7,
+						"prerequisites": ["Imperial Power"],
+                				"uniques": [""],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 8,
+			"era": "Medieval era",
+			"techCost": 1070,
+			"buildingCost": 250,
+			"wonderCost": 625,
+			"techs": [
+						{
+						"name": "Seafaring Mastery",
+						"row": 4,
+						"prerequisites": ["Foreign Outposts"],
+						"quote": ""
+					},
+						{
+						"name": "Chivalry",
+						"row": 6,
+						"prerequisites": ["Feudalism"],
+						"quote": ""
+					},
+						{
+						"name": "Heavy Infantry",
+						"row": 7,
+						"prerequisites": ["War Summons"],
+               					"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Military Architecture",
+						"row": 8,
+						"prerequisites": ["Siege Tactics","War Summons"],
+                				"uniques": ["Roads connect tiles across rivers", "Enables Defensive Pacts"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 9,
+			"era": "Medieval era",
+			"techCost": 1444,
+			"buildingCost": 300,
+			"wonderCost": 750,
+			"techs": [
+						{
+						"name": "Alchemy",
+						"row": 2,
+						"prerequisites": ["Theology"],
+                				"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Guilds",
+						"row": 5,
+						"prerequisites": ["Seafaring Mastery","Chivalry"],
+                				"uniques": ["Enables conversion of city production to [Gold]"],
+						"quote": ""
+					},
+						{
+						"name": "Furnace Steel",
+						"row": 6,
+						"prerequisites": ["Chivalry","Heavy Infantry"],
+                				"uniques": [""],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 10,
+			"era": "Early Modern era",
+			"techCost": 1900,
+			"buildingCost": 360,
+			"wonderCost": 900,
+			"techs": [
+						{
+						"name": "Three-Masted Ship",
+						"row": 3,
+						"prerequisites": ["Seafaring Mastery","Guilds"],
+               					"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
+						"quote": ""
+					},
+						{
+						"name": "Naval Artillery",
+						"row": 4,
+						"prerequisites": ["Seafaring Mastery"],
+                				"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Centralised Power",
+						"row": 6,
+						"uniques": ["Enables Research agreements", "Improves movement speed on roads"],
+						"prerequisites": ["Guilds","Furnace Steel"],
+						"quote": ""
+					},
+						{
+						"name": "Gunpowder Warfare",
+						"row": 8,
+						"prerequisites": ["Furnace Steel","Military Architecture"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 11,
+			"era": "Early Modern era",
+			"techCost": 2440,
+			"buildingCost": 500,
+			"wonderCost": 1060,
+			"techs": [
+						{
+						"name": "Moveable Typeface",
+						"row": 2,
+						"prerequisites": ["Alchemy", "Three-Masted Ship"],
+                				"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Chartered Companies",
+						"row": 5,
+						"prerequisites": ["Three-Masted Ship","Naval Artillery"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Humanism",
+						"row": 7,
+						"prerequisites": ["Centralised Power"],
+                				"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Supply Lines",
+						"row": 8,
+						"prerequisites": ["Centralised Power"],
+						"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Siege Cannons",
+						"row": 9,
+						"prerequisites": ["Gunpowder Warfare"],
+                				"uniques": [""],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 12,
+			"era": "Early Modern era",
+			"techCost": 3075,
+			"buildingCost": 500,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Mercantalism",
+						"row": 4,
+						"prerequisites": ["Chartered Companies","Humanism","Moveable Typeface"],
+                				"uniques": [""],//More pillage yeilds
+						"quote": ""
+					},
+						{
+						"name": "Flintlock",
+						"row": 8,
+						"prerequisites": ["Supply Lines","Siege Cannons"],
+                				"uniques": [""],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 13,
+			"era": "Industrial era",
+			"techCost": 3810,
+			"buildingCost": 500,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Encyclopedia",
+						"row": 4,
+						"prerequisites": ["Mercantalism"],
+						"quote": ""
+					},
+						{
+						"name": "Military Coordination",
+						"row": 7,
+						"prerequisites": ["Flintlock"],
+                				"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Carbine",
+						"row": 8,
+						"prerequisites": ["Flintlock"],
+                				"uniques": [""],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 14,
+			"era": "Industrial era",
+			"techCost": 4648,
+			"buildingCost": 500,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Steam Engine",
+						"row": 3,
+						"cost": 6960,
+						"prerequisites": ["Moveable Typeface","Encyclopedia"],
+						"quote": ""
+					},
+						{
+						"name": "Nationhood",
+						"row": 5,
+						"prerequisites": ["Encyclopedia","Military Coordination"],
+                				"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Line Formation",
+						"row": 7,
+						"prerequisites": ["Military Coordination","Carbine"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 15,
+			"era": "Industrial era",
+			"techCost": 5600,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Propeller",
+						"row": 2,
+						"prerequisites": ["Steam Engine"],
+						"quote": ""
+					},
+						{
+						"name": "Scientific Method",
+						"row": 4,
+						"prerequisites": ["Steam Engine","Encyclopedia"],
+						"quote": ""
+					},
+						{
+						"name": "Guerilla Warfare",
+						"row": 6,
+						"cost": 10250,
+						"prerequisites": ["Nationhood"],
+						"uniques": ["[-5 Happiness] [in annexed cities]", "[-5 Happiness] [in puppeted cities]"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 16,
+			"era": "Industrial era",
+			"techCost": 6675,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Mechanisation",
+						"row": 3,
+						"prerequisites": ["Steam Engine","Scientific Method","Propeller"],
+                				"uniques": [""],
+						"quote": ""
+					},
+						{
+						"name": "Microbiology",
+						"row": 4,
+						"cost": 10250,
+						"prerequisites": ["Scientific Method"],
+						"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Happiness] per [1] population [in all cities]"],
+						"quote": ""
+					},
+						{
+						"name": "Electricity",
+						"row": 5,
+						"prerequisites": ["Scientific Method", "Nationhood"],
+                				"uniques": ["[+3 Food] [in all cities] <for every [Coal]>", "[+3 Gold] [in all cities] <for every [Coal]>", "[+3 Production] [in all cities] <for every [Coal]>", "[+3 Science] [in all cities] <for every [Coal]>"],
+						"quote": ""
+					},
+						{
+						"name": "Trench Warfare",
+						"row": 7,
+						"cost": 10250,
+						"prerequisites": ["Guerilla Warfare","Line Formation"],
+						"quote": ""
+					}]
+	},
+	
+			{
+			"columnNumber": 17,
+			"era": "Industrial era",
+			"techCost": 7880,
+			"buildingCost": 750,
+			"wonderCost": 1250,
+			"techs": [
+						{
+						"name": "Combustion Engine",
+						"row": 3,
+						"prerequisites": ["Mechanisation"],
+                				"uniques": ["[+1] Movement <for [Embarked] units>"],
+						"quote": ""
+					},
+						{
+						"name": "Wireless Telegraphy",
+						"row": 4,
+						"prerequisites": ["Electricity"],
+						"quote": ""
+					},
+						{
+						"name": "Urban Planning",
+						"row": 5,
+						"prerequisites": ["Electricity","Microbiology"],
+                				"uniques": [""],
+						"quote": ""
+					}]
+	},
+
+	{
+			"columnNumber": 18,
+			"era": "Industrial era",
+			"techCost": 9210,
+			"buildingCost": 800,
+			"wonderCost": 2000,
+			"techs": [		{
+						"name": "Research Institutes",
+						"row": 1,
+						"prerequisites": ["Combustion Engine"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Aeronautics",
+						"row": 3,
+						"prerequisites": ["Combustion Engine"],
+                				"uniques": [],
+						"quote": ""
+					}]
+	},
+
+	{
+			"columnNumber": 19,
+			"era": "Contemporary era",
+			"techCost": 10680,
+			"buildingCost": 850,
+			"wonderCost": 2125,
+			"techs": [
+						
+						{
+						"name": "Continuous Track",
+						"row": 2,
+						"prerequisites": ["Aeronautics"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Aerial Warfare",
+						"row": 3,
+						"prerequisites": ["Aeronautics"],
+						"quote": ""
+					},
+						{
+						"name": "Civil Engineering",
+						"row": 5,
+						"prerequisites": ["Urban Planning"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Power Lines",
+						"row": 6,
+						"prerequisites": ["Urban Planning"],
+                				"uniques": ["[+3 Food] [in all cities] <for every [Aluminum]>", "[+3 Gold] [in all cities] <for every [Aluminum]>", "[+3 Production] [in all cities] <for every [Aluminum]>", "[+3 Science] [in all cities] <for every [Aluminum]>"],
+						"quote": ""
+					}]
+	},
+
+	{
+			"columnNumber": 20,
+			"era": "Contemporary era",
+			"techCost": 12310,
+			"buildingCost": 850,
+			"wonderCost": 2125,
+			"techs": [
+						{
+						"name": "Uranium Enrichment",
+						"row": 1,
+						"prerequisites": ["Research Institutes"],
+                				"uniques": ["[+10]% [Science] [in all cities]"],
+						"quote": ""
+					},
+						{
+						"name": "Radar",
+						"row": 2,
+						"prerequisites": ["Aerial Warfare", "Continuous Track"],
+						"quote": ""
+					},
+						{
+						"name": "Naval Air Strategy",
+						"row": 3,
+						"prerequisites": ["Aerial Warfare"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Free Trade Agreement",
+						"row": 4,
+						"prerequisites": ["Civil Engineering","Wireless Telegraphy"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Amphibious Warfare",
+						"row": 8,
+						"prerequisites": ["Trench Warfare"],
+                				"uniques": [],
+						"quote": ""
+					}]
+	},
+
+	{
+			"columnNumber": 21,
+			"era": "Contemporary era",
+			"techCost": 14085,
+			"buildingCost": 850,
+			"wonderCost": 2125,
+			"techs": [
+						{
+						"name": "Suburbs",
+						"row": 6,
+						"prerequisites": ["Free Trade Agreement","Civil Engineering","Power Lines"],
+                				"uniques": ["[+1 Happiness] per [1] population [in all cities]"],
+						"quote": ""
+					},
+						{
+						"name": "Social Housing",
+						"row": 7,
+						"prerequisites": ["Power Lines"],
+                				"uniques": [],
+						"quote": ""
+					}]
+	},
+
+	{
+			"columnNumber": 22,
+			"era": "Contemporary era",
+			"techCost": 16020,
+			"buildingCost": 850,
+			"wonderCost": 2125,
+			"techs": [
+						{
+						"name": "Nuclear Fission",
+						"row": 1,
+						"prerequisites": ["Uranium Enrichment"],
+                				"uniques": ["[+2 Food] [in all cities] <for every [Uranium]>", "[+2 Gold] [in all cities] <for every [Uranium]>", "[+2 Production] [in all cities] <for every [Uranium]>", "[+2 Science] [in all cities] <for every [Uranium]>"],
+						"quote": ""
+					},
+						{
+						"name": "Rocket Science",
+						"row": 3,
+						"prerequisites": ["Radar"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Computing",
+						"row": 4,
+						"prerequisites": ["Naval Air Strategy", "Radar"],
+                				"uniques": ["[+1 Science] from every [Building]"],
+						"quote": ""
+					},
+						{
+						"name": "Mechanised Harvesting",
+						"row": 6,
+						"prerequisites": ["Suburbs"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Mass Entertainment",
+						"row": 7,
+						"prerequisites": ["Social Housing", "Suburbs"],
+                				"uniques": ["[+1 Happiness] per [1] population [in all cities]"],
+						"quote": ""
+					}]
+	},
+	{
+			"columnNumber": 23,
+			"era": "Contemporary era",
+			"techCost": 18100,
+			"buildingCost": 925,
+			"wonderCost": 2312,
+			"techs": [
+						{
+						"name": "Fighter Jets",
+						"row": 3,
+						"prerequisites": ["Computing","Rocket Science"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Communication Satellites",
+						"row": 4,
+						"prerequisites": ["Rocket Science","Computing"],
+                				"uniques": ["Reveals the entire map"],
+						"quote": ""
+					},
+						{
+						"name": "Automation",
+						"row": 5,
+						"prerequisites": ["Mechanised Harvesting", "Computing"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Renewable Energy",
+						"row": 7,
+						"prerequisites": ["Mechanised Harvesting", "Mass Entertainment"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Insurrection Theory",
+						"row": 8,
+						"cost": 14690,
+						"prerequisites": ["Amphibious Warfare"],
+                				"uniques": [],
+						"quote": ""
+					}]
+	},
+
+	{
+			"columnNumber": 24,
+			"era": "Contemporary era",
+			"techCost": 20400,
+			"buildingCost": 925,
+			"wonderCost": 2312,
+			"techs": [
+						{
+						"name": "Composite Armour",
+						"row": 2,
+						"prerequisites": ["Radar","Fighter Jets"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "Covert Ops",
+						"row": 4,
+						"prerequisites": ["Communication Satellites","Automation"],
+                				"uniques": [],
+						"quote": ""
+					},
+						{
+						"name": "World Wide Web",
+						"row": 6,
+						"prerequisites": ["Communication Satellites","Renewable Energy","Automation"],
+                				"uniques": [""],
+						"quote": ""
+					}]
+	},
+
+	{
+			"columnNumber": 25,
+			"era": "Contemporary era",
+			"techCost": 22800,
+			"buildingCost": 925,
+			"wonderCost": 2312,
+			"techs": [
+						{
+						"name": "Fusion Reactor",
+						"row": 1,
+						"prerequisites": ["Nuclear Fission"],
+                				"uniques": ["[+50]% [Production] [in all cities]"],
+						"quote": ""
+					},
+						{
+						"name": "Exosuit",
+						"row": 3,
+						"prerequisites": ["Composite Armour"],
+                				"uniques": ["[+20]% Strength <for [Land] units>"],
+						"quote": ""
+					},
+						{
+						"name": "Military Laser",
+						"row": 5,
+						"prerequisites": ["Covert Ops"],
+                				"uniques": ["[+50]% Strength <for [Air] units>"],
+						"quote": ""
+					},
+						{
+						"name": "Neural Implant",
+						"row": 7,
+						"prerequisites": ["World Wide Web", "Insurrection Theory"],
+                				"uniques": ["[+10 Happiness] [in all cities]"],
+						"quote": ""
+					}]
+	},
+
+			{
+			"columnNumber": 26,
+			"era": "Future era",
+			"techCost": 25500,
+			"buildingCost": 750,
+			"wonderCost": 2312,
+			"techs": [
+						{
+						"name": "Future Tech",
+						"row": 5,
+						"prerequisites": ["Fusion Reactor","Exosuit","Military Laser","Neural Implant"],
+						"uniques": ["Can be continually researched"],
+						"quote": "",
+                				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+					}]
+	}
+
+]

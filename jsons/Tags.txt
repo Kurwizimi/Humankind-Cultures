@@ -4,3 +4,15 @@
 "Early Modern Culture"
 "Industrial Culture"
 "Contemporary Culture"
+
+"Political Civic"
+"Judicial Civic"
+"Martial Civic"
+"Religious Civic"
+"Cultural Civic"
+"Economic Civic"
+"Social Civic"
+"Aristocracy"
+
+"Emblematic Unit"
+"Emblematic District"

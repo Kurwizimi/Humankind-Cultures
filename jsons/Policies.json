@@ -1,0 +1,960 @@
+[
+            {
+            "name": "Ancient Civics",
+            "era": "Ancient era",
+	    "uniques": ["Adopt [Founding Myth]","Adopt [Legitimacy]","Adopt [Army Composition]","Adopt [Religious Rites]","Adopt [Cultural Blessing]","Adopt [Fundamental Values]","Adopt [Slaves]","Free Social Policy"],
+            "policies": [
+                            //POLITICAL
+                            {
+                            "name": "Founding Myth",
+                            "uniques": [
+					"Comment [By what right do we rule?]"],
+			    "row": 1,
+                            "column": 3
+                        },
+                            {
+                            "name": "Natural Right",
+                            "uniques": [ "[+5 Culture] [in capital]", "Instantly gain [3] [Tradition]",
+					"Unavailable <after adopting [Divine Mandate]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Divine Mandate",
+                            "uniques": ["[+1 Faith] [in all cities]", "Instantly gain [3] [Progress]",
+					"Unavailable <after adopting [Natural Right]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 5
+                        },
+                        //JUDICIAL
+                            {
+                            "name": "Legitimacy",
+                            "uniques": [
+					"Comment [What style of laws does the empire use?]"],
+			    "row": 3,
+                            "column": 3
+                        },
+                            {
+                            "name": "Codified Laws",
+                            "uniques": ["[+10]% Production when constructing [All] buildings [in all cities]", "Instantly gain [3] [Progress]",
+					"Unavailable <after adopting [Customary Laws]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 1
+                        },
+                            {
+                            "name": "Customary Laws",
+                            "uniques": ["[+25]% Production when constructing [Settler] units [in capital]", "Instantly gain [3] [Tradition]",
+					"Unavailable <after adopting [Codified Laws]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 5
+                        },
+                        //Militaristic
+                            {
+                            "name": "Army Composition",
+                            "uniques": [
+					"Comment [Who should fight for the empire?]"],
+			    "row": 4,
+                            "column": 3
+                        },
+                            {
+                            "name": "Conscripts",
+                            "uniques": ["[+15]% Production when constructing [Melee] units [in all cities]", "Instantly gain [3] [Authority]",
+					"Unavailable <after adopting [Professional Soldiers]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 1
+                        },
+                            {
+                            "name": "Professional Soldiers",
+                            "uniques": ["[+10]% Strength <for [Melee] units> <when adjacent to a [Military] unit>", "Instantly gain [3] [Liberty]",
+					"Unavailable <after adopting [Conscripts]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 5
+                        },
+                        //Religious
+                            {
+                            "name": "Religious Rites",
+                            "uniques": [
+					"Comment [Should religious rites be communal or personal?]"],
+			    "row": 6,
+                            "column": 3
+                        },
+                            {
+                            "name": "Communal Rites",
+                            "uniques": ["[+2 Happiness] [in all cities]", "Instantly gain [3] [Collectivism]",
+					"Unavailable <after adopting [Personal Rites]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 1
+                        },
+                            {
+                            "name": "Personal Rites",
+                            "uniques": ["[+30]% Production when constructing [Faith] buildings [in all cities]", "Instantly gain [3] [Individualism]",
+					"Unavailable <after adopting [Communal Rites]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 5
+                        },
+                            //Cultural
+                            {
+                            "name": "Cultural Blessing",
+                            "uniques": [
+					"Comment [What attitude should we have to outsider cultures?]"],
+			    "row": 8,
+                            "column": 3
+                        },
+                            {
+                            "name": "Monoculturalism",
+                            "uniques": ["[+10 Culture] [in capital]",  "Instantly gain [3] [Homeland]",
+					"Unavailable <after adopting [Multiculturalism]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 1
+                        },
+                            {
+                            "name": "Multiculturalism",
+                            "uniques": ["[+1 Culture] [in all cities]","[+2 Culture] [in annexed cities]", "Instantly gain [3] [World]",
+					"Unavailable <after adopting [Monoculturalism]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 5
+                        },
+                          //Economic
+                            {
+                            "name": "Fundamental Values",
+                            "uniques": [
+					"Comment [Is the empire's first concern citizens' security or happiness?]"],
+			    "row": 9,
+                            "column": 3
+                        },
+                            {
+                            "name": "Public Happiness",
+                            "uniques": ["[+1 Happiness] from all [Production] buildings",  "Instantly gain [3] [Liberty]",
+					"Unavailable <after adopting [Public Security]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Public Security",
+                            "uniques": ["[+5 Happiness] [in all cities with a garrison]",  "Instantly gain [3] [Authority]",
+					"Unavailable <after adopting [Public Happiness]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 5
+                        },
+                          //Social
+                            {
+                            "name": "Slaves",
+                            "uniques": [
+					"Comment [How do we procure slaves?]"],
+			    "row": 11,
+                            "column": 3
+                        },
+                            {
+                            "name": "Criminal Slaves",
+                            "uniques": ["[+2 Happiness, +2 Food, +2 Production] [in all cities]", "Instantly gain [3] [World]",
+					"Unavailable <after adopting [War Slaves]> <hidden from users>", "Social Civic"],
+			    "row": 11,
+                            "column": 1
+                        },
+                            {
+                            "name": "War Slaves",
+                            "uniques": ["[+5 Food] from every [Farmer] <when at war>","[+5 Production] from every [Engineer] <when at war>", "Instantly gain [3] [Homeland]",
+					"Unavailable <after adopting [Criminal Slaves]> <hidden from users>", "Social Civic"],
+			    "row": 11,
+                            "column": 5
+                        },
+			    	{
+				"name": "Ancient Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
+
+	    {
+            "name": "Classical Civics",
+            "era": "Classical era",
+	    "uniques": ["Adopt [Leadership]","Adopt [Punishment]","Adopt [Independent Peoples]","Adopt [Army Wages]","Adopt [Religious Tolerance]","Adopt [Knowledge Authorities]","Adopt [Citizenship]","Adopt [Colonisation]","Free Social Policy"],
+            "policies": [
+                            //POLITICAL
+                            {
+                            "name": "Leadership",
+                            "uniques": [
+					"Comment [How do we lead?]"],
+			    "row": 1,
+                            "column": 3
+                        },
+                            {
+                            "name": "Small Council",
+                            "uniques": ["[+5]% [Food] [in all cities]", "[+5]% [Production] [in all cities]", "[+5]% [Gold] [in all cities]", "[+5]% [Science] [in all cities]","[+5]% [Culture] [in all cities]", "Instantly gain [4] [Liberty]","Adopt [Political Entitlement]"
+					"Unavailable <after adopting [Autarch]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Autarch",
+                            "uniques": ["[+20]% [Food] [in capital]","[+20]% [Production] [in capital]","[+20]% [Gold] [in capital]","[+20]% [Science] [in capital]","[+20]% [Culture] [in capital]", "Instantly gain [4] [Authority]","Adopt [Political Influence]"
+					"Unavailable <after adopting [Small Council]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 5
+                        },
+		    
+		     	    {
+                            "name": "Political Entitlement",
+                            "uniques": [
+					"Comment [What political system does the small council support?]"], //Only available if S. Council is picked for leadership
+			    "row": 2,
+                            "column": 3
+                        },
+                            {
+                            "name": "Aristocracy - SC",
+                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>","Instantly gain [4] [Tradition]","Adopt [Aristocracy Evolution]",
+					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic", "Gain a free [Aristocracy] [in capital] <hidden from users>"],
+			    "row": 2,
+                            "column": 1
+                        },
+                            {
+                            "name": "Republic",
+                            "uniques": ["[+20]% Strength for cities","Instantly gain [4] [Liberty]","Adopt [Republic Evolution]",
+					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Aristocracy - SC]> <hidden from users>", "Political Civic"],
+			    "row": 2,
+                            "column": 5
+                        },
+                        //JUDICIAL
+                            {
+                            "name": "Punishment",
+                            "uniques": [
+					"Comment [How should ordinary crimes be punished?]"],
+			    "row": 3,
+                            "column": 3
+                        },
+                            {
+                            "name": "Physical Punishment",
+                            "uniques": ["[+1 Happiness] per [4] population [in all cities]","Instantly gain [4] [Tradition]","Adopt [Capital Punishment - 1]",
+					"Unavailable <after adopting [Forfeiture]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 1
+                        },
+                            {
+                            "name": "Forfeiture",
+                            "uniques": ["[+1 Gold] per [1] population [in all cities]","Instantly gain [4] [Progress]","Adopt [Capital Punishment - 2]",
+					"Unavailable <after adopting [Physical Punishment]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 5
+                        },
+                        //Militaristic
+                            {
+                            "name": "Independent Peoples",
+                            "uniques": [
+					"Comment [How should we use other peoples?]"],
+			    "row": 4,
+                            "column": 3
+                        },
+                            {
+                            "name": "Assimilated Peoples",
+                            "uniques": ["[-25]% City-State Influence degradation","Instantly gain [4] [Homeland]",
+					"Unavailable <after adopting [Mercenary Armies]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 1
+                        },
+                            {
+                            "name": "Mercenary Armies",
+                            "uniques": ["[+30]% Strength <vs [City-States]>","Instantly gain [4] [World]",
+					"Unavailable <after adopting [Assimilated Peoples]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 5
+                        },
+
+		     	    {
+                            "name": "Army Wages",
+                            "uniques": [
+					"Comment [How should we finance our armies?]"],
+			    "row": 5,
+                            "column": 3
+                        },
+                            {
+                            "name": "Paid Wages",
+                            "uniques": ["[+2 Happiness] [in all cities with a garrison]","[+10 Happiness] [in annexed cities]","Instantly gain [4] [Homeland]",
+					"Unavailable <after adopting [Plundered Wages]> <hidden from users>", "Martial Civic"],
+			    "row": 5,
+                            "column": 1
+                        },
+                            {
+                            "name": "Plundered Wages",
+                            "uniques": ["[+100]% Yield from pillaging tiles <for [All] units>","Instantly gain [4] [World]",
+					"Unavailable <after adopting [Paid Wages]> <hidden from users>", "Martial Civic"],
+			    "row": 5,
+                            "column": 5
+                        },
+                        //Religious
+                            {
+                            "name": "Religious Tolerance",
+                            "uniques": [
+					"Comment [What is the Empire's outlook on other religions?]"],
+			    "row": 6,
+                            "column": 3
+                        },
+                            {
+                            "name": "Open-Minded",
+                            "uniques": ["[+1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+1 Culture] per [2] population [in all cities] <in cities not following a [foreign] religion>","Instantly gain [4] [World]","Adopt [Religious Minorities]"
+					"Unavailable <after adopting [Religious Hostility]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 1
+                        },
+                            {
+                            "name": "Religious Hostility",
+                            "uniques": ["[-1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+10 Faith] [in all cities]","Instantly gain [4] [Homeland]", "Adopt [Unbelievers]"//Extra strength against other religions
+					"Unavailable <after adopting [Open-Minded]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 5
+                        },
+                          //Economic
+                            {
+                            "name": "Knowledge Authorities",
+                            "uniques": [
+					"Comment [Who has the biggest influence on our empire's knowledge?]"],
+			    "row": 9,
+                            "column": 3
+                        },
+                            {
+                            "name": "Elders' Wisdom",
+                            "uniques": ["[+1 Happiness] from every [Researcher]","Instantly gain [4] [Tradition]",
+					"Unavailable <after adopting [Foreign Innovations]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Foreign Innovations",
+                            "uniques": ["[+1 Science] from every [Luxury resource]","[-1 Happiness] from every [Bonus resource]","Instantly gain [4] [Progress]",
+					"Unavailable <after adopting [Elders' Wisdom]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 5
+                        },
+                          //Social
+                            {
+                            "name": "Citizenship",
+                            "uniques": [
+					"Comment [Should citizenship be universal or for selected groups?]"],
+			    "row": 11,
+                            "column": 3
+                        },
+                            {
+                            "name": "Universal Citizenship",
+                            "uniques": ["[+2 Happiness] [in all cities connected to capital]","Instantly gain [5] [Liberty]",
+					"Unavailable <after adopting [Select Citizenship]> <hidden from users>", "Social Civic"],
+			    "row": 11,
+                            "column": 1
+                        },
+                            {
+                            "name": "Select Citizenship",
+                            "uniques": ["[+10 Happiness] [in capital]","Instantly gain [5] [Authority]",
+					"Unavailable <after adopting [Universal Citizenship]> <hidden from users>", "Social Civic"],
+			    "row": 11,
+                            "column": 5
+                        },
+
+		    	    {
+                            "name": "Colonisation",
+                            "uniques": [
+					"Comment [What model should we employ four our cities on foreign shores?]"],
+			    "row": 12,
+                            "column": 3
+                        },
+                            {
+                            "name": "Vassal Colonies",
+                            "uniques": ["[-10 Happiness] [in all cities] <on foreign continents>","[+10 Food] [in all cities] <on foreign continents>","[+10 Production] [in all cities] <on foreign continents>","[+10 Gold] [in all cities] <on foreign continents>","[+10 Science] [in all cities] <on foreign continents>","Instantly gain [5] [Homeland]",
+					"Unavailable <after adopting [Naturalized Colonies]> <hidden from users>", "Social Civic"],
+			    "row": 12,
+                            "column": 1
+                        },
+                            {
+                            "name": "Naturalized Colonies",
+                            "uniques": ["[+10 Happiness] [in all cities] <on foreign continents>","Instantly gain [5] [World]",
+					"Unavailable <after adopting [Vassal Colonies]> <hidden from users>", "Social Civic"],
+			    "row": 12,
+                            "column": 5
+                        },
+			    	{
+				"name": "Classical Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
+	 {
+            "name": "Medieval Civics",
+            "era": "Medieval era",
+	    "uniques": ["Adopt [Artistic Expression]","Adopt [Land Rights]","Free Social Policy"],
+            "policies": [
+                            //POLITICAL
+                            {
+                            "name": "Political Influence",
+                            "uniques": [
+					"Comment [Who has the ear of the autarch?]"],
+			    "row": 1,
+                            "column": 3
+                        },
+                            {
+                            "name": "Monarchy",
+                            "uniques": ["[+20]% Production when constructing [All] wonders [in all cities]","Instantly gain [5] [Authority]","Adopt [Monarchy Power]"
+					"Only available <after adopting [Autarch]>", "Unavailable <after adopting [Aristocracy - A]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Aristocracy - A",
+                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>","Instantly gain [5] [Tradition]","Adopt [Aristocracy Evolution]"
+					"Only available <after adopting [Autarch]>", "Unavailable <after adopting [Monarchy]> <hidden from users>", "Political Civic", "Gain a free [Aristocracy] [in capital] <hidden from users>"],
+			    "row": 1,
+                            "column": 5
+                        },
+		    		{
+                            "name": "Monarchy Power",
+                            "uniques": [
+					"Comment [What type of monarchy is this?]"],
+			    "row": 2,
+                            "column": 3
+                        },
+                            {
+                            "name": "Absolute Monarchy",
+                            "uniques": ["May buy [All] buildings with [Culture] [in all cities]","Instantly gain [6] [Authority]",
+					"Only available <after adopting [Monarchy]>", "Unavailable <after adopting [Constitutional Monarchy]> <hidden from users>", "Political Civic"],
+			    "row": 2,
+                            "column": 1
+                        },
+                            {
+                            "name": "Constitutional Monarchy",
+                            "uniques": ["[+1 Happiness, +2 Culture] from every [Emblematic District]","Instantly gain [6] [Liberty]",
+					"Only available <after adopting [Monarchy]>", "Unavailable <after adopting [Absolute Monarchy]> <hidden from users>", "Political Civic"],
+			    "row": 2,
+                            "column": 5
+                        },
+                        //JUDICIAL
+                            {
+                            "name": "Judicial Control",
+                            "uniques": [
+					"Comment [How is the justice system overseen?]"],
+			    "row": 3,
+                            "column": 3
+                        },
+                            {
+                            "name": "Open Inspections",
+                            "uniques": ["Comment [May build [Peoples Assembly] buildings in all cities]", "Instantly gain [5] [Collectivism]",
+					"Unavailable <after adopting [Oligarchy]>","Unavailable <after adopting [One-Party State]>","Unavailable <after adopting [Absolute Monarchy]>","Unavailable <after adopting [Political Control]>", "Unavailable <after adopting [State Surveillance - JC]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 1
+                        },
+                            {
+                            "name": "State Surveillance - JC",
+                            "uniques": ["Comment [May build [Constitutional Secret Police] buildings in all cities]", "Instantly gain [5] [Authority]",
+					"Unavailable <after adopting [Oligarchy]>","Unavailable <after adopting [One-Party State]>","Unavailable <after adopting [Absolute Monarchy]>","Unavailable <after adopting [Political Control]>", "Unavailable <after adopting [Open Inspections]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 5
+                        },
+                        //Religious
+                            {
+                            "name": "Unbelievers",
+                            "uniques": [
+					"Comment [What should we do with the unfaithful?]"],
+			    "row": 6,
+                            "column": 3
+                        },
+                            {
+                            "name": "Eliminate Unbelievers",
+                            "uniques": ["[+15]% Strength <for [Wounded] units>", "Instantly gain [5] [Authority]",
+					"Only available <after adopting [Religious Hostility]>", "Unavailable <after adopting [Banish Unbelievers]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 1
+                        },
+                            {
+                            "name": "Banish Unbelievers",
+                            "uniques": ["[+10]% [Gold] [in all cities]", "Instantly gain [5] [Homeland]",
+					"Only available <after adopting [Religious Hostility]>", "Unavailable <after adopting [Eliminate Unbelievers]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 5
+                        },
+		    	    {
+                            "name": "Religious Minorities",
+                            "uniques": [
+					"Comment [Should religious minorities pay tribute?]"],
+			    "row": 7,
+                            "column": 3
+                        },
+                            {
+                            "name": "Taxed Minorities",
+                            "uniques": ["[+10]% [Gold] [in all cities]", "Instantly gain [5] [Individualism]",
+					"Only available <after adopting [Open-Minded]>", "Unavailable <after adopting [Untaxed Minorities]> <hidden from users>", "Religious Civic"],
+			    "row": 7,
+                            "column": 1
+                        },
+                            {
+                            "name": "Untaxed Minorities",
+                            "uniques": ["[+5]% [Happiness] [in all cities]",  "Instantly gain [5] [Liberty]",
+					"Only available <after adopting [Open-Minded]>", "Unavailable <after adopting [Taxed Minorities]> <hidden from users>", "Religious Civic"],
+			    "row": 7,
+                            "column": 5
+                        },
+                            //Cultural
+                            {
+                            "name": "Artistic Expression",
+                            "uniques": [
+					"Comment [Should artists be subject to censorship or given free reign of expression?]"],
+			    "row": 8,
+                            "column": 3
+                        },
+                            {
+                            "name": "Free Arts",
+                            "uniques": ["[+20]% [Culture] from every [Culture]","Instantly gain [5] [Liberty]",
+					"Unavailable <after adopting [Censored Arts]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 1
+                        },
+                            {
+                            "name": "Censored Arts",
+                            "uniques": ["[-20]% Unhappiness from [Population] [in all cities]", "[+20]% unhappiness from the number of cities","Instantly gain [5] [Homeland]",
+					"Unavailable <after adopting [Free Arts]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 5
+                        },
+                          //Economic
+                            {
+                            "name": "Land Rights",
+                            "uniques": [
+					"Comment [Does the Land belong to the empire or the People?]"],
+			    "row": 9,
+                            "column": 3
+                        },
+                            {
+                            "name": "Communal Land",
+                            "uniques": ["[+1 Gold] from every [Farm]","[+1 Food] from every [Plantation]", "[+2 Happiness] [in all cities]","Instantly gain [4] [Collectivism]",
+					"Unavailable <after adopting [Inherited Land]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Inherited Land",
+                            "uniques": ["[+1 Food] from every [Farm]","[+1 Gold] from every [Plantation]", "[+2 Culture] [in all cities]","Instantly gain [4] [Individualism]",
+					"Unavailable <after adopting [Communal Land]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 5
+                        },
+			    	{
+				"name": "Medieval Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
+	 {
+            "name": "Early Modern Civics",
+            "era": "Early Modern era",
+	    "uniques": ["Adopt [Artistic Ownership]", "Adopt [Materials Procurement]","Free Social Policy"],
+            "policies": [
+                            //POLITICAL
+                            {
+                            "name": "Republic Evolution",
+                            "uniques": [
+					"Comment [Should there be a diversity of poltical representation?]"],
+			    "row": 1,
+                            "column": 3
+                        },
+                            {
+                            "name": "One-Party State",
+                            "uniques": ["[+3 Happiness] [in all cities]", "[-10]% Unhappiness from [Population] [in all cities]","Instantly gain [5] [Authority]",
+					"Only available <after adopting [Republic]>", "Unavailable <after adopting [Democratic Republic]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Democratic Republic",
+                            "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Instantly gain [5] [Liberty]",
+					"Only available <after adopting [Republic]>", "Unavailable <after adopting [One-Party State]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 5
+                        },
+                        //JUDICIAL
+                            {
+                            "name": "Capital Punishment - 1",
+                            "uniques": [
+					"Comment [What should the death penalty be replaced with?]"],
+			    "row": 3,
+                            "column": 3
+                        },
+                            {
+                            "name": "Lifetime Sentence -1",
+                            "uniques": ["[+2 Culture] [in all cities with a garrison]", "[+2 Happiness] from every [Courthouse]", "Instantly gain [5] [Tradition]",
+					"Only available <after adopting [Physical Punishment]>", "Unavailable <after adopting [Hard Labour]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 1
+                        },
+                            {
+                            "name": "Hard Labour",
+                            "uniques": ["[-30]% maintenance cost for [all] buildings [in all cities]", "Instantly gain [5] [Progress]",
+					"Only available <after adopting [Physical Punishment]>", "Unavailable <after adopting [Lifetime Sentence -1]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 5
+                        },
+		    {
+                            "name": "Capital Punishment - 2",
+                            "uniques": [
+					"Comment [What should the death penalty be replaced with?]"],
+			    "row": 4,
+                            "column": 3
+                        },
+                            {
+                            "name": "Lifetime Sentence -2",
+                            "uniques": ["[+2 Culture] [in all cities with a garrison]", "[+2 Happiness] from every [Courthouse]", "Instantly gain [6] [Tradition]",
+					"Only available <after adopting [Forfeiture]>", "Unavailable <after adopting [Rehabilitation]> <hidden from users>", "Judicial Civic"],
+			    "row": 4,
+                            "column": 1
+                        },
+                            {
+                            "name": "Rehabilitation",
+                            "uniques": ["[+75]% Yield from every [Great Improvement]", "Instantly gain [6] [Progress]",
+					"Only available <after adopting [Forfeiture]>", "Unavailable <after adopting [Lifetime Sentence -2]> <hidden from users>", "Judicial Civic"],
+			    "row": 4,
+                            "column": 5
+                        },
+                            //Cultural
+                            {
+                            "name": "Artistic Ownership",
+                            "uniques": [
+					"Comment [Who determines what is considered art?]"],
+			    "row": 8,
+                            "column": 3
+                        },
+                            {
+                            "name": "Academic Artists",
+                            "uniques": ["Comment [May build [Academy of Arts] buildings in all cities]", "Instantly gain [4] [Homeland]",
+					"Unavailable <after adopting [Independent Artists]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 1
+                        },
+                            {
+                            "name": "Independent Artists",
+                            "uniques": ["Comment [May build [Artists Studio] buildings in all cities]", "Instantly gain [4] [Liberty]",
+					"Unavailable <after adopting [Academic Artists]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 5
+                        },
+                          //Economic
+                            {
+                            "name": "Materials Procurement",
+                            "uniques": [
+					"Comment [How should we secure necessary resources?]"],
+			    "row": 9,
+                            "column": 3
+                        },
+                            {
+                            "name": "Seize Resources",
+                            "uniques": ["[+2] Happiness from each type of luxury resource","Instantly gain [5] [Homeland]",
+					"Unavailable <after adopting [Trade Resources]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Trade Resources",
+                            "uniques": ["[+4 Gold] from each Trade Route","Instantly gain [5] [Individualism]",
+					"Unavailable <after adopting [Seize Resources]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 5
+                        },
+			    	{
+				"name": "Early Modern Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
+	 {
+            "name": "Industrial Civics",
+            "era": "Industrial era",
+	    "uniques": ["Adopt [Conquered Empires]","Adopt [Irreligion]","Adopt [Scientific Facts]","Adopt [Press Freedom]","Adopt [International Trading]","Adopt [Industrial Production]","Adopt [Children's Rights]","Free Social Policy"],
+            "policies": [
+                            //POLITICAL
+                            {
+                            "name": "Aristocracy Evolution",
+                            "uniques": [
+					"Comment [Whose political interests should be represented?]"],
+			    "row": 1,
+                            "column": 3
+                        },
+                            {
+                            "name": "Oligarchy",
+                            "uniques": ["[+25]% [Gold] [in all cities]","Instantly gain [6] [Authority]",
+					"Only available <if [Aristocracy] is constructed>", "Unavailable <after adopting [Democratic Republic -A]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Democratic Republic -A",
+                            "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Instantly gain [6] [Liberty]",
+					"Only available <if [Aristocracy] is constructed>", "Unavailable <after adopting [Oligarchy]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 5
+                        },
+                        //Militaristic
+                            {
+                            "name": "Conquered Empires",
+                            "uniques": [
+					"Comment [What is our outlook on conquests?]"],
+			    "row": 4,
+                            "column": 3
+                        },
+                            {
+                            "name": "Anti-Imperialists",
+                            "uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>","Instantly gain [5] [World]",
+					"Unavailable <after adopting [Imperialists]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 1
+                        },
+                            {
+                            "name": "Imperialists",
+                            "uniques": ["[+20]% Strength <for [10] turns> <upon declaring war with a major Civilization>","Instantly gain [5] [Authority]",
+					"Unavailable <after adopting [Anti-Imperialists]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 5
+                        },
+                        //Religious
+                            {
+                            "name": "Irreligion",
+                            "uniques": [
+					"Comment [What kind of irreligious society do we want?]"],
+			    "row": 6,
+                            "column": 3
+                        },
+                            {
+                            "name": "Secularism",
+                            "uniques": ["[+5 Gold] from every [Faith]", "[-10 Faith] [in capital]","Instantly gain [6] [Liberty]",
+					"Unavailable <after adopting [State Atheism]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 1
+                        },
+                            {
+                            "name": "State Atheism",
+                            "uniques": ["[+2 Culture] from every [Faith]", "[-5 Faith] [in all cities]","Instantly gain [6] [Authority]",
+					"Unavailable <after adopting [Secularism]> <hidden from users>", "Religious Civic"],
+			    "row": 6,
+                            "column": 5
+                        },
+		     		{
+                            "name": "Scientific Facts",
+                            "uniques": [
+					"Comment [What is the response to empirical findings that contradict religious truths?]"],
+			    "row": 7,
+                            "column": 3
+                        },
+                            {
+                            "name": "Literalism",
+                            "uniques": ["[+15]% [Faith] from every [Science]","Instantly gain [6] [Tradition]",
+					"Unavailable <after adopting [Compatibilism]> <hidden from users>", "Religious Civic"],
+			    "row": 7,
+                            "column": 1
+                        },
+                            {
+                            "name": "Compatibilism",
+                            "uniques": ["[+15]% [Science] from every [Faith]","Instantly gain [6] [Progress]",
+					"Unavailable <after adopting [Literalism]> <hidden from users>", "Religious Civic"],
+			    "row": 7,
+                            "column": 5
+                        },
+                            //Cultural
+                            {
+                            "name": "Press Freedom",
+                            "uniques": [
+					"Comment [Should the news be controlled by the government?]"],
+			    "row": 8,
+                            "column": 3
+                        },
+                            {
+                            "name": "Freedom of Speech",
+                            "uniques": ["[-20]% Culture cost of adopting new Policies","Instantly gain [6] [Liberty]",
+					"Unavailable <after adopting [Propaganda]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 1
+                        },
+                            {
+                            "name": "Propaganda",
+                            "uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Instantly gain [6] [Authority]",
+					"Unavailable <after adopting [Freedom of Speech]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 5
+                        },
+                          //Economic
+                            {
+                            "name": "International Trading",
+                            "uniques": [
+					"Comment [What is our guiding foreign economic policy?]"],
+			    "row": 9,
+                            "column": 3
+                        },
+                            {
+                            "name": "Isolationism",
+                            "uniques": ["[+1 Production, +1 Gold] from every [Luxury resource]", "[+1 Production, +1 Gold] from every [Strategic resource]", "[-5 Happiness] [in all cities] <for [5] turns> <upon declaring friendship>","Instantly gain [5] [Homeland]",
+					"Unavailable <after adopting [Globalism]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Globalism",
+                            "uniques": ["[+4 Happiness] [in all cities] <for [10] turns> <upon declaring friendship>","Instantly gain [5] [Individualism]",
+					"Unavailable <after adopting [Isolationism]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 5
+                        },
+		    		{
+                            "name": "Industrial Production",
+                            "uniques": [
+					"Comment [Who should own our most important industries?]"],
+			    "row": 10,
+                            "column": 3
+                        },
+                            {
+                            "name": "Nationalized Industries",
+                            "uniques": ["[+10]% [Food] [in all cities]","[+2 Food] from every [Farmer]","Instantly gain [6] [Collectivism]",
+					"Unavailable <after adopting [Privatized Industries]> <hidden from users>", "Economic Civic"],
+			    "row": 10,
+                            "column": 1
+                        },
+                            {
+                            "name": "Privatized Industries",
+                            "uniques": ["[+5]% [Gold] [in all cities]","[+2 Gold] from every [Farmer]","Instantly gain [6] [Individualism]",
+					"Unavailable <after adopting [Nationalized Industries]> <hidden from users>", "Economic Civic"],
+			    "row": 10,
+                            "column": 5
+                        },
+                          //Social
+                            {
+                            "name": "Children's Rights",
+                            "uniques": [
+					"Comment [What are the empire's children entitled to?]"],
+			    "row": 11,
+                            "column": 3
+                        },
+                            {
+                            "name": "Child Education",
+                            "uniques": ["[+2 Science] from every [Researcher]","Instantly gain [6] [Progress]",
+					"Unavailable <after adopting [Child Employment]> <hidden from users>", "Social Civic"],
+			    "row": 11,
+                            "column": 1
+                        },
+                            {
+                            "name": "Child Employment",
+                            "uniques": ["[+2 Production] from every [Engineer]","Instantly gain [6] [Tradition]",
+					"Unavailable <after adopting [Child Education]> <hidden from users>", "Social Civic"],
+			    "row": 11,
+                            "column": 5
+                        },
+			    	{
+				"name": "Industrial Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
+	{
+            "name": "Contemporary Civics",
+            "era": "Contemporary era",
+	    "uniques": ["Adopt [Nuclear Weapons]","Adopt [Foreign Customs]","Adopt [Working Conditions]","Free Social Policy"],
+            "policies": [
+                        //JUDICIAL
+                            {
+                            "name": "Political Control",//NEED DO
+                            "uniques": [
+					"Comment [How should political opposition be uncovered?]"],
+			    "row": 3,
+                            "column": 3
+                        },
+                            {
+                            "name": "State Surveillance - PC",
+                            "uniques": ["Comment [May build [Secret Police] buildings in all cities]", "Instantly gain [6] [Collectivism]",
+					"Unavailable <after adopting [Democratic Republic]>","Unavailable <after adopting [Judicial Control]>","Unavailable <after adopting [Constitutional Monarchy]>", "Unavailable <after adopting [Denunciation]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 1
+                        },
+                            {
+                            "name": "Denunciation",
+                            "uniques": ["Comment [May build [Neighbourhood Watch] buildings in all cities]", "Instantly gain [6] [Authority]",
+					"Unavailable <after adopting [Democratic Republic]>","Unavailable <after adopting [Judicial Control]>","Unavailable <after adopting [Constitutional Monarchy]>", "Unavailable <after adopting [State Surveillance - PC]> <hidden from users>", "Judicial Civic"],
+			    "row": 3,
+                            "column": 5
+                        },
+                        //Militaristic
+                            {
+                            "name": "Nuclear Weapons",
+                            "uniques": [
+					"Comment [What is our stance on nuclear weapons?]"],
+			    "row": 4,
+                            "column": 3
+                        },
+                            {
+                            "name": "Nuclear Disarmament",
+                            "uniques": ["[-50]% Production when constructing [Missie] units [in all cities]","Instantly gain [6] [World]",
+					"Unavailable <after adopting [Nuclear Proliferation]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 1
+                        },
+                            {
+                            "name": "Nuclear Proliferation",
+                            "uniques": ["[+50]% Production when constructing [Missie] units [in all cities]","Instantly gain [6] [Homeland]",
+					"Unavailable <after adopting [Nuclear Disarmament]> <hidden from users>", "Martial Civic"],
+			    "row": 4,
+                            "column": 5
+                        },
+                            //Cultural
+                            {
+                            "name": "Foreign Customs",
+                            "uniques": [
+					"Comment [Are others' customs to be honored or dismantled?]"],
+			    "row": 8,
+                            "column": 3
+                        },
+                            {
+                            "name": "Cultural Respect",
+                            "uniques": ["[+15]% [Gold] [in all cities]","Instantly gain [6] [World]",
+					"Unavailable <after adopting [Cultural Eradication]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 1
+                        },
+                            {
+                            "name": "Cultural Eradication",
+                            "uniques": ["[+25]% [Culture] [in all cities]","Instantly gain [6] [Homeland]",
+					"Unavailable <after adopting [Cultural Respect]> <hidden from users>", "Cultural Civic"],
+			    "row": 8,
+                            "column": 5
+                        },
+                          //Economic
+                            {
+                            "name": "Working Conditions",
+                            "uniques": [
+					"Comment [Do you prioritise our workers' or our companies' wellbeing?]"],
+			    "row": 9,
+                            "column": 3
+                        },
+                            {
+                            "name": "Workers' Rights",
+                            "uniques": ["[+10]% [Happiness] from every [Factory]","[+5 Culture] from every [Factory]","Instantly gain [6] [Collectivism]",
+					"Unavailable <after adopting [Profit-focused]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 1
+                        },
+                            {
+                            "name": "Profit-focused",
+                            "uniques": ["[+20]% [Gold] from every [Factory]", "[+50]% Production when constructing [Factory] buildings [in all cities]","Instantly gain [6] [Individualism]",
+					"Unavailable <after adopting [Workers' Rights]> <hidden from users>", "Economic Civic"],
+			    "row": 9,
+                            "column": 5
+                        },
+			    	{
+				"name": "Contemporary Civics Complete",
+				"uniques": [
+					"Will not be displayed in Civilopedia",
+					"Comment [Only able to select one civic at a time]"]
+			}
+        ]
+    },
+
+
+
+
+]
