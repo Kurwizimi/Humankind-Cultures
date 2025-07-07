@@ -105,7 +105,7 @@
 		"strength": 14,
 		"cost": 100,
 		"requiredTech": "Organised Warfare",
-		"obsoleteTech": "Seige Tactics",
+		"obsoleteTech": "Siege Tactics",
 		"upgradesTo": "Ballista",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units"],
 		"attackSound": "throw"
