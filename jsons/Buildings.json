@@ -1019,7 +1019,7 @@
 		"name": "Utopia Project",
 		"cost": 2500,
 		"isNationalWonder": true,
-		"uniques": ["Unavailable <when number of [Adopted [All] Policies] is less than [34]>", "Triggers a global alert upon build start",
+		"uniques": ["Unavailable <when number of [Adopted [All] Policies] is less than [66]>", "Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
 	},
 	{
