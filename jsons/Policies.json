@@ -182,7 +182,7 @@
                         },
                             {
                             "name": "Small Council",
-                            "uniques": ["[+5]% [Food] [in all cities]", "[+5]% [Production] [in all cities]", "[+5]% [Gold] [in all cities]", "[+5]% [Science] [in all cities]","[+5]% [Culture] [in all cities]", "Instantly gain [4] [Liberty]","Adopt [Political Entitlemant]"
+                            "uniques": ["[+5]% [Food] [in all cities]", "[+5]% [Production] [in all cities]", "[+5]% [Gold] [in all cities]", "[+5]% [Science] [in all cities]","[+5]% [Culture] [in all cities]", "Instantly gain [4] [Liberty]","Adopt [Political Entitlement]"
 					"Unavailable <after adopting [Autarch]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
@@ -572,7 +572,7 @@
                         },
                         //JUDICIAL
                             {
-                            "name": "Capital Punishment -1",
+                            "name": "Capital Punishment - 1",
                             "uniques": [
 					"Comment [What should the death penalty be replaced with?]"],
 			    "row": 3,
@@ -593,7 +593,7 @@
                             "column": 5
                         },
 		    {
-                            "name": "Capital Punishment -2",
+                            "name": "Capital Punishment - 2",
                             "uniques": [
 					"Comment [What should the death penalty be replaced with?]"],
 			    "row": 4,
@@ -918,7 +918,7 @@
                         },
                             {
                             "name": "Cultural Eradication",
-                            "uniques": ["+[25]% [Culture] [in all cities]","Instantly gain [6] [Homeland]",
+                            "uniques": ["[+25]% [Culture] [in all cities]","Instantly gain [6] [Homeland]",
 					"Unavailable <after adopting [Cultural Respect]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 5
@@ -933,7 +933,7 @@
                         },
                             {
                             "name": "Workers' Rights",
-                            "uniques": ["[+10]% [Happiness] from every [Factory]","[+5 Culture] from every [Factory]","Instantly gain [6] [Collecivism]",
+                            "uniques": ["[+10]% [Happiness] from every [Factory]","[+5 Culture] from every [Factory]","Instantly gain [6] [Collectivism]",
 					"Unavailable <after adopting [Profit-focused]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
