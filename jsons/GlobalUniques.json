@@ -54,7 +54,7 @@
 
 	"[Gold] cost of purchasing [All] buildings [-25]% <for [Major] Civilizations> <if [The Carthaginians] is constructed>",					//Carthaginians
 		
-	"[+2 Science] from every [Researcher] <in all cities> <for [Major] Civilizations> <if [The Greeks] is constructed>",					//Greeks	
+	"[+2 Science] from every [Researcher] <for [Major] Civilizations> <if [The Greeks] is constructed>",							//Greeks	
 
 	//Medieval
 	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Mexica] is constructed>",				//Mexica
@@ -87,51 +87,10 @@
 	//Contemporary
 	 "[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Australians] is constructed>",						//Australian
 
-	"[+4 Culture] for every [Emblematic District] <for [Major] Civilizations> <if [The Miṣriyyūn] is constructed>",						//Miṣriyyūn
+	 "[+4 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Miṣriyyūn] is constructed>",					//Miṣriyyūn
 
 	 "[+2 Food] per [1] population [in all cities] <for [Major] Civilizations> <if [The Turks] is constructed>",						//Turk
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
