@@ -273,7 +273,7 @@
         	"food": 3,
         	"turnsToBuild": 7,
         	"techRequired": "Irrigation",
-        	"uniques": ["[+1 Food] for each adjacent [{non-[Fresh water]} {Farm}]", "Only available <with [0] to [0] neighboring [Canal Network] tiles>", 
+        	"uniques": ["[+1 Food] for each adjacent [{non-[Fresh water]} {Farm}]", "Only available <with [0] to [0] neighboring [Canal Network] tiles>", "Emblematic District",
 			"Only available <if [The Harappans] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "C"
    	 },
@@ -285,7 +285,7 @@
 		"gold": 3,
         	"turnsToBuild": 7,
         	"techRequired": "Conquest",
-        	"uniques": [ "Only available <with [0] to [0] neighboring [Great Obelisk] tiles>", 
+        	"uniques": [ "Only available <with [0] to [0] neighboring [Great Obelisk] tiles>", "Emblematic District",
 			"Only available <if [The Aksumites] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "O"
    	 },
@@ -295,7 +295,7 @@
         	"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra"],
         	"faith": 3,
         	"turnsToBuild": 7,
-       	 	"uniques": [ "[+1 Culture] for each adjacent [Mountain]","Only available <with [1] to [6] neighboring [Mountain] tiles>", 
+       	 	"uniques": [ "[+1 Culture] for each adjacent [Mountain]","Only available <with [1] to [6] neighboring [Mountain] tiles>", "Emblematic District",
 			"Only available <if [The Edo] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"techRequired": "Theology",
         	"shortcutKey": "T"
@@ -307,7 +307,7 @@
 		"gold": 2,
         	"turnsToBuild": 7,
         	"techRequired": "Urban Planning",
-        	"uniques": ["[+1 Food] for each adjacent [Farm]", "Only available <with [0] to [0] neighboring [Hacienda] tiles>", 
+        	"uniques": ["[+1 Food] for each adjacent [Farm]", "Only available <with [0] to [0] neighboring [Hacienda] tiles>", "Emblematic District",
 			"Only available <if [The Mexicans] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "H"
    	 },
@@ -318,7 +318,7 @@
 		"culture": 3,
         	"turnsToBuild": 7,
         	"techRequired": "Mass Entertainment",
-        	"uniques": ["[+3 Science] for each adjacent [Natural Wonder]", "[+1 Culture] for each adjacent [City center]", 
+        	"uniques": ["[+3 Science] for each adjacent [Natural Wonder]", "[+1 Culture] for each adjacent [City center]", "Emblematic District",
 			"Only available <if [The Miṣriyyūn] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "A"
    	 },
