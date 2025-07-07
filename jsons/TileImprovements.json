@@ -280,7 +280,7 @@
 	//Aksumite
 		{
         	"name": "Great Obelisk",
-       	 	"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert", "Coastal"],
+       	 	"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
         	"faith": 3,
 		"gold": 3,
         	"turnsToBuild": 7,
