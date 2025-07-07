@@ -825,7 +825,7 @@
 						"name": "World Wide Web",
 						"row": 6,
 						"prerequisites": ["Communication Satellites","Renewable Energy","Automation"],
-                				"uniques": ["],
+                				"uniques": [""],
 						"quote": ""
 					}]
 	},
