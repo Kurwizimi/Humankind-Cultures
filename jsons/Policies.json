@@ -2,7 +2,7 @@
             {
             "name": "Ancient Civics",
             "era": "Ancient era",
-	    "uniques": ["Adopt [Founding Myth]","Adopt [Legitimacy]","Adopt [Army Composition]","Adopt [Religious Rites]","Adopt [Cultural Blessing]","Adopt [Fundamental Values]","Adopt [Slaves]"],
+	    "uniques": ["Adopt [Founding Myth]","Adopt [Legitimacy]","Adopt [Army Composition]","Adopt [Religious Rites]","Adopt [Cultural Blessing]","Adopt [Fundamental Values]","Adopt [Slaves]","Free Social Policy"],
             "policies": [
                             //POLITICAL
                             {
@@ -170,7 +170,7 @@
 	    {
             "name": "Classical Civics",
             "era": "Classical era",
-	    "uniques": [],
+	    "uniques": ["Adopt [Leadership]","Adopt [Punishment]","Adopt [Independent Peoples]","Adopt [Army Wages]","Adopt [Religious Tolerance]","Adopt [Knowledge Authorities]","Adopt [Citizenship]","Adopt [Colonisation]","Free Social Policy"],
             "policies": [
                             //POLITICAL
                             {
@@ -182,14 +182,14 @@
                         },
                             {
                             "name": "Small Council",
-                            "uniques": ["[+1]% [Food] from every [All]", "[+1]% [Production] from every [All]", "[+1]% [Gold] from every [All]", "[+1]% [Science] from every [All]","Instantly gain [4] [Liberty]",
+                            "uniques": ["[+5]% [Food] [in all cities]", "[+5]% [Production] [in all cities]", "[+5]% [Gold] [in all cities]", "[+5]% [Science] [in all cities]","[+5]% [Culture] [in all cities]", "Instantly gain [4] [Liberty]","Adopt [Political Entitlemant]"
 					"Unavailable <after adopting [Autarch]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Autarch",
-                            "uniques": ["[+20]% [Food] [in capital]","[+20]% [Production] [in capital]","[+20]% [Gold] [in capital]","[+20]% [Science] [in capital]","Instantly gain [4] [Authority]",
+                            "uniques": ["[+20]% [Food] [in capital]","[+20]% [Production] [in capital]","[+20]% [Gold] [in capital]","[+20]% [Science] [in capital]","[+20]% [Culture] [in capital]", "Instantly gain [4] [Authority]","Adopt [Political Influence]"
 					"Unavailable <after adopting [Small Council]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 5
@@ -204,14 +204,14 @@
                         },
                             {
                             "name": "Aristocracy - SC",
-                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>","Instantly gain [4] [Tradition]",
+                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>","Instantly gain [4] [Tradition]","Adopt [Aristocracy Evolution]",
 					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic", "Gain a free [Aristocracy] [in capital] <hidden from users>"],
 			    "row": 2,
                             "column": 1
                         },
                             {
                             "name": "Republic",
-                            "uniques": ["[+20]% Strength for cities","Instantly gain [4] [Liberty]",
+                            "uniques": ["[+20]% Strength for cities","Instantly gain [4] [Liberty]","Adopt [Republic Evolution]",
 					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Aristocracy - SC]> <hidden from users>", "Political Civic"],
 			    "row": 2,
                             "column": 5
@@ -226,14 +226,14 @@
                         },
                             {
                             "name": "Physical Punishment",
-                            "uniques": ["[+1 Happiness] per [4] population [in all cities]","Instantly gain [4] [Tradition]",
+                            "uniques": ["[+1 Happiness] per [4] population [in all cities]","Instantly gain [4] [Tradition]","Adopt [Capital Punishment - 1]",
 					"Unavailable <after adopting [Forfeiture]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Forfeiture",
-                            "uniques": ["[+1 Gold] per [1] population [in all cities]","Instantly gain [4] [Progress]",
+                            "uniques": ["[+1 Gold] per [1] population [in all cities]","Instantly gain [4] [Progress]","Adopt [Capital Punishment - 2]",
 					"Unavailable <after adopting [Physical Punishment]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 5
@@ -292,14 +292,14 @@
                         },
                             {
                             "name": "Open-Minded",
-                            "uniques": ["[+1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+1 Culture] per [2] population [in all cities] <in cities not following a [foreign] religion>","Instantly gain [4] [World]",
+                            "uniques": ["[+1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+1 Culture] per [2] population [in all cities] <in cities not following a [foreign] religion>","Instantly gain [4] [World]","Adopt [Religious Minorities]"
 					"Unavailable <after adopting [Religious Hostility]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
                         },
                             {
                             "name": "Religious Hostility",
-                            "uniques": ["[-1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+10 Faith] [in all cities]","Instantly gain [4] [Homeland]", //Extra strength against other religions
+                            "uniques": ["[-1 Happiness] per [3] population [in all cities] <in cities not following a [your] religion>","[+10 Faith] [in all cities]","Instantly gain [4] [Homeland]", "Adopt [Unbelievers]"//Extra strength against other religions
 					"Unavailable <after adopting [Open-Minded]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 5
@@ -381,7 +381,7 @@
 	 {
             "name": "Medieval Civics",
             "era": "Medieval era",
-	    "uniques": [],
+	    "uniques": ["Adopt [Artistic Expression]","Adopt [Land Rights]","Free Social Policy"],
             "policies": [
                             //POLITICAL
                             {
@@ -393,14 +393,14 @@
                         },
                             {
                             "name": "Monarchy",
-                            "uniques": ["[+20]% Production when constructing [All] wonders [in all cities]","Instantly gain [5] [Authority]",
+                            "uniques": ["[+20]% Production when constructing [All] wonders [in all cities]","Instantly gain [5] [Authority]","Adopt [Monarchy Power]"
 					"Only available <after adopting [Autarch]>", "Unavailable <after adopting [Aristocracy - A]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Aristocracy - A",
-                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>","Instantly gain [5] [Tradition]",
+                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>","Instantly gain [5] [Tradition]","Adopt [Aristocracy Evolution]"
 					"Only available <after adopting [Autarch]>", "Unavailable <after adopting [Monarchy]> <hidden from users>", "Political Civic", "Gain a free [Aristocracy] [in capital] <hidden from users>"],
 			    "row": 1,
                             "column": 5
@@ -437,14 +437,14 @@
                             {
                             "name": "Open Inspections",
                             "uniques": ["Comment [May build [Peoples Assembly] buildings in all cities]", "Instantly gain [5] [Collectivism]",
-					"Unavailable <after adopting [Oligarchy]>","Unavailable <after adopting [One-Party State]>","Unavailable <after adopting [Political Control]>", "Unavailable <after adopting [State Surveillance - JC]> <hidden from users>", "Judicial Civic"],
+					"Unavailable <after adopting [Oligarchy]>","Unavailable <after adopting [One-Party State]>","Unavailable <after adopting [Absolute Monarchy]>","Unavailable <after adopting [Political Control]>", "Unavailable <after adopting [State Surveillance - JC]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "State Surveillance - JC",
                             "uniques": ["Comment [May build [Constitutional Secret Police] buildings in all cities]", "Instantly gain [5] [Authority]",
-					"Unavailable <after adopting [Oligarchy]>","Unavailable <after adopting [One-Party State]>","Unavailable <after adopting [Political Control]>", "Unavailable <after adopting [Open Inspections]> <hidden from users>", "Judicial Civic"],
+					"Unavailable <after adopting [Oligarchy]>","Unavailable <after adopting [One-Party State]>","Unavailable <after adopting [Absolute Monarchy]>","Unavailable <after adopting [Political Control]>", "Unavailable <after adopting [Open Inspections]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 5
                         },
@@ -457,7 +457,7 @@
                             "column": 3
                         },
                             {
-                            "name": "Eliminate Unbelievers",//NEED DO
+                            "name": "Eliminate Unbelievers",
                             "uniques": ["[+15]% Strength <for [Wounded] units>", "Instantly gain [5] [Authority]",
 					"Only available <after adopting [Religious Hostility]>", "Unavailable <after adopting [Banish Unbelievers]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
@@ -546,7 +546,7 @@
 	 {
             "name": "Early Modern Civics",
             "era": "Early Modern era",
-	    "uniques": [],
+	    "uniques": ["Adopt [Artistic Ownership]", "Adopt [Materials Procurement]","Free Social Policy""],
             "policies": [
                             //POLITICAL
                             {
@@ -572,7 +572,7 @@
                         },
                         //JUDICIAL
                             {
-                            "name": "Capital Punishment -1",//NEED DO
+                            "name": "Capital Punishment -1",
                             "uniques": [
 					"Comment [What should the death penalty be replaced with?]"],
 			    "row": 3,
@@ -668,7 +668,7 @@
 	 {
             "name": "Industrial Civics",
             "era": "Industrial era",
-	    "uniques": [],
+	    "uniques": ["Adopt [Conquered Empires]","Adopt [Irreligion]","Adopt [Scientific Facts]","Adopt [Press Freedom]","Adopt [International Trading]","Adopt [Industrial Production]","Adopt [Children's Rights]","Free Social Policy"],
             "policies": [
                             //POLITICAL
                             {
@@ -855,7 +855,7 @@
 	{
             "name": "Contemporary Civics",
             "era": "Contemporary era",
-	    "uniques": [],
+	    "uniques": ["Adopt [Nuclear Weapons]","Adopt [Foreign Customs]","Adopt [Working Conditions]","Free Social Policy"],
             "policies": [
                         //JUDICIAL
                             {
@@ -868,14 +868,14 @@
                             {
                             "name": "State Surveillance - PC",
                             "uniques": ["Comment [May build [Secret Police] buildings in all cities]", "Instantly gain [6] [Collectivism]",
-					"Unavailable <after adopting [Democratic Republic]>","Unavailable <after adopting [Judicial Control]>", "Unavailable <after adopting [Denunciation]> <hidden from users>", "Judicial Civic"],
+					"Unavailable <after adopting [Democratic Republic]>","Unavailable <after adopting [Judicial Control]>","Unavailable <after adopting [Constitutional Monarchy]>", "Unavailable <after adopting [Denunciation]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Denunciation",
                             "uniques": ["Comment [May build [Neighbourhood Watch] buildings in all cities]", "Instantly gain [6] [Authority]",
-					"Unavailable <after adopting [Democratic Republic]>","Unavailable <after adopting [Judicial Control]>", "Unavailable <after adopting [State Surveillance - PC]> <hidden from users>", "Judicial Civic"],
+					"Unavailable <after adopting [Democratic Republic]>","Unavailable <after adopting [Judicial Control]>","Unavailable <after adopting [Constitutional Monarchy]>", "Unavailable <after adopting [State Surveillance - PC]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 5
                         },
