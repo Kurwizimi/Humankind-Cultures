@@ -93,7 +93,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "War Summons",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],//Can convert to Persian+Greek UU
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can upgrade to [Hoplite] <if [The Greeks] is constructed>"],//Can convert to Persian+Greek UU
 		"attackSound": "metalhit"
 	},
 	{
