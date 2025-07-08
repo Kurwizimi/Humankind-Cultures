@@ -1,33 +1,82 @@
 
 game.png
-size: 512, 128
+size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Breeders
   rotate: false
-  xy: 112, 4
+  xy: 112, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Holodeck
   rotate: false
-  xy: 220, 4
+  xy: 220, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Aliens
   rotate: false
-  xy: 4, 4
+  xy: 4, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Great Blue Hole
+  rotate: false
+  xy: 436, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Kawah Ijen
+  rotate: false
+  xy: 436, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lake Baikal
+  rotate: false
+  xy: 508, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lake Hiller
+  rotate: false
+  xy: 508, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Perito Moreno Glacier
+  rotate: false
+  xy: 580, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Sagarmatha
+  rotate: false
+  xy: 652, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Yellowstone
+  rotate: false
+  xy: 580, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 UnitIcons/Phasers
   rotate: false
-  xy: 328, 4
+  xy: 328, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
