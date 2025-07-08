@@ -47,7 +47,7 @@
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
-		"name": "Animal Barns",
+		"name": "Animal Barn",
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"food": 1,
@@ -133,7 +133,7 @@
 		"requiredTech": "Sailing"
 	},
 	{
-		"name": "Palisades",
+		"name": "Palisade",
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
@@ -237,7 +237,7 @@
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
-		"name": "Artificial Reservoirs",
+		"name": "Artificial Reservoir",
 		"hurryCostModifier": 25,
 		"food": 4,
 		"uniques": ["Must be on [River]"],
@@ -426,7 +426,7 @@
 		"requiredTech": "Seafaring Mastery"
 	},
 	{
-		"name": "Tourney Fields",
+		"name": "Tourney Field",
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] XP [in this city]",
 			"[+2 Production] from [Horses] tiles [in this city]"],
@@ -509,7 +509,7 @@
 
 	//EARLY MODERN
 	{
-		"name": "Grain Silos",
+		"name": "Grain Silo",
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],
@@ -578,7 +578,7 @@
 		"requiredTech": "Humanism"
 	},
 	{
-		"name": "Bastions",
+		"name": "Bastion",
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
@@ -669,7 +669,7 @@
 
 	//INDUSTRIAL
 	{
-		"name": "Industrial Silos",
+		"name": "Industrial Silo",
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],//+ Pollution
