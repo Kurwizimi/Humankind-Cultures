@@ -6,455 +6,511 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Alchemist's Workshop
   rotate: false
-  xy: 1035, 915
+  xy: 1035, 916
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Animal Barn
   rotate: false
-  xy: 4, 200
+  xy: 112, 309
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Apothecary
   rotate: false
-  xy: 112, 308
+  xy: 719, 492
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Artificial Reservoir
   rotate: false
-  xy: 719, 491
+  xy: 1035, 818
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Artisan Workshop
   rotate: false
-  xy: 1035, 817
+  xy: 1133, 916
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Automated Factory
   rotate: false
-  xy: 1133, 915
+  xy: 4, 102
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Bastion
   rotate: false
-  xy: 4, 102
+  xy: 210, 309
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Bunker
   rotate: false
-  xy: 210, 308
+  xy: 817, 492
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Cabinet of Curiosities
   rotate: false
-  xy: 817, 491
+  xy: 1035, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Charcoal Kiln
   rotate: false
-  xy: 1035, 719
+  xy: 1133, 818
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Cinema
   rotate: false
-  xy: 611, 589
+  xy: 611, 590
   size: 416, 416
   orig: 416, 416
   offset: 0, 0
   index: -1
 BuildingIcons/City Watch
   rotate: false
-  xy: 1133, 817
+  xy: 1231, 916
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Coal Plant
   rotate: false
-  xy: 1231, 915
+  xy: 308, 309
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Conscription Centre
   rotate: false
-  xy: 4, 4
+  xy: 915, 492
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Conveyor Belt
   rotate: false
-  xy: 308, 308
+  xy: 1035, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Customs Agency
   rotate: false
-  xy: 915, 491
+  xy: 1133, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Customs Farm
   rotate: false
-  xy: 1035, 621
+  xy: 1231, 818
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Factory Farm
   rotate: false
-  xy: 1133, 719
+  xy: 1329, 916
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Fertilizer Plant
   rotate: false
-  xy: 1231, 817
+  xy: 406, 309
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Fishery
   rotate: false
-  xy: 1329, 915
+  xy: 1133, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Fishmonger
   rotate: false
-  xy: 406, 308
+  xy: 1231, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Flood Irrigation
   rotate: false
-  xy: 1133, 621
+  xy: 1329, 818
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Food Market
   rotate: false
-  xy: 1917, 818
+  xy: 1133, 525
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/Food Plaza
   rotate: false
-  xy: 1231, 719
+  xy: 1427, 916
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Grain Silo
   rotate: false
-  xy: 1329, 817
+  xy: 504, 309
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Great Fishmarket
   rotate: false
-  xy: 1427, 915
+  xy: 1231, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/High Furnace
   rotate: false
-  xy: 504, 308
+  xy: 1329, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/House of Scribes
   rotate: false
-  xy: 1819, 622
+  xy: 1230, 525
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/In-Situ Mine
   rotate: false
-  xy: 1231, 621
+  xy: 1525, 916
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Industrial Silo
   rotate: false
-  xy: 1329, 719
+  xy: 1329, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Inventor's Workshop
   rotate: false
-  xy: 1427, 817
+  xy: 1427, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Levy Administration
   rotate: false
-  xy: 1525, 915
+  xy: 1623, 916
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Lumber Yard
   rotate: false
-  xy: 1917, 721
+  xy: 1327, 525
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/Manufactory
   rotate: false
-  xy: 1329, 621
+  xy: 1427, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Manuscript Atelier
   rotate: false
-  xy: 1427, 719
+  xy: 1525, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Mars Colony
   rotate: false
-  xy: 611, 384
+  xy: 1424, 525
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/Moon Lander
   rotate: false
-  xy: 1525, 817
+  xy: 1623, 818
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Oil Pipeline
   rotate: false
-  xy: 1623, 915
+  xy: 1525, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Palisade
   rotate: false
-  xy: 4, 406
+  xy: 4, 407
   size: 599, 599
   orig: 599, 599
   offset: 0, 0
   index: -1
 BuildingIcons/Pisiciculture
   rotate: false
-  xy: 1427, 621
+  xy: 1623, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Playhouse
   rotate: false
-  xy: 1525, 719
+  xy: 1721, 818
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Police Force
   rotate: false
-  xy: 602, 287
+  xy: 1521, 525
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/Pottery Workshop
   rotate: false
-  xy: 1623, 817
+  xy: 1819, 916
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Printing House
   rotate: false
-  xy: 1636, 553
+  xy: 1931, 490
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
   index: -1
 BuildingIcons/Public Fountain
   rotate: false
-  xy: 1721, 915
+  xy: 1623, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Quarrying Machinery
   rotate: false
-  xy: 1525, 621
+  xy: 1721, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Sawmill
   rotate: false
-  xy: 1623, 719
+  xy: 1917, 916
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/School
   rotate: false
-  xy: 1721, 817
+  xy: 1721, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Seafood Wholesalers
   rotate: false
-  xy: 1035, 524
+  xy: 1618, 525
   size: 89, 89
   orig: 89, 89
   offset: 0, 0
   index: -1
 BuildingIcons/Sewage Treatment Plant
   rotate: false
-  xy: 1819, 915
+  xy: 1819, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Supercomputer Lab
   rotate: false
-  xy: 1623, 621
+  xy: 1917, 818
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Taxation Office
   rotate: false
-  xy: 1721, 719
+  xy: 1819, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Tech Park
   rotate: false
-  xy: 1819, 817
+  xy: 1917, 720
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Tourney Field
   rotate: false
-  xy: 1917, 915
+  xy: 1917, 622
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Whale Fishing
   rotate: false
-  xy: 1721, 621
+  xy: 602, 286
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Wind Farm
   rotate: false
-  xy: 1819, 719
+  xy: 1035, 524
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 NationIcons/Aliens
   rotate: false
-  xy: 4, 298
+  xy: 4, 299
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Aluminum
+  rotate: false
+  xy: 4, 200
+  size: 90, 91
+  orig: 90, 91
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coal
+  rotate: false
+  xy: 4, 4
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+ResourceIcons/Copper
+  rotate: false
+  xy: 112, 250
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+ResourceIcons/Horses
+  rotate: false
+  xy: 1427, 818
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+ResourceIcons/Iron
+  rotate: false
+  xy: 1525, 818
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+ResourceIcons/Oil
+  rotate: false
+  xy: 1721, 916
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+ResourceIcons/Saltpetre
+  rotate: false
+  xy: 1819, 818
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+ResourceIcons/Uranium
+  rotate: false
+  xy: 611, 384
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Great Blue Hole
   rotate: false
-  xy: 1132, 557
+  xy: 1715, 558
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kawah Ijen
   rotate: false
-  xy: 1204, 557
+  xy: 1787, 558
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lake Baikal
   rotate: false
-  xy: 1276, 557
+  xy: 1859, 558
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lake Hiller
   rotate: false
-  xy: 1348, 557
+  xy: 1931, 558
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Perito Moreno Glacier
   rotate: false
-  xy: 1420, 557
+  xy: 1715, 494
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sagarmatha
   rotate: false
-  xy: 1492, 549
+  xy: 1787, 486
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Yellowstone
   rotate: false
-  xy: 1564, 557
+  xy: 1859, 494
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Phasers
   rotate: false
-  xy: 611, 481
+  xy: 611, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
