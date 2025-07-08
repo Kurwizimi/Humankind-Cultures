@@ -1,5 +1,5 @@
-# Unciv-mod-example
+# Humankind Cultures
 
-An example mod for Unciv, that adds one new Civilization.
+This ruleset is a remake of HUMANKIND by AMPLITUDE Studios.
 
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)
+
