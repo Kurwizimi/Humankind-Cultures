@@ -298,7 +298,7 @@
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Palisades",
+		"requiredBuilding": "Palisade",
 		"requiredTech": "Fortifications",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -673,7 +673,7 @@
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],//+ Pollution
-		"requiredBuilding": "Grain Silos",
+		"requiredBuilding": "Grain Silo",
 		"requiredTech": "Mechanisation"
 	},
 	{
@@ -752,7 +752,7 @@
 		"name": "Military School",
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] XP [in this city]"],
-		"requiredBuilding": "Tourney Fields",
+		"requiredBuilding": "Tourney Field",
 		"requiredTech": "Military Coordination"
 	},
 	{
@@ -840,7 +840,7 @@
 			"[+1 Food] from [Horses] tiles [in this city]",
 			"[+1 Food] from [Sheep] tiles [in this city]",
 			"Destroyed when the city is captured"],//++ Pollution
-		"requiredBuilding": "Animal Barns",
+		"requiredBuilding": "Animal Barn",
 		"requiredTech": "Mechanised Harvesting"
 	},
 	{
@@ -961,7 +961,7 @@
 		"cityStrength": 12,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Bastions",
+		"requiredBuilding": "Bastion",
 		"requiredTech": "Suburbs",
 		"uniques": ["Population loss from nuclear attacks [-50]% [in this city]",
 			"Damage to garrison from nuclear attacks [-25]% [in this city]"]
