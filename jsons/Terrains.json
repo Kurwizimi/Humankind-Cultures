@@ -418,7 +418,7 @@
 		"faith": 1,
 		"occursOn": ["Plains"],
 		"uniques": ["Must be adjacent to [2] to [5] [Coast] tiles"],
-		"turnsInto": "Lakes",
+		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
