@@ -1005,6 +1005,7 @@
 		"isNationalWonder": true,
 		"uniques": ["Triggers a global alert upon completion", 
 			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
+		"requiredBuilding": "Space Station",
 		"requiredTech": "Communication Satellites"
 	},
 	{
@@ -1013,6 +1014,7 @@
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", 
 			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
+		"requiredBuilding": "Moon Lander",
 		"requiredTech": "Fusion Reactor"
 	},
 	{
