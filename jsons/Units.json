@@ -387,7 +387,7 @@
 
 	//EARLY MODERN
 	{
-		"name": "Arquebusiers",
+		"name": "Arquebusier",
 		"unitType": "Ranged Gunpowder",
 		"range": 2,
 		"movement": 2,
@@ -401,7 +401,7 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Halberdiers",
+		"name": "Halberdier",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 41,
