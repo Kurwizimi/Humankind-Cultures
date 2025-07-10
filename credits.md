@@ -75,6 +75,27 @@ Contemporary
 * Moon Lander - landing by iconixar from <a href="https://thenounproject.com/browse/icons/term/landing/" target="_blank" title="landing Icons">Noun Project</a> (CC BY 3.0)
 * Mars Colony - Mars by Agan24 from <a href="https://thenounproject.com/browse/icons/term/mars/" target="_blank" title="Mars Icons">Noun Project</a> (CC BY 3.0)
 
+**Units**
+* Tribe - Native Man by Gan Khoon Lay from <a href="https://thenounproject.com/browse/icons/term/native-man/" target="_blank" title="Native Man Icons">Noun Project</a> (CC BY 3.0)
+* Scout Rider - horse racing by Gan Khoon Lay from <a href="https://thenounproject.com/browse/icons/term/horse-racing/" target="_blank" title="horse racing Icons">Noun Project</a> (CC BY 3.0)
+* Pentekonter - Greek Trireme by Zack McCune from <a href="https://thenounproject.com/browse/icons/term/greek-trireme/" target="_blank" title="Greek Trireme Icons">Noun Project</a> (CC BY 3.0)
+* Great Swordsman - Sword by Kim Sun Young from <a href="https://thenounproject.com/browse/icons/term/sword/" target="_blank" title="Sword Icons">Noun Project</a> (CC BY 3.0)
+* Cog - Boat by Md Moniruzzaman from <a href="https://thenounproject.com/browse/icons/term/boat/" target="_blank" title="Boat Icons">Noun Project</a> (CC BY 3.0)
+* Arquebusier - arquebus by Cédric Villain from <a href="https://thenounproject.com/browse/icons/term/arquebus/" target="_blank" title="arquebus Icons">Noun Project</a> (CC BY 3.0)
+* Halberdier - Halberd by parkjisun from <a href="https://thenounproject.com/browse/icons/term/halberd/" target="_blank" title="Halberd Icons">Noun Project</a> (CC BY 3.0)
+* Motar - Cannon by Ethan Go from <a href="https://thenounproject.com/browse/icons/term/cannon/" target="_blank" title="Cannon Icons">Noun Project</a> (CC BY 3.0)
+* Carrack - pirate ship by Madison Apple from <a href="https://thenounproject.com/browse/icons/term/pirate-ship/" target="_blank" title="pirate ship Icons">Noun Project</a> (CC BY 3.0)
+* Man O' War - Pirate by Arturo Alejandro Romo Escartin from <a href="https://thenounproject.com/browse/icons/term/pirate/" target="_blank" title="Pirate Icons">Noun Project</a> (CC BY 3.0)
+* Howitzer - Artillery by iconcheese from <a href="https://thenounproject.com/browse/icons/term/artillery/" target="_blank" title="Artillery Icons">Noun Project</a> (CC BY 3.0)
+* Dragoon - cavalry police by history Nerd from <a href="https://thenounproject.com/browse/icons/term/cavalry-police/" target="_blank" title="cavalry police Icons">Noun Project</a> (CC BY 3.0)
+* Torpedo Boat - Bomb by kareemov from <a href="https://thenounproject.com/browse/icons/term/bomb/" target="_blank" title="Bomb Icons">Noun Project</a> (CC BY 3.0)
+* Medium Tank - Tank by Andri Graphic from <a href="https://thenounproject.com/browse/icons/term/tank/" target="_blank" title="Tank Icons">Noun Project</a> (CC BY 3.0)
+* Armoured Personel Carrier - APC by Luke Anthony Firth from <a href="https://thenounproject.com/browse/icons/term/apc/" target="_blank" title="APC Icons">Noun Project</a> (CC BY 3.0)
+* Main Battle Tank - Tank by Stone from <a href="https://thenounproject.com/browse/icons/term/tank/" target="_blank" title="Tank Icons">Noun Project</a> (CC BY 3.0)
+* Commando - beret by Icon Designer from <a href="https://thenounproject.com/browse/icons/term/beret/" target="_blank" title="beret Icons">Noun Project</a> (CC BY 3.0)
+* Frigate - Ship by iejank from <a href="https://thenounproject.com/browse/icons/term/ship/" target="_blank" title="Ship Icons">Noun Project</a> (CC BY 3.0)
+* Thermonuclear Missile - missile by Singlar from <a href="https://thenounproject.com/browse/icons/term/missile/" target="_blank" title="missile Icons">Noun Project</a> (CC BY 3.0)
+
 
 
 **Policies**
