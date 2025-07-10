@@ -15,7 +15,7 @@
 
 			"[+1 Culture] [in all cities] <when above [5] [Happiness]>",
 			"[+2 Culture] [in all cities] <when above [10] [Happiness]>",
-			"[+10]% [Culture] <when above [20] [Happiness]>",
+			"[+10]% [Culture] <when above [25] [Happiness]>",
 			"[+20]% [Culture] <when above [40] [Happiness]>",
 
 			//Culture-Swap Events
