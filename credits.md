@@ -115,3 +115,18 @@ Classical
 * Select Citizenship - Citizen Welfare by N.K.Narasimhan from <a href="https://thenounproject.com/browse/icons/term/citizen-welfare/" target="_blank" title="Citizen Welfare Icons">Noun Project</a> (CC BY 3.0)
 * Vassal Colonies - hierarchy by Vectors Market from <a href="https://thenounproject.com/browse/icons/term/hierarchy/" target="_blank" title="hierarchy Icons">Noun Project</a> (CC BY 3.0)
 * Naturalised Colonies - colony by M. Oki Orlando from <a href="https://thenounproject.com/browse/icons/term/colony/" target="_blank" title="colony Icons">Noun Project</a> (CC BY 3.0)
+* 
+Medieval
+* Absolute Monarchy - Scepter by mangunkarsa from <a href="https://thenounproject.com/browse/icons/term/scepter/" target="_blank" title="Scepter Icons">Noun Project</a> (CC BY 3.0)
+* Constitutional Monarchy - throne by Smalllike from <a href="https://thenounproject.com/browse/icons/term/throne/" target="_blank" title="throne Icons">Noun Project</a> (CC BY 3.0)
+* Open Inspections - inspection by Keyy Creative from <a href="https://thenounproject.com/browse/icons/term/inspection/" target="_blank" title="inspection Icons">Noun Project</a> (CC BY 3.0)
+* State Surveillance - Surveillance by Unknwn from <a href="https://thenounproject.com/browse/icons/term/surveillance/" target="_blank" title="Surveillance Icons">Noun Project</a> (CC BY 3.0)
+* Eliminate Unbelievers - heretic by Robert Bjurshagen from <a href="https://thenounproject.com/browse/icons/term/heretic/" target="_blank" title="heretic Icons">Noun Project</a> (CC BY 3.0)
+* Banish Unbelievers - racism by Luis Prado from <a href="https://thenounproject.com/browse/icons/term/racism/" target="_blank" title="racism Icons">Noun Project</a> (CC BY 3.0)
+* Taxed Minorities - tax by Afianroc from <a href="https://thenounproject.com/browse/icons/term/tax/" target="_blank" title="tax Icons">Noun Project</a> (CC BY 3.0)
+* Untaxed Minorities - Diversity by miftakhudin from <a href="https://thenounproject.com/browse/icons/term/diversity/" target="_blank" title="Diversity Icons">Noun Project</a> (CC BY 3.0)
+* Free Arts - diy crafts by azaya from <a href="https://thenounproject.com/browse/icons/term/diy-crafts/" target="_blank" title="diy crafts Icons">Noun Project</a> (CC BY 3.0)
+* Censored Arts - burning book by Jaime Serra from <a href="https://thenounproject.com/browse/icons/term/burning-book/" target="_blank" title="burning book Icons">Noun Project</a> (CC BY 3.0)
+* Communal Land - farm land by Singlar from <a href="https://thenounproject.com/browse/icons/term/farm-land/" target="_blank" title="farm land Icons">Noun Project</a> (CC BY 3.0)
+* Inherited Land - Farm by Adrien Coquet from <a href="https://thenounproject.com/browse/icons/term/farm/" target="_blank" title="Farm Icons">Noun Project</a> (CC BY 3.0)
+
