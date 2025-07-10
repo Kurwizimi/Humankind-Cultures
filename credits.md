@@ -107,6 +107,8 @@ Contemporary
 * Commando - beret by Icon Designer from <a href="https://thenounproject.com/browse/icons/term/beret/" target="_blank" title="beret Icons">Noun Project</a> (CC BY 3.0)
 * Frigate - Ship by iejank from <a href="https://thenounproject.com/browse/icons/term/ship/" target="_blank" title="Ship Icons">Noun Project</a> (CC BY 3.0)
 * Thermonuclear Missile - missile by Singlar from <a href="https://thenounproject.com/browse/icons/term/missile/" target="_blank" title="missile Icons">Noun Project</a> (CC BY 3.0)
+* Deisel Submarine - Submarine by IconInnovate from <a href="https://thenounproject.com/browse/icons/term/submarine/" target="_blank" title="Submarine Icons">Noun Project</a> (CC BY 3.0)
+* Nuclear Submarine - Submarine by Luke Anthony Firth from <a href="https://thenounproject.com/browse/icons/term/submarine/" target="_blank" title="Submarine Icons">Noun Project</a> (CC BY 3.0)
 
 
 
