@@ -844,7 +844,7 @@
 		"requiredTech": "Mechanised Harvesting"
 	},
 	{
-		"name": "Fertilizer Plant",
+		"name": "Drone-Assisted Fertilizer Plant",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"food": 10},
 		"requiredBuilding": "Fertilizer Plant",
