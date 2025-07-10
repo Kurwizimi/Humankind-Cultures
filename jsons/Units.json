@@ -273,7 +273,7 @@
 		"rangedStrength": 31,
 		"cost": 400,
 		"requiredTech": "War Summons",
-		"upgradesTo": "Arquebusiers",
+		"upgradesTo": "Arquebusier",
 		"obsoleteTech": "Gunpowder Warfare",
 		"attackSound": "crossbow"
 	},
@@ -285,7 +285,7 @@
 		"cost": 200,
 		"requiredTech": "War Summons",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Halberdiers",
+		"upgradesTo": "Halberdier",
 		"obsoleteTech": "Centralised Power",
 		"attackSound": "metalhit"
 	},
