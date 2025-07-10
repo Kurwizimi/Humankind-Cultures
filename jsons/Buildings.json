@@ -335,7 +335,7 @@
 		"quote": "This Colossus is a mighty image for a mighty empire! And it's discreetly garbed in a toga for those who pass beneath."
 	},
 	{
-		"name": "Lighthous of Alexandria",
+		"name": "Lighthouse of Alexandria",
 		"happiness": 2,
 		"gold": 2,
 		"cost": 400,
@@ -915,7 +915,7 @@
 		"requiredTech": "Suburbs"
 	},
 	{
-		"name": "Financial Districs",
+		"name": "Financial District",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"gold": 5,
