@@ -165,3 +165,13 @@ Medieval
 * Communal Land - farm land by Singlar from <a href="https://thenounproject.com/browse/icons/term/farm-land/" target="_blank" title="farm land Icons">Noun Project</a> (CC BY 3.0)
 * Inherited Land - Farm by Adrien Coquet from <a href="https://thenounproject.com/browse/icons/term/farm/" target="_blank" title="Farm Icons">Noun Project</a> (CC BY 3.0)
 
+Early Modern
+* One-Party State - dictator by Luis Prado from <a href="https://thenounproject.com/browse/icons/term/dictator/" target="_blank" title="dictator Icons">Noun Project</a> (CC BY 3.0)
+* Democratic Republic - democracy by Fahmi Somdi Std from <a href="https://thenounproject.com/browse/icons/term/democracy/" target="_blank" title="democracy Icons">Noun Project</a> (CC BY 3.0)
+* Lifetime Sentence - jail by Dian Chandra Lesmono from <a href="https://thenounproject.com/browse/icons/term/jail/" target="_blank" title="jail Icons">Noun Project</a> (CC BY 3.0)
+* Hard Labour - labor by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/labor/" target="_blank" title="labor Icons">Noun Project</a> (CC BY 3.0)
+* Rehabilitation - rejuvenation by Studio 365 from <a href="https://thenounproject.com/browse/icons/term/rejuvenation/" target="_blank" title="rejuvenation Icons">Noun Project</a> (CC BY 3.0)
+* Academic Artists - painting by Luis Prado from <a href="https://thenounproject.com/browse/icons/term/painting/" target="_blank" title="painting Icons">Noun Project</a> (CC BY 3.0)
+* Independent Artists - Art by Manohara from <a href="https://thenounproject.com/browse/icons/term/art/" target="_blank" title="Art Icons">Noun Project</a> (CC BY 3.0)
+* Seize Resources - Fist Pounding by Luis Prado from <a href="https://thenounproject.com/browse/icons/term/fist-pounding/" target="_blank" title="Fist Pounding Icons">Noun Project</a> (CC BY 3.0)
+* Trade Resources - trading by Sunardi from <a href="https://thenounproject.com/browse/icons/term/trading/" target="_blank" title="trading Icons">Noun Project</a> (CC BY 3.0)
