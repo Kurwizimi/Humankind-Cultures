@@ -195,27 +195,6 @@
                             "column": 5
                         },
 		    
-		     	    {
-                            "name": "Political Entitlement",
-                            "uniques": [
-					"Comment [What political system does the small council support?]"], //Only available if S. Council is picked for leadership
-			    "row": 2,
-                            "column": 3
-                        },
-                            {
-                            "name": "Aristocracy - SC",
-                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>","Instantly gain [4] [Tradition]","Adopt [Aristocracy Evolution]",
-					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic", "Gain a free [Aristocracy] [in capital] <hidden from users>"],
-			    "row": 2,
-                            "column": 1
-                        },
-                            {
-                            "name": "Republic",
-                            "uniques": ["[+20]% Strength for cities","Instantly gain [4] [Liberty]","Adopt [Republic Evolution]",
-					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Aristocracy - SC]> <hidden from users>", "Political Civic"],
-			    "row": 2,
-                            "column": 5
-                        },
                         //JUDICIAL
                             {
                             "name": "Punishment",
@@ -405,27 +384,28 @@
 			    "row": 1,
                             "column": 5
                         },
-		    		{
-                            "name": "Monarchy Power",
+		    {
+                            "name": "Political Entitlement",
                             "uniques": [
-					"Comment [What type of monarchy is this?]"],
+					"Comment [What political system does the small council support?]"], //Only available if S. Council is picked for leadership
 			    "row": 2,
                             "column": 3
                         },
                             {
-                            "name": "Absolute Monarchy",
-                            "uniques": ["May buy [All] buildings with [Culture] [in all cities]","Instantly gain [6] [Authority]",
-					"Only available <after adopting [Monarchy]>", "Unavailable <after adopting [Constitutional Monarchy]> <hidden from users>", "Political Civic"],
+                            "name": "Aristocracy - SC",
+                            "uniques": ["[+10]% Strength <for [Emblematic Unit] units>","Instantly gain [4] [Tradition]","Adopt [Aristocracy Evolution]",
+					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Republic]> <hidden from users>", "Political Civic", "Gain a free [Aristocracy] [in capital] <hidden from users>"],
 			    "row": 2,
                             "column": 1
                         },
                             {
-                            "name": "Constitutional Monarchy",
-                            "uniques": ["[+1 Happiness, +2 Culture] from every [Emblematic District]","Instantly gain [6] [Liberty]",
-					"Only available <after adopting [Monarchy]>", "Unavailable <after adopting [Absolute Monarchy]> <hidden from users>", "Political Civic"],
+                            "name": "Republic",
+                            "uniques": ["[+20]% Strength for cities","Instantly gain [4] [Liberty]","Adopt [Republic Evolution]",
+					"Only available <after adopting [Small Council]>", "Unavailable <after adopting [Aristocracy - SC]> <hidden from users>", "Political Civic"],
 			    "row": 2,
                             "column": 5
                         },
+		    		
                         //JUDICIAL
                             {
                             "name": "Judicial Control",
@@ -548,28 +528,6 @@
             "era": "Early Modern era",
 	    "uniques": ["Adopt [Artistic Ownership]", "Adopt [Materials Procurement]","Free Social Policy"],
             "policies": [
-                            //POLITICAL
-                            {
-                            "name": "Republic Evolution",
-                            "uniques": [
-					"Comment [Should there be a diversity of poltical representation?]"],
-			    "row": 1,
-                            "column": 3
-                        },
-                            {
-                            "name": "One-Party State",
-                            "uniques": ["[+3 Happiness] [in all cities]", "[-10]% Unhappiness from [Population] [in all cities]","Instantly gain [5] [Authority]",
-					"Only available <after adopting [Republic]>", "Unavailable <after adopting [Democratic Republic]> <hidden from users>", "Political Civic"],
-			    "row": 1,
-                            "column": 1
-                        },
-                            {
-                            "name": "Democratic Republic",
-                            "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Instantly gain [5] [Liberty]",
-					"Only available <after adopting [Republic]>", "Unavailable <after adopting [One-Party State]> <hidden from users>", "Political Civic"],
-			    "row": 1,
-                            "column": 5
-                        },
                         //JUDICIAL
                             {
                             "name": "Capital Punishment - 1",
@@ -671,25 +629,67 @@
 	    "uniques": ["Adopt [Conquered Empires]","Adopt [Irreligion]","Adopt [Scientific Facts]","Adopt [Press Freedom]","Adopt [International Trading]","Adopt [Industrial Production]","Adopt [Children's Rights]","Free Social Policy"],
             "policies": [
                             //POLITICAL
+		     		{
+                            "name": "Republic Evolution",
+                            "uniques": [
+					"Comment [Should there be a diversity of poltical representation?]"],
+			    "row": 1,
+                            "column": 3
+                        },
+                            {
+                            "name": "One-Party State",
+                            "uniques": ["[+3 Happiness] [in all cities]", "[-10]% Unhappiness from [Population] [in all cities]","Instantly gain [5] [Authority]",
+					"Only available <after adopting [Republic]>", "Unavailable <after adopting [Democratic Republic]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 1
+                        },
+                            {
+                            "name": "Democratic Republic",
+                            "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Instantly gain [5] [Liberty]",
+					"Only available <after adopting [Republic]>", "Unavailable <after adopting [One-Party State]> <hidden from users>", "Political Civic"],
+			    "row": 1,
+                            "column": 5
+                        },
+		    	    {
+                            "name": "Monarchy Power",
+                            "uniques": [
+					"Comment [What type of monarchy is this?]"],
+			    "row": 2,
+                            "column": 3
+                        },
+                            {
+                            "name": "Absolute Monarchy",
+                            "uniques": ["May buy [All] buildings with [Culture] [in all cities]","Instantly gain [6] [Authority]",
+					"Only available <after adopting [Monarchy]>", "Unavailable <after adopting [Constitutional Monarchy]> <hidden from users>", "Political Civic"],
+			    "row": 2,
+                            "column": 1
+                        },
+                            {
+                            "name": "Constitutional Monarchy",
+                            "uniques": ["[+1 Happiness, +2 Culture] from every [Emblematic District]","Instantly gain [6] [Liberty]",
+					"Only available <after adopting [Monarchy]>", "Unavailable <after adopting [Absolute Monarchy]> <hidden from users>", "Political Civic"],
+			    "row": 2,
+                            "column": 5
+                        },
                             {
                             "name": "Aristocracy Evolution",
                             "uniques": [
 					"Comment [Whose political interests should be represented?]"],
-			    "row": 1,
+			    "row": 3,
                             "column": 3
                         },
                             {
                             "name": "Oligarchy",
                             "uniques": ["[+25]% [Gold] [in all cities]","Instantly gain [6] [Authority]",
 					"Only available <if [Aristocracy] is constructed>", "Unavailable <after adopting [Democratic Republic -A]> <hidden from users>", "Political Civic"],
-			    "row": 1,
+			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Democratic Republic -A",
                             "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Instantly gain [6] [Liberty]",
 					"Only available <if [Aristocracy] is constructed>", "Unavailable <after adopting [Oligarchy]> <hidden from users>", "Political Civic"],
-			    "row": 1,
+			    "row": 3,
                             "column": 5
                         },
                         //Militaristic
