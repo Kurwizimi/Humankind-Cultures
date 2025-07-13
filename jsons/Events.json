@@ -29,7 +29,7 @@
 		"text": "Classical Culture Pick",
 		"choices": [
 			{ "text": "The Aksumites",
-			  "uniques": [	"Comment [Horn of Plenty: +50% [Gold] on every improved tile producing [Gold]]",
+			  "uniques": [	"Comment [Horn of Plenty: +1 [Gold] from every improved tile]",
 				  	"Comment [[Shotelei]: [Swordsman]-like unit, [Grappler]]",
 				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
 				  "Gain a free [The Aksumites] [in capital] <hidden from users>", "Only available <if [The Aksumites] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
@@ -55,7 +55,7 @@
 		"text": "Medieval Culture Pick",
 		"choices": [
 			{ "text": "The Mexica",
-			  "uniques": [	"Comment [Huitzilopochtli's Glory: [+2] [Movement] for all Units, [+20]% [Production] when constructing All units in all cities ]",
+			  "uniques": [	"Comment [Huitzilopochtli's Glory: [+1] [Movement] for all Units, [+20]% [Production] when constructing All units in all cities ]",
 				  	"Comment [[Jaguar Warrior]: [Great Swordsman]-like unit, Does not require [Iron], [Fervor] ]",
 				  	"Comment [[Sacrificial Altar]: +5 [Faith], +2 [Culture], +1 [Happiness] ]",
 				  "Gain a free [The Mexica] [in capital] <hidden from users>", "Only available <if [The Mexica] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
