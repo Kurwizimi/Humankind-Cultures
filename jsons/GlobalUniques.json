@@ -45,6 +45,9 @@
 	"[+100]% Yield from pillaging tiles <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
 
 	"[+2 Science] [in all cities] <for [Major] Civilizations> <if [The Babylonians] is constructed>",							//Babylonians
+
+	"[+10]% Production when constructing [All] buildings [in all cities] <for [Major] Civilizations> <if [The Egyptians] is constructed>",			//Egyptians
+	"[+1 Production] from every [Plains] <for [Major] Civilizations> <if [The Egyptians] is constructed>",
 		
 	"[+1 Food] from every [Plains] <for [Major] Civilizations> <if [The Harappans] is constructed>",							//Harappans
 	"[+1 Food] from every [River] <for [Major] Civilizations> <if [The Harappans] is constructed>",
@@ -53,6 +56,8 @@
 	"[+1 Gold] from every [improved] <for [Major] Civilizations> <if [The Aksumites] is constructed>",							//Aksumites
 
 	"[Gold] cost of purchasing [All] buildings [-25]% <for [Major] Civilizations> <if [The Carthaginians] is constructed>",					//Carthaginians
+
+	"[+3 Food] from every [Farmer] <for [Major] Civilizations> <if [The Celts] is constructed>",								//Celts	
 		
 	"[+2 Science] from every [Researcher] <for [Major] Civilizations> <if [The Greeks] is constructed>",							//Greeks	
 
@@ -65,27 +70,38 @@
 	"[+2 Gold] from every [Luxury resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",						//Ghanaians
 	"[+1 Gold] from every [Strategic resource] <for [Major] Civilizations> <if [The Ghanaians] is constructed>",
 
+	"[+2] Movement <for [Water] units> <for [Major] Civilizations> <if [The Norsemen] is constructed>",							//Norsemen
+	"[+10]% Strength <for [Water] units> <for [Major] Civilizations> <if [The Norsemen] is constructed>",
 
 	//Early Modern
 	"[+1 Gold] per [1] population [in all cities] <for [Major] Civilizations> <if [The Dutch] is constructed>",						//Dutch
 
 	"[+1 Culture] per [1] population [in all cities] <for [Major] Civilizations> <if [The Edo] is constructed>",						//Edo
 
-	"[+3 Gold, +1 Culture] from each Trade Route <for [Major] Civilizations> <if [The Venetians] is constructed>",						//Venetians
+	"[+1 Food] from every [improved] <for [Major] Civilizations> <if [The Haudenosaunee] is constructed>",							//Haudenosaunee
+
+	"[+3 Gold, +1 Culture] from each Trade Route <for [Major] Civilizations> <if [The Venetians] is constructed>",						//Venetian
 
 
 	//Industrial
+	"[+1 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Austro-Hungarians] is constructed>",				//Austro-Hungarian
+	"[+1 Culture] from every [Culture] <for [Major] Civilizations> <if [The Austro-Hungarians] is constructed>",
+		
 	"[+10]% [Science] <for [Major] Civilizations> <if [The French] is constructed>",									//French
 
-	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Germans] is constructed>",			//Germans
+	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Germans] is constructed>",			//German
 	"[+15]% Strength <for [Water] units> <for [Major] Civilizations> <if [The Germans] is constructed>",
 	"[+15]% Strength <for [Air] units> <for [Major] Civilizations> <if [The Germans] is constructed>",
 
-	"[+10]% [Food] [in all cities] <for [Major] Civilizations> <if [The Mexicans] is constructed>",								//Mexiacan
+	"[+10]% [Food] [in all cities] <for [Major] Civilizations> <if [The Mexicans] is constructed>",								//Mexican
 
 
 	//Contemporary
 	 "[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Australians] is constructed>",						//Australian
+
+	"[+3 Food] from every [Forest] <for [Major] Civilizations> <if [The Brasilians] is constructed>",							//Brasilian
+	"[+3 Food] from every [Jungle] <for [Major] Civilizations> <if [The Brasilians] is constructed>",			
+	"[+2 Food] from every [improved] <for [Major] Civilizations> <if [The Brasilians] is constructed>",			
 
 	 "[+4 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Miṣriyyūn] is constructed>",					//Miṣriyyūn
 
