@@ -163,6 +163,21 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
+	//Egyptians
+	{
+		"name": "Markabata",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 22,
+		"cost": 180,
+		"requiredTech": "Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Only available <if [The Egyptians] is constructed>", "Emblematic Unit"],
+		"attackSound": "arrow"
+	},
 
 	//CLASSICAL
 	{
@@ -247,6 +262,22 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Carthaginians] is constructed>", "Emblematic Unit"],
 		"promotions": ["Trample"],
 		"hurryCostModifier": 20,
+	},
+	//Celts
+	{
+		"name": "Gaesati",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 26,
+		"cost": 90,
+		"requiredResource": "Iron",
+		"requiredTech": "Standing Army",
+		"upgradesTo": "Great Swordsman", //Can convert to Roman UU
+		"uniques": ["Only available <if [The Celts] is constructed>", "Emblematic Unit"],
+		"promotions": ["Fervor"],
+		"obsoleteTech": "Heavy Infantry",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 	//Greek
 	{
@@ -382,6 +413,19 @@
 		"promotions": ["Anti-Cavalry"],
 		"attackSound": "horse"
 	},
+	//Norseman
+	{
+		"name": "Langskip",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 43,
+		"cost": 400,
+		"requiredTech": "Seafaring Mastery",
+		"upgradesTo": "Carrack",
+		"uniques": ["Can move after attacking", "Only available <if [The Norsemen] is constructed>", "Emblematic Unit"],
+		"obsoleteTech": "Naval Artillery",
+		"attackSound": "nonmetalhit"
+	},
 	
 
 
@@ -491,6 +535,20 @@
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Line Formation",
 		"attackSound": "metalhit"
+	},
+	//Haudenosaunee
+	{
+		"name": "Rotiskenrakehte",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 46,
+		"cost": 970,
+		"requiredTech": "Flintlock",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Haudenosaunee] is constructed>", "Emblematic Unit"],
+		"promotions": ["Guerilla Fighter"],
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Line Formation",
+		"attackSound": "shot"
 	},
 	//Venetian
 	{
@@ -629,6 +687,20 @@
 		"obsoleteTech": "Aerial Warfare",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
+	},
+	//Mexican
+	{
+		"name": "Evidenzbureau Agents",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 47,
+		"cost": 1290,
+		"requiredTech": "Guerilla Warfare",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Austro-Hungarians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Ignore terrain costs", "Stealth"],
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Rifles",
+		"attackSound": "shot"
 	},
 	//French
 	{
@@ -936,6 +1008,17 @@
 		"promotions": ["Ignore terrain cost"],
 		"requiredResource": "Oil",
 		"requiredTech": "Composite Armour",
+		"attackSound": "shot"
+	},
+	//Brasilian
+	{
+		"name": "Jungle Brigades",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 54,
+		"cost": 3700,
+		"uniques": ["Invisible to non-adjacent units","[+15]% to Flank Attack bonuses", "Only available <if [The Brasilians] is constructed>", "Emblematic Unit"],
+		"requiredTech": "Covert Ops",
 		"attackSound": "shot"
 	},
 	//Miṣriyyūn
