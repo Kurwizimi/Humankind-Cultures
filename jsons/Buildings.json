@@ -223,8 +223,18 @@
 		"name": "Astronomy House",
 		"specialistSlots": {"Researcher": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science, +1 Food] from every [Researcher] <in this city>", "Emblematic District", "Only available <if [The Babylonians] is constructed>"],
+		"uniques": ["Emblematic District", "[+1 Science, +1 Food] from every [Researcher] <in this city>", "Emblematic District", "Only available <if [The Babylonians] is constructed>"],
 		"requiredTech": "Calendar"
+	},
+	//Egyptian
+	{
+		"name": "Pyramid",
+		"specialistSlots": {"Engineer": 1},
+		"culture": 1,
+		"production": 3,
+		"uniques": ["Emblematic District", "Only available <if [The Egyptians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Carpentry"
 	},
 
 	//CLASSICAL
@@ -382,10 +392,19 @@
 		"name": "Cothon",
 		"cityStrength": 10,
 		"cityHealth": 10,
-		"uniques": ["[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lakes] tiles [in this city]",
+		"uniques": ["[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lakes] tiles [in this city]","Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Carthaginians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade Expeditions"
+	},
+	//Celts
+	{
+		"name": "Nemeton",
+		"food": 3,
+		"faith": 3,
+		"uniques": ["Emblematic District", "Only available <if [The Celts] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
 	},
 	//Greek
 	{
@@ -513,6 +532,16 @@
 			"Emblematic District", "Only available <if [The Ghanaians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Guilds"
+	},
+	//Norseman
+	{
+		"name": "Naust",
+		"specialistSlots": {"Farmer": 1},
+		"food": 5,
+		"uniques": ["Gain [75] [Gold] <(modified by game speed)>", "Must be next to [Coast]",
+			"Emblematic District", "Only available <if [The Norsemen] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Seafaring Mastery"
 	},
 
 	//EARLY MODERN
@@ -664,6 +693,16 @@
 			"Emblematic District", "Only available <if [The Dutch] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chartered Companies"
+	},
+	//Haudenosaunee
+	{
+		"name": "Three Sisters Plantation",
+		"specialistSlots": {"Farmer": 1},
+		"food": 2,
+		"uniques": ["[+2 Food] [in this city] <for every [Cities]>",
+			"Emblematic District", "Only available <if [The Haudenosaunee] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Centralised Power"
 	},
 	//Venetian
 	{
@@ -817,6 +856,15 @@
 		"uniques": ["[+1 Production] per [1] population [in this city]"],
 		"requiredTech": "Electricity",
 		"quote": "The Eiffel Tower -- proof of what you can do with a bit of iron, a bit of math, and thousands of liters of paint."
+	},
+	//Austro-Hungarian
+	{
+		"name": "Opernhaus",
+		"culture": 5,
+		"uniques": ["[+1 Happiness] [in this city] <for every [[Opernhaus] Buildings]>",
+			"Emblematic District", "Only available <if [The Austro-Hungarians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Encyclopedia"
 	},
 	//French
 	{
@@ -1082,6 +1130,17 @@
 			"Emblematic District", "Only available <if [The Australians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Continuous Track"
+	},
+	//Brasilians
+	{
+		"name": "Agronomy Lab",
+		"specialistSlots": {"Farmer": 1},
+		"food": 3,
+		"science": 3,
+		"uniques": ["[+1 Food] per [1] population [in this city]",
+			"Emblematic District", "Only available <if [The Brasilians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Mechanised Harvesting"
 	},
 	//Turk
 	{
