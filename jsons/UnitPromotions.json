@@ -710,10 +710,14 @@
         	"uniques": ["[+30]% Strength <when fighting in [Coast] tiles>"]
    	},
 		{
+        	"name": "Stealth",
+        	"uniques": ["Invisible to non-adjacent units"]
+   	},
+		{
         	"name": "Guerilla Fighter",
         	"uniques": ["Invisible to non-adjacent units"]
    	},
-	{
+		{
         	"name": "Anti-Colonialism",
         	"uniques": ["[+25]% Strength <when fighting units from a Civilization with more Cities than you>"]
    	},
