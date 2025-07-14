@@ -3,7 +3,7 @@
          {
         "name": "Respect the Seas' Bounties",
         "type": "Pantheon",
-        "uniques": ["[+2 Food] from every [Coast]", "[+2 Food] from every [Lake]" ]//++ Food on religious building
+        "uniques": ["[+2 Food] from every [Coast]", "[+2 Food] from every [Lakes]" ]//++ Food on religious building
     },
         {
         "name": "Abstain from Intoxicants",
