@@ -384,7 +384,7 @@ BuildingIcons/Pottery Workshop
   index: -1
 BuildingIcons/Printing House
   rotate: false
-  xy: 902, 1380
+  xy: 974, 1092
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -515,6 +515,13 @@ BuildingIcons/The Assyrians
   orig: 149, 113
   offset: 0, 0
   index: -1
+BuildingIcons/The Australians
+  rotate: false
+  xy: 1861, 1582
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 BuildingIcons/The Babylonians
   rotate: false
   xy: 611, 1835
@@ -524,35 +531,91 @@ BuildingIcons/The Babylonians
   index: -1
 BuildingIcons/The Carthaginians
   rotate: false
-  xy: 1861, 1582
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-BuildingIcons/The Franks
-  rotate: false
   xy: 830, 1381
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-BuildingIcons/The Ghanaians
+BuildingIcons/The Dutch
   rotate: false
   xy: 830, 1309
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-BuildingIcons/The Greeks
+BuildingIcons/The Edo
   rotate: false
   xy: 830, 1237
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-BuildingIcons/The Mexica
+BuildingIcons/The Franks
   rotate: false
   xy: 830, 1165
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The French
+  rotate: false
+  xy: 830, 1093
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Germans
+  rotate: false
+  xy: 902, 1376
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Ghanaians
+  rotate: false
+  xy: 902, 1304
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Greeks
+  rotate: false
+  xy: 974, 1376
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Mexica
+  rotate: false
+  xy: 902, 1232
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Mexicans
+  rotate: false
+  xy: 974, 1304
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Miṣriyyūn
+  rotate: false
+  xy: 902, 1160
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Turks
+  rotate: false
+  xy: 974, 1232
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Venetians
+  rotate: false
+  xy: 974, 1160
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -993,7 +1056,7 @@ ResourceIcons/Coal
   index: -1
 ResourceIcons/Copper
   rotate: false
-  xy: 902, 1321
+  xy: 1046, 1389
   size: 53, 51
   orig: 53, 51
   offset: 0, 0
@@ -1077,7 +1140,7 @@ TileSets/HexaRealm/Tiles/Sagarmatha
   index: -1
 TileSets/HexaRealm/Tiles/Yellowstone
   rotate: false
-  xy: 830, 1101
+  xy: 902, 1096
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
