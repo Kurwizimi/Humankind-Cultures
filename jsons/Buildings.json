@@ -1207,6 +1207,14 @@
 		"requiredTech": "Agriculture"
 	},
 	{
+		"name": "The Egyptians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Entering this era as the Egyptians, then? No prizes for guessing how you plan to leave your mark.",
+		"requiredTech": "Agriculture"
+	},
+	{
 		"name": "The Harappans",
 		"cost": 1,
 		"isWonder": true,
@@ -1234,6 +1242,14 @@
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Aksumites] is not constructed>", "Only available <if [The Greeks] is not constructed>"],
 		"quote": "Speaking of dealing in intangibles — am I about to see lots of offers that can't be refused?",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Celts",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Now you're choosing the agrarian Celts? Let's hope they learn their cooking from the French side.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1275,6 +1291,14 @@
 		"quote": "Brute strength and innovation? How about trade, travel, and a lifestyle supported by tolls. I'd say the Ghanaians were on to a good thing.",
 		"requiredTech": "Agriculture"
 	},
+	{
+		"name": "The Norsemen",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Whether trading or raiding, the Norsemen deserve credit for both naval innovation and brute force.",
+		"requiredTech": "Agriculture"
+	},
 
 
 	//Early Modern
@@ -1297,6 +1321,14 @@
 		"requiredTech": "Agriculture"
 	},
 	{
+		"name": "The Haudenosaunee",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "A stable, successful, ecologically pragmatic culture. There is something to be said for matriarchies.",
+		"requiredTech": "Agriculture"
+	},
+	{
 		"name": "The Venetians",
 		"cost": 1,
 		"isWonder": true,
@@ -1308,6 +1340,14 @@
 
 
 	//Industrial
+	{
+		"name": "The Austro-Hungarians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "If other empires won't open their front doors to your artists and thinkers, you can send in your agents the back way...",
+		"requiredTech": "Agriculture"
+	},
 	{
 		"name": "The French",
 		"cost": 1,
@@ -1345,6 +1385,14 @@
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Miṣriyyūn] is not constructed>", "Only available <if [The Turks] is not constructed>"],
 		"quote": "They hold a rather unique place in both geography and anthropology, the Australians. Though I have been told that the correct pronunciation is actually 'Strine'.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Brasilians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "You may be known for your love of life, but you'll likely be feared for what your troops can do in the jungle",
 		"requiredTech": "Agriculture"
 	},
 	{
