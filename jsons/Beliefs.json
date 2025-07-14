@@ -41,7 +41,7 @@
         "uniques": ["New [Land] units start with [15] XP [in all cities]"]
     },
 
-//FOLLEWER - Tier TWO
+//FOLLOWER - Tier TWO
          {
         "name": "Bear Not False Witness",
         "type": "Follower",
@@ -83,7 +83,7 @@
        {
         "name": "Show Not Mercy",
         "type": "Founder",
-        "uniques": ["[+20]% Strength <for [All] units> <within [1] tiles of a [City Center]>"]
+        "uniques": ["[+20]% Strength <for [All] units> <within [1] tiles of a [City center]>"]
     },
         {
         "name": "Mandate Patronage",
@@ -110,17 +110,17 @@
          {
         "name": "Raise Monuments",
         "type": "Enhancer",
-        "uniques": ["[+10 Science] from every [Wonder]", "[+2 Science] from every [Faith]"]
+        "uniques": ["[+8 Science] from every [Wonder]", "[+2 Science] from every [Faith]"]
     },
         {
         "name": "Sustain the Faithful",
         "type": "Enhancer",
-        "uniques": ["[+5 Happiness] from every [Wonder]", "[+1 Happiness] from every [Faith]"]
+        "uniques": ["[+4 Happiness] from every [Wonder]", "[+1 Happiness] from every [Faith]"]
     },
         {
         "name": "Sustain the Faithful",
         "type": "Enhancer",
-        "uniques": ["[+10 Gold] from every [Wonder]", "[+2 Gold] from every [Faith]"]
+        "uniques": ["[+8 Gold] from every [Wonder]", "[+2 Gold] from every [Faith]"]
     },
         {
         "name": "Meditate Often",
