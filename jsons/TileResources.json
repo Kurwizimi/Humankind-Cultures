@@ -332,9 +332,9 @@
             				"Generated with weight [5] <in [Hybrid] Regions>",
             				"Generated near City States with weight [5]",
             				"Doesn't generate naturally <in [Tundra] tiles>",
-            				"Doesn't generate naturally <in [Flood Plains] tiles>",
+            				"Doesn't generate naturally <in [Flood plains] tiles>",
             				"Doesn't generate naturally <in [Desert] tiles>",
-            				"Doesn't generate naturally <in [{Desert} {non-[Flood Plains]} {non-[Hill]}] tiles>",
+            				"Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             				"Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"]
     },
 
