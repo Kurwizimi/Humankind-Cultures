@@ -638,14 +638,14 @@
                         },
                             {
                             "name": "One-Party State",
-                            "uniques": ["[+3 Happiness] [in all cities]", "[-10]% Unhappiness from [Population] [in all cities]","Instantly gain [5] [Authority]",
+                            "uniques": ["[+3 Happiness] [in all cities]", "[-10]% Unhappiness from [Population] [in all cities]","Instantly gain [6] [Authority]",
 					"Only available <after adopting [Republic]>", "Unavailable <after adopting [Democratic Republic]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Democratic Republic",
-                            "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Instantly gain [5] [Liberty]",
+                            "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Instantly gain [6] [Liberty]",
 					"Only available <after adopting [Republic]>", "Unavailable <after adopting [One-Party State]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 5
@@ -889,14 +889,14 @@
                         },
                             {
                             "name": "Nuclear Disarmament",
-                            "uniques": ["[-50]% Production when constructing [Missie] units [in all cities]","Instantly gain [6] [World]",
+                            "uniques": ["[-50]% Production when constructing [Missile] units [in all cities]","Instantly gain [6] [World]",
 					"Unavailable <after adopting [Nuclear Proliferation]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Nuclear Proliferation",
-                            "uniques": ["[+50]% Production when constructing [Missie] units [in all cities]","Instantly gain [6] [Homeland]",
+                            "uniques": ["[+50]% Production when constructing [Missile] units [in all cities]","Instantly gain [6] [Homeland]",
 					"Unavailable <after adopting [Nuclear Disarmament]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 5
