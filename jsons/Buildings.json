@@ -236,6 +236,35 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Carpentry"
 	},
+	//Assyrian
+	{
+		"name": "Cyclopean Fortress",
+		"cityHealth": 20,
+		"happiness": 2,
+		"uniques": ["[Land] Units adjacent to this city heal [10] HP per turn when healing", "Emblematic District", "Only available <if [The Mycenaeans] is constructed>"],//Extra strength for units nearby
+		"hurryCostModifier": 25,
+		"requiredTech": "City Defence"
+	},
+	//Phoenicians
+	{
+		"name": "Haven",
+		"specialistSlots": {"Trader": 1},
+		"uniques": ["[+2 Gold] from [Coast] tiles [in this city]", "[+2 Gold] from [Lakes] tiles [in this city]","Must be next to [Coast]",
+			"Emblematic District", "Only available <if [The Phoenicians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Fishing"
+	},
+	//Zhou
+	{
+		"name": "Confucian School",
+		"specialistSlots": {"Researcher": 1},
+		"science": 5,
+		"culture": 2,
+		"happiness": 1,
+		"uniques": ["Must have an owned [Mountain] within [2] tiles", "Emblematic District", "Only available <if [The Zhou] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
 
 	//CLASSICAL
 	{
