@@ -1282,6 +1282,54 @@
 		"quote": "While the Harappans certainly had markets, they left few remains. Please, show us what they might have done!",
 		"requiredTech": "Agriculture"
 	},
+	{
+		"name": "The Hittites",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "So you want to skip the benefits of the market and move ahead as militarists! Let me grab the popcorn and sit back",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Mycenaeans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Now, we need to find some Trojans for you to either trade with, or vent your wrath on.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Nubians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Your markets will be the birthplace of your famously canny merchants, who will in turn provide the means to equip your famously effective archers",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Omlecs",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "As far as markets go, we know the Olmec traded their marvelously crafted goods of jade, but we know little more… This is your story to write!",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Phoenicians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "How appropriate to start with a market, now that you will be leading the original traveling salesmen.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Zhou",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Perhaps you don't really need to focus on markets when you have deep philosophers... and dangerous chariots.",
+		"requiredTech": "Agriculture"
+	},
 
 
 	//Classical
@@ -1291,8 +1339,7 @@
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Carthaginians] is not constructed>", "Only available <if [The Greeks] is not constructed>"],
-		"quote": "And now, the Aksumites! Good with tangibles and intangibles; as skilled at barter as they are at battle.",
-		"requiredTech": "Agriculture"
+		"quote": "And now, the Aksumites! Good with tangibles and intangibles; as skilled at barter as they are at battle."
 	},
 	{
 		"name": "The Carthaginians",
@@ -1300,16 +1347,14 @@
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Aksumites] is not constructed>", "Only available <if [The Greeks] is not constructed>"],
-		"quote": "Speaking of dealing in intangibles — am I about to see lots of offers that can't be refused?",
-		"requiredTech": "Agriculture"
+		"quote": "Speaking of dealing in intangibles — am I about to see lots of offers that can't be refused?"
 	},
 	{
 		"name": "The Celts",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Now you're choosing the agrarian Celts? Let's hope they learn their cooking from the French side.",
-		"requiredTech": "Agriculture"
+		"quote": "Now you're choosing the agrarian Celts? Let's hope they learn their cooking from the French side."
 	},
 	{
 		"name": "The Greeks",
@@ -1317,8 +1362,7 @@
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Aksumites] is not constructed>", "Only available <if [The Carthaginians] is not constructed>"],
-		"quote": "New ideas lead to new strategies — and I'm sure the Greeks will spend time arguing the merits of them all!",
-		"requiredTech": "Agriculture"
+		"quote": "New ideas lead to new strategies — and I'm sure the Greeks will spend time arguing the merits of them all!"
 	},
 
 
@@ -1329,8 +1373,7 @@
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Franks] is not constructed>", "Only available <if [The Ghanaians] is not constructed>"],
-		"quote": "I'm not thinking of brains or brawn, but of corn, chocolate, and chilies... The Aztecs are a culture that makes my stomach rumble.",
-		"requiredTech": "Agriculture"
+		"quote": "I'm not thinking of brains or brawn, but of corn, chocolate, and chilies... The Aztecs are a culture that makes my stomach rumble."
 	},
 	{
 		"name": "The Franks",
@@ -1338,8 +1381,7 @@
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Mexica] is not constructed>", "Only available <if [The Ghanaians] is not constructed>"],
-		"quote": "They may have had a mighty army… But to be honest, 'King of the Franks' sounds like something you'd eat at a baseball game.",
-		"requiredTech": "Agriculture"
+		"quote": "They may have had a mighty army… But to be honest, 'King of the Franks' sounds like something you'd eat at a baseball game."
 	},
 	{
 		"name": "The Ghanaians",
@@ -1347,16 +1389,14 @@
 		"isWonder": true,
 		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Mexica] is not constructed>", "Only available <if [The Franks] is not constructed>"],
-		"quote": "Brute strength and innovation? How about trade, travel, and a lifestyle supported by tolls. I'd say the Ghanaians were on to a good thing.",
-		"requiredTech": "Agriculture"
+		"quote": "Brute strength and innovation? How about trade, travel, and a lifestyle supported by tolls. I'd say the Ghanaians were on to a good thing."
 	},
 	{
 		"name": "The Norsemen",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Whether trading or raiding, the Norsemen deserve credit for both naval innovation and brute force.",
-		"requiredTech": "Agriculture"
+		"quote": "Whether trading or raiding, the Norsemen deserve credit for both naval innovation and brute force."
 	},
 
 
@@ -1367,8 +1407,7 @@
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Edo] is not constructed>", "Only available <if [The Venetians] is not constructed>"],
-		"quote": "It seems the Dutch have both ships as well as pens and paper. Not to mention their vast quantities of cheese.",
-		"requiredTech": "Agriculture"
+		"quote": "It seems the Dutch have both ships as well as pens and paper. Not to mention their vast quantities of cheese."
 	},
 	{
 		"name": "The Edo",
