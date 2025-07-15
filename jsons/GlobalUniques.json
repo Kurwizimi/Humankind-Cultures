@@ -41,7 +41,7 @@
 
 
 	//Ancient
-	"[+1] Movement <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",							//Assyrians
+	"[+1] Movement <for [Land] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",							//Assyrians
 	"[+100]% Yield from pillaging tiles <for [All] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",
 
 	"[+2 Science] [in all cities] <for [Major] Civilizations> <if [The Babylonians] is constructed>",							//Babylonians
@@ -52,6 +52,24 @@
 	"[+1 Food] from every [Plains] <for [Major] Civilizations> <if [The Harappans] is constructed>",							//Harappans
 	"[+1 Food] from every [River] <for [Major] Civilizations> <if [The Harappans] is constructed>",
 
+	"[+10]% Strength <for [Land] units> <for [Major] Civilizations> <if [The Hittites] is constructed>",							//Hittites
+	"[+10 Food, +10 Gold, +10 Production, +10 Science] [in annexed cities] <for [Major] Civilizations> <if [The Hittites] is constructed>",
+
+	"[+20]% Production when constructing [Land] units [in all cities] <for [Major] Civilizations> <if [The Mycenaeans] is constructed>",			//Mycenaeans
+	"New [Land] units start with [10] XP [in all cities] <for [Major] Civilizations> <if [The Mycenaeans] is constructed>",	
+
+	"[+1 Gold] from every [Luxury resource] <for [Major] Civilizations> <if [The Nubians] is constructed>",							//Nubians
+	"[+1 Gold] from every [Bonus resource] <for [Major] Civilizations> <if [The Nubians] is constructed>",
+
+	"[+3 Culture] [in all cities] <for [Major] Civilizations> <if [The Omlecs] is constructed>",								//Omlecs
+
+	"[+2 Gold] from every [Trader] <for [Major] Civilizations> <if [The Phoenicians] is constructed>",							//Phoenicians
+	"[+1] Movement <for [Water] units> <for [Major] Civilizations> <if [The Phoenicians] is constructed>",
+	"[+10]% Strength <for [Water] units> <for [Major] Civilizations> <if [The Phoenicians] is constructed>",
+
+	"[+2 Happiness] [in all cities] <for [Major] Civilizations> <if [The Zhou] is constructed>",								//Zhou
+
+
 	//Classical
 	"[+1 Gold] from every [improved] <for [Major] Civilizations> <if [The Aksumites] is constructed>",							//Aksumites
 
@@ -59,11 +77,11 @@
 
 	"[+3 Food] from every [Farmer] <for [Major] Civilizations> <if [The Celts] is constructed>",								//Celts	
 		
-	"[+2 Science] from every [Researcher] <for [Major] Civilizations> <if [The Greeks] is constructed>",							//Greeks	
+	"[+2 Science] from every [Researcher] <for [Major] Civilizations> <if [The Greeks] is constructed>",							//Greeks
 
 	//Medieval
 	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Mexica] is constructed>",				//Mexica
-	"[+1] Movement <for [All] units> <for [Major] Civilizations> <if [The Mexica] is constructed>",
+	"[+1] Movement <for [Land] units> <for [Major] Civilizations> <if [The Mexica] is constructed>",
 
 	"[+10]% [Culture] <for [Major] Civilizations> <if [The Franks] is constructed>",									//Franks
 
