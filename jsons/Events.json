@@ -30,7 +30,7 @@
 			{ "text": "The Hittites",
 			  "uniques": [	"Comment [Lust for War: +10% Strength for Land units, +10 [Food], [Gold], [Production] and [Science] in all annexed cities]",
 				  	"Comment [[Gigir] - [Chariot]-like unit: 23 vs. 22 [Strength], [Copper] not required]",
-				  	"Comment [[Canal Network]: +3 [Food], +1 [Food] for each adjacent [Farm] not built on Fresh Water, Cannot be built next to each other, [Plains][Grassland][Desert]]",
+				  	"Comment [[Awari]: +3 [Gold], Enemy units next to this improvement take 5 damege, Cannot be built next to each other, [Hill]]",
 				  "Gain a free [The Hittites] [in capital] <hidden from users>","Only available <if [The Hittites] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Mycenaeans",
@@ -42,13 +42,13 @@
 			{ "text": "The Nubians",
 			  "uniques": [	"Comment [Golden Dreams: +1 [Gold] from every [Luxury] and [Bonus] resource]",
 				  	"Comment [[Ta-Set Archer] - [Archer]-like unit: [19] vs. [17] [Strength], [Exceptional Accuracy]]",
-				  	"Comment [[Canal Network]: +3 [Food], +1 [Food] for each adjacent [Farm] not built on Fresh Water, Cannot be built next to each other, [Plains][Grassland][Desert]]",
+				  	"Comment [[Meroe Pyramids]: +2 [Gold], +2 [Production], +1 [Gold] when adjacent to a Luxury resource, +1 [Production] when adjacent to a Strategic resource, [Plains][Desert]]",
 				  "Gain a free [The Nubians] [in capital] <hidden from users>","Only available <if [The Nubians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Omlecs",
 			  "uniques": [	"Comment [Natural Harmony: +3 [Culture] in all cities]",
 				  	"Comment [[Javelin Thrower] - [Archer]-like unit: [20] vs. [17] [Strength], [Ambush]]",
-				  	"Comment [[Haven]: ]",
+				  	"Comment [[Omlec Head]: +2 [Food], +1 [Culture], +1 [Culture] for each adjacent [Farm], Does not need the removal of [Forest] or [Jungle], Cannot be built next to each other, [Plains][Grassland]]",
 				  "Gain a free [The Omlecs] [in capital] <hidden from users>","Only available <if [The Omlecs] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Phoenicians",
