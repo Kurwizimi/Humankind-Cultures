@@ -277,6 +277,41 @@
 			"Only available <if [The Harappans] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "C"
    	 },
+	//Hittites
+		{
+        	"name": "Awari",
+       	 	"terrainsCanBeBuiltOn": ["Hill"],
+        	"gold": 3,
+        	"turnsToBuild": 7,
+        	"techRequired": "Organised wWrfare",
+        	"uniques": ["Adjacent enemy units ending their turn take [5] damage", "Only available <with [0] to [0] neighboring [Awari] tiles>", "Emblematic District",
+			"Only available <if [The Hittites] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+        	"shortcutKey": "A"
+   	 },
+	//Harappan
+		{
+        	"name": "Meroe Pyramids",
+       	 	"terrainsCanBeBuiltOn": ["Plains","Desert"],
+        	"gold": 2,
+		"production": 2,
+        	"turnsToBuild": 7,
+        	"techRequired": "Irrigation",
+        	"uniques": ["[+1 Gold] <in tiles adjacent to [Luxury] tiles>","[+1 Production] <in tiles adjacent to [Strategic] tiles>", "Emblematic District",
+			"Only available <if [The Nubians] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+        	"shortcutKey": "M"
+   	 },
+	//Harappan
+		{
+        	"name": "Omlec Head",
+       	 	"terrainsCanBeBuiltOn": ["Plains","Grassland","Forest","Jungle"],
+        	"food": 2,
+		"culture": 1,
+        	"turnsToBuild": 7,
+        	"techRequired": "Irrigation",
+        	"uniques": ["[+1 Culture] for each adjacent [{Farm}]", "Only available <with [0] to [0] neighboring [Canal Network] tiles>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Emblematic District",
+			"Only available <if [The Omlec] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+        	"shortcutKey": "O"
+   	 },
 	//Aksumite
 		{
         	"name": "Great Obelisk",
