@@ -204,6 +204,77 @@
 		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Hittites] is constructed>", "Emblematic Unit"],
 		"attackSound": "horse"
 	},
+	//Myceneans
+	{
+		"name": "Promachoi",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 45,
+		"requiredTech": "City Defence",
+		"obsoleteTech": "Standing Army",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <if [The Mycenaeans] is constructed>", "Emblematic Unit"],
+		"promotions": ["Champion"],
+		"attackSound": "nonmetalhit",
+	},
+	//Nubians
+	{
+		"name": "Ta-Seti Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 19,
+		"cost": 90,
+		"requiredTech": "Carpentry",
+		"obsoleteTech": "War Summons",
+		"uniques" : ["Never appears as a Barbarian unit", "Only available <if [The Nubians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Exceptional Accuracy"],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	//Omlec
+	{
+		"name": "Javelin Thrower",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 20,
+		"cost": 90,
+		"requiredTech": "Carpentry",
+		"obsoleteTech": "War Summons",
+		"uniques" : ["Never appears as a Barbarian unit", "Only available <if [The Omlecs] is constructed>", "Emblematic Unit"],
+		"promotions": ["Ambush"],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	//Phoenicians
+	{
+		"name": "Bireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 27,
+		"cost": 75,
+		"requiredTech": "Sailing",
+		"uniques": ["[This Unit] takes [35] damage <upon ending a turn in a [Ocean] tile>"],
+		"upgradesTo": "Quadrireme",
+		"obsoleteTech": "Foreign Outposts",
+		"attackSound": "nonmetalhit"
+	},
+	//Zhou
+	{
+		"name": "Zhànche",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 22,
+		"cost": 180,
+		"requiredTech": "Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Consumes [1] [Copper]", "Consumes [1] [Horses]"],
+		"promotions": ["Mandate of Heaven"],
+		"attackSound": "horse"
+	},
 
 	//CLASSICAL
 	{
