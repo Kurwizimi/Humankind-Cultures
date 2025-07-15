@@ -4,7 +4,7 @@
 		"text": "Ancient Culture Pick",
 		"choices": [
 			{ "text": "The Assyrians",
-			  "uniques": [	"Comment [Raid Masters: [+1] [Movement] for all Units, [+100]% yeilds from pillaging]",
+			  "uniques": [	"Comment [Raid Masters: [+1] [Movement] for all Land units, [+100]% yeilds from pillaging]",
 				  	"Comment [[Assyrian Raider]: [Scout Rider]-like unit, [21] vs. [16] [Strength], [Pillager] - +100% Yeild from pillaging]",
 				 	 "Comment [Dunnu: +5 City Strength, +20 City Health, +3 [Culture]]",
 				  "Gain a free [The Assyrians] [in capital] <hidden from users>","Only available <if [The Assyrians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
@@ -17,7 +17,7 @@
 
 			{ "text": "The Egyptians",
 			  "uniques": [	"Comment [Grand Planners: +10% [Production] towards constructing all buildings in all cities, +1 [Production] from every [Plains]]",
-				  	"Comment [[Markabata]: Ranged Cavalry Unit, 22 [Ranged Strength], 4 [Movement], Can move after attacking, [Horses] required]",
+				  	"Comment [[Markabata]: [Chariot]-like unit: Ranged unit, Can move after attacking]",
 				  	"Comment [[Pyramid]: +3 [Production] +1 [Culture], +1 [Engineer] Slot]",
 				  "Gain a free [The Egyptians] [in capital] <hidden from users>","Only available <if [The Egyptians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
       
@@ -26,6 +26,42 @@
 				  	"Comment [[Runner] - [Scout]-like unit: [3] vs. [2] [Movement], [8] vs. [5] [Strength] ]",
 				  	"Comment [[Canal Network]: +3 [Food], +1 [Food] for each adjacent [Farm] not built on Fresh Water, Cannot be built next to each other, [Plains][Grassland][Desert]]",
 				  "Gain a free [The Harappans] [in capital] <hidden from users>","Only available <if [The Harappans] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Hittites",
+			  "uniques": [	"Comment [Lust for War: +10% Strength for Land units, +10 [Food], [Gold], [Production] and [Science] in all annexed cities]",
+				  	"Comment [[Gigir] - [Chariot]-like unit: 23 vs. 22 [Strength], [Copper] not required]",
+				  	"Comment [[Canal Network]: +3 [Food], +1 [Food] for each adjacent [Farm] not built on Fresh Water, Cannot be built next to each other, [Plains][Grassland][Desert]]",
+				  "Gain a free [The Hittites] [in capital] <hidden from users>","Only available <if [The Hittites] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+			
+			{ "text": "The Mycenaeans",
+			  "uniques": [	"Comment [Brutal Upbringing: +20% [Production] when constructing Land units in all cities, All Land units start with 10 XP]",
+				  	"Comment [[Promachoi] - [Warrior]-like unit: [21] vs. [19] [Strength], [Champion]]",
+				  	"Comment [[Cyclopean Fortress]: +20 City Health, +2 [Happiness], Units adjacent to this city heal 10 HP when healing]",
+				  "Gain a free [The Mycenaeans] [in capital] <hidden from users>","Only available <if [The Mycenaeans] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+			
+			{ "text": "The Nubians",
+			  "uniques": [	"Comment [Golden Dreams: +1 [Gold] from every [Luxury] and [Bonus] resource]",
+				  	"Comment [[Ta-Set Archer] - [Archer]-like unit: [19] vs. [17] [Strength], [Exceptional Accuracy]]",
+				  	"Comment [[Canal Network]: +3 [Food], +1 [Food] for each adjacent [Farm] not built on Fresh Water, Cannot be built next to each other, [Plains][Grassland][Desert]]",
+				  "Gain a free [The Nubians] [in capital] <hidden from users>","Only available <if [The Nubians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Omlecs",
+			  "uniques": [	"Comment [Natural Harmony: +3 [Culture] in all cities]",
+				  	"Comment [[Javelin Thrower] - [Archer]-like unit: [20] vs. [17] [Strength], [Ambush]]",
+				  	"Comment [[Haven]: ]",
+				  "Gain a free [The Omlecs] [in capital] <hidden from users>","Only available <if [The Omlecs] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Phoenicians",
+			  "uniques": [	"Comment [Trading Pioneers: +2 [Gold] from every [Trader], +1 [Movement] for all Water units, +10% [Strength] for all water units]",
+				  	"Comment [[Bireme] - [Pentekonter]-like unit: [75] vs. [90] [Cost], May enter [Ocean] tiles, Takes 35 damage when ending its turn on an [Ocean] tile]",
+				  	"Comment [[Haven]: +2 [Gold] from [Coast] and [Lakes] tiles, +1 [Trader] slot, Must be on [Coast]]",
+				  "Gain a free [The Phoenicians] [in capital] <hidden from users>","Only available <if [The Phoenicians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Zhou",
+			  "uniques": [	"Comment [Harmonious Thought: +2 [Happiness] in all cities]",
+				  	"Comment [[Zhànche] - [Chariot]-like unit: [Mandate of Heaven] ]",
+				  	"Comment [[Confucian School]: +5 [Science], +2 [Culture] , +1 [Happiness], Must have an owned [Mountain] within 2 tiles]",
+				  "Gain a free [The Zhou] [in capital] <hidden from users>","Only available <if [The Zhou] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
       
      			]
  	},
@@ -67,7 +103,7 @@
 		"text": "Medieval Culture Pick",
 		"choices": [
 			{ "text": "The Mexica",
-			  "uniques": [	"Comment [Huitzilopochtli's Glory: [+1] [Movement] for all Units, [+20]% [Production] when constructing All units in all cities ]",
+			  "uniques": [	"Comment [Huitzilopochtli's Glory: [+1] [Movement] for all Land units, [+20]% [Production] when constructing All units in all cities ]",
 				  	"Comment [[Jaguar Warrior]: [Great Swordsman]-like unit, Does not require [Iron], [Fervor] ]",
 				  	"Comment [[Sacrificial Altar]: +5 [Faith], +2 [Culture], +1 [Happiness]]",
 				  "Gain a free [The Mexica] [in capital] <hidden from users>", "Only available <if [The Mexica] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
