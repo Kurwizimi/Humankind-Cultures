@@ -97,6 +97,18 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Chariot",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 22,
+		"cost": 180,
+		"requiredTech": "Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Consumes [1] [Copper]", "Consumes [1] [Horses]"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Battering Ram",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -175,8 +187,22 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Only available <if [The Egyptians] is constructed>", "Emblematic Unit"],
+		"uniques": ["Consumes [1] [Copper]", "Can move after attacking", "Never appears as a Barbarian unit", "Only available <if [The Egyptians] is constructed>", "Emblematic Unit"],
 		"attackSound": "arrow"
+	},
+	//Egyptians
+	{
+		"name": "Gigir",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 23,
+		"cost": 180,
+		"requiredTech": "Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Hittites] is constructed>", "Emblematic Unit"],
+		"attackSound": "horse"
 	},
 
 	//CLASSICAL
