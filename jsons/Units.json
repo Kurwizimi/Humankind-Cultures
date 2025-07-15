@@ -696,7 +696,7 @@
 		"strength": 47,
 		"cost": 1290,
 		"requiredTech": "Guerilla Warfare",
-		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Austro-Hungarians] is constructed>", "Emblematic Unit"],
+		"uniques": ["May enter foreign tiles without open borders", "Never appears as a Barbarian unit",  "Only available <if [The Austro-Hungarians] is constructed>", "Emblematic Unit"],
 		"promotions": ["Ignore terrain costs", "Stealth"],
 		"obsoleteTech": "Amphibious Warfare",
 		"upgradesTo": "Rifles",
@@ -1017,7 +1017,8 @@
 		"movement": 2,
 		"strength": 54,
 		"cost": 3700,
-		"uniques": ["Invisible to non-adjacent units","[+15]% to Flank Attack bonuses", "Only available <if [The Brasilians] is constructed>", "Emblematic Unit"],
+		"uniques": ["Invisible to non-adjacent units","[+15]% to Flank Attack bonuses", "[+10]% Strength <when fighting in [tileFilter] tiles>","[+10]% Strength <when fighting in [tileFilter] tiles>",
+			"Only available <if [The Brasilians] is constructed>", "Emblematic Unit"],
 		"requiredTech": "Covert Ops",
 		"attackSound": "shot"
 	},
