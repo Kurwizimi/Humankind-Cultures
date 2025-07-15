@@ -686,6 +686,25 @@
 		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"],
 	},
 		{
+		"name": "Champion",
+		"uniques": ["[+10]% Strength <when attacking>"],
+	},
+		{
+		"name": "Exceptional Accuracy",
+		"uniques": ["[+1] Range"],
+	},
+		{
+        	"name": "Ambush",
+        	"uniques": ["[+15]% Strength <when fighting in [Forest] tiles>", "[+15]% Strength <when fighting in [Jungle] tiles>"]
+   	},
+		{
+        	"name": "Mandate of Heaven",
+        	"uniques": ["[+5]% Strength <when above [10] [Happiness]>", "[+5]% Strength <when above [20] [Happiness]>", "[+5]% Strength <when above [30] [Happiness]>", "[+5]% Strength <when above [40] [Happiness]>",
+				"[+5]% Strength <when above [50] [Happiness]>", "[+5]% Strength <when above [60] [Happiness]>", "[+5]% Strength <when above [70] [Happiness]>", "[+5]% Strength <when above [80] [Happiness]>",
+				"[+5]% Strength <when above [90] [Happiness]>","[+5]% Strength <when above [100] [Happiness]>"]
+   	},
+	
+		{
 		"name": "Grappler",
 		"uniques": ["[+10]% Strength <when attacking>"],
 	},
