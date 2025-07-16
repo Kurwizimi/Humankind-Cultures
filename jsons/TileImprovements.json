@@ -266,6 +266,9 @@
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 
+
+	
+
 	//Harappan
 		{
         	"name": "Canal Network",
@@ -283,12 +286,12 @@
        	 	"terrainsCanBeBuiltOn": ["Hill"],
         	"gold": 3,
         	"turnsToBuild": 7,
-        	"techRequired": "Organised wWrfare",
+        	"techRequired": "Organised Warfare",
         	"uniques": ["Adjacent enemy units ending their turn take [5] damage", "Only available <with [0] to [0] neighboring [Awari] tiles>", "Emblematic District",
 			"Only available <if [The Hittites] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "A"
    	 },
-	//Harappan
+	//Nubian
 		{
         	"name": "Meroe Pyramids",
        	 	"terrainsCanBeBuiltOn": ["Plains","Desert"],
@@ -300,7 +303,7 @@
 			"Only available <if [The Nubians] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "M"
    	 },
-	//Harappan
+	//Omlec
 		{
         	"name": "Omlec Head",
        	 	"terrainsCanBeBuiltOn": ["Plains","Grassland","Forest","Jungle"],
@@ -312,6 +315,10 @@
 			"Only available <if [The Omlec] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "O"
    	 },
+
+
+
+	
 	//Aksumite
 		{
         	"name": "Great Obelisk",
