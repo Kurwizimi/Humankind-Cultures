@@ -1295,6 +1295,22 @@
 		"requiredTech": "Agriculture"
 	},
 	{
+		"name": "The Bantu",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The Bantu move fast, farm well, and make friends wherever they go. Perhaps the markets can wait.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Caralans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "With the Caralans' talent for construction, you can enjoy both markets and monumental pyramids.",
+		"requiredTech": "Agriculture"
+	},
+	{
 		"name": "The Egyptians",
 		"cost": 1,
 		"isWonder": true,
@@ -1344,11 +1360,27 @@
 		"requiredTech": "Agriculture"
 	},
 	{
+		"name": "The Pama-Nyungan",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Moving on as the Pama-Nyungans? Powerful stories teem across the world's wondrous places.",
+		"requiredTech": "Agriculture"
+	},
+	{
 		"name": "The Phoenicians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "How appropriate to start with a market, now that you will be leading the original traveling salesmen.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Sumerians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Not just markets for the Sumerians, but also the scribes to keep track of their crops. Ah, administration...",
 		"requiredTech": "Agriculture"
 	},
 	{
