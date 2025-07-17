@@ -223,8 +223,23 @@
 		"name": "Astronomy House",
 		"specialistSlots": {"Researcher": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["Emblematic District", "[+1 Science, +1 Food] from every [Researcher] <in this city>", "Emblematic District", "Only available <if [The Babylonians] is constructed>"],
+		"uniques": [ "[+1 Science, +1 Food] from every [Researcher] <in this city>", "Emblematic District", "Only available <if [The Babylonians] is constructed>"],
 		"requiredTech": "Calendar"
+	},
+	//Bantu
+	{
+		"name": "Mupíà Field",
+		"hurryCostModifier": 25,
+		"food": 5,
+		"uniques": ["Emblematic District", "Only available <if [The Bantu] is constructed>"],
+	},
+	//Bantu
+	{
+		"name": "Ceremonial Plaza",
+		"hurryCostModifier": 25,
+		"faith": 2,
+		"happiness": 2,
+		"uniques": ["Emblematic District", "Only available <if [The Caralans] is constructed>"],
 	},
 	//Egyptian
 	{
@@ -253,6 +268,14 @@
 			"Emblematic District", "Only available <if [The Phoenicians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Fishing"
+	},
+	//Sumerian
+	{
+		"name": "Eduba",
+		"science": 3,
+		"uniques": ["[+1 Sciecnce] from [Farm] tiles [in this city]", "Emblematic District", "Only available <if [The Sumerians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
 	},
 	//Zhou
 	{
