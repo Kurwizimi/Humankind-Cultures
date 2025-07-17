@@ -15,6 +15,18 @@
 				  	"Comment [[Astronomy House]: +1 [Science] +1 [Food] from every [Researcher] in this city, +1 [Researcher] Slot]",
 				  "Gain a free [The Babylonians] [in capital] <hidden from users>","Only available <if [The Babylonians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
+			{ "text": "The Bantu",
+			  "uniques": [	"Comment [Harmonious Amalgamation: +10% [Culture] in all cities for 10 turns after founding a city]",
+				  	"Comment [Bagèndí Pioneers]: [Scout]-like unit, 90 vs. 45 cost, May found new cities]",
+				  	"Comment [[Mupíà Field]: +5 [Food]]",
+				  "Gain a free [The Bantu] [in capital] <hidden from users>","Only available <if [The Bantu] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Caralans",
+			  "uniques": [	"Comment [Cooperative Spirit: All buildings provide +1 of their respective yeild (e.g. +1 [Food] on [Food] buildings)]",
+				  	"Comment [[Healer]: [Warrior]-like unit, 16 vs. 19 [Strength], [Plant Lore]]",
+				  	"Comment [[Ceremonial Plaza]: +2 [Faith], +2 [Happiness]]",
+				  "Gain a free [The Caralans] [in capital] <hidden from users>","Only available <if [The Caralans] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+
 			{ "text": "The Egyptians",
 			  "uniques": [	"Comment [Grand Planners: +10% [Production] towards constructing all buildings in all cities, +1 [Production] from every [Plains]]",
 				  	"Comment [[Markabata]: [Chariot]-like unit: Ranged unit, Can move after attacking]",
@@ -51,11 +63,23 @@
 				  	"Comment [[Omlec Head]: +2 [Food], +1 [Culture], +1 [Culture] for each adjacent [Farm], Does not need the removal of [Forest] or [Jungle], Cannot be built next to each other, [Plains][Grassland]]",
 				  "Gain a free [The Omlecs] [in capital] <hidden from users>","Only available <if [The Omlecs] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
+			{ "text": "The Pama-Nyungan",
+			  "uniques": [	"Comment [Storied Lands: +5 [Culture] from every Natural Wonder, +1 [Culture] from evry [Mountain]]",
+				  	"Comment [[Boomerang Thrower] - [Archer]-like unit: [Ignore terrain cost], [Expedition]]",
+				  	"Comment [[Fish Trap]: +2 [Food], +2 [Food] for each adjacent [River], Cannot be built next to each other, [River]]",
+				  "Gain a free [The Pama-Nyungan] [in capital] <hidden from users>","Only available <if [The Pama-Nyungan] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+
 			{ "text": "The Phoenicians",
 			  "uniques": [	"Comment [Trading Pioneers: +2 [Gold] from every [Trader], +1 [Movement] for all Water units, +10% [Strength] for all water units]",
 				  	"Comment [[Bireme] - [Pentekonter]-like unit: [75] vs. [90] [Cost], May enter [Ocean] tiles, Takes 35 damage when ending its turn on an [Ocean] tile]",
 				  	"Comment [[Haven]: +2 [Gold] from [Coast] and [Lakes] tiles, +1 [Trader] slot, Must be on [Coast]]",
 				  "Gain a free [The Phoenicians] [in capital] <hidden from users>","Only available <if [The Phoenicians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Sumerians",
+			  "uniques": [	"Comment [Learned Addition: [Gold] gifts to City States generate +25% more influence, -25% [Culture] cost of natural border growth in capital]",
+				  	"Comment [[Aga-Ush] - [Spearman]-like unit: [Unified Force]]",
+				  	"Comment [[Eduba]: +3 [Science], +1 [Science] from [Farm] tiles]",
+				  "Gain a free [The Sumerians] [in capital] <hidden from users>","Only available <if [The Sumerians] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Zhou",
 			  "uniques": [	"Comment [Harmonious Thought: +2 [Happiness] in all cities]",
