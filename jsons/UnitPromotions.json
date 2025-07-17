@@ -686,6 +686,14 @@
 		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"],
 	},
 		{
+		"name": "Plant Lore",
+		"uniques": ["All adjacent units heal [20] HP when healing"],
+	},
+		{
+		"name": "Expedition",
+		"uniques": ["[+20] HP when healing <in [Foreign Land] tiles>"],
+	},
+		{
 		"name": "Champion",
 		"uniques": ["[+10]% Strength <when attacking>"],
 	},
@@ -696,6 +704,10 @@
 		{
         	"name": "Ambush",
         	"uniques": ["[+15]% Strength <when fighting in [Forest] tiles>", "[+15]% Strength <when fighting in [Jungle] tiles>"]
+   	},
+	{
+        	"name": "Unified Force",
+        	"uniques": ["[+2]% Strength <for every [[Unified Force] Units]>",]
    	},
 		{
         	"name": "Mandate of Heaven",
