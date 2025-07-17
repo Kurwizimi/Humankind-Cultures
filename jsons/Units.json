@@ -164,6 +164,31 @@
 		"promotions": ["Guardian"],
 		"attackSound": "metalhit"
 	},
+	//Bantu
+		{
+		"name": "Bagèndí Pioneers",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 90,
+		"uniques": ["Founds a new city <by consuming this unit>", "Never appears as a Barbarian unit", "Only available <if [The Bantu] is constructed>", "Emblematic Unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	//Caralans
+	{
+		"name": "Healer",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "City Defence",
+		"obsoleteTech": "Heavy Infantry",
+		"upgradesTo": "Great Swordsman",
+		"uniques" : ["Never appears as a Barbarian unit",  "Only available <if [The Caralans] is constructed>", "Emblematic Unit"],
+		"promotions": ["Plant Lore"],
+		"attackSound": "nonmetalhit",
+	},
 	//Harappans
 		{
 		"name": "Runner",
@@ -248,6 +273,21 @@
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
+	//Pama-Nyungan
+	{
+		"name": "Boomerang Thrower",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 17,
+		"cost": 90,
+		"requiredTech": "Carpentry",
+		"obsoleteTech": "War Summons",
+		"uniques" : ["Never appears as a Barbarian unit", "Only available <if [The Pama-Nyungan] is constructed>", "Emblematic Unit"],
+		"promotions": ["Ignore terrain cost", "Expedition"],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
 	//Phoenicians
 	{
 		"name": "Bireme",
@@ -260,6 +300,20 @@
 		"upgradesTo": "Quadrireme",
 		"obsoleteTech": "Foreign Outposts",
 		"attackSound": "nonmetalhit"
+	},
+	//Sumerians
+		{
+		"name": "Aga-Ush",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "War Summons",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can upgrade to [Hoplite] <if [The Greeks] is constructed>"],//Can convert to Persian+Greek UU
+		"promotions": ["Unified Force"],
+		"attackSound": "metalhit"
 	},
 	//Zhou
 	{
