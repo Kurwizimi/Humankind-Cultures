@@ -46,6 +46,15 @@
 
 	"[+2 Science] [in all cities] <for [Major] Civilizations> <if [The Babylonians] is constructed>",							//Babylonians
 
+	"[+10]% [Culture] [in all cities] <upon founding a city> <for [10] turns> <for [Major] Civilizations> <if [The Bantu] is constructed>",			//Bantu
+
+	"[+1 Food] from every [Food] <for [Major] Civilizations> <if [The Caralans] is constructed>",								//Caralans
+	"[+1 Production] from every [Production] <for [Major] Civilizations> <if [The Caralans] is constructed>",
+	"[+1 Gold] from every [Gold] <for [Major] Civilizations> <if [The Caralans] is constructed>",
+	"[+1 Science] from every [Science] <for [Major] Civilizations> <if [The Caralans] is constructed>",
+	"[+1 Faith] from every [Faith] <for [Major] Civilizations> <if [The Caralans] is constructed>",
+	"[+1 Culture] from every [Culture] <for [Major] Civilizations> <if [The Caralans] is constructed>",
+
 	"[+10]% Production when constructing [All] buildings [in all cities] <for [Major] Civilizations> <if [The Egyptians] is constructed>",			//Egyptians
 	"[+1 Production] from every [Plains] <for [Major] Civilizations> <if [The Egyptians] is constructed>",
 		
@@ -63,9 +72,15 @@
 
 	"[+3 Culture] [in all cities] <for [Major] Civilizations> <if [The Omlecs] is constructed>",								//Omlecs
 
+	"[+5 Culture] from every [Natural Wonder] <for [Major] Civilizations> <if [The Pama-Nyungan] is constructed>",						//Pama-Nyungan
+	"[+1 Culture] from every [{non-[Natural Wonder]} {Mountain}] <for [Major] Civilizations> <if [The Pama-Nyungan] is constructed>",		
+
 	"[+2 Gold] from every [Trader] <for [Major] Civilizations> <if [The Phoenicians] is constructed>",							//Phoenicians
 	"[+1] Movement <for [Water] units> <for [Major] Civilizations> <if [The Phoenicians] is constructed>",
 	"[+10]% Strength <for [Water] units> <for [Major] Civilizations> <if [The Phoenicians] is constructed>",
+
+	"Gifts of Gold to City-States generate [+25]% more Influence <for [Major] Civilizations> <if [The Sumerians] is constructed>",				//Sumerians
+	"[-25]% Culture cost of natural border growth [in capital] <for [Major] Civilizations> <if [The Sumerians] is constructed>",
 
 	"[+2 Happiness] [in all cities] <for [Major] Civilizations> <if [The Zhou] is constructed>",								//Zhou
 
