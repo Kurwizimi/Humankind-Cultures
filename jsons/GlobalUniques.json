@@ -85,15 +85,50 @@
 	"[+2 Happiness] [in all cities] <for [Major] Civilizations> <if [The Zhou] is constructed>",								//Zhou
 
 
+		
+
 	//Classical
+	"[-20]% unhappiness from the number of cities <for [Major] Civilizations> <if [The Achaemenids] is constructed>",					//Achaemenids
+	"[+10]% Golden Age length <for [Major] Civilizations> <if [The Achaemenids] is constructed>",	
+		
 	"[+1 Gold] from every [improved] <for [Major] Civilizations> <if [The Aksumites] is constructed>",							//Aksumites
 
 	"[Gold] cost of purchasing [All] buildings [-25]% <for [Major] Civilizations> <if [The Carthaginians] is constructed>",					//Carthaginians
 
 	"[+3 Food] from every [Farmer] <for [Major] Civilizations> <if [The Celts] is constructed>",								//Celts	
+
+	"[+5 Culture] [in all cities] <for [Major] Civilizations> <if [The Garamantes] is constructed>",							//Garamantes	
+	"[+5 Culture] [in all cities] <in [Desert] tiles> <for [Major] Civilizations> <if [The Garamantes] is constructed>",
+
+	"Earn [75]% of killed [Military] unit's [Strength] as [Science] <for [Major] Civilizations> <if [The Goths] is constructed>",				//Goths
+	"[+2 Culture] [in all cities with a garrison] <for [Major] Civilizations> <if [The Goths] is constructed>",
 		
 	"[+2 Science] from every [Researcher] <for [Major] Civilizations> <if [The Greeks] is constructed>",							//Greeks
 
+	"Gifts of Gold to City-States generate [+20]% more Influence <for [Major] Civilizations> <if [The Han] is constructed>",				//Han
+	"Allied City-States provide [Gold] equal to [50]% of what they produce for themselves <for [Major] Civilizations> <if [The Han] is constructed>",
+
+	"[+5 Science] <for every [[Mounted] Units]> <for [Major] Civilizations> <if [The Huns] is constructed>",						//Huns
+	"[+10]% Strength <for [Mounted] units> <for [Major] Civilizations> <if [The Huns] is constructed>",
+	"Cannot build [Settler] units <during the [Classical era]> <for [Major] Civilizations> <if [The Huns] is constructed>",
+
+	"[+1 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Mauryans] is constructed>",						//Mauryans
+	"[-25]% Culture cost of natural border growth [in all cities] <for [Major] Civilizations> <if [The Mauryans] is constructed>",
+
+	"[+2 Production] from every [Engineer] <for [Major] Civilizations> <if [The Maya] is constructed>",							//Maya
+
+	"[+50]% Yield from every [Natural Wonder] <for [Major] Civilizations> <if [The Nazca] is constructed>",							//Nazca
+
+	"Enables [All] units to enter ocean tiles <starting from the [Classical era]> <for [Major] Civilizations> <if [The Polynesians] is constructed>",	//Polynesia
+	"[-1] Movement <for [Embarked] units> <before the [Early Modern era]> <for [Major] Civilizations> <if [The Polynesians] is constructed>",
+
+	"[+50]% XP gained from combat <for [Major] Civilizations> <if [The Romans] is constructed>",								//Romans
+	"[-25]% maintenance costs <for [Land] units> <for [Major] Civilizations> <if [The Romans] is constructed>",	
+        
+
+
+
+		
 	//Medieval
 	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Mexica] is constructed>",				//Mexica
 	"[+1] Movement <for [Land] units> <for [Major] Civilizations> <if [The Mexica] is constructed>",
