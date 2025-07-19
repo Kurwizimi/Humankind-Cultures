@@ -1418,6 +1418,13 @@
 
 	//Classical
 	{
+		"name": "The Achaemenids",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "As far as ideas go, you'll need to get comfortable with the idea that the troops are not actually immortal!"
+	},
+	{
 		"name": "The Aksumites",
 		"cost": 1,
 		"isWonder": true,
@@ -1441,12 +1448,68 @@
 		"quote": "Now you're choosing the agrarian Celts? Let's hope they learn their cooking from the French side."
 	},
 	{
+		"name": "The Garamantes",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "If it's ideas you're interested in, the Garamantes are doing marvelous things with irrigation."
+	},
+	{
+		"name": "The Goths",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "It's not really a question of intangibles with the Goths; there were a lot of tribes and a lot of travel."
+	},
+	{
 		"name": "The Greeks",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Aksumites] is not constructed>", "Only available <if [The Carthaginians] is not constructed>"],
 		"quote": "New ideas lead to new strategies — and I'm sure the Greeks will spend time arguing the merits of them all!"
+	},
+	{
+		"name": "The Han",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Where intangibles meet the practical, the Han really excelled. Like the fine art of diplomacy... and crossbow production."
+	},
+	{
+		"name": "The Huns",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "And here come the Hunnic hordes, who are going to turn other empire's property rights into intangibles..."
+	},
+	{
+		"name": "The Mauryans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Looking for ideas? How about science and elephants! I'd say the Mauryans had a couple of good ones there."
+	},
+	{
+		"name": "The Maya",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The Mayans had excellent ideas for construction and calendars, though they were a bit weak on arches."
+	},
+	{
+		"name": "The Polynesians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "New ideas, new resources, new territories—the Polynesians really did get a lot out of sailing."
+	},
+	{
+		"name": "The Romans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Though the Romans did indeed appreciate intangibles, I might be tempted to say that their most famous creation was their legions — which were very tangible indeed."
 	},
 
 
@@ -1643,7 +1706,7 @@
 		"name": "Aristocracy",
 		"hurryCostModifier": 12345,
 		"cost": 1,
-		"uniques": ["Unavailable <before discovering [Future Tech]>", "Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased","Moves to new capital when capital changes"],
+		"uniques": ["Unavailable", "Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased","Moves to new capital when capital changes"],
 	},
 
 ]
