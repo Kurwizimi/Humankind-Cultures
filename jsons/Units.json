@@ -339,7 +339,7 @@
 		"cost": 90,
 		"requiredResource": "Iron",
 		"requiredTech": "Standing Army",
-		"upgradesTo": "Great Swordsman", //Can convert to Roman UU
+		"upgradesTo": "Great Swordsman",
 		"obsoleteTech": "Heavy Infantry",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -384,6 +384,21 @@
 		"obsoleteTech": "Seafaring Mastery",
 		"attackSound": "nonmetalhit"
 	},
+	//Achaemenid
+	{
+		"name": "Immortal",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 28,
+		"cost": 180,
+		"requiredResource": "Copper",
+		"requiredTech": "Standing Army",
+		"obsoleteTech": "War Summons",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "Only available <if [The Achaemenids] is constructed>", "Emblematic Unit"],
+		"promotions": ["Bastion"],
+		"attackSound": "metalhit"
+	},
 	//Aksumite
 	{
 		"name": "Shotelai",
@@ -393,7 +408,7 @@
 		"cost": 90,
 		"requiredResource": "Iron",
 		"requiredTech": "Standing Army",
-		"upgradesTo": "Great Swordsman", //Can convert to Roman UU
+		"upgradesTo": "Great Swordsman",
 		"obsoleteTech": "Heavy Infantry",
 		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Aksumites] is constructed>", "Emblematic Unit"],
 		"promotions": ["Grappler"],
@@ -430,6 +445,39 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
+	//Garamantes
+	{
+		"name": "Javelin Rider",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 26,
+		"rangedStrength": 27,
+		"range": 2,
+		"cost": 90,
+		"requiredTech": "Mounted Warfare",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",  "Never appears as a Barbarian unit", "Only available <if [The Garamantes] is constructed>", "Emblematic Unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	//Goth
+	{
+		"name": "Gothic Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 29,
+		"cost": 90,
+		"requiredTech": "Mounted Warfare",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <if [The Goths] is constructed>", "Emblematic Unit"],
+		"promotions": ["Ransacker"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
 	//Greek
 	{
 		"name": "Hoplite",
@@ -438,9 +486,119 @@
 		"strength": 26,
 		"cost": 90,
 		"requiredTech": "Standing Army",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "Only available <if [The Greeks] is constructed>", "Emblematic Unit"], //Can convert to Roman UU
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "Only available <if [The Greeks] is constructed>", "Emblematic Unit"],
 		"promotions": ["Phalanx"],
 		"upgradesTo": "Great Swordsman", 
+		"obsoleteTech": "Heavy Infantry",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	//Han
+	{
+		"name": "Lián nŭ bīng",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 26,
+		"rangedStrength": 27,
+		"cost": 180,
+		"requiredTech": "Craftsmanship",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Han] is constructed>", "Emblematic Unit"],7
+		"promotions": ["Repeating Volley"],
+		"obsoleteTech": "War Summons",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	//Hun
+	{
+		"name": "Hunnic Horde",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 2,
+		"cost": 180,
+		"requiredTech": "Mounted Warfare",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Founds a new city <once>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <if [The Huns] is constructed>", "Emblematic Unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	//Mauryan
+	{
+		"name": "Saṃnāhya",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 2,
+		"cost": 360,
+		"requiredTech": "Mounted Warfare",
+		"requiredResource": "Copper",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>", "No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Mauryans] is constructed>", "Emblematic Unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "elephant"
+	},
+	//Maya
+	{
+		"name": "Noble Javelineer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 26,
+		"range": 2,
+		"cost": 90,
+		"requiredTech": "Standing Army",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Maya] is constructed>", "Emblematic Unit"],
+		"promotions": ["Poison"],
+		"obsoleteTech": "War Summons",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	//Nazca
+	{
+		"name": "Headhunter",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 26,
+		"cost": 180,
+		"requiredResource": "Iron",
+		"requiredTech": "Standing Army",
+		"upgradesTo": "Great Swordsman",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Nazca] is constructed>", "Emblematic Unit"],
+		"promotions": ["Shared Ardor"],
+		"obsoleteTech": "Heavy Infantry",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	//Polynesia
+	{
+		"name": "Faulua",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 36,
+		"cost": 180,
+		"requiredTech": "Trade Expeditions",
+		"uniques": ["[This Unit] takes [20] damage <upon ending a turn in a [Ocean] tile>",  "Only available <if [The Polynesians] is constructed>", "Emblematic Unit"],
+		"upgradesTo": "Carrack",
+		"obsoleteTech": "naval Artillery",
+		"attackSound": "nonmetalhit"
+	},
+	//Romans
+	{
+		"name": "Praetorian Guard",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 29,
+		"cost": 180,
+		"requiredResource": "Iron",
+		"requiredTech": "Standing Army",
+		"upgradesTo": "Great Swordsman",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Romans] is constructed>", "Emblematic Unit"],
+		"promotions": ["Tactical Superiority"],
 		"obsoleteTech": "Heavy Infantry",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
