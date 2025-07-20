@@ -677,6 +677,7 @@
 
 	//Unique Promotions
 
+	//Ancient
 		{
 		"name": "Pillager",
 		"uniques": ["[+100]% Yield from pillaging tiles"],
@@ -707,13 +708,19 @@
    	},
 	{
         	"name": "Unified Force",
-        	"uniques": ["[+2]% Strength <for every [[Unified Force] Units]>",]
+        	"uniques": ["[+2]% Strength <for every [[Unified Force] Units]>"]
    	},
 		{
         	"name": "Mandate of Heaven",
         	"uniques": ["[+5]% Strength <when above [10] [Happiness]>", "[+5]% Strength <when above [20] [Happiness]>", "[+5]% Strength <when above [30] [Happiness]>", "[+5]% Strength <when above [40] [Happiness]>",
 				"[+5]% Strength <when above [50] [Happiness]>", "[+5]% Strength <when above [60] [Happiness]>", "[+5]% Strength <when above [70] [Happiness]>", "[+5]% Strength <when above [80] [Happiness]>",
 				"[+5]% Strength <when above [90] [Happiness]>","[+5]% Strength <when above [100] [Happiness]>"]
+   	},
+
+	//Classical
+		{
+        	"name": "Basition",
+        	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[+15]% Strength <when fighting in [Fort] tiles>", "[+15]% Strength <when fighting in [Citadel] tiles>", "[+15]% Strength <when fighting in [City center] tiles>"]
    	},
 	
 		{
@@ -724,10 +731,33 @@
 		"name": "Trample",
 		"uniques": ["[+10]% Strength <vs [Wounded] units>"],
 	},
+	{
+        	"name": "Ransacker",
+        	"uniques": ["[+15]% Strength <when fighting in [pillaged] tiles>"]
+   	},
 	 	{
         	"name": "Phalanx",
         	"uniques": ["[+10]% Strength <when adjacent to a [Hoplite] unit>"]
    	},
+		{
+		"name": "Repeating Volley",
+		"uniques": ["[1] additional attacks per turn", "Can move after attacking"]
+	},
+		{
+		"name": "Poison",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"]
+	},
+		{
+		"name": "Shared Ardor",
+		"uniques": [ "[+15]% Strength bonus for [Military] units within [1] tiles"]
+	},
+		{
+		"name": "Tactical Superiority",
+		"uniques": [ "[+75]% to Flank Attack bonuses"]
+	},
+
+
+	
 		{
         	"name": "Fervor",
         	"uniques": ["No damage penalty for wounded units"]
