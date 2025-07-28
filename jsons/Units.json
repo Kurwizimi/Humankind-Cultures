@@ -520,7 +520,7 @@
 		"rangedStrength": 27,
 		"cost": 180,
 		"requiredTech": "Craftsmanship",
-		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Han] is constructed>", "Emblematic Unit"],7
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Han] is constructed>", "Emblematic Unit"],
 		"promotions": ["Repeating Volley"],
 		"obsoleteTech": "War Summons",
 		"upgradesTo": "Crossbowman",
@@ -602,7 +602,7 @@
 		"requiredTech": "Trade Expeditions",
 		"uniques": ["[This Unit] takes [20] damage <upon ending a turn in a [Ocean] tile>",  "Only available <if [The Polynesians] is constructed>", "Emblematic Unit"],
 		"upgradesTo": "Carrack",
-		"obsoleteTech": "naval Artillery",
+		"obsoleteTech": "Naval Artillery",
 		"attackSound": "nonmetalhit"
 	},
 	//Romans
