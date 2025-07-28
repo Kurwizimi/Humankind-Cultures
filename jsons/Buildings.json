@@ -273,7 +273,7 @@
 	{
 		"name": "Eduba",
 		"science": 3,
-		"uniques": ["[+1 Sciecnce] from [Farm] tiles [in this city]", "Emblematic District", "Only available <if [The Sumerians] is constructed>"],
+		"uniques": ["[+1 Science] from [Farm] tiles [in this city]", "Emblematic District", "Only available <if [The Sumerians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
 	},
