@@ -201,6 +201,24 @@
 				  	"Comment [[Sacrificial Altar]: +5 [Faith], +2 [Culture], +1 [Happiness]]",
 				  "Gain a free [The Mexica] [in capital] <hidden from users>", "Only available <if [The Mexica] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
+			{ "text": "The Bulgarians",
+			  "uniques": [	"Comment [Victors' Honour: +1 [Culture], +1 [Gold] per 2 population for 10 turns after conquering a city]",
+				  	"Comment [[Jaguar Warrior]: [Great Swordsman]-like unit, Does not require [Iron], [Fervor] ]",
+				  	"Comment [[Sacrificial Altar]: +5 [Faith], +2 [Culture], +1 [Happiness]]",
+				  "Gain a free [The Bulgarians] [in capital] <hidden from users>", "Only available <if [The Bulgarians] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Byzantines",
+			  "uniques": [	"Comment [Masters of Whispers: +35% [Gold] for 10 turns after declaring friendship]",
+				  	"Comment [[Jaguar Warrior]: [Great Swordsman]-like unit, Does not require [Iron], [Fervor] ]",
+				  	"Comment [[Sacrificial Altar]: +5 [Faith], +2 [Culture], +1 [Happiness]]",
+				  "Gain a free [The Byzantines] [in capital] <hidden from users>", "Only available <if [The Byzantines] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The English",
+			  "uniques": [	"Comment [Serfs' Labour: +1 [Food] from Bonus resources, +5 [Food] in all cities]",
+				  	"Comment [[Jaguar Warrior]: [Great Swordsman]-like unit, Does not require [Iron], [Fervor] ]",
+				  	"Comment [[Sacrificial Altar]: +5 [Faith], +2 [Culture], +1 [Happiness]]",
+				  "Gain a free [The English] [in capital] <hidden from users>", "Only available <if [The English] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
 			{ "text": "The Franks",
 			  "uniques": [	"Comment [Crown Lands: +10% [Culture]]",
 				  	"Comment [[Franci Milites]: [Knight]-like unit, 39 vs. 36 [Strength], [Trample]]",
@@ -213,14 +231,71 @@
 				  	"Comment [[Luxuries Market]: +5 [Gold], +1 [Gold] from every Trade Route]",
 				  "Gain a free [The Ghanaians] [in capital] <hidden from users>" ,"Only available <if [The Ghanaians] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
+			{ "text": "The Khmer",
+			  "uniques": [	"Comment [Servants of Magnificence: +2 [Production] from every [Production] building]",
+				  	"Comment [[Meharists]: [Knight]-like unit, Does not require [Horses], [Anti-Cavalry]]",
+				  	"Comment [[Luxuries Market]: +5 [Gold], +1 [Gold] from every Trade Route]",
+				  "Gain a free [The Khmer] [in capital] <hidden from users>" ,"Only available <if [The Khmer] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Mississippians",
+			  "uniques": [	"Comment [Flowing Waters: +50% Yeild to all improved tiles next to a [River]]",
+				  	"Comment [[Meharists]: [Knight]-like unit, Does not require [Horses], [Anti-Cavalry]]",
+				  	"Comment [[Luxuries Market]: +5 [Gold], +1 [Gold] from every Trade Route]",
+				  "Gain a free [The Mississippians] [in capital] <hidden from users>" ,"Only available <if [The Mississippians] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Mongols",
+			  "uniques": [	"Comment [Mounted Mayhem: +100% Yeild from pillaging tiles, +100% resources gifted by City-States, Cannot build [Settler] units this era]",
+				  	"Comment [[Meharists]: [Knight]-like unit, Does not require [Horses], [Anti-Cavalry]]",
+				  	"Comment [[Luxuries Market]: +5 [Gold], +1 [Gold] from every Trade Route]",
+				  "Gain a free [The Mongols] [in capital] <hidden from users>" ,"Only available <if [The Mongols] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
 			{ "text": "The Norsemen",
 			  "uniques": [	"Comment [Stormborn: +2 [Movement] for all Water units, +10% Strength for all [Water] units]",
 				  	"Comment [[Langskip]: [Cog]-like unit, Can move after attacking, Takes no damage on [Ocean] tiles]",
 				  	"Comment [[Luxuries Market]: +5 [Food], Gain 75 [Gold] when fully constructed, +1 [Farmer] slot, Must be next to [Coast]]",
 				  "Gain a free [The Norsemen] [in capital] <hidden from users>" ,"Only available <if [The Norsemen] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Rapa Nui",
+			  "uniques": [	"Comment [Makemake's Eye: +1 [Production] from evry [Coast], Gain a free [Makamake's Blessing] in all cities upon entering a new era",
+				  	"Comment [[Langskip]: [Cog]-like unit, Can move after attacking, Takes no damage on [Ocean] tiles]",
+				  	"Comment [[Luxuries Market]: +5 [Food], Gain 75 [Gold] when fully constructed, +1 [Farmer] slot, Must be next to [Coast]]",
+				  "Gain a free [The Rapa Nui] [in capital] <hidden from users>" ,"Only available <if [The Rapa Nui] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Swahili",
+			  "uniques": [	"Comment [Coastal Haven: +2 [Happiness], +4 [Gold] in all cities that are on the [Coast], /n+2 [Happiness], +4 [Gold] in all cities connected to the Capital /n,+2 [Happiness], +4 [Gold] in all cities following our religion]",
+				  	"Comment [[Langskip]: [Cog]-like unit, Can move after attacking, Takes no damage on [Ocean] tiles]",
+				  	"Comment [[Luxuries Market]: +5 [Food], Gain 75 [Gold] when fully constructed, +1 [Farmer] slot, Must be next to [Coast]]",
+				  "Gain a free [The Swahili] [in capital] <hidden from users>" ,"Only available <if [The Swahili] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Taino",
+			  "uniques": [	"Comment [Zemis Worship: +1 [Food] from every [Coast], +2 [Food] from every city next to [Coast]",
+				  	"Comment [[Langskip]: [Cog]-like unit, Can move after attacking, Takes no damage on [Ocean] tiles]",
+				  	"Comment [[Luxuries Market]: +5 [Food], Gain 75 [Gold] when fully constructed, +1 [Farmer] slot, Must be next to [Coast]]",
+				  "Gain a free [The Taino] [in capital] <hidden from users>" ,"Only available <if [The Taino] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Teutons",
+			  "uniques": [	"Comment [Spurred by Faith: May choose 1 additional belief when enhancing a religion, When spreading religion to a city, gain [5] times the amount of followers of other religions as [Gold]",
+				  	"Comment [[Langskip]: [Cog]-like unit, Can move after attacking, Takes no damage on [Ocean] tiles]",
+				  	"Comment [[Luxuries Market]: +5 [Food], Gain 75 [Gold] when fully constructed, +1 [Farmer] slot, Must be next to [Coast]]",
+				  "Gain a free [The Teutons] [in capital] <hidden from users>" ,"Only available <if [The Teutons] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Umayyads",
+			  "uniques": [	"Comment [Learned Friends: +5% [Science] in the Capital for every 2 owned cities",
+				  	"Comment [[Langskip]: [Cog]-like unit, Can move after attacking, Takes no damage on [Ocean] tiles]",
+				  	"Comment [[Luxuries Market]: +5 [Food], Gain 75 [Gold] when fully constructed, +1 [Farmer] slot, Must be next to [Coast]]",
+				  "Gain a free [The Umayyads] [in capital] <hidden from users>" ,"Only available <if [The Umayyads] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
       
      			]
   	},
+
+
+
+
+
+
+
+
+	
 
 		{
 		"name": "Early Modern",
