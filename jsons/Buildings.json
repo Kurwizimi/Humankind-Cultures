@@ -232,6 +232,7 @@
 		"hurryCostModifier": 25,
 		"food": 5,
 		"uniques": ["Emblematic District", "Only available <if [The Bantu] is constructed>"],
+		"requiredTech": "Irrigation"
 	},
 	//Bantu
 	{
@@ -240,6 +241,7 @@
 		"faith": 2,
 		"happiness": 2,
 		"uniques": ["Emblematic District", "Only available <if [The Caralans] is constructed>"],
+		"requiredTech": "Carpentry"
 	},
 	//Egyptian
 	{
