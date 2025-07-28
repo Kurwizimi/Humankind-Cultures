@@ -318,11 +318,11 @@
 	//Omlec
 		{
         	"name": "Fish Trap",
-       	 	"terrainsCanBeBuiltOn": ["River"],
+       	 	"terrainsCanBeBuiltOn": ["Plains", "Desert", "Grassland", "Tundra"],
         	"food": 2,
         	"turnsToBuild": 7,
         	"techRequired": "Fishing",
-        	"uniques": ["[+2 Food] for each adjacent [River]", "Only available <with [0] to [0] neighboring [Fish Trap] tiles>", "Emblematic District",
+        	"uniques": ["[+2 Food] for each adjacent [River]", "Must be next to [tileFilter]", "Only available <with [0] to [0] neighboring [Fish Trap] tiles>", "Emblematic District",
 			"Only available <if [The Pama-Nyungan] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "F"
    	 },
