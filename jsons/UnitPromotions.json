@@ -719,10 +719,9 @@
 
 	//Classical
 		{
-        	"name": "Basition",
+        	"name": "Bastion",
         	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[+15]% Strength <when fighting in [Fort] tiles>", "[+15]% Strength <when fighting in [Citadel] tiles>", "[+15]% Strength <when fighting in [City center] tiles>"]
    	},
-	
 		{
 		"name": "Grappler",
 		"uniques": ["[+10]% Strength <when attacking>"],
