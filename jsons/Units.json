@@ -145,7 +145,9 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <if [The Assyrians] is constructed>", "Emblematic Unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <if [The Assyrians] is constructed>", "Emblematic Unit",
+			"Can upgrade to [War Elephant] <if [The Carthaginians] is constructed>", "Can upgrade to [Javelin Rider] <if [The Garamantes] is constructed>", "Can upgrade to [Gothic Cavalry] <if [The Goths] is constructed>",
+			 "Can upgrade to [Hunnic Horde] <if [The Huns] is constructed>", "Can upgrade to [Saṃnāhya] <if [The Mauryans] is constructed>"],
 		"promotions": ["Pillager"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -160,7 +162,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "War Summons",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "Only available <if [The Babylonians] is constructed>", "Emblematic Unit", "Can upgrade to [Hoplite] <if [The Greeks] is constructed>"],//Can convert to Persian+Greek UU
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "Only available <if [The Babylonians] is constructed>", "Emblematic Unit",
+			"Can upgrade to [Immortal] <if [The Achaemenids] is constructed>", "Can upgrade to [Hoplite] <if [The Greeks] is constructed>"],
 		"promotions": ["Guardian"],
 		"attackSound": "metalhit"
 	},
@@ -185,7 +188,9 @@
 		"requiredTech": "City Defence",
 		"obsoleteTech": "Heavy Infantry",
 		"upgradesTo": "Great Swordsman",
-		"uniques" : ["Never appears as a Barbarian unit",  "Only available <if [The Caralans] is constructed>", "Emblematic Unit"],
+		"uniques" : ["Never appears as a Barbarian unit",  "Only available <if [The Caralans] is constructed>", "Emblematic Unit",
+			"Can upgrade to [Shotelai] <if [The Aksumites] is constructed>", "Can upgrade to [Gaesati] <if [The Celts] is constructed>", "Can upgrade to [Headhunter] <if [The Nazca] is constructed>"
+			, "Can upgrade to [Praetorian Guard] <if [The Romans] is constructed>"],
 		"promotions": ["Plant Lore"],
 		"attackSound": "nonmetalhit",
 	},
@@ -212,10 +217,12 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Copper]", "Can move after attacking", "Never appears as a Barbarian unit", "Only available <if [The Egyptians] is constructed>", "Emblematic Unit"],
+		"uniques": ["Consumes [1] [Copper]", "Can move after attacking", "Never appears as a Barbarian unit", "Only available <if [The Egyptians] is constructed>", "Emblematic Unit",
+			"Can upgrade to [War Elephant] <if [The Carthaginians] is constructed>", "Can upgrade to [Javelin Rider] <if [The Garamantes] is constructed>", "Can upgrade to [Gothic Cavalry] <if [The Goths] is constructed>",
+			 "Can upgrade to [Hunnic Horde] <if [The Huns] is constructed>", "Can upgrade to [Saṃnāhya] <if [The Mauryans] is constructed>"],
 		"attackSound": "arrow"
 	},
-	//Egyptians
+	//Hittites
 	{
 		"name": "Gigir",
 		"unitType": "Archery",
@@ -226,7 +233,9 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Hittites] is constructed>", "Emblematic Unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Hittites] is constructed>", "Emblematic Unit",
+			"Can upgrade to [War Elephant] <if [The Carthaginians] is constructed>", "Can upgrade to [Javelin Rider] <if [The Garamantes] is constructed>", "Can upgrade to [Gothic Cavalry] <if [The Goths] is constructed>",
+			 "Can upgrade to [Hunnic Horde] <if [The Huns] is constructed>", "Can upgrade to [Saṃnāhya] <if [The Mauryans] is constructed>"],
 		"attackSound": "horse"
 	},
 	//Myceneans
@@ -239,7 +248,9 @@
 		"requiredTech": "City Defence",
 		"obsoleteTech": "Standing Army",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <if [The Mycenaeans] is constructed>", "Emblematic Unit"],
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <if [The Mycenaeans] is constructed>", "Emblematic Unit"
+			,"Can upgrade to [Shotelai] <if [The Aksumites] is constructed>", "Can upgrade to [Gaesati] <if [The Celts] is constructed>", "Can upgrade to [Headhunter] <if [The Nazca] is constructed>"
+			, "Can upgrade to [Praetorian Guard] <if [The Romans] is constructed>"],
 		"promotions": ["Champion"],
 		"attackSound": "nonmetalhit",
 	},
@@ -253,7 +264,8 @@
 		"cost": 90,
 		"requiredTech": "Carpentry",
 		"obsoleteTech": "War Summons",
-		"uniques" : ["Never appears as a Barbarian unit", "Only available <if [The Nubians] is constructed>", "Emblematic Unit"],
+		"uniques" : ["Never appears as a Barbarian unit", "Only available <if [The Nubians] is constructed>", "Emblematic Unit",
+			"Can upgrade to [Lián nŭ bīng] <if [The Han] is constructed>","Can upgrade to [Noble Javelineer] <if [The Maya] is constructed>"],
 		"promotions": ["Exceptional Accuracy"],
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -268,7 +280,8 @@
 		"cost": 90,
 		"requiredTech": "Carpentry",
 		"obsoleteTech": "War Summons",
-		"uniques" : ["Never appears as a Barbarian unit", "Only available <if [The Omlecs] is constructed>", "Emblematic Unit"],
+		"uniques" : ["Never appears as a Barbarian unit", "Only available <if [The Omlecs] is constructed>", "Emblematic Unit",
+			"Can upgrade to [Lián nŭ bīng] <if [The Han] is constructed>","Can upgrade to [Noble Javelineer] <if [The Maya] is constructed>"],
 		"promotions": ["Ambush"],
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -283,7 +296,8 @@
 		"cost": 90,
 		"requiredTech": "Carpentry",
 		"obsoleteTech": "War Summons",
-		"uniques" : ["Never appears as a Barbarian unit", "Only available <if [The Pama-Nyungan] is constructed>", "Emblematic Unit"],
+		"uniques" : ["Never appears as a Barbarian unit", "Only available <if [The Pama-Nyungan] is constructed>", "Emblematic Unit",
+			 "Can upgrade to [Lián nŭ bīng] <if [The Han] is constructed>","Can upgrade to [Noble Javelineer] <if [The Maya] is constructed>"],
 		"promotions": ["Ignore terrain cost", "Expedition"],
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -296,7 +310,8 @@
 		"strength": 27,
 		"cost": 75,
 		"requiredTech": "Sailing",
-		"uniques": ["[This Unit] takes [35] damage <upon ending a turn in a [Ocean] tile>"],
+		"uniques": ["[This Unit] takes [35] damage <upon ending a turn in a [Ocean] tile>",  "Only available <if [The Phoenicians] is constructed>", "Emblematic Unit",
+			 "Can upgrade to [Faulua] <if [The Polynesians] is constructed>"],
 		"upgradesTo": "Quadrireme",
 		"obsoleteTech": "Foreign Outposts",
 		"attackSound": "nonmetalhit"
@@ -311,7 +326,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "War Summons",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can upgrade to [Hoplite] <if [The Greeks] is constructed>"],//Can convert to Persian+Greek UU
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Only available <if [The Sumerians] is constructed>", "Emblematic Unit",
+			"Can upgrade to [Immortal] <if [The Achaemenids] is constructed>", "Can upgrade to [Hoplite] <if [The Greeks] is constructed>"],
 		"promotions": ["Unified Force"],
 		"attackSound": "metalhit"
 	},
@@ -325,7 +341,9 @@
 		"requiredTech": "Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Copper]", "Consumes [1] [Horses]"],
+		"uniques": ["Consumes [1] [Copper]", "Consumes [1] [Horses]",  "Only available <if [The Zhou] is constructed>", "Emblematic Unit", 
+			 "Can upgrade to [War Elephant] <if [The Carthaginians] is constructed>", "Can upgrade to [Javelin Rider] <if [The Garamantes] is constructed>", "Can upgrade to [Gothic Cavalry] <if [The Goths] is constructed>",
+			 "Can upgrade to [Hunnic Horde] <if [The Huns] is constructed>", "Can upgrade to [Saṃnāhya] <if [The Mauryans] is constructed>"],
 		"promotions": ["Mandate of Heaven"],
 		"attackSound": "horse"
 	},
