@@ -641,6 +641,34 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Theology"
 	},
+	//Bulgarian
+	{
+		"name": "Knyaz Library",
+		"faith": 3,
+		"science": 3,
+		"percentStatBonus": {"culture": 5},
+		"uniques": ["Emblematic District", "Only available <if [The Bulgarians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Alchemy"
+	},
+	//Byzantine
+	{
+		"name": "Hippódromos",
+		"gold": 4,
+		"specialistSlots": {"Trader": 1},
+		"uniques": ["[+2 Gold] from [Horses] tiles [in this city]", "Emblematic District", "Only available <if [The Byzantines] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chivalry"
+	},
+	//English
+	{
+		"name": "Stronghold",
+		"cityStrength": 12,
+		"cityHealth": 20,
+		"hurryCostModifier": 25,
+		"requiredTech": "Military Architecture",
+		"uniques": ["Removes extra unhappiness from annexed cities", "Emblematic District", "Only available <if [The English] is constructed>"]
+	},
 	//Franks
 	{
 		"name": "Scriptorium",
@@ -661,6 +689,15 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Guilds"
 	},
+	//Mississippian
+	{
+		"name": "Sacred Mound",
+		"faith": 3,
+		"production": 3,
+		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]", "Emblematic District", "Only available <if [The Mississipians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Feudalism"
+	},
 	//Norseman
 	{
 		"name": "Naust",
@@ -671,6 +708,34 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Seafaring Mastery"
 	},
+	//Swahili
+	{
+		"name": "Bandari",
+		"uniques": ["[+2 Gold] from [resource] tiles [in all cities]", "Must be next to [Coast]",
+			"Emblematic District", "Only available <if [The Swahili] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Seafaring Mastery"
+	},
+	//Taino
+	{
+		"name": "Batey",
+		"culture": 10,
+		"happiness": 1,
+		"uniques": ["Emblematic District", "Only available <if [The Taino] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Guilds"
+	},
+	//Umayyad
+	{
+		"name": "Grand Mosque",
+		"specialistSlots": {"Researcher": 1},
+		"faith": 5,
+		"uniques": ["[+1 Science] [in all cities]",
+			"Emblematic District", "Only available <if [The Umayyads] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Theology"
+	},
+
 
 	//EARLY MODERN
 	{
