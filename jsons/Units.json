@@ -711,6 +711,51 @@
 		"obsoleteTech": "Flintlock",
 		"attackSound": "metalhit"
 	},
+	//Bulgarian
+	{
+		"name": "Bagaturi",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"rangedStrength": 36,
+		"cost": 800,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Carbine",
+		"upgradesTo": "Dragoon",// Can covert to Polish and French UU
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Bulgarians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Ransacker"],
+		"attackSound": "horse"
+	},
+	//Byzantine
+	{
+		"name": "Varangian Guard",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 40,
+		"cost": 400,
+		"requiredTech": "Heavy Infantry",
+		"uniques": [ "Never appears as a Barbarian unit", "Only available <if [The Byzantines] is constructed>", "Emblematic Unit"], 
+		"upgradesTo": "Musketeer",
+		"obsoleteTech": "Flintlock",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	//English
+	{
+		"name": "Longbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 31,
+		"cost": 400,
+		"requiredTech": "War Summons",
+		"uniques": [ "Never appears as a Barbarian unit", "Only available <if [The English] is constructed>", "Emblematic Unit"], 
+		"promotions": ["Extended Range"],
+		"upgradesTo": "Arquebusier",
+		"obsoleteTech": "Gunpowder Warfare",
+		"attackSound": "crossbow"
+	},
 	//Frank
 	{
 		"name": "Franci Milites",
@@ -740,6 +785,49 @@
 		"promotions": ["Anti-Cavalry"],
 		"attackSound": "horse"
 	},
+	//Bulgarian
+	{
+		"name": "Dhanvī-gaja",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"rangedStrength": 36,
+		"cost": 800,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Carbine",
+		"upgradesTo": "Dragoon",// Can covert to Polish and French UU
+		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Khmer] is constructed>", "Emblematic Unit"],
+		"attackSound": "horse"
+	},
+	//Mississippian
+	{
+		"name": "Cahokia Raider",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 35,
+		"cost": 400,
+		"requiredTech": "Heavy Infantry",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Mississippians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Shared Ardor"],
+		"upgradesTo": "Musketeer",
+		"obsoleteTech": "Flintlock",
+		"attackSound": "metalhit"
+	},
+	//Mongol
+	{
+		"name": "Mongol Horde",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 36,
+		"rangedStrength": 36,
+		"cost": 800,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Carbine",
+		"upgradesTo": "Dragoon",// Can covert to Polish and French UU
+		"requiredResource": "Horses",
+		"uniques": ["Founds a new city <once>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <if [The Mongols] is constructed>", "Emblematic Unit"],
+		"attackSound": "horse"
+	},
 	//Norseman
 	{
 		"name": "Langskip",
@@ -752,6 +840,77 @@
 		"uniques": ["Can move after attacking", "Only available <if [The Norsemen] is constructed>", "Emblematic Unit"],
 		"obsoleteTech": "Naval Artillery",
 		"attackSound": "nonmetalhit"
+	},
+	//Rapa Nui
+	{
+		"name": "Maori Tangata",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 35,
+		"cost": 400,
+		"requiredTech": "Heavy Infantry",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Rapa Nui] is constructed>", "Emblematic Unit"],
+		"promotions": ["Sapper"],
+		"upgradesTo": "Musketeer",
+		"obsoleteTech": "Flintlock",
+		"attackSound": "metalhit"
+	},
+	//Swahili
+	{
+		"name": "Mtepe",
+		"unitType": "Melee Water",
+		"movement": 7,
+		"strength": 43,
+		"cost": 400,
+		"requiredTech": "Seafaring Mastery",
+		"uniques": ["[This Unit] takes [15] damage <upon ending a turn in a [Ocean] tile>", "Never appears as a Barbarian unit", "Only available <if [The Swahili] is constructed>", "Emblematic Unit"],
+		"upgradesTo": "Carrack",
+		"obsoleteTech": "Naval Artillery",
+		"attackSound": "nonmetalhit"
+	},
+	//Taino
+	{
+		"name": "Baria Hunter",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 31,
+		"cost": 400,
+		"requiredTech": "War Summons",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Taino] is constructed>", "Emblematic Unit"],
+		"promotions": ["Canoe Fighters"],
+		"upgradesTo": "Arquebusier",
+		"obsoleteTech": "Gunpowder Warfare",
+		"attackSound": "crossbow"
+	},
+	//Teuton
+	{
+		"name": "Teutonic Knight",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 36,
+		"cost": 800,
+		"religiousStrength": 500,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Carbine",
+		"upgradesTo": "Dragoon",// Can covert to Polish and French UU
+		"requiredResource": "Horses",
+		"uniques": [ "Can Spread Religion <for [4] movement> <once>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Teutons] is constructed>", "Emblematic Unit"],
+		"attackSound": "horse"
+	},
+	//Umayyad
+	{
+		"name": "Haras",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 36,
+		"cost": 800,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Carbine",
+		"upgradesTo": "Dragoon",// Can covert to Polish and French UU
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Only available <if [The Umayyads] is constructed>", "Emblematic Unit"],
+		"attackSound": "horse"
 	},
 	
 
