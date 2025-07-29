@@ -441,6 +441,16 @@
 		"requiredTech": "Standing Army",
 		"quote": "For such a mighty being, the tales of Zeus are full of questionable morality and poor decisions."
 	},
+	//Achaemenids
+	{
+		"name": "Satrap Palace",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"culture": 1,
+		"gold": 4,
+		"uniques": ["Emblematic District", "Only available <if [The Achaemenids] is constructed>"],
+		"requiredTech": "Fortifications"
+	},
 	//Carthaginians
 	{
 		"name": "Cothon",
@@ -460,6 +470,15 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
 	},
+	//Celts
+	{
+		"name": "Tumulus",
+		"culture": 3,
+		"faith": 2,
+		"uniques": ["All newly-trained [Mounted] units [in this city] receive the [Tumulus] promotion", "Emblematic District", "Only available <if [The Goths] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
 	//Greek
 	{
 		"name": "Amphitheatron",
@@ -468,6 +487,61 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Rhetoric"
 	},
+	//Han
+	{
+		"name": "Paper Mill",
+		"uniques": ["[+1 Science] <for every [Adopted [All] Policies]>", "Provides [1] [Paper]",
+			"Emblematic District", "Only available <if [The Han] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	//Maurya
+	{
+		"name": "Stupa",
+		"specialistSlots": {"Researcher": 1},
+		"hurryCostModifier": 25,
+		"culture": 1,
+		"faith": 2,
+		"science": 3,
+		"uniques": ["Emblematic District", "Only available <if [The Mauryans] is constructed>"],
+		"requiredTech": "Philosophy"
+	},
+	//Maya
+	{
+		"name": "K'uh Nah",
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"production": 1,
+		"faith": 2,
+		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]", "Emblematic District", "Only available <if [The Maya] is constructed>"],
+		"requiredTech": "Rhetoric"
+	},
+	//Nazca
+	{
+		"name": "Nazca Lines",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Faith, +2 Gold] from every [Emblematic District] <in this city>", "Emblematic District", "Only available <if [The Nazca] is constructed>"],
+		"requiredTech": "Craftsmanship"
+	},
+	//Polynesia
+	{
+		"name": "Marae",
+		"culture": 3,
+		"uniques": ["[+1 Culture, +2 Faith] [in this city] <for every [[Marae] Buildings]>",
+			"Emblematic District", "Only available <if [The Polynesians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade Expeditions"
+	},
+	//Romans
+	{
+		"name": "Triumphal Arch",
+		"culture": 5,
+		"happiness": 2,
+		"uniques": ["Emblematic District", "Only available <if [The Romans] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Conquest"
+	},
+
 
 	//MEDIEVAL
 	{
