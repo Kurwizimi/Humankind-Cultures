@@ -756,7 +756,7 @@
 	},
 
 
-	
+	//Medieval
 		{
         	"name": "Fervor",
         	"uniques": ["No damage penalty for wounded units"]
@@ -765,6 +765,20 @@
         	"name": "Anti-Cavalry",
         	"uniques": ["[+50]% Strength <vs [Mounted] units>"]
    	},
+		{
+        	"name": "Sapper",
+        	"uniques": ["[+20]% Strength <vs cities>"]
+   	},
+		{
+        	"name": "Canoe Fighters",
+        	"uniques": ["[1] Movement point cost to embark", "[1] Movement point cost to disembark", "May attack when embarked"]
+   	},
+
+
+
+
+
+	
 		{
         	"name": "Inner Sea Mastodonte",
         	"uniques": ["[+30]% Strength <when fighting in [Coast] tiles>"]
