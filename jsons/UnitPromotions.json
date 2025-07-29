@@ -754,6 +754,10 @@
 		"name": "Tactical Superiority",
 		"uniques": [ "[+75]% to Flank Attack bonuses"]
 	},
+		{
+		"name": "Tumulus",
+		"uniques": ["[+25]% Yield from pillaging tiles"]
+	},
 
 
 	//Medieval
