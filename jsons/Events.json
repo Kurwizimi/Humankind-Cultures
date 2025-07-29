@@ -90,6 +90,17 @@
      			]
  	},
 
+
+
+
+
+
+
+
+
+
+	
+
 		{
 		"name": "Classical",
 		"text": "Classical Culture Pick",
@@ -97,7 +108,7 @@
 			{ "text": "The Achaemenids",
 			  "uniques": [	"Comment [Cyrus' Shadow: -20% unhappiness from the number of cities in your empire, +10% Golden Age length]",
 				  	"Comment [[Immortal]: [Spearman]-like unit, 28 vs. 18 Strength, 180 vs. 90 Cost, [Bastion]]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[Satrap Palace]: +1 [Culture], +4 [Gold], +1 [Trader] Slot ]",
 				  "Gain a free [The Achaemenids] [in capital] <hidden from users>", "Only available <if [The Achaemenids] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
       
 			{ "text": "The Aksumites",
@@ -121,13 +132,13 @@
 			{ "text": "The Garamantes",
 			  "uniques": [	"Comment [Desert in Bloom: +5 [Culture] in all cities, doubled if they are in [Desert]]",
 				  	"Comment [[Javelin Rider]: [Horseman]-like unit, Ranged Unit, 27 vs. 26 Strength, 5 vs. 4 Movement, 90 vs. 180 Cost]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[Foggara]: +2 [Food], +1 [Food] for every adjacent [Hill][Mountain] or [Stone], Cannot be built next to each other, [Plains][Desert][Flood plains]]",
 				  "Gain a free [The Garamantes] [in capital] <hidden from users>", "Only available <if [The Garamantes] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
       			{ "text": "The Goths",
 			  "uniques": [	"Comment [Nimble Pillage: Earn 75% of killed Military unit's Strength as [Science], +2 [Culture] in al cities with a garrison]",
 				  	"Comment [[Gothic Cavalry]: [Horseman]-like unit, 29 vs. 26 Strength, 90 vs. 180 Cost, [Ransacker]]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[Tumulus]: +3 [Faith], +3 [Culture], All new [Mounted] units trained in this city gain the [Tumulus] promotion ]",
 				  "Gain a free [The Goths] [in capital] <hidden from users>", "Only available <if [The Goths] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 					
 			{ "text": "The Greeks",
@@ -139,57 +150,58 @@
 			{ "text": "The Han",
 			  "uniques": [	"Comment [Fruitful Negotiation: Gifts of [Gold] to City States provide +20% more Influence, Allied City States provide [Gold] equal to 50% of what they produce themselves]",
 				  	"Comment [[Lián nŭ bīng]: [Archer]-like unit, 27 vs. 17 Strength, 180 vs. 90 Cost, [Repeating Volley]]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[Paper Mill]: +1 [Science] for every adopted policy, Provides 1 [Paper] ]",
 				  "Gain a free [The Han] [in capital] <hidden from users>", "Only available <if [The Han] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Huns",
 			  "uniques": [	"Comment [Formidable steeds: +5 [Science] for every owned [Mounted] unit, +10% Strength for every [Mounted] unit, Cannot build [Settler] units this era]",
 				  	"Comment [[Hunnic Horde]: [Horseman]-like unit, Ranged Unit, 20 vs. 26 Strength, May found a new city once]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[Ordu]: Gives a defensive bonus of 25%, Adjacent enemy units ending their turn take 5 damage, Can be built outside your borders, [Plains][Grassland]]",
 				  "Gain a free [The Huns] [in capital] <hidden from users>", "Only available <if [The Huns] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Mauryans",
 			  "uniques": [	"Comment [Guiding Light: +1 [Culture] from every [Emblematic District], -25% [Culture] cost of natural border growth in all cities]",
 				  	"Comment [[Saṃnāhya]: [Horseman]-like unit, Ranged Unit, 30 vs. 26 Strength, 360 vs. 180 Cost, May not move after attacking, +33% Strength vs. [Ranged] units when defending]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[Stupa]: +1 [Culture], +2 [Faith], +3 [Science], +1 [Researcher] slot ]",
 				  "Gain a free [The Mauryans] [in capital] <hidden from users>", "Only available <if [The Mauryans] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Maya",
 			  "uniques": [	"Comment [Tireless Spirit: +2 [Production] from every [Engineer]]",
 				  	"Comment [[Noble Javelineer]: [Archer]-like unit, 26 vs. 17 Strength, [Poison]]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[K'uh Nah]: +1 [Production], +2 [Faith], +1 [Production] from every [Jungle] in this city]",
 				  "Gain a free [The Maya] [in capital] <hidden from users>", "Only available <if [The Maya] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Nazca",
 			  "uniques": [	"Comment [Written in the Land: +50% Yeilds from Natural Wonders]",
 				  	"Comment [[Headhunter]: [Swordsman]-like unit, 180 vs. 90 Cost, [Shared Ardor]]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[Nazca Lines]: +1 [Faith +1 [Culture] from evry Emblematic District in this city]",
 				  "Gain a free [The Nazca] [in capital] <hidden from users>", "Only available <if [The Nazca] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Polynesians",
 			  "uniques": [	"Comment [Intrepid Navigators: All embarked units may enter [Ocean] tiles, -1 [Movement] for embarked units before the Early Modern Era]",
 				  	"Comment [[Faulua]: [Quadrireme]-like unit, Takes 20 damage from [Ocean] vs. 35 damage from [Ocean], Obsoletes later on]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[Marae]: +3 [Culture], +1 [Culture] +2 [Faith] from every [Marae]]",
 				  "Gain a free [The Polynesians] [in capital] <hidden from users>", "Only available <if [The Polynesians] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Romans",
 			  "uniques": [	"Comment [Legion's Finest: +50% XP gained from combat, -25% maintenance cost for Land units.]",
 				  	"Comment [[Praetorian Guard]: [Swordsman]-like unit, 29 vs. 26 Strength, 180 vs. 90 Cost, [Tactical Superiority]]",
-				  	"Comment [[Great Obelisk]: +3 [Faith], +3 [Gold], Cannot be built next to each other, [Plains][Grassland][Desert] ]",
+				  	"Comment [[Triumphal Arch]: +5 [Culture], +2 [Happiness] ]",
 				  "Gain a free [The Romans] [in capital] <hidden from users>", "Only available <if [The Romans] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
-      
-      
-      
-      
-			
-			
-      
-      
-      
-
       
      			]
   	},
+
+
+
+
+
+
+
+
+
+
+	
 
 		{
 		"name": "Medieval",
@@ -328,6 +340,18 @@
      			]
   	},
 
+
+
+
+
+
+
+
+
+
+
+	
+
 		{
 		"name": "Industrial",
 		"text": "Industrial Culture Pick",
@@ -358,6 +382,31 @@
       
      			]
 	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 	{
