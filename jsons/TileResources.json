@@ -575,6 +575,12 @@
 		]
 	},
 
+	{
+		"name": "Paper",
+		"resourceType": "Luxury",
+		"uniques": ["Doesn't generate naturally"]
+	},
+
 
 
 	//Ideology
