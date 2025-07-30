@@ -171,7 +171,7 @@
 	"May choose [1] additional belief(s) of any type when [enhancing] a religion <for [Major] Civilizations> <if [The Teutons] is constructed>",		//Teutons
 	"When spreading religion to a city, gain [5] times the amount of followers of other religions as [Gold] <for [Major] Civilizations> <if [The Teutons] is constructed>",
 
-	"[+5]% [Science] [in capital] <for every [Cities/2]> <for [Major] Civilizations> <if [The Umayyads] is constructed>",					//Umayyads
+	"[+5]% [Science] [in capital] <for every [[Cities] / 2]> <for [Major] Civilizations> <if [The Umayyads] is constructed>",				//Umayyads
 
 
 
@@ -179,7 +179,7 @@
 
 
 
-
+		
 		
 
 	//Early Modern
