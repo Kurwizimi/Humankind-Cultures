@@ -444,7 +444,7 @@
 	//Achaemenids
 	{
 		"name": "Satrap Palace",
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Trader": 1},
 		"hurryCostModifier": 25,
 		"culture": 1,
 		"gold": 4,
@@ -707,6 +707,13 @@
 			"Emblematic District", "Only available <if [The Norsemen] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Seafaring Mastery"
+	},
+	//Rapa Nui
+	{
+		"name": "Makemake's Blessing",
+		"uniques": ["[+10]% [Production] [in this city] <for [5] turns> <upon entering a new era>",
+			"Only available <if [The Rapa Nui] is constructed>"],
+		"hurryCostModifier": 25,
 	},
 	//Swahili
 	{
