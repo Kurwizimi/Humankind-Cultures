@@ -193,7 +193,7 @@
 						"name": "Conquest",
 						"row": 7,
 						"prerequisites": ["Standing Army","Fortifications"],
-						"uniques": [""],
+						"uniques": ["Enables establishment of embassies"],
 						"quote": ""
 					},
 						{
@@ -222,7 +222,7 @@
 						{
 						"name": "Imperial Power",
 						"row": 7,
-						"prerequisites": ["Conquest"],
+						"prerequisites": ["Mounted Warfare", "Conquest"],
 						"uniques": ["Enables Open Borders agreements"],
 						"quote": ""
 					},
