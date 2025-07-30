@@ -1646,6 +1646,13 @@
 		"quote": "The Mayans had excellent ideas for construction and calendars, though they were a bit weak on arches."
 	},
 	{
+		"name": "The Nazca",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "For the Nazca, the earth itself was a canvas for their art. An idea of epic proportions."
+	},
+	{
 		"name": "The Polynesians",
 		"cost": 1,
 		"isWonder": true,
@@ -1741,6 +1748,13 @@
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "The Rapa Nui were fine fishermen and fierce soldiers, but it’s their monuments that truly inspire awe."
+	},
+	{
+		"name": "The Swahili",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Between brains and brawn, the Swahili went with… luxury. Not an unreasonable decision."
 	},
 	{
 		"name": "The Taino",
