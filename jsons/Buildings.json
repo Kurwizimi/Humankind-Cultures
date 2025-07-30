@@ -711,6 +711,7 @@
 	//Rapa Nui
 	{
 		"name": "Makemake's Blessing",
+		"cost": 2,
 		"uniques": ["[+10]% [Production] [in this city] <for [5] turns> <upon entering a new era>",
 			"Only available <if [The Rapa Nui] is constructed>"],
 		"hurryCostModifier": 25,
