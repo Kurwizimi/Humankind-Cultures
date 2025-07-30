@@ -17,7 +17,7 @@
 
 			{ "text": "The Bantu",
 			  "uniques": [	"Comment [Harmonious Amalgamation: +10% [Culture] in all cities for 10 turns after founding a city]",
-				  	"Comment [Bagèndí Pioneers]: [Scout]-like unit, 90 vs. 45 cost, May found new cities]",
+				  	"Comment [[Bagèndí Pioneers]: [Scout]-like unit, 90 vs. 45 cost, May found new cities]",
 				  	"Comment [[Mupíà Field]: +5 [Food]]",
 				  "Gain a free [The Bantu] [in capital] <hidden from users>","Only available <if [The Bantu] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
@@ -258,7 +258,7 @@
 			{ "text": "The Mongols",
 			  "uniques": [	"Comment [Mounted Mayhem: +100% Yeild from pillaging tiles, +100% resources gifted by City-States, Cannot build [Settler] units this era]",
 				  	"Comment [[Mongol Horde]: [Knight]-like unit, Ranged unit, May found a new city once]",
-				  	"Comment [[]: +2 [Food] +2 [Production] +2 [Gold], Gives a defensive bonus of 25%, Provides yeilds without assigned population, Can be built outside your borders, All [Land]]",
+				  	"Comment [[Orda]: +2 [Food] +2 [Production] +2 [Gold], Gives a defensive bonus of 25%, Provides yeilds without assigned population, Can be built outside your borders, All [Land]]",
 				  "Gain a free [The Mongols] [in capital] <hidden from users>" ,"Only available <if [The Mongols] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Norsemen",
@@ -268,31 +268,31 @@
 				  "Gain a free [The Norsemen] [in capital] <hidden from users>" ,"Only available <if [The Norsemen] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Rapa Nui",
-			  "uniques": [	"Comment [Makemake's Eye: +1 [Production] from evry [Coast], Gain a free [Makamake's Blessing] in all cities upon entering a new era",
+			  "uniques": [	"Comment [Makemake's Eye: +1 [Production] from evry [Coast], Gain a free [Makamake's Blessing] in all cities upon entering a new era]",
 				  	"Comment [[Maori Tangata]: [Great Swordsman]-like unit, Does not require [Iron], [Sapper]]",
 				  	"Comment [[Moai]: +3 [Food] +2 [Faith], +3 [Culture] +2 [Faith] when adjacent to atleast 2 other [Moai],  +3 [Culture] +2 [Faith] when adjacent to atleast 4 other [Moai], All [Coastal]]",
 				  "Gain a free [The Rapa Nui] [in capital] <hidden from users>" ,"Only available <if [The Rapa Nui] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Swahili",
-			  "uniques": [	"Comment [Coastal Haven: +2 [Happiness], +4 [Gold] in all cities that are on the [Coast], /n+2 [Happiness], +4 [Gold] in all cities connected to the Capital /n,+2 [Happiness], +4 [Gold] in all cities following our religion]",
+			  "uniques": [	"Comment [Coastal Haven: +2 [Happiness], +4 [Gold] in all cities that are on the [Coast], \n+2 [Happiness], +4 [Gold] in all cities connected to the Capital \n,+2 [Happiness], +4 [Gold] in all cities following our religion]",
 				  	"Comment [[Mtepe]: [Cog]-like unit, 7 vs. 4 [Movement], Takes 15 damage on [Ocean] tiles vs. Takes 20 damage on [Ocean] tiles]",
 				  	"Comment [[Bandari]: +2 [Gold] from every resource in this city Must be next to [Coast]]",
 				  "Gain a free [The Swahili] [in capital] <hidden from users>" ,"Only available <if [The Swahili] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Taino",
-			  "uniques": [	"Comment [Zemis Worship: +1 [Food] from every [Coast], +2 [Food] from every city next to [Coast]",
+			  "uniques": [	"Comment [Zemis Worship: +1 [Food] from every [Coast], +2 [Food] from every city next to [Coast]]",
 				  	"Comment [[Baria Hunter]: [Crossbowman]-like unit, [Canoe Fighters] ]",
 				  	"Comment [[Luxuries Market]: +5 [Food], Gain 75 [Gold] when fully constructed, +1 [Farmer] slot, Must be next to [Coast]]",
 				  "Gain a free [The Taino] [in capital] <hidden from users>" ,"Only available <if [The Taino] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Teutons",
-			  "uniques": [	"Comment [Spurred by Faith: May choose 1 additional belief when enhancing a religion, When spreading religion to a city, gain [5] times the amount of followers of other religions as [Gold]",
+			  "uniques": [	"Comment [Spurred by Faith: May choose 1 additional belief when enhancing a religion, When spreading religion to a city, gain [5] times the amount of followers of other religions as [Gold]]",
 				  	"Comment [[Teutonic Knight]: [Knight]-like unit, 5 vs. 4 [Movement], Can spread religion once]",
 				  	"Comment [[Kaiserdom]: +3 [Culture], +1 [Faith] fro  every adjacent [Farm], Gives a defensive bonus of 15%, [Hill]]",
 				  "Gain a free [The Teutons] [in capital] <hidden from users>" ,"Only available <if [The Teutons] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Umayyads",
-			  "uniques": [	"Comment [Learned Friends: +5% [Science] in the Capital for every 2 owned cities",
+			  "uniques": [	"Comment [Learned Friends: +5% [Science] in the Capital for every 2 owned cities]",
 				  	"Comment [[Haras]: [Knight]-like unit, No strength penalty when attacking cities, Gains defensive terrain bonuses]",
 				  	"Comment [[Grand Mosque]: +5 [Faith], +1 [Science] in all cities, +1 [Researcher] slot]",
 				  "Gain a free [The Umayyads] [in capital] <hidden from users>" ,"Only available <if [The Umayyads] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
