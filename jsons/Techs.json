@@ -222,7 +222,7 @@
 						{
 						"name": "Imperial Power",
 						"row": 7,
-						"prerequisites": ["Mounted Warfare", "Conquest"],
+						"prerequisites": ["Mounted Warfare", "Conquest", "Craftsmanship"],
 						"uniques": ["Enables Open Borders agreements"],
 						"quote": ""
 					},
