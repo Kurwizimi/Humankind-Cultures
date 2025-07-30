@@ -1664,6 +1664,27 @@
 		"quote": "I'm not thinking of brains or brawn, but of corn, chocolate, and chilies... The Aztecs are a culture that makes my stomach rumble."
 	},
 	{
+		"name": "The Bulgarians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Diplomats who also happen to have a very convincing cavalry—now that's innovation."
+	},
+	{
+		"name": "The Byzantines",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Speaking of rich cities, I suppose there are far too many syllables to coin the phrase: 'When in Constantinople, do as the Byzantines do'."
+	},
+	{
+		"name": "The English",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Whatever you think of the agrarian English, don't complain about their cooking. They'll come after you with their longbowmen."
+	},
+	{
 		"name": "The Franks",
 		"cost": 1,
 		"isWonder": true,
@@ -1680,11 +1701,60 @@
 		"quote": "Brute strength and innovation? How about trade, travel, and a lifestyle supported by tolls. I'd say the Ghanaians were on to a good thing."
 	},
 	{
+		"name": "The Khmer",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "For innovation and brute strength, the Khmer present you with sophisticated hydraulic engineering and ballista-equipped elephants! I like it!"
+	},
+	{
+		"name": "The Mississippians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Feats of both muscle and innovation? Look no further than the construction of the Mississippians' awesome cities."
+	},
+	{
+		"name": "The Mongols",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "So will all those Mongol horses in this era lead to well-fertilized farms and fields for the next?"
+	},
+	{
 		"name": "The Norsemen",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Whether trading or raiding, the Norsemen deserve credit for both naval innovation and brute force."
+	},
+	{
+		"name": "The Rapa Nui",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The Rapa Nui were fine fishermen and fierce soldiers, but it’s their monuments that truly inspire awe."
+	},
+	{
+		"name": "The Taino",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "It must be noted that the Taíno found brilliant ways to live from the oceans and a remarkably fun way to settle disputes."
+	},
+	{
+		"name": "The Teutons",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The Teutons did indeed have great cities with great cathedrals. But don't forget their great armies, with great ambitions"
+	},
+	{
+		"name": "The Umayyads",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "As far as innovation goes, the Umayyads were famed for mathematics and medicine. But I have to say that their cities as well were true jewels of civilization."
 	},
 
 
