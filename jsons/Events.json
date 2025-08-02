@@ -340,7 +340,7 @@
 			{ "text": "The Inca",
 			  "uniques": [	"Comment [On a Condor's Wings: -100% Maintainence from [Road]s and [Railroad]s, Can build [Road]s and [Railroad]s [+100]% faster, +2 [Food] from every improved tile adjacent to at least one [Mountain]]",
 				  	"Comment [[Sapa Inca Guard]: [Harbeilder]-like unit, [Imperial Bastions]]",
-				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
+				  	"Comment [[Terrace farm]: +1 [Food], +1 [Production, +1 [Food] for every adjacent [Mountain], [Hill]]",
 				  "Gain a free [The Inca] [in capital] <hidden from users>", "Only available <if [The Inca] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Joseon",
@@ -352,13 +352,13 @@
 			{ "text": "The Maasai",
 			  "uniques": [	"Comment [Pastoral Prowess: +25% Growth in all cities]",
 				  	"Comment [[Maasai Morans]: [Arquebusier]-like unit, Does not require [Saltpetre], [Implacable]]",
-				  	"Comment [[]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
+				  	"Comment [[Enkand]: +1 [Food], +1 [Production] for every adjacent [Pasture], +1 [Food] for every adjacent [Farm], +1 [Gold] for every adjacent [River]]",
 				  "Gain a free [The Maasai] [in capital] <hidden from users>", "Only available <if [The Maasai] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Maori",
 			  "uniques": [	"Comment [Thicker Than Water: +3 [Happiness] in all cities when at war, -50% Maintainence cost for all units when at war]",
 				  	"Comment [[Waka Taua]: [Carrack]-like unit, 48 vs. 52 [Strength], [Rowers' Defiance]]",
-				  	"Comment [[]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
+				  	"Comment [[Pā]: +4 [Food], +2 [Happiness], Gives defensive bonus of 50%, Cannot be built next to each other, [Hill]]",
 				  "Gain a free [The Maori] [in capital] <hidden from users>", "Only available <if [The Maori] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Ming",
@@ -382,7 +382,7 @@
 			{ "text": "The Poles",
 			  "uniques": [	"Comment [Deadly Ramparts: +30 Strength for cities, +1 [Happiness] in all cities]",
 				  	"Comment [[Winged Hussar]: [Harbeilder]-like unit, 4 vs. 2 [Movement], +50% Strength vs. all land units, Requires [Horses], [Charge Master]]",
-				  	"Comment [[]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
+				  	"Comment [[Barbican]: +2 [Culture], +2 [Happiness], +1 [Culture] for every adjacent [Barbican], Gives defensive bonus of 60%, Must be next to a [City center], [Land]]",
 				  "Gain a free [The Poles] [in capital] <hidden from users>", "Only available <if [The Poles] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Spanish",
