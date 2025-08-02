@@ -1919,7 +1919,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "The world wonders if anybody could do as well as Suleiman. They didn't call him "the great" in flattery."
+		"quote": "The world wonders if anybody could do as well as Suleiman. They didn't call him 'the Great' in flattery."
 	},
 	{
 		"name": "The Poles",
