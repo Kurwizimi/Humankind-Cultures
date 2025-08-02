@@ -182,14 +182,43 @@
 	//Early Modern
 	"[+10]% Strength <for [All] units> <in [Foreign Land] tiles> <for [Major] Civilizations> <if [The Pirates] is constructed>",				//Pirates
 	"[+10] HP when healing <for [All] units> <in [Foreign Land] tiles> <for [Major] Civilizations> <if [The Pirates] is constructed>",
-	"Cannot build [Settler] units <during the [Medieval era]> <for [Major] Civilizations> <if [The Pirates] is constructed>",
-	"Cannot build [Bagèndí Pioneers] units <during the [Medieval era]> <for [Major] Civilizations> <if [The Pirates] is constructed>",
+	"Cannot build [Settler] units <during the [Early Modern era]> <for [Major] Civilizations> <if [The Pirates] is constructed>",
+	"Cannot build [Bagèndí Pioneers] units <during the [Early Modern era]> <for [Major] Civilizations> <if [The Pirates] is constructed>",
 		
 	"[+1 Gold] per [1] population [in all cities] <for [Major] Civilizations> <if [The Dutch] is constructed>",						//Dutch
 
 	"[+1 Culture] per [1] population [in all cities] <for [Major] Civilizations> <if [The Edo] is constructed>",						//Edo
 
 	"[+1 Food] from every [improved] <for [Major] Civilizations> <if [The Haudenosaunee] is constructed>",							//Haudenosaunee
+
+	"[-100]% maintenance on road & railroads <for [Major] Civilizations> <if [The Inca] is constructed>",							//Inca
+	"Can build [Road] improvements at a [+100]% rate <for [Major] Civilizations> <if [The Inca] is constructed>",
+	"Can build [Railroad] improvements at a [+100]% rate <for [Major] Civilizations> <if [The Inca] is constructed>",
+	"[+1 Food] from every [improved] <in tiles adjacent to [Mountain] tiles> <for [Major] Civilizations> <if [The Inca] is constructed>",
+
+	"[+10]% [Science] [in all cities] <for [Major] Civilizations> <if [The Joseon] is constructed>",							//Joseon
+	"[+3 Science] [in all cities] <for [Major] Civilizations> <if [The Joseon] is constructed>",
+
+	"[+25]% growth [in all cities] <for [Major] Civilizations> <if [The Masaai] is constructed>",								//Masaai
+
+	"[+3 Happiness] [in all cities] <when at war> <for [Major] Civilizations> <if [The Maori] is constructed>",						//Maori
+	"[-50]% maintenance costs <for [All] units> <when at war> <for [Major] Civilizations> <if [The Maori] is constructed>",
+
+	"Each city founded increases culture cost of policies [33]% less than normal <for [Major] Civilizations> <if [The Ming] is constructed>",		//Ming
+	"[+10 Culture] <for every [Adopted [Political] Policies]> <for [Major] Civilizations> <if [The Ming] is constructed>",
+
+	"[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Mughals] is constructed>",							//Mughals
+
+	"[+50]% Production when constructing [Siege] units [in all cities] <for [Major] Civilizations> <if [The Ottomans] is constructed>",			//Ottomans
+	"[+20]% Strength <for [Siege] units> <for [Major] Civilizations> <if [The Ottomans] is constructed>",
+
+	"[+30]% Strength for cities <for [Major] Civilizations> <if [The Poles] is constructed>",								//Poles
+	"[+1 Happiness] [in all cities] <for [Major] Civilizations> <if [The Poles] is constructed>",	
+
+	"[+15]% Strength <for [Wounded] units> <for [Major] Civilizations> <if [The Spanish] is constructed>",							//Spanish
+
+	"Enemy [Land] units must spend [1] extra movement points when inside your territory <for [Major] Civilizations> <if [The Swiss] is constructed>",	//Swiss
+	"Allied City-States will occasionally gift Great People <for [Major] Civilizations> <if [The Swiss] is constructed>",
 
 	"[+3 Gold, +1 Culture] from each Trade Route <for [Major] Civilizations> <if [The Venetians] is constructed>",						//Venetian
 
