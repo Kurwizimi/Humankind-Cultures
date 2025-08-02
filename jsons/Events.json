@@ -340,7 +340,7 @@
 			{ "text": "The Inca",
 			  "uniques": [	"Comment [On a Condor's Wings: -100% Maintainence from [Road]s and [Railroad]s, Can build [Road]s and [Railroad]s [+100]% faster, +2 [Food] from every improved tile adjacent to at least one [Mountain]]",
 				  	"Comment [[Sapa Inca Guard]: [Harbeilder]-like unit, [Imperial Bastions]]",
-				  	"Comment [[Terrace farm]: +1 [Food], +1 [Production, +1 [Food] for every adjacent [Mountain], [Hill]]",
+				  	"Comment [[Terrace farm]: +1 [Food], +1 [Production], +1 [Food] for every adjacent [Mountain], [Hill]]",
 				  "Gain a free [The Inca] [in capital] <hidden from users>", "Only available <if [The Inca] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Joseon",
