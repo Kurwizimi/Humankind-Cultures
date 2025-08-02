@@ -778,6 +778,52 @@
         	"uniques": ["[1] Movement point cost to embark", "[1] Movement point cost to disembark", "May attack when embarked"]
    	},
 
+	//Early Modern
+		{
+        	"name": "Spotter",
+        	"uniques": ["[+1] Sight"]
+   	},
+		{
+        	"name": "Grapeshot",
+        	"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [Water] tiles"]
+   	},
+		{
+        	"name": "Guerilla Fighter",
+        	"uniques": ["Invisible to non-adjacent units"]
+   	},
+		{
+        	"name": "Imperial Bastions",
+        	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[+15]% Strength <when fighting in [Fort] tiles>", "[+15]% Strength <when fighting in [Citadel] tiles>", "[+15]% Strength <when fighting in [City center] tiles>"]
+   	},
+		{
+        	"name": "Ramming",
+        	"uniques": ["[+2] Movement"]
+   	},
+		{
+        	"name": "Implacable",
+        	"uniques": ["[+20]% Strength <vs [Wounded] units>"]
+   	},
+		{
+        	"name": "Rowers' Defiance",
+        	"uniques": ["[+20]% Strength <when defending>"]
+   	},
+		{
+        	"name": "Siege Mastery",
+        	"uniques": ["[+50]% Strength <vs cities>"]
+   	},
+		{
+        	"name": "Charge Master",
+        	"uniques": ["[+50]% Strength <when below [50] HP>"]
+   	},
+	{
+        	"name": "El Dorado",
+        	"uniques": ["Earn [200]% of the damage done to [All] units as [Gold]"]
+   	},
+	{
+        	"name": "Defender",
+        	"uniques": ["[+10]% Strength <when defending>"]
+   	},
+
 
 
 
@@ -791,10 +837,7 @@
         	"name": "Stealth",
         	"uniques": ["Invisible to non-adjacent units"]
    	},
-		{
-        	"name": "Guerilla Fighter",
-        	"uniques": ["Invisible to non-adjacent units"]
-   	},
+		
 		{
         	"name": "Anti-Colonialism",
         	"uniques": ["[+25]% Strength <when fighting units from a Civilization with more Cities than you>"]

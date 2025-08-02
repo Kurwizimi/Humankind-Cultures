@@ -967,8 +967,8 @@
 		"cost": 970,
 		"requiredResource": "Saltpetre",
 		"requiredTech": "Gunpowder Warfare",
-		"upgradesTo": "Musketeer",
-		"obsoleteTech": "Military Coordination",
+		"upgradesTo": "Heavy Machine Gun",
+		"obsoleteTech": "Trench Warfare",
 		"attackSound": "cannon"
 	},
 	{
@@ -1036,6 +1036,34 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
+	//Pirates
+	{
+		"name": "Buccaneer",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 46,
+		"cost": 970,
+		"requiredResource": "Saltpetre",
+		"requiredTech": "Flintlock",
+		"uniques": ["Only available <if [The Pirates] is constructed>", "Emblematic Unit"],
+		"promotions": ["Spotter"],
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Line Formation",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Sloop",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 52,
+		"cost": 970,
+		"requiredTech": "Naval Artillery",
+		"uniques": ["Only available <if [The Pirates] is constructed>", "Emblematic Unit"],
+		"promotions": ["Grapeshot"],
+		"upgradesTo": "Steam Frigate",
+		"obsoleteTech": "Propeller",
+		"attackSound": "nonmetalhit"
+	},
 	//Dutch
 	{
 		"name": "Fluyt",
@@ -1076,6 +1104,155 @@
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Line Formation",
 		"attackSound": "shot"
+	},
+	//Inca
+	{
+		"name": "Sapa Inca Guard",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 41,
+		"cost": 485,
+		"requiredTech": "Centralised Power",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "Only available <if [The Inca] is constructed>", "Emblematic Unit"],
+		"promotions": ["Imperial Bastions"],
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Line Formation",
+		"attackSound": "metalhit"
+	},
+	//Joseon
+	{
+		"name": "Geobukseon",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 52,
+		"cost": 970,
+		"requiredTech": "Naval Artillery",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Joseon] is constructed>", "Emblematic Unit"],
+		"promotions": ["Ramming"],
+		"upgradesTo": "Steam Frigate",
+		"obsoleteTech": "Propeller",
+		"attackSound": "nonmetalhit"
+	},
+	//Masaai
+	{
+		"name": "Maasai Morans",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 39,
+		"cost": 970,
+		"requiredTech": "Gunpowder Warfare",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Maasai] is constructed>", "Emblematic Unit"],
+		"promotions": ["Implacable"],
+		"requiredTech": "Gunpowder Warfare",
+		"upgradesTo": "Heavy Machine Gun",
+		"attackSound": "cannon"
+	},
+	//Maori
+	{
+		"name": "Waka Taua",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 48,
+		"cost": 970,
+		"requiredTech": "Naval Artillery",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Maori] is constructed>", "Emblematic Unit"],
+		"promotions": ["Rowers' Defiance"],
+		"upgradesTo": "Steam Frigate",
+		"obsoleteTech": "Propeller",
+		"attackSound": "nonmetalhit"
+	},
+	//Ming
+	{
+		"name": "Rocket Cart",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 45,
+		"cost": 970,
+		"requiredResource": "Saltpetre",
+		"requiredTech": "Gunpowder Warfare",
+		"uniques": ["Must set up to ranged attack", "Never appears as a Barbarian unit", "Only available <if [The Ming] is constructed>", "Emblematic Unit"],
+		"upgradesTo": "Heavy Machine Gun",
+		"obsoleteTech": "Trench Warfare",
+		"attackSound": "cannon"
+	},
+	//Mughals
+	{
+		"name": "Gajnal",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 39,
+		"cost": 970,
+		"requiredResource": "Saltpetre",
+		"requiredTech": "Gunpowder Warfare",
+		"uniques": ["[+50]% Strength <vs cities>", "Never appears as a Barbarian unit", "Only available <if [The Mughals] is constructed>", "Emblematic Unit"],
+		"upgradesTo": "Heavy Machine Gun",
+		"obsoleteTech": "Trench Warfare",
+		"attackSound": "cannon"
+	},
+	//Ottoman
+	{
+		"name": "Janissary",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 46,
+		"cost": 970,
+		"requiredResource": "Saltpetre",
+		"requiredTech": "Flintlock",
+		"uniques": [ "Never appears as a Barbarian unit", "Only available <if [The Ottomans] is constructed>", "Emblematic Unit"],
+		"promotions": ["Siege Mastery"],
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Line Formation",
+		"attackSound": "shot"
+	},
+	//Poles
+	{
+		"name": "Winged Hussar",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 41,
+		"cost": 485,
+		"requiredResource": "Horses",
+		"requiredTech": "Centralised Power",
+		"uniques": ["[+50]% Strength <vs [Land] units>", "Never appears as a Barbarian unit", "Only available <if [The Poles] is constructed>", "Emblematic Unit"],
+		"promotions": ["Charge Master"],
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Line Formation",
+		"attackSound": "metalhit"
+	},
+	//Spanish
+	{
+		"name": "Conquistador",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 46,
+		"cost": 970,
+		"requiredResource": "Saltpetre",
+		"requiredTech": "Flintlock",
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Spanish] is constructed>", "Emblematic Unit"],
+		"promotions": ["El Dorado"],
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Line Formation",
+		"attackSound": "shot"
+	},
+	//Swiss
+	{
+		"name": "Reisläufer",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 41,
+		"cost": 485,
+		"requiredTech": "Centralised Power",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought", "Never appears as a Barbarian unit", "Only available <if [The Swiss] is constructed>", "Emblematic Unit"],
+		"promotions": ["Defender"],
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Line Formation",
+		"attackSound": "metalhit"
 	},
 	//Venetian
 	{
