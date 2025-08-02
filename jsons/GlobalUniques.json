@@ -177,12 +177,14 @@
 
 
 
-
-
-		
 		
 
 	//Early Modern
+	"[+10]% Strength <for [All] units> <in [Foreign Land] tiles> <for [Major] Civilizations> <if [The Pirates] is constructed>",				//Pirates
+	"[+10] HP when healing <for [All] units> <in [Foreign Land] tiles> <for [Major] Civilizations> <if [The Pirates] is constructed>",
+	"Cannot build [Settler] units <during the [Medieval era]> <for [Major] Civilizations> <if [The Pirates] is constructed>",
+	"Cannot build [Bagèndí Pioneers] units <during the [Medieval era]> <for [Major] Civilizations> <if [The Pirates] is constructed>",
+		
 	"[+1 Gold] per [1] population [in all cities] <for [Major] Civilizations> <if [The Dutch] is constructed>",						//Dutch
 
 	"[+1 Culture] per [1] population [in all cities] <for [Major] Civilizations> <if [The Edo] is constructed>",						//Edo
@@ -191,6 +193,12 @@
 
 	"[+3 Gold, +1 Culture] from each Trade Route <for [Major] Civilizations> <if [The Venetians] is constructed>",						//Venetian
 
+
+
+
+
+
+		
 
 	//Industrial
 	"[+1 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Austro-Hungarians] is constructed>",				//Austro-Hungarian
