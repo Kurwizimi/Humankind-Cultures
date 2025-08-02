@@ -1841,6 +1841,13 @@
 
 	//Early Modern
 	{
+		"name": "The Pirates",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "So it’s a pirate’s life for you? Plenty of adventure, plenty of loot, and—surprisingly—plenty of rules to obey in the Pirate Code."
+	},
+	{
 		"name": "The Dutch",
 		"cost": 1,
 		"isWonder": true,
@@ -1864,6 +1871,76 @@
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "A stable, successful, ecologically pragmatic culture. There is something to be said for matriarchies.",
 		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Inca",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "From mountaintops to river valleys, the Inca certainly made great strides in exploring the world—and in conquering it."
+	},
+	{
+		"name": "The Joseon",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The Joseon era was certainly famous for its ships. I wonder if their scholars worked with brushes and parchment, however, rather than pens..."
+	},
+	{
+		"name": "The Maasai",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Less ships and more shepherds, the Maasai made an art of tending their herds."
+	},
+	{
+		"name": "The Maori",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Masters of the maritime, the Māori certainly didn’t lack for ships. Or warriors to fill them."
+	},
+	{
+		"name": "The Ming",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Will the world remember Ming China for its caravans carrying brilliant ceramics, or for its hunger for the territory those caravans traversed..."
+	},
+	{
+		"name": "The Mughals",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "So did you choose them for their impressive constructions? I bet it was the elephants with cannons."
+	},
+	{
+		"name": "The Ottomans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The world wonders if anybody could do as well as Suleiman. They didn't call him "the great" in flattery."
+	},
+	{
+		"name": "The Poles",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Often the Poles are chosen for their striking Winged Hussars; the hidden bonus is that they come with pierogies."
+	},
+	{
+		"name": "The Spanish",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Let's see whether a different leader can write a less tumultuous version of the history of the Spanish empire..."
+	},
+	{
+		"name": "The Swiss",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Even the famously efficient Swiss mercenaries operate like clockwork! And they're more than ready to take sides."
 	},
 	{
 		"name": "The Venetians",
