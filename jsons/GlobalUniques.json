@@ -205,7 +205,7 @@
 	"[-50]% maintenance costs <for [All] units> <when at war> <for [Major] Civilizations> <if [The Maori] is constructed>",
 
 	"Each city founded increases culture cost of policies [33]% less than normal <for [Major] Civilizations> <if [The Ming] is constructed>",		//Ming
-	"[+10 Culture] <for every [Adopted [Political] Policies]> <for [Major] Civilizations> <if [The Ming] is constructed>",
+	"[+10 Culture] <for every [Adopted [Political Civic] Policies]> <for [Major] Civilizations> <if [The Ming] is constructed>",
 
 	"[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Mughals] is constructed>",							//Mughals
 
