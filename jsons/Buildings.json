@@ -905,6 +905,65 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Centralised Power"
 	},
+	//Joseon
+	{
+		"name": "Seowon",
+		"specialistSlots": {"Researcher": 1},
+		"science": 2,
+		"culture": 2,
+		"uniques": ["[+2 Science] from every [Researcher] <in this city>",
+			"Emblematic District", "Only available <if [The Joseon] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Centralised Power"
+	},
+	//Ming
+	{
+		"name": "Grand Teahouse",
+		"uniques": ["[+1 Culture] from [All] tiles [in this city]",
+			"Emblematic District", "Only available <if [The Ming] is constructed>"],
+		"hurrycostModifier": 25,
+		"requiredTech": "Humanism"
+	},
+	//Mughals
+	{
+		"name": "Jama Masjid",
+		"culture": 4,
+		"production": 3,
+		"uniques": ["[+1 Faith] per [1] population [in this city]", "[+1 Production] from every [Engineer] <in this city>",
+			"Emblematic District", "Only available <if [The Mughals] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Gunpowder Warfare"
+	},
+	//Ottoman
+	{
+		"name": "Sultan Camii",
+		"culture": 3,
+		"uniques": ["[+1 Culture, +1 Faith] from [Fresh water] tiles [in this city]",],
+		"hurryCostModifier": 25,
+		"requiredTech": "Siege Cannons"
+	},
+	//Spanish
+	{
+		"name": "Catedral Gótica",
+		"happiness": 2,
+		"faith": 3,
+		"uniques": ["[+1 Faith] per [1] population [in this city]",
+			"Emblematic District", "Only available <if [The Spanish] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Moveable Typeface"
+	},
+	//Swiss
+	{
+		"name": "Watchmakers Guild",
+		"food": 1,
+		"production": 1,
+		"science": 1,
+		"culture": 1,
+		"uniques": ["[+2 Gold] <for every [Era number]>", "Must have an owned [Mountain] within [2] tiles",
+			"Emblematic District", "Only available <if [The Swiss] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chartered Companies"
+	},
 	//Venetian
 	{
 		"name": "Botteghe Di Artisti",
