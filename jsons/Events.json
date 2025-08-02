@@ -315,14 +315,14 @@
 		"choices": [
 			{ "text": "The Pirates",
 			  "uniques": [	"Comment [Sparkling Plunder: +10% [Strength] and +10 HP when healing for all units in foreign land tiles, Cannot build [Settler] units this era]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
-				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
+				  	"Comment [[Buccaneer]: [Musketman]-like unit, [Spotter]]",
+				  	"Comment [[Sloop]: [Carrack]-like unit, [Grapeshot]]",
 				  "Gain a free [The Pirates] [in capital] <hidden from users>", "Only available <if [The Pirates] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Dutch",
 			  "uniques": [	"Comment [Stock Wisdom: +1 [Gold] from every population in all cities]",
 				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
-				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
+				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be next to [Coast]]",
 				  "Gain a free [The Dutch] [in capital] <hidden from users>", "Only available <if [The Dutch] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Edo",
@@ -339,61 +339,61 @@
 
 			{ "text": "The Inca",
 			  "uniques": [	"Comment [On a Condor's Wings: -100% Maintainence from [Road]s and [Railroad]s, Can build [Road]s and [Railroad]s [+100]% faster, +2 [Food] from every improved tile adjacent to at least one [Mountain]]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Sapa Inca Guard]: [Harbeilder]-like unit, [Imperial Bastions]]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Inca] [in capital] <hidden from users>", "Only available <if [The Inca] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Joseon",
 			  "uniques": [	"Comment [Hall of Worthies: +10% [Science] in all cities, +3 [Science] in all cities]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Geobukseon]: [Carrack]-like unit, [Ramming]]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Joseon] [in capital] <hidden from users>", "Only available <if [The Joseon] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Maasai",
 			  "uniques": [	"Comment [Pastoral Prowess: +25% Growth in all cities]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Maasai Morans]: [Arquebusier]-like unit, Does not require [Saltpetre], [Implacable]]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Maasai] [in capital] <hidden from users>", "Only available <if [The Maasai] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Maori",
 			  "uniques": [	"Comment [Thicker Than Water: +3 [Happiness] in all cities when at war, -50% Maintainence cost for all units when at war]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Waka Taua]: [Carrack]-like unit, 48 vs. 52 [Strength], [Rowers' Defiance]]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Maori] [in capital] <hidden from users>", "Only available <if [The Maori] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Ming",
 			  "uniques": [	"Comment [Grand Secretariat: Each city founded increases culture cost of policies 33% less than normal, +10 [Culture] from every adopted Political policy]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Rocket Cart]: [Arquebusier]-like unit, 45 vs. 39 [Ranged Strength], 40 vs. 30 [Strength], Must set up to ranged attack]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Ming] [in capital] <hidden from users>", "Only available <if [The Ming] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Mughals",
 			  "uniques": [	"Comment [Imperial Magnificence: +0 % [Production] in all cities]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Gajnal]: [Arquebusier]-like unit, 4 vs. 2 [Movement], +50% [Strength] vs. cities]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Mughals] [in capital] <hidden from users>", "Only available <if [The Mughals] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Ottomans",
 			  "uniques": [	"Comment [Supremacy of Fire: +50% [Prodcution] towards constructing [Siege] units, +20% Strength for [Siege] units]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Janissary]: [Musketeer]-like unit, [Siege Mastery]]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Ottomans] [in capital] <hidden from users>", "Only available <if [The Ottomans] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Poles",
 			  "uniques": [	"Comment [Deadly Ramparts: +30 Strength for cities, +1 [Happiness] in all cities]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Winged Hussar]: [Harbeilder]-like unit, 4 vs. 2 [Movement], +50% Strength vs. all land units, Requires [Horses], [Charge Master]]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Poles] [in capital] <hidden from users>", "Only available <if [The Poles] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Spanish",
 			  "uniques": [	"Comment [Honor and Glory: +15% [Strength] for Wounded units]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Conquistador]: [Musketeer]-like unit, [El Dorado]]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Spanish] [in capital] <hidden from users>", "Only available <if [The Spanish] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Swiss",
 			  "uniques": [	"Comment [Inhospitable Terrain: Enemy [Land] units must spend 1 extra movement points when inside your territory, Allied City-States will occasionally gift Great People]",
-				  	"Comment [[Fluyt]: [Carrack]-like unit, Double Movement on [Coast]]",
+				  	"Comment [[Reisläufer]: [Harbeilder]-like unit, Can move immediately once bought, [Defender]]",
 				  	"Comment [[V.O.C Warehouse]: +10 [Gold], +2 [Gold] from every [Trader] in this city, Must be on the Coast]",
 				  "Gain a free [The Swiss] [in capital] <hidden from users>", "Only available <if [The Swiss] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
