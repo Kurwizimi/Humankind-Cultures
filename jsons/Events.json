@@ -461,7 +461,7 @@
 			{ "text": "The Hawaiians",
 			  "uniques": [	"Comment [Cape of Feathers: +5 [Culture] from every [Engineer] ]",
 				  	"Comment [[Koa Warrior]: [Line Infantry]-like unit, [Implacable] ]",
-				  	"Comment [[Loko Kuapā]: +2 [Food], +1 [Food] for every adjacent [Coast], Must have atleast 3 neighbouring [Land] tiles, [Coast][Lakes]"],
+				  	"Comment [[Loko Kuapā]: +2 [Food], +1 [Food] for every adjacent [Coast], Must have atleast 3 neighbouring [Land] tiles, [Coast][Lakes]",
 				  "Gain a free [The Hawaiians] [in capital] <hidden from users>", "Only available <if [The Hawaiians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Italians",
