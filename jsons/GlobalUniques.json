@@ -198,12 +198,12 @@
 	"[-100]% maintenance on road & railroads <for [Major] Civilizations> <if [The Inca] is constructed>",							//Inca
 	"Can build [Road] improvements at a [+100]% rate <for [Major] Civilizations> <if [The Inca] is constructed>",
 	"Can build [Railroad] improvements at a [+100]% rate <for [Major] Civilizations> <if [The Inca] is constructed>",
-	"[+1 Food] from every [improved] <in tiles adjacent to [Mountain] tiles> <for [Major] Civilizations> <if [The Inca] is constructed>",
+	"[+1 Food] from every [improved] <for [Major] Civilizations> <if [The Inca] is constructed> <in tiles adjacent to [Mountain] tiles> ",
 
 	"[+10]% [Science] [in all cities] <for [Major] Civilizations> <if [The Joseon] is constructed>",							//Joseon
 	"[+3 Science] [in all cities] <for [Major] Civilizations> <if [The Joseon] is constructed>",
 
-	"[+25]% growth [in all cities] <for [Major] Civilizations> <if [The Masaai] is constructed>",								//Masaai
+	"[+25]% growth [in all cities] <for [Major] Civilizations> <if [The Maasai] is constructed>",								//Maasai
 
 	"[+3 Happiness] [in all cities] <when at war> <for [Major] Civilizations> <if [The Maori] is constructed>",						//Maori
 	"[-50]% maintenance costs <for [All] units> <when at war> <for [Major] Civilizations> <if [The Maori] is constructed>",
@@ -232,13 +232,13 @@
 
 
 	//Industrial
-	"[+2 Food] from every [Strategic] <for [Major] Civilizations> <if [The Argentinians] is constructed>",							//Argentinians
-	"[+2 Gold] from every [Luxury] <for [Major] Civilizations> <if [The Argentinians] is constructed>",
+	"[+2 Food] from every [Strategic resource] <for [Major] Civilizations> <if [The Argentinians] is constructed>",						//Argentinians
+	"[+2 Gold] from every [Luxury resource] <for [Major] Civilizations> <if [The Argentinians] is constructed>",
 		
 	"[+1 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Austro-Hungarians] is constructed>",				//Austro-Hungarian
 	"[+1 Culture] from every [Culture] <for [Major] Civilizations> <if [The Austro-Hungarians] is constructed>",
 
-	"[+10 Gold, +10 Science] [in Capital] <for every [Cities]> <for [Major] Civilizations> <if [The British] is constructed>",				//British
+	"[+10 Gold, +10 Science] [in capital] <for every [Cities]> <for [Major] Civilizations> <if [The British] is constructed>",				//British
 
 	"[+10 Science] [in all cities with a garrison] <for [Major] Civilizations> <if [The Ethiopians] is constructed>",					//Ethiopians
 	"[+2 Science] <for every [[Land] Units]> <for [Major] Civilizations> <if [The Ethiopians] is constructed>",
