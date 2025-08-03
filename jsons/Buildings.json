@@ -181,8 +181,7 @@
 		"cost": 187,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["[+2 Gold, +2 Food] from [Luxury] tiles [in this city]",
-			"Must have an owned [Luxury] within [2] tiles"],
+		"uniques": ["[+2 Gold, +2 Food] from [Luxury resource] tiles [in this city]"],
 		"requiredTech": "Irrigation",
 		"quote": "The Hanging Gardens of Babylon! Worth a cooling visit during a hot summer -- regardless of what city they are built in."
 	},
@@ -694,7 +693,7 @@
 		"name": "Sacred Mound",
 		"faith": 3,
 		"production": 3,
-		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]", "Emblematic District", "Only available <if [The Mississipians] is constructed>"],
+		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]", "Emblematic District", "Only available <if [The Mississippians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Feudalism"
 	},
@@ -1453,7 +1452,7 @@
 		"name": "Strip Mining Complex",
 		"specialistSlots": {"Engineer": 1},
 		"production": 10,
-		"uniques": ["[+2 Production] from every [Strategic] <in this city>",
+		"uniques": ["[+2 Production] from every [Strategic resource] <in this city>",
 			"Emblematic District", "Only available <if [The Australians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Continuous Track"
