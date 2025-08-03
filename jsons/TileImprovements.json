@@ -486,9 +486,28 @@
 
 
 
-
 	
-	
+	//Ethiopian
+		{
+        	"name": "Amba",
+       	 	"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+        	"turnsToBuild": 7,
+        	"techRequired": "Line Formation",
+        	"uniques": ["Gives a defensive bonus of [60]%", "Only available <if [The Mexicans] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+        	"shortcutKey": "A"
+   	 },
+	//Hawaiian
+		{
+        	"name": "Loko Kuapā",
+       	 	"terrainsCanBeBuiltOn": ["Coast", "Lakes"],
+		"food": 2,
+        	"turnsToBuild": 7,
+        	"techRequired": "Guerilla Warfare",
+        	"uniques": ["[+1 Food] for each adjacent [Coast]", "Only available <with [3] to [6] neighboring [Land] tiles>", "Emblematic District",
+			"Only available <if [The Hawaiians] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+        	"shortcutKey": "L"
+   	 },
 	//Mexican
 		{
         	"name": "Hacienda",
@@ -500,6 +519,21 @@
 			"Only available <if [The Mexicans] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "H"
    	 },
+	//Russian
+		{
+        	"name": "Sobor",
+       	 	"terrainsCanBeBuiltOn": ["Tundra","Plains","Grassland","Desert","Hill"],
+		"culture": 3,
+		"happiness": 1,
+        	"turnsToBuild": 7,
+        	"techRequired": "Mechanisation",
+        	"uniques": ["Only available <with [0] to [0] neighboring [Sobor] tiles>", "Emblematic District",
+			"Only available <if [The Russians] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+        	"shortcutKey": "S"
+   	 },
+	
+
+	
 	//Miṣriyyūn
 		{
         	"name": "Archeological Dig",

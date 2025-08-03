@@ -39,6 +39,10 @@
 			"[+2 Faith] [in all cities] <when number of [Tradition] is more than [Progress]>",
 			"[+2 Science] [in all cities] <when number of [Progress] is more than [Tradition]>",
 
+			//Tile Improvement Stuff
+			"[Land] units gain the [Amba ability] promotion <for [Major] Civilizations> <if [The Ethiopians] is constructed>",
+			"[+2 Culture, +3 Faith] from every [Land] <with [1] to [6] neighboring [Sobor] tiles>",
+
 
 	//Ancient
 	"[+1] Movement <for [Land] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",							//Assyrians
@@ -227,11 +231,17 @@
 
 
 
-		
-
 	//Industrial
+	"[+2 Food] from every [Strategic] <for [Major] Civilizations> <if [The Argentinians] is constructed>",							//Argentinians
+	"[+2 Gold] from every [Luxury] <for [Major] Civilizations> <if [The Argentinians] is constructed>",
+		
 	"[+1 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Austro-Hungarians] is constructed>",				//Austro-Hungarian
 	"[+1 Culture] from every [Culture] <for [Major] Civilizations> <if [The Austro-Hungarians] is constructed>",
+
+	"[+10 Gold, +10 Science] [in Capital] <for every [Cities]> <for [Major] Civilizations> <if [The British] is constructed>",				//British
+
+	"[+10 Science] [in all cities with a garrison] <for [Major] Civilizations> <if [The Ethiopians] is constructed>",					//Ethiopians
+	"[+2 Science] <for every [[Land] Units]> <for [Major] Civilizations> <if [The Ethiopians] is constructed>",
 		
 	"[+10]% [Science] <for [Major] Civilizations> <if [The French] is constructed>",									//French
 
@@ -239,7 +249,28 @@
 	"[+15]% Strength <for [Water] units> <for [Major] Civilizations> <if [The Germans] is constructed>",
 	"[+15]% Strength <for [Air] units> <for [Major] Civilizations> <if [The Germans] is constructed>",
 
+	"[+5 Culture] from every [Engineer] <for [Major] Civilizations> <if [The Hawaiians] is constructed>",							//Hawaiians
+
+	"[+1 Culture, +1 Happiness] [in all cities] <for [Major] Civilizations> <if [The Italians] is constructed>",						//Italians
+	"[+50]% Production when constructing [Happiness] buildings [in all cities] <for [Major] Civilizations> <if [The Italians] is constructed>",	
+
 	"[+10]% [Food] [in all cities] <for [Major] Civilizations> <if [The Mexicans] is constructed>",								//Mexican
+
+	"[+10]% Production when constructing [All] wonders [in all cities] <for [Major] Civilizations> <if [The Persians] is constructed>",			//Persians
+	"Can build [All] improvements at a [+25]% rate <for [Major] Civilizations> <if [The Persians] is constructed>",
+
+	"[+25]% Production when constructing [Settler] units [in all cities] <for [Major] Civilizations> <if [The Russians] is constructed>",			//Russians
+	"[+25]% Production when constructing [Bagèndí Pioneers] units [in all cities] <for [Major] Civilizations> <if [The Russians] is constructed>",
+	"[-25]% Culture cost of natural border growth [in all cities] <for [Major] Civilizations> <if [The Russians] is constructed>",
+	"[-25]% Gold cost of acquiring tiles [in all cities] <for [Major] Civilizations> <if [The Russians] is constructed>",
+
+	"[+3]% [Science] [in all cities] <for every [Remaining [All] Civilizations]> <for [Major] Civilizations> <if [The Scots] is constructed>",		//Scots
+
+	"[+4 Gold, +4 Production] from each Trade Route <for [Major] Civilizations> <if [The Siamese] is constructed>",						//Siamese
+
+	"All healing effects doubled <for [Major] Civilizations> <if [The Zulu] is constructed>",								//Zulu	
+	"[+15]% Strength <for [All] units> <when above [99] HP> <for [Major] Civilizations> <if [The Zulu] is constructed>",	
+
 
 
 	//Contemporary

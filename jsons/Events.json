@@ -422,11 +422,29 @@
 		"name": "Industrial",
 		"text": "Industrial Culture Pick",
 		"choices": [
+			{ "text": "The Argentinians",
+			  "uniques": [	"Comment [Land Rush: +2 [Food] from every Strategic resource, +2 [Gold] from every Luxury resource]",
+				  	"Comment [[Gaucho]: [Dragoon]-like unit, [Boleadoras] ]",
+				  	"Comment [[Saladero]: +1 [Food] from every [Cattle] in this city, Provides 1 [Salted Beef]]",
+				  "Gain a free [The Argentinians] [in capital] <hidden from users>", "Only available <if [The Argentinians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
 			{ "text": "The Austro-Hungarians",
 			  "uniques": [	"Comment [Emperor's Hand: +1 [Culture] from every Emblematic District, +1 [Culture] from every [Culture] building]",
-				  	"Comment [[Evidenzbureau Agents]: [Line Infantry]-like unit, May enter foreign tiles without open borders, [Stealth] ]",
+				  	"Comment [[Evidenzbureau Agent]: [Line Infantry]-like unit, May enter foreign tiles without open borders, [Stealth] ]",
 				  	"Comment [[Opernhaus]: +5 [Culture], +1 [Happiness] for every [Opernhaus] built]",
 				  "Gain a free [The Austro-Hungarians] [in capital] <hidden from users>", "Only available <if [The Austro-Hungarians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The British",
+			  "uniques": [	"Comment [Colonial Riches: +10 [Gold] +10 [Science] in Capitsl per every owned City]",
+				  	"Comment [[Redcoat]: [Line Infantry]-like unit, [Expedition] ]",
+				  	"Comment [[Colonial Office]: +5 [Gold], +25% [Gold], Only available in non-Capital cities]",
+				  "Gain a free [The British] [in capital] <hidden from users>", "Only available <if [The British] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Ethiopians",
+			  "uniques": [	"Comment [Military Modernisation: +10 [Science] in all cities with a garrison, +2 [Science] for every owned Land unit]",
+				  	"Comment [[Oromo Cavalry]: [Dragoon]-like unit, [Experienced] ]",
+				  	"Comment [[Amba]: +1 [Production], Gives a defensive bonus of +60%, Units gain +2 [Movement] when entering this improvement, [Hill]]",
+				  "Gain a free [The Ethiopians] [in capital] <hidden from users>", "Only available <if [The Ethiopians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The French",
 			  "uniques": [	"Comment [Enlightened Thinking: +10% [Science] in all cities ]",
@@ -437,14 +455,57 @@
 			{ "text": "The Germans",
 			  "uniques": [	"Comment [Iron Ordnance: +20% [Production] when constructing All units in all cities, +15% [Strength] for Naval and Air units ]",
 				  	"Comment [[Uboat]: [Torpedo Boat]-like unit, [Submarine] unit type vs. [Ranged Water] unit type, 60 vs. 55 [Strength], 1180 vs. 1290 [Cost] ]",
-				  	"Comment [[Coking Works]: +1 [Production] from every population in all cities, +1 [Engineer] slot ]",
+				  	"Comment [[Coking Works]: +1 [Production] from every population in this city, +1 [Engineer] slot ]",
 				  "Gain a free [The Germans] [in capital] <hidden from users>", "Only available <if [The Germans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Hawaiians",
+			  "uniques": [	"Comment [Cape of Feathers: +5 [Culture] from every [Engineer] ]",
+				  	"Comment [[Koa Warrior]: [Line Infantry]-like unit, [Implacable] ]",
+				  	"Comment [[Loko Kuapā]: +2 [Food], +1 [Food] for every adjacent [Coast], Must have atleast 3 neighbouring [Land] tiles, [Coast][Lakes]"],
+				  "Gain a free [The Hawaiians] [in capital] <hidden from users>", "Only available <if [The Hawaiians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Italians",
+			  "uniques": [	"Comment [Inspiring Virtuosos: +1 [Happiness +1 [Culture] in all cities, +50% [Production] towards constructing [Happiness] buildings]",
+				  	"Comment [[Alpini]: [Line Infantry]-like unit, [Mountaineer] ]",
+				  	"Comment [[Teatro]: +1 [Culture], +1 [Culture] from every [Trader] and [Researcher] in this city]",
+				  "Gain a free [The Italians] [in capital] <hidden from users>", "Only available <if [The Italians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
       
       			{ "text": "The Mexicans",
 			  "uniques": [	"Comment [Fields of Gold: +10% [Food] in all cities ]",
 				  	"Comment [[Soldaderas]: [Line Infantry]-like unit, 49 vs. 47 [Strength], [Guerilla Fighter] ]",
 				  	"Comment [[Hacienda]: +2 [Gold], +1 [Food] for each adjacent [Farm], Cannot be built nest to each other, [Plains][Grassland][Desert] ]",
 				  "Gain a free [The Mexicans] [in capital] <hidden from users>" ,"Only available <if [The Mexicans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Persians",
+			  "uniques": [	"Comment [Mighty Works: +10% [Production] when constructing all Wonders in all cities, Can build all improvements at a +25% rate]",
+				  	"Comment [[Jazayerchia]: [Line Infantry]-like unit, [Piercing] ]",
+				  	"Comment [[Caravanserai]: +5 [Production], +2 [Gold], +1 [Gold] from every Trade Route, +1 [Trader] slot ]",
+				  "Gain a free [The Persians] [in capital] <hidden from users>", "Only available <if [The Persians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Russians",
+			  "uniques": [	"Comment [Land and Glory: +25% [Production] when constructing [Settler] units in all cities, -25% [Culture] cost of natural border growth,  -25% [Gold] cost of aquiring tiles]",
+				  	"Comment [[Cossack]: [Dragoon]-like unit, 5 vs. 4 [Movement], [Born of the Steppe] ]",
+				  	"Comment [[Sobor]: +3 [Culture] +1 [Happiness], Grants +2 [Culture] +3 [Faith] on adjacent tiles, [Tundra][Plains][Grassland][Desert][Hill] ]",
+				  "Gain a free [The Russians] [in capital] <hidden from users>", "Only available <if [The Russians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Scots",
+			  "uniques": [	"Comment [Intellectual Ferment: +3% [Science] in all cities for every remaining Civilisaton]",
+				  	"Comment [[Highlander]: [Line Infantry]-like unit, [Highlander Charge] ]",
+				  	"Comment [[College]: +2 [science], +1 [Science] from every [Science] building in this city, +1 [Culture] from every [Faith] building in this city]",
+				  "Gain a free [The Scots] [in capital] <hidden from users>", "Only available <if [The Scots] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Siamese",
+			  "uniques": [	"Comment [Gilded Orchids: +4 [Production] +4 [Gold] from every Trade Route]",
+				  	"Comment [[Gatling Elephant]: [Heavy Machine Gun]-like unit, 4 vs. 2 [Movement], 50 vs. 45 [Strength] ]",
+				  	"Comment [[Floating Market]: +5 [Production], +1 [Gold] from every population in this city]",
+				  "Gain a free [The Siamese] [in capital] <hidden from users>", "Only available <if [The Siamese] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Zulu",
+			  "uniques": [	"Comment [Warrior's Pride: All healing effects doubled, +15% [Strength] for units at full health ]",
+				  	"Comment [[Impi]: [Line Infantry]-like unit, 42 vs. 47 [Strength], 1090 vs. 1290 [Cost], [Unstoppable]]",
+				  	"Comment [[Warrior's Izindlu]: +10 City Strength, +20 City Health, New military units start with 25XP in this city]",
+				  "Gain a free [The Zulu] [in capital] <hidden from users>", "Only available <if [The Zulu] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
+      
       
      			]
 	},

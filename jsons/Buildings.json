@@ -1117,6 +1117,14 @@
 		"requiredTech": "Electricity",
 		"quote": "The Eiffel Tower -- proof of what you can do with a bit of iron, a bit of math, and thousands of liters of paint."
 	},
+	//Argentinians
+	{
+		"name": "Saladero",
+		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]", "Provides [1] [Salted Beef]",
+			"Emblematic District", "Only available <if [The Argentinians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Nationhood"
+	},
 	//Austro-Hungarian
 	{
 		"name": "Opernhaus",
@@ -1125,6 +1133,16 @@
 			"Emblematic District", "Only available <if [The Austro-Hungarians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Encyclopedia"
+	},
+	//British
+	{
+		"name": "Colonial Office",
+		"gold": 5
+		"percentStatBonus": {"gold": 25},,
+		"uniques": [ "Only available <in cities without a [Palace]>",
+			"Emblematic District", "Only available <if [The British] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Carbine"
 	},
 	//French
 	{
@@ -1143,6 +1161,55 @@
 			"Emblematic District", "Only available <if [The Germans] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Mechanisation"
+	},
+	//Italians
+	{
+		"name": "Teatro",
+		"culture": 1,
+		"uniques": ["[+1 Culture] from every [Trader] <in this city>","[+1 Culture] from every [Researcher] <in this city>",
+			"Emblematic District", "Only available <if [The Italians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Urban Planning"
+	},
+	//Persians
+	{
+		"name": "Caravanserai",
+		"specialistSlots": {"Trader": 1},
+		"production": 5
+		"gold": 2,
+		"uniques": ["[+1 Gold] from each Trade Route",
+			"Emblematic District", "Only available <if [The Persians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Military Coordination"
+	},
+	//Scots
+	{
+		"name": "College",
+		"science": 2,
+		"uniques": ["[+1 Science] [in this city] <for every [[Science] Buildings]>","[+1 Culture] [in this city] <for every [[Faith] Buildings]>",
+			"Emblematic District", "Only available <if [The Scots] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Encyclopedia"
+	},
+	//Siamese
+	{
+		"name": "Floating Market",
+		"production" 5,
+		"uniques": ["[+1 Gold] per [1] population [in this city]",
+			"Emblematic District", "Only available <if [The Siamese] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Propeller"
+	},
+	//Zulu
+	{
+		"name": "Warrior's Izindlu",
+		"cityStrength": 10,
+		"cityHealth": 20,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Military] units start with [25] XP [in this city]",
+			"Emblematic District", "Only available <if [The Zulu] is constructed>"],
+		"requiredTech": "Line Formation",
+		
 	},
 
 	//CONTEMPORARY
@@ -1949,11 +2016,17 @@
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Dutch] is not constructed>", "Only available <if [The Edo] is not constructed>"],
 		"quote": "Seafood, sea power, and all of that with a sea view. One could do much worse.",
-		"requiredTech": "Agriculture"
 	},
 
 
 	//Industrial
+	{
+		"name": "The Argentinians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "With booming cities, bountiful lands, and thriving trade, it seems the Argentinians are ready to tango",
+	},
 	{
 		"name": "The Austro-Hungarians",
 		"cost": 1,
@@ -1961,6 +2034,20 @@
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "If other empires won't open their front doors to your artists and thinkers, you can send in your agents the back way...",
 		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The British",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "We will see if the planet has now shrunk so much that the British empire can reach its arms around it",
+	},
+	{
+		"name": "The Ethiopians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Armed with military firepower and progressive ambitions, where will the Ethiopian Empire set its sights?",
 	},
 	{
 		"name": "The French",
@@ -1981,6 +2068,20 @@
 		"requiredTech": "Agriculture"
 	},
 	{
+		"name": "The Hawaiians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Their sparkling oceans are a source of the Hawaiians' powerful traditions, and a rich but delicate resource for the future.",
+	},
+	{
+		"name": "The Italians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Even centuries after the Renaissance, Italy remains a hotbed of painting, culture, ideas, and short tempers.",
+	},
+	{
 		"name": "The Mexicans",
 		"cost": 1,
 		"isWonder": true,
@@ -1988,6 +2089,41 @@
 			"Only available <if [The French] is not constructed>", "Only available <if [The Germans] is not constructed>"],
 		"quote": "Everyone talks about Mexico's revolutionary heroes, mural painters, and passionate people. Please; don't forget the agave.",
 		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Persians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The grand bridge between the great Safavid empire and modern Iran; a difficult job in a challenging place.",
+	},
+	{
+		"name": "The Russians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Incredible writers, poets, painters, and ballet stars — but they do have to suffer through the most terrible winters for their art.",
+	},
+	{
+		"name": "The Scots",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Home to countless great philosophers, scientists, and poets! And, of course, a fair number of bagpipes.",
+	},
+	{
+		"name": "The Siamese",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Forward to the future! On elephants! Armed with Gatling guns...",
+	},
+	{
+		"name": "The Zulu",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The world is holding its breath to see what this famously military culture wants — and how it gets it.",
 	},
 
 
