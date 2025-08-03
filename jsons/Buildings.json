@@ -1194,7 +1194,7 @@
 	//Siamese
 	{
 		"name": "Floating Market",
-		"production" 5,
+		"production": 5,
 		"uniques": ["[+1 Gold] per [1] population [in this city]",
 			"Emblematic District", "Only available <if [The Siamese] is constructed>"],
 		"hurryCostModifier": 25,
