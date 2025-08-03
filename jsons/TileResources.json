@@ -580,6 +580,11 @@
 		"resourceType": "Luxury",
 		"uniques": ["Doesn't generate naturally"]
 	},
+	{
+		"name": "Salted Beef",
+		"resourceType": "Luxury",
+		"uniques": ["Doesn't generate naturally"]
+	},
 
 
 
@@ -591,7 +596,7 @@
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
-					"Not shown on world screen",
+					"Not shown on world screen <when number of [Individualism] is more than [Collectivism]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -602,7 +607,7 @@
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
-					"Not shown on world screen",
+					"Not shown on world screen <when number of [Collectivism] is more than [Individualism]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -613,7 +618,7 @@
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
-					"Not shown on world screen",
+					"Not shown on world screen <when number of [World] is more than [Homeland]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -624,7 +629,7 @@
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
-					"Not shown on world screen",
+					"Not shown on world screen  <when number of [Homeland] is more than [World]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -635,7 +640,7 @@
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
-					"Not shown on world screen",
+					"Not shown on world screen <when number of [Authority] is more than [Liberty]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -646,7 +651,7 @@
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
-					"Not shown on world screen",
+					"Not shown on world screen <when number of [Liberty] is more than [Authority]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -657,7 +662,7 @@
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
-					"Not shown on world screen",
+					"Not shown on world screen  <when number of [Progress] is more than [Tradition]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -668,7 +673,7 @@
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
-					"Not shown on world screen",
+					"Not shown on world screen <when number of [Tradition] is more than [Progress]>",
 					"Doesn't generate naturally"
 		]
     	},
