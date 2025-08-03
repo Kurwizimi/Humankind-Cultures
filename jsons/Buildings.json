@@ -1138,7 +1138,7 @@
 	{
 		"name": "Colonial Office",
 		"gold": 5
-		"percentStatBonus": {"gold": 25},,
+		"percentStatBonus": {"gold": 25},
 		"uniques": [ "Only available <in cities without a [Palace]>",
 			"Emblematic District", "Only available <if [The British] is constructed>"],
 		"hurryCostModifier": 25,
