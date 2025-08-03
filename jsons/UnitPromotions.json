@@ -815,24 +815,57 @@
         	"name": "Charge Master",
         	"uniques": ["[+50]% Strength <when below [50] HP>"]
    	},
-	{
+		{
         	"name": "El Dorado",
         	"uniques": ["Earn [200]% of the damage done to [All] units as [Gold]"]
    	},
-	{
+		{
         	"name": "Defender",
         	"uniques": ["[+10]% Strength <when defending>"]
    	},
-
-
-
-
-
-	
 		{
         	"name": "Inner Sea Mastodonte",
         	"uniques": ["[+30]% Strength <when fighting in [Coast] tiles>"]
    	},
+
+	//Industrial
+		{
+        	"name": "Boleadoras",
+        	"uniques": ["[+10]% Strength <when attacking>"]
+   	},
+		{
+        	"name": "Expedition",
+        	"uniques": ["[This Unit] heals [20] HP <every [4] turns>"]
+   	},
+		{
+        	"name": "Experienced",
+        	"uniques": ["[+75]% Strength <for [1] turns> <upon being promoted>"]
+   	},
+		{
+        	"name": "Mountaineer",
+        	"uniques": ["Double movement in [Hill]", "[+10]% Strength <when fighting in [Hill] tiles>"]
+   	},
+		{
+        	"name": "Piercing",
+        	"uniques": ["[+10]% Strength <when attacking>"]
+   	},
+		{
+        	"name": "Born of the Steppe",
+        	"uniques": ["[+1] Movement"]
+   	},
+		{
+        	"name": "Highlander Charge",
+        	"uniques": ["[+1] Movement", "[+10]% Strength <when fighting in [Hill] tiles>"]
+   	},
+	{
+        	"name": "Unstoppable",
+        	"uniques": ["[This Unit] heals [25] HP <upon gaining a [Impi] unit>"]
+   	},
+	
+
+
+
+	
 		{
         	"name": "Stealth",
         	"uniques": ["Invisible to non-adjacent units"]
