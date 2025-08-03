@@ -227,9 +227,9 @@
 
 
 
-		
-
 	//Industrial
+
+		
 	"[+1 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Austro-Hungarians] is constructed>",				//Austro-Hungarian
 	"[+1 Culture] from every [Culture] <for [Major] Civilizations> <if [The Austro-Hungarians] is constructed>",
 		
