@@ -842,6 +842,10 @@
         	"uniques": ["[+75]% Strength <for [1] turns> <upon being promoted>"]
    	},
 		{
+        	"name": "Amba ability",
+       		"uniques": ["[This Unit] gains [2] movement <upon entering a [Amba] tile>"]
+    	},
+		{
         	"name": "Mountaineer",
         	"uniques": ["Double movement in [Hill]", "[+10]% Strength <when fighting in [Hill] tiles>"]
    	},
