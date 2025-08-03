@@ -1865,7 +1865,7 @@
 		"movement": 2,
 		"strength": 54,
 		"cost": 3700,
-		"uniques": ["Invisible to non-adjacent units","[+15]% to Flank Attack bonuses", "[+10]% Strength <when fighting in [tileFilter] tiles>","[+10]% Strength <when fighting in [tileFilter] tiles>",
+		"uniques": ["Invisible to non-adjacent units","[+15]% to Flank Attack bonuses", "[+10]% Strength <when fighting in [Jungle] tiles>","[+10]% Strength <when fighting in [Forest] tiles>",
 			"Only available <if [The Brasilians] is constructed>", "Emblematic Unit"],
 		"requiredTech": "Covert Ops",
 		"attackSound": "shot"
