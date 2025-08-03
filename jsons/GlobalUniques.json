@@ -39,6 +39,10 @@
 			"[+2 Faith] [in all cities] <when number of [Tradition] is more than [Progress]>",
 			"[+2 Science] [in all cities] <when number of [Progress] is more than [Tradition]>",
 
+			//Tile Improvement Stuff
+			"[Land] units gain the [Amba ability] promotion <for [Major] Civilizations> <if [The Ethiopians] is constructed>",
+			"[+2 Culture, +3 Faith] from every [Land] <with [1] to [6] neighboring [Sobor] tiles>",
+
 
 	//Ancient
 	"[+1] Movement <for [Land] units> <for [Major] Civilizations> <if [The Assyrians] is constructed>",							//Assyrians
