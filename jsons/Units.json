@@ -1392,9 +1392,24 @@
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
-	//Mexican
+	//Argentinian
 	{
-		"name": "Evidenzbureau Agents",
+		"name": "Gaucho",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 45,
+		"cost": 2575,
+		"requiredTech": "Carbine",
+		"obsoleteTech": "Composite Armour",
+		"requiredResource": "Horses",
+		"upgradesTo": "Armoured Personnel Carrier",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Argentinians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Boleadoras"],
+		"attackSound": "horse"
+	},
+	//Austro-Hungarian
+	{
+		"name": "Evidenzbureau Agent",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 47,
@@ -1405,6 +1420,35 @@
 		"obsoleteTech": "Amphibious Warfare",
 		"upgradesTo": "Rifles",
 		"attackSound": "shot"
+	},
+	//British
+	{
+		"name": "Redcoat",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 47,
+		"cost": 1290,
+		"requiredTech": "Line Formation",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The British] is constructed>", "Emblematic Unit"],
+		"promotions": ["Expedition"],
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Rifles",
+		"attackSound": "shot"
+	},
+	//Ethiopians
+	{
+		"name": "Oromo Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 45,
+		"cost": 2575,
+		"requiredTech": "Carbine",
+		"obsoleteTech": "Composite Armour",
+		"requiredResource": "Horses",
+		"upgradesTo": "Armoured Personnel Carrier",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Ethiopians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Experienced"],
+		"attackSound": "horse"
 	},
 	//French
 	{
@@ -1435,6 +1479,34 @@
 		"uniques": ["Invisible to others", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit",  "Only available <if [The Germans] is constructed>", "Emblematic Unit"],
 		"attackSound": "torpedo"
 	},
+	//Hawaiian
+	{
+		"name": "Koa Warrior",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 47,
+		"cost": 1290,
+		"requiredTech": "Line Formation",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Hawaiians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Implacable"],
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Rifles",
+		"attackSound": "shot"
+	},
+	//Italians
+	{
+		"name": "Alpini",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 47,
+		"cost": 1290,
+		"requiredTech": "Line Formation",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Italians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Mountaineer"],
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Rifles",
+		"attackSound": "shot"
+	},
 	//Mexican
 	{
 		"name": "Soldaderas",
@@ -1445,6 +1517,78 @@
 		"requiredTech": "Guerilla Warfare",
 		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Mexicans] is constructed>", "Emblematic Unit"],
 		"promotions": ["Guerilla Fighter"],
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Rifles",
+		"attackSound": "shot"
+	},
+	//Persians
+	{
+		"name": "Jazayerchia",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 47,
+		"cost": 1290,
+		"requiredTech": "Line Formation",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Persians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Piercing"],
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Rifles",
+		"attackSound": "shot"
+	},
+	//Russians
+	{
+		"name": "Cossack",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 45,
+		"cost": 2575,
+		"requiredTech": "Carbine",
+		"obsoleteTech": "Composite Armour",
+		"requiredResource": "Horses",
+		"upgradesTo": "Armoured Personnel Carrier",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <if [The Russians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Born of the Steppe"],
+		"attackSound": "horse"
+	},
+	//Scots
+	{
+		"name": "Highlander",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 47,
+		"cost": 1290,
+		"requiredTech": "Line Formation",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Scots] is constructed>", "Emblematic Unit"],
+		"promotions": ["Highlander Charge"],
+		"obsoleteTech": "Amphibious Warfare",
+		"upgradesTo": "Rifles",
+		"attackSound": "shot"
+	},
+	//Siamese
+	{
+		"name": "Gatling Elephant",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 4,
+		"strength": 50,
+		"rangedStrength": 50,
+		"cost": 5155,
+		"requiredTech": "Trench Warfare",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Siamese] is constructed>", "Emblematic Unit"],
+		"obsoleteTech": "Composite Armour"
+		"upgradesTo": "Armoured Personnel Carrier",
+		"attackSound": "machinegun"
+	},
+	//Zulu
+	{
+		"name": "Impi",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 42,
+		"cost": 1090,
+		"requiredTech": "Line Formation",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Zulu] is constructed>", "Emblematic Unit"],
+		"promotions": ["Unstoppable"],
 		"obsoleteTech": "Amphibious Warfare",
 		"upgradesTo": "Rifles",
 		"attackSound": "shot"
