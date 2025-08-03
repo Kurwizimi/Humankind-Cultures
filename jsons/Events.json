@@ -174,7 +174,7 @@
 			{ "text": "The Nazca",
 			  "uniques": [	"Comment [Written in the Land: +50% Yeilds from Natural Wonders]",
 				  	"Comment [[Headhunter]: [Swordsman]-like unit, 180 vs. 90 Cost, [Shared Ardor]]",
-				  	"Comment [[Nazca Lines]: +1 [Faith +1 [Culture] from evry Emblematic District in this city]",
+				  	"Comment [[Nazca Lines]: +1 [Faith] +1 [Culture] from evry Emblematic District in this city]",
 				  "Gain a free [The Nazca] [in capital] <hidden from users>", "Only available <if [The Nazca] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Polynesians",
@@ -461,11 +461,11 @@
 			{ "text": "The Hawaiians",
 			  "uniques": [	"Comment [Cape of Feathers: +5 [Culture] from every [Engineer] ]",
 				  	"Comment [[Koa Warrior]: [Line Infantry]-like unit, [Implacable] ]",
-				  	"Comment [[Loko Kuapā]: +2 [Food], +1 [Food] for every adjacent [Coast], Must have atleast 3 neighbouring [Land] tiles, [Coast][Lakes]",
+				  	"Comment [[Loko Kuapā]: +2 [Food], +1 [Food] for every adjacent [Coast], Must have atleast 3 neighbouring [Land] tiles, [Coast][Lakes] ]",
 				  "Gain a free [The Hawaiians] [in capital] <hidden from users>", "Only available <if [The Hawaiians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Italians",
-			  "uniques": [	"Comment [Inspiring Virtuosos: +1 [Happiness +1 [Culture] in all cities, +50% [Production] towards constructing [Happiness] buildings]",
+			  "uniques": [	"Comment [Inspiring Virtuosos: +1 [Happiness] +1 [Culture] in all cities, +50% [Production] towards constructing [Happiness] buildings]",
 				  	"Comment [[Alpini]: [Line Infantry]-like unit, [Mountaineer] ]",
 				  	"Comment [[Teatro]: +1 [Culture], +1 [Culture] from every [Trader] and [Researcher] in this city]",
 				  "Gain a free [The Italians] [in capital] <hidden from users>", "Only available <if [The Italians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
