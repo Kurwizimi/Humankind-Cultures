@@ -1117,6 +1117,14 @@
 		"requiredTech": "Electricity",
 		"quote": "The Eiffel Tower -- proof of what you can do with a bit of iron, a bit of math, and thousands of liters of paint."
 	},
+	//Argentinians
+	{
+		"name": "Saladero",
+		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]", "Provides [1] [Salted Beef]",
+			"Emblematic District", "Only available <if [The Argentinians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Nationhood"
+	},
 	//Austro-Hungarian
 	{
 		"name": "Opernhaus",
@@ -1125,6 +1133,16 @@
 			"Emblematic District", "Only available <if [The Austro-Hungarians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Encyclopedia"
+	},
+	//British
+	{
+		"name": "Colonial Office",
+		"gold": 5
+		"percentStatBonus": {"gold": 25},,
+		"uniques": [ "Only available <in cities without a [Palace]>",
+			"Emblematic District", "Only available <if [The British] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Carbine"
 	},
 	//French
 	{
@@ -1143,6 +1161,55 @@
 			"Emblematic District", "Only available <if [The Germans] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Mechanisation"
+	},
+	//Italians
+	{
+		"name": "Teatro",
+		"culture": 1,
+		"uniques": ["[+1 Culture] from every [Trader] <in this city>","[+1 Culture] from every [Researcher] <in this city>",
+			"Emblematic District", "Only available <if [The Italians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Urban Planning"
+	},
+	//Persians
+	{
+		"name": "Caravanserai",
+		"specialistSlots": {"Trader": 1},
+		"production": 5
+		"gold": 2,
+		"uniques": ["[+1 Gold] from each Trade Route",
+			"Emblematic District", "Only available <if [The Persians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Military Coordination"
+	},
+	//Scots
+	{
+		"name": "College",
+		"science": 2,
+		"uniques": ["[+1 Science] [in this city] <for every [[Science] Buildings]>","[+1 Culture] [in this city] <for every [[Faith] Buildings]>",
+			"Emblematic District", "Only available <if [The Scots] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Encyclopedia"
+	},
+	//Siamese
+	{
+		"name": "Floating Market",
+		"production" 5,
+		"uniques": ["[+1 Gold] per [1] population [in this city]",
+			"Emblematic District", "Only available <if [The Siamese] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Propeller"
+	},
+	//Zulu
+	{
+		"name": "Warrior's Izindlu",
+		"cityStrength": 10,
+		"cityHealth": 20,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Military] units start with [25] XP [in this city]",
+			"Emblematic District", "Only available <if [The Zulu] is constructed>"],
+		"requiredTech": "Line Formation",
+		
 	},
 
 	//CONTEMPORARY
