@@ -274,15 +274,44 @@
 
 
 	//Contemporary
-	 "[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Australians] is constructed>",						//Australian
+	"[+2 Culture, +1 Gold] from every [resource] <for [Major] Civilizations> <if [The Americans] is constructed>",						//Americans
+		
+	"[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Australians] is constructed>",						//Australian
 
 	"[+3 Food] from every [Forest] <for [Major] Civilizations> <if [The Brasilians] is constructed>",							//Brasilian
 	"[+3 Food] from every [Jungle] <for [Major] Civilizations> <if [The Brasilians] is constructed>",			
-	"[+2 Food] from every [improved] <for [Major] Civilizations> <if [The Brasilians] is constructed>",			
+	"[+2 Food] from every [improved] <for [Major] Civilizations> <if [The Brasilians] is constructed>",		
 
-	 "[+4 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Miṣriyyūn] is constructed>",					//Miṣriyyūn
+	"[+15]% [Gold] [in all cities] <for [Major] Civilizations> <if [The Chinese] is constructed>",								//Chinese
 
-	 "[+2 Food] per [1] population [in all cities] <for [Major] Civilizations> <if [The Turks] is constructed>",						//Turk
+	"[+20]% Strength <for [All] units> <for [5] turns> <upon declaring friendship> <for [Major] Civilizations> <if [The Cubans] is constructed>",		//Cubans
+	"[+25]% [Culture] [in all cities] <for [5] turns> <upon declaring friendship> <for [Major] Civilizations> <if [The Cubans] is constructed>",
+
+	"[+4 Culture] from every [Emblematic District] <for [Major] Civilizations> <if [The Miṣriyyūn] is constructed>",					//Miṣriyyūn
+
+	"[+4 Culture] [in all cities]  <for [Major] Civilizations> <if [The Indians] is constructed>",								//Indians
+	"[+3]% [Gold] [in capital] <for every [Cities]> <for [Major] Civilizations> <if [The Indians] is constructed>",
+
+	"[+20]% [Science] <for [Major] Civilizations> <if [The Japanese] is constructed>",									//Japanese
+
+	"[+3 Science] from every [Coast] <for [Major] Civilizations> <if [The New Zealanders] is constructed>",							//New Zealanders
+	"[+3 Science] from every [Ocean] <for [Major] Civilizations> <if [The New Zealanders] is constructed>",		
+
+	"[+3 Production] from every [Farmer] <for [Major] Civilizations> <if [The Nigerians] is constructed>",							//Nigerians
+	"[+4 Food] from every [Oil] <for [Major] Civilizations> <if [The Nigerians] is constructed>",
+
+	"[+1 Happiness] [in all cities] <for every [Cities]> <for [Major] Civilizations> <if [The Singaporeans] is constructed>",				//Singaporeans
+	"Resting point for Influence with City-States is increased by [35]  <for [Major] Civilizations> <if [The Singaporeans] is constructed>",
+	"Cannot build [Settler] units <during the [Early Modern era]> <for [Major] Civilizations> <if [The Singaporeans] is constructed>",
+	"Cannot build [Bagèndí Pioneers] units <during the [Early Modern era]> <for [Major] Civilizations> <if [The Singaporeans] is constructed>",
+
+	"[+20]% Production when constructing [All] units [in all cities] <for [Major] Civilizations> <if [The Soviets] is constructed>",			//Soviets
+	"[+15]% Strength <for [All] units> <for [Major] Civilizations> <if [The Soviets] is constructed>",
+
+	"[+3 Science] from every [Science] <for [Major] Civilizations> <if [The Swedes] is constructed>",							//Swedes
+	"[+1 Science] per [2] population [in all cities] <for [Major] Civilizations> <if [The Swedes] is constructed>",
+
+	"[+2 Food] per [1] population [in all cities] <for [Major] Civilizations> <if [The Turks] is constructed>",						//Turk
 	
 
 

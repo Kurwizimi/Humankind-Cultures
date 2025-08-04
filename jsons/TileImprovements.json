@@ -470,7 +470,7 @@
 		"techRequired": "Gunpowder Warfare",
 		"shortcutKey": "T"
 	},
-	//Maori
+	//Poles
 	{
 		"name": "Barbican",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -478,8 +478,8 @@
 		"happiness": 1,
 		"turnsToBuild": 7,
 		"uniques": ["[+1 Culture] for each adjacent [Barbican]", "Gives a defensive bonus of [60]%",
-			 "Only available <with [1] to [1] neighboring [City center] tiles>",
-           		"Emblematic District", "Only available <if [The Maori] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+			 "Only available <with [1] to [6] neighboring [City center] tiles>",
+           		"Emblematic District", "Only available <if [The Poles] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
 		"techRequired": "Gunpowder Warfare",
 		"shortcutKey": "T"
 	},
@@ -544,6 +544,17 @@
         	"uniques": ["[+3 Science] for each adjacent [Natural Wonder]", "[+1 Culture] for each adjacent [City center]", "Emblematic District",
 			"Only available <if [The Miṣriyyūn] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "A"
+   	 },
+	//New Zealanders
+		{
+        	"name": "Polar Base",
+       	 	"terrainsCanBeBuiltOn": ["Tundra","Snow"],
+		"science": 1,
+        	"turnsToBuild": 7,
+        	"techRequired": "Suburbs",
+        	"uniques": ["[+2 Science, +1 Culture] for each adjacent [Snow]", "[+1 Culture] for each adjacent [Tundra]","Only available <with [0] to [0] neighboring [Polar base] tiles>",
+			"Emblematic District", "Only available <if [The New Zealanders] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+        	"shortcutKey": "P"
    	 },
 
 
