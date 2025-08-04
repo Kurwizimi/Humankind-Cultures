@@ -1447,6 +1447,18 @@
 		"requiredTech": "Suburbs",
 		"quote": "Impressive and dominating, Cristo Redentor removes any confusion about the importance of faith in everyday life."
 	},
+	//American
+	{
+		"name": "Defence Agency",
+		"cityStrength": 5,
+		"cityHealth": 10,
+		"gold": 5,
+		"science": 5,
+		"uniques": ["Emblematic District", "Only available <if [The Americans] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Radar",
+		"uniques": []
+	},
 	//Australian
 	{
 		"name": "Strip Mining Complex",
@@ -1467,6 +1479,91 @@
 			"Emblematic District", "Only available <if [The Brasilians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Mechanised Harvesting"
+	},
+	//Chinese
+	{
+		"name": "Congress",
+		"specialistSlots": {"Trader": 1},
+		"gold": 5,
+		"culture": 3,
+		"uniques": ["[+2 Gold] [in capital]", "Emblematic District", "Only available <if [The Chinese] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Engineering"
+	},
+	//Cubans
+	{
+		"name": "Empresa Farmacéutica",
+		"uniques": ["Provides [1] [Pharmaceuticals]", "[+3 Food] from every [Farmer] <when above [20] [Happiness]> <in this city> ","[+3 Production] from every [Engineer] <when above [20] [Happiness]> <in this city> ",
+			"[+3 Gold] from every [Trader] <when above [20] [Happiness]> <in this city> ","[+3 Science] from every [Researcher] <when above [20] [Happiness]> <in this city> ",
+			"Emblematic District", "Only available <if [The Cubans] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "World Wide Web"
+	},
+	//Indians
+	{
+		"name": "Ashram",
+		"culture": 5,
+		"faith": 3,
+		"uniques": ["[+1 Gold, +1 Science] from every [Faith] <in this city> ]", "Emblematic District", "Only available <if [The Indians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Mass Entertainment"
+	},
+	//Japanese
+	{
+		"name": "Robotics Lab",
+		"specialistSlots": {"Researcher": 1},
+		"production": 5,
+		"science": 5,
+		"uniques": ["Emblematic District", "Only available <if [The Japanese] is constructed>"], //++ Pollution
+		"hurryCostModifier": 25,
+		"requiredTech": "Automation"
+	},
+	//New Zealander
+	{
+		"name": "Sailing Club",
+		"culture": 10,
+		"happiness": 2,
+		"uniques": ["Must be next to [Coast]", "Emblematic District", "Only available <if [The New Zealanders] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Mass Entertainment"
+	},
+	//Nigerians
+	{
+		"name": "Oil Refinery",
+		"uniques": ["Provides [2] [Oil]", "Must be next to [Coast]",
+			"Emblematic District", "Only available <if [The Nigerians] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Power Lines"
+	},
+	//Singaporeans
+	{
+		"name": "Communal Housing",
+		"food": 3,
+		"production": 3,
+		"gold": 3,
+		"science": 3,
+		"culture": 3,
+		"uniques": ["Emblematic District", "Only available <if [The Singaporeans] is constructed>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Social Housing"
+	},
+	//Soviet
+	{
+		"name": "Arms Factory",
+		"production": 5,
+		"gold": 5,
+		"uniques": ["Provides [1] [Weapons]", "Emblematic District", "Only available <if [The Soviets] is constructed>"],//++++++++++ Pollution
+		"hurryCostModifier": 25,
+		"requiredTech": "Amphibious Warfare"
+	},
+	//Swedes
+	{
+		"name": "Institute",
+		"science": 1,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Emblematic District", "Only available <if [The Swedes] is constructed>"],//++++++++++ Pollution
+		"hurryCostModifier": 25,
+		"requiredTech": "Rocket Science"
 	},
 	//Turk
 	{
@@ -2128,12 +2225,20 @@
 
 	//Contemporary
 	{
+		"name": "The Americans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "All in this great land can live the American dream.",
+		"requiredTech": "Agriculture"
+	},
+	{
 		"name": "The Australians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Miṣriyyūn] is not constructed>", "Only available <if [The Turks] is not constructed>"],
-		"quote": "They hold a rather unique place in both geography and anthropology, the Australians. Though I have been told that the correct pronunciation is actually 'Strine'.",
+		"quote": "Those who stop dreaming are lost.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -2141,7 +2246,23 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "You may be known for your love of life, but you'll likely be feared for what your troops can do in the jungle",
+		"quote": "God is big, but the forest is bigger.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Chinese",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Behold the indomitable spirit of industriousness and bravery!",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Cubans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "We fear not the mighty, only our own ignorance",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -2150,7 +2271,63 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Australians] is not constructed>", "Only available <if [The Turks] is not constructed>"],
-		"quote": "The Egyptian past has shown ample examples of genius and innovation. Given that, I can't wait to see their glorious future!",
+		"quote": "All rivers flow from the Nile.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Indians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Another world is not only possible, she is on her way.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Japanese",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Silicon dreaming, while honoring the ancient ways, brings prosperity",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The New Zealanders",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Little is more humbling than the immensity of the seas.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Nigerians",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Fine words alone do not put food in one's mouth.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Singaporeans",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "We will show the world not to underestimate the power of the city.",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Soviets",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Comrades! The motherland calls!",
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "The Swedes",
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "A human empowered and enlightened can achieve anything.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -2159,7 +2336,7 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Australians] is not constructed>", "Only available <if [The Miṣriyyūn] is not constructed>"],
-		"quote": "An ancient culture with a heritage of agriculture and education. I predict they will be full of surprises.",
+		"quote": "Spill blood for your land for it gives you everything.",
 		"requiredTech": "Agriculture"
 	},
 
