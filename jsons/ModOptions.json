@@ -1,3 +1,4 @@
 {
     "isBaseRuleset": true,
+    "Suppress warning [*is supposed to automatically upgrade at tech*]"
 }
