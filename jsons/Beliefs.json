@@ -13,7 +13,7 @@
          {
         "name": "Seek Wisdom",
         "type": "Pantheon",
-        "uniques": ["[+5 Science] from every [Strategic resource]" ]//+++++ Sci. on religious building
+        "uniques": ["[+2 Science] from every [Strategic resource]" ]//+++++ Sci. on religious building
     },
         {
         "name": "Hunt the Infidels",
@@ -23,12 +23,12 @@
          {
         "name": "Reject Luxury",
         "type": "Pantheon",
-        "uniques": ["[+5 Gold] from every [Luxury resource]"]//+++++ Gold on religious building
+        "uniques": ["[+2 Gold] from every [Luxury resource]"]//+++++ Gold on religious building
     },
          {
         "name": "Be Virtuous as Water",
         "type": "Pantheon",
-        "uniques": ["[+2 Happiness] from every [River]"]//++ Happi. on religious building
+        "uniques": ["[+1 Happiness] from every [River]"]//++ Happi. on religious building
     },
          {
         "name": "Be Virtuous as Water",
@@ -45,12 +45,12 @@
          {
         "name": "Bear Not False Witness",
         "type": "Follower",
-        "uniques": ["[+5 Science] from every [Science] <in cities with at least [5] [Followers of this Religion]>", "[+2 Science] from every [Faith]"]
+        "uniques": ["[+3 Science] from every [Science] <in cities with at least [5] [Followers of this Religion]>", "[+2 Science] from every [Faith]"]
     },
         {
         "name": "Give Alms",
         "type": "Follower",
-        "uniques": ["[+5 Gold] from every [Gold] <in cities with at least [5] [Followers of this Religion]>", "[+2 Gold] from every [Faith]"]
+        "uniques": ["[+3 Gold] from every [Gold] <in cities with at least [5] [Followers of this Religion]>", "[+2 Gold] from every [Faith]"]
     },
         {
         "name": "Protect the Weak",
@@ -60,7 +60,7 @@
          {
         "name": "Observe Fasts",
         "type": "Follower",
-        "uniques": ["[+5 Food] from every [Food] <in cities with at least [5] [Followers of this Religion]>", "[+2 Food] from every [Faith]"]
+        "uniques": ["[+3 Food] from every [Food] <in cities with at least [5] [Followers of this Religion]>", "[+2 Food] from every [Faith]"]
     },
          {
         "name": "Undertake Pilgrimage",
@@ -78,12 +78,12 @@
         {
         "name": "Purge Idleness",
         "type": "Founder",
-        "uniques": ["[+10 Production] from every [City center]", "[+2 Production] from every [Faith]"]
+        "uniques": ["[+10 Production] [in all cities]", "[+2 Production] from every [Faith]"]
     },
        {
         "name": "Show Not Mercy",
         "type": "Founder",
-        "uniques": ["[+20]% Strength <for [All] units> <within [1] tiles of a [City center]>"]
+        "uniques": ["[+10]% Strength <for [All] units> <within [1] tiles of a [City center]>"]
     },
         {
         "name": "Mandate Patronage",
@@ -98,7 +98,7 @@
          {
         "name": "Develop the Intellect",
         "type": "Founder",
-        "uniques": ["Science gained from research agreements [+75]%", "[+2 Science] from every [Faith]"]
+        "uniques": ["Science gained from research agreements [+50]%", "[+2 Science] from every [Faith]"]
     },
          {
         "name": "Eschew Gluttony",
@@ -110,17 +110,17 @@
          {
         "name": "Raise Monuments",
         "type": "Enhancer",
-        "uniques": ["[+8 Science] from every [Wonder]", "[+2 Science] from every [Faith]"]
+        "uniques": ["[+5 Science] from every [Wonder]", "[+2 Science] from every [Faith]"]
     },
         {
         "name": "Sustain the Faithful",
         "type": "Enhancer",
-        "uniques": ["[+4 Happiness] from every [Wonder]", "[+1 Happiness] from every [Faith]"]
+        "uniques": ["[+2 Happiness] from every [Wonder]", "[+1 Happiness] from every [Faith]"]
     },
         {
         "name": "Sustain the Faithful",
         "type": "Enhancer",
-        "uniques": ["[+8 Gold] from every [Wonder]", "[+2 Gold] from every [Faith]"]
+        "uniques": ["[+5 Gold] from every [Wonder]", "[+2 Gold] from every [Faith]"]
     },
         {
         "name": "Meditate Often",
