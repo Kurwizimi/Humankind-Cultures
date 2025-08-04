@@ -834,7 +834,7 @@
         	"uniques": ["[+10]% Strength <when attacking>"]
    	},
 		{
-        	"name": "Expedition",
+        	"name": "Expeditionary Force",
         	"uniques": ["[This Unit] heals [20] HP <every [4] turns>"]
    	},
 		{
@@ -869,7 +869,7 @@
 
 
 
-	
+	//Contemporary
 		{
         	"name": "Stealth",
         	"uniques": ["Invisible to non-adjacent units"]
@@ -879,6 +879,22 @@
         	"name": "Anti-Colonialism",
         	"uniques": ["[+25]% Strength <when fighting units from a Civilization with more Cities than you>"]
    	},
+		{
+        	"name": "Peace Protector",
+        	"uniques": ["[+7]% Strength <for every [Remaining [Major] Civilizations]>"]
+   	},
+		{
+        	"name": "Armoured",
+        	"uniques": ["[+15]% Strength <when defending>"]
+   	},
+		{
+		"name": "Home Guard",
+		"uniques": ["[+25]% Strength <in [Friendly Land] tiles>"],
+	},
+	{
+		"name": "Field Repairs",
+		"uniques": ["Heals [50] damage if it kills a unit"],
+	},
 
 
 	
