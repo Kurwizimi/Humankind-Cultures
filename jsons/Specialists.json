@@ -1,25 +1,25 @@
 [
 	{
 		"name":"Researcher",
-		"science":3,
-		"greatPersonPoints": {"Great Scientist":2},
+		"science": 1,
+		"greatPersonPoints": {"Great Scientist":1},
 		"color": [0,0,255]
 	},
 	{
 		"name":"Trader",
-		"gold":5,
-		"greatPersonPoints": {"Great Merchant":2},
+		"gold" : 1,
+		"greatPersonPoints": {"Great Merchant":1},
 		"color": [255,215,0]
 	},
 	{
 		"name":"Farmer",
-		"food":2,
+		"food": 1,
 		"color": [25,180,40]
 	},
 	{
 		"name":"Engineer",
-		"production":3,
-		"greatPersonPoints": {"Great Engineer":2},
+		"production": 1,
+		"greatPersonPoints": {"Great Engineer":1},
 		"color": [139,69,19]
 	}
 ]
