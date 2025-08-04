@@ -542,7 +542,7 @@
 		"choices": [
 			{ "text": "The Americans",
 			  "uniques": [	"Comment [American Exceptionalism: +2 [Culture] +1 [Gold] from every resource]",
-				  	"Comment [[Lightning]: [Multirole Fighter]-like unit, 84 vs. 76 [Strength, 9 vs. 7 [Intercept Range]]",
+				  	"Comment [[Lightning]: [Multirole Fighter]-like unit, 84 vs. 76 [Strength], 9 vs. 7 [Intercept Range]]",
 				  	"Comment [[Defence Agency]: +5 [Gold], +5 [Science], +5 [City Strength], +5 [City Health] ]",
 				  "Gain a free [The Americans] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
 
