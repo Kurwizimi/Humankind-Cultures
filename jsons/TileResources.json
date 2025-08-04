@@ -585,6 +585,16 @@
 		"resourceType": "Luxury",
 		"uniques": ["Doesn't generate naturally"]
 	},
+	{
+		"name": "Pharmaceuticals",
+		"resourceType": "Luxury",
+		"uniques": ["Doesn't generate naturally"]
+	},
+	{
+		"name": "Weapons",
+		"resourceType": "Luxury",
+		"uniques": ["Doesn't generate naturally"]
+	},
 
 
 
