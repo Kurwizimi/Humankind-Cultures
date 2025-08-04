@@ -540,6 +540,12 @@
 		"name": "Contemporary",
 		"text": "Contemporary Culture Pick",
 		"choices": [
+			{ "text": "The Americans",
+			  "uniques": [	"Comment [American Exceptionalism: +2 [Culture] +1 [Gold] from every resource]",
+				  	"Comment [[Lightning]: [Multirole Fighter]-like unit, 84 vs. 76 [Strength, 9 vs. 7 [Intercept Range]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The Americans] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
 			{ "text": "The Australians",
 			  "uniques": [	"Comment [Dream Weavers: +10% [Production] in all cities]",
 				  	"Comment [[All Terrain PMV]: [Armoured Personnel Carrier]-like unit, [Ignore terrain cost]]",
@@ -552,12 +558,66 @@
 				  	"Comment [[Agronomy Lab]: +3 [Food], +3 [Science], +1 [Food] from every population in this city, +1 [Farmer] slot]",
 				  "Gain a free [The Brasilians] [in capital] <hidden from users>", "Only available <if [The Brasilians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
 
+			{ "text": "The Chinese",
+			  "uniques": [	"Comment [Silk Railroad: +15% [Gold] in all cities]",
+				  	"Comment [[Guardian]: 60 [Ranged Strength], 3 [Movement], 3 [Range], [Indirect Fire]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The Chinese] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Cubans",
+			  "uniques": [	"Comment [Internationalism: +25% [Culture] in all cities for 5 turns after delaring friendship, +20% [Strength] for All units for 5 turns after declaring friendship]",
+				  	"Comment [[Guerrilleros]: 56 [Strength], 2 [Movement], [Great General] provides double combat bonus, [Stealth]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The Cubans] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
 			{ "text": "The Miṣriyyūn",
 			  "uniques": [	"Comment [Valley of Kings: +4 [Culture] from every [Emblematic District]]",
 				  	"Comment [[Free Officer]: 58 [Strength], 2 [Movement], [Anti-Colonialism]]",
 				  	"Comment [[Archeological Dig]: +3 [Culture], +3 [Science] for each adjacent Natural Wonder, +1 [Culture] for each adjacent [City center], Can only be build next to Mountains, [Plains][Grassland][Desert][Tundra][Snow]]",
 				  "Gain a free [The Miṣriyyūn] [in capital] <hidden from users>", "Only available <if [The Miṣriyyūn] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
-      
+
+			{ "text": "The Indians",
+			  "uniques": [	"Comment [Economic Elephant: +5 [Culture] in all cities, +3% [Gold] in capital for every owned city]",
+				  	"Comment [[Peacekeeper]: 57 [Strength], 2 [Movement], [Peace Protector]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The Indians] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Japanese",
+			  "uniques": [	"Comment [Blossoming Innovation: +20% [Science] ]",
+				  	"Comment [[Reisen]: [Monoplane Fighter]-like unit, 72 vs. 62 [Ranged Strength], 52 vs. 62 [Strength]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The Japanese] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The New Zealanders",
+			  "uniques": [	"Comment [Call of the Ocean: +3 [Science] from every [Coast] and [Ocean] tile]",
+				  	"Comment [[All Terrain PMV]: [Armoured Personnel Carrier]-like unit, [Ignore terrain cost]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The New Zealanders] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Nigerians",
+			  "uniques": [	"Comment [Abundant Lands: +3% [Production] from every [Farmer], +4 [Food] from every [Oil] tile]",
+				  	"Comment [[MRAP Vehicle]: [Armoured Personnel Carrier]-like unit, 64 vs. 62 [Strength], [Armoured]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The Nigerians] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Singaporeans",
+			  "uniques": [	"Comment [Centre of Attraction: +1 [Happiness] in all cities for every owned city, Resting point for Influence with City-States is increased by 35, Cannot build [Settler] units]",
+				  	"Comment [[Reservist]: 51 [Strength], 2 [Movement], -3 [Movement] in Foreign Land tiles, [Home Guard]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The Singaporeans] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Soviets",
+			  "uniques": [	"Comment [Red Tide: +20% [Production] towards constructing All units, +10% [Strength] for All units]",
+				  	"Comment [[Red Army Tank]: [Medium Tank]-like unit, [Field Repairs]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The Soviets] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
+			{ "text": "The Swedes",
+			  "uniques": [	"Comment [Prize Science: +3% [Science] from [Science] buildings in all cities, +1 [Science] from every 2 population in all cities]",
+				  	"Comment [[Stealth Corvette]: [Frigate]-like unit, 8 vs. 6 [Movement], [Stealth]]",
+				  	"Comment [[Strip Mining Complex]: +10 [Production], +2 [Production] from every Strategic in this city]",
+				  "Gain a free [The Swedes] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
+
       			{ "text": "The Turks",
 			  "uniques": [	"Comment [People's Reforms: +2 Food from every population in all cities]",
 				  	"Comment [[Stealthy Operative Missile]:  75 [Strength], 14 [Range], Destroys tile improvements]",
