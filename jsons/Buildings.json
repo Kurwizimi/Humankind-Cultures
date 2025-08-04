@@ -1504,7 +1504,7 @@
 		"name": "Ashram",
 		"culture": 5,
 		"faith": 3,
-		"uniques": ["[+1 Gold, +1 Science] from every [Faith] <in this city> ]", "Emblematic District", "Only available <if [The Indians] is constructed>"],
+		"uniques": ["[+1 Gold, +1 Science] from every [Faith] <in this city>", "Emblematic District", "Only available <if [The Indians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Mass Entertainment"
 	},
@@ -1933,7 +1933,7 @@
 		"name": "The Ghanaians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
 			"Only available <if [The Mexica] is not constructed>", "Only available <if [The Franks] is not constructed>"],
 		"quote": "Brute strength and innovation? How about trade, travel, and a lifestyle supported by tolls. I'd say the Ghanaians were on to a good thing."
 	},
@@ -1962,7 +1962,7 @@
 		"name": "The Norsemen",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Whether trading or raiding, the Norsemen deserve credit for both naval innovation and brute force."
 	},
 	{
