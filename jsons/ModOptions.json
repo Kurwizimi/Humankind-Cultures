@@ -1,4 +1,6 @@
 {
     "isBaseRuleset": true,
-    //"Suppress warning [*is supposed to automatically upgrade at tech*]"//
+     "uniques": [
+       "Suppress warning [*is supposed to automatically upgrade at tech*]"
+    ]
 }
