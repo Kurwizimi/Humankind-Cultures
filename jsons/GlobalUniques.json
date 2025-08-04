@@ -274,6 +274,8 @@
 
 
 	//Contemporary
+	"[+2 Culture, +1 Gold] from every [resource] <for [Major] Civilizations> <if [The Americans] is constructed>",						//Americans
+		
 	 "[+10]% [Production] [in all cities] <for [Major] Civilizations> <if [The Australians] is constructed>",						//Australian
 
 	"[+3 Food] from every [Forest] <for [Major] Civilizations> <if [The Brasilians] is constructed>",							//Brasilian
