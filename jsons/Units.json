@@ -1430,7 +1430,7 @@
 		"cost": 1290,
 		"requiredTech": "Line Formation",
 		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The British] is constructed>", "Emblematic Unit"],
-		"promotions": ["Expedition"],
+		"promotions": ["Expeditionary Force"],
 		"obsoleteTech": "Amphibious Warfare",
 		"upgradesTo": "Rifles",
 		"attackSound": "shot"
@@ -1845,6 +1845,20 @@
 		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [3]"],
 		"attackSound": "nuke"
 	},
+	{
+		"name": "Lightning",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 84,
+		"range": 9,
+		"interceptRange": 9,
+		"cost": 14800,
+		"requiredTech": "Fighter Jets",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "Only available <if [The Americans] is constructed>", "Emblematic Unit"],
+		"attackSound": "machinegun"
+	},
 	//Australian
 	{
 		"name": "All Terrain PMV",
@@ -1852,7 +1866,7 @@
 		"movement": 5,
 		"strength": 62,
 		"cost": 7400,
-		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Australians] is constructed>", "Emblematic Unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Australians] is constructed>", "Emblematic Unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredResource": "Oil",
 		"requiredTech": "Composite Armour",
@@ -1866,8 +1880,36 @@
 		"strength": 54,
 		"cost": 3700,
 		"uniques": ["Invisible to non-adjacent units","[+15]% to Flank Attack bonuses", "[+10]% Strength <when fighting in [Jungle] tiles>","[+10]% Strength <when fighting in [Forest] tiles>",
-			"Only available <if [The Brasilians] is constructed>", "Emblematic Unit"],
+			"Never appears as a Barbarian unit", "Only available <if [The Brasilians] is constructed>", "Emblematic Unit"],
 		"requiredTech": "Covert Ops",
+		"attackSound": "shot"
+	},
+	//Chinese
+	{
+		"name": "Guardian",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 50,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 14805,
+		"requiredResource": "Oil",
+		"requiredTech": "Computing",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight",
+			"Never appears as a Barbarian unit", "Only available <if [The Chinese] is constructed>", "Emblematic Unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	//Cubans
+	{
+		"name": "Guerrilleros",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 56,
+		"cost": 3700,
+		"uniques": ["Great General provides double combat bonus", "Never appears as a Barbarian unit",  "Only available <if [The Cubans] is constructed>", "Emblematic Unit"],
+		"promotions": ["Stealth"],
+		"requiredTech": "Insurrection Theory",
 		"attackSound": "shot"
 	},
 	//Miṣriyyūn
@@ -1877,10 +1919,88 @@
 		"movement": 2,
 		"strength": 58,
 		"cost": 3700,
-		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Miṣriyyūn] is constructed>", "Emblematic Unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Miṣriyyūn] is constructed>", "Emblematic Unit"],
 		"promotions": ["Anti-Colonialism"],
 		"requiredTech": "Insurrection Theory",
 		"attackSound": "shot"
+	},
+	//Indians
+	{
+		"name": "Peacekeeper",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 57,
+		"cost": 3700,
+		"uniques": [ "Never appears as a Barbarian unit", "Only available <if [The Indians] is constructed>", "Emblematic Unit"],
+		"requiredTech": "Insurrection Theory",
+		"attackSound": "shot"
+	},
+	//Japanese
+	{
+		"name": "Reisen",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 52,
+		"rangedStrength": 72,
+		"range": 8,
+		"interceptRange": 6,
+		"cost": 3700,
+		"requiredTech": "Aerial Warfare",
+		"requiredResource": "Oil",
+		"upgradesTo": "Multirole Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "Only available <if [The Japanese] is constructed>", "Emblematic Unit"],
+		"attackSound": "machinegun"
+	},
+	//Nigerian
+	{
+		"name": "MRAP Vehicle",
+		"unitType": "Gunpowder",
+		"movement": 5,
+		"strength": 64,
+		"cost": 7400,
+		"uniques": ["Never appears as a Barbarian unit", "Only available <if [The Australians] is constructed>", "Emblematic Unit"],
+		"promotions": ["Armoured"],
+		"requiredResource": "Oil",
+		"requiredTech": "Composite Armour",
+		"attackSound": "shot"
+	},
+	//Singaporeans
+	{
+		"name": "Reservist",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 51,
+		"cost": 3500,
+		"uniques": [ "[-3 Movement] <in [Foreign Land] tiles>", "Never appears as a Barbarian unit", "Only available <if [The Singaporeans] is constructed>", "Emblematic Unit"],
+		"promotions": ["Home Guard"],
+		"requiredTech": "Insurrection Theory",
+		"attackSound": "shot"
+	},
+	//Soviets
+	{
+		"name": "Red Army Tank",
+		"unitType": "Armored",
+		"movement": 6,
+		"strength": 61,
+		"cost": 7400,
+		"requiredTech": "Continuous Track",
+		"requiredResource": "Oil",
+		"upgradesTo": "Main Battle Tank",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit",  "Only available <if [The Soviets] is constructed>", "Emblematic Unit"],
+		"promotions": ["Field Repairs"],
+		"attackSound": "tankshot"
+	},
+	//Swedes
+	{
+		"name": "Stealth Corvette",
+		"unitType": "Melee Water",
+		"movement": 8,
+		"strength": 74,
+		"cost": 14805,
+		"requiredTech": "Computing",
+		"uniques": ["Never appears as a Barbarian unit",  "Only available <if [The Swedes] is constructed>", "Emblematic Unit"],//Screening
+		"promotions": ["Stealth"],
+		"attackSound": "nonmetalhit"
 	},
 	//Turk
 	{
