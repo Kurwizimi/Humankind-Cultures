@@ -384,7 +384,7 @@ BuildingIcons/Pottery Workshop
   index: -1
 BuildingIcons/Printing House
   rotate: false
-  xy: 1527, 1411
+  xy: 951, 1339
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -536,16 +536,23 @@ BuildingIcons/The Carthaginians
   orig: 64, 64
   offset: 0, 0
   index: -1
+BuildingIcons/The Celts
+  rotate: false
+  xy: 1239, 1483
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
 BuildingIcons/The Dutch
   rotate: false
-  xy: 1239, 1479
+  xy: 1311, 1479
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Edo
   rotate: false
-  xy: 1311, 1479
+  xy: 1383, 1479
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -559,84 +566,112 @@ BuildingIcons/The Egyptians
   index: -1
 BuildingIcons/The Franks
   rotate: false
-  xy: 1383, 1479
+  xy: 1455, 1479
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The French
   rotate: false
-  xy: 1455, 1479
+  xy: 1527, 1479
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Germans
   rotate: false
-  xy: 1527, 1479
+  xy: 1599, 1489
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Ghanaians
   rotate: false
-  xy: 1599, 1489
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-BuildingIcons/The Greeks
-  rotate: false
   xy: 1671, 1489
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-BuildingIcons/The Hittites
+BuildingIcons/The Goths
   rotate: false
   xy: 879, 1415
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-BuildingIcons/The Mexica
+BuildingIcons/The Greeks
   rotate: false
   xy: 951, 1407
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-BuildingIcons/The Mexicans
+BuildingIcons/The Hittites
   rotate: false
   xy: 1023, 1407
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-BuildingIcons/The Miṣriyyūn
+BuildingIcons/The Huns
   rotate: false
   xy: 1095, 1407
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-BuildingIcons/The Mycenaeans
+BuildingIcons/The Mauryans
   rotate: false
   xy: 1167, 1407
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+BuildingIcons/The Maya
+  rotate: false
+  xy: 1239, 1411
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Mexica
+  rotate: false
+  xy: 1311, 1407
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Mexicans
+  rotate: false
+  xy: 1383, 1407
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Miṣriyyūn
+  rotate: false
+  xy: 1455, 1407
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Mycenaeans
+  rotate: false
+  xy: 1527, 1407
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 BuildingIcons/The Nubians
   rotate: false
-  xy: 1239, 1407
+  xy: 1599, 1417
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Omlecs
   rotate: false
-  xy: 1311, 1407
+  xy: 1671, 1417
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -650,21 +685,21 @@ BuildingIcons/The Phoenicians
   index: -1
 BuildingIcons/The Turks
   rotate: false
-  xy: 1383, 1407
+  xy: 1743, 1489
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Venetians
   rotate: false
-  xy: 1455, 1407
+  xy: 1743, 1417
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Zhou
   rotate: false
-  xy: 951, 1335
+  xy: 1019, 1335
   size: 57, 64
   orig: 57, 64
   offset: 0, 0
