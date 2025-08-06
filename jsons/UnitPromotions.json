@@ -833,6 +833,10 @@
    	},
 
 	//Industrial
+	{
+        	"name": "Naval Supremacy",
+        	"uniques": ["All healing effects doubled <in [Friendly Land] tiles>"]
+   	},
 		{
         	"name": "Boleadoras",
         	"uniques": ["[+10]% Strength <when attacking>"]
