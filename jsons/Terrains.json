@@ -498,7 +498,7 @@
 		"food": 2,
 		"occursOn": ["Plains", "Desert"],
 		"uniques": ["Must be adjacent to [1] to [6] [River] tiles"],
-		"turnsInto": "Plains",
+		"turnsInto": "Lake",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
