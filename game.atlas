@@ -1180,42 +1180,42 @@ ResourceIcons/Uranium
   orig: 90, 90
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Edges/Fresh-Lake Natron/Fresh-Lake Natron-Plains-Bottom
+TileSets/HexaRealm/Edges/Fresh-Lakes/Fresh-Lakes-Plains-Bottom
   rotate: false
   xy: 1787, 1594
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Edges/Fresh-Lake Natron/Fresh-Lake Natron-Plains-BottomLeft
+TileSets/HexaRealm/Edges/Fresh-Lakes/Fresh-Lakes-Plains-BottomLeft
   rotate: false
   xy: 1859, 1594
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Edges/Fresh-Lake Natron/Fresh-Lake Natron-Plains-BottomRight
+TileSets/HexaRealm/Edges/Fresh-Lakes/Fresh-Lakes-Plains-BottomRight
   rotate: false
   xy: 807, 1487
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Edges/Fresh-Lake Natron/Fresh-Lake Natron-Plains-Top
+TileSets/HexaRealm/Edges/Fresh-Lakes/Fresh-Lakes-Plains-Top
   rotate: false
   xy: 879, 1487
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Edges/Fresh-Lake Natron/Fresh-Lake Natron-Plains-TopLeft
+TileSets/HexaRealm/Edges/Fresh-Lakes/Fresh-Lakes-Plains-TopLeft
   rotate: false
   xy: 951, 1487
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Edges/Fresh-Lake Natron/Fresh-Lake Natron-Plains-TopRight
+TileSets/HexaRealm/Edges/Fresh-Lakes/Fresh-Lakes-Plains-TopRight
   rotate: false
   xy: 1023, 1487
   size: 64, 56
