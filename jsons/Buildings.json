@@ -186,6 +186,15 @@
 		"quote": "The Hanging Gardens of Babylon! Worth a cooling visit during a hot summer -- regardless of what city they are built in."
 	},
 	{
+		"name": "Stables of Pi-Ramesses",
+		"cost": 187,
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["Provides [3] [Horses]", "[+20]% Production when constructing [Mounted] units [in this city]", "[+20]% Production when constructing [Mounted] units [in this city]"],
+		"requiredTech": "Domestication",
+		"quote": "These grand buildings are more than a place for horses to call home—they're also a brilliant feat of design."
+	},
+	{
 		"name": "Stonehenge",
 		"happiness": 2,
 		"faith": 5,
@@ -394,6 +403,28 @@
 		"requiredTech": "Standing Army"
 	},
 	{
+		"name": "Church of Our Lady Mary of Zion",
+		"faith": 4,
+		"happiness": 2,
+		"cost": 250,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Faith, +1 Culture] per [2] social policies adopted"],
+		"requiredTech": "Trade Expeditions",
+		"quote": "The ornate church inspires unwavering faith - due not only to its singular design, but also the holy, near-mythical artifacts it reputedly houses."
+	},
+	{
+		"name": "Colosseum",
+		"gold": 2,
+		"happiness": 4,
+		"cost": 250,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[10]% [Gold] <when at war>", "[10]% [Happiness] [in this city] <when not at war>"],
+		"requiredTech": "Conquest",
+		"quote": "The ornate church inspires unwavering faith - due not only to its singular design, but also the holy, near-mythical artifacts it reputedly houses."
+	},
+	{
 		"name": "Colossus of Rhodes",
 		"happiness": 2,
 		"gold": 2,
@@ -402,7 +433,7 @@
 		"isWonder": true,
 		"uniques": ["[+10]% Strength <for [Land] units> <when fighting in [City center] tiles>", "[+10]% Strength <for [All] units> <when adjacent to a [{Military} {Water}] unit>",
 			"Must be next to [Coast]"],
-		"requiredTech": "Trade Expeditions",
+		"requiredTech": "Philosophy",
 		"quote": "This Colossus is a mighty image for a mighty empire! And it's discreetly garbed in a toga for those who pass beneath."
 	},
 	{
@@ -424,9 +455,20 @@
 		"cost": 300,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["[+2 Science] from [Quarry] tiles [in this city]"],
+		"uniques": ["[+2 Science, +2 Gold] from [Quarry] tiles [in this city]"],
 		"requiredTech": "Craftsmanship",
 		"quote": "An impressive mausoleum, but I can't help wonder what sort of a sign it is when an empire spends more on the dead than the living…"
+	},
+	{
+		"name": "Pyramid of the Sun",
+		"food": 3,
+		"faith": 3,
+		"cost": 250,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+10]% [Food] [in all cities]", "[+2 Food, +1 Faith] [in all cities]"],
+		"requiredTech": "Rhetoric",
+		"quote": "Taking its distinctive color from tezontle, a coarse volcanic rock, the Pyramid of the Sun is a most striking edifice."
 	},
 	{
 		"name": "Statue of Zeus",
@@ -609,6 +651,47 @@
 		"uniques": ["[+1 Food] [in all cities] <for every [50] [Faith]>"],
 		"requiredTech": "Theology",
 		"quote": "The site of Angkor Wat is worthy of reverence not merely for the temples, but for the care it took with water and irrigation."
+	},
+	{
+		"name": "Citadel of Alamut",
+		"cityStrength": 15,
+		"cityHealth": 10,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["All newly-trained [Land] units [in this city] receive the [Swift Assassins] promotion", "Must be next to [Mountain]"],
+		"requiredTech": "Military Architecture",
+		"quote": "Perched high on a spectacular cliffside, this remote fortress is a perfect sanctuary for elite assassins."
+	},
+	{
+		"name": "Great Mosque of Djenné",
+		"production": 3,
+		"faith": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Comment [+15% [Production] in this city]","Comment [+5% [Production] in all other cities]",
+			"[+10]% [Production [in this city] <hidden from users>", "[+5]% [Productionl [in all cities] <hidden from users>"],
+		"requiredTech": "Theology",
+		"quote": "A place of prayer and culture, the Great Mosque's countless sun-baked bricks make it appear more sculpted than constructed."
+	},
+	{
+		"name": "Great Zimbabwe",
+		"gold": 3,
+		"production": 2,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route", "[+2 Gold] from [resource] tiles [in this city]"],
+		"requiredTech": "Guilds",
+		"quote": "This colossal fortress-city is a spectacular fusion of human ingenuity and natural beauty. It is as elegant as it is impregnable."
+	},
+	{
+		"name": "Notre Dame",
+		"faith": 2,
+		"Happiness": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+50]% [Faith] [in all cities] <for [5] turns> <upon discovering [All] technology>"],
+		"requiredTech": "Alchemy",
+		"quote": "Cathedral of cathedrals, its pioneering use of flying buttress and rib vault sets it apart in its magnificence."
 	},
 	{
 		"name": "Forbidden City",
@@ -831,6 +914,24 @@
 		"requiredTech": "Humanism"
 	},
 	{
+		"name": "Brussels Town Hall",
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+25]% [Gold] [in this city] <for [5] turns> <upon constructing [Wonder] [in all cities]>", "[+25]% [Culture] [in this city] <for [5] turns> <upon constructing [Wonder] [in all cities]>"],
+		"requiredTech": "Moveable Typeface",
+		"quote": "Built in several stages, this marvel of Gothic design featuring a spectacular tower is an inspiration for ambitious architects."
+	},
+	{
+		"name": "Hôtel des Invalides",
+		"happiness": 4,
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["[All] Units adjacent to this city heal [100] HP per turn when healing", "[+10]% Strength <for [Wounded] units> <when defending>"],
+		"requiredTech": "Gunpowder Warfare",
+		"quote": "Capped with a golden dome, this sprawling complex offers rest and recovery to soldiers wounded in war."
+	},
+	{
 		"name": "Machu Picchu",
 		"happiness": 2,
 		"food": 2,
@@ -877,12 +978,23 @@
 		"name": "Topkapi Palace",
 		"happiness": 2,
 		"production": 2,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great General": 1},
 		"isWonder": true,
 		"percentStatBonus": {"production": 10},
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]"],
 		"requiredTech": "Siege Cannons",
 		"quote": "Topkapi has been built, rebuilt, and renamed any number of times; it is a testament to stamina and survivability."
+	},
+	{
+		"name": "Palace of Versailles",
+		"gold": 2,
+		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": [ "[-25]% City-State Influence degradation", "Influence of all other civilizations with all city-states degrades [33]% faster",
+			"Triggers the following global alert: [Our influence with City-States has started dropping faster after the Palace of Versailles has been built!]"],
+		"requiredTech": "Flintlock",
+		"quote": "From its gilded gates to its acres of manicured gardens, the palace of Versailles is an enduring symbol of power, wealth, and culture."
 	},
 	//Dutch
 	{
@@ -1084,6 +1196,16 @@
 		"requiredTech": "Microbiology"
 	},
 	{
+		"name": "Kaiserliche Werft",
+		"production": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+25]% Production when constructing [Water] units [in this city]", "All newly-trained [Water] units [in this city] receive the [Naval Supremacy] promotion",
+			"Must be next to [Coast]"],
+		"requiredTech": "Propeller",
+		"quote": "The Statue of Liberty is a towering symbol of unity and inclusion, and was a most generous gift."
+	},
+	{
 		"name": "Statue of Liberty",
 		"happiness": 2,
 		"production": 2,
@@ -1115,6 +1237,17 @@
 		"uniques": ["[+1 Production] per [1] population [in this city]"],
 		"requiredTech": "Electricity",
 		"quote": "The Eiffel Tower -- proof of what you can do with a bit of iron, a bit of math, and thousands of liters of paint."
+	},
+	{
+		"name": "The Royal Palace of Pape'ete",
+		"culture": 2,
+		"happiness": 1,
+		"gold": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+5]% [Science] [in this city] <for every [Era number]>", "[+2 Culture] [in this city] <for every [Era number]>"],
+		"requiredTech": "Scientific Method",
+		"quote": "The Statue of Liberty is a towering symbol of unity and inclusion, and was a most generous gift."
 	},
 	//Argentinians
 	{
@@ -1427,25 +1560,55 @@
 		"quote": "If you are going to go for economic domination of the world, the Empire State Building will provide the offices to plan and execute it."
 	},
 	{
+		"name": "Maracanã Stadium",
+		"happiness": 2,
+		"gold": 1,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+10]% [Gold] [in this city]", "[+10]% [Culture] [in this city]", "[+10]% [Happiness] [in this city]"],
+		"requiredTech": "Mass Entertainment",
+		"quote": "If you are going to go for economic domination of the world, the Empire State Building will provide the offices to plan and execute it."
+	},
+	{
 		"name": "Sydney Opera House",
 		"happiness": 2,
 		"culture": 2,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+10]% [Food]","[+10]% [Gold]","[+10]% [Production]","[+10]% [Science]",
+		"uniques": ["[+10]% [Food] [in this city]", "[+10]% [Production] [in this city]", "[+10]% [Science] [in this city]",
 			 "Must be next to [Coast]"],
 		"requiredTech": "Computing",
 		"quote": "The curves of this glorious opera house are even more impressive when you consider the fact that the plans were rescued from the trashcan."
 	},
 	{
+		"name": "The Pentagon",
+		"happiness": 2,
+		"production": 3,
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["[+25]% Production when constructing [All] units [in this city]", "[-50]% Gold cost of upgrading <for [Military] units>"],
+		"requiredTech": "Naval Air Strategy",
+		"quote": "The curves of this glorious opera house are even more impressive when you consider the fact that the plans were rescued from the trashcan."
+	},
+	{
 		"name": "Christ the Redeemer",
-		"happiness": 4,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+10]% [Food]","[+10]% [Gold]","[+10]% [Culture]","[+50]% [Faith]",
+		"uniques": ["[+10]% [Food] [in this city]","[+10]% [Gold] [in this city]","[+10]% [Culture] [in this city]","[+50]% [Faith]",
 			 "Must have an owned [Mountain] within [2] tiles"],
 		"requiredTech": "Suburbs",
 		"quote": "Impressive and dominating, Cristo Redentor removes any confusion about the importance of faith in everyday life."
+	},
+	{
+		"name": "Mauna Kea Observatory",
+		"science": 4,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"percentStatBonus": {"science": 25},
+		"uniques": ["[+5 Science] from Trade Routes", "Must be next to [Mountain]"],
+		"requiredTech": "Rocket Science",
+		"quote": "Dotting the landscape, these iconic stations open onto astonishingly clear views of the night sky."
 	},
 	//American
 	{
