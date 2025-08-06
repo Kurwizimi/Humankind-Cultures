@@ -669,7 +669,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Comment [+15% [Production] in this city]","Comment [+5% [Production] in all other cities]",
-			"[+10]% [Production [in this city] <hidden from users>", "[+5]% [Productionl [in all cities] <hidden from users>"],
+			"[+10]% [Production] [in this city] <hidden from users>", "[+5]% [Production] [in all cities] <hidden from users>"],
 		"requiredTech": "Theology",
 		"quote": "A place of prayer and culture, the Great Mosque's countless sun-baked bricks make it appear more sculpted than constructed."
 	},
@@ -1606,7 +1606,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"percentStatBonus": {"science": 25},
-		"uniques": ["[+5 Science] from Trade Routes", "Must be next to [Mountain]"],
+		"uniques": ["[+5 Science] from each Trade Route", "Must be next to [Mountain]"],
 		"requiredTech": "Rocket Science",
 		"quote": "Dotting the landscape, these iconic stations open onto astonishingly clear views of the night sky."
 	},
