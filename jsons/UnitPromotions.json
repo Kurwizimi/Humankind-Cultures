@@ -761,6 +761,10 @@
 
 
 	//Medieval
+	{
+        	"name": "Swift Assassins",
+        	"uniques": ["[+1] Movement <in [Friendly Land] tiles> <in [Hill] tiles>"]
+   	},
 		{
         	"name": "Fervor",
         	"uniques": ["No damage penalty for wounded units"]
