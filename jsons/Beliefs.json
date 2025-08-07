@@ -3,12 +3,12 @@
          {
         "name": "Respect the Seas' Bounties",
         "type": "Pantheon",
-        "uniques": ["[12 Food] from every [Coast]", "[+1 Food] from every [Lakes]" ]//++ Food on religious building
+        "uniques": ["[+1 Food] from every [Coast]", "[+1 Food] from every [Lakes]" ]//++ Food on religious building
     },
         {
         "name": "Abstain from Intoxicants",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Forest]", "[12 Food] from every [Jungle]" ]//++ Prod. on religious building
+        "uniques": ["[+1 Production] from every [Forest]", "[+1 Food] from every [Jungle]" ]//++ Prod. on religious building
     },
          {
         "name": "Seek Wisdom",
