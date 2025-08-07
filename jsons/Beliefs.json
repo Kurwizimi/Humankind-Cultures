@@ -170,7 +170,7 @@
         "uniques": ["[+2 Science, +2 Gold] from each Trade Route <when not at war>"]
     },
 
-  /----------/ENHANCER - Tier FOUR----------
+  //----------ENHANCER - Tier FOUR----------
          {
         "name": "Raise Monuments",
         "type": "Enhancer",
