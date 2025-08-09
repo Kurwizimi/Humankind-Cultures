@@ -229,7 +229,7 @@
 		"cityHealth": 20,
 		"culture": 3,
 		"maintenance": 2,
-		"uniques": ["Emblematic District", "Only available <if [The Assyrians] is constructed>"],//Extra strength for units nearby
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Assyrians] is constructed>"],//Extra strength for units nearby
 		"hurryCostModifier": 25,
 		"requiredTech": "City Defence"
 	},
@@ -239,7 +239,7 @@
 		"specialistSlots": {"Researcher": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": [ "[+1 Science, +1 Food] from every [Researcher] <in this city>", "Emblematic District", "Only available <if [The Babylonians] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+1 Science, +1 Food] from every [Researcher] <in this city>", "Emblematic District", "Only available <if [The Babylonians] is constructed>"],
 		"requiredTech": "Calendar"
 	},
 	//Bantu
@@ -248,7 +248,7 @@
 		"hurryCostModifier": 25,
 		"food": 5,
 		"maintenance": 2,
-		"uniques": ["Emblematic District", "Only available <if [The Bantu] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Bantu] is constructed>"],
 		"requiredTech": "Irrigation"
 	},
 	//Bantu
@@ -267,7 +267,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"culture": 1,
 		"production": 3,
-		"uniques": ["Emblematic District", "Only available <if [The Egyptians] is constructed>"],
+		"uniques": ["[-2 Happiness]","Emblematic District", "Only available <if [The Egyptians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Carpentry"
@@ -286,7 +286,7 @@
 	{
 		"name": "Haven",
 		"specialistSlots": {"Trader": 1},
-		"uniques": ["[+2 Gold] from [Coast] tiles [in this city]", "[+2 Gold] from [Lakes] tiles [in this city]","Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]","[+2 Gold] from [Coast] tiles [in this city]", "[+2 Gold] from [Lakes] tiles [in this city]","Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Phoenicians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -296,7 +296,7 @@
 	{
 		"name": "Eduba",
 		"science": 3,
-		"uniques": ["[+1 Science] from [Farm] tiles [in this city]", "Emblematic District", "Only available <if [The Sumerians] is constructed>"],
+		"uniques": ["[-2 Happiness]","[+1 Science] from [Farm] tiles [in this city]", "Emblematic District", "Only available <if [The Sumerians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -511,7 +511,7 @@
 		"hurryCostModifier": 25,
 		"culture": 1,
 		"gold": 4,
-		"uniques": ["Emblematic District", "Only available <if [The Achaemenids] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Achaemenids] is constructed>"],
 		"requiredTech": "Fortifications"
 	},
 	//Carthaginians
@@ -519,7 +519,7 @@
 		"name": "Cothon",
 		"cityStrength": 10,
 		"cityHealth": 10,
-		"uniques": ["[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lakes] tiles [in this city]","Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lakes] tiles [in this city]","Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Carthaginians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -530,7 +530,7 @@
 		"name": "Nemeton",
 		"food": 3,
 		"faith": 3,
-		"uniques": ["Emblematic District", "Only available <if [The Celts] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Celts] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -540,7 +540,7 @@
 		"name": "Tumulus",
 		"culture": 3,
 		"faith": 2,
-		"uniques": ["All newly-trained [Mounted] units [in this city] receive the [Tumulus] promotion", "Emblematic District", "Only available <if [The Goths] is constructed>"],
+		"uniques": ["[-2 Happiness]", "All newly-trained [Mounted] units [in this city] receive the [Tumulus] promotion", "Emblematic District", "Only available <if [The Goths] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -548,7 +548,7 @@
 	//Greek
 	{
 		"name": "Amphitheatron",
-		"uniques": ["[+1 Culture, +3 Science] <for every [Era number]>",
+		"uniques": ["[-2 Happiness]", "[+1 Culture, +3 Science] <for every [Era number]>",
 			"Emblematic District", "Only available <if [The Greeks] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -557,7 +557,7 @@
 	//Han
 	{
 		"name": "Paper Mill",
-		"uniques": ["[+1 Science] <for every [Adopted [All] Policies]>", "Provides [1] [Paper]",
+		"uniques": [ "[+1 Science] <for every [Adopted [All] Policies]>", "Provides [1] [Paper]",
 			"Emblematic District", "Only available <if [The Han] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -571,7 +571,7 @@
 		"culture": 1,
 		"faith": 2,
 		"science": 3,
-		"uniques": ["Emblematic District", "Only available <if [The Mauryans] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Mauryans] is constructed>"],
 		"maintenance": 2,
 		"requiredTech": "Philosophy"
 	},
@@ -582,7 +582,7 @@
 		"hurryCostModifier": 25,
 		"production": 1,
 		"faith": 2,
-		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]", "Emblematic District", "Only available <if [The Maya] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+1 Production] from [Jungle] tiles [in this city]", "Emblematic District", "Only available <if [The Maya] is constructed>"],
 		"maintenance": 2,
 		"requiredTech": "Rhetoric"
 	},
@@ -590,7 +590,7 @@
 	{
 		"name": "Nazca Lines",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Faith, +2 Gold] from every [Emblematic District] <in this city>", "Emblematic District", "Only available <if [The Nazca] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+1 Faith, +2 Gold] from every [Emblematic District] <in this city>", "Emblematic District", "Only available <if [The Nazca] is constructed>"],
 		"maintenance": 2,
 		"requiredTech": "Craftsmanship"
 	},
@@ -598,7 +598,7 @@
 	{
 		"name": "Marae",
 		"culture": 3,
-		"uniques": ["[+1 Culture, +2 Faith] [in this city] <for every [[Marae] Buildings]>", "Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "[+1 Culture, +2 Faith] [in this city] <for every [[Marae] Buildings]>", "Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Polynesians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -766,7 +766,7 @@
 		"faith": 3,
 		"science": 3,
 		"percentStatBonus": {"culture": 5},
-		"uniques": ["Emblematic District", "Only available <if [The Bulgarians] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Bulgarians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Alchemy"
@@ -776,7 +776,7 @@
 		"name": "Hippódromos",
 		"gold": 4,
 		"specialistSlots": {"Trader": 1},
-		"uniques": ["[+2 Gold] from [Horses] tiles [in this city]", "Emblematic District", "Only available <if [The Byzantines] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+2 Gold] from [Horses] tiles [in this city]", "Emblematic District", "Only available <if [The Byzantines] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chivalry"
 	},
@@ -796,7 +796,7 @@
 		"specialistSlots": {"Researcher": 1},
 		"faith": 3,
 		"science": 5,
-		"uniques": ["Emblematic District", "Only available <if [The Franks] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Franks] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Feudalism"
@@ -806,7 +806,7 @@
 		"name": "Luxuries Market",
 		"specialistSlots": {"Trader": 1},
 		"gold": 5,
-		"uniques": ["[+1 Gold] from each Trade Route",
+		"uniques": ["[-2 Happiness]", "[+1 Gold] from each Trade Route",
 			"Emblematic District", "Only available <if [The Ghanaians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Guilds"
@@ -816,7 +816,7 @@
 		"name": "Sacred Mound",
 		"faith": 3,
 		"production": 3,
-		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]", "Emblematic District", "Only available <if [The Mississippians] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+5]% Production when constructing [All] buildings [in this city]", "Emblematic District", "Only available <if [The Mississippians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Feudalism"
@@ -826,7 +826,7 @@
 		"name": "Naust",
 		"specialistSlots": {"Farmer": 1},
 		"food": 5,
-		"uniques": ["Gain [75] [Gold] <(modified by game speed)>", "Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "Gain [75] [Gold] <(modified by game speed)>", "Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Norsemen] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Seafaring Mastery"
@@ -842,7 +842,7 @@
 	//Swahili
 	{
 		"name": "Bandari",
-		"uniques": ["[+2 Gold] from [resource] tiles [in all cities]", "Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "[+2 Gold] from [resource] tiles [in all cities]", "Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Swahili] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -863,7 +863,7 @@
 		"name": "Grand Mosque",
 		"specialistSlots": {"Researcher": 1},
 		"faith": 5,
-		"uniques": ["[+1 Science] [in all cities]",
+		"uniques": ["[-2 Happiness]", "[+1 Science] [in all cities]",
 			"Emblematic District", "Only available <if [The Umayyads] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1053,7 +1053,7 @@
 		"name": "V.O.C Warehouse",
 		"specialistSlots": {"Trader": 1},
 		"gold": 10,
-		"uniques": ["[+2 Gold] from every [Trader] <in this city>","Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "[+2 Gold] from every [Trader] <in this city>","Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Dutch] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chartered Companies"
@@ -1063,7 +1063,7 @@
 		"name": "Three Sisters Plantation",
 		"specialistSlots": {"Farmer": 1},
 		"food": 2,
-		"uniques": ["[+2 Food] [in this city] <for every [Cities]>",
+		"uniques": ["[-2 Happiness]", "[+2 Food] [in this city] <for every [Cities]>",
 			"Emblematic District", "Only available <if [The Haudenosaunee] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1075,7 +1075,7 @@
 		"specialistSlots": {"Researcher": 1},
 		"science": 2,
 		"culture": 2,
-		"uniques": ["[+2 Science] from every [Researcher] <in this city>",
+		"uniques": ["[-2 Happiness]", "[+2 Science] from every [Researcher] <in this city>",
 			"Emblematic District", "Only available <if [The Joseon] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1084,7 +1084,7 @@
 	//Ming
 	{
 		"name": "Grand Teahouse",
-		"uniques": ["[+1 Culture] from [All] tiles [in this city]",
+		"uniques": ["[-2 Happiness]", "[+1 Culture] from [All] tiles [in this city]",
 			"Emblematic District", "Only available <if [The Ming] is constructed>"],
 		"maintenance": 2,
 		"hurrycostModifier": 25,
@@ -1095,7 +1095,7 @@
 		"name": "Jama Masjid",
 		"culture": 4,
 		"production": 3,
-		"uniques": ["[+1 Faith] per [1] population [in this city]", "[+1 Production] from every [Engineer] <in this city>",
+		"uniques": ["[-2 Happiness]", "[+1 Faith] per [1] population [in this city]", "[+1 Production] from every [Engineer] <in this city>",
 			"Emblematic District", "Only available <if [The Mughals] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1105,7 +1105,7 @@
 	{
 		"name": "Sultan Camii",
 		"culture": 3,
-		"uniques": ["[+1 Culture, +1 Faith] from [Fresh water] tiles [in this city]",],
+		"uniques": ["[-2 Happiness]", "[+1 Culture, +1 Faith] from [Fresh water] tiles [in this city]",],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Siege Cannons"
@@ -1128,7 +1128,7 @@
 		"production": 1,
 		"science": 1,
 		"culture": 1,
-		"uniques": ["[+2 Gold] <for every [Era number]>", "Must have an owned [Mountain] within [2] tiles",
+		"uniques": ["[-2 Happiness]", "[+2 Gold] <for every [Era number]>", "Must have an owned [Mountain] within [2] tiles",
 			"Emblematic District", "Only available <if [The Swiss] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1139,7 +1139,7 @@
 		"name": "Botteghe Di Artisti",
 		"gold": 2,
 		"culture": 6,
-		"uniques": ["Emblematic District", "Only available <if [The Venetians] is constructed>"],//+Gold on gold tiles
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Venetians] is constructed>"],//+Gold on gold tiles
 		"hurryCostModifier": 25,
 		"requiredTech": "Humanism"
 	},
@@ -1319,7 +1319,7 @@
 	//Argentinians
 	{
 		"name": "Saladero",
-		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]", "Provides [1] [Salted Beef]",
+		"uniques": [ "[+1 Food] from [Cattle] tiles [in this city]", "Provides [1] [Salted Beef]",
 			"Emblematic District", "Only available <if [The Argentinians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1340,7 +1340,7 @@
 		"name": "Colonial Office",
 		"gold": 5
 		"percentStatBonus": {"gold": 25},
-		"uniques": [ "Only available <in cities without a [Palace]>",
+		"uniques": [ "[-2 Happiness]", "Only available <in cities without a [Palace]>",
 			"Emblematic District", "Only available <if [The British] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1350,7 +1350,7 @@
 	{
 		"name": "Exhibition Hall",
 		"culture": 5,
-		"uniques": ["[+3 Science] from each Trade Route",
+		"uniques": ["[-2 Happiness]","[+3 Science] from each Trade Route",
 			"Emblematic District", "Only available <if [The French] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1360,7 +1360,7 @@
 	{
 		"name": "Coking Works",
 		"specialistSlots": {"Engineer": 1},
-		"uniques": ["[+1 Production] per [1] population [in this city]",
+		"uniques": ["[-2 Happiness]","[+1 Production] per [1] population [in this city]",
 			"Emblematic District", "Only available <if [The Germans] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1370,7 +1370,7 @@
 	{
 		"name": "Teatro",
 		"culture": 1,
-		"uniques": ["[+1 Culture] from every [Trader] <in this city>","[+1 Culture] from every [Researcher] <in this city>",
+		"uniques": ["[-2 Happiness]","[+1 Culture] from every [Trader] <in this city>","[+1 Culture] from every [Researcher] <in this city>",
 			"Emblematic District", "Only available <if [The Italians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1382,7 +1382,7 @@
 		"specialistSlots": {"Trader": 1},
 		"production": 5
 		"gold": 2,
-		"uniques": ["[+1 Gold] from each Trade Route",
+		"uniques": ["[-2 Happiness]","[+1 Gold] from each Trade Route",
 			"Emblematic District", "Only available <if [The Persians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Military Coordination"
@@ -1391,7 +1391,7 @@
 	{
 		"name": "College",
 		"science": 2,
-		"uniques": ["[+1 Science] [in this city] <for every [[Science] Buildings]>","[+1 Culture] [in this city] <for every [[Faith] Buildings]>",
+		"uniques": ["[-2 Happiness]", "[+1 Science] [in this city] <for every [[Science] Buildings]>","[+1 Culture] [in this city] <for every [[Faith] Buildings]>",
 			"Emblematic District", "Only available <if [The Scots] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1401,7 +1401,7 @@
 	{
 		"name": "Floating Market",
 		"production": 5,
-		"uniques": ["[+1 Gold] per [1] population [in this city]",
+		"uniques": ["[-2 Happiness]", "[+1 Gold] per [1] population [in this city]",
 			"Emblematic District", "Only available <if [The Siamese] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1413,7 +1413,7 @@
 		"cityStrength": 10,
 		"cityHealth": 20,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Military] units start with [25] XP [in this city]",
+		"uniques": ["[-2 Happiness]", "New [Military] units start with [25] XP [in this city]",
 			"Emblematic District", "Only available <if [The Zulu] is constructed>"],
 		"maintenance": 2,
 		"requiredTech": "Line Formation",
@@ -1705,7 +1705,7 @@
 		"cityHealth": 10,
 		"gold": 5,
 		"science": 5,
-		"uniques": ["Emblematic District", "Only available <if [The Americans] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Americans] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Radar",
 		"uniques": []
@@ -1715,7 +1715,7 @@
 		"name": "Strip Mining Complex",
 		"specialistSlots": {"Engineer": 1},
 		"production": 10,
-		"uniques": ["[+2 Production] from every [Strategic resource] <in this city>",
+		"uniques": ["[-2 Happiness]", "[+2 Production] from every [Strategic resource] <in this city>",
 			"Emblematic District", "Only available <if [The Australians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1727,7 +1727,7 @@
 		"specialistSlots": {"Farmer": 1},
 		"food": 3,
 		"science": 3,
-		"uniques": ["[+1 Food] per [1] population [in this city]",
+		"uniques": ["[-2 Happiness]", "[+1 Food] per [1] population [in this city]",
 			"Emblematic District", "Only available <if [The Brasilians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1739,7 +1739,7 @@
 		"specialistSlots": {"Trader": 1},
 		"gold": 5,
 		"culture": 3,
-		"uniques": ["[+2 Gold] [in capital]", "Emblematic District", "Only available <if [The Chinese] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+2 Gold] [in capital]", "Emblematic District", "Only available <if [The Chinese] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Engineering"
 	},
@@ -1758,7 +1758,7 @@
 		"name": "Ashram",
 		"culture": 5,
 		"faith": 3,
-		"uniques": ["[+1 Gold, +1 Science] from every [Faith] <in this city>", "Emblematic District", "Only available <if [The Indians] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+1 Gold, +1 Science] from every [Faith] <in this city>", "Emblematic District", "Only available <if [The Indians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Mass Entertainment"
@@ -1769,7 +1769,7 @@
 		"specialistSlots": {"Researcher": 1},
 		"production": 5,
 		"science": 5,
-		"uniques": ["Emblematic District", "Only available <if [The Japanese] is constructed>"], //++ Pollution
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Japanese] is constructed>"], //++ Pollution
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Automation"
@@ -1787,7 +1787,7 @@
 	//Nigerians
 	{
 		"name": "Oil Refinery",
-		"uniques": ["Provides [2] [Oil]", "Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "Provides [2] [Oil]", "Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Nigerians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1801,7 +1801,7 @@
 		"gold": 3,
 		"science": 3,
 		"culture": 3,
-		"uniques": ["Emblematic District", "Only available <if [The Singaporeans] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Singaporeans] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Social Housing"
 	},
@@ -1810,7 +1810,7 @@
 		"name": "Arms Factory",
 		"production": 5,
 		"gold": 5,
-		"uniques": ["[-3 Happiness]", "Provides [1] [Weapons]", "Emblematic District", "Only available <if [The Soviets] is constructed>"],//++++++++++ Pollution
+		"uniques": ["[-4 Happiness]", "Provides [1] [Weapons]", "Emblematic District", "Only available <if [The Soviets] is constructed>"],//++++++++++ Pollution
 		"hurryCostModifier": 25,
 		"requiredTech": "Amphibious Warfare"
 	},
@@ -1819,7 +1819,7 @@
 		"name": "Institute",
 		"science": 1,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Emblematic District", "Only available <if [The Swedes] is constructed>"],//++++++++++ Pollution
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Swedes] is constructed>"],//++++++++++ Pollution
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Rocket Science"
@@ -1830,7 +1830,7 @@
 		"specialistSlots": {"Researcher": 1},
 		"percentStatBonus": {"science": 10},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] from every [Farmer] <in this city>", "Emblematic District", "Only available <if [The Turks] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+1 Science] from every [Farmer] <in this city>", "Emblematic District", "Only available <if [The Turks] is constructed>"],
 		"maintenance": 2,
 		"requiredTech": "Suburbs"
 	},
