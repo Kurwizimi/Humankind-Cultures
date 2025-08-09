@@ -51,9 +51,7 @@
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"food": 1,
-		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Food] from [Horses] tiles [in this city]",
-			"[+1 Food] from [Sheep] tiles [in this city]",
+		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Domestication"
 	},
@@ -71,7 +69,7 @@
 	{
 		"name": "Flood Irrigation",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from every [River] <in this city>",
+		"uniques": ["[+1 Food] from every [{improved} {River}] <in this city>",
 				"Must be on [River]",
 				"Destroyed when the city is captured"],
 		"maintenance": 1,
@@ -81,7 +79,7 @@
 		"name": "Forge",
 		"hurryCostModifier": 25,
 		"production": 2,
-		"uniques": ["[+1 Production] from every [Copper] <in this city>",
+		"uniques": ["[+1 Production] from every [{improved} {Copper}] <in this city>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
@@ -97,7 +95,6 @@
 		"name": "Stoneworks",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Mountain] tiles [in this city]",
-			"[+1 Production] from [Mine] tiles [in this city]",
 			"[+1 Production] from [Quarry] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Masonry"
@@ -113,7 +110,7 @@
 		"name": "House of Scribes",
 		"specialistSlots": {"Researcher": 2},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Science] from every [Researcher] <in this city>",
+		"uniques": ["[+1 Science] from every [Researcher] <in this city>",
 			"Destroyed when the city is captured"],
 		"maintenance": 1,
 		"requiredTech": "Writing"
@@ -122,7 +119,7 @@
 		"name": "Fishery",
 		"hurryCostModifier": 25,
 		"food": 2,
-		"uniques": ["[+1 Food] from [Water resource] tiles [in this city]",
+		"uniques": ["[+1 Food] from [{improved} {Water resource}] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"maintenance": 1,
 		"requiredTech": "Fishing"
@@ -131,7 +128,7 @@
 		"name": "Fishmonger",
 		"hurryCostModifier": 25,
 		"gold": 2,
-		"uniques": ["[+1 Gold] from [Water resource] tiles [in this city]",
+		"uniques": ["[+1 Gold] from [{improved} {Water resource}] tiles [in this city]",
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Sailing"
 	},
@@ -196,7 +193,7 @@
 		"cost": 187,
 		"greatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"uniques": ["Provides [3] [Horses]", "[+20]% Production when constructing [Mounted] units [in this city]", "[+20]% Production when constructing [Mounted] units [in this city]"],
+		"uniques": ["Provides [3] [Horses]", "[+20]% Production when constructing [Mounted] units [in this city]", "[+20]% Production when constructing [Armored] units [in this city]"],
 		"requiredTech": "Domestication",
 		"quote": "These grand buildings are more than a place for horses to call home—they're also a brilliant feat of design."
 	},
@@ -345,14 +342,14 @@
 		"name": "Charcoal Kiln",
 		"hurryCostModifier": 25,
 		"production": 2, 
-		"uniques": ["[+2 Production] from [Copper] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [{improved} {Copper}] tiles [in this city]"],
 		"requiredBuilding": "Forge",
 		"requiredTech": "Craftsmanship"
 	},
 	{
 		"name": "Water Mill",
 		"hurryCostModifier": 25,
-		"production": 2,
+		"production": 1,
 		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]",
 			"Must be on [River]"],
 		"requiredTech": "Hydrology"
@@ -368,7 +365,7 @@
 		"name": "Levy Administration",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
-		"gold": 3,
+		"gold": 2,
 		"requiredTech": "Trade Expeditions"
 	},
 	{
@@ -621,14 +618,14 @@
 		"name": "High Furnace",
 		"hurryCostModifier": 25,
 		"production": 2,
-		"uniques": ["[+2 Production] from [Iron] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [{improved} {Iron}] tiles [in this city]"],
 		"requiredBuilding": "Charcoal Kiln",
 		"requiredTech": "Furnace Steel"
 	},
 	{
 		"name": "Commodity Market",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from every [Trader] <in this city>"],
+		"uniques": ["[+1 Gold] from every [Trader] <in this city>"],
 		"requiredTech": "Guilds"
 	},
 	{
@@ -651,7 +648,7 @@
 		"name": "Great Fishmarket",
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from each Trade Route",
-			"[+1 Gold] from [Water resource] tiles [in this city]", "Must be next to [Coast]"],
+			"[+1 Gold] from [{improved} {Water resource}] tiles [in this city]", "Must be next to [Coast]"],
 		"requiredBuilding": "Fishmonger",
 		"requiredTech": "Seafaring Mastery"
 	},
@@ -659,7 +656,7 @@
 		"name": "Tourney Field",
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] XP [in this city]",
-			"[+1 Production] from [Horses] tiles [in this city]"],
+			"[+1 Production] from [{improved} {Horses}] tiles [in this city]"],
 		"maintenance": 2,
 		"requiredBuilding": "Barracks",
 		"requiredTech": "Chivalry"
@@ -668,7 +665,7 @@
 	{
 		"name": "Armory",
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Land] units [in this city]"],
+		"uniques": ["[+10]% Production when constructing [Land] units [in this city]"],
 		"maintenance": 2,
 		"requiredTech": "Furnace Steel"
 	},
@@ -715,7 +712,7 @@
 		"production": 2,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route", "[+2 Gold] from [resource] tiles [in this city]"],
+		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route", "[+1 Gold] from [{improved} {resource}] tiles [in this city]"],
 		"requiredTech": "Guilds",
 		"quote": "This colossal fortress-city is a spectacular fusion of human ingenuity and natural beauty. It is as elegant as it is impregnable."
 	},
@@ -741,11 +738,11 @@
 	},
 	{
 		"name": "Tōdai-Ji",
-		"happiness": 2,
+		"production": 2,
 		"faith": 2,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Production] per [1] population [in this city]"],
+		"uniques": ["[+1 Production] per [2] population [in this city]"],
 		"requiredTech": "Furnace Steel",
 		"quote": "Tōdai-Ji was the largest wood structure in the world for 1200 years, more or less. That should impress anyone."
 	},
@@ -876,7 +873,7 @@
 		"name": "Grain Silo",
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],
+		"uniques": ["[+1 Food] from every [Farmer] <in this city>"],
 		"requiredBuilding": "Granary",
 		"requiredTech": "Supply Lines"
 	},
@@ -885,7 +882,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from every [Engineer] <in this city>",
-			"[+2 Production] from [Saltpetre] tiles [in this city]"],
+			"[+2 Production] from [{improved} {Saltpetre}] tiles [in this city]"],
 		"maintenance": 2,
 		"requiredBuilding": "Artisan Workshop",
 		"requiredTech": "Mercantalism"
@@ -894,14 +891,14 @@
 		"name": "Taxation Office",
 		"hurryCostModifier": 25,
 		"gold": 5,
-		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]"],
+		"uniques": ["[+1 Gold] from [{improved} {Luxury resource}] tiles [in this city]"],
 		"requiredBuilding": "Levy Administration",
 		"requiredTech": "Centralised Power"
 	},
 	{
 		"name": "Stock Exchange",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from every [Trader] <in this city>"],
+		"uniques": ["[+1 Gold] from every [Trader] <in this city>"],
 		"maintenance": 2,
 		"requiredBuilding": "Commodity Market",
 		"requiredTech": "Chartered Companies"
@@ -917,7 +914,7 @@
 		"name": "Printing House",
 		"specialistSlots": {"Researcher": 3},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Science] from every [Researcher] <in this city>"],
+		"uniques": ["[+1 Science] from every [Researcher] <in this city>"],
 		"maintenance": 1,
 		"requiredBuilding": "Manuscript Atelier",
 		"requiredTech": "Moveable Typeface"
@@ -943,7 +940,7 @@
 		"name": "Inventor's Workshop",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 10},
-		"uniques": ["[+1 Science] from [Saltpetre] tiles [in all cities]"],
+		"uniques": ["[+1 Science] from [{improved} {Saltpetre}] tiles [in all cities]"],
 		"maintenance": 2,
 		"requiredBuilding": "Alchemist's Workshop",
 		"requiredTech": "Humanism"
@@ -1021,7 +1018,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] [in all cities] <when above [10] [Happiness]>",
+		"uniques": ["[+25]% [Gold] [in all cities] <when above [20] [Happiness]>",
 			"Must be on [River]"],
 		"requiredTech": "Humanism",
 		"quote": "The Taj Mahal is indeed a stunning mausoleum! If you want to be together forever, it's hard to choose a nicer place."
@@ -1149,7 +1146,7 @@
 		"name": "Industrial Silo",
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],//+ Pollution
+		"uniques": ["[+1 Food] from every [Farmer] <in this city>"],//+ Pollution
 		"maintenance": 1,
 		"requiredBuilding": "Grain Silo",
 		"requiredTech": "Mechanisation"
@@ -1164,7 +1161,7 @@
 		"name": "Coal Plant",
 		"hurryCostModifier": 25,
 		"production": 3,
-		"uniques": ["[+2 Production] from [Coal] tiles [in this city]"],// ++ Pollution
+		"uniques": ["[+1 Production] from [{improved} {Coal}] tiles [in this city]"],// ++ Pollution
 		"maintenance": 1,
 		"requiredBuilding": "High Furnace",
 		"requiredTech": "Electricity"
@@ -1181,7 +1178,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Mine] tiles [in this city]",
 			"[+1 Production] from [Quarry] tiles [in this city]",
-			"[+1 Production] from [Coal] tiles [in this city]"],// ++ Pollution for every coal
+			"[+1 Production] from [{improved} {Coal}] tiles [in this city]"],// ++ Pollution for every coal
 		"maintenance": 1,
 		"requiredBuilding": "Stoneworks",
 		"requiredTech": "Mechanisation"
@@ -1190,7 +1187,7 @@
 		"name": "Factory",
 		"specialistSlots": {"Engineer": 3},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Production] from every [Engineer] <in this city>"], //+ Pollution
+		"uniques": ["[+1 Production] from every [Engineer] <in this city>"], //+ Pollution
 		"maintenance": 2,
 		"requiredBuilding": "Manufactory",
 		"requiredTech": "Mechanisation"
@@ -1198,14 +1195,14 @@
 	{
 		"name": "Customs Agency",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from each Trade Route"],
+		"uniques": ["[+1 Gold] from each Trade Route"],
 		"requiredBuilding": "Customs Farm",
 		"requiredTech": "Nationhood"
 	},
 	{
 		"name": "Academy",
 		"hurryCostModifier": 25,
-		"science": 5,
+		"science": 4,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
 		"maintenance": 1,
 		"requiredBuilding": "University",
@@ -1225,7 +1222,7 @@
 		"name": "Seafood Wholesalers",
 		"hurryCostModifier": 25,
 		"gold": 3,
-		"uniques": ["[+2 Gold] from each Trade Route",
+		"uniques": ["[+1 Gold] from each Trade Route",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Great Fishmarket",
 		"requiredTech": "Propeller"
@@ -1258,7 +1255,7 @@
 	{
 		"name": "Hospital",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Happiness] from every [Researcher] <in this city>"],
+		"uniques": ["[+1 Happiness] from every [Researcher] <in this city>"],
 		"requiredBuilding": "Apothecary",
 		"requiredTech": "Microbiology"
 	},
@@ -1301,7 +1298,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Production] per [1] population [in this city]"],
+		"uniques": ["[+1 Production] per [2] population [in this city]"],
 		"requiredTech": "Electricity",
 		"quote": "The Eiffel Tower -- proof of what you can do with a bit of iron, a bit of math, and thousands of liters of paint."
 	},
@@ -1427,9 +1424,7 @@
 		"hurryCostModifier": 25,
 		"specialistSlots": {"Farmer": 2},
 		"food": 3,
-		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Food] from [Horses] tiles [in this city]",
-			"[+1 Food] from [Sheep] tiles [in this city]",
+		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",
 			"Destroyed when the city is captured"],//++ Pollution
 		"maintenance": 2,
 		"requiredBuilding": "Animal Barn",
@@ -1446,7 +1441,7 @@
 		"name": "Quarrying Machinery",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Quarry] tiles [in this city]",
-			"[+1 Production] from [Aluminum] tiles [in this city]"],// ++ Pollution
+			"[+1 Production] from [{improved} {Aluminum}] tiles [in this city]"],// ++ Pollution
 		"maintenance": 1,
 		"requiredBuilding": "Conveyor Belt",
 		"requiredTech": "Mechanised Harvesting"
@@ -1455,7 +1450,7 @@
 		"name": "In-Situ Mine",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Mine] tiles [in this city]",
-			"[+2 Production] from [Uranium] tiles [in this city]"],// ++ Pollution for every Uranium
+			"[+2 Production] from [{improved} {Uranium}] tiles [in this city]"],// ++ Pollution for every Uranium
 		"requiredBuilding": "Quarrying Machinery",
 		"requiredTech": "Communication Satellites"
 	},
@@ -1501,7 +1496,7 @@
 		"name": "Oil Pipeline",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Coast] tiles [in this city]",
-			"[+2 Production] from [Oil] tiles [in this city]","Must be next to [Coast]"],// ++ Pollution for every Oil
+			"[+1 Production] from [{improved} {Oil}] tiles [in this city]","Must be next to [Coast]"],// ++ Pollution for every Oil
 		"maintenance": 2,
 		"requiredTech": "Civil Engineering"
 	},
@@ -1518,7 +1513,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"gold": 5,
-		"uniques": ["[+1 Gold] from [Oil] tiles [in all cities]"], //++ Pollutiuon
+		"uniques": ["[+1 Gold] from [{improved} {Oil}] tiles [in all cities]"], //++ Pollutiuon
 		"requiredBuilding": "Bank",
 		"requiredTech": "Free Trade Agreement"
 	},
@@ -1526,7 +1521,7 @@
 		"name": "Tech Park",
 		"specialistSlots": {"Researcher": 3},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Science] from every [Researcher] <in this city>",
+		"uniques": ["[+1 Science] from every [Researcher] <in this city>",
 			"[+1]% [Science] [in this city] <for every [Aluminum]>"], //++ Pollution
 		"maintenance": 2,
 		"requiredBuilding": "Printing House",
@@ -1552,7 +1547,7 @@
 		"name": "Pisiciculture",
 		"hurryCostModifier": 25,
 		"food": 2,
-		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]",
+		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Whale Fishing",
@@ -1590,7 +1585,7 @@
 	{
 		"name": "Sewage Treatment Plant",
 		"happiness": 4,
-		"maintenance": 3,
+		"maintenance": 4,
 		"requiredBuilding": "Aqueduct",
 		"requiredTech": "Social Housing"
 	},
@@ -1694,7 +1689,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"percentStatBonus": {"science": 25},
-		"uniques": ["[+5 Science] from each Trade Route", "Must be next to [Mountain]"],
+		"uniques": ["[+4 Science] from each Trade Route", "Must be next to [Mountain]"],
 		"requiredTech": "Rocket Science",
 		"quote": "Dotting the landscape, these iconic stations open onto astonishingly clear views of the night sky."
 	},
@@ -1715,7 +1710,7 @@
 		"name": "Strip Mining Complex",
 		"specialistSlots": {"Engineer": 1},
 		"production": 10,
-		"uniques": ["[-2 Happiness]", "[+2 Production] from every [Strategic resource] <in this city>",
+		"uniques": ["[-2 Happiness]", "[+2 Production] from every [{improved} {Strategic resource}] <in this city>",
 			"Emblematic District", "Only available <if [The Australians] is constructed>"],
 		"maintenance": 2,
 		"hurryCostModifier": 25,
