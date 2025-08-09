@@ -101,6 +101,176 @@
 		"uniques": [],
 		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
 	},
+	{
+		"name": "Expansionist",
+		"leaderName": "",
+		"adjective": ["Expansionist"],
+		"startBias": [""],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "So these are the Babylonians… It can only be an advantage to have a neighbor as smart as you are.",
+		"startIntroPart2": "This means more than just markets for the Babylonians. It's also the beginning of mathematics, astronomy, and a set of codified laws that I wouldn't want to be caught breaking…",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		
+		"neutralHello": "",
+		"neutralLetsHearIt": [""],
+		"neutralNo": [""],
+		"neutralYes": [""],
+
+		"hateHello": "",
+		"hateLetsHearIt": [""],
+		"hateNo": [""],
+		"hateYes": [""],
+		
+		"afterPeace": "",
+		"tradeRequest": "",
+
+		"outerColor": [75,90,90],
+		"innerColor": [240,240,240],
+		"uniqueName": "",
+		"uniques": [],
+		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
+	},
+	{
+		"name": "Merchant",
+		"leaderName": "",
+		"adjective": ["Merchant"],
+		"startBias": [""],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "So these are the Babylonians… It can only be an advantage to have a neighbor as smart as you are.",
+		"startIntroPart2": "This means more than just markets for the Babylonians. It's also the beginning of mathematics, astronomy, and a set of codified laws that I wouldn't want to be caught breaking…",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		
+		"neutralHello": "",
+		"neutralLetsHearIt": [""],
+		"neutralNo": [""],
+		"neutralYes": [""],
+
+		"hateHello": "",
+		"hateLetsHearIt": [""],
+		"hateNo": [""],
+		"hateYes": [""],
+		
+		"afterPeace": "",
+		"tradeRequest": "",
+
+		"outerColor": [150,130,70],
+		"innerColor": [220,220,30],
+		"uniqueName": "",
+		"uniques": [],
+		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
+	},
+	{
+		"name": "Militant",
+		"leaderName": "",
+		"adjective": ["Militant"],
+		"startBias": [""],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "So these are the Babylonians… It can only be an advantage to have a neighbor as smart as you are.",
+		"startIntroPart2": "This means more than just markets for the Babylonians. It's also the beginning of mathematics, astronomy, and a set of codified laws that I wouldn't want to be caught breaking…",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		
+		"neutralHello": "",
+		"neutralLetsHearIt": [""],
+		"neutralNo": [""],
+		"neutralYes": [""],
+
+		"hateHello": "",
+		"hateLetsHearIt": [""],
+		"hateNo": [""],
+		"hateYes": [""],
+		
+		"afterPeace": "",
+		"tradeRequest": "",
+
+		"outerColor": [150,130,70],
+		"innerColor": [220,220,30],
+		"uniqueName": "",
+		"uniques": [],
+		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
+	},
+	{
+		"name": "Scientist",
+		"leaderName": "",
+		"adjective": ["Scientist"],
+		"startBias": [""],
+		"preferredVictoryType": "Scienific",
+		
+		"startIntroPart1": "So these are the Babylonians… It can only be an advantage to have a neighbor as smart as you are.",
+		"startIntroPart2": "This means more than just markets for the Babylonians. It's also the beginning of mathematics, astronomy, and a set of codified laws that I wouldn't want to be caught breaking…",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		
+		"neutralHello": "",
+		"neutralLetsHearIt": [""],
+		"neutralNo": [""],
+		"neutralYes": [""],
+
+		"hateHello": "",
+		"hateLetsHearIt": [""],
+		"hateNo": [""],
+		"hateYes": [""],
+		
+		"afterPeace": "",
+		"tradeRequest": "",
+
+		"outerColor": [12,70,80],
+		"innerColor": [20,150,150],
+		"uniqueName": "",
+		"uniques": [],
+		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
+	},
+	{
+		"name": "Diplomat",
+		"leaderName": "",
+		"adjective": ["Diplomat"],
+		"startBias": [""],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "So these are the Babylonians… It can only be an advantage to have a neighbor as smart as you are.",
+		"startIntroPart2": "This means more than just markets for the Babylonians. It's also the beginning of mathematics, astronomy, and a set of codified laws that I wouldn't want to be caught breaking…",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		
+		"neutralHello": "",
+		"neutralLetsHearIt": [""],
+		"neutralNo": [""],
+		"neutralYes": [""],
+
+		"hateHello": "",
+		"hateLetsHearIt": [""],
+		"hateNo": [""],
+		"hateYes": [""],
+		
+		"afterPeace": "",
+		"tradeRequest": "",
+
+		"outerColor": [120,200,200],
+		"innerColor": [200,130,130],
+		"uniqueName": "",
+		"uniques": [],
+		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
+	},
 
 	//Ancient City States
 	
