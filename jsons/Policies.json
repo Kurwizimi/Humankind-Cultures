@@ -709,7 +709,7 @@
                         },
                             {
                             "name": "Imperialists",
-                            "uniques": ["[+20]% Strength <for [10] turns> <<upon declaring war with a major Civilization>","Instantly gain [5] [Authority]",
+                            "uniques": ["[+20]% Strength <for [10] turns> <upon declaring war with a major Civilization>","Instantly gain [5] [Authority]",
 					"Unavailable <after adopting [Anti-Imperialists]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 5
