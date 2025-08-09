@@ -197,8 +197,8 @@
 		"afterPeace": "",
 		"tradeRequest": "",
 
-		"outerColor": [150,130,70],
-		"innerColor": [220,220,30],
+		"outerColor": [10,80,10],
+		"innerColor": [130,10,10],
 		"uniqueName": "",
 		"uniques": [],
 		"cities": ["Harappa","Mohenjo-Daro","Lothal","Ganweriwala","Shortugai","Dholavira","Nausharo","Rakhigarhi"," Kot Diji","Surkotada"]
