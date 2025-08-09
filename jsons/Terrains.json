@@ -616,7 +616,6 @@
 		"food": 4,
 		"occursOn": ["Desert","Plains","Grassland"],
 		"uniques": ["Must be adjacent to [1] to [6] [Elevated] tiles",
-			"Must be adjacent to [0] [River] tiles",
 			"Must be adjacent to [0] [Oasis] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must be adjacent to [0] [Coast] tiles",
