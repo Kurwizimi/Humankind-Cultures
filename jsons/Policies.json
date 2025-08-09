@@ -80,7 +80,7 @@
                         },
                             {
                             "name": "Communal Rites",
-                            "uniques": ["[+2 Happiness] [in all cities]", "Instantly gain [3] [Collectivism]",
+                            "uniques": ["[+1 Happiness] [in all cities]", "Instantly gain [3] [Collectivism]",
 					"Unavailable <after adopting [Personal Rites]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
@@ -146,7 +146,7 @@
                         },
                             {
                             "name": "Criminal Slaves",
-                            "uniques": ["[+2 Happiness, +2 Food, +2 Production] [in all cities]", "Instantly gain [3] [World]",
+                            "uniques": ["[+2 Food, +2 Production] [in all cities]", "Instantly gain [3] [World]",
 					"Unavailable <after adopting [War Slaves]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 1
@@ -205,14 +205,14 @@
                         },
                             {
                             "name": "Physical Punishment",
-                            "uniques": ["[+1 Happiness] per [4] population [in all cities]","Instantly gain [4] [Tradition]","Adopt [Capital Punishment - 1]",
+                            "uniques": ["[+1 Happiness] per [5] population [in all cities]","Instantly gain [4] [Tradition]","Adopt [Capital Punishment - 1]",
 					"Unavailable <after adopting [Forfeiture]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 1
                         },
                             {
                             "name": "Forfeiture",
-                            "uniques": ["[+1 Gold] per [1] population [in all cities]","Instantly gain [4] [Progress]","Adopt [Capital Punishment - 2]",
+                            "uniques": ["[+1 Gold] per [5] population [in all cities]","Instantly gain [4] [Progress]","Adopt [Capital Punishment - 2]",
 					"Unavailable <after adopting [Physical Punishment]> <hidden from users>", "Judicial Civic"],
 			    "row": 3,
                             "column": 5
@@ -227,14 +227,14 @@
                         },
                             {
                             "name": "Assimilated Peoples",
-                            "uniques": ["[-25]% City-State Influence degradation","Instantly gain [4] [Homeland]",
+                            "uniques": ["[-15]% City-State Influence degradation","Instantly gain [4] [Homeland]",
 					"Unavailable <after adopting [Mercenary Armies]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 1
                         },
                             {
                             "name": "Mercenary Armies",
-                            "uniques": ["[+30]% Strength <vs [City-States]>","Instantly gain [4] [World]",
+                            "uniques": ["[+15]% Strength <vs [City-States]>","Instantly gain [4] [World]",
 					"Unavailable <after adopting [Assimilated Peoples]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 5
@@ -249,7 +249,7 @@
                         },
                             {
                             "name": "Paid Wages",
-                            "uniques": ["[+2 Happiness] [in all cities with a garrison]","[+10 Happiness] [in annexed cities]","Instantly gain [4] [Homeland]",
+                            "uniques": ["[+1 Happiness] [in all cities with a garrison]","[+5 Happiness] [in annexed cities]","Instantly gain [4] [Homeland]",
 					"Unavailable <after adopting [Plundered Wages]> <hidden from users>", "Martial Civic"],
 			    "row": 5,
                             "column": 1
@@ -315,14 +315,14 @@
                         },
                             {
                             "name": "Universal Citizenship",
-                            "uniques": ["[+2 Happiness] [in all cities connected to capital]","Instantly gain [5] [Liberty]",
+                            "uniques": ["[+1 Culture] [in all cities connected to capital]","Instantly gain [5] [Liberty]",
 					"Unavailable <after adopting [Select Citizenship]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 1
                         },
                             {
                             "name": "Select Citizenship",
-                            "uniques": ["[+10 Happiness] [in capital]","Instantly gain [5] [Authority]",
+                            "uniques": ["[+2 Happiness, +4 Culture] [in capital]","Instantly gain [5] [Authority]",
 					"Unavailable <after adopting [Universal Citizenship]> <hidden from users>", "Social Civic"],
 			    "row": 11,
                             "column": 5
@@ -466,7 +466,7 @@
                         },
                             {
                             "name": "Untaxed Minorities",
-                            "uniques": ["[+5]% [Happiness] [in all cities]",  "Instantly gain [5] [Liberty]",
+                            "uniques": ["[+1 Happiness, +2 Culture] [in all cities]",  "Instantly gain [5] [Liberty]",
 					"Only available <after adopting [Open-Minded]>", "Unavailable <after adopting [Taxed Minorities]> <hidden from users>", "Religious Civic"],
 			    "row": 7,
                             "column": 5
@@ -481,7 +481,7 @@
                         },
                             {
                             "name": "Free Arts",
-                            "uniques": ["[+20]% [Culture] from every [Culture]","Instantly gain [5] [Liberty]",
+                            "uniques": ["[+10]% [Culture] from every [Culture]","Instantly gain [5] [Liberty]",
 					"Unavailable <after adopting [Censored Arts]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 1
@@ -503,14 +503,14 @@
                         },
                             {
                             "name": "Communal Land",
-                            "uniques": ["[+1 Gold] from every [Farm]","[+1 Food] from every [Plantation]", "[+2 Happiness] [in all cities]","Instantly gain [4] [Collectivism]",
+                            "uniques": ["[+1 Gold] from every [Farm]","[+1 Food] from every [Plantation]", "Instantly gain [4] [Collectivism]",
 					"Unavailable <after adopting [Inherited Land]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Inherited Land",
-                            "uniques": ["[+1 Food] from every [Farm]","[+1 Gold] from every [Plantation]", "[+2 Culture] [in all cities]","Instantly gain [4] [Individualism]",
+                            "uniques": ["[+1 Food] from every [Farm]","[+1 Gold] from every [Plantation]", "Instantly gain [4] [Individualism]",
 					"Unavailable <after adopting [Communal Land]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 5
@@ -603,14 +603,14 @@
                         },
                             {
                             "name": "Seize Resources",
-                            "uniques": ["[+2] Happiness from each type of luxury resource","Instantly gain [5] [Homeland]",
+                            "uniques": ["[+1] Happiness from each type of luxury resource","Instantly gain [5] [Homeland]",
 					"Unavailable <after adopting [Trade Resources]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Trade Resources",
-                            "uniques": ["[+4 Gold] from each Trade Route","Instantly gain [5] [Individualism]",
+                            "uniques": ["[+2 Gold] from each Trade Route","Instantly gain [5] [Individualism]",
 					"Unavailable <after adopting [Seize Resources]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 5
@@ -638,7 +638,7 @@
                         },
                             {
                             "name": "One-Party State",
-                            "uniques": ["[+3 Happiness] [in all cities]", "[-10]% Unhappiness from [Population] [in all cities]","Instantly gain [6] [Authority]",
+                            "uniques": ["[+2 Happiness] [in all cities]", "[-10]% Unhappiness from [Population] [in all cities]","Instantly gain [6] [Authority]",
 					"Only available <after adopting [Republic]>", "Unavailable <after adopting [Democratic Republic]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
@@ -709,7 +709,7 @@
                         },
                             {
                             "name": "Imperialists",
-                            "uniques": ["[+20]% Strength <for [10] turns> <upon declaring war on [Major] Civilizations>","Instantly gain [5] [Authority]",
+                            "uniques": ["[+20]% Strength <for [10] turns> <<upon declaring war with a major Civilization>","Instantly gain [5] [Authority]",
 					"Unavailable <after adopting [Anti-Imperialists]> <hidden from users>", "Martial Civic"],
 			    "row": 4,
                             "column": 5
@@ -724,7 +724,7 @@
                         },
                             {
                             "name": "Secularism",
-                            "uniques": ["[+5 Gold] from every [Faith]", "[-10 Faith] [in capital]","Instantly gain [6] [Liberty]",
+                            "uniques": ["[+2 Gold] from every [Faith]", "[-25 Faith] [in capital]","Instantly gain [6] [Liberty]",
 					"Unavailable <after adopting [State Atheism]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
@@ -767,7 +767,7 @@
                         },
                             {
                             "name": "Freedom of Speech",
-                            "uniques": ["[-20]% Culture cost of adopting new Policies","Instantly gain [6] [Liberty]",
+                            "uniques": ["[-10]% Culture cost of adopting new Policies","Instantly gain [6] [Liberty]",
 					"Unavailable <after adopting [Propaganda]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 1
@@ -918,7 +918,7 @@
                         },
                             {
                             "name": "Cultural Eradication",
-                            "uniques": ["[+25]% [Culture] [in all cities]","Instantly gain [6] [Homeland]",
+                            "uniques": ["[+15]% [Culture] [in all cities]","Instantly gain [6] [Homeland]",
 					"Unavailable <after adopting [Cultural Respect]> <hidden from users>", "Cultural Civic"],
 			    "row": 8,
                             "column": 5
@@ -933,14 +933,14 @@
                         },
                             {
                             "name": "Workers' Rights",
-                            "uniques": ["[+10]% [Happiness] from every [Factory]","[+5 Culture] from every [Factory]","Instantly gain [6] [Collectivism]",
+                            "uniques": ["[+10]% [Culture] from every [Factory]","[+2 Culture] from every [Factory]","Instantly gain [6] [Collectivism]",
 					"Unavailable <after adopting [Profit-focused]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
                         },
                             {
                             "name": "Profit-focused",
-                            "uniques": ["[+20]% [Gold] from every [Factory]", "[+50]% Production when constructing [Factory] buildings [in all cities]","Instantly gain [6] [Individualism]",
+                            "uniques": ["[+10]% [Gold] from every [Factory]", "[+100]% Production when constructing [Factory] buildings [in all cities]","Instantly gain [6] [Individualism]",
 					"Unavailable <after adopting [Workers' Rights]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 5
