@@ -322,7 +322,7 @@
         	"food": 2,
         	"turnsToBuild": 7,
         	"techRequired": "Fishing",
-        	"uniques": ["[+2 Food] for each adjacent [River]", "Must be next to [tileFilter]", "Only available <with [0] to [0] neighboring [Fish Trap] tiles>", "Emblematic District",
+        	"uniques": ["[+2 Food] for each adjacent [River]", "Must be next to [Land]", "Only available <with [0] to [0] neighboring [Fish Trap] tiles>", "Emblematic District",
 			"Only available <if [The Pama-Nyungan] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "F"
    	 },
@@ -552,7 +552,7 @@
 		"science": 1,
         	"turnsToBuild": 7,
         	"techRequired": "Suburbs",
-        	"uniques": ["[+2 Science, +1 Culture] for each adjacent [Snow]", "[+1 Culture] for each adjacent [Tundra]","Only available <with [0] to [0] neighboring [Polar base] tiles>",
+        	"uniques": ["[+2 Science, +1 Culture] for each adjacent [Snow]", "[+1 Culture] for each adjacent [Tundra]","Only available <with [0] to [0] neighboring [Polar Base] tiles>",
 			"Emblematic District", "Only available <if [The New Zealanders] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "P"
    	 },

@@ -20,6 +20,20 @@
         "color": [56, 255, 112]
     },
     {
+        "name": "Productive",
+         "friendBonusUniques": [
+            "[+2 Production] [in all cities] <before the [Medieval era]>",
+            "[+5 Culture] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+7 Culture] [in all cities] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+            "[+4 Culture] [in all cities] <before the [Medieval era]>",
+            "[+10 Culture] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+15 Culture] [in all cities] <starting from the [Industrial era]>"
+        ],
+        "color": [170, 100, 20]
+    },
+    {
         "name": "Mercantile",
         "friendBonusUniques": [
             "[+2 Happiness] <before the [Medieval era]>",

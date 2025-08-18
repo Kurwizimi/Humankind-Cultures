@@ -340,7 +340,7 @@
 						{
 						"name": "Three-Masted Ship",
 						"row": 3,
-						"prerequisites": ["Seafaring Mastery","Guilds"],
+						"prerequisites": ["Guilds"],
                					"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
 						"quote": ""
 					},
@@ -473,7 +473,7 @@
 						"name": "Steam Engine",
 						"row": 3,
 						"cost": 6960,
-						"prerequisites": ["Moveable Typeface","Encyclopedia"],
+						"prerequisites": ["Encyclopedia"],
 						"quote": ""
 					},
 						{
@@ -507,7 +507,7 @@
 						{
 						"name": "Scientific Method",
 						"row": 4,
-						"prerequisites": ["Steam Engine","Encyclopedia"],
+						"prerequisites": ["Steam Engine"],
 						"quote": ""
 					},
 						{
@@ -530,7 +530,7 @@
 						{
 						"name": "Mechanisation",
 						"row": 3,
-						"prerequisites": ["Steam Engine","Scientific Method","Propeller"],
+						"prerequisites": ["Scientific Method","Propeller"],
                 				"uniques": [""],
 						"quote": ""
 					},
@@ -699,8 +699,8 @@
 						{
 						"name": "Suburbs",
 						"row": 6,
-						"prerequisites": ["Free Trade Agreement","Civil Engineering","Power Lines"],
-                				"uniques": ["[+1 Happiness] per [1] population [in all cities]"],
+						"prerequisites": ["Free Trade Agreement","Power Lines"],
+                				"uniques": [],
 						"quote": ""
 					},
 						{
@@ -810,7 +810,7 @@
 						{
 						"name": "Composite Armour",
 						"row": 2,
-						"prerequisites": ["Radar","Fighter Jets"],
+						"prerequisites": ["Fighter Jets"],
                 				"uniques": [],
 						"quote": ""
 					},

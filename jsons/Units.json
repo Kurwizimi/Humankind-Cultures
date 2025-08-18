@@ -741,7 +741,7 @@
 		"cost": 400,
 		"requiredTech": "Seafaring Mastery",
 		"uniques": ["[This Unit] takes [20] damage <upon ending a turn in a [Ocean] tile>", "Can upgrade to [Sloop] <if [The Pirates] is constructed>", "Can upgrade to [Fluyt] <if [The Dutch] is constructed>",
-			"Can upgrade to [Geobukseon] <if [The Joseon] is constructed>", "Can upgrade to [Waka Taua] <if [The Maori] is constructed>", "Can upgrade to [Galleass] <if [The Venitians] is constructed>"],
+			"Can upgrade to [Geobukseon] <if [The Joseon] is constructed>", "Can upgrade to [Waka Taua] <if [The Maori] is constructed>", "Can upgrade to [Galleass] <if [The Venetians] is constructed>"],
 		"upgradesTo": "Carrack",
 		"obsoleteTech": "Naval Artillery",
 		"attackSound": "nonmetalhit"
@@ -904,7 +904,7 @@
 		"requiredTech": "Seafaring Mastery",
 		"upgradesTo": "Carrack",
 		"uniques": ["Can move after attacking", "Only available <if [The Norsemen] is constructed>", "Emblematic Unit", "Can upgrade to [Sloop] <if [The Pirates] is constructed>", "Can upgrade to [Fluyt] <if [The Dutch] is constructed>",
-			"Can upgrade to [Geobukseon] <if [The Joseon] is constructed>", "Can upgrade to [Waka Taua] <if [The Maori] is constructed>", "Can upgrade to [Galleass] <if [The Venitians] is constructed>"],
+			"Can upgrade to [Geobukseon] <if [The Joseon] is constructed>", "Can upgrade to [Waka Taua] <if [The Maori] is constructed>", "Can upgrade to [Galleass] <if [The Venetians] is constructed>"],
 		"obsoleteTech": "Naval Artillery",
 		"attackSound": "nonmetalhit"
 	},
@@ -934,7 +934,7 @@
 		"requiredTech": "Seafaring Mastery",
 		"uniques": ["[This Unit] takes [15] damage <upon ending a turn in a [Ocean] tile>", "Never appears as a Barbarian unit", "Only available <if [The Swahili] is constructed>", "Emblematic Unit",
 			"Can upgrade to [Sloop] <if [The Pirates] is constructed>", "Can upgrade to [Fluyt] <if [The Dutch] is constructed>", "Can upgrade to [Geobukseon] <if [The Joseon] is constructed>",
-			"Can upgrade to [Waka Taua] <if [The Maori] is constructed>", "Can upgrade to [Galleass] <if [The Venitians] is constructed>"],
+			"Can upgrade to [Waka Taua] <if [The Maori] is constructed>", "Can upgrade to [Galleass] <if [The Venetians] is constructed>"],
 		"upgradesTo": "Carrack",
 		"obsoleteTech": "Naval Artillery",
 		"attackSound": "nonmetalhit"
@@ -2053,7 +2053,7 @@
 		"movement": 2,
 		"strength": 51,
 		"cost": 3500,
-		"uniques": [ "[-3 Movement] <in [Foreign Land] tiles>", "Never appears as a Barbarian unit", "Only available <if [The Singaporeans] is constructed>", "Emblematic Unit"],
+		"uniques": [ "[This Unit] loses [2] movement <in [Foreign Land] tiles>", "Never appears as a Barbarian unit", "Only available <if [The Singaporeans] is constructed>", "Emblematic Unit"],
 		"promotions": ["Home Guard"],
 		"requiredTech": "Insurrection Theory",
 		"attackSound": "shot"

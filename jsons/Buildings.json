@@ -51,9 +51,7 @@
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"food": 1,
-		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Food] from [Horses] tiles [in this city]",
-			"[+1 Food] from [Sheep] tiles [in this city]",
+		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Domestication"
 	},
@@ -71,16 +69,17 @@
 	{
 		"name": "Flood Irrigation",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from every [River] <in this city>",
-			"Must be on [River]",
-			"Destroyed when the city is captured"],
+		"uniques": ["[+1 Food] from every [{improved} {River}] <in this city>",
+				"Must be on [River]",
+				"Destroyed when the city is captured"],
+		"maintenance": 1,
 		"requiredTech": "Irrigation"
 	},
 	{
 		"name": "Forge",
 		"hurryCostModifier": 25,
 		"production": 2,
-		"uniques": ["[+1 Production] from every [Copper] <in this city>",
+		"uniques": ["[+1 Production] from every [{improved} {Copper}] <in this city>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
@@ -96,7 +95,6 @@
 		"name": "Stoneworks",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Mountain] tiles [in this city]",
-			"[+1 Production] from [Mine] tiles [in this city]",
 			"[+1 Production] from [Quarry] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Masonry"
@@ -112,23 +110,25 @@
 		"name": "House of Scribes",
 		"specialistSlots": {"Researcher": 2},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Science] from every [Researcher] <in this city>",
+		"uniques": ["[+1 Science] from every [Researcher] <in this city>",
 			"Destroyed when the city is captured"],
+		"maintenance": 1,
 		"requiredTech": "Writing"
 	},
 	{
 		"name": "Fishery",
 		"hurryCostModifier": 25,
 		"food": 2,
-		"uniques": ["[+1 Food] from [Water resource] tiles [in this city]",
+		"uniques": ["[+1 Food] from [{improved} {Water resource}] tiles [in this city]",
 			"Must be next to [Coast]"],
+		"maintenance": 1,
 		"requiredTech": "Fishing"
 	},
 	{
 		"name": "Fishmonger",
 		"hurryCostModifier": 25,
 		"gold": 2,
-		"uniques": ["[+1 Gold] from [Water resource] tiles [in this city]",
+		"uniques": ["[+1 Gold] from [{improved} {Water resource}] tiles [in this city]",
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Sailing"
 	},
@@ -138,7 +138,8 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "City Defence",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured"],
+		"maintenance": 3,
 	},
 	{
 		"name": "Barracks",
@@ -146,6 +147,7 @@
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"],
+		"maintenance": 2,
 		"requiredTech": "Organised Warfare"
 	},
 	{
@@ -160,6 +162,7 @@
 		"hurryCostModifier": 25,
 		"happiness": 2,
 		"uniques": ["Destroyed when the city is captured"],
+		"maintenance": 2,
 		"requiredTech": "Irrigation"
 	},
 	{
@@ -184,6 +187,15 @@
 		"uniques": ["[+2 Gold, +2 Food] from [Luxury resource] tiles [in this city]"],
 		"requiredTech": "Irrigation",
 		"quote": "The Hanging Gardens of Babylon! Worth a cooling visit during a hot summer -- regardless of what city they are built in."
+	},
+	{
+		"name": "Stables of Pi-Ramesses",
+		"cost": 187,
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["Provides [3] [Horses]", "[+20]% Production when constructing [Mounted] units [in this city]", "[+20]% Production when constructing [Armored] units [in this city]"],
+		"requiredTech": "Domestication",
+		"quote": "These grand buildings are more than a place for horses to call home—they're also a brilliant feat of design."
 	},
 	{
 		"name": "Stonehenge",
@@ -213,7 +225,8 @@
 		"cityStrength": 5,
 		"cityHealth": 20,
 		"culture": 3,
-		"uniques": ["Emblematic District", "Only available <if [The Assyrians] is constructed>"],//Extra strength for units nearby
+		"maintenance": 2,
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Assyrians] is constructed>"],//Extra strength for units nearby
 		"hurryCostModifier": 25,
 		"requiredTech": "City Defence"
 	},
@@ -222,7 +235,8 @@
 		"name": "Astronomy House",
 		"specialistSlots": {"Researcher": 1},
 		"hurryCostModifier": 25,
-		"uniques": [ "[+1 Science, +1 Food] from every [Researcher] <in this city>", "Emblematic District", "Only available <if [The Babylonians] is constructed>"],
+		"maintenance": 2,
+		"uniques": ["[-2 Happiness]", "[+1 Science, +1 Food] from every [Researcher] <in this city>", "Emblematic District", "Only available <if [The Babylonians] is constructed>"],
 		"requiredTech": "Calendar"
 	},
 	//Bantu
@@ -230,7 +244,8 @@
 		"name": "Mupíà Field",
 		"hurryCostModifier": 25,
 		"food": 5,
-		"uniques": ["Emblematic District", "Only available <if [The Bantu] is constructed>"],
+		"maintenance": 2,
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Bantu] is constructed>"],
 		"requiredTech": "Irrigation"
 	},
 	//Bantu
@@ -240,6 +255,7 @@
 		"faith": 2,
 		"happiness": 2,
 		"uniques": ["Emblematic District", "Only available <if [The Caralans] is constructed>"],
+		"maintenance": 2,
 		"requiredTech": "Carpentry"
 	},
 	//Egyptian
@@ -248,16 +264,18 @@
 		"specialistSlots": {"Engineer": 1},
 		"culture": 1,
 		"production": 3,
-		"uniques": ["Emblematic District", "Only available <if [The Egyptians] is constructed>"],
+		"uniques": ["[-2 Happiness]","Emblematic District", "Only available <if [The Egyptians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Carpentry"
 	},
-	//Assyrian
+	//Myceanean
 	{
 		"name": "Cyclopean Fortress",
 		"cityHealth": 20,
 		"happiness": 2,
 		"uniques": ["[Land] Units adjacent to this city heal [10] HP per turn when healing", "Emblematic District", "Only available <if [The Mycenaeans] is constructed>"],//Extra strength for units nearby
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "City Defence"
 	},
@@ -265,8 +283,9 @@
 	{
 		"name": "Haven",
 		"specialistSlots": {"Trader": 1},
-		"uniques": ["[+2 Gold] from [Coast] tiles [in this city]", "[+2 Gold] from [Lakes] tiles [in this city]","Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]","[+2 Gold] from [Coast] tiles [in this city]", "[+2 Gold] from [Lakes] tiles [in this city]","Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Phoenicians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Fishing"
 	},
@@ -274,7 +293,8 @@
 	{
 		"name": "Eduba",
 		"science": 3,
-		"uniques": ["[+1 Science] from [Farm] tiles [in this city]", "Emblematic District", "Only available <if [The Sumerians] is constructed>"],
+		"uniques": ["[-2 Happiness]","[+1 Science] from [Farm] tiles [in this city]", "Emblematic District", "Only available <if [The Sumerians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
 	},
@@ -286,6 +306,7 @@
 		"culture": 2,
 		"happiness": 1,
 		"uniques": ["Must have an owned [Mountain] within [2] tiles", "Emblematic District", "Only available <if [The Zhou] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
 	},
@@ -297,11 +318,12 @@
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Only available <when religion is enabled>"]
+		"uniques": ["Only available <when religion is enabled>"],
+		"maintenance": 2,
 	},
 	{
 		"name": "Courthouse",
-		"maintenance": 4,
+		"maintenance": 5,
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
@@ -312,6 +334,7 @@
 		"hurryCostModifier": 25,
 		"food": 4,
 		"uniques": ["Must be on [River]"],
+		"maintenance": 2,
 		"requiredBuilding": "Flood Irrigation",
 		"requiredTech": "Hydrology"
 	},
@@ -319,14 +342,14 @@
 		"name": "Charcoal Kiln",
 		"hurryCostModifier": 25,
 		"production": 2, 
-		"uniques": ["[+2 Production] from [Copper] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [{improved} {Copper}] tiles [in this city]"],
 		"requiredBuilding": "Forge",
 		"requiredTech": "Craftsmanship"
 	},
 	{
 		"name": "Water Mill",
 		"hurryCostModifier": 25,
-		"production": 2,
+		"production": 1,
 		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]",
 			"Must be on [River]"],
 		"requiredTech": "Hydrology"
@@ -342,7 +365,7 @@
 		"name": "Levy Administration",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
-		"gold": 3,
+		"gold": 2,
 		"requiredTech": "Trade Expeditions"
 	},
 	{
@@ -356,12 +379,14 @@
 		"hurryCostModifier": 25,
 		"science": 2,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
+		"maintenance": 1,
 		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"maintenance": 2,
 		"requiredTech": "Rhetoric"
 	},
 	{
@@ -371,7 +396,8 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Palisade",
 		"requiredTech": "Fortifications",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured"],
+		"maintenance": 3,
 	},
 	{
 		"name": "Theatre",
@@ -383,6 +409,7 @@
 		"name": "Aqueduct",
 		"hurryCostModifier": 25,
 		"happiness": 2,
+		"maintenance": 2,
 		"requiredBuilding": "Public Fountain",
 		"requiredTech": "Hydrology"
 	},
@@ -391,7 +418,30 @@
 		"hurryCostModifier": 25,
 		"happiness": 1,
 		"uniques": ["[-25]% enemy spy effectiveness [in this city]"],
+		"maintenance": 2,
 		"requiredTech": "Standing Army"
+	},
+	{
+		"name": "Church of Our Lady Mary of Zion",
+		"faith": 4,
+		"happiness": 2,
+		"cost": 250,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Faith, +1 Culture] per [2] social policies adopted"],
+		"requiredTech": "Trade Expeditions",
+		"quote": "The ornate church inspires unwavering faith - due not only to its singular design, but also the holy, near-mythical artifacts it reputedly houses."
+	},
+	{
+		"name": "Colosseum",
+		"gold": 2,
+		"happiness": 4,
+		"cost": 250,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[10]% [Gold] <when at war>", "[10]% [Happiness] [in this city] <when not at war>"],
+		"requiredTech": "Conquest",
+		"quote": "The ornate church inspires unwavering faith - due not only to its singular design, but also the holy, near-mythical artifacts it reputedly houses."
 	},
 	{
 		"name": "Colossus of Rhodes",
@@ -402,7 +452,7 @@
 		"isWonder": true,
 		"uniques": ["[+10]% Strength <for [Land] units> <when fighting in [City center] tiles>", "[+10]% Strength <for [All] units> <when adjacent to a [{Military} {Water}] unit>",
 			"Must be next to [Coast]"],
-		"requiredTech": "Trade Expeditions",
+		"requiredTech": "Philosophy",
 		"quote": "This Colossus is a mighty image for a mighty empire! And it's discreetly garbed in a toga for those who pass beneath."
 	},
 	{
@@ -424,9 +474,20 @@
 		"cost": 300,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["[+2 Science] from [Quarry] tiles [in this city]"],
+		"uniques": ["[+2 Science, +2 Gold] from [Quarry] tiles [in this city]"],
 		"requiredTech": "Craftsmanship",
 		"quote": "An impressive mausoleum, but I can't help wonder what sort of a sign it is when an empire spends more on the dead than the living…"
+	},
+	{
+		"name": "Pyramid of the Sun",
+		"food": 3,
+		"faith": 3,
+		"cost": 250,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+10]% [Food] [in all cities]", "[+2 Food, +1 Faith] [in all cities]"],
+		"requiredTech": "Rhetoric",
+		"quote": "Taking its distinctive color from tezontle, a coarse volcanic rock, the Pyramid of the Sun is a most striking edifice."
 	},
 	{
 		"name": "Statue of Zeus",
@@ -447,7 +508,7 @@
 		"hurryCostModifier": 25,
 		"culture": 1,
 		"gold": 4,
-		"uniques": ["Emblematic District", "Only available <if [The Achaemenids] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Achaemenids] is constructed>"],
 		"requiredTech": "Fortifications"
 	},
 	//Carthaginians
@@ -455,8 +516,9 @@
 		"name": "Cothon",
 		"cityStrength": 10,
 		"cityHealth": 10,
-		"uniques": ["[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lakes] tiles [in this city]","Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lakes] tiles [in this city]","Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Carthaginians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade Expeditions"
 	},
@@ -465,7 +527,8 @@
 		"name": "Nemeton",
 		"food": 3,
 		"faith": 3,
-		"uniques": ["Emblematic District", "Only available <if [The Celts] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Celts] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
 	},
@@ -474,23 +537,26 @@
 		"name": "Tumulus",
 		"culture": 3,
 		"faith": 2,
-		"uniques": ["All newly-trained [Mounted] units [in this city] receive the [Tumulus] promotion", "Emblematic District", "Only available <if [The Goths] is constructed>"],
+		"uniques": ["[-2 Happiness]", "All newly-trained [Mounted] units [in this city] receive the [Tumulus] promotion", "Emblematic District", "Only available <if [The Goths] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
 	},
 	//Greek
 	{
 		"name": "Amphitheatron",
-		"uniques": ["[+1 Culture, +3 Science] <for every [Era number]>",
+		"uniques": ["[-2 Happiness]", "[+1 Culture, +3 Science] <for every [Era number]>",
 			"Emblematic District", "Only available <if [The Greeks] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Rhetoric"
 	},
 	//Han
 	{
 		"name": "Paper Mill",
-		"uniques": ["[+1 Science] <for every [Adopted [All] Policies]>", "Provides [1] [Paper]",
+		"uniques": [ "[+1 Science] <for every [Adopted [All] Policies]>", "Provides [1] [Paper]",
 			"Emblematic District", "Only available <if [The Han] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
 	},
@@ -502,7 +568,8 @@
 		"culture": 1,
 		"faith": 2,
 		"science": 3,
-		"uniques": ["Emblematic District", "Only available <if [The Mauryans] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Mauryans] is constructed>"],
+		"maintenance": 2,
 		"requiredTech": "Philosophy"
 	},
 	//Maya
@@ -512,22 +579,25 @@
 		"hurryCostModifier": 25,
 		"production": 1,
 		"faith": 2,
-		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]", "Emblematic District", "Only available <if [The Maya] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+1 Production] from [Jungle] tiles [in this city]", "Emblematic District", "Only available <if [The Maya] is constructed>"],
+		"maintenance": 2,
 		"requiredTech": "Rhetoric"
 	},
 	//Nazca
 	{
 		"name": "Nazca Lines",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Faith, +2 Gold] from every [Emblematic District] <in this city>", "Emblematic District", "Only available <if [The Nazca] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+1 Faith, +2 Gold] from every [Emblematic District] <in this city>", "Emblematic District", "Only available <if [The Nazca] is constructed>"],
+		"maintenance": 2,
 		"requiredTech": "Craftsmanship"
 	},
 	//Polynesia
 	{
 		"name": "Marae",
 		"culture": 3,
-		"uniques": ["[+1 Culture, +2 Faith] [in this city] <for every [[Marae] Buildings]>",
+		"uniques": ["[-2 Happiness]", "[+1 Culture, +2 Faith] [in this city] <for every [[Marae] Buildings]>", "Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Polynesians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade Expeditions"
 	},
@@ -537,6 +607,7 @@
 		"culture": 5,
 		"happiness": 2,
 		"uniques": ["Emblematic District", "Only available <if [The Romans] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Conquest"
 	},
@@ -547,14 +618,14 @@
 		"name": "High Furnace",
 		"hurryCostModifier": 25,
 		"production": 2,
-		"uniques": ["[+2 Production] from [Iron] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [{improved} {Iron}] tiles [in this city]"],
 		"requiredBuilding": "Charcoal Kiln",
 		"requiredTech": "Furnace Steel"
 	},
 	{
 		"name": "Commodity Market",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from every [Trader] <in this city>"],
+		"uniques": ["[+1 Gold] from every [Trader] <in this city>"],
 		"requiredTech": "Guilds"
 	},
 	{
@@ -562,6 +633,7 @@
 		"specialistSlots": {"Researcher": 2},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] from every [Researcher] <in this city>"],
+		"maintenance": 1,
 		"requiredBuilding": "House of Scribes",
 		"requiredTech": "Theology"
 	},
@@ -569,13 +641,14 @@
 		"name": "Alchemist's Workshop",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 10},
+		"maintenance": 1,
 		"requiredTech": "Alchemy"
 	},
 	{
 		"name": "Great Fishmarket",
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from each Trade Route",
-			"[+1 Gold] from [Water resource] tiles [in this city]", "Must be next to [Coast]"],
+			"[+1 Gold] from [{improved} {Water resource}] tiles [in this city]", "Must be next to [Coast]"],
 		"requiredBuilding": "Fishmonger",
 		"requiredTech": "Seafaring Mastery"
 	},
@@ -583,7 +656,8 @@
 		"name": "Tourney Field",
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] XP [in this city]",
-			"[+2 Production] from [Horses] tiles [in this city]"],
+			"[+1 Production] from [{improved} {Horses}] tiles [in this city]"],
+		"maintenance": 2,
 		"requiredBuilding": "Barracks",
 		"requiredTech": "Chivalry"
 	},
@@ -591,7 +665,8 @@
 	{
 		"name": "Armory",
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Land] units [in this city]"],
+		"uniques": ["[+10]% Production when constructing [Land] units [in this city]"],
+		"maintenance": 2,
 		"requiredTech": "Furnace Steel"
 	},
 	{
@@ -611,6 +686,47 @@
 		"quote": "The site of Angkor Wat is worthy of reverence not merely for the temples, but for the care it took with water and irrigation."
 	},
 	{
+		"name": "Citadel of Alamut",
+		"cityStrength": 15,
+		"cityHealth": 10,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["All newly-trained [Land] units [in this city] receive the [Swift Assassins] promotion", "Must be next to [Mountain]"],
+		"requiredTech": "Military Architecture",
+		"quote": "Perched high on a spectacular cliffside, this remote fortress is a perfect sanctuary for elite assassins."
+	},
+	{
+		"name": "Great Mosque of Djenné",
+		"production": 3,
+		"faith": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Comment [+15% [Production] in this city]","Comment [+5% [Production] in all other cities]",
+			"[+10]% [Production] [in this city] <hidden from users>", "[+5]% [Production] [in all cities] <hidden from users>"],
+		"requiredTech": "Theology",
+		"quote": "A place of prayer and culture, the Great Mosque's countless sun-baked bricks make it appear more sculpted than constructed."
+	},
+	{
+		"name": "Great Zimbabwe",
+		"gold": 3,
+		"production": 2,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route", "[+1 Gold] from [{improved} {resource}] tiles [in this city]"],
+		"requiredTech": "Guilds",
+		"quote": "This colossal fortress-city is a spectacular fusion of human ingenuity and natural beauty. It is as elegant as it is impregnable."
+	},
+	{
+		"name": "Notre Dame",
+		"faith": 2,
+		"Happiness": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+50]% [Faith] [in all cities] <for [5] turns> <upon discovering [All] technology>"],
+		"requiredTech": "Alchemy",
+		"quote": "Cathedral of cathedrals, its pioneering use of flying buttress and rib vault sets it apart in its magnificence."
+	},
+	{
 		"name": "Forbidden City",
 		"happiness": 2,
 		"culture": 2,
@@ -622,11 +738,11 @@
 	},
 	{
 		"name": "Tōdai-Ji",
-		"happiness": 2,
+		"production": 2,
 		"faith": 2,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Production] per [1] population [in this city]"],
+		"uniques": ["[+1 Production] per [2] population [in this city]"],
 		"requiredTech": "Furnace Steel",
 		"quote": "Tōdai-Ji was the largest wood structure in the world for 1200 years, more or less. That should impress anyone."
 	},
@@ -637,6 +753,7 @@
 		"happiness": 1,
 		"culture": 2,
 		"uniques": ["Emblematic District", "Only available <if [The Mexica] is constructed>"],//Sacrifice population
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Theology"
 	},
@@ -646,7 +763,8 @@
 		"faith": 3,
 		"science": 3,
 		"percentStatBonus": {"culture": 5},
-		"uniques": ["Emblematic District", "Only available <if [The Bulgarians] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Bulgarians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Alchemy"
 	},
@@ -655,7 +773,7 @@
 		"name": "Hippódromos",
 		"gold": 4,
 		"specialistSlots": {"Trader": 1},
-		"uniques": ["[+2 Gold] from [Horses] tiles [in this city]", "Emblematic District", "Only available <if [The Byzantines] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+2 Gold] from [Horses] tiles [in this city]", "Emblematic District", "Only available <if [The Byzantines] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chivalry"
 	},
@@ -666,7 +784,8 @@
 		"cityHealth": 20,
 		"hurryCostModifier": 25,
 		"requiredTech": "Military Architecture",
-		"uniques": ["Removes extra unhappiness from annexed cities", "Emblematic District", "Only available <if [The English] is constructed>"]
+		"uniques": ["Removes extra unhappiness from annexed cities", "Emblematic District", "Only available <if [The English] is constructed>"],
+		"maintenance": 2,
 	},
 	//Franks
 	{
@@ -674,7 +793,8 @@
 		"specialistSlots": {"Researcher": 1},
 		"faith": 3,
 		"science": 5,
-		"uniques": ["Emblematic District", "Only available <if [The Franks] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Franks] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Feudalism"
 	},
@@ -683,7 +803,7 @@
 		"name": "Luxuries Market",
 		"specialistSlots": {"Trader": 1},
 		"gold": 5,
-		"uniques": ["[+1 Gold] from each Trade Route",
+		"uniques": ["[-2 Happiness]", "[+1 Gold] from each Trade Route",
 			"Emblematic District", "Only available <if [The Ghanaians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Guilds"
@@ -693,7 +813,8 @@
 		"name": "Sacred Mound",
 		"faith": 3,
 		"production": 3,
-		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]", "Emblematic District", "Only available <if [The Mississippians] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+5]% Production when constructing [All] buildings [in this city]", "Emblematic District", "Only available <if [The Mississippians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Feudalism"
 	},
@@ -702,7 +823,7 @@
 		"name": "Naust",
 		"specialistSlots": {"Farmer": 1},
 		"food": 5,
-		"uniques": ["Gain [75] [Gold] <(modified by game speed)>", "Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "Gain [75] [Gold] <(modified by game speed)>", "Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Norsemen] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Seafaring Mastery"
@@ -718,8 +839,9 @@
 	//Swahili
 	{
 		"name": "Bandari",
-		"uniques": ["[+2 Gold] from [resource] tiles [in all cities]", "Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "[+2 Gold] from [resource] tiles [in all cities]", "Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Swahili] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Seafaring Mastery"
 	},
@@ -729,6 +851,7 @@
 		"culture": 10,
 		"happiness": 1,
 		"uniques": ["Emblematic District", "Only available <if [The Taino] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Guilds"
 	},
@@ -737,8 +860,9 @@
 		"name": "Grand Mosque",
 		"specialistSlots": {"Researcher": 1},
 		"faith": 5,
-		"uniques": ["[+1 Science] [in all cities]",
+		"uniques": ["[-2 Happiness]", "[+1 Science] [in all cities]",
 			"Emblematic District", "Only available <if [The Umayyads] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Theology"
 	},
@@ -749,7 +873,7 @@
 		"name": "Grain Silo",
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],
+		"uniques": ["[+1 Food] from every [Farmer] <in this city>"],
 		"requiredBuilding": "Granary",
 		"requiredTech": "Supply Lines"
 	},
@@ -758,7 +882,8 @@
 		"specialistSlots": {"Engineer": 2},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from every [Engineer] <in this city>",
-			"[+2 Production] from [Saltpetre] tiles [in this city]"],
+			"[+2 Production] from [{improved} {Saltpetre}] tiles [in this city]"],
+		"maintenance": 2,
 		"requiredBuilding": "Artisan Workshop",
 		"requiredTech": "Mercantalism"
 	},
@@ -766,14 +891,15 @@
 		"name": "Taxation Office",
 		"hurryCostModifier": 25,
 		"gold": 5,
-		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]"],
+		"uniques": ["[+1 Gold] from [{improved} {Luxury resource}] tiles [in this city]"],
 		"requiredBuilding": "Levy Administration",
 		"requiredTech": "Centralised Power"
 	},
 	{
 		"name": "Stock Exchange",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from every [Trader] <in this city>"],
+		"uniques": ["[+1 Gold] from every [Trader] <in this city>"],
+		"maintenance": 2,
 		"requiredBuilding": "Commodity Market",
 		"requiredTech": "Chartered Companies"
 	},
@@ -781,13 +907,15 @@
 		"name": "Bank",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
+		"maintenance": 2,
 		"requiredTech": "Chartered Companies"
 	},
 	{
 		"name": "Printing House",
 		"specialistSlots": {"Researcher": 3},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Science] from every [Researcher] <in this city>"],
+		"uniques": ["[+1 Science] from every [Researcher] <in this city>"],
+		"maintenance": 1,
 		"requiredBuilding": "Manuscript Atelier",
 		"requiredTech": "Moveable Typeface"
 	},
@@ -796,6 +924,7 @@
 		"hurryCostModifier": 25,
 		"science": 4,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
+		"maintenance": 1,
 		"requiredBuilding": "School",
 		"requiredTech": "Moveable Typeface"
 	},
@@ -803,6 +932,7 @@
 		"name": "Cabinet of Curiosities",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"maintenance": 2,
 		"requiredBuilding": "Library",
 		"requiredTech": "Chartered Companies"
 	},
@@ -810,7 +940,8 @@
 		"name": "Inventor's Workshop",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 10},
-		"uniques": ["[+1 Science] from [Saltpetre] tiles [in all cities]"],
+		"uniques": ["[+1 Science] from [{improved} {Saltpetre}] tiles [in all cities]"],
+		"maintenance": 2,
 		"requiredBuilding": "Alchemist's Workshop",
 		"requiredTech": "Humanism"
 	},
@@ -821,7 +952,8 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Stone Wall",
 		"requiredTech": "Flintlock",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured"],
+		"maintenance": 3,
 	},
 	{
 		"name": "Playhouse",
@@ -829,6 +961,24 @@
 		"hurryCostModifier": 40,
 		"requiredBuilding": "Theatre",
 		"requiredTech": "Humanism"
+	},
+	{
+		"name": "Brussels Town Hall",
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+25]% [Gold] [in this city] <for [5] turns> <upon constructing [Wonder] [in all cities]>", "[+25]% [Culture] [in this city] <for [5] turns> <upon constructing [Wonder] [in all cities]>"],
+		"requiredTech": "Moveable Typeface",
+		"quote": "Built in several stages, this marvel of Gothic design featuring a spectacular tower is an inspiration for ambitious architects."
+	},
+	{
+		"name": "Hôtel des Invalides",
+		"happiness": 4,
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["[All] Units adjacent to this city heal [100] HP per turn when healing", "[+10]% Strength <for [Wounded] units> <when defending>"],
+		"requiredTech": "Gunpowder Warfare",
+		"quote": "Capped with a golden dome, this sprawling complex offers rest and recovery to soldiers wounded in war."
 	},
 	{
 		"name": "Machu Picchu",
@@ -868,7 +1018,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] [in all cities] <when above [10] [Happiness]>",
+		"uniques": ["[+25]% [Gold] [in all cities] <when above [20] [Happiness]>",
 			"Must be on [River]"],
 		"requiredTech": "Humanism",
 		"quote": "The Taj Mahal is indeed a stunning mausoleum! If you want to be together forever, it's hard to choose a nicer place."
@@ -877,19 +1027,30 @@
 		"name": "Topkapi Palace",
 		"happiness": 2,
 		"production": 2,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great General": 1},
 		"isWonder": true,
 		"percentStatBonus": {"production": 10},
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]"],
 		"requiredTech": "Siege Cannons",
 		"quote": "Topkapi has been built, rebuilt, and renamed any number of times; it is a testament to stamina and survivability."
 	},
+	{
+		"name": "Palace of Versailles",
+		"gold": 2,
+		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": [ "[-25]% City-State Influence degradation", "Influence of all other civilizations with all city-states degrades [33]% faster",
+			"Triggers the following global alert: [Our influence with City-States has started dropping faster after the Palace of Versailles has been built!]"],
+		"requiredTech": "Flintlock",
+		"quote": "From its gilded gates to its acres of manicured gardens, the palace of Versailles is an enduring symbol of power, wealth, and culture."
+	},
 	//Dutch
 	{
 		"name": "V.O.C Warehouse",
 		"specialistSlots": {"Trader": 1},
 		"gold": 10,
-		"uniques": ["[+2 Gold] from every [Trader] <in this city>","Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "[+2 Gold] from every [Trader] <in this city>","Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Dutch] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chartered Companies"
@@ -899,8 +1060,9 @@
 		"name": "Three Sisters Plantation",
 		"specialistSlots": {"Farmer": 1},
 		"food": 2,
-		"uniques": ["[+2 Food] [in this city] <for every [Cities]>",
+		"uniques": ["[-2 Happiness]", "[+2 Food] [in this city] <for every [Cities]>",
 			"Emblematic District", "Only available <if [The Haudenosaunee] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Centralised Power"
 	},
@@ -910,16 +1072,18 @@
 		"specialistSlots": {"Researcher": 1},
 		"science": 2,
 		"culture": 2,
-		"uniques": ["[+2 Science] from every [Researcher] <in this city>",
+		"uniques": ["[-2 Happiness]", "[+2 Science] from every [Researcher] <in this city>",
 			"Emblematic District", "Only available <if [The Joseon] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Centralised Power"
 	},
 	//Ming
 	{
 		"name": "Grand Teahouse",
-		"uniques": ["[+1 Culture] from [All] tiles [in this city]",
+		"uniques": ["[-2 Happiness]", "[+1 Culture] from [All] tiles [in this city]",
 			"Emblematic District", "Only available <if [The Ming] is constructed>"],
+		"maintenance": 2,
 		"hurrycostModifier": 25,
 		"requiredTech": "Humanism"
 	},
@@ -928,8 +1092,9 @@
 		"name": "Jama Masjid",
 		"culture": 4,
 		"production": 3,
-		"uniques": ["[+1 Faith] per [1] population [in this city]", "[+1 Production] from every [Engineer] <in this city>",
+		"uniques": ["[-2 Happiness]", "[+1 Faith] per [1] population [in this city]", "[+1 Production] from every [Engineer] <in this city>",
 			"Emblematic District", "Only available <if [The Mughals] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Gunpowder Warfare"
 	},
@@ -937,7 +1102,8 @@
 	{
 		"name": "Sultan Camii",
 		"culture": 3,
-		"uniques": ["[+1 Culture, +1 Faith] from [Fresh water] tiles [in this city]",],
+		"uniques": ["[-2 Happiness]", "[+1 Culture, +1 Faith] from [Fresh water] tiles [in this city]",],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Siege Cannons"
 	},
@@ -948,6 +1114,7 @@
 		"faith": 3,
 		"uniques": ["[+1 Faith] per [1] population [in this city]",
 			"Emblematic District", "Only available <if [The Spanish] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Moveable Typeface"
 	},
@@ -958,8 +1125,9 @@
 		"production": 1,
 		"science": 1,
 		"culture": 1,
-		"uniques": ["[+2 Gold] <for every [Era number]>", "Must have an owned [Mountain] within [2] tiles",
+		"uniques": ["[-2 Happiness]", "[+2 Gold] <for every [Era number]>", "Must have an owned [Mountain] within [2] tiles",
 			"Emblematic District", "Only available <if [The Swiss] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Chartered Companies"
 	},
@@ -968,7 +1136,7 @@
 		"name": "Botteghe Di Artisti",
 		"gold": 2,
 		"culture": 6,
-		"uniques": ["Emblematic District", "Only available <if [The Venetians] is constructed>"],//+Gold on gold tiles
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Venetians] is constructed>"],//+Gold on gold tiles
 		"hurryCostModifier": 25,
 		"requiredTech": "Humanism"
 	},
@@ -978,7 +1146,8 @@
 		"name": "Industrial Silo",
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],//+ Pollution
+		"uniques": ["[+1 Food] from every [Farmer] <in this city>"],//+ Pollution
+		"maintenance": 1,
 		"requiredBuilding": "Grain Silo",
 		"requiredTech": "Mechanisation"
 	},
@@ -992,7 +1161,8 @@
 		"name": "Coal Plant",
 		"hurryCostModifier": 25,
 		"production": 3,
-		"uniques": ["[+2 Production] from [Coal] tiles [in this city]"],// ++ Pollution
+		"uniques": ["[+1 Production] from [{improved} {Coal}] tiles [in this city]"],// ++ Pollution
+		"maintenance": 1,
 		"requiredBuilding": "High Furnace",
 		"requiredTech": "Electricity"
 	},
@@ -1008,7 +1178,8 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Mine] tiles [in this city]",
 			"[+1 Production] from [Quarry] tiles [in this city]",
-			"[+1 Production] from [Coal] tiles [in this city]"],// ++ Pollution for every coal
+			"[+1 Production] from [{improved} {Coal}] tiles [in this city]"],// ++ Pollution for every coal
+		"maintenance": 1,
 		"requiredBuilding": "Stoneworks",
 		"requiredTech": "Mechanisation"
 	},
@@ -1016,22 +1187,24 @@
 		"name": "Factory",
 		"specialistSlots": {"Engineer": 3},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Production] from every [Engineer] <in this city>"], //+ Pollution
+		"uniques": ["[+1 Production] from every [Engineer] <in this city>"], //+ Pollution
+		"maintenance": 2,
 		"requiredBuilding": "Manufactory",
 		"requiredTech": "Mechanisation"
 	},
 	{
 		"name": "Customs Agency",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from each Trade Route"],
+		"uniques": ["[+1 Gold] from each Trade Route"],
 		"requiredBuilding": "Customs Farm",
 		"requiredTech": "Nationhood"
 	},
 	{
 		"name": "Academy",
 		"hurryCostModifier": 25,
-		"science": 5,
+		"science": 4,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
+		"maintenance": 1,
 		"requiredBuilding": "University",
 		"requiredTech": "Encyclopedia"
 	},
@@ -1049,7 +1222,7 @@
 		"name": "Seafood Wholesalers",
 		"hurryCostModifier": 25,
 		"gold": 3,
-		"uniques": ["[+2 Gold] from each Trade Route",
+		"uniques": ["[+1 Gold] from each Trade Route",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Great Fishmarket",
 		"requiredTech": "Propeller"
@@ -1058,6 +1231,7 @@
 		"name": "Military School",
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] XP [in this city]"],
+		"maintenance": 2,
 		"requiredBuilding": "Tourney Field",
 		"requiredTech": "Military Coordination"
 	},
@@ -1065,6 +1239,7 @@
 		"name": "Conscription Centre",
 		"hurryCostModifier": 25,
 		"uniques": ["[+10]% Production when constructing [Land] units [in this city]"],
+		"maintenance": 1,
 		"requiredBuilding": "Armory",
 		"requiredTech": "Nationhood"
 	},
@@ -1073,15 +1248,26 @@
 		"hurryCostModifier": 25,
 		"happiness": 2,
 		"uniques": ["[-25]% enemy spy effectiveness [in this city]"],
+		"maintenance": 2,
 		"requiredBuilding": "City Watch",
 		"requiredTech": "Urban Planning"
 	},
 	{
 		"name": "Hospital",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Happiness] from every [Researcher] <in this city>"],
+		"uniques": ["[+1 Happiness] from every [Researcher] <in this city>"],
 		"requiredBuilding": "Apothecary",
 		"requiredTech": "Microbiology"
+	},
+	{
+		"name": "Kaiserliche Werft",
+		"production": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+25]% Production when constructing [Water] units [in this city]", "All newly-trained [Water] units [in this city] receive the [Naval Supremacy] promotion",
+			"Must be next to [Coast]"],
+		"requiredTech": "Propeller",
+		"quote": "The Statue of Liberty is a towering symbol of unity and inclusion, and was a most generous gift."
 	},
 	{
 		"name": "Statue of Liberty",
@@ -1112,15 +1298,27 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Production] per [1] population [in this city]"],
+		"uniques": ["[+1 Production] per [2] population [in this city]"],
 		"requiredTech": "Electricity",
 		"quote": "The Eiffel Tower -- proof of what you can do with a bit of iron, a bit of math, and thousands of liters of paint."
+	},
+	{
+		"name": "The Royal Palace of Pape'ete",
+		"culture": 2,
+		"happiness": 1,
+		"gold": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+5]% [Science] [in this city] <for every [Era number]>", "[+2 Culture] [in this city] <for every [Era number]>"],
+		"requiredTech": "Scientific Method",
+		"quote": "The Statue of Liberty is a towering symbol of unity and inclusion, and was a most generous gift."
 	},
 	//Argentinians
 	{
 		"name": "Saladero",
-		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]", "Provides [1] [Salted Beef]",
+		"uniques": [ "[+1 Food] from [Cattle] tiles [in this city]", "Provides [1] [Salted Beef]",
 			"Emblematic District", "Only available <if [The Argentinians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Nationhood"
 	},
@@ -1130,6 +1328,7 @@
 		"culture": 5,
 		"uniques": ["[+1 Happiness] [in this city] <for every [[Opernhaus] Buildings]>",
 			"Emblematic District", "Only available <if [The Austro-Hungarians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Encyclopedia"
 	},
@@ -1138,8 +1337,9 @@
 		"name": "Colonial Office",
 		"gold": 5
 		"percentStatBonus": {"gold": 25},
-		"uniques": [ "Only available <in cities without a [Palace]>",
+		"uniques": [ "[-2 Happiness]", "Only available <in cities without a [Palace]>",
 			"Emblematic District", "Only available <if [The British] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Carbine"
 	},
@@ -1147,8 +1347,9 @@
 	{
 		"name": "Exhibition Hall",
 		"culture": 5,
-		"uniques": ["[+3 Science] from each Trade Route",
+		"uniques": ["[-2 Happiness]","[+3 Science] from each Trade Route",
 			"Emblematic District", "Only available <if [The French] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Nationhood"
 	},
@@ -1156,8 +1357,9 @@
 	{
 		"name": "Coking Works",
 		"specialistSlots": {"Engineer": 1},
-		"uniques": ["[+1 Production] per [1] population [in this city]",
+		"uniques": ["[-2 Happiness]","[+1 Production] per [1] population [in this city]",
 			"Emblematic District", "Only available <if [The Germans] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Mechanisation"
 	},
@@ -1165,8 +1367,9 @@
 	{
 		"name": "Teatro",
 		"culture": 1,
-		"uniques": ["[+1 Culture] from every [Trader] <in this city>","[+1 Culture] from every [Researcher] <in this city>",
+		"uniques": ["[-2 Happiness]","[+1 Culture] from every [Trader] <in this city>","[+1 Culture] from every [Researcher] <in this city>",
 			"Emblematic District", "Only available <if [The Italians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Urban Planning"
 	},
@@ -1176,7 +1379,7 @@
 		"specialistSlots": {"Trader": 1},
 		"production": 5
 		"gold": 2,
-		"uniques": ["[+1 Gold] from each Trade Route",
+		"uniques": ["[-2 Happiness]","[+1 Gold] from each Trade Route",
 			"Emblematic District", "Only available <if [The Persians] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Military Coordination"
@@ -1185,8 +1388,9 @@
 	{
 		"name": "College",
 		"science": 2,
-		"uniques": ["[+1 Science] [in this city] <for every [[Science] Buildings]>","[+1 Culture] [in this city] <for every [[Faith] Buildings]>",
+		"uniques": ["[-2 Happiness]", "[+1 Science] [in this city] <for every [[Science] Buildings]>","[+1 Culture] [in this city] <for every [[Faith] Buildings]>",
 			"Emblematic District", "Only available <if [The Scots] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Encyclopedia"
 	},
@@ -1194,8 +1398,9 @@
 	{
 		"name": "Floating Market",
 		"production": 5,
-		"uniques": ["[+1 Gold] per [1] population [in this city]",
+		"uniques": ["[-2 Happiness]", "[+1 Gold] per [1] population [in this city]",
 			"Emblematic District", "Only available <if [The Siamese] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Propeller"
 	},
@@ -1205,8 +1410,9 @@
 		"cityStrength": 10,
 		"cityHealth": 20,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Military] units start with [25] XP [in this city]",
+		"uniques": ["[-2 Happiness]", "New [Military] units start with [25] XP [in this city]",
 			"Emblematic District", "Only available <if [The Zulu] is constructed>"],
+		"maintenance": 2,
 		"requiredTech": "Line Formation",
 		
 	},
@@ -1218,10 +1424,9 @@
 		"hurryCostModifier": 25,
 		"specialistSlots": {"Farmer": 2},
 		"food": 3,
-		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Food] from [Horses] tiles [in this city]",
-			"[+1 Food] from [Sheep] tiles [in this city]",
+		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",
 			"Destroyed when the city is captured"],//++ Pollution
+		"maintenance": 2,
 		"requiredBuilding": "Animal Barn",
 		"requiredTech": "Mechanised Harvesting"
 	},
@@ -1236,7 +1441,8 @@
 		"name": "Quarrying Machinery",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Quarry] tiles [in this city]",
-			"[+1 Production] from [Aluminum] tiles [in this city]"],// ++ Pollution
+			"[+1 Production] from [{improved} {Aluminum}] tiles [in this city]"],// ++ Pollution
+		"maintenance": 1,
 		"requiredBuilding": "Conveyor Belt",
 		"requiredTech": "Mechanised Harvesting"
 	},
@@ -1244,7 +1450,7 @@
 		"name": "In-Situ Mine",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Mine] tiles [in this city]",
-			"[+2 Production] from [Uranium] tiles [in this city]"],// ++ Pollution for every Uranium
+			"[+2 Production] from [{improved} {Uranium}] tiles [in this city]"],// ++ Pollution for every Uranium
 		"requiredBuilding": "Quarrying Machinery",
 		"requiredTech": "Communication Satellites"
 	},
@@ -1252,6 +1458,7 @@
 		"name": "Hydroelectric Dam",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from every [River] <in this city>"],//---- Pollution
+		"maintenance": 2,
 		"requiredBuilding": "Water Mill",
 		"requiredTech": "Power Lines"
 	},
@@ -1260,6 +1467,7 @@
 		"specialistSlots": {"Engineer": 3},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from every [Engineer] <in this city>"], //++ Pollution
+		"maintenance": 2,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Automation"
 	},
@@ -1267,25 +1475,29 @@
 		"name": "Solar Farm",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 5}, //----- Pollution
+		"maintenance": 2,
 		"requiredTech": "Renewable Energy"
 	},
 	{
 		"name": "Wind Farm",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 5}, //----- Pollution
+		"maintenance": 2,
 		"requiredTech": "Renewable Energy"
 	},
 	{
 		"name": "Nuclear Plant",
 		"hurryCostModifier": 25, //----- Pollution 
 		"uniques": ["[+1]% [Production] [in this city] <for every [Uranium]>"],
+		"maintenance": 2,
 		"requiredTech": "Nuclear Fission"
 	},
 	{
 		"name": "Oil Pipeline",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Coast] tiles [in this city]",
-			"[+2 Production] from [Oil] tiles [in this city]","Must be next to [Coast]"],// ++ Pollution for every Oil
+			"[+1 Production] from [{improved} {Oil}] tiles [in this city]","Must be next to [Coast]"],// ++ Pollution for every Oil
+		"maintenance": 2,
 		"requiredTech": "Civil Engineering"
 	},
 	{
@@ -1301,7 +1513,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
 		"gold": 5,
-		"uniques": ["[+1 Gold] from [Oil] tiles [in all cities]"], //++ Pollutiuon
+		"uniques": ["[+1 Gold] from [{improved} {Oil}] tiles [in all cities]"], //++ Pollutiuon
 		"requiredBuilding": "Bank",
 		"requiredTech": "Free Trade Agreement"
 	},
@@ -1309,8 +1521,9 @@
 		"name": "Tech Park",
 		"specialistSlots": {"Researcher": 3},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Science] from every [Researcher] <in this city>",
+		"uniques": ["[+1 Science] from every [Researcher] <in this city>",
 			"[+1]% [Science] [in this city] <for every [Aluminum]>"], //++ Pollution
+		"maintenance": 2,
 		"requiredBuilding": "Printing House",
 		"requiredTech": "Communication Satellites"
 	},
@@ -1318,6 +1531,7 @@
 		"name": "Museum",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"maintenance": 2,
 		"requiredBuilding": "Cabinet of Curiosities",
 		"requiredTech": "Mass Entertainment"
 	},
@@ -1325,6 +1539,7 @@
 		"name": "Supercomputer Lab",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 10}, //++ Pollution
+		"maintenance": 1,
 		"requiredBuilding": "Inventor's Workshop",
 		"requiredTech": "Computing"
 	},
@@ -1332,7 +1547,7 @@
 		"name": "Pisiciculture",
 		"hurryCostModifier": 25,
 		"food": 2,
-		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]",
+		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Whale Fishing",
@@ -1370,6 +1585,7 @@
 	{
 		"name": "Sewage Treatment Plant",
 		"happiness": 4,
+		"maintenance": 4,
 		"requiredBuilding": "Aqueduct",
 		"requiredTech": "Social Housing"
 	},
@@ -1427,25 +1643,55 @@
 		"quote": "If you are going to go for economic domination of the world, the Empire State Building will provide the offices to plan and execute it."
 	},
 	{
+		"name": "Maracanã Stadium",
+		"happiness": 2,
+		"gold": 1,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+10]% [Gold] [in this city]", "[+10]% [Culture] [in this city]", "[+10]% [Happiness] [in this city]"],
+		"requiredTech": "Mass Entertainment",
+		"quote": "If you are going to go for economic domination of the world, the Empire State Building will provide the offices to plan and execute it."
+	},
+	{
 		"name": "Sydney Opera House",
 		"happiness": 2,
 		"culture": 2,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+10]% [Food]","[+10]% [Gold]","[+10]% [Production]","[+10]% [Science]",
+		"uniques": ["[+10]% [Food] [in this city]", "[+10]% [Production] [in this city]", "[+10]% [Science] [in this city]",
 			 "Must be next to [Coast]"],
 		"requiredTech": "Computing",
 		"quote": "The curves of this glorious opera house are even more impressive when you consider the fact that the plans were rescued from the trashcan."
 	},
 	{
+		"name": "The Pentagon",
+		"happiness": 2,
+		"production": 3,
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["[+25]% Production when constructing [All] units [in this city]", "[-50]% Gold cost of upgrading <for [Military] units>"],
+		"requiredTech": "Naval Air Strategy",
+		"quote": "The curves of this glorious opera house are even more impressive when you consider the fact that the plans were rescued from the trashcan."
+	},
+	{
 		"name": "Christ the Redeemer",
-		"happiness": 4,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+10]% [Food]","[+10]% [Gold]","[+10]% [Culture]","[+50]% [Faith]",
+		"uniques": ["[+10]% [Food] [in this city]","[+10]% [Gold] [in this city]","[+10]% [Culture] [in this city]","[+50]% [Faith]",
 			 "Must have an owned [Mountain] within [2] tiles"],
 		"requiredTech": "Suburbs",
 		"quote": "Impressive and dominating, Cristo Redentor removes any confusion about the importance of faith in everyday life."
+	},
+	{
+		"name": "Mauna Kea Observatory",
+		"science": 4,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"percentStatBonus": {"science": 25},
+		"uniques": ["[+4 Science] from each Trade Route", "Must be next to [Mountain]"],
+		"requiredTech": "Rocket Science",
+		"quote": "Dotting the landscape, these iconic stations open onto astonishingly clear views of the night sky."
 	},
 	//American
 	{
@@ -1454,7 +1700,7 @@
 		"cityHealth": 10,
 		"gold": 5,
 		"science": 5,
-		"uniques": ["Emblematic District", "Only available <if [The Americans] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Americans] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Radar",
 		"uniques": []
@@ -1464,8 +1710,9 @@
 		"name": "Strip Mining Complex",
 		"specialistSlots": {"Engineer": 1},
 		"production": 10,
-		"uniques": ["[+2 Production] from every [Strategic resource] <in this city>",
+		"uniques": ["[-2 Happiness]", "[+2 Production] from every [{improved} {Strategic resource}] <in this city>",
 			"Emblematic District", "Only available <if [The Australians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Continuous Track"
 	},
@@ -1475,8 +1722,9 @@
 		"specialistSlots": {"Farmer": 1},
 		"food": 3,
 		"science": 3,
-		"uniques": ["[+1 Food] per [1] population [in this city]",
+		"uniques": ["[-2 Happiness]", "[+1 Food] per [1] population [in this city]",
 			"Emblematic District", "Only available <if [The Brasilians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Mechanised Harvesting"
 	},
@@ -1486,7 +1734,7 @@
 		"specialistSlots": {"Trader": 1},
 		"gold": 5,
 		"culture": 3,
-		"uniques": ["[+2 Gold] [in capital]", "Emblematic District", "Only available <if [The Chinese] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+2 Gold] [in capital]", "Emblematic District", "Only available <if [The Chinese] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Engineering"
 	},
@@ -1496,6 +1744,7 @@
 		"uniques": ["Provides [1] [Pharmaceuticals]", "[+3 Food] from every [Farmer] <when above [20] [Happiness]> <in this city> ","[+3 Production] from every [Engineer] <when above [20] [Happiness]> <in this city> ",
 			"[+3 Gold] from every [Trader] <when above [20] [Happiness]> <in this city> ","[+3 Science] from every [Researcher] <when above [20] [Happiness]> <in this city> ",
 			"Emblematic District", "Only available <if [The Cubans] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "World Wide Web"
 	},
@@ -1504,7 +1753,8 @@
 		"name": "Ashram",
 		"culture": 5,
 		"faith": 3,
-		"uniques": ["[+1 Gold, +1 Science] from every [Faith] <in this city> ]", "Emblematic District", "Only available <if [The Indians] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+1 Gold, +1 Science] from every [Faith] <in this city>", "Emblematic District", "Only available <if [The Indians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Mass Entertainment"
 	},
@@ -1514,7 +1764,8 @@
 		"specialistSlots": {"Researcher": 1},
 		"production": 5,
 		"science": 5,
-		"uniques": ["Emblematic District", "Only available <if [The Japanese] is constructed>"], //++ Pollution
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Japanese] is constructed>"], //++ Pollution
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Automation"
 	},
@@ -1524,14 +1775,16 @@
 		"culture": 10,
 		"happiness": 2,
 		"uniques": ["Must be next to [Coast]", "Emblematic District", "Only available <if [The New Zealanders] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Mass Entertainment"
 	},
 	//Nigerians
 	{
 		"name": "Oil Refinery",
-		"uniques": ["Provides [2] [Oil]", "Must be next to [Coast]",
+		"uniques": ["[-2 Happiness]", "Provides [2] [Oil]", "Must be next to [Coast]",
 			"Emblematic District", "Only available <if [The Nigerians] is constructed>"],
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Power Lines"
 	},
@@ -1543,7 +1796,7 @@
 		"gold": 3,
 		"science": 3,
 		"culture": 3,
-		"uniques": ["Emblematic District", "Only available <if [The Singaporeans] is constructed>"],
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Singaporeans] is constructed>"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Social Housing"
 	},
@@ -1552,7 +1805,7 @@
 		"name": "Arms Factory",
 		"production": 5,
 		"gold": 5,
-		"uniques": ["Provides [1] [Weapons]", "Emblematic District", "Only available <if [The Soviets] is constructed>"],//++++++++++ Pollution
+		"uniques": ["[-4 Happiness]", "Provides [1] [Weapons]", "Emblematic District", "Only available <if [The Soviets] is constructed>"],//++++++++++ Pollution
 		"hurryCostModifier": 25,
 		"requiredTech": "Amphibious Warfare"
 	},
@@ -1561,7 +1814,8 @@
 		"name": "Institute",
 		"science": 1,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Emblematic District", "Only available <if [The Swedes] is constructed>"],//++++++++++ Pollution
+		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Swedes] is constructed>"],//++++++++++ Pollution
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Rocket Science"
 	},
@@ -1571,7 +1825,8 @@
 		"specialistSlots": {"Researcher": 1},
 		"percentStatBonus": {"science": 10},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] from every [Farmer] <in this city>", "Emblematic District", "Only available <if [The Turks] is constructed>"],
+		"uniques": ["[-2 Happiness]", "[+1 Science] from every [Farmer] <in this city>", "Emblematic District", "Only available <if [The Turks] is constructed>"],
+		"maintenance": 2,
 		"requiredTech": "Suburbs"
 	},
 
@@ -1674,18 +1929,16 @@
 		"name": "The Assyrians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Babylonians] is not constructed>","Only available <if [The Harappans] is not constructed>"],
-		"quote": "So now we advance as the warlike Assyrians… You're not going to be a very nice neighbor, are you?",
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The tallest blade is the first to be cut by the scythe.",
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Babylonians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Assyrians] is not constructed>","Only available <if [The Harappans] is not constructed>"],
-		"quote": "This means more than just markets for the Babylonians. It's also the beginning of mathematics, astronomy, and a set of codified laws that I wouldn't want to be caught breaking…",
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Where the mind can see, the physical body can follow.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1693,7 +1946,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "The Bantu move fast, farm well, and make friends wherever they go. Perhaps the markets can wait.",
+		"quote": "If you wish to prosper, you must give as much as you take.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1701,7 +1954,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "With the Caralans' talent for construction, you can enjoy both markets and monumental pyramids.",
+		"quote": "With life-giving waters we lay foundations in the hardest lands.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1709,16 +1962,15 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Entering this era as the Egyptians, then? No prizes for guessing how you plan to leave your mark.",
+		"quote": "The seed cannot sprout upwards without also sending down roots.",
 		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Harappans",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>", 
-			"Only available <if [The Assyrians] is not constructed>","Only available <if [The Babylonians] is not constructed>"],
-		"quote": "While the Harappans certainly had markets, they left few remains. Please, show us what they might have done!",
+		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "In one drop of water are found all the secrets of life.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1726,7 +1978,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "So you want to skip the benefits of the market and move ahead as militarists! Let me grab the popcorn and sit back",
+		"quote": "Our charioteers must train for many moons before entering battle.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1734,7 +1986,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Now, we need to find some Trojans for you to either trade with, or vent your wrath on.",
+		"quote": "Illustrious warriors have the whole earth for their tomb.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1742,7 +1994,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Your markets will be the birthplace of your famously canny merchants, who will in turn provide the means to equip your famously effective archers",
+		"quote": "Anything under the sun can be exchanged for enough gold.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1750,7 +2002,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "As far as markets go, we know the Olmec traded their marvelously crafted goods of jade, but we know little more… This is your story to write!",
+		"quote": "All that was, and is, and will be, is written in the stars.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1758,7 +2010,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Moving on as the Pama-Nyungans? Powerful stories teem across the world's wondrous places.",
+		"quote": "Nature’s beauty is a marvel to behold.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1766,7 +2018,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "How appropriate to start with a market, now that you will be leading the original traveling salesmen.",
+		"quote": "Unlike the lands, the seas give merchants no obstructions.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1774,7 +2026,7 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Ancient Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Not just markets for the Sumerians, but also the scribes to keep track of their crops. Ah, administration...",
+		"quote": "It is through both the scribe and the sword that our people will prosper.",
 		"requiredTech": "Agriculture"
 	},
 	{
@@ -1793,51 +2045,48 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "As far as ideas go, you'll need to get comfortable with the idea that the troops are not actually immortal!"
+		"quote": "Go as far you can see, and when you get there you'll see further."
 	},
 	{
 		"name": "The Aksumites",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Carthaginians] is not constructed>", "Only available <if [The Greeks] is not constructed>"],
-		"quote": "And now, the Aksumites! Good with tangibles and intangibles; as skilled at barter as they are at battle."
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The one who controls the market controls the world."
 	},
 	{
 		"name": "The Carthaginians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Aksumites] is not constructed>", "Only available <if [The Greeks] is not constructed>"],
-		"quote": "Speaking of dealing in intangibles — am I about to see lots of offers that can't be refused?"
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Overseas and lands, our trade routes will criss-cross the world."
 	},
 	{
 		"name": "The Celts",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Now you're choosing the agrarian Celts? Let's hope they learn their cooking from the French side."
+		"quote": "Let the ballads to gods and heroes echo deep in our forests."
 	},
 	{
 		"name": "The Garamantes",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "If it's ideas you're interested in, the Garamantes are doing marvelous things with irrigation."
+		"quote": "The flower that blossoms in the desert can blossom anywhere."
 	},
 	{
 		"name": "The Goths",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "It's not really a question of intangibles with the Goths; there were a lot of tribes and a lot of travel."
+		"quote": "The fallen will not be forgotten as we fight for greatness."
 	},
 	{
 		"name": "The Greeks",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Aksumites] is not constructed>", "Only available <if [The Carthaginians] is not constructed>"],
+		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "New ideas lead to new strategies — and I'm sure the Greeks will spend time arguing the merits of them all!"
 	},
 	{
@@ -1845,42 +2094,42 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Where intangibles meet the practical, the Han really excelled. Like the fine art of diplomacy... and crossbow production."
+		"quote": "We must tend to our knowledge by protecting our prosperity."
 	},
 	{
 		"name": "The Huns",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "And here come the Hunnic hordes, who are going to turn other empire's property rights into intangibles..."
+		"quote": "All will think the world splits asunder upon hearing our steeds."
 	},
 	{
 		"name": "The Mauryans",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Looking for ideas? How about science and elephants! I'd say the Mauryans had a couple of good ones there."
+		"quote": "Only a fool dismisses other cultures without consideration."
 	},
 	{
 		"name": "The Maya",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "The Mayans had excellent ideas for construction and calendars, though they were a bit weak on arches."
+		"quote": "Great feats of architecture honor the majesty of the cosmos."
 	},
 	{
 		"name": "The Nazca",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "For the Nazca, the earth itself was a canvas for their art. An idea of epic proportions."
+		"quote": "We will write our legends on the land itself!"
 	},
 	{
 		"name": "The Polynesians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Classical Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "New ideas, new resources, new territories—the Polynesians really did get a lot out of sailing."
+		"quote": "Who knows what lies beyond the next wave?"
 	},
 	{
 		"name": "The Romans",
@@ -1896,8 +2145,7 @@
 		"name": "The Mexica",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Franks] is not constructed>", "Only available <if [The Ghanaians] is not constructed>"],
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "I'm not thinking of brains or brawn, but of corn, chocolate, and chilies... The Aztecs are a culture that makes my stomach rumble."
 	},
 	{
@@ -1905,14 +2153,14 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Diplomats who also happen to have a very convincing cavalry—now that's innovation."
+		"quote": "The truly strong may fight with many arms, but speak with one voice"
 	},
 	{
 		"name": "The Byzantines",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Speaking of rich cities, I suppose there are far too many syllables to coin the phrase: 'When in Constantinople, do as the Byzantines do'."
+		"quote": "Let markets enrich us and antiquities enlighten us."
 	},
 	{
 		"name": "The English",
@@ -1925,80 +2173,78 @@
 		"name": "The Franks",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Mexica] is not constructed>", "Only available <if [The Ghanaians] is not constructed>"],
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "They may have had a mighty army… But to be honest, 'King of the Franks' sounds like something you'd eat at a baseball game."
 	},
 	{
 		"name": "The Ghanaians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Mexica] is not constructed>", "Only available <if [The Franks] is not constructed>"],
-		"quote": "Brute strength and innovation? How about trade, travel, and a lifestyle supported by tolls. I'd say the Ghanaians were on to a good thing."
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Our markets hold all the wonders of the senses."
 	},
 	{
 		"name": "The Khmer",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "For innovation and brute strength, the Khmer present you with sophisticated hydraulic engineering and ballista-equipped elephants! I like it!"
+		"quote": "A mountain never has two tigers."
 	},
 	{
 		"name": "The Mississippians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Feats of both muscle and innovation? Look no further than the construction of the Mississippians' awesome cities."
+		"quote": "The river provides for all, transports all, and cleanses all."
 	},
 	{
 		"name": "The Mongols",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "So will all those Mongol horses in this era lead to well-fertilized farms and fields for the next?"
+		"quote": "Wind through the hair, blood on the blade. That is enough."
 	},
 	{
 		"name": "The Norsemen",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Mediaval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Whether trading or raiding, the Norsemen deserve credit for both naval innovation and brute force."
+		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "The enemy's coastlines are long and we are many."
 	},
 	{
 		"name": "The Rapa Nui",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "The Rapa Nui were fine fishermen and fierce soldiers, but it’s their monuments that truly inspire awe."
+		"quote": "From raw rock, we will carve our place in the world."
 	},
 	{
 		"name": "The Swahili",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Between brains and brawn, the Swahili went with… luxury. Not an unreasonable decision."
+		"quote": "The ocean is the gateway to all the world's riches."
 	},
 	{
 		"name": "The Taino",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "It must be noted that the Taíno found brilliant ways to live from the oceans and a remarkably fun way to settle disputes."
+		"quote": "A well-tended seed can grow in the harshest conditions."
 	},
 	{
 		"name": "The Teutons",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "The Teutons did indeed have great cities with great cathedrals. But don't forget their great armies, with great ambitions"
+		"quote": "Let justice be done, through the world perish."
 	},
 	{
 		"name": "The Umayyads",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "As far as innovation goes, the Umayyads were famed for mathematics and medicine. But I have to say that their cities as well were true jewels of civilization."
+		"quote": "In the mosques, we pray, in the libraries we record."
 	},
 
 
@@ -2008,39 +2254,35 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "So it’s a pirate’s life for you? Plenty of adventure, plenty of loot, and—surprisingly—plenty of rules to obey in the Pirate Code."
+		"quote": "Yo ho ho... and a bottle of rum!"
 	},
 	{
 		"name": "The Dutch",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Edo] is not constructed>", "Only available <if [The Venetians] is not constructed>"],
-		"quote": "It seems the Dutch have both ships as well as pens and paper. Not to mention their vast quantities of cheese."
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "For the intrepid, the world is an endless festival of commerce."
 	},
 	{
 		"name": "The Edo",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Dutch] is not constructed>", "Only available <if [The Venetians] is not constructed>"],
-		"quote": "After all, who really needs an emperor to run an empire if you have a shogun?",
-		"requiredTech": "Agriculture"
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Patience means restraining one's inclinations.",
 	},
 	{
 		"name": "The Haudenosaunee",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "A stable, successful, ecologically pragmatic culture. There is something to be said for matriarchies.",
-		"requiredTech": "Agriculture"
+		"quote": "Let the roots of peace spread to all points of the compass.",
 	},
 	{
 		"name": "The Inca",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "From mountaintops to river valleys, the Inca certainly made great strides in exploring the world—and in conquering it."
+		"quote": "We are the heirs of a legend made flesh."
 	},
 	{
 		"name": "The Joseon",
@@ -2054,14 +2296,14 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Less ships and more shepherds, the Maasai made an art of tending their herds."
+		"quote": "The measure of a man's wealth is in his children and his cattle."
 	},
 	{
 		"name": "The Maori",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Masters of the maritime, the Māori certainly didn’t lack for ships. Or warriors to fill them."
+		"quote": "We fight for the honor of our people."
 	},
 	{
 		"name": "The Ming",
@@ -2075,43 +2317,42 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "So did you choose them for their impressive constructions? I bet it was the elephants with cannons."
+		"quote": "Pay your stonemasons well, for their works offer immortality."
 	},
 	{
 		"name": "The Ottomans",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "The world wonders if anybody could do as well as Suleiman. They didn't call him 'the Great' in flattery."
+		"quote": "All great cities are a living testament to an empire's glories."
 	},
 	{
 		"name": "The Poles",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Often the Poles are chosen for their striking Winged Hussars; the hidden bonus is that they come with pierogies."
+		"quote": "When surrounded by wolves, swords must be drawn."
 	},
 	{
 		"name": "The Spanish",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Let's see whether a different leader can write a less tumultuous version of the history of the Spanish empire..."
+		"quote": "Every kingdom divided against itself shall be rendered desolate."
 	},
 	{
 		"name": "The Swiss",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Even the famously efficient Swiss mercenaries operate like clockwork! And they're more than ready to take sides."
+		"quote": "Any task worth doing, is worth doing well."
 	},
 	{
 		"name": "The Venetians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Dutch] is not constructed>", "Only available <if [The Edo] is not constructed>"],
-		"quote": "Seafood, sea power, and all of that with a sea view. One could do much worse.",
+		"uniques": ["Early Modern Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "I will buy and sell with you and drink with you too.",
 	},
 
 
@@ -2121,105 +2362,98 @@
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "With booming cities, bountiful lands, and thriving trade, it seems the Argentinians are ready to tango",
+		"quote": "Whatever your heart desires can be found on the pampas.",
 	},
 	{
 		"name": "The Austro-Hungarians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "If other empires won't open their front doors to your artists and thinkers, you can send in your agents the back way...",
-		"requiredTech": "Agriculture"
+		"quote": "The language of music has no borders.",
 	},
 	{
 		"name": "The British",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "We will see if the planet has now shrunk so much that the British empire can reach its arms around it",
+		"quote": "We are not interested in the possibilities of defeat.",
 	},
 	{
 		"name": "The Ethiopians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Armed with military firepower and progressive ambitions, where will the Ethiopian Empire set its sights?",
+		"quote": "Let no-one ever take what belongs to you.",
 	},
 	{
 		"name": "The French",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Germans] is not constructed>", "Only available <if [The Mexicans] is not constructed>"],
-		"quote": "Born in the great era of enlightenment revolutions, will the French live up to their best, or launch another round of Terrors?",
-		"requiredTech": "Agriculture"
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Judge of a person by their questions rather than by their answers.",
 	},
 	{
 		"name": "The Germans",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The French] is not constructed>", "Only available <if [The Mexicans] is not constructed>"],
-		"quote": "A powerhouse both of industry and of political philosophy! Though I hear it was a challenge to keep both the factories running and the workers happy.",
-		"requiredTech": "Agriculture"
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "Waging war requires courage, purpose, and an iron determination.",
 	},
 	{
 		"name": "The Hawaiians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Their sparkling oceans are a source of the Hawaiians' powerful traditions, and a rich but delicate resource for the future.",
+		"quote": "We must care for the land as it provides for us.",
 	},
 	{
 		"name": "The Italians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Even centuries after the Renaissance, Italy remains a hotbed of painting, culture, ideas, and short tempers.",
+		"quote": "Art is fine food, great craftsmanship, and unrestrained passion.",
 	},
 	{
 		"name": "The Mexicans",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The French] is not constructed>", "Only available <if [The Germans] is not constructed>"],
-		"quote": "Everyone talks about Mexico's revolutionary heroes, mural painters, and passionate people. Please; don't forget the agave.",
-		"requiredTech": "Agriculture"
+		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
+		"quote": "They tried to bury us, they didn't know we were seeds.",
 	},
 	{
 		"name": "The Persians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "The grand bridge between the great Safavid empire and modern Iran; a difficult job in a challenging place.",
+		"quote": "Freedom, dignity, wealth -- these are what an empire truly builds.",
 	},
 	{
 		"name": "The Russians",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Incredible writers, poets, painters, and ballet stars — but they do have to suffer through the most terrible winters for their art.",
+		"quote": "Soldiers' bellies are not satisfied with empty promises.",
 	},
 	{
 		"name": "The Scots",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Home to countless great philosophers, scientists, and poets! And, of course, a fair number of bagpipes.",
+		"quote": "With sharp minds and strong hands, we will build a brighter future for all.",
 	},
 	{
 		"name": "The Siamese",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "Forward to the future! On elephants! Armed with Gatling guns...",
+		"quote": "Anything can be built with enough imagination.",
 	},
 	{
 		"name": "The Zulu",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Industrial Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
-		"quote": "The world is holding its breath to see what this famously military culture wants — and how it gets it.",
+		"quote": "Let even the bravest enemy feel paralysing fear when we come!.",
 	},
 
 
@@ -2230,16 +2464,13 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "All in this great land can live the American dream.",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Australians",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Miṣriyyūn] is not constructed>", "Only available <if [The Turks] is not constructed>"],
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Those who stop dreaming are lost.",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Brasilians",
@@ -2247,7 +2478,6 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "God is big, but the forest is bigger.",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Chinese",
@@ -2255,7 +2485,6 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Behold the indomitable spirit of industriousness and bravery!",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Cubans",
@@ -2263,16 +2492,13 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "We fear not the mighty, only our own ignorance",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Miṣriyyūn",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Australians] is not constructed>", "Only available <if [The Turks] is not constructed>"],
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "All rivers flow from the Nile.",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Indians",
@@ -2280,7 +2506,6 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Another world is not only possible, she is on her way.",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Japanese",
@@ -2288,7 +2513,6 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Silicon dreaming, while honoring the ancient ways, brings prosperity",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The New Zealanders",
@@ -2296,7 +2520,6 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Little is more humbling than the immensity of the seas.",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Nigerians",
@@ -2304,7 +2527,6 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Fine words alone do not put food in one's mouth.",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Singaporeans",
@@ -2312,7 +2534,6 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "We will show the world not to underestimate the power of the city.",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Soviets",
@@ -2320,7 +2541,6 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Comrades! The motherland calls!",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Swedes",
@@ -2328,16 +2548,13 @@
 		"isWonder": true,
 		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "A human empowered and enlightened can achieve anything.",
-		"requiredTech": "Agriculture"
 	},
 	{
 		"name": "The Turks",
 		"cost": 1,
 		"isWonder": true,
-		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>",
-			"Only available <if [The Australians] is not constructed>", "Only available <if [The Miṣriyyūn] is not constructed>"],
+		"uniques": ["Contemporary Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
 		"quote": "Spill blood for your land for it gives you everything.",
-		"requiredTech": "Agriculture"
 	},
 
 
