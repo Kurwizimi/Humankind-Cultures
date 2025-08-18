@@ -552,7 +552,7 @@
 		"science": 1,
         	"turnsToBuild": 7,
         	"techRequired": "Suburbs",
-        	"uniques": ["[+2 Science, +1 Culture] for each adjacent [Snow]", "[+1 Culture] for each adjacent [Tundra]","Only available <with [0] to [0] neighboring [Polar Base] tiles>",
+        	"uniques": ["[+2 Science, +1 Culture] for each adjacent [Snow]", "[+1 Culture] for each adjacent [Tundra]",
 			"Emblematic District", "Only available <if [The New Zealanders] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "P"
    	 },
