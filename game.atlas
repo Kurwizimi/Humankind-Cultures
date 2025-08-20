@@ -384,7 +384,7 @@ BuildingIcons/Pottery Workshop
   index: -1
 BuildingIcons/Printing House
   rotate: false
-  xy: 308, 271
+  xy: 308, 199
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -503,7 +503,7 @@ BuildingIcons/Tech Park
   index: -1
 BuildingIcons/The Aksumites
   rotate: false
-  xy: 1771, 740
+  xy: 1771, 676
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -517,7 +517,7 @@ BuildingIcons/The Assyrians
   index: -1
 BuildingIcons/The Australians
   rotate: false
-  xy: 1771, 668
+  xy: 1771, 604
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -531,28 +531,28 @@ BuildingIcons/The Babylonians
   index: -1
 BuildingIcons/The Carthaginians
   rotate: false
-  xy: 1771, 596
+  xy: 1771, 532
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Celts
   rotate: false
-  xy: 1771, 528
+  xy: 1771, 464
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 BuildingIcons/The Dutch
   rotate: false
-  xy: 1771, 456
+  xy: 1771, 392
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Edo
   rotate: false
-  xy: 1771, 384
+  xy: 1843, 949
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -566,112 +566,112 @@ BuildingIcons/The Egyptians
   index: -1
 BuildingIcons/The Franks
   rotate: false
-  xy: 1843, 940
+  xy: 1843, 877
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The French
   rotate: false
-  xy: 1843, 868
+  xy: 1843, 805
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Germans
   rotate: false
-  xy: 1843, 796
+  xy: 1843, 733
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Ghanaians
   rotate: false
-  xy: 1843, 724
+  xy: 1843, 661
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Goths
   rotate: false
-  xy: 1843, 652
+  xy: 1843, 589
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Greeks
   rotate: false
-  xy: 1843, 580
+  xy: 1843, 517
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Hittites
   rotate: false
-  xy: 1843, 508
+  xy: 1843, 445
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Huns
   rotate: false
-  xy: 1843, 436
+  xy: 1843, 373
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Mauryans
   rotate: false
-  xy: 1843, 364
+  xy: 317, 835
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Maya
   rotate: false
-  xy: 317, 835
+  xy: 389, 834
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Mexica
   rotate: false
-  xy: 389, 834
+  xy: 317, 763
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Mexicans
   rotate: false
-  xy: 317, 763
+  xy: 389, 762
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Miṣriyyūn
   rotate: false
-  xy: 389, 762
+  xy: 312, 691
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Mycenaeans
   rotate: false
-  xy: 312, 691
+  xy: 308, 619
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Nubians
   rotate: false
-  xy: 308, 619
+  xy: 308, 547
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Omlecs
   rotate: false
-  xy: 308, 547
+  xy: 308, 475
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -685,21 +685,21 @@ BuildingIcons/The Phoenicians
   index: -1
 BuildingIcons/The Turks
   rotate: false
-  xy: 308, 475
+  xy: 308, 403
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Venetians
   rotate: false
-  xy: 308, 403
+  xy: 308, 331
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/The Zhou
   rotate: false
-  xy: 308, 199
+  xy: 308, 127
   size: 57, 64
   orig: 57, 64
   offset: 0, 0
@@ -1266,7 +1266,7 @@ TileSets/AbsoluteUnits/Units/Jazayerchiha
   index: -1
 TileSets/AbsoluteUnits/Units/Langskip
   rotate: false
-  xy: 1783, 1158
+  xy: 1783, 1094
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1467,79 +1467,86 @@ TileSets/HexaRealm/Tiles/Great Obelisk
   orig: 64, 65
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Kaiserdom
+  rotate: false
+  xy: 1699, 623
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Kawah Ijen
   rotate: false
-  xy: 1699, 633
+  xy: 1699, 559
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lake Baikal
   rotate: false
-  xy: 1699, 569
+  xy: 1699, 495
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lake Hiller
   rotate: false
-  xy: 1699, 496
+  xy: 1699, 422
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lake Natron
   rotate: false
-  xy: 1699, 432
+  xy: 1783, 1158
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Loko Kuapā
   rotate: false
-  xy: 1783, 1085
+  xy: 1783, 1021
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Orda
   rotate: false
-  xy: 1783, 1012
+  xy: 1771, 948
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ordu
   rotate: false
-  xy: 1783, 1012
+  xy: 1771, 948
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Perito Moreno Glacier
   rotate: false
-  xy: 1771, 948
+  xy: 1771, 884
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Polar Base
   rotate: false
-  xy: 1771, 884
+  xy: 1771, 820
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sagarmatha
   rotate: false
-  xy: 1771, 812
+  xy: 1771, 748
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Yellowstone
   rotate: false
-  xy: 308, 339
+  xy: 308, 267
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
