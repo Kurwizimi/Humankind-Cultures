@@ -23,7 +23,7 @@
 
 			{ "text": "The Caralans",
 			  "uniques": [	"Comment [Cooperative Spirit: All buildings provide +1 of their respective yeild (e.g. +1 [Food] on [Food] buildings)]",
-				  	"Comment [[Healer]: [Warrior]-like unit, 16 vs. 19 [Strength], [Plant Lore]]",
+				  	"Comment [[Healer]: [Warrior]-like unit, 16 vs. 19 [Strength], Does not replace an base units, [Plant Lore]]",
 				  	"Comment [[Ceremonial Plaza]: +2 [Faith], +2 [Happiness]]",
 				  "Gain a free [The Caralans] [in capital] <hidden from users>","Only available <if [The Caralans] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
@@ -59,13 +59,13 @@
 
 			{ "text": "The Omlecs",
 			  "uniques": [	"Comment [Natural Harmony: +3 [Culture] in all cities]",
-				  	"Comment [[Javelin Thrower] - [Archer]-like unit: [20] vs. [17] [Strength], [Ambush]]",
+				  	"Comment [[Javelin Thrower] - [Archer]-like unit: [20] vs. [17] [Strength], Does not replace any base units, [Ambush]]",
 				  	"Comment [[Omlec Head]: +2 [Food], +1 [Culture], +1 [Culture] for each adjacent [Farm], Does not need the removal of [Forest] or [Jungle], Cannot be built next to each other, [Plains][Grassland]]",
 				  "Gain a free [The Omlecs] [in capital] <hidden from users>","Only available <if [The Omlecs] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Pama-Nyungan",
 			  "uniques": [	"Comment [Storied Lands: +5 [Culture] from every Natural Wonder, +1 [Culture] from evry [Mountain]]",
-				  	"Comment [[Boomerang Thrower] - [Archer]-like unit: [Ignore terrain cost], [Expedition]]",
+				  	"Comment [[Boomerang Thrower] - [Archer]-like unit: [Ignore terrain cost], Does not replace any base units, [Expedition]]",
 				  	"Comment [[Fish Trap]: +2 [Food], +2 [Food] for each adjacent [River], Cannot be built next to each other, [River]]",
 				  "Gain a free [The Pama-Nyungan] [in capital] <hidden from users>","Only available <if [The Pama-Nyungan] is not constructed by anybody> <hidden from users>", "Only available <if [Ancient Culture] is not constructed> <hidden from users>"] }
 
@@ -107,7 +107,7 @@
 		"choices": [
 			{ "text": "The Achaemenids",
 			  "uniques": [	"Comment [Cyrus' Shadow: -20% unhappiness from the number of cities in your empire, +10% Golden Age length]",
-				  	"Comment [[Immortal]: [Spearman]-like unit, 28 vs. 18 Strength, 180 vs. 90 Cost, [Bastion]]",
+				  	"Comment [[Immortal]: [Spearman]-like unit, 28 vs. 18 Strength, 180 vs. 90 Cost, Does not replace any base units, [Bastion]]",
 				  	"Comment [[Satrap Palace]: +1 [Culture], +4 [Gold], +1 [Trader] Slot ]",
 				  "Gain a free [The Achaemenids] [in capital] <hidden from users>", "Only available <if [The Achaemenids] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
       
@@ -119,19 +119,19 @@
       
       			{ "text": "The Carthaginians",
 			  "uniques": [	"Comment [Hard Bargainers: [Gold] cost of purchasing [All] buildings [-25]%]",
-				  	"Comment [[War Elephant]: 32 [Strength], 3 [Movement], [Trample]]",
+				  	"Comment [[War Elephant]: 32 [Strength], 3 [Movement], Does not replace any base units, [Trample]]",
 				  	"Comment [[Cothon]: +10 City Strength, +10 City Health, +2 [Production] from [Coast] tiles, +3 [Production] from [Lakes] tiles]",
 				  "Gain a free [The Carthaginians] [in capital] <hidden from users>" ,"Only available <if [The Carthaginians] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Celts",
 			  "uniques": [	"Comment [Druidic Lore: +3 [Food] from evry [Farmer]]",
-				  	"Comment [[Gaesati]: [Swordsman]-like unit, 3 vs. 2 [Movement], [Fervor]]",
-				  	"Comment [[Nementon]: +3 [Food], +3 [Faith] ]",
+				  	"Comment [[Gaesati]: [Swordsman]-like unit, 3 vs. 2 [Movement], Does not replace any base units, [Fervor]]",
+				  	"Comment [[Nementon]: +3 [Food], +3 [Faith]]",
 				  "Gain a free [The Celts] [in capital] <hidden from users>" ,"Only available <if [The Celts] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Garamantes",
 			  "uniques": [	"Comment [Desert in Bloom: +5 [Culture] in all cities, doubled if they are in [Desert]]",
-				  	"Comment [[Javelin Rider]: [Horseman]-like unit, Ranged Unit, 27 vs. 26 Strength, 5 vs. 4 Movement, 90 vs. 180 Cost]",
+				  	"Comment [[Javelin Rider]: [Horseman]-like unit, Ranged Unit, 27 vs. 26 Strength, 5 vs. 4 Movement, 90 vs. 180 Cost, Does not replace any base units]",
 				  	"Comment [[Foggara]: +2 [Food], +1 [Food] for every adjacent [Hill][Mountain] or [Stone], Cannot be built next to each other, [Plains][Desert][Flood plains]]",
 				  "Gain a free [The Garamantes] [in capital] <hidden from users>", "Only available <if [The Garamantes] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
@@ -143,31 +143,31 @@
 					
 			{ "text": "The Greeks",
 			  "uniques": [	"Comment [Socratic Methods: +2 [Science] from every [Researcher]]", 
-				  	"Comment [[Hoplite]: [Swordsman]-like unit, +50% Strength vs. Mounted units, [Phalanx]]",
+				  	"Comment [[Hoplite]: [Swordsman]-like unit, +50% Strength vs. Mounted units, Does not replace any base units, [Phalanx]]",
 				  	"Comment [[Amphitheatron]: +1 [Culture] +3 [Science] for every Era passed]",
 				  "Gain a free [The Greeks] [in capital] <hidden from users>", "Only available <if [The Greeks] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Han",
 			  "uniques": [	"Comment [Fruitful Negotiation: Gifts of [Gold] to City States provide +20% more Influence, Allied City States provide [Gold] equal to 50% of what they produce themselves]",
-				  	"Comment [[Lián nŭ bīng]: [Archer]-like unit, 27 vs. 17 Strength, 180 vs. 90 Cost, [Repeating Volley]]",
+				  	"Comment [[Lián nŭ bīng]: [Archer]-like unit, 27 vs. 17 Strength, 180 vs. 90 Cost, Does not replace any base units, [Repeating Volley]]",
 				  	"Comment [[Paper Mill]: +1 [Science] for every adopted policy, Provides 1 [Paper] ]",
 				  "Gain a free [The Han] [in capital] <hidden from users>", "Only available <if [The Han] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Huns",
 			  "uniques": [	"Comment [Formidable steeds: +5 [Science] for every owned [Mounted] unit, +10% Strength for every [Mounted] unit, Cannot build [Settler] units this era]",
-				  	"Comment [[Hunnic Horde]: [Horseman]-like unit, Ranged Unit, 20 vs. 26 Strength, May found a new city once]",
+				  	"Comment [[Hunnic Horde]: [Horseman]-like unit, Ranged Unit, 20 vs. 26 Strength, May found a new city once, Does not replace any base units]",
 				  	"Comment [[Ordu]: Gives a defensive bonus of 25%, Adjacent enemy units ending their turn take 5 damage, Can be built outside your borders, [Plains][Grassland]]",
 				  "Gain a free [The Huns] [in capital] <hidden from users>", "Only available <if [The Huns] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Mauryans",
 			  "uniques": [	"Comment [Guiding Light: +1 [Culture] from every [Emblematic District], -25% [Culture] cost of natural border growth in all cities]",
-				  	"Comment [[Saṃnāhya]: [Horseman]-like unit, Ranged Unit, 30 vs. 26 Strength, 360 vs. 180 Cost, May not move after attacking, +33% Strength vs. [Ranged] units when defending]",
+				  	"Comment [[Saṃnāhya]: [Horseman]-like unit, Ranged Unit, 30 vs. 26 Strength, 360 vs. 180 Cost, May not move after attacking, +33% Strength vs. [Ranged] units when defending, Does not replace any base units]",
 				  	"Comment [[Stupa]: +1 [Culture], +2 [Faith], +3 [Science], +1 [Researcher] slot ]",
 				  "Gain a free [The Mauryans] [in capital] <hidden from users>", "Only available <if [The Mauryans] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
 			{ "text": "The Maya",
 			  "uniques": [	"Comment [Tireless Spirit: +2 [Production] from every [Engineer]]",
-				  	"Comment [[Noble Javelineer]: [Archer]-like unit, 26 vs. 17 Strength, [Poison]]",
+				  	"Comment [[Noble Javelineer]: [Archer]-like unit, 26 vs. 17 Strength, Does not replace any base units, [Poison]]",
 				  	"Comment [[K'uh Nah]: +1 [Production], +2 [Faith], +1 [Production] from every [Jungle] in this city]",
 				  "Gain a free [The Maya] [in capital] <hidden from users>", "Only available <if [The Maya] is not constructed by anybody> <hidden from users>", "Only available <if [Classical Culture] is not constructed> <hidden from users>"] }
 			
@@ -215,7 +215,7 @@
 
 			{ "text": "The Bulgarians",
 			  "uniques": [	"Comment [Victors' Honour: +1 [Culture], +1 [Gold] per 2 population for 10 turns after conquering a city]",
-				  	"Comment [[Bagaturi]: [Knight]-like unit, Ranged unit, [Ransacker]]",
+				  	"Comment [[Bagaturi]: [Knight]-like unit, Ranged unit, Does not replace any base units, [Ransacker]]",
 				  	"Comment [[Knyaz Library]: +3 [Faith], +3 [Science], +5% [Culture]]",
 				  "Gain a free [The Bulgarians] [in capital] <hidden from users>", "Only available <if [The Bulgarians] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
@@ -257,7 +257,7 @@
 
 			{ "text": "The Mongols",
 			  "uniques": [	"Comment [Mounted Mayhem: +100% Yeild from pillaging tiles, +100% resources gifted by City-States, Cannot build [Settler] units this era]",
-				  	"Comment [[Mongol Horde]: [Knight]-like unit, Ranged unit, May found a new city once]",
+				  	"Comment [[Mongol Horde]: [Knight]-like unit, Ranged unit, May found a new city once, Does not replace any base units]",
 				  	"Comment [[Orda]: +2 [Food] +2 [Production] +2 [Gold], Gives a defensive bonus of 25%, Provides yeilds without assigned population, Can be built outside your borders, All [Land]]",
 				  "Gain a free [The Mongols] [in capital] <hidden from users>" ,"Only available <if [The Mongols] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
@@ -269,7 +269,7 @@
 
 			{ "text": "The Rapa Nui",
 			  "uniques": [	"Comment [Makemake's Eye: +1 [Production] from evry [Coast], Gain a free [Makamake's Blessing] in all cities upon entering a new era]",
-				  	"Comment [[Maori Tangata]: [Great Swordsman]-like unit, Does not require [Iron], [Sapper]]",
+				  	"Comment [[Maori Tangata]: [Great Swordsman]-like unit, Does not require [Iron], Does not replace any base units, [Sapper]]",
 				  	"Comment [[Moai]: +3 [Food] +2 [Faith], +3 [Culture] +2 [Faith] when adjacent to atleast 2 other [Moai],  +3 [Culture] +2 [Faith] when adjacent to atleast 4 other [Moai], All [Coastal]]",
 				  "Gain a free [The Rapa Nui] [in capital] <hidden from users>" ,"Only available <if [The Rapa Nui] is not constructed by anybody> <hidden from users>", "Only available <if [Medieval Culture] is not constructed> <hidden from users>"] }
 
@@ -351,7 +351,7 @@
 
 			{ "text": "The Maasai",
 			  "uniques": [	"Comment [Pastoral Prowess: +25% Growth in all cities]",
-				  	"Comment [[Maasai Morans]: [Arquebusier]-like unit, Does not require [Saltpetre], [Implacable]]",
+				  	"Comment [[Maasai Morans]: [Arquebusier]-like unit, Does not require [Saltpetre], Does not replace any base units, [Implacable]]",
 				  	"Comment [[Enkand]: +1 [Food], +1 [Production] for every adjacent [Pasture], +1 [Food] for every adjacent [Farm], +1 [Gold] for every adjacent [River]]",
 				  "Gain a free [The Maasai] [in capital] <hidden from users>", "Only available <if [The Maasai] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
@@ -363,13 +363,13 @@
 
 			{ "text": "The Ming",
 			  "uniques": [	"Comment [Grand Secretariat: Each city founded increases culture cost of policies 33% less than normal, +10 [Culture] from every adopted Political policy]",
-				  	"Comment [[Rocket Cart]: [Arquebusier]-like unit, 45 vs. 39 [Ranged Strength], 40 vs. 30 [Strength], Must set up to ranged attack]",
+				  	"Comment [[Rocket Cart]: [Arquebusier]-like unit, 45 vs. 39 [Ranged Strength], 40 vs. 30 [Strength], Must set up to ranged attack, Does not replace any base units]",
 				  	"Comment [[Grand Teahouse]: +1 [Culture] from all tiles in this city]",
 				  "Gain a free [The Ming] [in capital] <hidden from users>", "Only available <if [The Ming] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Mughals",
 			  "uniques": [	"Comment [Imperial Magnificence: +0 % [Production] in all cities]",
-				  	"Comment [[Gajnal]: [Arquebusier]-like unit, 4 vs. 2 [Movement], +50% [Strength] vs. cities]",
+				  	"Comment [[Gajnal]: [Arquebusier]-like unit, 4 vs. 2 [Movement], +50% [Strength] vs. cities, Does not replace any base units]",
 				  	"Comment [[Jama Masjid]: +4 [Culture], +3 [Production], +1 [Faith] from every population in this city, +1 [Production] from every [Engineer] in this city]",
 				  "Gain a free [The Mughals] [in capital] <hidden from users>", "Only available <if [The Mughals] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
@@ -381,7 +381,7 @@
 
 			{ "text": "The Poles",
 			  "uniques": [	"Comment [Deadly Ramparts: +30 Strength for cities, +1 [Happiness] in all cities]",
-				  	"Comment [[Winged Hussar]: [Harbeilder]-like unit, 4 vs. 2 [Movement], +50% Strength vs. all land units, Requires [Horses], [Charge Master]]",
+				  	"Comment [[Winged Hussar]: [Harbeilder]-like unit, 4 vs. 2 [Movement], +50% Strength vs. all land units, Requires [Horses], Does not replace any base units, [Charge Master]]",
 				  	"Comment [[Barbican]: +2 [Culture], +2 [Happiness], +1 [Culture] for every adjacent [Barbican], Gives defensive bonus of 60%, Must be next to a [City center], [Land]]",
 				  "Gain a free [The Poles] [in capital] <hidden from users>", "Only available <if [The Poles] is not constructed by anybody> <hidden from users>", "Only available <if [Early Modern Culture] is not constructed> <hidden from users>"] }
 
@@ -430,7 +430,7 @@
 
 			{ "text": "The Austro-Hungarians",
 			  "uniques": [	"Comment [Emperor's Hand: +1 [Culture] from every Emblematic District, +1 [Culture] from every [Culture] building]",
-				  	"Comment [[Evidenzbureau Agent]: [Line Infantry]-like unit, May enter foreign tiles without open borders, [Stealth] ]",
+				  	"Comment [[Evidenzbureau Agent]: [Line Infantry]-like unit, May enter foreign tiles without open borders, Does not replace any base units, [Stealth] ]",
 				  	"Comment [[Opernhaus]: +5 [Culture], +1 [Happiness] for every [Opernhaus] built]",
 				  "Gain a free [The Austro-Hungarians] [in capital] <hidden from users>", "Only available <if [The Austro-Hungarians] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
 
@@ -472,7 +472,7 @@
       
       			{ "text": "The Mexicans",
 			  "uniques": [	"Comment [Fields of Gold: +10% [Food] in all cities ]",
-				  	"Comment [[Soldaderas]: [Line Infantry]-like unit, 49 vs. 47 [Strength], [Guerilla Fighter] ]",
+				  	"Comment [[Soldaderas]: [Line Infantry]-like unit, 49 vs. 47 [Strength], Does not replace any base units, [Guerilla Fighter] ]",
 				  	"Comment [[Hacienda]: +2 [Gold], +1 [Food] for each adjacent [Farm], Cannot be built nest to each other, [Plains][Grassland][Desert] ]",
 				  "Gain a free [The Mexicans] [in capital] <hidden from users>" ,"Only available <if [The Mexicans] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
 
@@ -502,7 +502,7 @@
 
 			{ "text": "The Zulu",
 			  "uniques": [	"Comment [Warrior's Pride: All healing effects doubled, +15% [Strength] for units at full health ]",
-				  	"Comment [[Impi]: [Line Infantry]-like unit, 42 vs. 47 [Strength], 1090 vs. 1290 [Cost], [Unstoppable]]",
+				  	"Comment [[Impi]: [Line Infantry]-like unit, 42 vs. 47 [Strength], 1090 vs. 1290 [Cost], Does not replace any base units, [Unstoppable]]",
 				  	"Comment [[Warrior's Izindlu]: +10 City Strength, +20 City Health, New military units start with 25XP in this city]",
 				  "Gain a free [The Zulu] [in capital] <hidden from users>", "Only available <if [The Zulu] is not constructed by anybody> <hidden from users>", "Only available <if [Industrial Culture] is not constructed> <hidden from users>"] }
       
@@ -560,25 +560,25 @@
 
 			{ "text": "The Chinese",
 			  "uniques": [	"Comment [Silk Railroad: +15% [Gold] in all cities]",
-				  	"Comment [[Guardian]: 60 [Ranged Strength], 3 [Movement], 3 [Range], [Indirect Fire]]",
+				  	"Comment [[Guardian]: 60 [Ranged Strength], 3 [Movement], 3 [Range], Does not replace any base units, [Indirect Fire]]",
 				  	"Comment [[Congress]: +5 [Gold], +3 [Culture], +1 [Gold] in capital, +1 [Trader] slot]",
 				  "Gain a free [The Chinese] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Cubans",
 			  "uniques": [	"Comment [Internationalism: +25% [Culture] in all cities for 5 turns after delaring friendship, +20% [Strength] for All units for 5 turns after declaring friendship]",
-				  	"Comment [[Guerrilleros]: 56 [Strength], 2 [Movement], [Great General] provides double combat bonus, [Stealth]]",
+				  	"Comment [[Guerrilleros]: 56 [Strength], 2 [Movement], [Great General] provides double combat bonus, Does not replace any base units, [Stealth]]",
 				  	"Comment [[Empresa Farmacéutica]: +3 Yeild from all [Specialist]s in this city when above 20 [Happiness], Provides 1 [Pharmaceuticals]]",
 				  "Gain a free [The Cubans] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Miṣriyyūn",
 			  "uniques": [	"Comment [Valley of Kings: +4 [Culture] from every [Emblematic District]]",
-				  	"Comment [[Free Officer]: 58 [Strength], 2 [Movement], [Anti-Colonialism]]",
+				  	"Comment [[Free Officer]: 58 [Strength], 2 [Movement], Does not replace any base units, [Anti-Colonialism]]",
 				  	"Comment [[Archeological Dig]: +3 [Culture], +3 [Science] for each adjacent Natural Wonder, +1 [Culture] for each adjacent [City center], Can only be build next to Mountains, [Plains][Grassland][Desert][Tundra][Snow]]",
 				  "Gain a free [The Miṣriyyūn] [in capital] <hidden from users>", "Only available <if [The Miṣriyyūn] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
 
 			{ "text": "The Indians",
 			  "uniques": [	"Comment [Economic Elephant: +5 [Culture] in all cities, +3% [Gold] in capital for every owned city]",
-				  	"Comment [[Peacekeeper]: 57 [Strength], 2 [Movement], [Peace Protector]]",
+				  	"Comment [[Peacekeeper]: 57 [Strength], 2 [Movement], Does not replace any base units, [Peace Protector]]",
 				  	"Comment [[Ashram]: +5 [Culture], +3 [Faith], +1 [Gold] +1 [Science] from every [Faith] building in this city ]",
 				  "Gain a free [The Indians] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
 
@@ -602,7 +602,7 @@
 
 			{ "text": "The Singaporeans",
 			  "uniques": [	"Comment [Centre of Attraction: +1 [Happiness] in all cities for every owned city, Resting point for Influence with City-States is increased by 35, Cannot build [Settler] units]",
-				  	"Comment [[Reservist]: 51 [Strength], 2 [Movement], -3 [Movement] in Foreign Land tiles, [Home Guard]]",
+				  	"Comment [[Reservist]: 51 [Strength], 2 [Movement], -3 [Movement] in Foreign Land tiles, Does not replace any base units, [Home Guard]]",
 				  	"Comment [[Communal Housing]: +3 [Food], +3 [Production], +3 [Gold], +3 [Science], +3 [Culture]]",
 				  "Gain a free [The Singaporeans] [in capital] <hidden from users>", "Only available <if [The Australians] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
 
@@ -620,7 +620,7 @@
 
       			{ "text": "The Turks",
 			  "uniques": [	"Comment [People's Reforms: +2 Food from every population in all cities]",
-				  	"Comment [[Stealthy Operative Missile]:  75 [Strength], 14 [Range], Destroys tile improvements]",
+				  	"Comment [[Stealthy Operative Missile]:  75 [Strength], 14 [Range], Destroys tile improvements, Does not replace any base units]",
 				  	"Comment [[Public School]: +10% [Science], +1 [Food] from every [Farmer] in this city, +1 [Researcher] slot]",
 				  "Gain a free [The Turks] [in capital] <hidden from users>" ,"Only available <if [The Turks] is not constructed by anybody> <hidden from users>", "Only available <if [Contemporary Culture] is not constructed> <hidden from users>"] }
       
