@@ -703,7 +703,7 @@
         	"uniques": [
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
-					"City-level resource",
+					//"City-level resource",//
 					"Excluded from map editor",
 					"Doesn't generate naturally"
 		]
