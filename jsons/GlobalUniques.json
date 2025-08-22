@@ -9,14 +9,11 @@
         		"Cannot build [Settler] units <when below [-10] [Happiness]>",
         		"Rebel units may spawn <when below [-20] [Happiness]>",
         		"[-1] Sight <for [Embarked] units>",
-			"[+20]% [Culture] [in all cities] <during a Golden Age>",
-        		"[+20]% [Production] [in all cities] <during a Golden Age>",
-			"[+10]% growth [in all cities] <during We Love The King Day>",
 
-			"[+1 Culture] [in all cities] <when above [5] [Happiness]>",
-			"[+2 Culture] [in all cities] <when above [10] [Happiness]>",
-			"[+10]% [Culture] <when above [25] [Happiness]>",
-			"[+20]% [Culture] <when above [40] [Happiness]>",
+			//"[+1 Culture] [in all cities] <when above [5] [Happiness]>",//
+			//"[+2 Culture] [in all cities] <when above [10] [Happiness]>",//
+			//"[+10]% [Culture] <when above [25] [Happiness]>",//
+			//"[+20]% [Culture] <when above [40] [Happiness]>",//
 
 			//Culture-Swap Events
 			"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <before the [Classical era]> <upon turn end>",
@@ -27,17 +24,17 @@
 			"Triggers a [Contemporary] event <for [Major] Civilizations> <upon entering the [Contemporary era]>",
 
 			//Ideology
-			"[+10]% [Production] [in all cities] <when number of [Collectivism] is more than [Individualism]>",
-			"[+10]% [Gold] [in all cities] <when number of [Individualism] is more than [Collectivism]>",
+			"[+5]% [Production] [in all cities] <when number of [Collectivism] is more than [Individualism]>",
+			"[+5]% [Gold] [in all cities] <when number of [Individualism] is more than [Collectivism]>",
 
-			"[+10]% Strength <for [All] units> <when number of [Homeland] is more than [World]>",
-			"[+10]% [Food] [in all cities] <when number of [World] is more than [Homeland]>",
+			"[+5]% Strength <for [All] units> <when number of [Homeland] is more than [World]>",
+			"[+5]% [Food] [in all cities] <when number of [World] is more than [Homeland]>",
 
-			"[+2 Culture] from every [Emblematic District] <when number of [Liberty] is more than [Authority]>",
-			"[+2 Happiness] [in all cities] <when number of [Authority] is more than [Liberty]>",
+			"[+1 Culture] from every [Emblematic District] <when number of [Liberty] is more than [Authority]>",
+			"[+1 Happiness] [in all cities] <when number of [Authority] is more than [Liberty]>",
 
-			"[+2 Faith] [in all cities] <when number of [Tradition] is more than [Progress]>",
-			"[+2 Science] [in all cities] <when number of [Progress] is more than [Tradition]>",
+			"[+1 Faith] [in all cities] <when number of [Tradition] is more than [Progress]>",
+			"[+1 Science] [in all cities] <when number of [Progress] is more than [Tradition]>",
 
 			//Tile Improvement Stuff
 			"[Land] units gain the [Amba ability] promotion <for [Major] Civilizations> <if [The Ethiopians] is constructed>",
