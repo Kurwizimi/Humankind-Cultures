@@ -21,37 +21,34 @@
 	"buildingCost": 60,
 	"wonderCost": 185,
 	"techs": [
-			{ 
+					{ 
 	                "name": "Calendar",
-			"row": 2,
-			"cost":35,
+					"row": 2,
+					"cost":35,
 	                "prerequisites": ["Agriculture"],
-			"uniques": [""],
-	                "quote": ""
-		},
-			{
+	                "quote": "Now that they are living in permanent settlements, villagers want to track the changes of the seasons and organize the planting of crops."
+				},
+					{
 	                "name": "Domestication",
-			"row": 4,
-			"cost":35,
+					"row": 4,
+					"cost":35,
 	                "prerequisites": ["Agriculture"],
-			"quote": ""
+					"quote": "Using horses for simple tilling is one thing, but riding a steed into battle requires another level of proficiency."
             	},
-			{
+					{
 	                "name": "Carpentry",
-			"row": 6,
-			"cost":35,
+					"row": 6,
+					"cost":35,
 	                "prerequisites": ["Agriculture"],
-			"uniques": [""],
-			"quote": ""
+					"quote": "The art of woodworking is essential for bowmaking and lays the foundation for future constructions."
             	},
-			{
-			"name": "City Defence",
+					{
+					"name": "City Defence",
 	                "row": 8,
-			"cost":35,
-			"prerequisites": ["Agriculture"],
-			"uniques": [""],
-	                "quote": ""
-		}]
+					"cost":35,
+					"prerequisites": ["Agriculture"],
+	                "quote": "With the advent of permanent settlements, thought naturally turns to security and defence. The earliest innovations are simple but effective."
+				}]
 },
   
         	     {
@@ -65,66 +62,60 @@
 				                "name": "Irrigation",
 				                "row": 3,
 				                "prerequisites": ["Calendar", "Domestication"],
-                       				"uniques": [""],
-				                "quote": ""
+				                "quote": "With a basic understanding of how the seasonal flooding of a river can be better controlled, water is no longer a matter only for the gods."
 			            	},
-			    			 {
+			    				 {
 				                  "name": "Wheel",
 				                  "row": 5,
 				                  "prerequisites": ["Domestication","Carpentry"],
-                          			  "uniques": [""],
-				                  "quote": ""
+				                  "quote": "Perhaps inspired by the potter's wheel, wheeled means of transport shrink the world and offer new methods of waging war."
 			              	},
 			                  	{
 				                "name": "Fishing",
 				                "row": 6,
 				                "prerequisites": ["Carpentry"],
-                        			"uniques": [""],
-				                "quote": ""
+				                "quote": "Imagine not a single fish caught with a crude spear, but a net heaving with a writhing, silver-scaled catch."
 			            	},
 		                  		{
 				                "name": "Masonry",
 				                "row": 7,
 				                "prerequisites": ["Carpentry"],
-				                "quote": ""
+				                "quote": "With the ability to hew rocks into precise blocks held together with mortar, buildings can last centuries instead of years, transforming the character of cities."
 			            	},
 			                 	{
 				                "name": "Bronze Working",
 				                "row": 8,
 			                	"prerequisites": ["City Defence"],
-                       				"uniques": [""],
-				                "quote": ""
+				                "quote": "Forged in fiery crucibles, bronze is stronger and more durable than copper and transforms tools, weapons, and armour."
 			            	}]
   	},
   
           	    {
-		    "columnNumber": 3,
-		    "era": "Ancient era",
-		    "techCost": 115,
+		    	"columnNumber": 3,
+		    	"era": "Ancient era",
+		   		"techCost": 115,
 	            "buildingCost": 100,
-		    "wonderCost": 250,
-		    "techs": [
-			                    	  {
-				                  "name": "Writing",
-				                  "row": 2,
-				                  "prerequisites": ["Calendar"],
-				                  "uniques": [""],
-				                  "quote": ""
+		    	"wonderCost": 250,
+		    	"techs": [
+			                    	{
+				                  	"name": "Writing",
+				                  	"row": 2,
+				                  	"prerequisites": ["Calendar"],
+				                  	"quote": "Though it starts as crude marks on simple materials, the ability to store and transmit knowledge will change the world."
 			              	},
 			                    	 
-			                          {
-				                  "name": "Sailing",
-				                  "row": 6,
-				                  "prerequisites": ["Fishing"],
-				                  "quote": ""
+			                    	{
+				                 	"name": "Sailing",
+				                 	"row": 6,
+				                 	"prerequisites": ["Fishing"],
+				                  	"quote": "The frontiers of humankind are expanded by the revelation that bodies of water can be mastered through the use of sailboats"
 			              	},
-			                   	  {
-				                  "name": "Organised Warfare",
-				                  "row": 7,
-				                  "prerequisites": ["Masonry","Bronze Working"],
-                          			  "uniques": [""],
-				                  "quote": ""
-			        	}]
+			                   	  	{
+				                  	"name": "Organised Warfare",
+				                  	"row": 7,
+				                  	"prerequisites": ["Masonry","Bronze Working"],
+				                  	"quote": "As weapons, armour, and structures evolve, military-minded leaders turn their attention to creating well-trained and -equipped armies"
+			        		}]
 	},
 		      {
 		      "columnNumber": 4,
@@ -133,39 +124,37 @@
 		      "buildingCost": 100,
 		      "wonderCost": 250,
 		       "techs": [
-						  {
-						  "name": "Philosophy",
-						  "row": 2,
-						  "prerequisites": ["Writing"],
-				                  "quote": ""
-					},
-						  {
-				                  "name": "Hydrology",
-						  "row": 3,
-				                  "prerequisites": ["Wheel","Irrigation"],
-						  "quote": ""
-					},
-						 {
-						 "name": "Trade Expeditions",
-						 "row": 5,
-						 "prerequisites": ["Wheel","Sailing"],
-                				 "uniques": ["Enables embarkation for land units"],
-				                 "quote": ""
-					},
-						 {
-						 "name": "Fortifications",
-						 "row": 7,
-						 "prerequisites": ["Organised Warfare"],
-						 "uniques": [""],
-						 "quote": ""
-					},
-						 {
-						 "name": "Standing Army",
-						 "row": 8,
-						 "prerequisites": ["Bronze Working"],
-                                                 "uniques": [""],
-						 "quote": ""
-					}]
+						  		{
+						  		"name": "Philosophy",
+						 		"row": 2,
+						  		"prerequisites": ["Writing"],
+				                "quote": "By turning casual questions on matters of existence, values, and reality into a topic of fully-fledged study, cultures can better understand the world and themselves."
+							},
+						  		{
+				                "name": "Hydrology",
+						  		"row": 3,
+				                "prerequisites": ["Wheel","Irrigation"],
+						  		"quote": "Underpinning important advances in civil engineering, hydrology offers basic theories regarding the flow of water and the water cycle."
+							},
+								{
+						 		"name": "Trade Expeditions",
+						 		"row": 5,
+						 		"prerequisites": ["Wheel","Sailing"],
+                				"uniques": ["Enables embarkation for land units"],
+				                "quote": "As talented traders and scribes master the languages of distant lands, trade and commercial relations grow and flourish."
+							},
+						 		{
+						 		"name": "Fortifications",
+						 		"row": 7,
+						 		"prerequisites": ["Organised Warfare"],
+						 		"quote": "Designed to protect cities from invaders and solidify peace-time rule, fortifications play an important strategic role in the development of regional powers."
+							},
+						 		{
+						 		"name": "Standing Army",
+								"row": 8,
+						 		"prerequisites": ["Bronze Working"],
+						 		"quote": "A permanent army of full-time soldiers, whether the empire is at war or peace, allows the diversification of military classes and easier mobilization for war"
+							}]
 	},
 
 			{
@@ -180,28 +169,27 @@
 						"row": 2,
 						"prerequisites": ["Philosophy"],
 						"uniques": ["Enables conversion of city production to [Science]"],
-						"quote": ""
+						"quote": "As citizens congregate in public spaces, demagogues and others hone the arts of persuasion, paving the way for more formalized instruction and entertainment."
 					},
 						{
 						"name": "Craftsmanship",
 						"row": 5,
 						"prerequisites": ["Trade Expeditions", "Hydrology"],
-						"uniques": [""],
-						"quote": ""
+						"quote": "By progressing the myriad arts of culture from individual endeavours to skilled crafts executed with knowledge and training, true quality can flourish."
 					},
 						{
 						"name": "Conquest",
 						"row": 7,
 						"prerequisites": ["Standing Army","Fortifications"],
 						"uniques": ["Enables establishment of embassies"],
-						"quote": ""
+						"quote": "Controlling newly conquered lands requires more effort than one might think. Logistical concerns like supply trains and administration are key to make conquests successful."
 					},
 						{
 						"name": "Mounted Warfare",
 						"row": 8,
 						"prerequisites": ["Standing Army"],
-                				"uniques": [""],//More pillage yeilds
-						"quote": ""
+                		"uniques": [""],//More pillage yeilds
+						"quote": "Equipping mounts with armour and riding them into battle with sword-, bow-, lance-, or axe-bearing riders is an expensive but effective strategy."
 					}]
 	},
 			{
@@ -216,22 +204,20 @@
 						"cost": 375,
 						"row": 4,
 						"prerequisites": ["Craftsmanship","Conquest"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Extending the reach of an empire by establishing remote settlements in faraway regions is an important step in cultural and commercial expansion."
 					},
 						{
 						"name": "Imperial Power",
 						"row": 7,
 						"prerequisites": ["Mounted Warfare", "Conquest", "Craftsmanship"],
 						"uniques": ["Enables Open Borders agreements"],
-						"quote": ""
+						"quote": "Formalizing the rights, obligations, and responsibilities of citizens, through laws or local administrators, permits the application of long-distance political power through non-violent means."
 					},
 						{
 						"name": "Siege Tactics",
 						"row": 8,
 						"prerequisites": ["Conquest","Mounted Warfare"],
-                				"uniques": [""],
-                				"quote": ""
+                		"quote": "Whether a siege is an attritional campaign or a direct assault, effective tactics can be the difference between success and failure."
 					}]
 	},
 
@@ -245,23 +231,20 @@
 						{
 						"name": "Theology",
 						"row": 2,
-						"uniques": [""],
 						"prerequisites": ["Rhetoric"],
-						"quote": ""
+						"quote": "A focus on theological matters not only brings us closer to the divine, but can lead to lives of modesty and piety."
 					},
 						{
 						"name": "Feudalism",
 						"row": 6,
 						"prerequisites": ["Imperial Power"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "While warriors become vassals of overlords, gaining estates of land in exchange for military service, the peasantry works these lands, gaining protection in return."
 					},
 						{
 						"name": "War Summons",
 						"row": 7,
 						"prerequisites": ["Imperial Power"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "The innovation of a call-to-arms allows different parts of society to train independently during times of peace, leading to a bigger range of military units."
 					}]
 	},
 
@@ -276,27 +259,26 @@
 						"name": "Seafaring Mastery",
 						"row": 4,
 						"prerequisites": ["Foreign Outposts"],
-						"quote": ""
+						"quote": "Working beyond calm, coastal waters requires a much greater understanding -- and respect -- of the ocean."
 					},
 						{
 						"name": "Chivalry",
 						"row": 6,
 						"prerequisites": ["Feudalism"],
-						"quote": ""
+						"quote": "A moral and social system combining codes of conduct for knights and other nobles, establishing the concept of honour with vassalage to a lord."
 					},
 						{
 						"name": "Heavy Infantry",
 						"row": 7,
 						"prerequisites": ["War Summons"],
-               					"uniques": [""],
-						"quote": ""
+						"quote": "With an emphasis on armour and heavier weapons, the presence of heavy infantry can change the battlefield."
 					},
 						{
 						"name": "Military Architecture",
 						"row": 8,
 						"prerequisites": ["Siege Tactics","War Summons"],
-                				"uniques": ["Roads connect tiles across rivers", "Enables Defensive Pacts"],
-						"quote": ""
+                		"uniques": ["Roads connect tiles across rivers", "Enables Defensive Pacts"],
+						"quote": "The dedicated study of structures from a military perspective usher in ideas for devious defences and formidable weapons."
 					}]
 	},
 
@@ -311,22 +293,20 @@
 						"name": "Alchemy",
 						"row": 2,
 						"prerequisites": ["Theology"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "With roots in religion and natural philosophy, the subject searches to understand both the mystical and the mundane."
 					},
 						{
 						"name": "Guilds",
 						"row": 5,
 						"prerequisites": ["Seafaring Mastery","Chivalry"],
-                				"uniques": ["Enables conversion of city production to [Gold]"],
-						"quote": ""
+                		"uniques": ["Enables conversion of city production to [Gold]"],
+						"quote": "Associations of artisans or merchants ensure the quality of trades, but can also lead to secretive alliances."
 					},
 						{
 						"name": "Furnace Steel",
 						"row": 6,
 						"prerequisites": ["Chivalry","Heavy Infantry"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Innovations in the forging process and the balance of materials used leads to a superior form of steel."
 					}]
 	},
 
@@ -341,28 +321,27 @@
 						"name": "Three-Masted Ship",
 						"row": 3,
 						"prerequisites": ["Guilds"],
-               					"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
-						"quote": ""
+               			"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
+						"quote": "New technologies are necessary to conquer the seas, particularly for undertaking long voyages across vast, dangerous oceans."
 					},
 						{
 						"name": "Naval Artillery",
 						"row": 4,
 						"prerequisites": ["Seafaring Mastery"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Waging war at sea requires improvements -- from simply keeping powder dry to planning global supply networks."
 					},
 						{
 						"name": "Centralised Power",
 						"row": 6,
 						"uniques": ["Enables Research agreements", "Improves movement speed on roads"],
 						"prerequisites": ["Guilds","Furnace Steel"],
-						"quote": ""
+						"quote": "To better manage the evolution of complex empires -- including wily lords with grand ambitions -- a centralized system to collect and disburse taxes is necessary."
 					},
 						{
 						"name": "Gunpowder Warfare",
 						"row": 8,
 						"prerequisites": ["Furnace Steel","Military Architecture"],
-						"quote": ""
+						"quote": "An ancient mix of chemicals gains new life, as stronger metals can contain and orient the blast."
 					}]
 	},
 
@@ -377,36 +356,31 @@
 						"name": "Moveable Typeface",
 						"row": 2,
 						"prerequisites": ["Alchemy", "Three-Masted Ship"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Advancements in metallurgy and metalworking allow the creation of rapidly replaceable typefaces, revolutionizing printing."
 					},
 						{
 						"name": "Chartered Companies",
 						"row": 5,
 						"prerequisites": ["Three-Masted Ship","Naval Artillery"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "The creation of charters and shares allows companies to manage and take greater risks, in the hopes of greater profits."
 					},
 						{
 						"name": "Humanism",
 						"row": 7,
 						"prerequisites": ["Centralised Power"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "As wealthy empires grow, merchants and nobles express their power by funding artistic endeavours and scientific research."
 					},
 						{
 						"name": "Supply Lines",
 						"row": 8,
 						"prerequisites": ["Centralised Power"],
-						"uniques": [""],
-						"quote": ""
+						"quote": "With commercial outposts developing trade routes, managing global supply routes gains commercial and military importance."
 					},
 						{
 						"name": "Siege Cannons",
 						"row": 9,
 						"prerequisites": ["Gunpowder Warfare"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Packed with frightening explosive power, in a few hours these new weapons can crumble city walls that have stood for millennia."
 					}]
 	},
 
@@ -422,14 +396,13 @@
 						"row": 4,
 						"prerequisites": ["Chartered Companies","Humanism","Moveable Typeface"],
                 				"uniques": [""],//More pillage yeilds
-						"quote": ""
+						"quote": "A zero-sum trade system, this maximizes a nation's exports at the expense of other nations -- and one's colonies."
 					},
 						{
 						"name": "Flintlock",
 						"row": 8,
 						"prerequisites": ["Supply Lines","Siege Cannons"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Firearms utilizing a flint striking ignition mechanism supersede earlier designs, offering armies a faster, more reliable method of discharging weapons."
 					}]
 	},
 
@@ -444,21 +417,19 @@
 						"name": "Encyclopedia",
 						"row": 4,
 						"prerequisites": ["Mercantalism"],
-						"quote": ""
+						"quote": "The tome encompassing the sum of human knowledge is sought by the tyrant and the benevolent alike."
 					},
 						{
 						"name": "Military Coordination",
 						"row": 7,
 						"prerequisites": ["Flintlock"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Ranks and orders turn a chaotic horde into a coordinated and impressive war machine."
 					},
 						{
 						"name": "Carbine",
 						"row": 8,
 						"prerequisites": ["Flintlock"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Power is often wielded at the end of a gun barrel; one hopes that improved barrels might lead to increased power."
 					}]
 	},
 
@@ -474,20 +445,19 @@
 						"row": 3,
 						"cost": 6960,
 						"prerequisites": ["Encyclopedia"],
-						"quote": ""
+						"quote": "Simple elements -- water, heat, and a piston -- come together as humankind learns to turn steam pressure into rotational force."
 					},
 						{
 						"name": "Nationhood",
 						"row": 5,
 						"prerequisites": ["Encyclopedia","Military Coordination"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Deepening a people's bonds, by emphasizing their common origins, increases feelings of patriotism and enhances political power."
 					},
 						{
 						"name": "Line Formation",
 						"row": 7,
 						"prerequisites": ["Military Coordination","Carbine"],
-						"quote": ""
+						"quote": "Though individual soldiers may feel exposed, the firepower massed by the line formation permits devastating volleys."
 					}]
 	},
 
@@ -502,21 +472,21 @@
 						"name": "Propeller",
 						"row": 2,
 						"prerequisites": ["Steam Engine"],
-						"quote": ""
+						"quote": "Revolutionizing seafaring vessels, ships need no longer travel at the whims of wind and current."
 					},
 						{
 						"name": "Scientific Method",
 						"row": 4,
 						"prerequisites": ["Steam Engine"],
-						"quote": ""
+						"quote": "This distills thousands of years of speculation on how to discover natural truths into an instrument of razor-sharp precision."
 					},
 						{
 						"name": "Guerilla Warfare",
 						"row": 6,
 						"cost": 10250,
 						"prerequisites": ["Nationhood"],
-						"uniques": ["[-5 Happiness] [in annexed cities]", "[-5 Happiness] [in puppeted cities]"],
-						"quote": ""
+						"uniques": ["[-5 Happiness] [in annexed cities]", "[-10 Happiness] [in puppeted cities]"],
+						"quote": "Taking advantage of the lands that they know far better than invading armies, local resistance groups are trained to fight lethal hit-and-run battles."
 					}]
 	},
 
@@ -531,30 +501,29 @@
 						"name": "Mechanisation",
 						"row": 3,
 						"prerequisites": ["Scientific Method","Propeller"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "Stronger, faster, more productive! Mechanization is the dream of tomorrow, today!"
 					},
 						{
 						"name": "Microbiology",
 						"row": 4,
 						"cost": 10250,
 						"prerequisites": ["Scientific Method"],
-						"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Happiness] per [1] population [in all cities]"],
-						"quote": ""
+						"uniques": ["[20]% Food is carried over after population increases [in this city]"],
+						"quote": "With the microscopic world no longer the purview of fantasists, disease and decomposition can start to be understood."
 					},
 						{
 						"name": "Electricity",
 						"row": 5,
 						"prerequisites": ["Scientific Method", "Nationhood"],
-                				"uniques": ["[+3 Food] [in all cities] <for every [Coal]>", "[+3 Gold] [in all cities] <for every [Coal]>", "[+3 Production] [in all cities] <for every [Coal]>", "[+3 Science] [in all cities] <for every [Coal]>"],
-						"quote": ""
+                		"uniques": ["[+1 Food] [in all cities] <for every [Coal]>", "[+1 Gold] [in all cities] <for every [Coal]>", "[+1 Production] [in all cities] <for every [Coal]>", "[+1 Science] [in all cities] <for every [Coal]>"],
+						"quote": "Born in the minds of visionaries who tinkered with strange metals, even they couldn't have foreseen electricity's reach."
 					},
 						{
 						"name": "Trench Warfare",
 						"row": 7,
 						"cost": 10250,
 						"prerequisites": ["Guerilla Warfare","Line Formation"],
-						"quote": ""
+						"quote": "By digging in and building heavily fortified and interconnected positions, strategic advantage can be taken by the defender."
 					}]
 	},
 	
@@ -569,21 +538,20 @@
 						"name": "Combustion Engine",
 						"row": 3,
 						"prerequisites": ["Mechanisation"],
-                				"uniques": ["[+1] Movement <for [Embarked] units>"],
-						"quote": ""
+                		"uniques": ["[+1] Movement <for [Embarked] units>"],
+						"quote": "Finally able to create engines of a more portable size, the demand for black gold will rocket."
 					},
 						{
 						"name": "Wireless Telegraphy",
 						"row": 4,
 						"prerequisites": ["Electricity"],
-						"quote": ""
+						"quote": "The elimination of the necessity of wires for long-range communication is both magical and powerful."
 					},
 						{
 						"name": "Urban Planning",
 						"row": 5,
 						"prerequisites": ["Electricity","Microbiology"],
-                				"uniques": [""],
-						"quote": ""
+						"quote": "In the perfect city, light and space, markets and entertainments, are available for everyone to the benefit of all."
 					}]
 	},
 
@@ -597,15 +565,13 @@
 						"name": "Research Institutes",
 						"row": 1,
 						"prerequisites": ["Combustion Engine"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "To understand the deepest secrets of nature, we must empower our greatest scientists, giving them all the resources they need."
 					},
 						{
 						"name": "Aeronautics",
 						"row": 3,
 						"prerequisites": ["Combustion Engine"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Humans have always dreamed of flight. Now, with new physics, robust materials, and brave pioneers, these fantasies can come true."
 					}]
 	},
 
@@ -621,28 +587,26 @@
 						"name": "Continuous Track",
 						"row": 2,
 						"prerequisites": ["Aeronautics"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Ploughed fields, mountainsides, trench lands -- few places are out of bounds for a tracked vehicle."
 					},
 						{
 						"name": "Aerial Warfare",
 						"row": 3,
 						"prerequisites": ["Aeronautics"],
-						"quote": ""
+						"quote": "The advent of flying machines opens up an entirely new arena for battle, requiring a whole suite of new tactics."
 					},
 						{
 						"name": "Civil Engineering",
 						"row": 5,
 						"prerequisites": ["Urban Planning"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "With the scale of cities becoming immense, this discipline can ensure massive infrastructure projects become achievable."
 					},
 						{
 						"name": "Power Lines",
 						"row": 6,
 						"prerequisites": ["Urban Planning"],
-                				"uniques": ["[+3 Food] [in all cities] <for every [Aluminum]>", "[+3 Gold] [in all cities] <for every [Aluminum]>", "[+3 Production] [in all cities] <for every [Aluminum]>", "[+3 Science] [in all cities] <for every [Aluminum]>"],
-						"quote": ""
+                				"uniques": ["[+1 Food] [in all cities] <for every [Aluminum]>", "[+1 Gold] [in all cities] <for every [Aluminum]>", "[+1 Production] [in all cities] <for every [Aluminum]>", "[+1 Science] [in all cities] <for every [Aluminum]>"],
+						"quote": "Criss-crossing the land, humming with latent energy, these lines can ferry power to and from even the most inaccessible places."
 					}]
 	},
 
@@ -657,35 +621,32 @@
 						"name": "Uranium Enrichment",
 						"row": 1,
 						"prerequisites": ["Research Institutes"],
-                				"uniques": ["[+10]% [Science] [in all cities]"],
-						"quote": ""
+                		"uniques": ["[+10]% [Science] [in all cities]"],
+						"quote": "Whether for nuclear power or nuclear weapons, the natural stuff isn't concentrated enough, and enriched uranium is an essential component."
 					},
 						{
 						"name": "Radar",
 						"row": 2,
 						"prerequisites": ["Aerial Warfare", "Continuous Track"],
-						"quote": ""
+						"quote": "The battle theater of the skies is a fast moving one, and radar can help keep track of all the pieces."
 					},
 						{
 						"name": "Naval Air Strategy",
 						"row": 3,
 						"prerequisites": ["Aerial Warfare"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "The oceans are vast, unforgiving environments, and new ideas are necessary to bring aerial power into their theaters of war."
 					},
 						{
 						"name": "Free Trade Agreement",
 						"row": 4,
 						"prerequisites": ["Civil Engineering","Wireless Telegraphy"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Controlling tariffs and other restrictions on traded goods, keeps the wheels of capitalism spinning across the globe."
 					},
 						{
 						"name": "Amphibious Warfare",
 						"row": 8,
 						"prerequisites": ["Trench Warfare"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Capabilities of moving military assets between the domains of land and sea is essential for maintaining the edge in war."
 					}]
 	},
 
@@ -700,15 +661,13 @@
 						"name": "Suburbs",
 						"row": 6,
 						"prerequisites": ["Free Trade Agreement","Power Lines"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Families leave the cities to find room. This lucrative business for property developers creates challenges for urban planners, as the countryside slowly disappears."
 					},
 						{
 						"name": "Social Housing",
 						"row": 7,
 						"prerequisites": ["Power Lines"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Towering, state-managed high-rises with lower rents allow urban population densities to increase, boosting productivity but straining public services."
 					}]
 	},
 
@@ -723,36 +682,34 @@
 						"name": "Nuclear Fission",
 						"row": 1,
 						"prerequisites": ["Uranium Enrichment"],
-                				"uniques": ["[+2 Food] [in all cities] <for every [Uranium]>", "[+2 Gold] [in all cities] <for every [Uranium]>", "[+2 Production] [in all cities] <for every [Uranium]>", "[+2 Science] [in all cities] <for every [Uranium]>"],
-						"quote": ""
+                		"uniques": ["[+1 Food] [in all cities] <for every [Uranium]>", "[+1 Gold] [in all cities] <for every [Uranium]>", "[+1 Production] [in all cities] <for every [Uranium]>", "[+1 Science] [in all cities] <for every [Uranium]>"],
+						"quote": "Einstein's most famous equation governs the energy released when matter is transformed into energy -- for better or for worse."
 					},
 						{
 						"name": "Rocket Science",
 						"row": 3,
 						"prerequisites": ["Radar"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Ballistics, aerodynamics, chemistry, materials science... The space race begins, and increasingly complex calculations require increasingly brilliant minds."
 					},
 						{
 						"name": "Computing",
 						"row": 4,
 						"prerequisites": ["Naval Air Strategy", "Radar"],
-                				"uniques": ["[+1 Science] from every [Building]"],
-						"quote": ""
+                		"uniques": ["Comment [+1 [Science] from all [Science] buildings]", "[+1 Science] from every [Science] <hidden from users>"],
+						"quote": "Who knows where this invention is going to lead? It's amazing what you can do with silicon, an algorithm, and some ones and zeroes..."
 					},
 						{
 						"name": "Mechanised Harvesting",
 						"row": 6,
 						"prerequisites": ["Suburbs"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Expanding the domain of automated processes into the sphere of farming is both brutal and efficient."
 					},
 						{
 						"name": "Mass Entertainment",
 						"row": 7,
 						"prerequisites": ["Social Housing", "Suburbs"],
-                				"uniques": ["[+1 Happiness] per [1] population [in all cities]"],
-						"quote": ""
+                		"uniques": ["[+1 Happiness] [in all cities]"],
+						"quote": "Drama, spectacle, celebrity -- these are the essential ingredients to ensnare another generation, whether on the small or silver screen."
 					}]
 	},
 	{
@@ -766,37 +723,33 @@
 						"name": "Fighter Jets",
 						"row": 3,
 						"prerequisites": ["Computing","Rocket Science"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Pilots flying these incredibly expensive engineering marvels require a cool head, razor-sharp vision, and lightning reflexes."
 					},
 						{
 						"name": "Communication Satellites",
 						"row": 4,
 						"prerequisites": ["Rocket Science","Computing"],
-                				"uniques": ["Reveals the entire map"],
-						"quote": ""
+                		"uniques": ["Reveals the entire map"],
+						"quote": "The synthesis of many inventions, from wireless telegraphy to orbital mechanics, is required to launch a new era of international communications."
 					},
 						{
 						"name": "Automation",
 						"row": 5,
 						"prerequisites": ["Mechanised Harvesting", "Computing"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "By minimizing the need for human intervention, machine operations can be run around the clock by mechanical laborers."
 					},
 						{
 						"name": "Renewable Energy",
 						"row": 7,
 						"prerequisites": ["Mechanised Harvesting", "Mass Entertainment"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Why dig into the earth, despoil nature, and generate pollution when sun, wind, and waves offer a near-infinite supply of clean energy?"
 					},
 						{
 						"name": "Insurrection Theory",
 						"row": 8,
 						"cost": 14690,
 						"prerequisites": ["Amphibious Warfare"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Uprisings must be understood -- and fought -- through an unconventional perspective that uses new methods of warfare."
 					}]
 	},
 
@@ -825,7 +778,7 @@
 						"name": "World Wide Web",
 						"row": 6,
 						"prerequisites": ["Communication Satellites","Renewable Energy","Automation"],
-                				"uniques": [""],
+                				"uniques": [],
 						"quote": ""
 					}]
 	},
@@ -841,7 +794,7 @@
 						"name": "Fusion Reactor",
 						"row": 1,
 						"prerequisites": ["Nuclear Fission"],
-                				"uniques": ["[+50]% [Production] [in all cities]"],
+                				"uniques": ["[+10]% [Production] [in all cities]"],
 						"quote": ""
 					},
 						{
@@ -862,7 +815,7 @@
 						"name": "Neural Implant",
 						"row": 7,
 						"prerequisites": ["World Wide Web", "Insurrection Theory"],
-                				"uniques": ["[+10 Happiness] [in all cities]"],
+                				"uniques": ["[+10 Happiness] [in capital]"],
 						"quote": ""
 					}]
 	},
