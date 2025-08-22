@@ -607,6 +607,7 @@
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
 					"Not shown on world screen <when number of [Individualism] is more than [Collectivism]>",
+					"Not shown on world screen <when number of [Collectivism] is equal to [Individualism]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -618,6 +619,7 @@
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
 					"Not shown on world screen <when number of [Collectivism] is more than [Individualism]>",
+					"Not shown on world screen <when number of [Collectivism] is equal to [Individualism]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -629,6 +631,7 @@
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
 					"Not shown on world screen <when number of [World] is more than [Homeland]>",
+					"Not shown on world screen <when number of [World] is equal to [Homeland]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -640,6 +643,7 @@
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
 					"Not shown on world screen  <when number of [Homeland] is more than [World]>",
+					"Not shown on world screen <when number of [Homeland] is equal to [World]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -651,6 +655,7 @@
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
 					"Not shown on world screen <when number of [Authority] is more than [Liberty]>",
+					"Not shown on world screen <when number of [Liberty] is equal to [Authority]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -662,6 +667,7 @@
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
 					"Not shown on world screen <when number of [Liberty] is more than [Authority]>",
+					"Not shown on world screen <when number of [Liberty] is equal to [Authority]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -673,6 +679,7 @@
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
 					"Not shown on world screen  <when number of [Progress] is more than [Tradition]>",
+					"Not shown on world screen <when number of [Tradition] is equal to [Progress]>",
 					"Doesn't generate naturally"
 		]
     	},
@@ -684,9 +691,24 @@
 					"Stockpiled <hidden from users>",
 					"Excluded from map editor",
 					"Not shown on world screen <when number of [Tradition] is more than [Progress]>",
+					"Not shown on world screen <when number of [Tradition] is equal to [Progress]>",
 					"Doesn't generate naturally"
 		]
     	},
+
+	//Quarters
+	{
+       	 	"name": "Cooldown for Quarters",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"City-level resource",
+					"Excluded from map editor",
+					"Doesn't generate naturally"
+		]
+    	},
+	
 
 
 
