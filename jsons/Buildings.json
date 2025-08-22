@@ -9,15 +9,14 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city", "Instantly consumes [1] [Cooldown for Quarters] <upon turn end> <when number of [Cooldown for Quarters] is more than [0]>"]
 	},
 	{
 		"name": "Researcher Hub",
 		"hurryCostModifier": 25,
 		"cost": 1,
 		"specialistSlots": {"Researcher": 3},
-		"uniques": ["Never destroyed when the city is captured", "Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased",
-					"Instantly consumes [1] [Cooldown for Quarters] <upon turn end> <when number of [Cooldown for Quarters] is more than [0]> <in this city>"],
+		"uniques": ["Never destroyed when the city is captured", "Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased"],
 	},
 	{
 		"name": "Farmers Hub",
@@ -45,14 +44,14 @@
 		"hurryCostModifier": 25,
 		"cost": 20,
 		"uniques": ["[+1 Food] from [Jungle] tiles [in this city]", "[+1 Food] from [Forest] tiles [in this city]","[+1 Food] from [Tundra] tiles [in this city]",
-					"Instantly provides [5] [Cooldown for Quarters] <in this city> <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
 				"Cannot be purchased","Cost increases by [10] when built", "Quarter"],
 	},
 	{
 		"name": "Farmers Quarter",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Grassland] tiles [in this city]", "[+1 Food] from [Plains] tiles [in this city]",
-					"Instantly provides [5] [Cooldown for Quarters] <in this city> <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>",  
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>",  
 				"Cannot be purchased","Cost increases by [10] when built", "Quarter"],
 		"requiredTech": "Agriculture"
 	},
@@ -60,7 +59,7 @@
 		"name": "Sheperds Quarter",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Grassland] tiles [in this city]", "[+1 Production] from [Plains] tiles [in this city]",
-					"Instantly provides [5] [Cooldown for Quarters] <in this city> <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
 				"Cannot be purchased","Cost increases by [10] when built", "Quarter"],
 		"requiredTech": "Domestication"
 	},
@@ -68,7 +67,7 @@
 		"name": "Market Quarter",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Gold] from [Lakes] tiles [in this city]", "[+1 Gold] from [River] tiles [in this city]","[+1 Gold] from [Oasis] tiles [in this city]",
-					"Instantly provides [5] [Cooldown for Quarters] <in this city> <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
 				"Cannot be purchased","Cost increases by [10] when built", "Quarter"],
 		"requiredTech": "Writing"
 	},
@@ -76,7 +75,7 @@
 		"name": "Makers Quarter",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]", "[+1 Production] from [Hill] tiles [in this city]","[+1 Production] from [Atoll] tiles [in this city]",
-					"Instantly provides [5] [Cooldown for Quarters] <in this city> <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
 				"Cannot be purchased","Cost increases by [10] when built", "Quarter"],
 		"requiredTech": "Carpentry"
 	},
@@ -84,7 +83,7 @@
 		"name": "Fishers Quarter",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Coast] tiles [in this city]", "[+1 Gold] from [Coast] tiles [in this city]","Must be next to [Coast]",
-					"Instantly provides [5] [Cooldown for Quarters] <in this city> <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
 				"Cannot be purchased","Cost increases by [10] when built", "Quarter"],
 		"requiredTech": "Fishing"
 	},
@@ -99,7 +98,6 @@
 		"name": "Animal Barn",
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
-		"food": 1,
 		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Domestication"
@@ -127,7 +125,6 @@
 	{
 		"name": "Forge",
 		"hurryCostModifier": 25,
-		"production": 2,
 		"uniques": ["[+1 Production] from every [{improved} {Copper}] <in this city>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
@@ -167,7 +164,6 @@
 	{
 		"name": "Fishery",
 		"hurryCostModifier": 25,
-		"food": 2,
 		"uniques": ["[+1 Food] from [{improved} {Water resource}] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"maintenance": 1,
@@ -176,7 +172,6 @@
 	{
 		"name": "Fishmonger",
 		"hurryCostModifier": 25,
-		"gold": 2,
 		"uniques": ["[+1 Gold] from [{improved} {Water resource}] tiles [in this city]",
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Sailing"
@@ -201,7 +196,7 @@
 	},
 	{
 		"name": "Pottery Workshop",
-		"culture": 4,
+		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
@@ -365,7 +360,7 @@
 		"name": "Researchers Quarter",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Mountain] tiles [in this city]", "[+1 Gold, +1 Food] from [Ocean] tiles [in this city]",
-					"Instantly provides [5] [Cooldown for Quarters] <in this city> <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>",
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>",
 				"Cannot be purchased","Cost increases by [10] when built", "Quarter"],
 		"requiredTech": "Philosophy"
 	},
@@ -373,7 +368,7 @@
 		"name": "Commons Quarter",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Happiness] from [Natural Wonder] tiles [in this city]",
-					"Instantly provides [5] [Cooldown for Quarters] <in this city> <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]>", 
 				"Cannot be purchased","Cost increases by [10] when built", "Quarter"],
 		"requiredTech": "Imperial Power"
 	},
