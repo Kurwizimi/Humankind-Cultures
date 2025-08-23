@@ -1,4 +1,33 @@
 All the following are from [the Noun Project](https://thenounproject.com) licenced under either Creative Commons or Public Domain
+
+
+**Resources**
+- Coodlown for Quarters - Time by Trident from <a href="https://thenounproject.com/browse/icons/term/time/" target="_blank" title="Time Icons">Noun Project</a> (CC BY 3.0)
+- Progress - increase by Larea from <a href="https://thenounproject.com/browse/icons/term/increase/" target="_blank" title="increase Icons">Noun Project</a> (CC BY 3.0)
+- Tradition - diya by Cahya Kurniawan from <a href="https://thenounproject.com/browse/icons/term/diya/" target="_blank" title="diya Icons">Noun Project</a> (CC BY 3.0)
+- Authority - Gavel by hazicon from <a href="https://thenounproject.com/browse/icons/term/gavel/" target="_blank" title="Gavel Icons">Noun Project</a> (CC BY 3.0)
+- Liberty - Bird by Valeriy from <a href="https://thenounproject.com/browse/icons/term/bird/" target="_blank" title="Bird Icons">Noun Project</a> (CC BY 3.0)
+- Homeland - Flag by Mrfa Studio from <a href="https://thenounproject.com/browse/icons/term/flag/" target="_blank" title="Flag Icons">Noun Project</a> (CC BY 3.0)
+- World - world by Icon Designer from <a href="https://thenounproject.com/browse/icons/term/world/" target="_blank" title="world Icons">Noun Project</a> (CC BY 3.0)
+- Collectivism - people by I Putu Dicky Adi Pranatha from <a href="https://thenounproject.com/browse/icons/term/people/" target="_blank" title="people Icons">Noun Project</a> (CC BY 3.0)
+- Individualism - people by I Putu Dicky Adi Pranatha from <a href="https://thenounproject.com/browse/icons/term/people/" target="_blank" title="people Icons">Noun Project</a> (CC BY 3.0)
+
+- Weapons - Gun by Eugene Dobrik from <a href="https://thenounproject.com/browse/icons/term/gun/" target="_blank" title="Gun Icons">Noun Project</a> (CC BY 3.0)
+- Pharmaceuticals - Pharmaceutical Drugs by WEBTECHOPS LLP from <a href="https://thenounproject.com/browse/icons/term/pharmaceutical-drugs/" target="_blank" title="Pharmaceutical Drugs Icons">Noun Project</a> (CC BY 3.0)
+- Salted Beef - Pharmaceutical Drugs by WEBTECHOPS LLP from <a href="https://thenounproject.com/browse/icons/term/pharmaceutical-drugs/" target="_blank" title="Pharmaceutical Drugs Icons">Noun Project</a> (CC BY 3.0)
+- Paper - Paper by Isaac haq from <a href="https://thenounproject.com/browse/icons/term/paper/" target="_blank" title="Paper Icons">Noun Project</a> (CC BY 3.0)
+
+- Mercury - Paper by Isaac haq from <a href="https://thenounproject.com/browse/icons/term/paper/" target="_blank" title="Paper Icons">Noun Project</a> (CC BY 3.0)
+- Papyrus - papyrus tree by alimasykurm from <a href="https://thenounproject.com/browse/icons/term/papyrus-tree/" target="_blank" title="papyrus tree Icons">Noun Project</a> (CC BY 3.0)
+- Ambergis - Whale by BnB Studio from <a href="https://thenounproject.com/browse/icons/term/whale/" target="_blank" title="Whale Icons">Noun Project</a> (CC BY 3.0)
+- Obsidian - obsidian by Arbaz Khan from <a href="https://thenounproject.com/browse/icons/term/obsidian/" target="_blank" title="obsidian Icons">Noun Project</a> (CC BY 3.0)
+- Ebony - ebony tree by Marz Gallery from <a href="https://thenounproject.com/browse/icons/term/ebony-tree/" target="_blank" title="ebony tree Icons">Noun Project</a> (CC BY 3.0)
+- Saffron - saffron by Soorya Tee from <a href="https://thenounproject.com/browse/icons/term/saffron/" target="_blank" title="saffron Icons">Noun Project</a> (CC BY 3.0)
+- Coffee - Coffee by zoro marimo from <a href="https://thenounproject.com/browse/icons/term/coffee/" target="_blank" title="Coffee Icons">Noun Project</a> (CC BY 3.0)
+- Sage - sage by Lars Meiertoberens from <a href="https://thenounproject.com/browse/icons/term/sage/" target="_blank" title="sage Icons">Noun Project</a> (CC BY 3.0)
+
+
+
 **BUILDINGS**
 
 Ancient
@@ -75,6 +104,7 @@ Contemporary
 * Moon Lander - landing by iconixar from <a href="https://thenounproject.com/browse/icons/term/landing/" target="_blank" title="landing Icons">Noun Project</a> (CC BY 3.0)
 * Mars Colony - Mars by Agan24 from <a href="https://thenounproject.com/browse/icons/term/mars/" target="_blank" title="Mars Icons">Noun Project</a> (CC BY 3.0)
 
+
 **Units**
 * Tribe - Native Man by Gan Khoon Lay from <a href="https://thenounproject.com/browse/icons/term/native-man/" target="_blank" title="Native Man Icons">Noun Project</a> (CC BY 3.0)
 * Scout Rider - horse racing by Gan Khoon Lay from <a href="https://thenounproject.com/browse/icons/term/horse-racing/" target="_blank" title="horse racing Icons">Noun Project</a> (CC BY 3.0)
@@ -109,7 +139,6 @@ Contemporary
 * Thermonuclear Missile - missile by Singlar from <a href="https://thenounproject.com/browse/icons/term/missile/" target="_blank" title="missile Icons">Noun Project</a> (CC BY 3.0)
 * Deisel Submarine - Submarine by IconInnovate from <a href="https://thenounproject.com/browse/icons/term/submarine/" target="_blank" title="Submarine Icons">Noun Project</a> (CC BY 3.0)
 * Nuclear Submarine - Submarine by Luke Anthony Firth from <a href="https://thenounproject.com/browse/icons/term/submarine/" target="_blank" title="Submarine Icons">Noun Project</a> (CC BY 3.0)
-
 
 
 **Policies**
