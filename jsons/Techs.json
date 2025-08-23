@@ -764,22 +764,19 @@
 						"name": "Composite Armour",
 						"row": 2,
 						"prerequisites": ["Fighter Jets"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Materials science can do wonders for battlefield armors. The invention of multi-layered, lighter systems greatly increases the survivability of military vehicles."
 					},
 						{
 						"name": "Covert Ops",
 						"row": 4,
 						"prerequisites": ["Communication Satellites","Automation"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "A different type of force projection for a new era, these secretive, state-sanctioned military operations are kept hidden from the public eye."
 					},
 						{
 						"name": "World Wide Web",
 						"row": 6,
 						"prerequisites": ["Communication Satellites","Renewable Energy","Automation"],
-                				"uniques": [],
-						"quote": ""
+						"quote": "Born of efforts to share scientific data, the web is a mirror to humankind's best and worst impulses."
 					}]
 	},
 
@@ -794,29 +791,29 @@
 						"name": "Fusion Reactor",
 						"row": 1,
 						"prerequisites": ["Nuclear Fission"],
-                				"uniques": ["[+10]% [Production] [in all cities]"],
-						"quote": ""
+                		"uniques": ["[+10]% [Production] [in all cities]"],
+						"quote": "Harnessing the power of stars is no easy feat, but securing this technology will bring unlimited energy and near-unlimited renown."
 					},
 						{
 						"name": "Exosuit",
 						"row": 3,
 						"prerequisites": ["Composite Armour"],
-                				"uniques": ["[+20]% Strength <for [Land] units>"],
-						"quote": ""
+                		"uniques": ["[+20]% Strength <for [Land] units>"],
+						"quote": "Magnetics, hydraulics, and miniaturization can turn an average recruit into stronger, more effective battlefield presence."
 					},
 						{
 						"name": "Military Laser",
 						"row": 5,
 						"prerequisites": ["Covert Ops"],
-                				"uniques": ["[+50]% Strength <for [Air] units>"],
-						"quote": ""
+                		"uniques": ["[+50]% Strength <for [Air] units>"],
+						"quote": "The militarization of the 'final frontier' has come at last, as space-based platforms are built to extend or impose the exercise of power."
 					},
 						{
 						"name": "Neural Implant",
 						"row": 7,
 						"prerequisites": ["World Wide Web", "Insurrection Theory"],
-                				"uniques": ["[+10 Happiness] [in capital]"],
-						"quote": ""
+                		"uniques": ["[+10 Happiness] [in capital]"],
+						"quote": "Linking the networked world ever more intimately with the human brain, these devices increase the capacity of humankind to think, dream, and achieve."
 					}]
 	},
 
