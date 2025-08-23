@@ -175,3 +175,27 @@ Early Modern
 * Independent Artists - Art by Manohara from <a href="https://thenounproject.com/browse/icons/term/art/" target="_blank" title="Art Icons">Noun Project</a> (CC BY 3.0)
 * Seize Resources - Fist Pounding by Luis Prado from <a href="https://thenounproject.com/browse/icons/term/fist-pounding/" target="_blank" title="Fist Pounding Icons">Noun Project</a> (CC BY 3.0)
 * Trade Resources - trading by Sunardi from <a href="https://thenounproject.com/browse/icons/term/trading/" target="_blank" title="trading Icons">Noun Project</a> (CC BY 3.0)
+
+Industrial
+* Anti-Imperialist - destroy colonialism by geoffreydorne from <a href="https://thenounproject.com/browse/icons/term/destroy-colonialism/" target="_blank" title="destroy colonialism Icons">Noun Project</a> (CC BY 3.0)
+* Imperialist - sage by Lars Meiertoberens from <a href="https://thenounproject.com/browse/icons/term/sage/" target="_blank" title="sage Icons">Noun Project</a> (CC BY 3.0)
+* State Atheism - https://thenounproject.com/icon/atheism-3741/
+* Literalism - Book by ArashDesign from <a href="https://thenounproject.com/browse/icons/term/book/" target="_blank" title="Book Icons">Noun Project</a> (CC BY 3.0)
+* Compatabilism - Earth by naomi argi from <a href="https://thenounproject.com/browse/icons/term/earth/" target="_blank" title="Earth Icons">Noun Project</a> (CC BY 3.0)
+* Freedom of Speech - speech by Random Panda from <a href="https://thenounproject.com/browse/icons/term/speech/" target="_blank" title="speech Icons">Noun Project</a> (CC BY 3.0)
+* Propaganda - Poster by metami septiana from <a href="https://thenounproject.com/browse/icons/term/poster/" target="_blank" title="Poster Icons">Noun Project</a> (CC BY 3.0)
+* Isolationism - isolation by Dirk-Pieter van Walsum from <a href="https://thenounproject.com/browse/icons/term/isolation/" target="_blank" title="isolation Icons">Noun Project</a> (CC BY 3.0)
+* Globalism - global by omeneko from <a href="https://thenounproject.com/browse/icons/term/global/" target="_blank" title="global Icons">Noun Project</a> (CC BY 3.0)
+* Privitised industries - Capital by krisna arga muria from <a href="https://thenounproject.com/browse/icons/term/capital/" target="_blank" title="Capital Icons">Noun Project</a> (CC BY 3.0)
+* Nationalised Industries - Capital by HDM from <a href="https://thenounproject.com/browse/icons/term/capital/" target="_blank" title="Capital Icons">Noun Project</a> (CC BY 3.0)
+* Child Education - education by Creative Stall from <a href="https://thenounproject.com/browse/icons/term/education/" target="_blank" title="education Icons">Noun Project</a> (CC BY 3.0)
+* Child Employment - Mine by Arjuna Ilham from <a href="https://thenounproject.com/browse/icons/term/mine/" target="_blank" title="Mine Icons">Noun Project</a> (CC BY 3.0)
+
+Contemporary
+* Denunciation - commit by Gan Khoon Lay from <a href="https://thenounproject.com/browse/icons/term/commit/" target="_blank" title="commit Icons">Noun Project</a> (CC BY 3.0)
+* Nuclear Proliferation - Nuclear by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/nuclear/" target="_blank" title="Nuclear Icons">Noun Project</a> (CC BY 3.0)
+* Nuclear Disarmament - Peace by Adrien Coquet from <a href="https://thenounproject.com/browse/icons/term/peace/" target="_blank" title="Peace Icons">Noun Project</a> (CC BY 3.0)
+* Cultural Respect - respect by Syaiful Khotam from <a href="https://thenounproject.com/browse/icons/term/respect/" target="_blank" title="respect Icons">Noun Project</a> (CC BY 3.0)
+* Cultural Eradication - Delete Comment by Gregor Cresnar from <a href="https://thenounproject.com/browse/icons/term/delete-comment/" target="_blank" title="Delete Comment Icons">Noun Project</a> (CC BY 3.0)
+* Profit-focused - Money by Icon Queen from <a href="https://thenounproject.com/browse/icons/term/money/" target="_blank" title="Money Icons">Noun Project</a> (CC BY 3.0)
+* Workers Rights - legal rights by Dewi Novita Sari from <a href="https://thenounproject.com/browse/icons/term/legal-rights/" target="_blank" title="legal rights Icons">Noun Project</a> (CC BY 3.0)
