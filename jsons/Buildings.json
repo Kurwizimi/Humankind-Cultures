@@ -9,35 +9,83 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city", "Instantly consumes [1] [Cooldown for Quarters] <upon turn end> <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>"]
 	},
 	{
 		"name": "Researcher Hub",
 		"hurryCostModifier": 25,
 		"cost": 1,
 		"specialistSlots": {"Researcher": 3},
-		"uniques": ["Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased"],
+		"uniques": ["Never destroyed when the city is captured", "Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased"],
 	},
 	{
 		"name": "Farmers Hub",
 		"hurryCostModifier": 25,
 		"cost": 1,
 		"specialistSlots": {"Farmer": 3},
-		"uniques": ["Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased"],
+		"uniques": ["Never destroyed when the city is captured", "Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased"],
 	},
 	{
 		"name": "Engineers Hub",
 		"hurryCostModifier": 25,
 		"cost": 1,
 		"specialistSlots": {"Engineer": 3},
-		"uniques": ["Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased"],
+		"uniques": ["Never destroyed when the city is captured", "Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased"],
 	},
 	{
 		"name": "Trader Hub",
 		"hurryCostModifier": 25,
 		"cost": 1,
 		"specialistSlots": {"Trader": 3},
-		"uniques": ["Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased"],
+		"uniques": ["Never destroyed when the city is captured", "Automatically built in all cities where it is buildable","Unsellable", "Will not be displayed in Civilopedia","Cannot be purchased"],
+	},
+	{
+		"name": "Hunters Quarter",
+		"hurryCostModifier": 25,
+		"cost": 20,
+		"uniques": ["[+1 Food] from [Jungle] tiles [in this city]", "[+1 Food] from [Forest] tiles [in this city]","[+1 Food] from [Tundra] tiles [in this city]",
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>", 
+				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
+	},
+	{
+		"name": "Farmers Quarter",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Grassland] tiles [in this city]", "[+1 Food] from [Plains] tiles [in this city]",
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>",  
+				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "Sheperds Quarter",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Grassland] tiles [in this city]", "[+1 Production] from [Plains] tiles [in this city]",
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>", 
+				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
+		"requiredTech": "Domestication"
+	},
+	{
+		"name": "Market Quarter",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold] from [Lakes] tiles [in this city]", "[+1 Gold] from [River] tiles [in this city]","[+1 Gold] from [Oasis] tiles [in this city]",
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>", 
+				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Makers Quarter",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]", "[+1 Production] from [Hill] tiles [in this city]","[+1 Production] from [Atoll] tiles [in this city]",
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>", 
+				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
+		"requiredTech": "Carpentry"
+	},
+	{
+		"name": "Fishers Quarter",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Coast] tiles [in this city]", "[+1 Gold] from [Coast] tiles [in this city]","Must be next to [Coast]",
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>", 
+				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
+		"requiredTech": "Fishing"
 	},
 	{
 		"name": "Shrine",
@@ -50,7 +98,6 @@
 		"name": "Animal Barn",
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
-		"food": 1,
 		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Domestication"
@@ -78,7 +125,6 @@
 	{
 		"name": "Forge",
 		"hurryCostModifier": 25,
-		"production": 2,
 		"uniques": ["[+1 Production] from every [{improved} {Copper}] <in this city>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
@@ -118,7 +164,6 @@
 	{
 		"name": "Fishery",
 		"hurryCostModifier": 25,
-		"food": 2,
 		"uniques": ["[+1 Food] from [{improved} {Water resource}] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"maintenance": 1,
@@ -127,7 +172,6 @@
 	{
 		"name": "Fishmonger",
 		"hurryCostModifier": 25,
-		"gold": 2,
 		"uniques": ["[+1 Gold] from [{improved} {Water resource}] tiles [in this city]",
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Sailing"
@@ -152,7 +196,7 @@
 	},
 	{
 		"name": "Pottery Workshop",
-		"culture": 4,
+		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
@@ -313,6 +357,22 @@
 
 	//CLASSICAL
 	{
+		"name": "Researchers Quarter",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Mountain] tiles [in this city]", "[+1 Gold, +1 Food] from [Ocean] tiles [in this city]",
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>",
+				"Cannot be purchased","Cost increases by [25] when built", "Quarter"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Commons Quarter",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness] from [Natural Wonder] tiles [in this city]",
+					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>", 
+				"Cannot be purchased","Cost increases by [25] when built", "Quarter"],
+		"requiredTech": "Imperial Power"
+	},
+	{
 		"name": "Temple",
 		"faith": 2,
 		"requiredBuilding": "Shrine",
@@ -332,7 +392,7 @@
 	{
 		"name": "Artificial Reservoir",
 		"hurryCostModifier": 25,
-		"food": 4,
+		"food": 3,
 		"uniques": ["Must be on [River]"],
 		"maintenance": 2,
 		"requiredBuilding": "Flood Irrigation",
@@ -341,7 +401,6 @@
 	{
 		"name": "Charcoal Kiln",
 		"hurryCostModifier": 25,
-		"production": 2, 
 		"uniques": ["[+1 Production] from [{improved} {Copper}] tiles [in this city]"],
 		"requiredBuilding": "Forge",
 		"requiredTech": "Craftsmanship"
@@ -378,14 +437,14 @@
 		"name": "School",
 		"hurryCostModifier": 25,
 		"science": 2,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
+		//"uniques": ["[+1 Science] per [2] population [in this city]"], Not Needed?//
 		"maintenance": 1,
 		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Library",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"maintenance": 2,
 		"requiredTech": "Rhetoric"
 	},
@@ -401,7 +460,7 @@
 	},
 	{
 		"name": "Theatre",
-		"culture": 4,
+		"culture": 3,
 		"hurryCostModifier": 40,
 		"requiredTech": "Rhetoric"
 	},
@@ -617,7 +676,6 @@
 	{
 		"name": "High Furnace",
 		"hurryCostModifier": 25,
-		"production": 2,
 		"uniques": ["[+1 Production] from [{improved} {Iron}] tiles [in this city]"],
 		"requiredBuilding": "Charcoal Kiln",
 		"requiredTech": "Furnace Steel"
@@ -647,7 +705,7 @@
 	{
 		"name": "Great Fishmarket",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from each Trade Route",
+		"uniques": ["[+1 Gold] from each Trade Route",
 			"[+1 Gold] from [{improved} {Water resource}] tiles [in this city]", "Must be next to [Coast]"],
 		"requiredBuilding": "Fishmonger",
 		"requiredTech": "Seafaring Mastery"
@@ -890,8 +948,7 @@
 	{
 		"name": "Taxation Office",
 		"hurryCostModifier": 25,
-		"gold": 5,
-		"uniques": ["[+1 Gold] from [{improved} {Luxury resource}] tiles [in this city]"],
+		"uniques": ["[+2 Gold] from [{improved} {Luxury resource}] tiles [in this city]"],
 		"requiredBuilding": "Levy Administration",
 		"requiredTech": "Centralised Power"
 	},
@@ -912,7 +969,7 @@
 	},
 	{
 		"name": "Printing House",
-		"specialistSlots": {"Researcher": 3},
+		"specialistSlots": {"Researcher": 2},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] from every [Researcher] <in this city>"],
 		"maintenance": 1,
@@ -923,7 +980,7 @@
 		"name": "University",
 		"hurryCostModifier": 25,
 		"science": 4,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
+		//"uniques": ["[+1 Science] per [2] population [in this city]"],  Not Needed?//
 		"maintenance": 1,
 		"requiredBuilding": "School",
 		"requiredTech": "Moveable Typeface"
@@ -931,7 +988,7 @@
 	{
 		"name": "Cabinet of Curiosities",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"maintenance": 2,
 		"requiredBuilding": "Library",
 		"requiredTech": "Chartered Companies"
@@ -1160,7 +1217,6 @@
 	{
 		"name": "Coal Plant",
 		"hurryCostModifier": 25,
-		"production": 3,
 		"uniques": ["[+1 Production] from [{improved} {Coal}] tiles [in this city]"],// ++ Pollution
 		"maintenance": 1,
 		"requiredBuilding": "High Furnace",
@@ -1202,8 +1258,8 @@
 	{
 		"name": "Academy",
 		"hurryCostModifier": 25,
-		"science": 4,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],//Not Needed?
+		"science": 5,
+		//"uniques": ["[+1 Science] per [2] population [in this city]"],  Not Needed?//
 		"maintenance": 1,
 		"requiredBuilding": "University",
 		"requiredTech": "Encyclopedia"
@@ -1211,9 +1267,8 @@
 	{
 		"name": "Whale Fishing",
 		"hurryCostModifier": 25,
-		"food": 2,
 		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+1 Food] from [ {unimproved} {Coast} ] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Fishery",
 		"requiredTech": "Propeller"
@@ -1221,7 +1276,6 @@
 	{
 		"name": "Seafood Wholesalers",
 		"hurryCostModifier": 25,
-		"gold": 3,
 		"uniques": ["[+1 Gold] from each Trade Route",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Great Fishmarket",
@@ -1423,7 +1477,6 @@
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"specialistSlots": {"Farmer": 2},
-		"food": 3,
 		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",
 			"Destroyed when the city is captured"],//++ Pollution
 		"maintenance": 2,
@@ -1464,7 +1517,7 @@
 	},
 	{
 		"name": "Automated Factory",
-		"specialistSlots": {"Engineer": 3},
+		"specialistSlots": {"Engineer": 2},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from every [Engineer] <in this city>"], //++ Pollution
 		"maintenance": 2,
@@ -1504,7 +1557,6 @@
 		"name": "Food Plaza",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 10},
-		"gold": 5,
 		"requiredBuilding": "Food Market",
 		"requiredTech": "Suburbs"
 	},
@@ -1512,14 +1564,14 @@
 		"name": "Financial District",
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 15},
-		"gold": 5,
 		"uniques": ["[+1 Gold] from [{improved} {Oil}] tiles [in all cities]"], //++ Pollutiuon
+		"maintenance": 5,
 		"requiredBuilding": "Bank",
 		"requiredTech": "Free Trade Agreement"
 	},
 	{
 		"name": "Tech Park",
-		"specialistSlots": {"Researcher": 3},
+		"specialistSlots": {"Researcher": 2},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] from every [Researcher] <in this city>",
 			"[+1]% [Science] [in this city] <for every [Aluminum]>"], //++ Pollution
@@ -1530,7 +1582,7 @@
 	{
 		"name": "Museum",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"maintenance": 2,
 		"requiredBuilding": "Cabinet of Curiosities",
 		"requiredTech": "Mass Entertainment"
@@ -1548,7 +1600,7 @@
 		"hurryCostModifier": 25,
 		"food": 2,
 		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+1 Food] from [ {improved} {Coast} ] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Whale Fishing",
 		"requiredTech": "Mechanised Harvesting"
@@ -1585,7 +1637,7 @@
 	{
 		"name": "Sewage Treatment Plant",
 		"happiness": 4,
-		"maintenance": 4,
+		"maintenance": 5,
 		"requiredBuilding": "Aqueduct",
 		"requiredTech": "Social Housing"
 	},

@@ -336,7 +336,7 @@
         	"name": "Great Obelisk",
        	 	"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
         	"faith": 3,
-		"gold": 3,
+			"gold": 3,
         	"turnsToBuild": 7,
         	"techRequired": "Conquest",
         	"uniques": [ "Only available <with [0] to [0] neighboring [Great Obelisk] tiles>", "Emblematic District",
@@ -406,7 +406,7 @@
         	"culture": 3,
         	"turnsToBuild": 7,
        	 	"uniques": [ "[+1 Faith] for each adjacent [Farm]", "Gives a defensive bonus of [15]%",
-			"Emblematic District", "Only available <if [The Edo] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+			"Emblematic District", "Only available <if [The Teutons] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"techRequired": "Theology",
         	"shortcutKey": "T"
     	},
@@ -494,7 +494,7 @@
 		"production": 1,
         	"turnsToBuild": 7,
         	"techRequired": "Line Formation",
-        	"uniques": ["Gives a defensive bonus of [60]%", "Only available <if [The Mexicans] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
+        	"uniques": ["Gives a defensive bonus of [60]%", "Only available <if [The Ethiopians] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "A"
    	 },
 	//Hawaiian
@@ -552,7 +552,7 @@
 		"science": 1,
         	"turnsToBuild": 7,
         	"techRequired": "Suburbs",
-        	"uniques": ["[+2 Science, +1 Culture] for each adjacent [Snow]", "[+1 Culture] for each adjacent [Tundra]","Only available <with [0] to [0] neighboring [Polar Base] tiles>",
+        	"uniques": ["[+2 Science, +1 Culture] for each adjacent [Snow]", "[+1 Culture] for each adjacent [Tundra]",
 			"Emblematic District", "Only available <if [The New Zealanders] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "P"
    	 },

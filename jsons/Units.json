@@ -31,7 +31,8 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 45,
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit",
+					"Unavailable <if [The Bantu] is constructed>","Unavailable <if [The Harappans] is constructed>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -58,7 +59,8 @@
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects",
 			"Can upgrade to [Shotelai] <if [The Aksumites] is constructed>", "Can upgrade to [Gaesati] <if [The Celts] is constructed>", "Can upgrade to [Headhunter] <if [The Nazca] is constructed>"
-			, "Can upgrade to [Praetorian Guard] <if [The Romans] is constructed>"],
+			, "Can upgrade to [Praetorian Guard] <if [The Romans] is constructed>",
+			"Unavailable <if [The Mycenaeans] is constructed>"],
 		"attackSound": "nonmetalhit",
 	},
 	{
@@ -70,7 +72,8 @@
 		"cost": 90,
 		"requiredTech": "Carpentry",
 		"uniques" : ["Can upgrade to [Lián nŭ bīng] <if [The Han] is constructed>","Can upgrade to [Noble Javelineer] <if [The Maya] is constructed>",
-			"Can upgrade to [Longbowman] <if [The English] is constructed>"],
+			"Can upgrade to [Longbowman] <if [The English] is constructed>",
+			"Unavailable <if [The Nubians] is constructed>"],
 		"obsoleteTech": "War Summons",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -85,7 +88,8 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Horseman",
 		"obsoleteTech": "Mounted Warfare",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+					"Unavailable <if [The Assyrians] is constructed>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -99,7 +103,8 @@
 		"obsoleteTech": "War Summons",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>",
-			"Can upgrade to [Immortal] <if [The Achaemenids] is constructed>", "Can upgrade to [Hoplite] <if [The Greeks] is constructed>"],
+			"Can upgrade to [Immortal] <if [The Achaemenids] is constructed>", "Can upgrade to [Hoplite] <if [The Greeks] is constructed>",
+			"Unavailable <if [The Babylonians] is constructed>", "Unavailable <if [The Sumerians] is constructed>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -113,7 +118,8 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Consumes [1] [Copper]", "Consumes [1] [Horses]",
 			"Can upgrade to [War Elephant] <if [The Carthaginians] is constructed>", "Can upgrade to [Javelin Rider] <if [The Garamantes] is constructed>", "Can upgrade to [Gothic Cavalry] <if [The Goths] is constructed>",
-			 "Can upgrade to [Hunnic Horde] <if [The Huns] is constructed>", "Can upgrade to [Saṃnāhya] <if [The Mauryans] is constructed>"],
+			 "Can upgrade to [Hunnic Horde] <if [The Huns] is constructed>", "Can upgrade to [Saṃnāhya] <if [The Mauryans] is constructed>",
+			"Unavailable <if [The Egyptians] is constructed>", "Unavailable <if [The Hittites] is constructed>", "Unavailable <if [The Zhou] is constructed>"],
 		"attackSound": "horse"
 	},
 	{
@@ -135,7 +141,8 @@
 		"strength": 27,
 		"cost": 90,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles",
+				"Unavailable <if [The Phoenicians] is constructed>"],
 		"upgradesTo": "Quadrireme",
 		"obsoleteTech": "Foreign Outposts",
 		"attackSound": "nonmetalhit"
@@ -364,7 +371,8 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Standing Army",
 		"uniques": ["Can upgrade to [Jaguar Warrior] <if [The Mexica] is constructed>", "Can upgrade to [Varangian Guard] <if [The Byzantines] is constructed>", "Can upgrade to [Cahokia Raider] <if [The Mississippians] is constructed>",
-			"Can upgrade to [Maori Tangata] <if [The Rapa Nui] is constructed>", "Can upgrade to [Baria Hunter] <if [The Taino] is constructed>"],
+			"Can upgrade to [Maori Tangata] <if [The Rapa Nui] is constructed>", "Can upgrade to [Baria Hunter] <if [The Taino] is constructed>",
+			"Unavailable <if [The Aksumites] is constructed>", "Unavailable <if [The Celts] is constructed>", "Unavailable <if [The Nazca] is constructed>", "Unavailable <if [The Romans] is constructed>"],
 		"upgradesTo": "Great Swordsman",
 		"obsoleteTech": "Heavy Infantry",
 		"hurryCostModifier": 20,
@@ -383,7 +391,8 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
 			"Can upgrade to [Bagaturi] <if [The Bulgarians] is constructed>", "Can upgrade to [Franci Milites] <if [The Franks] is constructed>", "Can upgrade to [Meharist] <if [The Ghanaians] is constructed>",
 			"Can upgrade to [Dhanvī-gaja] <if [The Khmer] is constructed>", "Can upgrade to [Mongol Horde] <if [The Mongols] is constructed>", "Can upgrade to [Teutonic Knight] <if [The Teutons] is constructed>",
-			"Can upgrade to [Haras] <if [The Umayyads] is constructed>"],
+			"Can upgrade to [Haras] <if [The Umayyads] is constructed>",
+			"Unavailable <if [The Goths] is constructed>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -409,7 +418,8 @@
 		"cost": 180,
 		"requiredTech": "Foreign Outposts",
 		"uniques": ["[This Unit] takes [35] damage <upon ending a turn in a [Ocean] tile>",
-			"Can upgrade to [Langskip] <if [The Norsemen] is constructed>", "Can upgrade to [Mtepe] <if [The Swahili] is constructed>"],
+			"Can upgrade to [Langskip] <if [The Norsemen] is constructed>", "Can upgrade to [Mtepe] <if [The Swahili] is constructed>",
+			"Unavailable <if [The Polynesians] is constructed>"],
 		"upgradesTo": "Cog",
 		"obsoleteTech": "Seafaring Mastery",
 		"attackSound": "nonmetalhit"
@@ -672,7 +682,8 @@
 		"rangedStrength": 31,
 		"cost": 400,
 		"requiredTech": "War Summons",
-		"uniques": ["Can upgrade to [Maasai Morans] <if [The Maasai] is constructed>", "Can upgrade to [Rocket Cart] <if [The Ming] is constructed>", "Can upgrade to [Gajnal] <if [The Mughals] is constructed>"],
+		"uniques": ["Can upgrade to [Maasai Morans] <if [The Maasai] is constructed>", "Can upgrade to [Rocket Cart] <if [The Ming] is constructed>", "Can upgrade to [Gajnal] <if [The Mughals] is constructed>",
+			"Unavailable <if [The English] is constructed>", "Unavailable <if [The Taino] is constructed>"],
 		"upgradesTo": "Arquebusier",
 		"obsoleteTech": "Gunpowder Warfare",
 		"attackSound": "crossbow"
@@ -716,7 +727,8 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Can upgrade to [Winged Hussar] <if [The Poles] is constructed>", 
 			"Can upgrade to [Gaucho] <if [The Argentinians] is constructed>", "Can upgrade to [Oromo Cavalry] <if [The Ethiopians] is constructed>", "Can upgrade to [Cuirassiers] <if [The French] is constructed>", 
-			"Can upgrade to [Cossack] <if [The Russians] is constructed>"],
+			"Can upgrade to [Cossack] <if [The Russians] is constructed>",
+			"Unavailable <if [The Franks] is constructed>", "Unavailable <if [The Ghanaians] is constructed>", "Unavailable <if [The Khmer] is constructed>", "Unavailable <if [The Teutons] is constructed>","Unavailable <if [The Umayyads] is constructed>"],
 		"attackSound": "horse"
 	},
 	{
@@ -727,7 +739,8 @@
 		"cost": 400,
 		"requiredTech": "Heavy Infantry",
 		"uniques": ["Can upgrade to [Buccaneer] <if [The Pirates] is constructed>","Can upgrade to [Naginata Samurai] <if [The Edo] is constructed>", "Can upgrade to [Rotiskenrakehte] <if [The Pirates] is constructed>",
-			 "Can upgrade to [Sapa Inca Guard] <if [The Inca] is constructed>",  "Can upgrade to [Janissary] <if [The Ottomans] is constructed>",  "Can upgrade to [Conquistador] <if [The Spanish] is constructed>"],
+			 "Can upgrade to [Sapa Inca Guard] <if [The Inca] is constructed>",  "Can upgrade to [Janissary] <if [The Ottomans] is constructed>",  "Can upgrade to [Conquistador] <if [The Spanish] is constructed>",
+			"Unavailable <if [The Mexica] is constructed>", "Unavailable <if [The Byzantines] is constructed>", "Unavailable <if [The Mississippians] is constructed>"],
 		"upgradesTo": "Musketeer",
 		"obsoleteTech": "Flintlock",
 		"requiredResource": "Iron",
@@ -741,7 +754,8 @@
 		"cost": 400,
 		"requiredTech": "Seafaring Mastery",
 		"uniques": ["[This Unit] takes [20] damage <upon ending a turn in a [Ocean] tile>", "Can upgrade to [Sloop] <if [The Pirates] is constructed>", "Can upgrade to [Fluyt] <if [The Dutch] is constructed>",
-			"Can upgrade to [Geobukseon] <if [The Joseon] is constructed>", "Can upgrade to [Waka Taua] <if [The Maori] is constructed>", "Can upgrade to [Galleass] <if [The Venetians] is constructed>"],
+			"Can upgrade to [Geobukseon] <if [The Joseon] is constructed>", "Can upgrade to [Waka Taua] <if [The Maori] is constructed>", "Can upgrade to [Galleass] <if [The Venetians] is constructed>",
+			"Unavailable <if [The Norsemen] is constructed>", "Unavailable <if [The Swahili] is constructed>"],
 		"upgradesTo": "Carrack",
 		"obsoleteTech": "Naval Artillery",
 		"attackSound": "nonmetalhit"
@@ -1015,7 +1029,8 @@
 		"strength": 41,
 		"cost": 485,
 		"requiredTech": "Centralised Power",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can upgrade to [Howitzer]", "Can upgrade to [Impi] <if [The Zulu] is constructed>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can upgrade to [Howitzer]", "Can upgrade to [Impi] <if [The Zulu] is constructed>",
+			"Unavailable <if [The Edo] is constructed>", "Unavailable <if [The Inca] is constructed>", "Unavailable <if [The Swiss] is constructed>"],
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Line Formation",
 		"attackSound": "metalhit"
@@ -1045,7 +1060,8 @@
 		"requiredTech": "Flintlock",
 		"uniques": [ "Can upgrade to [Evidenzbureau Agent] <if [The Austro-Hungarians] is constructed>", "Can upgrade to [Redcoat] <if [The British] is constructed>", "Can upgrade to [Koa Warrior] <if [The Hawaiians] is constructed>", 
 			"Can upgrade to [Alpini] <if [The Italians] is constructed>", "Can upgrade to [Soldaderas] <if [The Mexicans] is constructed>", "Can upgrade to [Jazayerchia] <if [The Persians] is constructed>", 
-			"Can upgrade to [Highlander] <if [The Scots] is constructed>", "Can upgrade to [Impi] <if [The Zulu] is constructed>"],
+			"Can upgrade to [Highlander] <if [The Scots] is constructed>", "Can upgrade to [Impi] <if [The Zulu] is constructed>",
+			"Unavailable <if [The Pirates] is constructed>", "Unavailable <if [The Haudenosaunee] is constructed>", "Unavailable <if [The Ottomans] is constructed>", "Unavailable <if [The Spanish] is constructed>"],
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Line Formation",
 		"attackSound": "shot"
@@ -1057,6 +1073,8 @@
 		"strength": 52,
 		"cost": 970,
 		"requiredTech": "Naval Artillery",
+		"uniques": ["Unavailable <if [The Pirates] is constructed>", "Unavailable <if [The Dutch] is constructed>", "Unavailable <if [The Joseon] is constructed>", "Unavailable <if [The Maori] is constructed>",
+			"Unavailable <if [The Venetians] is constructed>"]
 		"upgradesTo": "Steam Frigate",
 		"obsoleteTech": "Propeller",
 		"attackSound": "nonmetalhit"
@@ -1363,7 +1381,8 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Armoured Personnel Carrier",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
-			"Can upgrade to [Red Army Tank] <if [The Soviets] is constructed>"],
+			"Can upgrade to [Red Army Tank] <if [The Soviets] is constructed>",
+			"Unavailable <if [The Argentinians] is constructed>", "Unavailable <if [The Ethiopians] is constructed>", "Unavailable <if [The French] is constructed>", "Unavailable <if [The Russians] is constructed>"],
 		"attackSound": "horse"
 	},
 	{
@@ -1373,6 +1392,8 @@
 		"strength": 47,
 		"cost": 1290,
 		"requiredTech": "Line Formation",
+		"uniques": ["Unavailable <if [The British] is constructed>", "Unavailable <if [The Hawaiians] is constructed>", "Unavailable <if [The Italians] is constructed>", "Unavailable <if [The Persians] is constructed>",
+			"Unavailable <if [The Scots] is constructed>"],
 		"obsoleteTech": "Amphibious Warfare",
 		"upgradesTo": "Rifles",
 		"attackSound": "shot"
@@ -1402,6 +1423,7 @@
 		"rangedStrength": 50,
 		"cost": 5155,
 		"requiredTech": "Trench Warfare",
+		"uniques": ["Unavailable <if [The Siamese] is constructed>"],
 		"obsoleteTech": "Composite Armour"
 		"upgradesTo": "Armoured Personnel Carrier",
 		"attackSound": "machinegun"
@@ -1442,7 +1464,8 @@
 		"requiredTech": "Combustion Engine",
 		"obsoleteTech": "Amphibious Warfare",
 		"upgradesTo": "Diesel Submarine",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit",
+			"Unavailable <if [The Germans] is constructed>"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -1694,7 +1717,8 @@
 		"requiredTech": "Continuous Track",
 		"requiredResource": "Oil",
 		"upgradesTo": "Main Battle Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit",
+			"Unavailable <if [The Soviets] is constructed>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1740,6 +1764,7 @@
 		"cost": 7400,
 		"requiredResource": "Oil",
 		"requiredTech": "Composite Armour",
+		"uniques": ["Unavailable <if [The Australians] is constructed>", "Unavailable <if [The Nigerians] is constructed>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1759,7 +1784,8 @@
 		"movement": 2,
 		"strength": 54,
 		"cost": 3700,
-		"uniques": ["Invisible to non-adjacent units"],
+		"uniques": ["Invisible to non-adjacent units",
+			"Unavailable <if [The Brasilians] is constructed>"],
 		"requiredTech": "Covert Ops",
 		"attackSound": "shot"
 	},
@@ -1818,7 +1844,7 @@
 		"strength": 74,
 		"cost": 14805,
 		"requiredTech": "Computing",
-		"uniques": [],//Screening
+		"uniques": ["Unavailable <if [The Swedes] is constructed>"],//Screening
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1857,7 +1883,8 @@
 		"requiredTech": "Aerial Warfare",
 		"requiredResource": "Oil",
 		"upgradesTo": "Multirole Fighter",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",  "Can upgrade to [Lightning] <if [The Americans] is constructed>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",  "Can upgrade to [Lightning] <if [The Americans] is constructed>",
+			"Unavailable <if [The Japanese] is constructed>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1884,7 +1911,8 @@
 		"cost": 14800,
 		"requiredTech": "Fighter Jets",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
+			"Unavailable <if [The Americans] is constructed>"],
 		"attackSound": "machinegun"
 	},
 	{
