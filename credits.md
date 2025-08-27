@@ -27,6 +27,17 @@ All the following are from [the Noun Project](https://thenounproject.com) licenc
 - Sage - sage by Lars Meiertoberens from <a href="https://thenounproject.com/browse/icons/term/sage/" target="_blank" title="sage Icons">Noun Project</a> (CC BY 3.0)
 
 
+**Wonders**
+* Church of Our Lady Mary of Zion - catholic by nakals from <a href="https://thenounproject.com/browse/icons/term/catholic/" target="_blank" title="catholic Icons">Noun Project</a> (CC BY 3.0)
+* Pyramid of the Sun - catholic by nakals from <a href="https://thenounproject.com/browse/icons/term/catholic/" target="_blank" title="catholic Icons">Noun Project</a> (CC BY 3.0)
+* Citadel of Alamut - cairo citadel by Atif Arshad from <a href="https://thenounproject.com/browse/icons/term/cairo-citadel/" target="_blank" title="cairo citadel Icons">Noun Project</a> (CC BY 3.0)
+* Todai-ji - kiyomizu-dera temple in kyoto by Moondried from <a href="https://thenounproject.com/browse/icons/term/kiyomizu-dera-temple-in-kyoto/" target="_blank" title="kiyomizu-dera temple in kyoto Icons">Noun Project</a> (CC BY 3.0)
+* Brussles Town Hall - brussels by Brickclay from <a href="https://thenounproject.com/browse/icons/term/brussels/" target="_blank" title="brussels Icons">Noun Project</a> (CC BY 3.0)
+* Hotel des Invalides - des invalids by Eucalyp from <a href="https://thenounproject.com/browse/icons/term/des-invalids/" target="_blank" title="des invalids Icons">Noun Project</a> (CC BY 3.0)
+* Palace of Versailles - palace of versailles by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/palace-of-versailles/" target="_blank" title="palace of versailles Icons">Noun Project</a> (CC BY 3.0)
+* Kaiserliche Werft - Ship building by Ponisih from <a href="https://thenounproject.com/browse/icons/term/ship-building/" target="_blank" title="Ship building Icons">Noun Project</a> (CC BY 3.0)
+* Maracana Stadium - stadium by Nanik haq from <a href="https://thenounproject.com/browse/icons/term/stadium/" target="_blank" title="stadium Icons">Noun Project</a> (CC BY 3.0)
+* Mauna Kea Observatory - observatory by Yoyon Pujiyono from <a href="https://thenounproject.com/browse/icons/term/observatory/" target="_blank" title="observatory Icons">Noun Project</a> (CC BY 3.0)
 
 **BUILDINGS**
 
