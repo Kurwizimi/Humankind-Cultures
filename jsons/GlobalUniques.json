@@ -10,9 +10,10 @@
         		"Rebel units may spawn <when below [-20] [Happiness]>",
         		"[-1] Sight <for [Embarked] units>",
 
-				"[-2 Happiness] from every specialist [in all cities]",
-				"[+50]% unhappiness from the number of citie>",
-				"[+50]% Unhappiness from [populationFilter] [cityFilter]",
+				"[+50]% unhappiness from the number of cities",
+				"[+50]% Unhappiness from [Population] [in all cities]",
+				"[+25]% Unhappiness from [Specialists] [in all cities]",
+				"[+1000]% Unhappiness from [Unemployed] [in all cities]",
 
 			//"[+1 Culture] [in all cities] <when above [5] [Happiness]>",//
 			//"[+2 Culture] [in all cities] <when above [10] [Happiness]>",//

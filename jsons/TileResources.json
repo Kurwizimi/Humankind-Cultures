@@ -703,7 +703,7 @@
         	"uniques": [
 					"Cannot be traded <hidden from users>",
 					"Stockpiled <hidden from users>",
-					//"City-level resource",//
+					"Not shown on world screen <when number of [Cooldown for Quarters] is equal to [0]>",
 					"Excluded from map editor",
 					"Doesn't generate naturally"
 		]

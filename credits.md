@@ -1,4 +1,44 @@
 All the following are from [the Noun Project](https://thenounproject.com) licenced under either Creative Commons or Public Domain
+
+
+**Resources**
+- Coodlown for Quarters - Time by Trident from <a href="https://thenounproject.com/browse/icons/term/time/" target="_blank" title="Time Icons">Noun Project</a> (CC BY 3.0)
+- Progress - increase by Larea from <a href="https://thenounproject.com/browse/icons/term/increase/" target="_blank" title="increase Icons">Noun Project</a> (CC BY 3.0)
+- Tradition - diya by Cahya Kurniawan from <a href="https://thenounproject.com/browse/icons/term/diya/" target="_blank" title="diya Icons">Noun Project</a> (CC BY 3.0)
+- Authority - Gavel by hazicon from <a href="https://thenounproject.com/browse/icons/term/gavel/" target="_blank" title="Gavel Icons">Noun Project</a> (CC BY 3.0)
+- Liberty - Bird by Valeriy from <a href="https://thenounproject.com/browse/icons/term/bird/" target="_blank" title="Bird Icons">Noun Project</a> (CC BY 3.0)
+- Homeland - Flag by Mrfa Studio from <a href="https://thenounproject.com/browse/icons/term/flag/" target="_blank" title="Flag Icons">Noun Project</a> (CC BY 3.0)
+- World - world by Icon Designer from <a href="https://thenounproject.com/browse/icons/term/world/" target="_blank" title="world Icons">Noun Project</a> (CC BY 3.0)
+- Collectivism - people by I Putu Dicky Adi Pranatha from <a href="https://thenounproject.com/browse/icons/term/people/" target="_blank" title="people Icons">Noun Project</a> (CC BY 3.0)
+- Individualism - people by I Putu Dicky Adi Pranatha from <a href="https://thenounproject.com/browse/icons/term/people/" target="_blank" title="people Icons">Noun Project</a> (CC BY 3.0)
+
+- Weapons - Gun by Eugene Dobrik from <a href="https://thenounproject.com/browse/icons/term/gun/" target="_blank" title="Gun Icons">Noun Project</a> (CC BY 3.0)
+- Pharmaceuticals - Pharmaceutical Drugs by WEBTECHOPS LLP from <a href="https://thenounproject.com/browse/icons/term/pharmaceutical-drugs/" target="_blank" title="Pharmaceutical Drugs Icons">Noun Project</a> (CC BY 3.0)
+- Salted Beef - Pharmaceutical Drugs by WEBTECHOPS LLP from <a href="https://thenounproject.com/browse/icons/term/pharmaceutical-drugs/" target="_blank" title="Pharmaceutical Drugs Icons">Noun Project</a> (CC BY 3.0)
+- Paper - Paper by Isaac haq from <a href="https://thenounproject.com/browse/icons/term/paper/" target="_blank" title="Paper Icons">Noun Project</a> (CC BY 3.0)
+
+- Mercury - Paper by Isaac haq from <a href="https://thenounproject.com/browse/icons/term/paper/" target="_blank" title="Paper Icons">Noun Project</a> (CC BY 3.0)
+- Papyrus - papyrus tree by alimasykurm from <a href="https://thenounproject.com/browse/icons/term/papyrus-tree/" target="_blank" title="papyrus tree Icons">Noun Project</a> (CC BY 3.0)
+- Ambergis - Whale by BnB Studio from <a href="https://thenounproject.com/browse/icons/term/whale/" target="_blank" title="Whale Icons">Noun Project</a> (CC BY 3.0)
+- Obsidian - obsidian by Arbaz Khan from <a href="https://thenounproject.com/browse/icons/term/obsidian/" target="_blank" title="obsidian Icons">Noun Project</a> (CC BY 3.0)
+- Ebony - ebony tree by Marz Gallery from <a href="https://thenounproject.com/browse/icons/term/ebony-tree/" target="_blank" title="ebony tree Icons">Noun Project</a> (CC BY 3.0)
+- Saffron - saffron by Soorya Tee from <a href="https://thenounproject.com/browse/icons/term/saffron/" target="_blank" title="saffron Icons">Noun Project</a> (CC BY 3.0)
+- Coffee - Coffee by zoro marimo from <a href="https://thenounproject.com/browse/icons/term/coffee/" target="_blank" title="Coffee Icons">Noun Project</a> (CC BY 3.0)
+- Sage - sage by Lars Meiertoberens from <a href="https://thenounproject.com/browse/icons/term/sage/" target="_blank" title="sage Icons">Noun Project</a> (CC BY 3.0)
+
+
+**Wonders**
+* Church of Our Lady Mary of Zion - catholic by nakals from <a href="https://thenounproject.com/browse/icons/term/catholic/" target="_blank" title="catholic Icons">Noun Project</a> (CC BY 3.0)
+* Pyramid of the Sun - catholic by nakals from <a href="https://thenounproject.com/browse/icons/term/catholic/" target="_blank" title="catholic Icons">Noun Project</a> (CC BY 3.0)
+* Citadel of Alamut - cairo citadel by Atif Arshad from <a href="https://thenounproject.com/browse/icons/term/cairo-citadel/" target="_blank" title="cairo citadel Icons">Noun Project</a> (CC BY 3.0)
+* Todai-ji - kiyomizu-dera temple in kyoto by Moondried from <a href="https://thenounproject.com/browse/icons/term/kiyomizu-dera-temple-in-kyoto/" target="_blank" title="kiyomizu-dera temple in kyoto Icons">Noun Project</a> (CC BY 3.0)
+* Brussles Town Hall - brussels by Brickclay from <a href="https://thenounproject.com/browse/icons/term/brussels/" target="_blank" title="brussels Icons">Noun Project</a> (CC BY 3.0)
+* Hotel des Invalides - des invalids by Eucalyp from <a href="https://thenounproject.com/browse/icons/term/des-invalids/" target="_blank" title="des invalids Icons">Noun Project</a> (CC BY 3.0)
+* Palace of Versailles - palace of versailles by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/palace-of-versailles/" target="_blank" title="palace of versailles Icons">Noun Project</a> (CC BY 3.0)
+* Kaiserliche Werft - Ship building by Ponisih from <a href="https://thenounproject.com/browse/icons/term/ship-building/" target="_blank" title="Ship building Icons">Noun Project</a> (CC BY 3.0)
+* Maracana Stadium - stadium by Nanik haq from <a href="https://thenounproject.com/browse/icons/term/stadium/" target="_blank" title="stadium Icons">Noun Project</a> (CC BY 3.0)
+* Mauna Kea Observatory - observatory by Yoyon Pujiyono from <a href="https://thenounproject.com/browse/icons/term/observatory/" target="_blank" title="observatory Icons">Noun Project</a> (CC BY 3.0)
+
 **BUILDINGS**
 
 Ancient
@@ -75,6 +115,7 @@ Contemporary
 * Moon Lander - landing by iconixar from <a href="https://thenounproject.com/browse/icons/term/landing/" target="_blank" title="landing Icons">Noun Project</a> (CC BY 3.0)
 * Mars Colony - Mars by Agan24 from <a href="https://thenounproject.com/browse/icons/term/mars/" target="_blank" title="Mars Icons">Noun Project</a> (CC BY 3.0)
 
+
 **Units**
 * Tribe - Native Man by Gan Khoon Lay from <a href="https://thenounproject.com/browse/icons/term/native-man/" target="_blank" title="Native Man Icons">Noun Project</a> (CC BY 3.0)
 * Scout Rider - horse racing by Gan Khoon Lay from <a href="https://thenounproject.com/browse/icons/term/horse-racing/" target="_blank" title="horse racing Icons">Noun Project</a> (CC BY 3.0)
@@ -109,7 +150,6 @@ Contemporary
 * Thermonuclear Missile - missile by Singlar from <a href="https://thenounproject.com/browse/icons/term/missile/" target="_blank" title="missile Icons">Noun Project</a> (CC BY 3.0)
 * Deisel Submarine - Submarine by IconInnovate from <a href="https://thenounproject.com/browse/icons/term/submarine/" target="_blank" title="Submarine Icons">Noun Project</a> (CC BY 3.0)
 * Nuclear Submarine - Submarine by Luke Anthony Firth from <a href="https://thenounproject.com/browse/icons/term/submarine/" target="_blank" title="Submarine Icons">Noun Project</a> (CC BY 3.0)
-
 
 
 **Policies**
@@ -175,3 +215,27 @@ Early Modern
 * Independent Artists - Art by Manohara from <a href="https://thenounproject.com/browse/icons/term/art/" target="_blank" title="Art Icons">Noun Project</a> (CC BY 3.0)
 * Seize Resources - Fist Pounding by Luis Prado from <a href="https://thenounproject.com/browse/icons/term/fist-pounding/" target="_blank" title="Fist Pounding Icons">Noun Project</a> (CC BY 3.0)
 * Trade Resources - trading by Sunardi from <a href="https://thenounproject.com/browse/icons/term/trading/" target="_blank" title="trading Icons">Noun Project</a> (CC BY 3.0)
+
+Industrial
+* Anti-Imperialist - destroy colonialism by geoffreydorne from <a href="https://thenounproject.com/browse/icons/term/destroy-colonialism/" target="_blank" title="destroy colonialism Icons">Noun Project</a> (CC BY 3.0)
+* Imperialist - sage by Lars Meiertoberens from <a href="https://thenounproject.com/browse/icons/term/sage/" target="_blank" title="sage Icons">Noun Project</a> (CC BY 3.0)
+* State Atheism - https://thenounproject.com/icon/atheism-3741/
+* Literalism - Book by ArashDesign from <a href="https://thenounproject.com/browse/icons/term/book/" target="_blank" title="Book Icons">Noun Project</a> (CC BY 3.0)
+* Compatabilism - Earth by naomi argi from <a href="https://thenounproject.com/browse/icons/term/earth/" target="_blank" title="Earth Icons">Noun Project</a> (CC BY 3.0)
+* Freedom of Speech - speech by Random Panda from <a href="https://thenounproject.com/browse/icons/term/speech/" target="_blank" title="speech Icons">Noun Project</a> (CC BY 3.0)
+* Propaganda - Poster by metami septiana from <a href="https://thenounproject.com/browse/icons/term/poster/" target="_blank" title="Poster Icons">Noun Project</a> (CC BY 3.0)
+* Isolationism - isolation by Dirk-Pieter van Walsum from <a href="https://thenounproject.com/browse/icons/term/isolation/" target="_blank" title="isolation Icons">Noun Project</a> (CC BY 3.0)
+* Globalism - global by omeneko from <a href="https://thenounproject.com/browse/icons/term/global/" target="_blank" title="global Icons">Noun Project</a> (CC BY 3.0)
+* Privitised industries - Capital by krisna arga muria from <a href="https://thenounproject.com/browse/icons/term/capital/" target="_blank" title="Capital Icons">Noun Project</a> (CC BY 3.0)
+* Nationalised Industries - Capital by HDM from <a href="https://thenounproject.com/browse/icons/term/capital/" target="_blank" title="Capital Icons">Noun Project</a> (CC BY 3.0)
+* Child Education - education by Creative Stall from <a href="https://thenounproject.com/browse/icons/term/education/" target="_blank" title="education Icons">Noun Project</a> (CC BY 3.0)
+* Child Employment - Mine by Arjuna Ilham from <a href="https://thenounproject.com/browse/icons/term/mine/" target="_blank" title="Mine Icons">Noun Project</a> (CC BY 3.0)
+
+Contemporary
+* Denunciation - commit by Gan Khoon Lay from <a href="https://thenounproject.com/browse/icons/term/commit/" target="_blank" title="commit Icons">Noun Project</a> (CC BY 3.0)
+* Nuclear Proliferation - Nuclear by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/nuclear/" target="_blank" title="Nuclear Icons">Noun Project</a> (CC BY 3.0)
+* Nuclear Disarmament - Peace by Adrien Coquet from <a href="https://thenounproject.com/browse/icons/term/peace/" target="_blank" title="Peace Icons">Noun Project</a> (CC BY 3.0)
+* Cultural Respect - respect by Syaiful Khotam from <a href="https://thenounproject.com/browse/icons/term/respect/" target="_blank" title="respect Icons">Noun Project</a> (CC BY 3.0)
+* Cultural Eradication - Delete Comment by Gregor Cresnar from <a href="https://thenounproject.com/browse/icons/term/delete-comment/" target="_blank" title="Delete Comment Icons">Noun Project</a> (CC BY 3.0)
+* Profit-focused - Money by Icon Queen from <a href="https://thenounproject.com/browse/icons/term/money/" target="_blank" title="Money Icons">Noun Project</a> (CC BY 3.0)
+* Workers Rights - legal rights by Dewi Novita Sari from <a href="https://thenounproject.com/browse/icons/term/legal-rights/" target="_blank" title="legal rights Icons">Noun Project</a> (CC BY 3.0)

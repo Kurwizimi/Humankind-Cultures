@@ -1268,7 +1268,7 @@
 		"name": "Whale Fishing",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]",
-			"[+1 Food] from [ {unimproved} {Coast} ] tiles [in this city]",
+			"[+1 Food] from [{unimproved} {Coast}] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Fishery",
 		"requiredTech": "Propeller"
@@ -1600,7 +1600,7 @@
 		"hurryCostModifier": 25,
 		"food": 2,
 		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]",
-			"[+1 Food] from [ {improved} {Coast} ] tiles [in this city]",
+			"[+1 Food] from [{improved} {Coast}] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"requiredBuilding": "Whale Fishing",
 		"requiredTech": "Mechanised Harvesting"
