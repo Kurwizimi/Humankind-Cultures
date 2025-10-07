@@ -11,9 +11,8 @@
         		"[-1] Sight <for [Embarked] units>",
 
 				"[+50]% unhappiness from the number of cities",
-				"[+50]% Unhappiness from [Population] [in all cities]",
 				"[+25]% Unhappiness from [Specialists] [in all cities]",
-				"[+1000]% Unhappiness from [Unemployed] [in all cities]",
+				"[+500]% Unhappiness from [Unemployed] [in all cities]",
 
 			//"[+1 Culture] [in all cities] <when above [5] [Happiness]>",//
 			//"[+2 Culture] [in all cities] <when above [10] [Happiness]>",//
