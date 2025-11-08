@@ -182,14 +182,14 @@
                         },
                             {
                             "name": "Small Council",
-                            "uniques": ["[+5]% [Food] [in all cities]", "[+5]% [Production] [in all cities]", "[+5]% [Gold] [in all cities]", "[+5]% [Science] [in all cities]","[+5]% [Culture] [in all cities]", "Instantly gain [4] [Liberty]","Adopt [Political Entitlement]",
+                            "uniques": ["[+5]% [Food] [in all cities]", "[+5]% [Production] [in all cities]", "[+5]% [Gold] [in all cities]", "[+5]% [Science] [in all cities]","[+5]% [Culture] [in all cities]", "Instantly gain [4] [Liberty]","Adopt [Political Entitlement]", "Instantly provides [2] [City Cap]",
 					"Unavailable <after adopting [Autarch]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 1
                         },
                             {
                             "name": "Autarch",
-                            "uniques": ["[+20]% [Food] [in capital]","[+20]% [Production] [in capital]","[+20]% [Gold] [in capital]","[+20]% [Science] [in capital]","[+20]% [Culture] [in capital]", "Instantly gain [4] [Authority]","Adopt [Political Influence]",
+                            "uniques": ["[+20]% [Food] [in capital]","[+20]% [Production] [in capital]","[+20]% [Gold] [in capital]","[+20]% [Science] [in capital]","[+20]% [Culture] [in capital]", "Instantly gain [4] [Authority]","Adopt [Political Influence]", "Instantly provides [2] [City Cap]",
 					"Unavailable <after adopting [Small Council]> <hidden from users>", "Political Civic"],
 			    "row": 1,
                             "column": 5
