@@ -708,6 +708,17 @@
 					"Doesn't generate naturally"
 		]
     	},
+	//City cap
+	{
+       	 	"name": "City Cap",
+        	"resourceType": "Strategic",
+        	"uniques": [
+					"Cannot be traded <hidden from users>",
+					"Stockpiled <hidden from users>",
+					"Excluded from map editor",
+					"Doesn't generate naturally"
+		]
+    	},
 	
 
 
