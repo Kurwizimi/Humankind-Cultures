@@ -50,7 +50,7 @@
 	{
 		"name": "Farmers Quarter",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Grassland] tiles [in this city]", "[+1 Food] from [Plains] tiles [in this city]",
+		"uniques": ["[+1 Food] from [{Featureless} {Grassland}] tiles [in this city]",
 					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>",  
 				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
 		"requiredTech": "Agriculture"
@@ -58,7 +58,7 @@
 	{
 		"name": "Sheperds Quarter",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Grassland] tiles [in this city]", "[+1 Production] from [Plains] tiles [in this city]",
+		"uniques": ["[+1 Production] from [{Featureless} {Plains}] tiles [in this city]",
 					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>", 
 				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
 		"requiredTech": "Domestication"
@@ -66,7 +66,7 @@
 	{
 		"name": "Market Quarter",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] from [Lakes] tiles [in this city]", "[+1 Gold] from [River] tiles [in this city]","[+1 Gold] from [Oasis] tiles [in this city]",
+		"uniques": ["[+1 Gold] from [Lakes] tiles [in this city]", "[+1 Gold] from [Oasis] tiles [in this city]",
 					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>", 
 				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
 		"requiredTech": "Writing"
@@ -82,7 +82,7 @@
 	{
 		"name": "Fishers Quarter",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Coast] tiles [in this city]", "[+1 Gold] from [Coast] tiles [in this city]","Must be next to [Coast]",
+		"uniques": ["[+1 Food] from [Coast] tiles [in this city]","Must be next to [Coast]",
 					"Instantly provides [5] [Cooldown for Quarters] <hidden from users>", "Unavailable <when number of [Cooldown for Quarters] is more than [0]> <hidden from users>", 
 				"Cannot be purchased","Cost increases by [20] when built", "Quarter"],
 		"requiredTech": "Fishing"
