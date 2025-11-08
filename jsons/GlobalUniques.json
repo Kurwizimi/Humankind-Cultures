@@ -20,6 +20,7 @@
 			//"[+10]% [Culture] <when above [25] [Happiness]>",//
 			//"[+20]% [Culture] <when above [40] [Happiness]>",//
 
+
 			//Culture-Swap Events
 			"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <before the [Classical era]> <upon turn end>",
 			"Triggers a [Classical] event <for [Major] Civilizations> <upon entering the [Classical era]>",
@@ -40,6 +41,10 @@
 
 			"[+1 Faith] [in all cities] <when number of [Tradition] is more than [Progress]>",
 			"[+1 Science] [in all cities] <when number of [Progress] is more than [Tradition]>",
+
+			//City Cap
+			"[-10]% [Culture] <when number of [Cities] is more than [City Cap]>",
+			"[-10]% [Happiness] <when number of [Cities] is more than [City Cap]>"",
 
 			//Tile Improvement Stuff
 			"[Land] units gain the [Amba ability] promotion <for [Major] Civilizations> <if [The Ethiopians] is constructed>",
