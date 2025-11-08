@@ -128,6 +128,7 @@
 						  		"name": "Philosophy",
 						 		"row": 2,
 						  		"prerequisites": ["Writing"],
+								"uniques": ["Instantly provides [2] [City Cap]"],
 				                "quote": "By turning casual questions on matters of existence, values, and reality into a topic of fully-fledged study, cultures can better understand the world and themselves."
 							},
 						  		{
@@ -232,6 +233,7 @@
 						"name": "Theology",
 						"row": 2,
 						"prerequisites": ["Rhetoric"],
+						"uniques": ["Instantly provides [2] [City Cap]"],
 						"quote": "A focus on theological matters not only brings us closer to the divine, but can lead to lives of modesty and piety."
 					},
 						{
@@ -374,6 +376,7 @@
 						"name": "Supply Lines",
 						"row": 8,
 						"prerequisites": ["Centralised Power"],
+						"uniques": ["Instantly provides [2] [City Cap]"],
 						"quote": "With commercial outposts developing trade routes, managing global supply routes gains commercial and military importance."
 					},
 						{
@@ -551,6 +554,7 @@
 						"name": "Urban Planning",
 						"row": 5,
 						"prerequisites": ["Electricity","Microbiology"],
+						"uniques": ["Instantly provides [2] [City Cap]"],
 						"quote": "In the perfect city, light and space, markets and entertainments, are available for everyone to the benefit of all."
 					}]
 	},
@@ -805,14 +809,14 @@
 						"name": "Military Laser",
 						"row": 5,
 						"prerequisites": ["Covert Ops"],
-                		"uniques": ["[+50]% Strength <for [Air] units>"],
+                		"uniques": ["[+20]% Strength <for [Air] units>"],
 						"quote": "The militarization of the 'final frontier' has come at last, as space-based platforms are built to extend or impose the exercise of power."
 					},
 						{
 						"name": "Neural Implant",
 						"row": 7,
 						"prerequisites": ["World Wide Web", "Insurrection Theory"],
-                		"uniques": ["[+10 Happiness] [in capital]"],
+                		"uniques": ["Instantly provides [6] [City Cap]"],
 						"quote": "Linking the networked world ever more intimately with the human brain, these devices increase the capacity of humankind to think, dream, and achieve."
 					}]
 	},
