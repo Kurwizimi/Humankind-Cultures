@@ -80,7 +80,7 @@
                         },
                             {
                             "name": "Communal Rites",
-                            "uniques": ["Comment [+1 [Happiness] for every 2 Cities]", "[+1 Happiness] <from every [[Cities]/2]> <hidden from users>", "Instantly gain [3] [Collectivism]",
+                            "uniques": ["Comment [+1 [Happiness] for every 2 Cities]", "[+1 Happiness] <for every [[Cities]/2]> <hidden from users>", "Instantly gain [3] [Collectivism]",
 					"Unavailable <after adopting [Personal Rites]> <hidden from users>", "Religious Civic"],
 			    "row": 6,
                             "column": 1
@@ -124,7 +124,7 @@
                         },
                             {
                             "name": "Public Happiness",
-                            "uniques": ["Comment [+1 [Happiness] from every 5 [Production] buildings]", "[+1 Happiness] <from every [[[Production] Buldings]/5]> <hidden form users>",  "Instantly gain [3] [Liberty]",
+                            "uniques": ["Comment [+1 [Happiness] from every 5 [Production] buildings]", "[+1 Happiness] <for every [[[Production] Buldings]/5]> <hidden form users>",  "Instantly gain [3] [Liberty]",
 					"Unavailable <after adopting [Public Security]> <hidden from users>", "Economic Civic"],
 			    "row": 9,
                             "column": 1
