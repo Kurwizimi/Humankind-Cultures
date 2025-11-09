@@ -44,7 +44,7 @@
 
 			//City Cap
 			"[-10]% [Culture] <when number of [Cities] is more than [City Cap]>",
-			"[-10]% [Happiness] <when number of [Cities] is more than [City Cap]>"",
+			"[-10]% [Happiness] <when number of [Cities] is more than [City Cap]>",
 
 			//Tile Improvement Stuff
 			"[Land] units gain the [Amba ability] promotion <for [Major] Civilizations> <if [The Ethiopians] is constructed>",
