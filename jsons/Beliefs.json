@@ -77,12 +77,12 @@
          {
         "name": "Bear Not False Witness",
         "type": "Follower",
-        "uniques": ["[+2 Science] from every [Science] <in cities with at least [5] [Followers of this Religion]>", "[+2 Science] from every [Faith]"]
+        "uniques": ["[+2 Science] from every [Science] <in cities with at least [5] [Followers of this Religion]>", "[+1 Science] from all [Faith] buildings"]
     },
         {
         "name": "Give Alms",
         "type": "Follower",
-        "uniques": ["[+2 Gold] from every [Gold] <in cities with at least [5] [Followers of this Religion]>", "[+2 Gold] from every [Faith]"]
+        "uniques": ["[+2 Gold] from every [Gold] <in cities with at least [5] [Followers of this Religion]>", "[+2 Gold] from all [Faith] buildings"]
     },
         {
         "name": "Protect the Weak",
@@ -92,12 +92,12 @@
          {
         "name": "Observe Fasts",
         "type": "Follower",
-        "uniques": ["[+2 Food] from every [Food]", "[+2 Food] from every [Faith]"]
+        "uniques": ["[+1 Food] from all [Food] buildings", "[+1 Food] from all [Faith] buildings"]
     },
          {
         "name": "Undertake Pilgrimage",
         "type": "Follower",
-        "uniques": [ "[+2 Culture] from every [Faith]", "[-20]% Culture cost of natural border growth [in this city]"]
+        "uniques": [ "[+1 Culture] from all [Faith] buildings", "[-20]% Culture cost of natural border growth [in this city]"]
     },
          {
         "name": "Yield to None",
@@ -108,12 +108,12 @@
         {
         "name": "Divine Art",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Wonder]", "[+1 Happiness] from every [Faith]"]
+        "uniques": ["[+1 Happiness] from all [Faith] buildings"]
     },
          {
         "name": "Papal Authority",
         "type": "Follower",
-        "uniques": ["[+4 Faith] from every [Faith]"]
+        "uniques": ["[+4 Faith] from all [Faith] buildings"]
     },
 
 //----------FOUNDER - Tier THREE----------
@@ -121,7 +121,7 @@
         {
         "name": "Purge Idleness",
         "type": "Founder",
-        "uniques": ["[+10 Production] [in all cities]", "[+2 Production] from every [Faith]"]
+        "uniques": ["[+2 Production] [in all cities]", "[+1 Production] from all [Faith] buildings"]
     },
        {
         "name": "Show Not Mercy",
@@ -131,22 +131,22 @@
         {
         "name": "Mandate Patronage",
         "type": "Founder",
-        "uniques": ["[+2 Gold] from each Trade Route", "[+2 Gold] from every [Faith]"]
+        "uniques": ["[+2 Gold] from each Trade Route", "[+1 Gold] from all [Faith] buildings"]
     },
          {
         "name": "Proselytize Daily",
         "type": "Founder",
-        "uniques": ["[+2 Culture] from every [Culture]", "[+2 Culture] from every [Faith]"]
+        "uniques": ["[+1 Culture] from all [Culture] buildings", "[+1 Culture] from all [Faith] buildings"]
     },
          {
         "name": "Develop the Intellect",
         "type": "Founder",
-        "uniques": ["Science gained from research agreements [+50]%", "[+2 Science] from every [Faith]"]
+        "uniques": ["Science gained from research agreements [+25]%", "[+1 Science] from all [Faith] buildings"]
     },
          {
         "name": "Eschew Gluttony",
         "type": "Founder",
-        "uniques": ["[+1] Movement <for [Military] units>", "[+10]% Production when constructing [Military] units [in all cities]"]
+        "uniques": ["[+1] Movement <for [Military] units>", "[+10]% Production when constructing [Military] units [in this city]"]
     },
         //custom
         {
@@ -157,12 +157,12 @@
         {
         "name": "Accomodate all Pilgrims",
         "type": "Founder",
-        "uniques": ["[+1] Movement <for [Civilian] units>", "Resting point for Influence with City-States following this religion [+25]",]
+        "uniques": ["[+1] Movement <for [Civilian] units>", "Resting point for Influence with City-States following this religion [+20]",]
     },
         {
         "name": "Hold Grand Ceremonies",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [12] global followers [in all cities]"]
+        "uniques": ["[+1 Happiness] from every [10] global followers [in all cities]"]
     },
   {
         "name": "Abstain from Conflict",
@@ -174,17 +174,17 @@
          {
         "name": "Raise Monuments",
         "type": "Enhancer",
-        "uniques": ["[+5 Science] from every [Wonder]", "[+2 Science] from every [Faith]"]
+        "uniques": ["Comment [+3 [Science] from every Wonder]", "[+3 Science] from every [{non- [Palace]} {non- [Contemporary Culture]} {non- [Industrial Culture]} {non- [Early Modern Culture]} {non- [Medieval Culture]} {non- [Classical Culture]} {non- [Ancient Culture]} Wonder] <hidden from users>", "[+1 Science] from all [Faith] buildings"]
     },
         {
         "name": "Sustain the Faithful",
         "type": "Enhancer",
-        "uniques": ["[+2 Happiness] from every [Wonder]", "[+1 Happiness] from every [Faith]"]
+        "uniques": ["Comment [+2 [Happiness] from every Wonder]", "[+2 Happiness] from every [{non- [Palace]} {non- [Contemporary Culture]} {non- [Industrial Culture]} {non- [Early Modern Culture]} {non- [Medieval Culture]} {non- [Classical Culture]} {non- [Ancient Culture]} Wonder] <hidden from users>", "[+1 Happiness] from all [Faith] buildings"]
     },
         {
         "name": "Donate Generously",
         "type": "Enhancer",
-        "uniques": ["[+5 Gold] from every [Wonder]", "[+2 Gold] from every [Faith]"]
+        "uniques": ["Comment [+3 [Gold] from every Wonder]", "[+3 Gold] from every [{non- [Palace]} {non- [Contemporary Culture]} {non- [Industrial Culture]} {non- [Early Modern Culture]} {non- [Medieval Culture]} {non- [Classical Culture]} {non- [Ancient Culture]} Wonder] <hidden from users>", "[+1 Gold] from all [Faith] buildings"]
     },
         {
         "name": "Meditate Often",
@@ -196,17 +196,17 @@
         {
         "name": "Build Shelters",
         "type": "Enhancer",
-        "uniques": ["[+5 Production] from every [Wonder]", "[+2 Production] from every [Faith]"]
+        "uniques": ["Comment [+2 [Production] from every Wonder]", "[+2 Production] from every [{non- [Palace]} {non- [Contemporary Culture]} {non- [Industrial Culture]} {non- [Early Modern Culture]} {non- [Medieval Culture]} {non- [Classical Culture]} {non- [Ancient Culture]} Wonder] <hidden from users>", "[+1 Production] from all [Faith] buildings"]
     },
         {
         "name": "Accept all Believers",
         "type": "Enhancer",
-        "uniques": ["[+5 Culture] from every [Wonder]", "[+2 Culture] from every [Faith]"]
+        "uniques": ["Comment [+3 [Culture] from every Wonder]", "[+3 Culture] from every [{non- [Palace]} {non- [Contemporary Culture]} {non- [Industrial Culture]} {non- [Early Modern Culture]} {non- [Medieval Culture]} {non- [Classical Culture]} {non- [Ancient Culture]}  Wonder] <hidden from users>", "[+1 Culture] from all [Faith] buildings"]
     },
   {
         "name": "Bless the Unfortunate",
         "type": "Enhancer",
-        "uniques": ["[+5 Food] from every [Wonder]", "[+2 Food] from every [Faith]"]
+        "uniques": ["Comment [+3 [Food] from every Wonder]", "[+3 Food] from every [{non- [Palace]} {non- [Contemporary Culture]} {non- [Industrial Culture]} {non- [Early Modern Culture]} {non- [Medieval Culture]} {non- [Classical Culture]} {non- [Ancient Culture]} {Wonder}] <hidden from users>", "[+1 Food] from all [Faith] buildings"]
     },
   
 
