@@ -69,9 +69,9 @@
 	},
 	{
 		"name": "Animal Barn",
-		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",
+		"cost": 200,
+		"uniques": ["[+1 Food] from [Horse] tiles [in this city]","[+1 Food] from [Farmers Quarter] tiles [in this city]", "Comment [+1 Food on Farmers Quarters per adjacent Farmers Quarter]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Domestication"
 	},
@@ -79,18 +79,14 @@
 		"name": "Granary",
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from every [Farmer] <in this city>",
-			"[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]",
+		"uniques": ["[+2 Food] from every [Farmer] <in this city>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Calendar"
 	},
 	{
 		"name": "Flood Irrigation",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from every [{improved} {River}] <in this city>",
-				"Must be on [River]",
+		"uniques": [["[+2 Food] from [River] tiles [in this city]",
 				"Destroyed when the city is captured"],
 		"maintenance": 1,
 		"requiredTech": "Irrigation"
@@ -98,15 +94,17 @@
 	{
 		"name": "Forge",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from every [{improved} {Copper}] <in this city>",
+		"uniques": ["[+1 Production] from [Copper] tiles [in this city]",
+			"[+1 Production] from [Makers Quarter] tiles [in this city]", "Comment [+1 [Production] on [Makers Quarter]s per adjacent [Makers Quarter]]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
 		"name": "Lumber Yard",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Lumber mill] tiles [in this city]",
-			"[+1 Production] from [Jungle] tiles [in this city]",
+		"cost": 240,
+		"uniques": ["[+1 Production] from [Woodland] tiles [in this city]",
+			"[+1 Production] from [Forest] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Carpentry"
 	},
@@ -114,15 +112,16 @@
 		"name": "Stoneworks",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Mountain] tiles [in this city]",
-			"[+1 Production] from [Quarry] tiles [in this city]",
+			"[+1 Production] from [Stone Field] tiles [in this city]",
+			"[+1 Production] from [Hill] tiles [in this city]",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Masonry"
 	},
 	{
 		"name": "Food Market",
 		"hurryCostModifier": 25,
-		"gold": 4,
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": [ "[+2 Gold] from [Market Quarter] tiles [in this city]", "Comment [+1 [Gold] on [Market Quarter]s per adjacent [Market Quarter]]",
+			"Destroyed when the city is captured"],
 		"requiredTech": "Writing"
 	},
 	{
@@ -137,16 +136,16 @@
 	{
 		"name": "Fishery",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [{improved} {Water resource}] tiles [in this city]",
-			"Must be next to [Coast]"],
+		"uniques": ["[+3 Food] from [Harbour] tiles [in this city]",
+			"Destroyed when the city is captured"],
 		"maintenance": 1,
 		"requiredTech": "Fishing"
 	},
 	{
 		"name": "Fishmonger",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] from [{improved} {Water resource}] tiles [in this city]",
-			"Connects trade routes over water","Must be next to [Coast]"],
+		"uniques": ["[+3 Gold] from [Harbour] tiles [in this city]",
+			"Destroyed when the city is captured", "Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Sailing"
 	},
 	{
@@ -162,7 +161,7 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] XP [in this city]",
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "[+5]% Production when constructing [Military] units [in this city]",
 			"Destroyed when the city is captured"],
 		"maintenance": 2,
 		"requiredTech": "Organised Warfare"
@@ -363,8 +362,7 @@
 	{
 		"name": "Artificial Reservoir",
 		"hurryCostModifier": 25,
-		"food": 3,
-		"uniques": ["Must be on [River]"],
+		"uniques": ["[+2 Food] from [River] tiles [in this city]"],
 		"maintenance": 2,
 		"requiredBuilding": "Flood Irrigation",
 		"requiredTech": "Hydrology"
@@ -372,7 +370,8 @@
 	{
 		"name": "Charcoal Kiln",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [{improved} {Copper}] tiles [in this city]"],
+		"uniques": ["Provides [2] [Copper]",
+			"[+1 Production] from [Makers Quarter] tiles [in this city]", "Comment [+1 [Production] on [Makers Quarter]s per adjacent [Makers Quarter]]"],
 		"requiredBuilding": "Forge",
 		"requiredTech": "Craftsmanship"
 	},
@@ -380,8 +379,7 @@
 		"name": "Water Mill",
 		"hurryCostModifier": 25,
 		"production": 1,
-		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]",
-			"Must be on [River]"],
+		"uniques": ["[+2 Production] from [River] tiles [in this city]",],
 		"requiredTech": "Hydrology"
 	},
 	{
@@ -394,28 +392,26 @@
 	{
 		"name": "Levy Administration",
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 15},
-		"gold": 2,
+		"gold": 3,
 		"requiredTech": "Trade Expeditions"
 	},
 	{
 		"name": "Customs Farm",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold, +1 Food] from each Trade Route"],
+		"uniques": ["[+1 Gold] from each Trade Route"],
 		"requiredTech": "Imperial Power"
 	},
 	{
 		"name": "School",
 		"hurryCostModifier": 25,
-		"science": 2,
-		//"uniques": ["[+1 Science] per [2] population [in this city]"], Not Needed?//
+		"uniques": ["[+2 Science] from [Makers Quarter] tiles [in this city]", "Comment [+1 [Science] on [Research Quarter]s per adjacent [Reasearch Quarter]]"],
 		"maintenance": 1,
 		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Library",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] per [1] population [in this city]"],
 		"maintenance": 2,
 		"requiredTech": "Rhetoric"
 	},
@@ -447,7 +443,7 @@
 		"name": "City Watch",
 		"hurryCostModifier": 25,
 		"happiness": 1,
-		"uniques": ["[-25]% enemy spy effectiveness [in this city]"],
+		"uniques": ["[-25]% enemy spy effectiveness [in this city]", "[+1 happiness] from [Garrison] tiles [in this city]"],
 		"maintenance": 2,
 		"requiredTech": "Standing Army"
 	},
