@@ -14,6 +14,14 @@
 	},
 
 	{
+		"name": "Create Artisans Quarter",
+		"hurryCostModifier": 25,
+		"cost": 70,
+		"uniques": ["Creates a [Artisans Quarter] improvement on a specific tile", "Create Quarter"],
+		"requiredTech": "Calendar"
+	},
+
+	{
 		"name": "Create Farmers Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
