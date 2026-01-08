@@ -37,6 +37,7 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Nullifies all other stats this tile provides <in tiles without [Improvement]>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{
@@ -63,6 +64,7 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Nullifies all other stats this tile provides <in tiles without [Improvement]>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -80,6 +82,7 @@
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
+			"Nullifies all other stats this tile provides <in tiles without [Improvement]>",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -96,6 +99,7 @@
             "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+			"Nullifies all other stats this tile provides <in tiles without [Improvement]>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{

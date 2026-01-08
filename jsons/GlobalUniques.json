@@ -2,8 +2,10 @@
   "name": "Global uniques",
 	"uniques": [ 
 			//Ruleset Stuff
-			"[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
-       			 "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+				"[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+				"[-15]% [Production] [in all cities] <when between [-10] and [-1] [Happiness]>",
+				"[-10]% Strength <for [All] units> <when between [-10] and [-1] [Happiness]>",
+       			"Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
         		"[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
        			"[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
         		"Cannot build [Settler] units <when below [-10] [Happiness]>",
@@ -18,6 +20,7 @@
 			//"[+2 Culture] [in all cities] <when above [10] [Happiness]>",//
 			//"[+10]% [Culture] <when above [25] [Happiness]>",//
 			//"[+20]% [Culture] <when above [40] [Happiness]>",//
+
 
 			//Culture-Swap Events
 			"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <before the [Classical era]> <upon turn end>",
@@ -39,6 +42,10 @@
 
 			"[+1 Faith] [in all cities] <when number of [Tradition] is more than [Progress]>",
 			"[+1 Science] [in all cities] <when number of [Progress] is more than [Tradition]>",
+
+			//City Cap
+			"[-10]% [Culture] <when number of [Cities] is more than [City Cap]>",
+			"[-10]% [Happiness] <when number of [Cities] is more than [City Cap]>",
 
 			//Tile Improvement Stuff
 			"[Land] units gain the [Amba ability] promotion <for [Major] Civilizations> <if [The Ethiopians] is constructed>",

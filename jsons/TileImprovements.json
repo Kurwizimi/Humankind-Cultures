@@ -8,6 +8,7 @@
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Feudalism]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Scientific Method]>",
+			"Tile provides yield without assigned population",
             "Pillaging this improvement yields approximately [+30 Gold]"],
 		"shortcutKey": "F"
 	},
@@ -17,7 +18,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Craftsmanship",
-		"uniques": ["[+1 Production] <after discovering [Scientific Method]>", "Pillaging this improvement yields approximately [+30 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Scientific Method]>", "Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+30 Gold]"],
 		"shortcutKey": "L"
 	},
 	{
@@ -26,7 +27,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Carpentry",
-		"uniques": ["[+1 Production] <after discovering [Supply Lines]>", "Pillaging this improvement yields approximately [+30 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Supply Lines]>", "Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+30 Gold]"],
 		"shortcutKey": "M"
 	},
 	{
@@ -35,7 +36,8 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] <after discovering [Chartered Companies]>", "[+1 Gold] <after discovering [Mercantalism]>","Pillaging this improvement yields approximately [+30 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Chartered Companies]>", "[+1 Gold] <after discovering [Mercantalism]>", "Tile provides yield without assigned population", 
+			"Pillaging this improvement yields approximately [+30 Gold]"],
 		"shortcutKey": "T"
 	},
 
@@ -44,7 +46,8 @@
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Organised Warfare",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Mercantalism]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+40 Gold]"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Mercantalism]>", "Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+40 Gold]"],
 		"shortcutKey": "C"
 	},
 	{
