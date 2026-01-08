@@ -17,6 +17,7 @@
 "Emblematic Unit"
 "Emblematic District"
 
+"Create Quarter"
 "Quarter"
 "Farmers Quarter"
 "Makers Quarter"
