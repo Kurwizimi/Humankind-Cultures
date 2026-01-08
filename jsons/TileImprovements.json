@@ -275,7 +275,7 @@
 		"terrainsCanBeBuiltOn": ["Grassland"],
 		"food": 1,
 		"happiness": -1,
-		"uniques": ["[+1 Food] for each adjacent [Farmers Quarter]", "Cannot be built on [Land] tiles <with [0] to [0] neighboring [Quarter] tiles>", "Quarter", "Unbuildable"]
+		"uniques": ["[+1 Food] for each adjacent [Farmers Quarter]", "Cannot be built on [Land] tiles <with [0] to [0] neighboring [Quarter] tiles>", "Quarter"]
 	},
 	
 	{
