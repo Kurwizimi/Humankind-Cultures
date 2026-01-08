@@ -443,7 +443,7 @@
 		"name": "City Watch",
 		"hurryCostModifier": 25,
 		"happiness": 1,
-		"uniques": ["[-25]% enemy spy effectiveness [in this city]", "[+1 happiness] from [Garrison] tiles [in this city]"],
+		"uniques": ["[-25]% enemy spy effectiveness [in this city]", "[+1 Happiness] from [Garrison] tiles [in this city]"],
 		"maintenance": 2,
 		"requiredTech": "Standing Army"
 	},
@@ -1272,7 +1272,7 @@
 		"name": "Seafood Wholesalers",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Gold] from each Trade Route",
-			"[+5 Money] from [Harbour] tiles [in this city]"],
+			"[+5 Gold] from [Harbour] tiles [in this city]"],
 		"requiredBuilding": "Great Fishmarket",
 		"requiredTech": "Propeller"
 	},
