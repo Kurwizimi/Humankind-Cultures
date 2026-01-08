@@ -18,3 +18,9 @@
 "Emblematic District"
 
 "Quarter"
+"Farmers Quarter"
+"Makers Quarter"
+"Market Quarter"
+"Garrison"
+
+"Religious District"
