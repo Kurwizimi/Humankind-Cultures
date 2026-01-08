@@ -17,7 +17,7 @@
 		"name": "Create Artisans Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Artisans Quarter] improvement on a specific tile", "Create Quarter"],
+		"uniques": ["Creates a [Artisans Quarter] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Luxury resource}]> <hidden from users>"],
 		"requiredTech": "Calendar"
 	},
 
