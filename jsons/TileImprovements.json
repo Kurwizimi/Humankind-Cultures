@@ -283,7 +283,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 1,
 		"happiness": -1,
-		"uniques": ["[+1 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter", "Unbuildable"]
+		"uniques": ["[+1 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter"]
 	},
 	
 	{
