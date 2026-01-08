@@ -252,7 +252,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
 		"production": 1,
 		"food": 1,
-		"improvement": "Mine",
+		"improvement": "Artisans Quarter",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
@@ -268,7 +268,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Plains"],
 		"food": 2,
-		"improvement": "Plantation",
+		"improvement": "Artisans Quarter",
 		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated with weight [10] <in [Plains] Regions>",
@@ -285,7 +285,7 @@
         	"food": 1,
 		"happiness": 1,
         	"improvementStats": {"food": 1},
-        	"improvement": "Plantation",
+        	"improvement": "Artisans Quarter",
         	"uniques": [
             				"Generated with weight [40] <in [Plains] Regions>",
             				"Generated with weight [10] <in [Grassland] Regions>",
@@ -305,7 +305,7 @@
         	"food": 1,
 		"gold": 1,
         	"improvementStats": {"gold": 1},
-        	"improvement": "Plantation",
+        	"improvement": "Artisans Quarter",
         	"uniques": [
             				"Generated with weight [10] <in [Plains] Regions>",
             				"Generated with weight [40] <in [Grassland] Regions>",
@@ -325,7 +325,7 @@
         	"food": 2,
 		 "science":1,
         	"improvementStats": {"gold": 1,"food": 1},
-        	"improvement": "Plantation",
+        	"improvement": "Artisans Quarter",
         	"uniques": [
             				"Generated with weight [40] <in [Jungle] Regions>",
             				"Generated with weight [10] <in [Forest] Regions>",
@@ -345,7 +345,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"production": 1,
 		"culture":1,
-		"improvement": "Plantation",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
@@ -359,7 +359,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Jungle","Marsh"],
 		"production": 1,
 		"gold": 1,
-		"improvement": "Lumber mill",
+		"improvement": "Artisans Quarter",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
@@ -375,7 +375,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
 		"production": 2,
-		"improvement": "Quarry",
+		"improvement": "Artisans Quarter",
 		"improvementStats": {"production": 1},
 		"uniques": [
 					"Special placement during map generation",
@@ -387,7 +387,7 @@
         	"terrainsCanBeFoundOn": ["Tundra","Plains","Hill"],
         	"production": 1,
 		"science": 1,
-        	"improvement": "Quarry",
+        	"improvement": "Artisans Quarter",
         	"improvementStats": {"production": 1},
         	"uniques": [
             				"Generated with weight [10] <in [Tundra] Regions>",
@@ -403,7 +403,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"production": 1,
 		"faith": 1,
-		"improvement": "Plantation",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
@@ -418,7 +418,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 1,
 		"faith": 1,
-		"improvement": "Plantation",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [35] <in [Desert] Regions>",
 					"Generated with weight [10] <in [Plains] Regions>",
@@ -431,7 +431,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Marsh"],
 		"gold": 1,
 		"food": 1,
-		"improvement": "Quarry",
+		"improvement": "Artisans Quarter",
 		"improvementStats": {"gold": 1},
 		"uniques": [
 					"Generated with weight [20] <in [Plains] Regions>",
@@ -445,7 +445,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 1,
 		"production": 1,
-		"improvement": "Fishing Boats",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
@@ -461,7 +461,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
-		"improvement": "Mine",
+		"improvement": "Artisans Quarter",
 		"uniques": ["Generated with weight [30] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
@@ -476,7 +476,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
 		"gold": 1,
 		"culture": 1,
-		"improvement": "Mine",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [20] <in [Jungle] Regions>",
@@ -494,7 +494,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"science": 1,
 		"culture": 1,
-		"improvement": "Fishing Boats",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [35] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
@@ -510,7 +510,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Marsh","Flood plains"]
 		"science": 1,
 		"food": 1,
-		"improvement": "Plantation",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [30] <in [Desert] Regions>",
 					"Generated with weight [15] <in [Grassland] Regions>",
@@ -524,7 +524,7 @@
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
 		"science": 1,
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
@@ -543,7 +543,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Tundra","Grassland"],
 		"science": 2,
-		"improvement": "Mine",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [25] <in [Tundra] Regions>",
 					"Generated with weight [15] <in [Hill] Regions>",
@@ -560,7 +560,7 @@
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
 		"gold": 1,
 		"science": 1,
-		"improvement": "Mine",
+		"improvement": "Artisans Quarter",
 		"uniques": [
 					"Generated with weight [25] <in [Tundra] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
