@@ -273,7 +273,8 @@
 	{
 		"name": "Artisans Quarter",
 		"terrainsCanBeBuiltOn": ["Land", "Water"],
-		"uniques": ["[+2 Gold] for each adjacent [Market Quarter]", "Can only be built to improve a resource", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+2 Gold] for each adjacent [Market Quarter]", "Can only be built to improve a resource", "Must be next to [Quarter]", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 	
 	{
@@ -281,7 +282,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"happiness": -1,
-		"uniques": ["[+1 Food] for each adjacent [Farmers Quarter]", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+1 Food] for each adjacent [Farmers Quarter]", "Must be next to [Quarter]", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 	
 	{
@@ -289,7 +291,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 1,
 		"happiness": -1,
-		"uniques": ["[+1 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+1 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 	
 	{
@@ -297,21 +300,24 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 3,
 		"happiness": -1,
-		"uniques": ["[+1 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+1 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 		
 	{
 		"name": "Garrison",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": 1,
-		"uniques": ["Gives a defensive bonus of [15]%", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["Gives a defensive bonus of [15]%", "Must be next to [Quarter]", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
 	{
 		"name": "Harbour",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"happiness": -1,
-		"uniques": ["[+3 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+3 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 	
 	{
@@ -319,7 +325,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 3,
 		"happiness": -1,
-		"uniques": ["[+1 Science] for each adjacent [Research Quarter]", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+1 Science] for each adjacent [Research Quarter]", "Must be next to [Quarter]", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
 	{
@@ -330,49 +337,56 @@
 					"[+1 Happiness] for each adjacent [Farmers Quarter]",
 					"[+1 Happiness] for each adjacent [Makers Quarter]",
 					"[+1 Happiness] for each adjacent [Research Quarter]",
-					"Must be next to [Quarter]", "Unavailable <in tiles adjacent to [Commons Quarter] tiles>", "Quarter"]
+					"Must be next to [Quarter]", "Unavailable <in tiles adjacent to [Commons Quarter] tiles>", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
 	{
 		"name": "Hamlet",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["Quarter"]
+		"uniques": ["Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
 	{
 		"name": "Aerodrome",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["Cannot be built on [River] tiles", "Quarter"]
+		"uniques": ["Cannot be built on [River] tiles", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
 	{
 		"name": "Train Station",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["[+5 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+5 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
 	{
 		"name": "Nature Reserve",
 		"terrainsCanBeBuiltOn": ["Land", "Water"],
 		"culture": 2,
-		"uniques": ["Cannot be built on [{Featureless} {Land}] tiles", "Quarter"]
+		"uniques": ["Cannot be built on [{Featureless} {Land}] tiles", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
 	{
 		"name": "Airport",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["[+5 Gold] for each adjacent [Market Quarter]", "Cannot be built on [River] tiles", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+5 Gold] for each adjacent [Market Quarter]", "Cannot be built on [River] tiles", "Must be next to [Quarter]", "Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
 	{
 		"name": "Missile Silo",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["Quarter"]
+		"uniques": ["Quarter",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
 
