@@ -86,7 +86,7 @@
 	{
 		"name": "Flood Irrigation",
 		"hurryCostModifier": 25,
-		"uniques": [["[+2 Food] from [River] tiles [in this city]",
+		"uniques": ["[+2 Food] from [River] tiles [in this city]",
 				"Destroyed when the city is captured"],
 		"maintenance": 1,
 		"requiredTech": "Irrigation"
