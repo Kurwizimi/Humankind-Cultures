@@ -174,7 +174,7 @@
 		"name": "Woodland",
 		"type": "TerrainFeature",
 		"defenceBonus": 0.05,
-		"production" 1,
+		"production": 1,
 		"occursOn": ["Tundra","Plains","Grassland","Hill", "Stone Field"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time bonus of [+10 Production] to the closest city when cut down <(modified by game speed)>",
