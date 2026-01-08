@@ -17,7 +17,7 @@
 		"name": "Create Farmers Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Farmers Quarter] improvement on a specific tile"],
+		"uniques": ["Creates a [Farmers Quarter] improvement on a specific tile", "Create Quarter"],
 		"requiredTech": "Agriculture"
 	},
 	
@@ -25,7 +25,7 @@
 		"name": "Create Makers Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Makers Quarter] improvement on a specific tile"],
+		"uniques": ["Creates a [Makers Quarter] improvement on a specific tile", "Create Quarter"],
 		"requiredTech": "Agriculture"
 	},
 
@@ -640,7 +640,7 @@
 		"name": "Create Hamlet",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Hamlet] improvement on a specific tile"],
+		"uniques": ["Creates a [Hamlet] improvement on a specific tile", "Unsellable",  "Create Quarter"],
 		"requiredTech": "Chivalry"
 	},
 	
