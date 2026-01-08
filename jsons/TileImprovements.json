@@ -275,7 +275,7 @@
 		"terrainsCanBeBuiltOn": ["Grassland"],
 		"food": 1,
 		"happiness": -1,
-		"uniques": ["[+1 Food] for each adjacent [Farmers Quarter]", "Cannot be built on [Land] tiles <with [0] to [0] neighboring [Quarter] tiles>", "Quarter"]
+		"uniques": ["[+1 Food] for each adjacent [Farmers Quarter]", "Must be next to [Quarter]", "Quarter"]
 	},
 	
 	{
@@ -291,21 +291,21 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 3,
 		"happiness": -1,
-		"uniques": ["[+1 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter", "Unbuildable"]
+		"uniques": ["[+1 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter"]
 	},
 		
 	{
 		"name": "Garrison",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": 1,
-		"uniques": ["Gives a defensive bonus of [15]%", "Must be next to [Quarter]", "Quarter", "Unbuildable"]
+		"uniques": ["Gives a defensive bonus of [15]%", "Must be next to [Quarter]", "Quarter"]
 	},
 
 	{
 		"name": "Harbour",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"happiness": -1,
-		"uniques": ["[+3 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter", "Unbuildable"]
+		"uniques": ["[+3 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter"]
 	},
 	
 	{
@@ -313,7 +313,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 3,
 		"happiness": -1,
-		"uniques": ["[+1 Science] for each adjacent [Research Quarter]", "Must be next to [Quarter]", "Quarter", "Unbuildable"]
+		"uniques": ["[+1 Science] for each adjacent [Research Quarter]", "Must be next to [Quarter]", "Quarter"]
 	},
 
 	{
@@ -324,7 +324,7 @@
 					"[+1 Happiness] for each adjacent [Farmers Quarter]",
 					"[+1 Happiness] for each adjacent [Makers Quarter]",
 					"[+1 Happiness] for each adjacent [Research Quarter]",
-					"Must be next to [Quarter]", "Unavailable <in tiles adjacent to [Commons Quarter] tiles>", "Quarter", "Unbuildable"]
+					"Must be next to [Quarter]", "Unavailable <in tiles adjacent to [Commons Quarter] tiles>", "Quarter"]
 	},
 
 	{
@@ -338,35 +338,35 @@
 		"name": "Aerodrome",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["Cannot be built on [River] tiles", "Quarter", "Unbuildable"]
+		"uniques": ["Cannot be built on [River] tiles", "Quarter"]
 	},
 
 	{
 		"name": "Train Station",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["[+5 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter", "Unbuildable"]
+		"uniques": ["[+5 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter"]
 	},
 
 	{
 		"name": "Nature Reserve",
 		"terrainsCanBeBuiltOn": ["Land", "Water"],
 		"culture": 2,
-		"uniques": ["Cannot be built on [{Featureless} {Land}] tiles", "Quarter", "Unbuildable"]
+		"uniques": ["Cannot be built on [{Featureless} {Land}] tiles", "Quarter"]
 	},
 
 	{
 		"name": "Airport",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["[+5 Gold] for each adjacent [Market Quarter]", "Cannot be built on [River] tiles", "Must be next to [Quarter]", "Quarter", "Unbuildable"]
+		"uniques": ["[+5 Gold] for each adjacent [Market Quarter]", "Cannot be built on [River] tiles", "Must be next to [Quarter]", "Quarter"]
 	},
 
 	{
 		"name": "Missile Silo",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["Quarter", "Unbuildable"]
+		"uniques": ["Quarter"]
 	},
 
 
