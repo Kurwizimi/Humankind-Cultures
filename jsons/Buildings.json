@@ -1287,7 +1287,7 @@
 	{
 		"name": "Conscription Centre",
 		"hurryCostModifier": 25,
-		"uniques": ["New [Military] units start with [20] XP [in this city]"],],
+		"uniques": ["New [Military] units start with [20] XP [in this city]"],
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
 		"requiredTech": "Nationhood"
