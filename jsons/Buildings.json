@@ -41,7 +41,7 @@
 		"name": "Create Market Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Market Quarter] improvement on a specific tile", "Create Quarter"]],
+		"uniques": ["Creates a [Market Quarter] improvement on a specific tile", "Create Quarter"]
 		"requiredTech": "Writing"
 	},
 
@@ -49,7 +49,7 @@
 		"name": "Create Garrison",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Garrison] improvement on a specific tile", "Create Quarter"]],
+		"uniques": ["Creates a [Garrison] improvement on a specific tile", "Create Quarter"]
 		"requiredTech": "City Defence"
 	},
 
@@ -57,7 +57,7 @@
 		"name": "Create Harbour",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Harbour] improvement on a specific tile", "Create Quarter"]],
+		"uniques": ["Creates a [Harbour] improvement on a specific tile", "Create Quarter"]
 		"requiredTech": "Fishing"
 	},
 	{
@@ -333,14 +333,14 @@
 		"name": "Create Research Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Research Quarter] improvement on a specific tile", "Create Quarter"]],
+		"uniques": ["Creates a [Research Quarter] improvement on a specific tile", "Create Quarter"],
 		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Create Commons Quarter",
 		"hurryCostModifier": 25,
 		"cost": 80,
-		"uniques": ["Creates a [Commons Quarter] improvement on a specific tile", "Create Quarter"]],
+		"uniques": ["Creates a [Commons Quarter] improvement on a specific tile", "Create Quarter"],
 		"requiredTech": "Imperial Power"
 	},
 	{
@@ -1182,7 +1182,7 @@
 		"name": "Create Aerodrome",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Aerodrome] improvement on a specific tile", "Unsellable", "Create Quarter"]],
+		"uniques": ["Creates a [Aerodrome] improvement on a specific tile", "Unsellable", "Create Quarter"],
 		"requiredTech": "Aeronautics"
 	},
 
@@ -1190,7 +1190,7 @@
 		"name": "Create Train Station",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Train Station] improvement on a specific tile", "Unsellable", "Create Quarter"]],
+		"uniques": ["Creates a [Train Station] improvement on a specific tile", "Unsellable", "Create Quarter"],
 		"requiredTech": "Steam Engine"
 	},
 
@@ -1198,7 +1198,7 @@
 		"name": "Create Nature Reserve",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Nature Reserve] improvement on a specific tile", "Create Quarter"]],
+		"uniques": ["Creates a [Nature Reserve] improvement on a specific tile", "Create Quarter"],
 		"requiredTech": "Nationhood"
 	},
 	
@@ -1479,7 +1479,7 @@
 		"name": "Create Airport",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Airport] improvement on a specific tile", "Unsellable", "Create Quarter"]],
+		"uniques": ["Creates a [Airport] improvement on a specific tile", "Unsellable", "Create Quarter"],
 		"requiredTech": "Aerial Warfare"
 	},
 
@@ -1487,7 +1487,7 @@
 		"name": "Create Missile Silo",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Missile Silo] improvement on a specific tile", "Unsellable", "Create Quarter"]],
+		"uniques": ["Creates a [Missile Silo] improvement on a specific tile", "Unsellable", "Create Quarter"],
 		"requiredTech": "Rocket Science"
 	},
 	
