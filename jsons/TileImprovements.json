@@ -272,7 +272,7 @@
 	//Quarters
 	{
 		"name": "Farmers Quarter",
-		"terrainsCanBeBuiltOn": ["Grassland"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"happiness": -1,
 		"uniques": ["[+1 Food] for each adjacent [Farmers Quarter]", "Must be next to [Quarter]", "Quarter"]
