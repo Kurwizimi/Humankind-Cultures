@@ -273,7 +273,7 @@
 	{
 		"name": "Artisans Quarter",
 		"terrainsCanBeBuiltOn": ["Land", "Water"],
-		"uniques": ["[+2 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+2 Gold] for each adjacent [Market Quarter]", "Can only be built to improve a resource", "Must be next to [Quarter]", "Quarter"]
 	},
 	
 	{
