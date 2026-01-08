@@ -331,7 +331,7 @@
 		"name": "Hamlet",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
-		"uniques": ["Quarter", "Unbuildable"]
+		"uniques": ["Quarter"]
 	},
 
 	{
