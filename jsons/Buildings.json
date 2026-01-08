@@ -404,7 +404,7 @@
 	{
 		"name": "School",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Science] from [Makers Quarter] tiles [in this city]", "Comment [+1 [Science] on [Research Quarter]s per adjacent [Reasearch Quarter]]"],
+		"uniques": ["[+2 Science] from [Research Quarter] tiles [in this city]", "Comment [+1 [Science] on [Research Quarter]s per adjacent [Reasearch Quarter]]"],
 		"maintenance": 1,
 		"requiredTech": "Philosophy"
 	},
@@ -651,14 +651,14 @@
 	{
 		"name": "High Furnace",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [{improved} {Iron}] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Makers Quarter] tiles [in this city]", "Comment [+1 [Production] on [Makers Quarter]s per adjacent [Makers Quarter]]"], //extra ironne
 		"requiredBuilding": "Charcoal Kiln",
 		"requiredTech": "Furnace Steel"
 	},
 	{
 		"name": "Commodity Market",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] from every [Trader] <in this city>"],
+		"uniques": ["[+2 Gold] from every [Trader] <in this city>"],
 		"requiredTech": "Guilds"
 	},
 	{
@@ -681,15 +681,14 @@
 		"name": "Great Fishmarket",
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Gold] from each Trade Route",
-			"[+1 Gold] from [{improved} {Water resource}] tiles [in this city]", "Must be next to [Coast]"],
+			"[+4 Gold] from [Harbour] tiles [in this city]"],
 		"requiredBuilding": "Fishmonger",
 		"requiredTech": "Seafaring Mastery"
 	},
 	{
 		"name": "Tourney Field",
 		"hurryCostModifier": 25,
-		"uniques": ["New [Military] units start with [15] XP [in this city]",
-			"[+1 Production] from [{improved} {Horses}] tiles [in this city]"],
+		"uniques": ["[+10]% Production when constructing [Land] units [in this city]"], //mure hurses
 		"maintenance": 2,
 		"requiredBuilding": "Barracks",
 		"requiredTech": "Chivalry"
@@ -698,7 +697,7 @@
 	{
 		"name": "Armory",
 		"hurryCostModifier": 25,
-		"uniques": ["[+10]% Production when constructing [Land] units [in this city]"],
+		"uniques": ["New [Military] units start with [25] XP [in this city]",],
 		"maintenance": 2,
 		"requiredTech": "Furnace Steel"
 	},
@@ -906,7 +905,7 @@
 		"name": "Grain Silo",
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from every [Farmer] <in this city>"],
+		"uniques": ["[+2 Food] from every [Farmer] <in this city>"],
 		"requiredBuilding": "Granary",
 		"requiredTech": "Supply Lines"
 	},
@@ -914,8 +913,7 @@
 		"name": "Manufactory",
 		"specialistSlots": {"Engineer": 2},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from every [Engineer] <in this city>",
-			"[+2 Production] from [{improved} {Saltpetre}] tiles [in this city]"],
+		"uniques": ["[+1 Production] from every [Engineer] <in this city>"], //more saltpererrtr
 		"maintenance": 2,
 		"requiredBuilding": "Artisan Workshop",
 		"requiredTech": "Mercantalism"
@@ -923,30 +921,30 @@
 	{
 		"name": "Taxation Office",
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [{improved} {Luxury resource}] tiles [in this city]"],
+		"gold": 5,
+		"uniques": ["[+3 Gold] from [{improved} {Luxury resource}] tiles [in this city]"],
 		"requiredBuilding": "Levy Administration",
 		"requiredTech": "Centralised Power"
 	},
 	{
 		"name": "Stock Exchange",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] from every [Trader] <in this city>"],
-		"maintenance": 2,
+		"uniques": ["[+2 Gold] from every [Trader] <in this city>"],
 		"requiredBuilding": "Commodity Market",
 		"requiredTech": "Chartered Companies"
 	},
 	{
 		"name": "Bank",
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
+		"percentStatBonus": {"gold": 10},
 		"maintenance": 2,
 		"requiredTech": "Chartered Companies"
 	},
 	{
 		"name": "Printing House",
-		"specialistSlots": {"Researcher": 2},
+		"specialistSlots": {"Researcher": 3},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] from every [Researcher] <in this city>"],
+		"uniques": ["[+2 Science] from every [Researcher] <in this city>"],
 		"maintenance": 1,
 		"requiredBuilding": "Manuscript Atelier",
 		"requiredTech": "Moveable Typeface"
@@ -955,7 +953,7 @@
 		"name": "University",
 		"hurryCostModifier": 25,
 		"science": 4,
-		//"uniques": ["[+1 Science] per [2] population [in this city]"],  Not Needed?//
+		"uniques": ["[+3 Science] from [Makers Quarter] tiles [in this city]", "Comment [+1 [Science] on [Research Quarter]s per adjacent [Research Quarter]]"],
 		"maintenance": 1,
 		"requiredBuilding": "School",
 		"requiredTech": "Moveable Typeface"
@@ -963,7 +961,7 @@
 	{
 		"name": "Cabinet of Curiosities",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] per [1] population [in this city]"],
 		"maintenance": 2,
 		"requiredBuilding": "Library",
 		"requiredTech": "Chartered Companies"
