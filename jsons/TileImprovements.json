@@ -1,99 +1,52 @@
 [
-  		{
-		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
-		"food": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Feudalism]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Scientific Method]>",
-			"Tile provides yield without assigned population",
-            "Pillaging this improvement yields approximately [+30 Gold]"],
-		"shortcutKey": "F"
+	// Extractors
+	{
+		"name": "Horse Ranch",
+		"turnsToBuild": 8,
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"shortcutKey": "H"
 	},
 	{
-		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Craftsmanship",
-		"uniques": ["[+1 Production] <after discovering [Scientific Method]>", "Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+30 Gold]"],
-		"shortcutKey": "L"
+		"name": "Copper Mine",
+		"turnsToBuild": 8,
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"shortcutKey": "H"
 	},
 	{
-		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Carpentry",
-		"uniques": ["[+1 Production] <after discovering [Supply Lines]>", "Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+30 Gold]"],
-		"shortcutKey": "M"
+		"name": "Iron Mine",
+		"turnsToBuild": 8,
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"shortcutKey": "H"
 	},
 	{
-		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] <after discovering [Chartered Companies]>", "[+1 Gold] <after discovering [Mercantalism]>", "Tile provides yield without assigned population", 
-			"Pillaging this improvement yields approximately [+30 Gold]"],
-		"shortcutKey": "T"
+		"name": "Saltpetre Mine",
+		"turnsToBuild": 8,
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"shortcutKey": "H"
 	},
-
-	// Resource-specific
 	{
-		"name": "Camp",
-		"turnsToBuild": 7,
-		"techRequired": "Organised Warfare",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Mercantalism]>", "Can only be built to improve a resource", 
-			"Pillaging this improvement yields approximately [+40 Gold]"],
-		"shortcutKey": "C"
+		"name": "Coal Mine",
+		"turnsToBuild": 8,
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"shortcutKey": "H"
 	},
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
-		"techRequired": "Combustion Engine",
-		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+40 Gold]"],
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+270 Gold]"],
 		"shortcutKey": "W"
 	},
 	{
-		"name": "Offshore Platform",
-		"turnsToBuild": 1,  // Allows this to be constructed for city-states
-		"techRequired": "Naval Air Strategy",
-		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+60 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Pasture",
+		"name": "Aluminium Mine",
 		"turnsToBuild": 8,
-		"techRequired": "Domestication",
-		"uniques": ["[+1 Food] <after discovering [Scientific Method]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+30 Gold]"],
-		"shortcutKey": "P"
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"shortcutKey": "H"
 	},
 	{
-		"name": "Plantation",
-		"turnsToBuild": 6,
-		"gold": 1,
-		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] <after discovering [Scientific Method]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+30 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Quarry",
+		"name": "Uranium Mine",
 		"turnsToBuild": 8,
-		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] <after discovering [Supply Lines]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+50 Gold]"],
-		"shortcutKey": "Q"
-	},
-	{
-		"name": "Fishing Boats",
-		"turnsToBuild": 1,  // Allows this to be constructed for city-states
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 1,
-		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Seafaring Mastery]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+30 Gold]"],
-		"shortcutKey": "F"
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"shortcutKey": "U"
 	},
 
 	// Military improvement
@@ -134,31 +87,9 @@
 	// Any improvement that starts with 'Remove ' is automatically changed into
 	// the improvement that removes the terrainfeature after it.
 	{
-		"name": "Remove Forest",
-		"turnsToBuild": 4,
-		"techRequired": "Bronze Working",
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
-		"shortcutKey": "X",
-        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
-	},
-	{
-		"name": "Remove Jungle",
-		"turnsToBuild": 7,
-		"techRequired": "Bronze Working",
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
-		"shortcutKey": "X"
-	},
-	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
 		// Has no tech requirements as it can always be built
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Marsh",
-		"turnsToBuild": 6,
-		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
@@ -273,7 +204,7 @@
 	{
 		"name": "Artisans Quarter",
 		"terrainsCanBeBuiltOn": ["Land", "Water"],
-		"uniques": ["[+2 Gold] for each adjacent [Market Quarter]", "Can only be built to improve a resource", "Must be next to [Quarter]", "Quarter",
+		"uniques": ["[+2 Gold] for each adjacent [Market Quarter]", "Can only be built to improve a resource", "Improves [Luxury] resource in this tile", "Must be next to [Quarter]", "Quarter",
 			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 	
@@ -283,7 +214,7 @@
 		"food": 1,
 		"happiness": -1,
 		"uniques": ["[+1 Food] for each adjacent [Farmers Quarter]", "Must be next to [Quarter]", "Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 		
 		"[+1 Food] for each adjacent [Farmers Quarter] <in cities with a [Animal Barns]> <hidden from users>",
 		"[+2 Food] for each adjacent [Farmers Quarter] <in cities with a [Factory Farming]> <hidden from users>"]
@@ -295,7 +226,7 @@
 		"production": 1,
 		"happiness": -1,
 		"uniques": ["[+1 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 		
 		"[+1 Production] for each adjacent [Makers Quarter] <in cities with a [Forge]> <hidden from users>",
 		"[+1 Production] for each adjacent [Makers Quarter] <in cities with a [Charcoal Kiln]> <hidden from users>",
@@ -309,7 +240,7 @@
 		"gold": 3,
 		"happiness": -1,
 		"uniques": ["[+1 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 		
 		"[+1 Gold] for each adjacent [Market Quarter] <in cities with a [Foood Market]> <hidden from users>",
 		"[+2 Gold] for each adjacent [Market Quarter] <in cities with a [Food Plaza]> <hidden from users>"]
@@ -319,7 +250,7 @@
 		"name": "Garrison",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": 1,
-		"uniques": ["Gives a defensive bonus of [15]%", "Must be next to [Quarter]", "Quarter",
+		"uniques": ["Gives a defensive bonus of [15]%", "Must be next to [Quarter]", "Quarter", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
@@ -327,7 +258,7 @@
 		"name": "Harbour",
 		"terrainsCanBeBuiltOn": ["Coast", "Lakes"],
 		"happiness": -1,
-		"uniques": ["[+3 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter"]
+		"uniques": ["[+3 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter",  "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles"]
 	},
 	
 	{
@@ -336,7 +267,7 @@
 		"science": 3,
 		"happiness": -1,
 		"uniques": ["[+1 Science] for each adjacent [Research Quarter]", "Must be next to [Quarter]", "Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]",
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 		
 		"[+1 Science] for each adjacent [Research Quarter] <in cities with a [School]> <hidden from users>",
 		"[+1 Science] for each adjacent [Research Quarter] <in cities with a [Academy]> <hidden from users>",
@@ -352,7 +283,8 @@
 					"[+1 Happiness] for each adjacent [Makers Quarter]",
 					"[+1 Happiness] for each adjacent [Research Quarter]",
 					"Must be next to [Quarter]", "Unavailable <in tiles adjacent to [Commons Quarter] tiles>", "Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles"]
 	},
 
 	{
@@ -360,7 +292,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
 		"uniques": ["Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", 
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles"]
 	},
 
 	{
@@ -368,7 +301,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
 		"uniques": ["Cannot be built on [River] tiles", "Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles"]
 	},
 
 	{
@@ -376,14 +310,15 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
 		"uniques": ["[+5 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles"]
 	},
 
 	{
 		"name": "Nature Reserve",
 		"terrainsCanBeBuiltOn": ["Land", "Water"],
 		"culture": 2,
-		"uniques": ["Cannot be built on [{Featureless} {Land}] tiles", "Quarter",
+		"uniques": ["Can only be built on [{Bonus resource} {Land}] tiles", "Cannot be built on [improved] tiles", "Quarter",
 			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
 	},
 
@@ -392,7 +327,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
 		"uniques": ["[+5 Gold] for each adjacent [Market Quarter]", "Cannot be built on [River] tiles", "Must be next to [Quarter]", "Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles"]
 	},
 
 	{
@@ -400,7 +336,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"happiness": -1,
 		"uniques": ["Quarter",
-			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]"]
+			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles"]
 	},
 
 
