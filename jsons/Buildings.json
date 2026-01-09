@@ -60,6 +60,23 @@
 		"uniques": ["Creates a [Harbour] improvement on a specific tile", "Create Quarter"]
 		"requiredTech": "Fishing"
 	},
+
+	{
+		"name": "Create Horse Ranch",
+		"hurryCostModifier": 25,
+		"cost": 60,
+		"uniques": ["Creates a [Horse Ranch] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Horses}]> <hidden from users>"],
+		"requiredTech": "Domestication"
+	},
+
+	{
+		"name": "Create Copper Mine",
+		"hurryCostModifier": 25,
+		"cost": 60,
+		"uniques": ["Creates a [Copper Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Copper}]> <hidden from users>"],
+		"requiredTech": "Bronze Working"
+	},
+	
 	{
 		"name": "Shrine",
 		"faith": 1,
@@ -335,6 +352,7 @@
 		"uniques": ["Creates a [Research Quarter] improvement on a specific tile", "Create Quarter"],
 		"requiredTech": "Philosophy"
 	},
+	
 	{
 		"name": "Create Commons Quarter",
 		"hurryCostModifier": 25,
@@ -342,6 +360,15 @@
 		"uniques": ["Creates a [Commons Quarter] improvement on a specific tile", "Create Quarter"],
 		"requiredTech": "Imperial Power"
 	},
+
+	{
+		"name": "Create Iron Mine",
+		"hurryCostModifier": 25,
+		"cost": 120,
+		"uniques": ["Creates a [Iron Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Iron}]> <hidden from users>"],
+		"requiredTech": "Standing Army"
+	},
+	
 	{
 		"name": "Temple",
 		"faith": 2,
@@ -902,6 +929,14 @@
 
 	//EARLY MODERN
 	{
+		"name": "Create Saltpetre Mine",
+		"hurryCostModifier": 25,
+		"cost": 480,
+		"uniques": ["Creates a [Saltpetre Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Saltpetre}]> <hidden from users>"],
+		"requiredTech": "Gunpowder Warfare"
+	},
+	
+	{
 		"name": "Grain Silo",
 		"specialistSlots": {"Farmer": 1},
 		"hurryCostModifier": 25,
@@ -1195,6 +1230,22 @@
 		"uniques": ["Creates a [Nature Reserve] improvement on a specific tile", "Create Quarter"],
 		"requiredTech": "Nationhood"
 	},
+
+	{
+		"name": "Create Oil Well",
+		"hurryCostModifier": 25,
+		"cost": 480,
+		"uniques": ["Creates a [Oil Well] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Oil}]> <hidden from users>"],
+		"requiredTech": "Combustion Engine"
+	},
+
+	{
+		"name": "Create Coal Mine",
+		"hurryCostModifier": 25,
+		"cost": 240,
+		"uniques": ["Creates a [Coal Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Coal}]> <hidden from users>"],
+		"requiredTech": "Steam Engine"
+	},
 	
 	{
 		"name": "Industrial Silo",
@@ -1481,6 +1532,22 @@
 		"cost": 70,
 		"uniques": ["Creates a [Missile Silo] improvement on a specific tile", "Unsellable", "Create Quarter"],
 		"requiredTech": "Rocket Science"
+	},
+
+	{
+		"name": "Create Aluminium Mine",
+		"hurryCostModifier": 25,
+		"cost": 960,
+		"uniques": ["Creates a [Aluminium Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Aluminium}]> <hidden from users>"],
+		"requiredTech": "Aerial Warfare"
+	},
+
+	{
+		"name": "Create Uranium Mine",
+		"hurryCostModifier": 25,
+		"cost": 1920,
+		"uniques": ["Creates a [Uranium Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Uranium}]> <hidden from users>"],
+		"requiredTech": "Uranium Enrichment"
 	},
 	
 	{
