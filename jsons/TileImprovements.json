@@ -355,6 +355,47 @@
 
 	
 
+	//Assyrians
+	{
+        	"name": "Dunnu",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"culture": 3,
+        	"turnsToBuild": 7,
+        	"uniques": ["Gives a defensive bonus of [20]%", "Emblematic District", "Quarter", "Commons Quarter", "Garrison",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//Babylonians
+	{
+        	"name": "Astronomy House",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"happiness": -1,
+        	"turnsToBuild": 7,
+        	"uniques": ["[+3 Science] for each adjacent [Farmers Quarter]", "Emblematic District", "Must be next to [Quarter]", "Quarter", "Farmers Quarter", "Research Quarter",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//Bantu
+	{
+        	"name": "Mupíà Field",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"food": 10,
+        	"turnsToBuild": 7,
+        	"uniques": ["Emblematic District", "Quarter",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//Caralans
+	{
+        	"name": "Ceremonial Plaza",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"happiness": -1,
+			"faith": 2,
+        	"turnsToBuild": 7,
+        	"uniques": ["Gain control over [Water] tiles in a [1]-tile radius","Gain control over [Lakes] tiles in a [2]-tile radius", "Emblematic District", "Quarter",
+			"Must be next to [Water]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
 	//Harappan
 		{
         	"name": "Canal Network",
