@@ -3,49 +3,57 @@
 	{
 		"name": "Horse Ranch",
 		"turnsToBuild": 8,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"uniques": ["[+3 Science] for each adjacent [Research Quarter]",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
 		"shortcutKey": "H"
 	},
 	{
 		"name": "Copper Mine",
 		"turnsToBuild": 8,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"uniques": ["[+3 Science] for each adjacent [Research Quarter]",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "H"
 	},
 	{
 		"name": "Iron Mine",
 		"turnsToBuild": 8,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"uniques": ["[+3 Science] for each adjacent [Research Quarter]",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+135 Gold]"],
 		"shortcutKey": "H"
 	},
 	{
 		"name": "Saltpetre Mine",
 		"turnsToBuild": 8,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"uniques": ["[+3 Science] for each adjacent [Research Quarter]",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+270 Gold]"],
 		"shortcutKey": "H"
 	},
 	{
 		"name": "Coal Mine",
 		"turnsToBuild": 8,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"uniques": ["[+3 Science] for each adjacent [Research Quarter]",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+60 Gold]"],
 		"shortcutKey": "H"
 	},
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+270 Gold]"],
+		"uniques": ["[+3 Science] for each adjacent [Research Quarter]",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+270 Gold]"],
 		"shortcutKey": "W"
 	},
 	{
 		"name": "Aluminium Mine",
 		"turnsToBuild": 8,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"uniques": ["[+3 Science] for each adjacent [Research Quarter]",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+270 Gold]"],
 		"shortcutKey": "H"
 	},
 	{
 		"name": "Uranium Mine",
 		"turnsToBuild": 8,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+45 Gold]"],
+		"uniques": ["[+3 Science] for each adjacent [Research Quarter]",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+540 Gold]"],
 		"shortcutKey": "U"
 	},
 
