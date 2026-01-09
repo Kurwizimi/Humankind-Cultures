@@ -1,13 +1,6 @@
 [
 	//Ancient
 	{
-		"name": "Worker",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 70
-	},
-	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
