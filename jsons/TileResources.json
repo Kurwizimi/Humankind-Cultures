@@ -212,7 +212,7 @@
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
-		"name": "Aluminium",
+		"name": "Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Aerial Warfare",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
