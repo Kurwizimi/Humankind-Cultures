@@ -396,62 +396,116 @@
 			"Must be next to [Water]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
    	 },
+	//Ancient Egyptian
+	{
+        	"name": "Egyptian Pyramid",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"happiness": -1,
+			"culture": 1,
+			"production": 3,
+        	"turnsToBuild": 7,
+        	"uniques": ["[+2 Production] for each adjacent [Makers Quarter]", "Emblematic District", "Quarter", "Makers Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
 	//Harappan
 		{
         	"name": "Canal Network",
-       	 	"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
-        	"food": 3,
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"happiness": -1,
+			"food": 3,
         	"turnsToBuild": 7,
-        	"techRequired": "Irrigation",
-        	"uniques": ["[+1 Food] for each adjacent [{non-[Fresh water]} {Farm}]", "Only available <with [0] to [0] neighboring [Canal Network] tiles>", "Emblematic District",
-			"Only available <if [The Harappans] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-        	"shortcutKey": "C"
+        	"uniques": ["[+2 Food] for each adjacent [Farmers Quarter]", "Emblematic District", "Quarter", "Farmers Quarter", "River",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
    	 },
 	//Hittites
 		{
         	"name": "Awari",
-       	 	"terrainsCanBeBuiltOn": ["Hill"],
-        	"gold": 3,
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"happiness": -1,
+			"gold": 3,
         	"turnsToBuild": 7,
-        	"techRequired": "Organised Warfare",
-        	"uniques": ["Adjacent enemy units ending their turn take [5] damage", "Only available <with [0] to [0] neighboring [Awari] tiles>", "Emblematic District",
-			"Only available <if [The Hittites] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-        	"shortcutKey": "A"
+        	"uniques": ["Gives a defensive bonus of [20]%", "Emblematic District", "Quarter",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Extra strength for units around this
+   	 },
+	//Myceneans
+		{
+        	"name": "Cyclopean Fortress",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"happiness": 1,
+        	"turnsToBuild": 7,
+        	"uniques": ["Gives a defensive bonus of [20]%", "Emblematic District", "Quarter", "Makers Quarter", "Garrison",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Less movement for enemy units around this +Extra strength for units around this
    	 },
 	//Nubian
 		{
         	"name": "Meroe Pyramids",
-       	 	"terrainsCanBeBuiltOn": ["Plains","Desert"],
-        	"gold": 2,
-		"production": 2,
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"happiness": -1,
+			"production": 2,
+			"gold": 2,
         	"turnsToBuild": 7,
-        	"techRequired": "Masonry",
-        	"uniques": ["[+1 Gold] <in tiles adjacent to [Luxury resource] tiles>","[+1 Production] <in tiles adjacent to [Strategic resource] tiles>", "Emblematic District",
-			"Only available <if [The Nubians] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-        	"shortcutKey": "M"
+        	"uniques": ["[+3 Gold] for each adjacent [Makers Quarter]", "Emblematic District", "Quarter", "Market Quarter", "Makers Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
    	 },
 	//Omlec
 		{
         	"name": "Omlec Head",
-       	 	"terrainsCanBeBuiltOn": ["Plains","Grassland","Forest","Jungle"],
-        	"food": 2,
-		"culture": 1,
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+			"happiness": -1,
+			"influence": 1,
+			"food": 3,
         	"turnsToBuild": 7,
-        	"techRequired": "Masonry",
-        	"uniques": ["[+1 Culture] for each adjacent [Farm]", "Only available <with [0] to [0] neighboring [Omlec Head] tiles>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Emblematic District",
-			"Only available <if [The Omlecs] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-        	"shortcutKey": "O"
+        	"uniques": ["[+1 Culture] for each adjacent [Farmers Quarter]", "Emblematic District", "Quarter", "Farmers Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
    	 },
 	//Pama-Nyungan
 		{
-        	"name": "Fish Trap",
-       	 	"terrainsCanBeBuiltOn": ["Plains", "Desert", "Grassland", "Tundra"],
-        	"food": 2,
+        	"name": "Fish Traps",
+       	 	"terrainsCanBeBuiltOn": ["River"],
+			"food": 2,
         	"turnsToBuild": 7,
-        	"techRequired": "Fishing",
-        	"uniques": ["[+2 Food] for each adjacent [River]", "Must be next to [Land]", "Only available <with [0] to [0] neighboring [Fish Trap] tiles>", "Emblematic District",
-			"Only available <if [The Pama-Nyungan] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-        	"shortcutKey": "F"
+        	"uniques": ["[+2 Food] for each adjacent [River]", "Emblematic District", "Quarter", "Farmers Quarter",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//Phoenecians
+		{
+        	"name": "Haven",
+       	 	"terrainsCanBeBuiltOn": ["Coast", "Lakes"],
+			"happiness": -1,
+        	"turnsToBuild": 7,
+        	"uniques": ["[+2 Gold] for each adjacent [Coast]", "[+2 Gold] for each adjacent [Lakes]", "Emblematic District", "Quarter", "Harbour", "Farmers Quarter", "Market Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //replaces the harbour for this culture
+   	 },
+	//Sumerians
+		{
+        	"name": "Eduba",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+			"happiness": -1,
+			"science": 2,
+        	"turnsToBuild": 7,
+        	"uniques": ["[+1 Science] for each adjacent [Research Quarter]", "[+6 Science] for each adjacent [City center]", "Emblematic District", "Quarter", "Research Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//Han
+		{
+        	"name": "Confucian School",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+			"culture": 1,
+			"happiness": 1,
+			"science": 1,
+        	"turnsToBuild": 7,
+        	"uniques": ["[+4 Science, +1 Culture] for each adjacent [Mountain]", "Emblematic District", "Quarter", "Research Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
    	 },
 	
 
