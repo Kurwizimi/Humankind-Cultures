@@ -180,7 +180,7 @@
 					"Blocks line-of-sight from tiles at same elevation",
 					"[75]% Chance to be destroyed by nukes",
 					"A Region is formed with at least [30]% [Woodland] tiles, with priority [3]",
-					"A Region is formed with at least [35]% [Woodland] tiles and [forest] tiles, with priority [3]",
+					"A Region is formed with at least [35]% [Woodland] tiles and [Forest] tiles, with priority [3]",
 					"A Region can not contain more [Woodland] tiles than [Forest] tiles",
 					"Considered [Desirable] when determining start locations",
 					"Considered [Production] when determining start locations",
@@ -205,7 +205,6 @@
 					"[+1] to Fertility for Map Generation",
 					"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
 					"Base Terrain on this tile is not counted for Region determination",
-					"Starts in regions of this type receive an extra [Sheep]",
 					"Considered [Desirable] when determining start locations",
 					"Considered [Production] when determining start locations",
 					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
