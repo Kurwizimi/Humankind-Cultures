@@ -285,55 +285,76 @@
 	},
 	//Egyptian
 	{
-		"name": "Pyramid",
-		"specialistSlots": {"Engineer": 1},
-		"culture": 1,
-		"production": 3,
-		"uniques": ["[-2 Happiness]","Emblematic District", "Only available <if [The Egyptians] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Egyptian Pyramid",
 		"hurryCostModifier": 25,
-		"requiredTech": "Carpentry"
+		"cost": 100,
+		"uniques": ["Creates a [Egyptian Pyramid] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Egyptians] is constructed>"]
+	},
+	//Harrappans
+	{
+		"name": "Create Canal Network",
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"uniques": ["Creates a [Canal Network] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Harappans] is constructed>"]
+	},
+	//Hittites
+	{
+		"name": "Create Awari",
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"uniques": ["Creates a [Awari] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Hittites] is constructed>"]
 	},
 	//Myceanean
 	{
-		"name": "Cyclopean Fortress",
-		"cityHealth": 20,
-		"happiness": 2,
-		"uniques": ["[Land] Units adjacent to this city heal [10] HP per turn when healing", "Emblematic District", "Only available <if [The Mycenaeans] is constructed>"],//Extra strength for units nearby
-		"maintenance": 2,
+		"name": "Create Cycloptean Fortress",
 		"hurryCostModifier": 25,
-		"requiredTech": "City Defence"
+		"cost": 100,
+		"uniques": ["Creates a [Cycloptean Fortress] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Myceaneans] is constructed>"]
+	},
+	//Nubian
+	{
+		"name": "Create Meroe Pyramid",
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"uniques": ["Creates a [Meroe Pyramid] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Nubians] is constructed>"]
+	},
+	//Omlec
+	{
+		"name": "Create Omlec Head",
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"uniques": ["Creates a [Omlec Head] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Omlecs] is constructed>"]
+	},
+	//Pama-Nyunagan
+	{
+		"name": "Create Fish Trap",
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"uniques": ["Must have an owned [River] within [4] tiles",
+			"Creates a [Fish Trap] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Pama-Nyungan] is constructed>"]
 	},
 	//Phoenicians
 	{
-		"name": "Haven",
-		"specialistSlots": {"Trader": 1},
-		"uniques": ["[-2 Happiness]","[+2 Gold] from [Coast] tiles [in this city]", "[+2 Gold] from [Lakes] tiles [in this city]","Must be next to [Coast]",
-			"Emblematic District", "Only available <if [The Phoenicians] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Haven",
 		"hurryCostModifier": 25,
-		"requiredTech": "Fishing"
+		"cost": 100,
+		"uniques": ["Must have an owned [Water] within [4] tiles",
+			"Creates a [Haven] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Phoenicians] is constructed>"]
 	},
 	//Sumerian
 	{
-		"name": "Eduba",
-		"science": 3,
-		"uniques": ["[-2 Happiness]","[+1 Science] from [Farm] tiles [in this city]", "Emblematic District", "Only available <if [The Sumerians] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Eduba",
 		"hurryCostModifier": 25,
-		"requiredTech": "Writing"
+		"cost": 100,
+		"uniques": ["Creates a [Eduba] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Sumerians] is constructed>"]
 	},
 	//Zhou
 	{
-		"name": "Confucian School",
-		"specialistSlots": {"Researcher": 1},
-		"science": 5,
-		"culture": 2,
-		"happiness": 1,
-		"uniques": ["Must have an owned [Mountain] within [2] tiles", "Emblematic District", "Only available <if [The Zhou] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Confucian School",
 		"hurryCostModifier": 25,
-		"requiredTech": "Writing"
+		"cost": 100,
+		"specialistSlots": {"Researcher": 1},
+		"uniques": ["Creates a [Confucian School] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Zhou] is constructed>"]
 	},
 
 	//CLASSICAL
@@ -548,24 +569,28 @@
 	},
 	//Achaemenids
 	{
-		"name": "Satrap Palace",
-		"specialistSlots": {"Trader": 1},
+		"name": "Create Satrap Palace",
 		"hurryCostModifier": 25,
-		"culture": 1,
-		"gold": 4,
-		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Achaemenids] is constructed>"],
-		"requiredTech": "Fortifications"
+		"cost": 100,
+		"specialistSlots": {"Trader": 1},
+		"uniques": ["Creates a [Satrap Palace] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Achaemenids] is constructed>"]
+	},
+	//Aksumite
+	{
+		"name": "Create Great Obelisk",
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"specialistSlots": {"Worker": 1},
+		"uniques": ["Creates a [Great Obelisk] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Aksumites] is constructed>"]
 	},
 	//Carthaginians
 	{
-		"name": "Cothon",
-		"cityStrength": 10,
-		"cityHealth": 10,
-		"uniques": ["[-2 Happiness]", "[+2 Production] from [Coast] tiles [in this city]", "[+3 Production] from [Lakes] tiles [in this city]","Must be next to [Coast]",
-			"Emblematic District", "Only available <if [The Carthaginians] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Cothon",
 		"hurryCostModifier": 25,
-		"requiredTech": "Trade Expeditions"
+		"cost": 100,
+		"specialistSlots": {"Trader": 1},
+		"uniques": ["Must have an owned [Water] within [4] tiles",
+			"Creates a [Cothon] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Carthaginians] is constructed>"]
 	},
 	//Celts
 	{
