@@ -223,7 +223,8 @@
 		"happiness": -1,
 		"uniques": ["[+1 Food] for each adjacent [Farmers Quarter]", "Must be next to [Quarter]", "Quarter",
 			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
-		
+
+		"[+1 Food] for each adjacent [Farmers Quarter] <if [The Caralans] is constructed> <hidden from users>",
 		"[+1 Food] for each adjacent [Farmers Quarter] <in cities with a [Animal Barns]> <hidden from users>",
 		"[+2 Food] for each adjacent [Farmers Quarter] <in cities with a [Factory Farming]> <hidden from users>"]
 	},
@@ -235,7 +236,8 @@
 		"happiness": -1,
 		"uniques": ["[+1 Production] for each adjacent [Makers Quarter]", "Must be next to [Quarter]", "Quarter",
 			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
-		
+
+		"[+1 Production] for each adjacent [Makers Quarter] <if [The Caralans] is constructed> <hidden from users>",
 		"[+1 Production] for each adjacent [Makers Quarter] <in cities with a [Forge]> <hidden from users>",
 		"[+1 Production] for each adjacent [Makers Quarter] <in cities with a [Charcoal Kiln]> <hidden from users>",
 		"[+1 Production] for each adjacent [Makers Quarter] <in cities with a [High Furnace]> <hidden from users>",
@@ -249,7 +251,8 @@
 		"happiness": -1,
 		"uniques": ["[+1 Gold] for each adjacent [Market Quarter]", "Must be next to [Quarter]", "Quarter",
 			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
-		
+
+		"[+1 Gold] for each adjacent [Market Quarter] <if [The Caralans] is constructed> <hidden from users>",
 		"[+1 Gold] for each adjacent [Market Quarter] <in cities with a [Foood Market]> <hidden from users>",
 		"[+2 Gold] for each adjacent [Market Quarter] <in cities with a [Food Plaza]> <hidden from users>"]
 	},
@@ -276,7 +279,8 @@
 		"happiness": -1,
 		"uniques": ["[+1 Science] for each adjacent [Research Quarter]", "Must be next to [Quarter]", "Quarter",
 			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
-		
+
+		"[+1 Science] for each adjacent [Research Quarter] <if [The Caralans] is constructed> <hidden from users>",
 		"[+1 Science] for each adjacent [Research Quarter] <in cities with a [School]> <hidden from users>",
 		"[+1 Science] for each adjacent [Research Quarter] <in cities with a [Academy]> <hidden from users>",
 		"[+2 Science] for each adjacent [Researxh Quarter] <in cities with a [University]> <hidden from users>"]
