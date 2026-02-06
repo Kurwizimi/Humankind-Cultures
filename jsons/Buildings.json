@@ -800,46 +800,31 @@
 		"requiredTech": "Furnace Steel",
 		"quote": "Tōdai-Ji was the largest wood structure in the world for 1200 years, more or less. That should impress anyone."
 	},
-	//Mexica
+	//Aztec
 	{
-		"name": "Sacrificial Altar",
-		"faith": 5,
-		"happiness": 1,
-		"culture": 2,
-		"uniques": ["Emblematic District", "Only available <if [The Mexica] is constructed>"],//Sacrifice population
-		"maintenance": 2,
+		"name": "Create Sacrificial Altar",
 		"hurryCostModifier": 25,
-		"requiredTech": "Theology"
+		"uniques": ["Creates a [Sacrificial Altar] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Aztecs] is constructed>"]
 	},
 	//Bulgarian
 	{
-		"name": "Knyaz Library",
-		"faith": 3,
-		"science": 3,
-		"percentStatBonus": {"culture": 5},
-		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Bulgarians] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Knyaz Library",
 		"hurryCostModifier": 25,
-		"requiredTech": "Alchemy"
+		"uniques": ["Creates a [Knyaz Library] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Bulgarians] is constructed>"]
 	},
 	//Byzantine
 	{
-		"name": "Hippódromos",
-		"gold": 4,
-		"specialistSlots": {"Trader": 1},
-		"uniques": ["[-2 Happiness]", "[+2 Gold] from [Horses] tiles [in this city]", "Emblematic District", "Only available <if [The Byzantines] is constructed>"],
+		"name": "Create Hippódromos",
 		"hurryCostModifier": 25,
-		"requiredTech": "Chivalry"
+		"specialistSlots": {"Trader": 1},
+		"uniques": ["Creates a [Hippódromos] improvement on a specific tile", "[+2 Gold] from [Horse Ranch] tiles [in this city]",
+			"Unsellable", "Create Quarter", "Only available <if [The Byzantines] is constructed>"]
 	},
 	//English
 	{
-		"name": "Stronghold",
-		"cityStrength": 12,
-		"cityHealth": 20,
+		"name": "Create Stronghold",
 		"hurryCostModifier": 25,
-		"requiredTech": "Military Architecture",
-		"uniques": ["Removes extra unhappiness from annexed cities", "Emblematic District", "Only available <if [The English] is constructed>"],
-		"maintenance": 2,
+		"uniques": ["Creates a [Stronghold] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The English] is constructed>"]
 	},
 	//Franks
 	{
