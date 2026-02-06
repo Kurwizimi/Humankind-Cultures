@@ -499,7 +499,7 @@
 			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
    	 },
-	//Han
+	//Zhou
 		{
         	"name": "Confucian School",
        	 	"terrainsCanBeBuiltOn": ["Land"],
@@ -547,17 +547,59 @@
 			"Gives a defensive bonus of [+10]%", "Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Replaces the Harbour
    	 },
+	//Celts
+		{
+			"name": "Nemeton",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+			"faith": 3,
+			"happiness": -1,
+        	"turnsToBuild": 7,
+        	"uniques": ["[+3 Food] for each adjacent [Farmers Quarter]", "[+3 Food] <for every [[in all cities connected to capital] Cities]>", "Emblematic District", "Quarter", "Farmers Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Acts as a religious district
+   	 },
 	//Garamantes
 		{
-        	"name": "Foggara",
-        	"terrainsCanBeBuiltOn": ["Desert","Plains","Flood plains"],
-        	"food": 2,
+			"name": "Foggara",
+       	 	"terrainsCanBeBuiltOn": ["Desert", "Hill"],
+			"food": 3,
+			"happiness": -1,
         	"turnsToBuild": 7,
-       	 	"uniques": [ "[+1 Food] for each adjacent [Hill]", "[+1 Food] for each adjacent [Stone]", "[+1 Food] for each adjacent [Mountain]","Only available <with [0] to [0] neighboring [Foggara] tiles>",
-			"Emblematic District", "Only available <if [The Garamantes] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-        	"techRequired": "Hydrology",
-        	"shortcutKey": "F"
-    	},
+        	"uniques": ["[+2 Food] for each adjacent [Desert]", "[+2 Food] for each adjacent [Hill]", "Emblematic District", "Quarter", "Farmers Quarter",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //applies to more terrain
+   	 },
+	//Goths
+		{
+			"name": "Tumulus",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+			"faith": 3,
+			"culture": 3,
+        	"turnsToBuild": 7,
+        	"uniques": ["[+2 Faith] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Commons Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Acts as a religious district
+   	 },
+	//Greeks
+		{
+			"name": "Amphitheatron",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": -1,
+        	"uniques": ["[+2 Science] for each adjacent [Quarter]",  "[+1 Culture, +3 Science] <for every [Era number]>", "Emblematic District", "Quarter", "Research Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//Han
+		{
+			"name": "Paper Mill",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": -1,
+        	"uniques": ["[+1 Science] <for every [Researched [All] Technologies]>",  "Provides [1] [Paper]", "Emblematic District", "Quarter", "Makers Quarter",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles", "Must be next to [River]",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
 	//Hun
 	{
 		"name": "Ordu",
@@ -565,10 +607,62 @@
 		"techRequired": "Conquest",
 		"uniques": ["Adjacent enemy units ending their turn take [5] damage", "Can be built outside your borders", "Gives a defensive bonus of [25]%", 
 			"Emblematic District", "Only available <if [The Huns] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-		"shortcutKey": "O"
+		"shortcutKey": "O" //idk how to do this one
 	},
+	//Mauryans
+		{
+			"name": "Stūpa",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": -1,
+			"culture": 1,
+			"faith": 2,
+			"science": 3,
+        	"uniques": ["[+2 Culture] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Research Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Acts as a religious site
+   	 },
+	//Maya
+		{
+			"name": "K'uh Nah",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": -1,
+			"faith": 2,
+        	"uniques": ["[+4 Production] for each adjacent [Makers Quarter]", "[+3 Production] <for every [[in all cities connected to capital] Cities]>", "Emblematic District", "Quarter", "Makers Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//Nazca
+		{
+			"name": "Nazca Lines",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+        	"uniques": ["Comment [+1 [Faith], +2 [Culture] from Emblematic District tiles in this city]", "Emblematic District", "Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Acts as a religious site
+   	 },
+	//Polynesian
+		{
+			"name": "Marae",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+        	"uniques": ["[-1 Happiness] for each adjacent [Quarter]",  "[+1 Culture, +2 Faith] <for every [[Marae] Buildings]>", "Emblematic District", "Quarter", "Makers Quarter",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//Romans
+		{
+			"name": "Triumphal Arch",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"culture": 5,
+        	"uniques": ["[+1 Happiness] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Commons Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //+Fame when victorious
+   	 },
 
-
+	//MEDIEVAL
 	//Khmer
 		{
         	"name": "Baray",
