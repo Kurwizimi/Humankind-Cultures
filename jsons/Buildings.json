@@ -594,92 +594,70 @@
 	},
 	//Celts
 	{
-		"name": "Nemeton",
-		"food": 3,
-		"faith": 3,
-		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Celts] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Nemeton",
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+		"cost": 80,
+		"uniques": ["Creates a [Nemeton] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Celts] is constructed"]
 	},
-	//Celts
+	//Garamantes
 	{
-		"name": "Tumulus",
-		"culture": 3,
-		"faith": 2,
-		"uniques": ["[-2 Happiness]", "All newly-trained [Mounted] units [in this city] receive the [Tumulus] promotion", "Emblematic District", "Only available <if [The Goths] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Foggara",
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+		"uniques": ["Creates a [Foggara] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Garamantes] is constructed>"]
+	},
+	//Goths
+	{
+		"name": "Create Tumulus",
+		"hurryCostModifier": 25,
+		"uniques": ["Creates a [Tumulus] improvement on a specific tile", "All newly-trained [Land] units [in this city] receive the [Tumulus] promotion",
+			"Unsellable", "Create Quarter", "Only available <if [The Goths] is constructed>"]
 	},
 	//Greek
 	{
-		"name": "Amphitheatron",
-		"uniques": ["[-2 Happiness]", "[+1 Culture, +3 Science] <for every [Era number]>",
-			"Emblematic District", "Only available <if [The Greeks] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Amphitheatron",
 		"hurryCostModifier": 25,
-		"requiredTech": "Rhetoric"
+		"uniques": ["Creates a [Amphitheatron] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Greeks] is constructed>"]
 	},
 	//Han
 	{
-		"name": "Paper Mill",
-		"uniques": [ "[+1 Science] <for every [Adopted [All] Policies]>", "Provides [1] [Paper]",
-			"Emblematic District", "Only available <if [The Han] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Paper Mill",
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+		"uniques": ["Must have an owned [River] within [4] tiles", "Creates a [Paper Mill] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Han] is constructed>"]
 	},
+	//Hun
+	//idk how to do this one
 	//Maurya
 	{
-		"name": "Stupa",
-		"specialistSlots": {"Researcher": 1},
+		"name": "Create Stūpa",
 		"hurryCostModifier": 25,
-		"culture": 1,
-		"faith": 2,
-		"science": 3,
-		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Mauryans] is constructed>"],
-		"maintenance": 2,
-		"requiredTech": "Philosophy"
+		"specialistSlots": {"Researcher": 1},
+		"uniques": ["Creates a [Stūpa] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Mauryans] is constructed>"]
 	},
 	//Maya
 	{
-		"name": "K'uh Nah",
-		"specialistSlots": {"Engineer": 1},
+		"name": "Create K'uh Nah",
 		"hurryCostModifier": 25,
-		"production": 1,
-		"faith": 2,
-		"uniques": ["[-2 Happiness]", "[+1 Production] from [Jungle] tiles [in this city]", "Emblematic District", "Only available <if [The Maya] is constructed>"],
-		"maintenance": 2,
-		"requiredTech": "Rhetoric"
+		"specialistSlots": {"Worker": 1},
+		"uniques": ["Creates a [K'uh Nah] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Mayans] is constructed>"]
 	},
 	//Nazca
 	{
-		"name": "Nazca Lines",
+		"name": "Create Nazca Lines",
 		"hurryCostModifier": 25,
-		"uniques": ["[-2 Happiness]", "[+1 Faith, +2 Gold] from every [Emblematic District] <in this city>", "Emblematic District", "Only available <if [The Nazca] is constructed>"],
-		"maintenance": 2,
-		"requiredTech": "Craftsmanship"
+		"uniques": ["[+1 Faith, +2 Culture] from [Emblematic District] tiles [in this city] <hidden from users>", "Creates a [Nazca Lines] improvement on a specific tile",
+			"Unsellable", "Create Quarter", "Only available <if [The Nazca] is constructed>"]
 	},
 	//Polynesia
 	{
-		"name": "Marae",
-		"culture": 3,
-		"uniques": ["[-2 Happiness]", "[+1 Culture, +2 Faith] [in this city] <for every [[Marae] Buildings]>", "Must be next to [Coast]",
-			"Emblematic District", "Only available <if [The Polynesians] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Marae",
 		"hurryCostModifier": 25,
-		"requiredTech": "Trade Expeditions"
+		"uniques": ["Creates a [Marae] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Polynesians] is constructed>"]
 	},
-	//Romans
+	//Roman
 	{
-		"name": "Triumphal Arch",
-		"culture": 5,
-		"happiness": 2,
-		"uniques": ["Emblematic District", "Only available <if [The Romans] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Triumphal Arch",
 		"hurryCostModifier": 25,
-		"requiredTech": "Conquest"
+		"uniques": ["Creates a [Triumphal Arch] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Romans] is constructed>"]
 	},
 
 
