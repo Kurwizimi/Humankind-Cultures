@@ -1,5 +1,9 @@
 {
   "name": "Global uniques",
+	"unitUniques": [
+		"[This Unit] gains the [Stronghold] status for [1] turn(s) <for [Ranged] units> <upon ending a turn in a [Stronghold] tile>",
+		"[This Unit] gains the [Stronghold] status for [1] turn(s) <for [Ranged Gunpowder] units> <upon ending a turn in a [Stronghold] tile>"
+	],
 	"uniques": [ 
 			//Ruleset Stuff
 				"[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
