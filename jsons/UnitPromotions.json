@@ -762,6 +762,10 @@
 
 	//Medieval
 	{
+        	"name": "Stronghold",
+        	"uniques": ["[+1] Sight", "[+1] Range", "[+10]% Strength"]
+   	},
+	{
         	"name": "Swift Assassins",
         	"uniques": ["[+1] Movement <in [Friendly Land] tiles> <in [Hill] tiles>"]
    	},
