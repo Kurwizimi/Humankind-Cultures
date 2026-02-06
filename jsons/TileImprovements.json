@@ -662,11 +662,55 @@
 			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //+Fame when victorious
    	 },
 
-	//MEDIEVAL
+//MEDIEVAL
+	//Aztec
+	{
+			"name": "Sacrificial Altar",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"faith": 5,
+			"happiness": 1,
+        	"uniques": ["[+2 Culture] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Commons Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Acts as a religious site & unliocks sacrifice population
+   	 },
+	//Bulgarian
+	{
+			"name": "Knyaz Library",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"faith": 3,
+			"science": 3,
+        	"uniques": ["[+2 Culture] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Commons Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+		//harder to convert this city & +happiness for your cities following your religion & +culture from spying
+   	 },
+	//Byzantine
+	{
+			"name": "Hippódromos",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"gold": 4,
+			"happiness": -1,
+        	"uniques": ["[+25 Gold] for each adjacent [Horse Ranch]", "Emblematic District", "Quarter", "Market Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//English
+	{
+			"name": "Stonghold",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": 1,
+        	"uniques": ["Gives a defensive bonus of [20]%", "Emblematic District", "Quarter", "Farmers Quarter", "Garrison",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
 	//Khmer
 		{
         	"name": "Baray",
-        	"terrainsCanBeBuiltOn": ["Desert","Plains","Grassland"],
+        	"terrinsCanBeBuiltOn": ["Desert","Plains","Grassland"],
         	"food": 4,
         	"turnsToBuild": 7,
        	 	"uniques": [ "[+1 Production] for each adjacent [River]", "Only available <with [0] to [0] neighboring [Baray] tiles>",
