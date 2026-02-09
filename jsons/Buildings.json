@@ -827,47 +827,57 @@
 		"uniques": ["Creates a [Stronghold] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The English] is constructed>"]
 	},
 	//Franks
-	{
-		"name": "Scriptorium",
-		"specialistSlots": {"Researcher": 1},
-		"faith": 3,
-		"science": 5,
-		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Franks] is constructed>"],
-		"maintenance": 2,
+		{
+		"name": "Create Scriptorium",
 		"hurryCostModifier": 25,
-		"requiredTech": "Feudalism"
+		"specialistSlots": {"Researcher": 1},
+		"uniques": ["Creates a [Scriptorium] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Franks] is constructed>"]
 	},
 	//Ghanaian
 	{
-		"name": "Luxuries Market",
-		"specialistSlots": {"Trader": 1},
-		"gold": 5,
-		"uniques": ["[-2 Happiness]", "[+1 Gold] from each Trade Route",
-			"Emblematic District", "Only available <if [The Ghanaians] is constructed>"],
+		"name": "Create Luxuries Market",
 		"hurryCostModifier": 25,
-		"requiredTech": "Guilds"
+		"specialistSlots": {"Trader": 1},
+		"uniques": ["Creates a [Luxuries Market] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Ghanaians] is constructed>"]
+	},
+	//Khmer
+	{
+		"name": "Create Baray",
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Worker": 1},
+		"uniques": ["Creates a [Baray] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Khmer] is constructed>"]
 	},
 	//Mississippian
 	{
-		"name": "Sacred Mound",
-		"faith": 3,
-		"production": 3,
-		"uniques": ["[-2 Happiness]", "[+5]% Production when constructing [All] buildings [in this city]", "Emblematic District", "Only available <if [The Mississippians] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Sacred Mound",
 		"hurryCostModifier": 25,
-		"requiredTech": "Feudalism"
+		"uniques": ["Creates a [Sacred Mound] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Mississippians] is constructed>"]
 	},
+	//Mongols
+	See huns
 	//Norseman
 	{
-		"name": "Naust",
-		"specialistSlots": {"Farmer": 1},
-		"food": 5,
-		"uniques": ["[-2 Happiness]", "Gain [75] [Gold] <(modified by game speed)>", "Must be next to [Coast]",
-			"Emblematic District", "Only available <if [The Norsemen] is constructed>"],
+		"name": "Create Naust",
 		"hurryCostModifier": 25,
-		"requiredTech": "Seafaring Mastery"
+		"specialistSlots": {"Farmer": 1},
+		"uniques": ["Must have an owned [Water] within [4] tiles", "Creates a [Naust] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Norsemen] is constructed>"]
 	},
 	//Rapa Nui
+	{
+		"name": "Create Moai I",
+		"hurryCostModifier": 25,
+		"uniques": ["Creates a [Moai I] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Rapa Nui] is constructed>"]
+	},
+	{
+		"name": "Upgrade to Moai II",
+		"hurryCostModifier": 25,
+		"uniques": ["Must have an owned [Moai I] within [4] tiles", "Creates a [Moai II] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Rapa Nui] is constructed>"]
+	},
+	{
+		"name": "Upgrade to Moai III",
+		"hurryCostModifier": 25,
+		"uniques": ["Must have an owned [Moai II] within [4] tiles", "Creates a [Moai III] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Rapa Nui] is constructed>"]
+	},
 	{
 		"name": "Makemake's Blessing",
 		"cost": 2,
@@ -877,33 +887,29 @@
 	},
 	//Swahili
 	{
-		"name": "Bandari",
-		"uniques": ["[-2 Happiness]", "[+2 Gold] from [resource] tiles [in all cities]", "Must be next to [Coast]",
-			"Emblematic District", "Only available <if [The Swahili] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Bandari",
 		"hurryCostModifier": 25,
-		"requiredTech": "Seafaring Mastery"
+		"uniques": ["Must have an owned [Water] within [4] tiles", "[+2 Gold] from [Luxury resource] tiles [in this city]", "[+2 Gold] from [Strategic resource] tiles [in this city]", 
+			"Creates a [Bandari] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Norsemen] is constructed>"]
 	},
 	//Taino
 	{
-		"name": "Batey",
-		"culture": 10,
-		"happiness": 1,
-		"uniques": ["Emblematic District", "Only available <if [The Taino] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Batey",
 		"hurryCostModifier": 25,
-		"requiredTech": "Guilds"
+		"uniques": ["Creates a [Batey] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Taino] is constructed>"]
+	},
+	//Teuton
+	{
+		"name": "Create Kaiserdom",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Faith] from [Quarter] tiles [in this city]", "Creates a [Kaiserdom] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Teutons] is constructed>"]
 	},
 	//Umayyad
 	{
-		"name": "Grand Mosque",
-		"specialistSlots": {"Researcher": 1},
-		"faith": 5,
-		"uniques": ["[-2 Happiness]", "[+1 Science] [in all cities]",
-			"Emblematic District", "Only available <if [The Umayyads] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Grand Mosque",
 		"hurryCostModifier": 25,
-		"requiredTech": "Theology"
+		"specialistSlots": {"Researcher": 1},
+		"uniques": ["Creates a [Grand Mosque] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Umayyads] is constructed>"]
 	},
 
 
@@ -1092,45 +1098,55 @@
 	},
 	//Dutch
 	{
-		"name": "V.O.C Warehouse",
-		"specialistSlots": {"Trader": 1},
-		"gold": 10,
-		"uniques": ["[-2 Happiness]", "[+2 Gold] from every [Trader] <in this city>","Must be next to [Coast]",
-			"Emblematic District", "Only available <if [The Dutch] is constructed>"],
+		"name": "Create V.O.C Warehouse",
 		"hurryCostModifier": 25,
-		"requiredTech": "Chartered Companies"
+		"specialistSlots": {"Trader": 1},
+		"uniques": ["[+2 Gold] from every [Trader] <in this city>", "Creates a [V.O.C Warehouse] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Dutch] is constructed>"]
+	},
+	//Edo
+	{
+		"name": "Create Tera",
+		"hurryCostModifier": 25,
+		"uniques": ["Creates a [Tera] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Edo] is constructed>"]
 	},
 	//Haudenosaunee
 	{
-		"name": "Three Sisters Plantation",
-		"specialistSlots": {"Farmer": 1},
-		"food": 2,
-		"uniques": ["[-2 Happiness]", "[+2 Food] [in this city] <for every [Cities]>",
-			"Emblematic District", "Only available <if [The Haudenosaunee] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Three Sisters Plantation",
 		"hurryCostModifier": 25,
-		"requiredTech": "Centralised Power"
+		"specialistSlots": {"Farmer": 1},
+		"uniques": ["Creates a [Three Sisters Platation] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Haudenosaunee] is constructed>"]
+	},
+	//Inca
+	{
+		"name": "Create Terrace Farm",
+		"hurryCostModifier": 25,
+		"uniques": ["[-20]% Culture cost of natural border growth [in this city]",
+			"Creates a [Terrace Farm] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Inca] is constructed>"]
 	},
 	//Joseon
 	{
-		"name": "Seowon",
-		"specialistSlots": {"Researcher": 1},
-		"science": 2,
-		"culture": 2,
-		"uniques": ["[-2 Happiness]", "[+2 Science] from every [Researcher] <in this city>",
-			"Emblematic District", "Only available <if [The Joseon] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Seowon",
 		"hurryCostModifier": 25,
-		"requiredTech": "Centralised Power"
+		"specialistSlots": {"Researcher": 1},
+		"uniques": ["[+1 Science] from every [Researcher] <in this city>", "Creates a [Seowon] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Joseon] is constructed>"]
+	},
+	//Maasai
+	{
+		"name": "Create Enkang",
+		"hurryCostModifier": 25,
+		"uniques": ["Creates a [Enkang] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Maasai] is constructed>"]
+	},
+	//Maori
+	{
+		"name": "Create Pā",
+		"hurryCostModifier": 25,
+		"uniques": ["Creates a [Pā] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Maori] is constructed>"]
 	},
 	//Ming
 	{
-		"name": "Grand Teahouse",
-		"uniques": ["[-2 Happiness]", "[+1 Culture] from [All] tiles [in this city]",
-			"Emblematic District", "Only available <if [The Ming] is constructed>"],
-		"maintenance": 2,
-		"hurrycostModifier": 25,
-		"requiredTech": "Humanism"
+		"name": "Create Grand Teahouse",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Culture] from [Quarter] tiles [in this city]", "Creates a [Grand Teahouse] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Maasai] is constructed>"]
 	},
 	//Mughals
 	{
