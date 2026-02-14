@@ -14,10 +14,17 @@
 	},
 
 	{
+		"name": "Repair tile",
+		"hurryCostModifier": 25,
+		"cost": 70,
+		"uniques": ["Creates a [Repair] improvement on a specific tile", "Create Quarter",  "Only available <within [6] tiles of a [pillaged]> <hidden from users>"],
+	},
+
+	{
 		"name": "Create Artisans Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Artisans Quarter] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Luxury resource}]> <hidden from users>"],
+		"uniques": ["Creates a [Artisans Quarter] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Luxury resource}]> <hidden from users>"],
 		"requiredTech": "Calendar"
 	},
 
@@ -65,7 +72,7 @@
 		"name": "Create Horse Ranch",
 		"hurryCostModifier": 25,
 		"cost": 60,
-		"uniques": ["Creates a [Horse Ranch] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Horses}]> <hidden from users>"],
+		"uniques": ["Creates a [Horse Ranch] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Horses}]> <hidden from users>"],
 		"requiredTech": "Domestication"
 	},
 
@@ -73,7 +80,7 @@
 		"name": "Create Copper Mine",
 		"hurryCostModifier": 25,
 		"cost": 60,
-		"uniques": ["Creates a [Copper Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Copper}]> <hidden from users>"],
+		"uniques": ["Creates a [Copper Mine] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Copper}]> <hidden from users>"],
 		"requiredTech": "Bronze Working"
 	},
 	
@@ -378,7 +385,7 @@
 		"name": "Create Iron Mine",
 		"hurryCostModifier": 25,
 		"cost": 120,
-		"uniques": ["Creates a [Iron Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Iron}]> <hidden from users>"],
+		"uniques": ["Creates a [Iron Mine] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Iron}]> <hidden from users>"],
 		"requiredTech": "Standing Army"
 	},
 	
@@ -918,7 +925,7 @@
 		"name": "Create Saltpetre Mine",
 		"hurryCostModifier": 25,
 		"cost": 480,
-		"uniques": ["Creates a [Saltpetre Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Saltpetre}]> <hidden from users>"],
+		"uniques": ["Creates a [Saltpetre Mine] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Saltpetre}]> <hidden from users>"],
 		"requiredTech": "Gunpowder Warfare"
 	},
 	
@@ -1146,60 +1153,44 @@
 	{
 		"name": "Create Grand Teahouse",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Culture] from [Quarter] tiles [in this city]", "Creates a [Grand Teahouse] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Maasai] is constructed>"]
+		"uniques": ["[+1 Culture] from [Quarter] tiles [in this city]", "Creates a [Grand Teahouse] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Ming] is constructed>"]
 	},
 	//Mughals
 	{
-		"name": "Jama Masjid",
-		"culture": 4,
-		"production": 3,
-		"uniques": ["[-2 Happiness]", "[+1 Faith] per [1] population [in this city]", "[+1 Production] from every [Engineer] <in this city>",
-			"Emblematic District", "Only available <if [The Mughals] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Jama Masjid",
 		"hurryCostModifier": 25,
-		"requiredTech": "Gunpowder Warfare"
+		"uniques": ["[+1 Faith] per [1] population [in this city]", "[+1 Production] from every [Worker] <in this city>",
+			"Creates a [Jama Masjid] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Mughals] is constructed>"]
 	},
 	//Ottoman
 	{
-		"name": "Sultan Camii",
-		"culture": 3,
-		"uniques": ["[-2 Happiness]", "[+1 Culture, +1 Faith] from [Fresh water] tiles [in this city]",],
-		"maintenance": 2,
+		"name": "Create Sultan Camii",
 		"hurryCostModifier": 25,
-		"requiredTech": "Siege Cannons"
+		"uniques": ["[+1 Faith] from [Quarter] tiles [in this city]", "Creates a [Sultan Camii] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Ottomans] is constructed>"]
+	},
+	//Poles
+	{
+		"name": "Create Barbican",
+		"hurryCostModifier": 25,
+		"uniques": ["Creates a [Barbican] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Poles] is constructed>"]
 	},
 	//Spanish
 	{
-		"name": "Catedral Gótica",
-		"happiness": 2,
-		"faith": 3,
-		"uniques": ["[+1 Faith] per [1] population [in this city]",
-			"Emblematic District", "Only available <if [The Spanish] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Catedral Gótica",
 		"hurryCostModifier": 25,
-		"requiredTech": "Moveable Typeface"
+		"uniques": ["[+1 Faith] per [1] population [in this city]", "Creates a [Catedral Gótica] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Spanish] is constructed>"]
 	},
 	//Swiss
 	{
-		"name": "Watchmakers Guild",
-		"food": 1,
-		"production": 1,
-		"science": 1,
-		"culture": 1,
-		"uniques": ["[-2 Happiness]", "[+2 Gold] <for every [Era number]>", "Must have an owned [Mountain] within [2] tiles",
-			"Emblematic District", "Only available <if [The Swiss] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Watchmakers Guild",
 		"hurryCostModifier": 25,
-		"requiredTech": "Chartered Companies"
+		"uniques": ["Creates a [Watchmakers Guild] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Swiss] is constructed>"]
 	},
 	//Venetian
 	{
-		"name": "Botteghe Di Artisti",
-		"gold": 2,
-		"culture": 6,
-		"uniques": ["[-2 Happiness]", "Emblematic District", "Only available <if [The Venetians] is constructed>"],//+Gold on gold tiles
+		"name": "Create Botteghe Di Artisti",
 		"hurryCostModifier": 25,
-		"requiredTech": "Humanism"
+		"uniques": ["Creates a [Botteghe Di Artisti] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Venetian] is constructed>"]
 	},
 
 	//INDUSTRIAL
@@ -1231,7 +1222,7 @@
 		"name": "Create Oil well",
 		"hurryCostModifier": 25,
 		"cost": 480,
-		"uniques": ["Creates a [Oil well] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Oil}]> <hidden from users>"],
+		"uniques": ["Creates a [Oil well] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Oil}]> <hidden from users>"],
 		"requiredTech": "Combustion Engine"
 	},
 
@@ -1239,7 +1230,7 @@
 		"name": "Create Coal Mine",
 		"hurryCostModifier": 25,
 		"cost": 240,
-		"uniques": ["Creates a [Coal Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Coal}]> <hidden from users>"],
+		"uniques": ["Creates a [Coal Mine] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Coal}]> <hidden from users>"],
 		"requiredTech": "Steam Engine"
 	},
 	
@@ -1420,54 +1411,48 @@
 	},
 	//Austro-Hungarian
 	{
-		"name": "Opernhaus",
-		"culture": 5,
-		"uniques": ["[+1 Happiness] [in this city] <for every [[Opernhaus] Buildings]>",
-			"Emblematic District", "Only available <if [The Austro-Hungarians] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Opernhaus",
 		"hurryCostModifier": 25,
-		"requiredTech": "Encyclopedia"
+		"uniques": ["Creates a [Opernhaus] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Austro-Hungarians] is constructed>"]
 	},
 	//British
 	{
-		"name": "Colonial Office",
-		"gold": 5
-		"percentStatBonus": {"gold": 25},
-		"uniques": [ "[-2 Happiness]", "Only available <in cities without a [Palace]>",
-			"Emblematic District", "Only available <if [The British] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Colonial Office",
 		"hurryCostModifier": 25,
-		"requiredTech": "Carbine"
+		"uniques": ["Creates a [Colonial Office] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <in [Annexed] cities>", "Only available <if [The British] is constructed>"]
 	},
 	//French
 	{
-		"name": "Exhibition Hall",
-		"culture": 5,
-		"uniques": ["[-2 Happiness]","[+3 Science] from each Trade Route",
-			"Emblematic District", "Only available <if [The French] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Exibition Hall",
 		"hurryCostModifier": 25,
-		"requiredTech": "Nationhood"
+		"uniques": ["Creates a [Exibition Hall] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The French] is constructed>"]
 	},
 	//German
 	{
-		"name": "Coking Works",
-		"specialistSlots": {"Engineer": 1},
-		"uniques": ["[-2 Happiness]","[+1 Production] per [1] population [in this city]",
-			"Emblematic District", "Only available <if [The Germans] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Coking Works",
 		"hurryCostModifier": 25,
-		"requiredTech": "Mechanisation"
+		"specialistSlots": {"Worker": 1},
+		"uniques": ["[+1 Production] per [1] population [in this city]", "Creates a [Coking Works] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Germans] is constructed>"]
+	},
+	//Hawaiian
+	{
+		"name": "Create Loko Kuapā",
+		"hurryCostModifier": 25,
+		"uniques": ["Creates a [Loko Kuapā] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Hawaiians] is constructed>"]
 	},
 	//Italians
 	{
-		"name": "Teatro",
-		"culture": 1,
-		"uniques": ["[-2 Happiness]","[+1 Culture] from every [Trader] <in this city>","[+1 Culture] from every [Researcher] <in this city>",
-			"Emblematic District", "Only available <if [The Italians] is constructed>"],
-		"maintenance": 2,
+		"name": "Create Teatro",
 		"hurryCostModifier": 25,
-		"requiredTech": "Urban Planning"
+		"uniques": [,"[+1 Culture] from every [Trader] <in this city>", "[+1 Culture] from every [Researcher] <in this city>", 
+			"Creates a [Teatro] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Italians] is constructed>"]
+	},
+	//Mexican
+	{
+		"name": "Create Hacienda",
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Farmer": 1},
+		"uniques": ["Creates a [Hacienda] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Mexicans] is constructed>"]
 	},
 	//Persians
 	{
