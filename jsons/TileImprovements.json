@@ -124,7 +124,7 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "turnsToBuild": 2,
         "shortcutKey": "E",
-        "uniques": ["Unbuildable", "Excluded from map editor"],
+        "uniques": ["Can only be built on [pillaged] tiles", "Excluded from map editor"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 
@@ -940,33 +940,98 @@
    	 },
 	//Mughals
 	{
-			"name": "Grand Teahouse",
+			"name": "Jama Masjid",
        	 	"terrainsCanBeBuiltOn": ["Land"],
         	"turnsToBuild": 7,
-        	"uniques": ["[+2 Culture] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Commons Quarter",
+			"culture": 4,
+			"production": 3,
+			"happiness": -1,
+        	"uniques": ["[+3 Production] for each adjacent [Makers Quarter]", "Emblematic District", "Quarter", "Makers Quarter",
 			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
-			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] ///religious district
+   	 },
+	//Ottoman
+	{
+			"name": "Sultan Camii",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"culture": 3,
+			"happiness": -1,
+        	"uniques": ["[+3 Culture] for each adjacent [Quarter]", "Emblematic District", "Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] ///religious district
    	 },
 	//Poles
 	{
-		"name": "Barbican",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 2,
-		"happiness": 1,
-		"turnsToBuild": 7,
-		"uniques": ["[+1 Culture] for each adjacent [Barbican]", "Gives a defensive bonus of [60]%",
-			 "Only available <with [1] to [6] neighboring [City center] tiles>",
-           		"Emblematic District", "Only available <if [The Poles] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-		"techRequired": "Gunpowder Warfare",
-		"shortcutKey": "T"
-	},
+			"name": "Barbican",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"culture": 2,
+			"happiness": 1,
+        	"uniques": ["[+3 Culture] for each adjacent [Quarter]", "Gives a defensive bonus of [20]%", "Emblematic District", "Quarter", "Commons Quarter", "Garrison",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Extra strength for units 2 tiles from this
+   	 },
+	//Spanish
+	{
+			"name": "Catedral Gótica",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": 1,
+        	"uniques": ["[+3 Faith] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Commons Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //religious district
+   	 },
+	//Swiss
+	{
+			"name": "Watchmakers Guild",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": -1,
+        	"uniques": ["[+1 Gold] <for every [Era number]>", "[+2 Food] for each adjacent [Farmers Quarter]", "[+2 Gold ] for each adjacent [Market Quarter]",
+				"[+2 Production] for each adjacent [Makers Quarter]", "[+2 Science] for each adjacent [Research Quarter]", "Emblematic District", "Quarter", "Market Quarter",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Extra specialist slots for every adjacent quarter of the relevent type
+   	 },
+	//Venetian
+	{
+			"name": "Botteghe Di Artisti",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"culture": 4,
+			"gold": 2,
+			"happiness": -1,
+        	"uniques": ["[+2 Culture] for each adjacent [Quarter]", "Emblematic District", "Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //+1 Gold when built on a tile with gold yield
+   	 },
 
-
-
-	
+//INDUSTRIAL
+	//Argentinian
+	//Estra healing on this tile
+	//Autro-Hungarian
+	{
+			"name": "Opernhaus",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"culture": 5,
+        	"uniques": ["[+1 Happiness] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Commons Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//British
+	{
+			"name": "Colonial Office",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"gold": 10,
+        	"uniques": ["[+2 Gold] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Market Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
 	//Ethiopian
 		{
-        	"name": "Amba",
+        	"name": "Amba", //HOLD
        	 	"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
         	"turnsToBuild": 7,
@@ -974,18 +1039,58 @@
         	"uniques": ["Gives a defensive bonus of [60]%", "Only available <if [The Ethiopians] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
         	"shortcutKey": "A"
    	 },
-	//Hawaiian
-		{
-        	"name": "Loko Kuapā",
-       	 	"terrainsCanBeBuiltOn": ["Coast", "Lakes"],
-		"food": 2,
+	//French
+	{
+			"name": "Exhibition Hall",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
         	"turnsToBuild": 7,
-        	"techRequired": "Guerilla Warfare",
-        	"uniques": ["[+1 Food] for each adjacent [Coast]", "Only available <with [3] to [6] neighboring [Land] tiles>", "Emblematic District",
-			"Only available <if [The Hawaiians] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-        	"shortcutKey": "L"
+			"happiness": -1,
+        	"uniques": ["[+5 Culture] for each adjacent [Quarter]", "[+2 Science] from each Trade Route", "Emblematic District", "Quarter", "Research Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//German
+	{
+			"name": "Coking Works",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": -1,
+        	"uniques": ["[+3 Production] for each adjacent [Quarter]", "Emblematic District", "Quarter", "Makers Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //10 Pollution
+   	 },
+	//Hawaiian
+	{
+			"name": "Loko Kuapā",
+       	 	"terrainsCanBeBuiltOn": ["Coast", "Lakes"],
+        	"turnsToBuild": 7,
+			"happiness": -1,
+        	"uniques": ["[+1 Food] for each adjacent [Coast]", "[+1 Food] for each adjacent [Lakes]", "[+15 Food] for each adjacent [Ocean]", "Emblematic District", "Quarter",
+			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
+   	 },
+	//Italian
+	{
+			"name": "Teatro",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": 1,
+			"culture": 1,
+        	"uniques": ["[+2 Culture] for each adjacent [Commons Quarter]", "Emblematic District", "Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
    	 },
 	//Mexican
+	{
+			"name": "Hacienda",
+       	 	"terrainsCanBeBuiltOn": ["Land"],
+        	"turnsToBuild": 7,
+			"happiness": -1,
+			"food": 1,
+        	"uniques": ["[+3 Food] for each adjacent [Farmers Quarter]", "Emblematic District", "Quarter", "Farmers Quarter",
+			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //+food on food tiles in this city
+   	 },
 		{
         	"name": "Hacienda",
        	 	"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
