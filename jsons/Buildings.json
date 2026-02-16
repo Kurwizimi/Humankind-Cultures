@@ -313,17 +313,17 @@
 	},
 	//Myceanean
 	{
-		"name": "Create Cycloptean Fortress",
+		"name": "Create Cyclopean Fortress",
 		"hurryCostModifier": 25,
 		"cost": 100,
-		"uniques": ["Creates a [Cycloptean Fortress] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Myceaneans] is constructed>"]
+		"uniques": ["Creates a [Cyclopean Fortress] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Mycenaeans] is constructed>"]
 	},
 	//Nubian
 	{
-		"name": "Create Meroe Pyramid",
+		"name": "Create Meroe Pyramids",
 		"hurryCostModifier": 25,
 		"cost": 100,
-		"uniques": ["Creates a [Meroe Pyramid] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Nubians] is constructed>"]
+		"uniques": ["Creates a [Meroe Pyramids] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Nubians] is constructed>"]
 	},
 	//Omlec
 	{
@@ -334,11 +334,11 @@
 	},
 	//Pama-Nyunagan
 	{
-		"name": "Create Fish Trap",
+		"name": "Create Fish Traps",
 		"hurryCostModifier": 25,
 		"cost": 100,
 		"uniques": ["Must have an owned [River] within [4] tiles",
-			"Creates a [Fish Trap] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Pama-Nyungan] is constructed>"]
+			"Creates a [Fish Traps] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Pama-Nyungan] is constructed>"]
 	},
 	//Phoenicians
 	{
@@ -604,7 +604,7 @@
 		"name": "Create Nemeton",
 		"hurryCostModifier": 25,
 		"cost": 80,
-		"uniques": ["Creates a [Nemeton] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Celts] is constructed"]
+		"uniques": ["Creates a [Nemeton] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Celts] is constructed>"]
 	},
 	//Garamantes
 	{
@@ -1121,7 +1121,7 @@
 		"name": "Create Three Sisters Plantation",
 		"hurryCostModifier": 25,
 		"specialistSlots": {"Farmer": 1},
-		"uniques": ["Creates a [Three Sisters Platation] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Haudenosaunee] is constructed>"]
+		"uniques": ["Creates a [Three Sisters Plantation] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Haudenosaunee] is constructed>"]
 	},
 	//Inca
 	{
@@ -1190,7 +1190,7 @@
 	{
 		"name": "Create Botteghe Di Artisti",
 		"hurryCostModifier": 25,
-		"uniques": ["Creates a [Botteghe Di Artisti] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Venetian] is constructed>"]
+		"uniques": ["Creates a [Botteghe Di Artisti] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The Venetians] is constructed>"]
 	},
 
 	//INDUSTRIAL
@@ -1423,9 +1423,9 @@
 	},
 	//French
 	{
-		"name": "Create Exibition Hall",
+		"name": "Create Exhibition Hall",
 		"hurryCostModifier": 25,
-		"uniques": ["Creates a [Exibition Hall] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The French] is constructed>"]
+		"uniques": ["Creates a [Exhibition Hall] improvement on a specific tile", "Unsellable", "Create Quarter", "Only available <if [The French] is constructed>"]
 	},
 	//German
 	{
@@ -2251,7 +2251,7 @@
 
 	//Medieval
 	{
-		"name": "The Mexica",
+		"name": "The Aztecs",
 		"cost": 1,
 		"isWonder": true,
 		"uniques": ["Medieval Culture", "Unbuildable", "Cannot be purchased","Moves to new capital when capital changes", "Only available <in [Capital] cities>"],
