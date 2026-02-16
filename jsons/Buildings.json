@@ -9,7 +9,7 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"specialistSlots": {"Researcher": 3, "Farmer": 3, "Engineer": 3, "Trader": 3 },
+		"specialistSlots": {"Researcher": 3, "Farmer": 3, "Worker": 3, "Trader": 3 },
 		"uniques": ["Indicates the capital city","Provides [2] [City Cap]"]
 	},
 
@@ -431,9 +431,9 @@
 	},
 	{
 		"name": "Artisan Workshop",
-		"specialistSlots": {"Engineer": 2},
+		"specialistSlots": {"Worker": 2},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from every [Engineer] <in this city>"],
+		"uniques": ["[+1 Production] from every [Worker] <in this city>"],
 		"requiredTech": "Craftsmanship"
 	},
 	{
@@ -939,9 +939,9 @@
 	},
 	{
 		"name": "Manufactory",
-		"specialistSlots": {"Engineer": 2},
+		"specialistSlots": {"Worker": 2},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from every [Engineer] <in this city>"], //more saltpererrtr
+		"uniques": ["[+1 Production] from every [Worker] <in this city>"], //more saltpererrtr
 		"maintenance": 2,
 		"requiredBuilding": "Artisan Workshop",
 		"requiredTech": "Mercantalism"
@@ -1276,9 +1276,9 @@
 	},
 	{
 		"name": "Factory",
-		"specialistSlots": {"Engineer": 3},
+		"specialistSlots": {"Worker": 3},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Production] from every [Engineer] <in this city>", "Comment [+1 [Pollution] on [Makers Quarter]s in this city]"],
+		"uniques": ["[+2 Production] from every [Worker] <in this city>", "Comment [+1 [Pollution] on [Makers Quarter]s in this city]"],
 		"maintenance": 2,
 		"requiredBuilding": "Manufactory",
 		"requiredTech": "Mechanisation"
@@ -1574,9 +1574,9 @@
 	},
 	{
 		"name": "Automated Factory",
-		"specialistSlots": {"Engineer": 3},
+		"specialistSlots": {"Worker": 3},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from every [Engineer] <in this city>", "Comment [+2 [Pollution] on [Makers Quarter]s in this city]"], //++ Pollution
+		"uniques": ["[+1 Production] from every [Worker] <in this city>", "Comment [+2 [Pollution] on [Makers Quarter]s in this city]"], //++ Pollution
 		"maintenance": 2,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Automation"
@@ -1817,7 +1817,7 @@
 	//Australian
 	{
 		"name": "Strip Mining Complex",
-		"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Worker": 1},
 		"production": 10,
 		"uniques": ["[-2 Happiness]", "[+2 Production] from every [{improved} {Strategic resource}] <in this city>",
 			"Emblematic District", "Only available <if [The Australians] is constructed>"],
