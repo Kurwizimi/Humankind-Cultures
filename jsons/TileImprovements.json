@@ -225,7 +225,7 @@
 			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 
 		"[+1 Food] for each adjacent [Farmers Quarter] <if [The Caralans] is constructed> <hidden from users>",
-		"[+1 Food] for each adjacent [Farmers Quarter] <in cities with a [Animal Barns]> <hidden from users>",
+		"[+1 Food] for each adjacent [Farmers Quarter] <in cities with a [Animal Barn]> <hidden from users>",
 		"[+2 Food] for each adjacent [Farmers Quarter] <in cities with a [Factory Farming]> <hidden from users>"]
 	},
 	
@@ -253,7 +253,7 @@
 			"Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Woodland]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 
 		"[+1 Gold] for each adjacent [Market Quarter] <if [The Caralans] is constructed> <hidden from users>",
-		"[+1 Gold] for each adjacent [Market Quarter] <in cities with a [Foood Market]> <hidden from users>",
+		"[+1 Gold] for each adjacent [Market Quarter] <in cities with a [Food Market]> <hidden from users>",
 		"[+2 Gold] for each adjacent [Market Quarter] <in cities with a [Food Plaza]> <hidden from users>"]
 	},
 		
@@ -283,7 +283,7 @@
 		"[+1 Science] for each adjacent [Research Quarter] <if [The Caralans] is constructed> <hidden from users>",
 		"[+1 Science] for each adjacent [Research Quarter] <in cities with a [School]> <hidden from users>",
 		"[+1 Science] for each adjacent [Research Quarter] <in cities with a [Academy]> <hidden from users>",
-		"[+2 Science] for each adjacent [Researxh Quarter] <in cities with a [University]> <hidden from users>"]
+		"[+2 Science] for each adjacent [Research Quarter] <in cities with a [University]> <hidden from users>"]
 	},
 
 	{
@@ -647,7 +647,7 @@
 			"name": "Marae",
        	 	"terrainsCanBeBuiltOn": ["Land"],
         	"turnsToBuild": 7,
-        	"uniques": ["[-1 Happiness] for each adjacent [Quarter]",  "[+1 Culture, +2 Faith] <for every [[Marae] Buildings]>", "Emblematic District", "Quarter", "Makers Quarter",
+        	"uniques": ["[-1 Happiness] for each adjacent [Quarter]",  "[+1 Culture, +2 Faith] <for every [[Marae] Tiles]>", "Emblematic District", "Quarter", "Makers Quarter",
 			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]
    	 },
@@ -846,7 +846,7 @@
         	"turnsToBuild": 7,
 			"faith": 5,
 			"happiness": -1,
-        	"uniques": ["[+3 Sciecne] <for every [Cities]>", "Emblematic District", "Quarter", "Research Quarter",
+        	"uniques": ["[+3 Science] <for every [Cities]>", "Emblematic District", "Quarter", "Research Quarter",
 			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"]//religious District
    	 },
@@ -988,7 +988,7 @@
        	 	"terrainsCanBeBuiltOn": ["Land"],
         	"turnsToBuild": 7,
 			"happiness": -1,
-        	"uniques": ["[+1 Gold] <for every [Era number]>", "[+2 Food] for each adjacent [Farmers Quarter]", "[+2 Gold ] for each adjacent [Market Quarter]",
+        	"uniques": ["[+1 Gold] <for every [Era number]>", "[+2 Food] for each adjacent [Farmers Quarter]", "[+2 Gold] for each adjacent [Market Quarter]",
 				"[+2 Production] for each adjacent [Makers Quarter]", "[+2 Science] for each adjacent [Research Quarter]", "Emblematic District", "Quarter", "Market Quarter",
 			"Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //Extra specialist slots for every adjacent quarter of the relevent type
@@ -1090,16 +1090,6 @@
         	"uniques": ["[+3 Food] for each adjacent [Farmers Quarter]", "Emblematic District", "Quarter", "Farmers Quarter",
 			"Must be next to [Quarter]", "Cannot be built on [Luxury resource] tiles", "Cannot be built on [Strategic resource] tiles",
 			"Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+35 Gold]"] //+food on food tiles in this city
-   	 },
-		{
-        	"name": "Hacienda",
-       	 	"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
-		"gold": 2,
-        	"turnsToBuild": 7,
-        	"techRequired": "Urban Planning",
-        	"uniques": ["[+1 Food] for each adjacent [Farm]", "Only available <with [0] to [0] neighboring [Hacienda] tiles>", "Emblematic District",
-			"Only available <if [The Mexicans] is constructed>", "Pillaging this improvement yields approximately [+35 Gold]"],
-        	"shortcutKey": "H"
    	 },
 	//Russian
 		{
