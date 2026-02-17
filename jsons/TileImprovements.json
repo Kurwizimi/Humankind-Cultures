@@ -910,7 +910,7 @@
    	 },
 	//Maasai
 	{
-			"name": "Ekang",
+			"name": "Enkang",
        	 	"terrainsCanBeBuiltOn": ["Land"],
         	"turnsToBuild": 7,
 			"happiness": -1,
