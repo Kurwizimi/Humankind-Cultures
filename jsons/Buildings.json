@@ -10,7 +10,7 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"specialistSlots": {"Researcher": 3, "Farmer": 3, "Worker": 3, "Trader": 3 },
-		"uniques": ["Indicates the capital city","Provides [2] [City Cap]", "Remove [Create Farmers Quarter] [in this city] <when number of [Farmers Quarter Reset] is more than [0]>"]
+		"uniques": ["Indicates the capital city","Provides [2] [City Cap]", "Sell [Create Farmers Quarter] buildings [in this city] <when number of [Farmers Quarter Reset] is more than [0]>"]
 	},
 
 	{
