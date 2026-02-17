@@ -34,7 +34,7 @@
 		"name": "Create Farmers Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Farmers Quarter] improvement on a specific tile", "Create Quarter", "Remove [Create Farmers Quarter] [in this city] <hidden from users>"],
+		"uniques": ["Creates a [Farmers Quarter] improvement on a specific tile", "Create Quarter"], //"Remove [Create Farmers Quarter] [in this city] <hidden from users>"
 		"requiredTech": "Agriculture"
 	},
 	
