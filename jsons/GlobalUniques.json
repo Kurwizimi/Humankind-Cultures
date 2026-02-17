@@ -26,7 +26,7 @@
 			//"[+10]% [Culture] <when above [25] [Happiness]>",//
 			//"[+20]% [Culture] <when above [40] [Happiness]>",//
 
-		"Sell [Create Quarter] buildings [in all cities] <upon turn end>",
+		"Remove [Create Quarter] [in all cities] <upon turn end>",
 
 			//Culture-Swap Events
 			"Triggers a [Ancient] event <for [Major] Civilizations> <upon entering the [Ancient era]> <before the [Classical era]> <upon turn end>",
