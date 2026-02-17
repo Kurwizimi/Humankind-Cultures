@@ -17,14 +17,16 @@
 		"name": "Repair tile",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Repair] improvement on a specific tile", "Create Quarter",  "Only available <within [6] tiles of a [pillaged]> <hidden from users>"],
+		"uniques": ["Creates a [Repair] improvement on a specific tile", "Create Quarter", "Remove [Repair tile] [in this city] <hidden from users>",
+			"Only available <within [6] tiles of a [pillaged]> <hidden from users>"],
 	},
 
 	{
 		"name": "Create Artisans Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Artisans Quarter] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Luxury resource}]> <hidden from users>"],
+		"uniques": ["Creates a [Artisans Quarter] improvement on a specific tile", "Create Quarter", "Remove [Create Artisans Quarter] [in this city] <hidden from users>",
+			"Only available <within [4] tiles of a [{unimproved} {Luxury resource}]> <hidden from users>"],
 		"requiredTech": "Calendar"
 	},
 
@@ -32,7 +34,7 @@
 		"name": "Create Farmers Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Farmers Quarter] improvement on a specific tile", "Create Quarter"],
+		"uniques": ["Creates a [Farmers Quarter] improvement on a specific tile", "Create Quarter", "Remove [Create Farmers Quarter] [in this city] <hidden from users>"],
 		"requiredTech": "Agriculture"
 	},
 	
@@ -40,7 +42,7 @@
 		"name": "Create Makers Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Makers Quarter] improvement on a specific tile", "Create Quarter"],
+		"uniques": ["Creates a [Makers Quarter] improvement on a specific tile", "Create Quarter", "Remove [Create Makers Quarter] [in this city] <hidden from users>"],
 		"requiredTech": "Agriculture"
 	},
 
@@ -48,7 +50,7 @@
 		"name": "Create Market Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Market Quarter] improvement on a specific tile", "Create Quarter"]
+		"uniques": ["Creates a [Market Quarter] improvement on a specific tile", "Create Quarter", "Remove [Create Market Quarter] [in this city] <hidden from users>"]
 		"requiredTech": "Writing"
 	},
 
@@ -56,7 +58,7 @@
 		"name": "Create Garrison",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Garrison] improvement on a specific tile", "Create Quarter"]
+		"uniques": ["Creates a [Garrison] improvement on a specific tile", "Create Quarter", "Remove [Create Garrison] [in this city] <hidden from users>"]
 		"requiredTech": "City Defence"
 	},
 
@@ -64,7 +66,7 @@
 		"name": "Create Harbour",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Harbour] improvement on a specific tile", "Create Quarter"]
+		"uniques": ["Creates a [Harbour] improvement on a specific tile", "Create Quarter", "Remove [Create Harbour] [in this city] <hidden from users>"]
 		"requiredTech": "Fishing"
 	},
 
@@ -72,7 +74,8 @@
 		"name": "Create Horse Ranch",
 		"hurryCostModifier": 25,
 		"cost": 60,
-		"uniques": ["Creates a [Horse Ranch] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Horses}]> <hidden from users>"],
+		"uniques": ["Creates a [Horse Ranch] improvement on a specific tile", "Create Quarter",  "Remove [Create Horse Ranch] [in this city] <hidden from users>", 
+			"Only available <within [4] tiles of a [{unimproved} {Horses}]> <hidden from users>"],
 		"requiredTech": "Domestication"
 	},
 
@@ -80,7 +83,8 @@
 		"name": "Create Copper Mine",
 		"hurryCostModifier": 25,
 		"cost": 60,
-		"uniques": ["Creates a [Copper Mine] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Copper}]> <hidden from users>"],
+		"uniques": ["Creates a [Copper Mine] improvement on a specific tile", "Create Quarter", "Remove [Create Copper Mine] [in this city] <hidden from users>", 
+			"Only available <within [4] tiles of a [{unimproved} {Copper}]> <hidden from users>"],
 		"requiredTech": "Bronze Working"
 	},
 	
@@ -369,7 +373,7 @@
 		"name": "Create Research Quarter",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Research Quarter] improvement on a specific tile", "Create Quarter"],
+		"uniques": ["Creates a [Research Quarter] improvement on a specific tile", "Create Quarter", "Remove [Create Research Quarter] [in this city] <hidden from users>"],
 		"requiredTech": "Philosophy"
 	},
 	
@@ -377,7 +381,7 @@
 		"name": "Create Commons Quarter",
 		"hurryCostModifier": 25,
 		"cost": 80,
-		"uniques": ["Creates a [Commons Quarter] improvement on a specific tile", "Create Quarter"],
+		"uniques": ["Creates a [Commons Quarter] improvement on a specific tile", "Create Quarter", "Remove [Create Commons Quarter] [in this city] <hidden from users>"],
 		"requiredTech": "Imperial Power"
 	},
 
@@ -385,7 +389,8 @@
 		"name": "Create Iron Mine",
 		"hurryCostModifier": 25,
 		"cost": 120,
-		"uniques": ["Creates a [Iron Mine] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Iron}]> <hidden from users>"],
+		"uniques": ["Creates a [Iron Mine] improvement on a specific tile", "Create Quarter",  "Remove [Create Iron Mine] [in this city] <hidden from users>", 
+			"Only available <within [4] tiles of a [{unimproved} {Iron}]> <hidden from users>"],
 		"requiredTech": "Standing Army"
 	},
 	
@@ -925,7 +930,8 @@
 		"name": "Create Saltpetre Mine",
 		"hurryCostModifier": 25,
 		"cost": 480,
-		"uniques": ["Creates a [Saltpetre Mine] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Saltpetre}]> <hidden from users>"],
+		"uniques": ["Creates a [Saltpetre Mine] improvement on a specific tile", "Create Quarter", "Remove [Create Saltpetre Mine] [in this city] <hidden from users>", 
+			"Only available <within [4] tiles of a [{unimproved} {Saltpetre}]> <hidden from users>"],
 		"requiredTech": "Gunpowder Warfare"
 	},
 	
@@ -1198,7 +1204,7 @@
 		"name": "Create Aerodrome",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Aerodrome] improvement on a specific tile", "Unsellable", "Create Quarter"],
+		"uniques": ["Creates a [Aerodrome] improvement on a specific tile", "Unsellable", "Create Quarter", "Remove [Create Aeordrome] [in this city] <hidden from users>"],
 		"requiredTech": "Aeronautics"
 	},
 
@@ -1206,7 +1212,7 @@
 		"name": "Create Train Station",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Train Station] improvement on a specific tile", "Unsellable", "Create Quarter"],
+		"uniques": ["Creates a [Train Station] improvement on a specific tile", "Unsellable", "Create Quarter", "Remove [Create Train Station] [in this city] <hidden from users>"],
 		"requiredTech": "Steam Engine"
 	},
 
@@ -1214,7 +1220,7 @@
 		"name": "Create Nature Reserve",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Nature Reserve] improvement on a specific tile", "Create Quarter"],
+		"uniques": ["Creates a [Nature Reserve] improvement on a specific tile", "Create Quarter", "Remove [Create Nature Reserve] [in this city] <hidden from users>"],
 		"requiredTech": "Nationhood"
 	},
 
@@ -1222,7 +1228,8 @@
 		"name": "Create Oil well",
 		"hurryCostModifier": 25,
 		"cost": 480,
-		"uniques": ["Creates a [Oil well] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Oil}]> <hidden from users>"],
+		"uniques": ["Creates a [Oil well] improvement on a specific tile", "Create Quarter", "Remove [Create Oil Well] [in this city] <hidden from users>",
+			"Only available <within [4] tiles of a [{unimproved} {Oil}]> <hidden from users>"],
 		"requiredTech": "Combustion Engine"
 	},
 
@@ -1230,7 +1237,8 @@
 		"name": "Create Coal Mine",
 		"hurryCostModifier": 25,
 		"cost": 240,
-		"uniques": ["Creates a [Coal Mine] improvement on a specific tile", "Create Quarter", "Only available <within [4] tiles of a [{unimproved} {Coal}]> <hidden from users>"],
+		"uniques": ["Creates a [Coal Mine] improvement on a specific tile", "Create Quarter", "Remove [Create Coal Mine] [in this city] <hidden from users>", 
+			"Only available <within [4] tiles of a [{unimproved} {Coal}]> <hidden from users>"],
 		"requiredTech": "Steam Engine"
 	},
 	
@@ -1503,7 +1511,7 @@
 		"name": "Create Airport",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Airport] improvement on a specific tile", "Unsellable", "Create Quarter"],
+		"uniques": ["Creates a [Airport] improvement on a specific tile", "Unsellable", "Create Quarter", "Remove [Create Airport] [in this city] <hidden from users>"],
 		"requiredTech": "Aerial Warfare"
 	},
 
@@ -1511,7 +1519,7 @@
 		"name": "Create Missile Silo",
 		"hurryCostModifier": 25,
 		"cost": 70,
-		"uniques": ["Creates a [Missile Silo] improvement on a specific tile", "Unsellable", "Create Quarter"],
+		"uniques": ["Creates a [Missile Silo] improvement on a specific tile", "Unsellable", "Create Quarter", "Remove [Create Missile Silo] [in this city] <hidden from users>"],
 		"requiredTech": "Rocket Science"
 	},
 
@@ -1519,7 +1527,8 @@
 		"name": "Create Aluminium Mine",
 		"hurryCostModifier": 25,
 		"cost": 960,
-		"uniques": ["Creates a [Aluminium Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Aluminium}]> <hidden from users>"],
+		"uniques": ["Creates a [Aluminium Mine] improvement on a specific tile", "Create Quarter", "Remove [Create Aluminium Mine] [in this city] <hidden from users>", 
+			"Only available <within [3] tiles of a [{unimproved} {Aluminium}]> <hidden from users>"],
 		"requiredTech": "Aerial Warfare"
 	},
 
@@ -1527,7 +1536,8 @@
 		"name": "Create Uranium Mine",
 		"hurryCostModifier": 25,
 		"cost": 1920,
-		"uniques": ["Creates a [Uranium Mine] improvement on a specific tile", "Create Quarter", "Only available <within [3] tiles of a [{unimproved} {Uranium}]> <hidden from users>"],
+		"uniques": ["Creates a [Uranium Mine] improvement on a specific tile", "Create Quarter", "Remove [Create Uranium Mine] [in this city] <hidden from users>", 
+			"Only available <within [3] tiles of a [{unimproved} {Uranium}]> <hidden from users>"],
 		"requiredTech": "Uranium Enrichment"
 	},
 	
