@@ -13,13 +13,13 @@
 		"uniques": ["Indicates the capital city","Provides [2] [City Cap]", "Sell [Create Farmers Quarter] buildings [in this city] <when number of [Farmers Quarter Reset] is more than [0]>"]
 	},
 
-	{
+	/*{
 		"name": "Repair tile",
 		"hurryCostModifier": 25,
 		"cost": 70,
 		"uniques": ["Creates a [Repair] improvement on a specific tile", "Create Quarter", "Remove [Repair tile] [in this city] <hidden from users>",
 			"Only available <within [6] tiles of a [pillaged]> <hidden from users>"],
-	},
+	},*/
 
 	{
 		"name": "Create Artisans Quarter",
