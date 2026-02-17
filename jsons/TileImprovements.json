@@ -699,7 +699,7 @@
    	 },
 	//English
 	{
-			"name": "Stonghold",
+			"name": "Stronghold",
        	 	"terrainsCanBeBuiltOn": ["Land"],
         	"turnsToBuild": 7,
 			"happiness": 1,
